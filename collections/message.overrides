@@ -1,0 +1,3 @@
+.ui.big.message {
+  font-size: @relativeBig;
+}

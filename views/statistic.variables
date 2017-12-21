@@ -1,0 +1,98 @@
+/*******************************
+           Statistic
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+@margin: 1em 0em;
+@textAlign: center;
+@maxWidth: auto;
+
+/* Group */
+@horizontalSpacing: 1.5em;
+@rowSpacing: 2em;
+@groupMargin: 1em -@horizontalSpacing -@rowSpacing;
+
+/* Group Element */
+@elementMargin: 0em @horizontalSpacing @rowSpacing;
+@elementMaxWidth: @maxWidth;
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Value */
+@valueFont: @pageFont;
+@valueFontWeight: 300;
+@valueLineHeight: 1.1em;
+@valueColor: @textColor;
+@valueTextTransform: uppercase;
+
+/* Label */
+@labelSize: @relativeSmall;
+@topLabelDistance: 0rem;
+@bottomLabelDistance: 0rem;
+@labelFont: @headerFont;
+@labelFontWeight: 500;
+@labelColor: #7C7C95;
+@labelLineHeight: @relativeLarge;
+@labelTextTransform: uppercase;
+
+/* Text */
+@textValueLineHeight: 1em;
+@textValueMinHeight: 2em;
+@textValueFontWeight: bold;
+
+/* Label Image */
+@imageHeight: 3rem;
+@imageVerticalAlign: baseline;
+
+/*-------------------
+      Types
+--------------------*/
+
+@horizontalGroupElementMargin: 1em 0em;
+@horizontalLabelDistance: 1em;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Floated */
+@leftFloatedMargin: 0em 2em 1em 0em;
+@rightFloatedMargin: 0em 0em 1em 2em;
+
+/* Inverted */
+@invertedValueColor: @white;
+@invertedLabelColor: @invertedTextColor;
+
+/* Item Width */
+@itemGroupMargin: 0em 0em -@rowSpacing;
+@itemMargin: 0em 0em @rowSpacing;
+
+/* Size */
+@miniTextValueSize: 1rem;
+@miniValueSize: 1.5rem;
+@miniHorizontalValueSize: 1.5rem;
+
+@tinyTextValueSize: 1rem;
+@tinyValueSize: 1.8rem;
+@tinyHorizontalValueSize: 1.8rem;
+
+@smallTextValueSize: 1rem;
+@smallValueSize: 2.2rem;
+@smallHorizontalValueSize: 2rem;
+
+@textValueSize: 1rem;
+@valueSize: 3rem;
+@horizontalValueSize: 2rem;
+
+@largeTextValueSize: 2rem;
+@largeValueSize: 4rem;
+@largeHorizontalValueSize: 3rem;
+
+@hugeTextValueSize: 2.5rem;
+@hugeValueSize: 5rem;
+@hugeHorizontalValueSize: 4rem;

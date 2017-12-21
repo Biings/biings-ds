@@ -1,0 +1,19 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui[class*='left ribbon'].label {
+    position: absolute;
+    left: -@ribbonTriangleSize;
+    z-index: 1;
+    padding-left: @ribbonTriangleSize;
+}
+.ui[class*='right ribbon'].label {
+    position: absolute;
+    right: 0;
+    left: auto;
+    z-index: 1;
+    padding-right: @ribbonTriangleSize;
+    text-align: right;
+    transform: none;
+}

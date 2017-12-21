@@ -1,0 +1,45 @@
+/*******************************
+            Divider
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+/* Text */
+@letterSpacing: 0.01em;
+@fontWeight: 500;
+@color: #7C7C95;
+@textTransform: uppercase;
+
+/*-------------------
+       Coupling
+--------------------*/
+
+/* Icon */
+@dividerIconSize: 1rem;
+@dividerIconMargin: 0rem;
+
+
+/*******************************
+         Variations
+*******************************/
+
+/* Horizontal / Vertical */
+@horizontalMargin: '';
+@horizontalDividerMargin: 1em;
+@horizontalRulerOffset: ~"calc(-50% - "(@horizontalDividerMargin)~")";
+
+@verticalDividerMargin: 1rem;
+@verticalDividerHeight: ~"calc(100% - "(@verticalDividerMargin)~")";
+
+/* Inverted */
+@invertedTextColor: @white;
+@invertedHighlightColor: rgba(255, 255, 255, 0.15);
+@invertedShadowColor: @borderColor;
+
+/* Section */
+@sectionMargin: 2rem;
+
+/* Sizes */
+@medium: 0.9rem;

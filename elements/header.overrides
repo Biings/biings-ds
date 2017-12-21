@@ -1,0 +1,26 @@
+/*******************************
+        Header Overrides
+*******************************/
+
+.ui.header .sub.header {
+  font-weight: @subHeadingFontWeight;
+}
+h1.ui.header {
+  letter-spacing: -0.5px;
+  word-spacing: 1px;
+}
+.ui.header > em {
+  font-weight: 700;
+  font-style: normal;
+}
+.ui.header > strong {
+  font-weight: 900;
+}
+.header.black {
+  color: #4F4F5F !important;
+}
+.header.header--thin {
+  position: relative;
+
+  font-weight: 300 !important;
+}
