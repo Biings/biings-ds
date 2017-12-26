@@ -29,3 +29,7 @@
 .ui.dropdown.multiple .sizer {
     display: none;
 }
+
+.ui.dropdown .menu {
+  font-size: 0.9rem;
+}

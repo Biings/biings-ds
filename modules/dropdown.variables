@@ -46,7 +46,7 @@
 @textLineHeightOffset: (@textLineHeight - 1em);
 
 /* Menu Item */
-@itemFontSize: 0.9em;
+@itemFontSize: 0.9rem;
 @itemTextAlign: left;
 @itemBorder: none;
 @itemHeight: auto;
