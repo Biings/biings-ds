@@ -9,7 +9,7 @@
 .ui.dropdown .icon {
 	color: rgba(0,0,0,0.5);
 }
-.ui.dropdown .icon:after
+.ui.dropdown .icon:before
 {
 	content: '▾';
 	font-size: 1.15em;
