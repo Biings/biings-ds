@@ -1,0 +1,17 @@
+/*
+    █▀▀█ ▀█▀ ▀█▀ ░█▄─░█ ░█▀▀█ ░█▀▀▀█ 
+    █▀▀▄ ░█─ ░█─ ░█░█░█ ░█─▄▄ ─▀▀▀▄▄ 
+    █▄▄█ ▄█▄ ▄█▄ ░█──▀█ ░█▄▄█ ░█▄▄▄█ 
+*/
+
+@charset 'UTF-8';
+
+
+/* Variables (Colors and Sizes) */
+@import 'bs-vars.css';
+
+
+body
+{
+    background-color: var(--color-background);
+}
