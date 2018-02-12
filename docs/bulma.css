@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -264,7 +265,7 @@ table th {
 }
 
 .is-size-6 {
-  font-size: 1rem !important;
+  font-size: 1.125rem !important;
 }
 
 .is-size-7 {
@@ -288,7 +289,7 @@ table th {
     font-size: 1.25rem !important;
   }
   .is-size-6-mobile {
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
   }
   .is-size-7-mobile {
     font-size: 0.75rem !important;
@@ -312,7 +313,7 @@ table th {
     font-size: 1.25rem !important;
   }
   .is-size-6-tablet {
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
   }
   .is-size-7-tablet {
     font-size: 0.75rem !important;
@@ -336,7 +337,7 @@ table th {
     font-size: 1.25rem !important;
   }
   .is-size-6-touch {
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
   }
   .is-size-7-touch {
     font-size: 0.75rem !important;
@@ -360,7 +361,7 @@ table th {
     font-size: 1.25rem !important;
   }
   .is-size-6-desktop {
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
   }
   .is-size-7-desktop {
     font-size: 0.75rem !important;
@@ -384,7 +385,7 @@ table th {
     font-size: 1.25rem !important;
   }
   .is-size-6-widescreen {
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
   }
   .is-size-7-widescreen {
     font-size: 0.75rem !important;
@@ -408,7 +409,7 @@ table th {
     font-size: 1.25rem !important;
   }
   .is-size-6-fullhd {
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
   }
   .is-size-7-fullhd {
     font-size: 0.75rem !important;
@@ -1548,7 +1549,7 @@ a.dropdown-item.is-active {
 }
 
 .menu {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .menu.is-small {
@@ -1608,7 +1609,7 @@ a.dropdown-item.is-active {
 .message {
   background-color: #F9F9FD;
   border-radius: 3px;
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .message:not(:last-child) {
@@ -2010,7 +2011,7 @@ a.dropdown-item.is-active {
   user-select: none;
   align-items: stretch;
   display: flex;
-  font-size: 1rem;
+  font-size: 1.125rem;
   justify-content: space-between;
   overflow: hidden;
   overflow-x: auto;
@@ -2202,7 +2203,7 @@ a.box:active {
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 1.125rem;
   height: 2.25em;
   justify-content: flex-start;
   line-height: 1.5;
@@ -3416,7 +3417,7 @@ a.box:active {
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 1.125rem;
   height: 2.25em;
   justify-content: flex-start;
   line-height: 1.5;
@@ -3778,7 +3779,7 @@ a.box:active {
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 1.125rem;
   height: 2.25em;
   justify-content: flex-start;
   line-height: 1.5;
@@ -4420,7 +4421,7 @@ a.box:active {
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 1.125rem;
   height: 2.25em;
   justify-content: flex-start;
   line-height: 1.5;
@@ -4483,7 +4484,7 @@ a.box:active {
 .label {
   color: #393B4F;
   display: block;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 800;
 }
 
@@ -4741,7 +4742,7 @@ a.box:active {
 }
 
 .control {
-  font-size: 1rem;
+  font-size: 1.125rem;
   position: relative;
   text-align: left;
 }
@@ -5503,7 +5504,7 @@ a.box:active {
 }
 
 .tag:not(body).is-medium {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .tag:not(body).is-large {
@@ -5642,7 +5643,7 @@ a.tag:hover {
 }
 
 .title.is-6 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .title.is-7 {
@@ -5686,7 +5687,7 @@ a.tag:hover {
 }
 
 .subtitle.is-6 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .subtitle.is-7 {
@@ -7855,5 +7856,86 @@ a.tag:hover {
   .section.is-large {
     padding: 18rem 1.5rem;
   }
+}
+
+/* —— Bulma BDS Extend —— */
+/* Modifiers */
+p.title,
+p.subtitle,
+.is-relaxed {
+  line-height: 1.4em;
+}
+
+hr:not(.is-visible) {
+  visibility: hidden !important;
+}
+
+hr.is-small {
+  margin: .9em 0;
+}
+
+hr.is-large {
+  margin: 2.6em 0;
+}
+
+/* Box */
+.box {
+  transition: all .25s ease-out;
+}
+
+.box.is-relaxed {
+  padding: 2.875em 3em;
+}
+
+.box.hover-to-box:hover {
+  background: white;
+}
+
+.box.is-ground,
+.box.hover-to-ground:hover {
+  transition-duration: .3s;
+  background-color: transparent;
+}
+
+.box.is-well,
+.box.hover-to-well:hover {
+  transition-duration: .3s;
+  background-color: rgba(113, 95, 199, 0.04);
+}
+
+.box.is-raised,
+.box.hover-to-raised:hover {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box.is-floating,
+.box.hover-to-floating:hover {
+  transition-duration: .3s;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box.is-popping,
+.box.hover-to-popping:hover {
+  transition-duration: .4s;
+  background-color: white;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Menu */
+.menu-label {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.menu-label:not(:last-child) {
+  margin-bottom: .5em;
+}
+
+.menu-list a.is-active {
+  font-weight: 700;
 }
 /*# sourceMappingURL=bulma.css.map */

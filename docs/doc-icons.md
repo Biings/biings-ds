@@ -6,16 +6,16 @@
 
 <hr>
 
-<h4 class="title is-4 has-text-weight-semibold">UI Icons</h4>
+<h4 class="title is-4 has-text-weight-normal">UI Icons</h4>
 
 <div class="columns">
-    <div class="column">asdf</div>
-    <div class="column">asdf</div>
-    <div class="column">asdf</div>
-    <div class="column">asdf</div>
-    <div class="column">asdf</div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
 </div>
 
 <hr class="is-large">
 
-<h4 class="title is-4 has-text-weight-semibold">Glyphs</h4>
+<h4 class="title is-4 has-text-weight-normal">Glyphs</h4>

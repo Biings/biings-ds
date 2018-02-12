@@ -4,11 +4,10 @@
     █▄▄█ ▄█▄ ▄█▄ ░█──▀█ ░█▄▄█ ░█▄▄▄█ 
 */
 
+@import 'bulma.css';
+
 /* —— Variables (Colors and Sizes) —— */
 @import 'bds-vars.css';
-
-/* —— Extend Bulma BDS Extend —— */
-@import 'bds-bulma-ext.css';
 
 /* —— App components —— */
 @import 'bds-app.css';
@@ -78,6 +77,10 @@
 .has-text-monospace
 {
     font-family: "Roboto Mono", monospace;
+}
+.has-text-brand-1
+{
+    color: var(--color-primary-txt);
 }
 .has-text-red
 {

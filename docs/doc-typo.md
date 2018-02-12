@@ -6,13 +6,15 @@
 
 <hr>
 
-<h4 class="title is-4 has-text-weight-semibold">Font family</h4>
+<h4 class="title is-4 has-text-weight-normal">Font family</h4>
 
 <ul class="list">
     <li>Biings<sup>DS</sup> uses <strong>Lato</strong> as its main font family along with its different font weights (200 to 900).</li>
-    <li>When a Monospace font is required use the <strong>Robot Mono</strong> font.</li>
+    <li>When a Monospace font is required use the <strong class="has-text-monospace">Roboto Mono</strong> font.</li>
 </ul>
 
 <hr>
 
-<h4 class="title is-4 has-text-weight-semibold">Scales</h4>
+<h4 class="title is-4 is-spaced has-text-weight-normal">Scales</h4>
+
+<div class="subtitle is-6 has-text-grey">Soon.</div>

@@ -4,7 +4,7 @@
 
 <hr class="is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Base</h2>
+<h2 class="title is-4 has-text-weight-normal">Base</h2>
 
 <hr class="is-small">
 
@@ -38,7 +38,7 @@
 
 <hr class="is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Support colors</h2>
+<h2 class="title is-4 has-text-weight-normal">Support colors</h2>
 
 <hr class="is-small">
 
@@ -74,7 +74,7 @@
 
 <hr class="is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Gradients</h2>
+<h2 class="title is-4 has-text-weight-normal">Gradients</h2>
 
 <hr class="is-invisible is-small">
 
@@ -82,3 +82,10 @@
     <div class="column is-12"><div class="notification has-gradient-1"><br></div></div>
     <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#8658B9</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-grey-dark has-text-monospace">#6555B2</span></div>
 </div>
+
+```css
+.has-gradient-1
+{
+    background: linear-gradient(30deg, #8658b9 40%, #6555b2 120%);
+}
+```

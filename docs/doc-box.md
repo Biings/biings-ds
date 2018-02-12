@@ -20,7 +20,7 @@
 
 <hr class="is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Box depths</h2>
+<h2 class="title is-4 has-text-weight-normal">Box depths</h2>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
@@ -52,7 +52,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
 <hr class="is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Depth transition</h2>
+<h2 class="title is-4 has-text-weight-normal">Depth transition</h2>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
