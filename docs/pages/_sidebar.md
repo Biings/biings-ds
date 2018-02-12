@@ -1,5 +1,0 @@
-- <a href="/"><img src="biings_logo.png" class="menubar__logo" title="Biings DS" width="129" height="35"></a>
-- [**Biings design system**](pages/README.md)
-- [**Style**](pages/style.md)
-- <br><a href="http://developers.biings.com" class="ui basic button">Developers</a>
-- <a href="http://www.biings.com" class="ui basic button">Biings.com</a>

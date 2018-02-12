@@ -1,0 +1,221 @@
+/* Overrirde Bulma */
+html
+{
+    overflow-x: initial;
+    overflow-y: initial;
+    background-color: white;
+}
+
+pre
+{
+    border: 2px solid rgba(113,95,199,.1);
+    border-left-width: 6px;
+    border-radius: 1px;
+}
+pre code
+{
+    font-size: .85em;
+}
+code .tag
+{
+    background-color: transparent;
+}
+blockquote
+{
+    padding-left: 1rem;
+    color: #84848f;
+    border-left: 2px solid #9389e1;
+}
+footer
+{
+    font-size: 13px !important;
+    line-height: 1.5em;
+    letter-spacing: .2px;
+    color: #cfcfd7;
+}
+section.cover .cover-main
+{
+    text-align: left;
+}
+.markdown-section p.tip
+{
+    padding: .75rem 1.6rem;
+    background-color: #f8eceb;
+}
+.markdown-section p.warn
+{
+    padding: 1rem 1.6rem;
+    background-color: #ddf2fe;
+}
+.markdown-section p > a,
+.markdown-section td > a
+{
+    padding-bottom: .1em;
+    border-bottom: 1px solid rgba(126, 106, 222, .6);
+}
+.markdown-section tr,
+.markdown-section tr:nth-child(2n)
+{
+    background-color: #f6f6fb;
+}
+
+aside.sidebar
+{
+    font-size: .875em;
+    padding-top: 5rem;
+    color: #9c9da7;
+    border-right: none;
+    background-color: #393b4f;
+}
+.docsify-logo
+{
+    position: absolute;
+    top: 1.8rem;
+    left: 2em;
+}
+.sidebar-toggle
+{
+    top: 1px;
+    bottom: inherit;
+    left: 255px;
+    padding: 1.1em 1.4em;
+    background-color: transparent;
+}
+.sidebar-toggle .sidebar-toggle-button:hover
+{
+    cursor: pointer;
+    opacity: .8;
+}
+body.close .sidebar-toggle
+{
+    left: 0;
+}
+body:not(.close) .sidebar-toggle span
+{
+    background-color: #f5f5fa;
+}
+.sidebar-nav > ul > li
+{
+    padding-bottom: 1.4em;
+}
+.sidebar ul li p
+{
+    padding-left: 1.9rem;
+    border-left: .1875rem solid transparent;
+}
+.sidebar ul li a,
+.sidebar ul li p a
+{
+    font-weight: 500;
+    padding: .25em 0;
+    color: #e1e2e9;
+}
+.sidebar ul li ul
+{
+    padding-left: 0;
+}
+.sidebar-nav > ul > li > ul > li > a
+{
+    padding-left: 2.9rem;
+    border-left: .1875rem solid transparent;
+}
+.sidebar ul li a:hover
+{
+    color: white;
+}
+.sidebar ul p.active a,
+.sidebar ul li.active a
+{
+    font-weight: 900;
+    color: white;
+}
+.sidebar ul p.active,
+.sidebar ul li.active a
+{
+    border-color: #7e6ade;
+}
+
+/* Code Highlighting */
+.token.cdata, .token.comment, .token.doctype, .token.prolog {
+    color: #8e908c
+}
+
+.token.namespace {
+    opacity: .7
+}
+
+.token.boolean, .token.number {
+    color: #c76b29
+}
+
+.token.punctuation {
+    color: #525252
+}
+
+.token.property {
+    color: #c08b30
+}
+
+.token.tag {
+    color: #2973b7
+}
+
+.token.string {
+    color: #42b983;
+    color: var(--theme-color, #42b983)
+}
+
+.token.selector {
+    color: #6679cc
+}
+
+.token.attr-name {
+    color: #2973b7
+}
+
+.language-css .token.string, .style .token.string, .token.entity,
+.token.url {
+    color: #22a2c9
+}
+
+.token.attr-value, .token.control, .token.directive, .token.unit {
+    color: #42b983;
+    color: var(--theme-color, #42b983)
+}
+
+.token.keyword {
+    color: #e96900
+}
+
+.token.atrule, .token.regex, .token.statement {
+    color: #22a2c9
+}
+
+.token.placeholder, .token.variable {
+    color: #3d8fd1
+}
+
+.token.deleted {
+    text-decoration: line-through
+}
+
+.token.inserted {
+    border-bottom: 1px dotted #202746;
+    text-decoration: none
+}
+
+.token.italic {
+    font-style: italic
+}
+
+.token.bold, .token.important {
+    font-weight: 700
+}
+
+.token.important {
+    color: #c94922
+}
+
+.token.entity {
+    cursor: help
+}

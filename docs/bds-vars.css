@@ -1,0 +1,22 @@
+:root
+{
+    /* —— Colors —— */
+    --color-brand1:     #7E6ADE;
+    --color-ui1:        #F9F9FD;
+    --color-ui2:        #F1F1F5;
+    --color-ui3:        #E1E2E9;
+    --color-ui4:        #CFCFD7;
+
+    --color-text3:      #848593;
+    --color-text4:      #9C9DA7;
+
+    --color-primary-txt:#6555B2;
+    --color-red:        #FF5A5F;
+    --color-cyan:       #C9F0FF;
+    --color-green:      #06BE8F;
+    --color-yellow:     #FFC857;
+
+    /* —— Sizes —— */
+    --size-base: 16px;
+    --size-small: 0.9375rem; 
+}

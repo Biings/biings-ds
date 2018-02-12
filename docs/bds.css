@@ -1,0 +1,85 @@
+/*
+    █▀▀█ ▀█▀ ▀█▀ ░█▄─░█ ░█▀▀█ ░█▀▀▀█ 
+    █▀▀▄ ░█─ ░█─ ░█░█░█ ░█─▄▄ ─▀▀▀▄▄ 
+    █▄▄█ ▄█▄ ▄█▄ ░█──▀█ ░█▄▄█ ░█▄▄▄█ 
+*/
+
+/* —— Variables (Colors and Sizes) —— */
+@import 'bds-vars.css';
+
+/* —— Extend Bulma BDS Extend —— */
+@import 'bds-bulma-ext.css';
+
+/* —— App components —— */
+@import 'bds-app.css';
+
+
+/* —— Element —— */
+
+.title
+{
+    letter-spacing: -.3px;
+}
+.title > sup
+{
+    font-weight: 500;
+}
+.button
+{
+    font-weight: 700;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.button:active
+{
+    box-shadow: none;
+}
+
+.list
+{
+    margin: 1.5em .25em;
+}
+.list > li
+{
+    line-height: 1.375em;
+    position: relative;
+    padding: 0 0 0.375em 1.75em;
+}
+.list > li::before
+{
+    position: absolute;
+    left: 0.25em;
+    content: '•';
+    color: var(--color-text3);
+}
+
+
+/* —— Helpers —— */
+
+.is-link
+{
+    transition: color .05s linear;
+}
+.is-link:hover
+{
+    color: var(--color-brand1);
+}
+
+.is-motionless
+{
+    transition: none;
+}
+
+.has-gradient-1
+{
+    background: linear-gradient(30deg, #8658b9 40%,#6555b2 120%);
+}
+
+/* — Modifiers — */
+.has-text-monospace
+{
+    font-family: "Roboto Mono", monospace;
+}
+.has-text-red
+{
+    color: var(--color-red);
+}
