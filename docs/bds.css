@@ -74,7 +74,7 @@
 }
 
 /* — Modifiers — */
-.has-text-monospace
+.is-monospace
 {
     font-family: "Roboto Mono", monospace;
 }

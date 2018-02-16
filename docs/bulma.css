@@ -7938,4 +7938,17 @@ hr.is-large {
 .menu-list a.is-active {
   font-weight: 700;
 }
+
+/* Icon */
+svg.icon {
+  fill: #393B4F;
+}
+
+svg.is-grey {
+  fill: #A9AAB5;
+}
+
+svg.is-grey-dark {
+  fill: #848593;
+}
 /*# sourceMappingURL=bulma.css.map */

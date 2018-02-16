@@ -37,6 +37,15 @@ section.cover .cover-main
 {
     text-align: left;
 }
+section.content
+{
+    left: 270px;
+}
+.markdown-section
+{
+    max-width: 815px;
+    padding: 30px 30px 40px;
+}
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;
@@ -66,58 +75,81 @@ section.cover .cover-main
 
 aside.sidebar
 {
-    font-size: .875em;
+    font-size: .8125em;
+    width: 270px;
     padding-top: 5rem;
     color: #9c9da7;
     border-right: none;
     background-color: #393b4f;
+}
+.sidebar-toggle
+{
+    top: 3px;
+    bottom: inherit;
+    left: 195px;
+    width: 40px;
+    padding: 1.1em 1.4em;
+    cursor: pointer;
+    background-color: transparent !important;
+}
+.sidebar-toggle:hover .sidebar-toggle-button
+{
+    opacity: .8;
+}
+@media screen and (min-width: 1023px)
+{
+    .markdown-section
+    {
+        margin: 0 0 0 5%;
+    }
+}
+@media screen and (min-width: 769px)
+{
+    .sidebar-toggle
+    {
+        display: none;
+    }
 }
 .docsify-logo
 {
     position: absolute;
     top: 1.8rem;
     left: 2em;
-}
-.sidebar-toggle
-{
-    top: 1px;
-    bottom: inherit;
-    left: 255px;
-    padding: 1.1em 1.4em;
-    background-color: transparent;
-}
-.sidebar-toggle .sidebar-toggle-button:hover
-{
-    cursor: pointer;
-    opacity: .8;
+    margin-bottom: 1em;
 }
 body.close .sidebar-toggle
 {
     left: 0;
 }
-body:not(.close) .sidebar-toggle span
+body.sticky .sidebar-toggle span
 {
-    background-color: #f5f5fa;
+    background-color: #ffffff;
+}
+.sidebar-nav > ul
+{
+    margin-top: 1em;
 }
 .sidebar-nav > ul > li
 {
-    padding-bottom: 1.4em;
+    padding-bottom: 3px;
 }
 .sidebar ul li p
 {
+    font-weight: 600;
     padding-left: 1.9rem;
     border-left: .1875rem solid transparent;
 }
 .sidebar ul li a,
 .sidebar ul li p a
 {
+    font-size: .875rem;
     font-weight: 500;
     padding: .25em 0;
     color: #e1e2e9;
 }
 .sidebar ul li ul
 {
-    padding-left: 0;
+    padding: .375em 0 1.125em 0;
 }
 .sidebar-nav > ul > li > ul > li > a
 {
