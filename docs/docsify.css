@@ -75,7 +75,7 @@ section.content
 
 aside.sidebar
 {
-    font-size: .8125em;
+    font-size: .75em;
     width: 270px;
     padding-top: 5rem;
     color: #9c9da7;
@@ -127,16 +127,17 @@ body.sticky .sidebar-toggle span
 }
 .sidebar-nav > ul
 {
-    margin-top: 1em;
+    margin-top: .5em;
 }
 .sidebar-nav > ul > li
 {
-    padding-bottom: 3px;
+    padding-bottom: .75em;
 }
 .sidebar ul li p
 {
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 1.9rem;
+    letter-spacing: 0 !important;
     border-left: .1875rem solid transparent;
 }
 .sidebar ul li a,
@@ -163,7 +164,7 @@ body.sticky .sidebar-toggle span
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    font-weight: 900;
+    font-weight: 800;
     color: white;
 }
 .sidebar ul p.active,

@@ -9,7 +9,8 @@
 <h4 class="title is-4 has-text-weight-normal">Font family</h4>
 
 <ul class="list">
-    <li>Biings<sup>DS</sup> uses <strong>Lato</strong> as its main font family along with its different font weights (200 to 900).</li>
+    <li>For maximum legibility Biings<sup>DS</sup> uses <strong>Averta</strong> as its main font family.</li>
+    <li>Use different font weights to emphasize or differentiate content hierarchy (from 100 to 900, except 600).</li>
     <li>When a Monospace font is required use the <strong class="has-text-monospace">Roboto Mono</strong> font (use `is-monospace`)</li>
 </ul>
 

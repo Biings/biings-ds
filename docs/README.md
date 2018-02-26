@@ -1,4 +1,4 @@
-<h1 class="title is-2"><span class="has-text-weight-semibold">Biings</span> Design System</h1>
+<h1 class="title is-2"><span class="has-text-weight-bold">Biings</span> Design System</h1>
 <hr class="is-small">
 <p class="subtitle is-5 has-text-weight-semibold">
     Biings<sup>DS</sup> is the design system for Biings applications and web pages. It is a series of individual styles, components and guidelines used for creating unified UI.
@@ -53,10 +53,10 @@
 
 <div class="box is-well">
     <div class="section">
-        <h1 class="title is-spaced is-4 has-text-primary has-text-weight-normal">
+        <h1 class="title is-spaced is-3 has-text-primary">
             Wondering how to contribute?
         </h1>
-        <p class="subtitle is-5 has-text-weight-light has-text-black">
+        <p class="subtitle is-5 has-text-grey-dark">
             We welcome all feedback, designs, or ideas in order to produce the best possible experience for our users. If you're interested in contributing, check out the <a href="#/doc-contribute">Guide</a> to get started.
         </p>
     </div>

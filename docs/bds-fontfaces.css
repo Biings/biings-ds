@@ -1,0 +1,147 @@
+/*
+ *	WebFont Package Licensed to Biings
+ */
+
+/* Averta Standard Extra Thin */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Extrathin.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Extrathin.eot') format('eot');
+	font-weight: 100;
+	font-style: normal;
+}
+
+/* Averta Standard Extra Thin Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-ExtrathinItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-ExtrathinItalic.eot') format('eot');
+	font-weight: 100;
+	font-style: italic;
+}
+
+/* Averta Standard Thin */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Thin.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Thin.eot') format('eot');
+	font-weight: 200;
+	font-style: normal;
+}
+
+/* Averta Standard Thin Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-ThinItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-ThinItalic.eot') format('eot');
+	font-weight: 200;
+	font-style: italic;
+}
+
+/* Averta Standard Light */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Light.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Light.eot') format('eot');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* Averta Standard Light Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-LightItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-LightItalic.eot') format('eot');
+	font-weight: 300;
+	font-style: italic;
+}
+
+/* Averta Standard Regular */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Regular.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Regular.eot') format('eot');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Averta Standard Regular Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-RegularItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-RegularItalic.eot') format('eot');
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* Averta Standard Semibold  */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Semibold.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Semibold.eot') format('eot');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Averta Standard Semibold Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-SemiboldItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Semibold.eot') format('eot');
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* Averta Standard Bold */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Bold.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Bold.eot') format('eot');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Averta Standard Bold Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-BoldItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-BoldItalic.eot') format('eot');
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* Averta Standard Extra Bold  */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Extrabold.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Extrabold.eot') format('eot');
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* Averta Standard Extra Bold Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-ExtraboldItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-ExtraboldItalic.eot') format('eot');
+	font-weight: 800;
+	font-style: italic;
+}
+
+/* Averta Standard Black */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Black.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-Black.eot') format('eot');
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* Averta Standard Black Italic */
+@font-face {
+	font-family: Averta;
+	src:	url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-BlackItalic.woff') format('woff'),
+			url('http://www.biings.com/fr/static/fonts/hinted-AvertaStd-BlackItalic.eot') format('eot');
+	font-weight: 900;
+	font-style: italic;
+}

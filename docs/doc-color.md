@@ -45,20 +45,20 @@
 <div class="columns is-multiline is-gapless">
     <div class="column is-3"><div class="notification is-radiusless" style="background: #FF5A5F;"><br><br></div></div>
     <div class="column is-3"><div class="notification is-radiusless" style="background: #06BE8F;"><br><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFC857;"><br><br></div></div>
+    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFC566;"><br><br></div></div>
     <div class="column is-3"><div class="notification is-radiusless" style="background: #C9F0FF;"><br><br></div></div>
     <div class="column is-3"><br>**Support–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FF5A5F</span></div>
     <div class="column is-3"><br>**Support–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#06BE8F</span></div>
-    <div class="column is-3"><br>**Support–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFC857</span></div>
+    <div class="column is-3"><br>**Support–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFC566</span></div>
     <div class="column is-3"><br>**Support–4**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#C9F0FF</span></div>
     <div class="column is-12"><br><br></div>
     <div class="column is-3"><div class="notification is-radiusless" style="background: #FFACAF;"><br><br></div></div>
     <div class="column is-3"><div class="notification is-radiusless" style="background: #B5F2E2;"><br><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFE3AB;"><br><br></div></div>
+    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFE2B2;"><br><br></div></div>
     <div class="column is-3"><div class="notification is-radiusless" style="background: #D3F3FF;"><br><br></div></div>
     <div class="column is-3"><br>**Pastel–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFACAF</span></div>
     <div class="column is-3"><br>**Pastel–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#B5F2E2</span></div>
-    <div class="column is-3"><br>**Pastel–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFE3AB</span></div>
+    <div class="column is-3"><br>**Pastel–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFE2B2</span></div>
     <div class="column is-3"><br>**Pastel–4**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#D3F3FF</span></div>
     <div class="column is-12"><br><br></div>
     <div class="column is-3"><div class="notification is-radiusless" style="background: #715FC7;"><br><br></div></div>
@@ -80,12 +80,12 @@
 
 <div class="columns is-multiline is-gapless">
     <div class="column is-12"><div class="notification has-gradient-1"><br></div></div>
-    <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#8658B9</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-grey-dark has-text-monospace">#6555B2</span></div>
+    <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#815AC4</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-grey-dark has-text-monospace">#5A4C9F</span></div>
 </div>
 
 ```css
 .has-gradient-1
 {
-    background: linear-gradient(30deg, #8658b9 40%, #6555b2 120%);
+    background: linear-gradient(45deg, #815AC4 10%,#5A4C9F 90%);
 }
 ```
