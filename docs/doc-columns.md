@@ -1,24 +1,25 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold"> Layout</h6><h1 class="title is-1">Columns</h1>
-<hr class="is-small">
-<p class="subtitle is-5 has-text-weight-semibold">
-    <span class="has-text-primary has-text-weight-bold">Columns</span> are used for creating page layouts by structuring your content horizontally. Biings<sup>DS</sup> uses a responsive fluid system that automatically scales up to 12 columns.
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold"> Layout</h6><h1 class="title is-1 has-text-weight-bold">Columns</h1>
+<p class="subtitle is-5">
+    <span class="has-text-weight-semibold">Columns</span> are used for creating page layouts by structuring your content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
 </p>
 
-<hr class="is-invisible is-large">
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 has-text-weight-semibold">Basic usage</h2>
 
 <div class="box is-well is-marginless is-relaxed">
-<div class="columns has-text-centered">
+<div class="columns">
     <div class="column">
-      <article class="message is-primary"><div class="message-body">First</div></article>
+      <div class="notification has-text-weight-semibold is-primary">First</div>
     </div>
     <div class="column">
-      <article class="message is-danger"><div class="message-body">Second</div></article>
+      <div class="notification has-text-weight-semibold is-danger">Second</div>
     </div>
     <div class="column">
-      <article class="message is-warning"><div class="message-body">Third</div></article>
+      <div class="notification has-text-weight-semibold is-warning">Third</div>
     </div>
     <div class="column">
-      <article class="message is-success"><div class="message-body">Fourth</div></article>
+      <div class="notification has-text-weight-semibold is-success">Fourth</div>
     </div>
   </div>
 </div>
@@ -30,9 +31,8 @@
       <div class="column">Fourth</div>
     </div>
 
+<hr class="is-large">
 
-<hr>
-
-<h2 class="title is-4 has-text-weight-semibold">Variations</h2>
-
-Columns can have various <span class="has-text-weight-semibold">sizes, gaps and lines</span>. Visit <a href="https://bulma.io/documentation/columns/sizes/">this page</a> for more information.
+<div class="box is-bordered">
+    Find more possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/columns/" target="blank">Bulma / <strong>Columns</strong></a>
+</div>

@@ -3,7 +3,7 @@
 /* Titles */
 .title.is-5,
 .title.is-6
-    font-weight: $weight-normal;
+    font-weight: 700;
 
 
 /* Rules / Lines */
@@ -18,27 +18,50 @@ hr.is-large
 
 /* Button */
 .button
-    font-weight: 500;
-    box-shadow: 0 1px 2px rgba(0,0,0,.05);
-
+    font-weight: 500
+    box-shadow: 0 1px 2px rgba(0,0,0,.05)
+    transition: box-shadow 0.15s linear, transform 0.15s linear
 .button:not(:active)
-    box-shadow: none;
-
+    box-shadow: none
+.button:hover:not(:active):not(.is-outlined):not(.is-rounded):not(.is-light)
+    box-shadow: 0 4px 8px rgba(0,0,0,.05)
+    transform: translateY(-1px)
+.button:active
+    transition-duration: 0
+    box-shadow: 0 0 2px rgba(0,0,0,.05)
+.has-addons .button,
+.dropdown .button
+    transform: translateY(0) !important
+.button .icon
+    width: 1em
+    height: 1em
 
 /* Box */
 .box
     transition: all .25s ease-out;
 
+.box.is-small
+    padding: 0.6rem 0.8rem
+
+.box.is-large,
 .box.is-relaxed
     padding: 2.875em 3em;
+
+.box.is-link
+    cursor: pointer
+.box.is-link:hover
+    box-shadow: 0 0 0 1px $primary
+
+.box.is-bordered
+    box-shadow: 0 0 0 1px rgba(0,0,0,.10);
 
 .box.hover-to-box:hover
     background: white;
 
-.box.is-ground,
-.box.hover-to-ground:hover
+.box.is-white,
+.box.hover-to-white:hover
     transition-duration: .3s;
-    background-color: transparent;
+    background-color: white;
 
 .box.is-well,
 .box.hover-to-well:hover
@@ -85,3 +108,11 @@ svg.is-grey
 
 svg.is-grey-dark
     fill: $grey-dark;
+
+/* Panel */
+.panel > div:first-child,
+.panel > a:first-child
+    border-radius: $box-radius $box-radius 0 0
+.panel > div:last-child,
+.panel > a:last-child
+    border-radius: 0 0 $box-radius $box-radius

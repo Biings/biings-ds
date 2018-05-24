@@ -1,10 +1,11 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold"> Layout</h6><h1 class="title is-1">Divider</h1>
-<hr class="is-small">
-<p class="subtitle is-5 has-text-weight-semibold">
-    <span class="has-text-primary has-text-weight-bold">Divider</span> is a visual helper for grouping related content together. It is used to define thematic changes in a layout.
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold"> Layout</h6><h1 class="title is-1 has-text-weight-bold">Divider</h1>
+<p class="subtitle is-5">
+    <span class="has-text-weight-semibold">Divider</span> is a visual helper for grouping related content together. It is used to define thematic changes in a layout.
 </p>
 
-<hr>
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 has-text-weight-semibold">Usage</h2>
 
 <div class="box is-well is-relaxed is-marginless">
     <hr class="is-visible">

@@ -1,22 +1,21 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Style</h6><h1 class="title is-1">Typography</h1>
-<hr class="is-small">
-<p class="subtitle is-5 has-text-weight-semibold">
-    <span class="has-text-primary has-text-weight-bold">Typography</span> is used to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Style</h6><h1 class="title is-1 has-text-weight-bold">Typography</h1>
+<p class="subtitle is-5">
+    <span class="has-text-weight-semibold">Typography</span> is used to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>
 
-<hr>
+<hr class="is-large is-visible">
 
-<h4 class="title is-4 has-text-weight-normal">Font family</h4>
+<h4 class="title is-4 has-text-weight-semibold">Font family</h4>
 
 <ul class="list">
-    <li>For maximum legibility Biings<sup>DS</sup> uses <strong>Averta</strong> as its main font family.</li>
-    <li>Use different font weights to emphasize or differentiate content hierarchy (from 100 to 900, except 600).</li>
+    <li>For maximum legibility Biings DS uses <strong>Averta</strong> as its main font family</li>
+    <li>Use different font weights classes to emphasize or differentiate content hierarchy:<br>from `has-text-weight-light` / `normal` / `semibold` / `bold`</li>
     <li>When a Monospace font is required use the <strong class="has-text-monospace">Roboto Mono</strong> font (use `is-monospace`)</li>
 </ul>
 
-<hr>
+<hr class="is-large is-visible">
 
-<h4 class="title is-4 is-spaced has-text-weight-normal">Scales</h4>
+<h4 class="title is-4 is-spaced has-text-weight-semibold">Scales</h4>
 
 <h1 class="title is-1">Hero Title 1</h1><div class="subtitle is-6 has-text-grey">Hero title (website only)</div>
 <br>
@@ -29,3 +28,9 @@
 <h5 class="title is-5">Title 5</h5><div class="subtitle is-6 has-text-grey">Modal title</div>
 <br>
 <h6 class="title is-6">Title 6</h6><div class="subtitle is-6 has-text-grey">Modal title</div>
+
+<hr class="is-large">
+
+<div class="box is-bordered">
+    Find more variations on &nbsp;→&nbsp; <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank">Bulma / <strong>Typography helpers</strong></a>
+</div>

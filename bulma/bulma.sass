@@ -1,250 +1,254 @@
 // Import Bulma modules
-@import "node_modules/bulma/sass/utilities/functions.sass";
+@import "node_modules/bulma/sass/utilities/functions.sass"
 
 // Initial variables
 
 // Colors
 
-$black:        #333446;
-$black-bis:    #2D2F3F;
-$black-ter:    #272937;
+$black:        #333446
+$black-bis:    #2D2F3F
+$black-ter:    #272937
 
-$grey-darker:  #393B4F !default; // Headers 
-$grey-dark:    #848593 !default;
-$grey:         #A9AAB5 !default;
-$grey-light:   #CFCFD7 !default;
-$grey-lighter: #E2E2E8 !default;
+$grey-darker:  #393B4F !default // Headers 
+$grey-dark:    #848593 !default
+$grey:         #A9AAB5 !default
+$grey-light:   #CFCFD7 !default
+$grey-lighter: #E2E2E8 !default
 
-$primary: #7E6ADE !default;  // UI 1 AKA Main Biings color
+$primary: #7E6ADE !default  // UI 1 AKA Main Biings color
 
-$white-ter:    #F9F9FD !default; // UI 2 = Background
-$white-bis:    #FAFAFC !default;
-$white:        white !default;
+$white-ter:    #F9F9FD !default // UI 2 = Background
+$white-bis:    #FAFAFC !default
+$white:        white !default
 
-$cyan:         #C9F0FF !default; // UI 3
-$blue:         #5D7DC7 !default;
-$purple:       #715FC7 !default;
-$red:          #FF5A5F !default; // UI 4
-$orange:       #FF8D40 !default;
-$green:        #06BE8F !default; // UI 5
-$yellow:       #FFC857 !default; // UI 6
-$turquoise:    #15C4C8 !default;
+$cyan:         #C9F0FF !default // UI 3
+$blue:         #5D7DC7 !default
+$purple:       #715FC7 !default
+$red:          #FF5A5F !default // UI 4
+$orange:       #FF8D40 !default
+$green:        #06BE8F !default // UI 5
+$yellow:       #FFC857 !default // UI 6
+$turquoise:    #15C4C8 !default
 
-$info: $cyan !default;
-$success: $green !default;
-$warning: $yellow !default;
-$danger: $red !default;
+$info: $cyan !default
+$success: $green !default
+$warning: $yellow !default
+$danger: $red !default
 
-$light: $white-ter !default;
-$dark: $grey-darker !default;
+$light: #F1F1F5 !default
+$dark: $grey-darker !default
 
 // Invert colors
 
-$orange-invert: findColorInvert($orange) !default;
-$yellow-invert: findColorInvert($yellow) !default;
-$green-invert: findColorInvert($green) !default;
-$turquoise-invert: findColorInvert($turquoise) !default;
-$cyan-invert: findColorInvert($cyan) !default;
-$blue-invert: findColorInvert($blue) !default;
-$purple-invert: findColorInvert($purple) !default;
-$red-invert: findColorInvert($red) !default;
+$orange-invert: findColorInvert($orange) !default
+$yellow-invert: findColorInvert($yellow) !default
+$green-invert: findColorInvert($green) !default
+$turquoise-invert: findColorInvert($turquoise) !default
+$cyan-invert: findColorInvert($cyan) !default
+$blue-invert: findColorInvert($blue) !default
+$purple-invert: findColorInvert($purple) !default
+$red-invert: findColorInvert($red) !default
 
-$primary-invert: $turquoise-invert !default;
-$info-invert: $cyan-invert !default;
-$success-invert: $green-invert !default;
-$warning-invert: $yellow-invert !default;
-$danger-invert: $red-invert !default;
-$light-invert: $dark !default;
-$dark-invert: $light !default;
+$primary-invert: $turquoise-invert !default
+$info-invert: $cyan-invert !default
+$success-invert: $green-invert !default
+$warning-invert: $yellow-invert !default
+$danger-invert: $red-invert !default
+$light-invert: $dark !default
+$dark-invert: $light !default
 
 // General colors
 
-$background: $white-ter !default;
+$background: $white-ter !default
 
-$border: $grey-lighter !default;
-$border-hover: $grey-light !default;
+$border: $grey-lighter !default
+$border-hover: $grey-light !default
 
 // Text colors
 
-$text: $black;
-$text-invert: findColorInvert($text) !default;
-$text-light: $grey !default;
-$text-strong: $grey-darker !default;
+$text: $black
+$text-invert: findColorInvert($text) !default
+$text-light: $grey !default
+$text-strong: $grey-darker !default
 
 // Code colors
 
-$code: $purple;
-$code-background: rgba(113,95,199,.07);
+$code: $purple
+$code-background: rgba(113,95,199,.07)
 
-$pre: $grey-dark;
-$pre-background: white;
+$pre: $grey-dark
+$pre-background: white
 
 // Link colors
 
-$link: $primary;
-$link-invert: $primary-invert;
-$link-visited: $text;
+$link: $primary
+$link-invert: $primary-invert
+$link-visited: $text
 
-$link-hover: $text;
-$link-hover-border: $grey-light !default;
+$link-hover: $text
+$link-hover-border: $grey-light !default
 
-$link-focus: $grey-darker !default;
-$link-focus-border: $blue !default;
+$link-focus: $grey-darker !default
+$link-focus-border: $blue !default
 
-$link-active: $grey-darker !default;
-$link-active-border: $grey-dark !default;
+$link-active: $grey-darker !default
+$link-active-border: $grey-dark !default
 
 // Typography
 
-$family-sans-serif: 'Averta', 'Helvetica Neue', 'Arial', sans-serif !default;
-$family-monospace: 'Roboto Mono', monospace !default;
-$render-mode: optimizeLegibility !default;
+$family-sans-serif: 'Averta', 'Helvetica Neue', 'Arial', sans-serif !default
+$family-monospace: 'Roboto Mono', monospace !default
+$render-mode: optimizeLegibility !default
 
-$family-primary: $family-sans-serif !default;
-$family-code: $family-monospace !default;
+$family-primary: $family-sans-serif !default
+$family-code: $family-monospace !default
 
-$size-1: 3rem !default;
-$size-2: 2.5rem !default;
-$size-3: 2rem !default;
-$size-4: 1.5rem !default;
-$size-5: 1.25rem !default;
-$size-6: 1.125rem !default;
-$size-7: 0.75rem !default;
+$size-1: 3rem !default
+$size-2: 2.5rem !default
+$size-3: 2rem !default
+$size-4: 1.5rem !default
+$size-5: 1.25rem !default
+$size-6: 1rem !default
+$size-7: 0.75rem !default
 
-$size-small: 0.875rem;
-$size-normal: $size-6 !default;
-$size-medium: $size-5 !default;
-$size-large: $size-4 !default;
+$size-small: 0.875rem
+$size-normal: $size-6 !default
+$size-medium: $size-5 !default
+$size-large: $size-4 !default
 
-$weight-light: 300 !default;
-$weight-normal: 400 !default;
-$weight-medium: 500 !default;
-$weight-semibold: 500 !default;
-$weight-bold: 800 !default;
+$weight-light: 300 !default
+$weight-normal: 400 !default
+$weight-medium: 500 !default
+$weight-semibold: 500 !default
+$weight-bold: 800 !default
 
-$control-padding-vertical: calc(0.375em - 1px);
+$control-padding-vertical: calc(0.375em - 1px)
 
-$title-color: $grey-darker;
-$title-size: $size-3;
-$title-weight: $weight-light;
-$title-strong-color: inherit;
-$title-strong-weight: inherit;
-$title-sub-size: 0.75em;
-$title-sup-size: 0.75em;
+$title-color: $grey-darker
+$title-size: $size-3
+$title-weight: $weight-bold
+$title-strong-color: inherit
+$title-strong-weight: inherit
+$title-sub-size: 0.75em
+$title-sup-size: 0.75em
 
-$subtitle-color: $title-color;
-$subtitle-size: $size-5;
-$subtitle-weight: $weight-normal;
-$subtitle-strong-color: $grey-darker;
-$subtitle-strong-weight: $weight-semibold;
+$subtitle-color: $title-color
+$subtitle-size: $size-5
+$subtitle-weight: $weight-normal
+$subtitle-strong-color: $grey-darker
+$subtitle-strong-weight: $weight-semibold
 
 
 // Responsiveness
 
 // The container horizontal gap, which acts as the offset for breakpoints
-$gap: 32px !default;
+$gap: 32px !default
 // 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
-$tablet: 769px !default;
+$tablet: 769px !default
 // 960px container + 4rem
-$desktop: 960px + (2 * $gap) !default;
+$desktop: 960px + (2 * $gap) !default
 // 1152px container + 4rem
-$widescreen: 1152px + (2 * $gap) !default;
+$widescreen: 1152px + (2 * $gap) !default
 // 1344px container + 4rem
-$fullhd: 1344px + (2 * $gap) !default;
+$fullhd: 1344px + (2 * $gap) !default
 
 // Miscellaneous
 
-$easing: ease-out !default;
-$radius-small: 2px !default;
-$radius: 3px !default;
-$radius-large: 5px !default;
-$radius-rounded: 290486px !default;
-$speed: 86ms !default;
+$easing: ease-out !default
+$radius-small: 2px !default
+$radius: 3px !default
+$radius-large: 5px !default
+$radius-rounded: 290486px !default
+$speed: 86ms !default
 
 // Flags
 
-$variable-columns: true !default;
+$variable-columns: true !default
 
 // Lists and maps
 
-$colors: ("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)) !default;
-$shades: ("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis) !default;
+$colors: ("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)) !default
+$shades: ("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis) !default
 
-$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default;
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default
 
 // Generic
 
-$body-background-color: $white-ter;
-$body-size: 16px;
-$body-rendering: optimizeLegibility;
-$body-family: $family-primary;
-$body-color: $text;
-$body-weight: $weight-normal;
-$body-line-height: 1.5em;
+$body-background-color: $white-ter
+$body-size: 16px
+$body-rendering: optimizeLegibility
+$body-family: $family-primary
+$body-color: $text
+$body-weight: $weight-normal
+$body-line-height: 1.5em
 
-$code-family: $family-code;
-$code-padding: 0.1em 0.4em;
-$code-weight: 400;
-$code-size: 0.875em;
+$code-family: $family-code
+$code-padding: 0.1em 0.4em
+$code-weight: 400
+$code-size: 0.8em
 
-$hr-background-color: $border;
-$hr-height: 1px;
-$hr-margin: 1.5rem 0;
+$hr-background-color: $border
+$hr-height: 1px
+$hr-margin: 1.5rem 0
 
-$strong-color: $text-strong;
-$strong-weight: $weight-semibold;
+$strong-color: $text-strong
+$strong-weight: $weight-semibold
 
-$box-color: $text;
-$box-background-color: white;
-$box-radius: 1px;
-$box-shadow: none;
-$box-padding: 1.25rem 1.375rem;
-$box-link-hover-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $link !default;
-$box-link-active-shadow: inset 0 1px 2px rgba($black, 0.2), 0 0 0 1px $link !default;
+$box-color: $text
+$box-background-color: transparent
+$box-radius: 2px
+$box-shadow: none
+$box-padding: 1.25rem 1.375rem
+$box-link-hover-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $link !default
+$box-link-active-shadow: inset 0 1px 2px rgba($black, 0.2), 0 0 0 1px $link !default
 
-$menu-item-color: $text !default;
-$menu-item-radius: $radius-small !default;
-$menu-item-hover-color: $primary;
-$menu-item-hover-background-color: transparent;
-$menu-item-active-color: $menu-item-hover-color;
-$menu-item-active-background-color: rgba(0,0,0,0.04);
-$menu-list-border-left: 1px solid $border !default;
-$menu-label-color: $text;
+$menu-item-color: $text !default
+$menu-item-radius: $radius-small !default
+$menu-item-hover-color: $primary
+$menu-item-hover-background-color: transparent
+$menu-item-active-color: $menu-item-hover-color
+$menu-item-active-background-color: rgba(0,0,0,0.04)
+$menu-list-border-left: 1px solid $border !default
+$menu-label-color: $text
 
+$button-hover-border-color: $grey-lighter !default
+$button-active-border-color: $grey-light !default
+$button-padding-horizontal: 0.95em !default
 
 // Import a selection of Bulma modules
-@import "node_modules/bulma/sass/utilities/animations.sass";
-@import "node_modules/bulma/sass/utilities/mixins.sass";
-@import "node_modules/bulma/sass/utilities/controls.sass";
+@import "node_modules/bulma/sass/utilities/animations.sass"
+@import "node_modules/bulma/sass/utilities/mixins.sass"
+@import "node_modules/bulma/sass/utilities/controls.sass"
 
-@import "node_modules/bulma/sass/base/_all.sass";
+@import "node_modules/bulma/sass/base/_all.sass"
 
-@import "node_modules/bulma/sass/components/card.sass";
-@import "node_modules/bulma/sass/components/dropdown.sass";
-@import "node_modules/bulma/sass/components/level.sass";
-@import "node_modules/bulma/sass/components/media.sass";
-@import "node_modules/bulma/sass/components/menu.sass";
-@import "node_modules/bulma/sass/components/message.sass";
-@import "node_modules/bulma/sass/components/modal.sass";
-@import "node_modules/bulma/sass/components/tabs.sass";
+@import "node_modules/bulma/sass/components/card.sass"
+@import "node_modules/bulma/sass/components/dropdown.sass"
+@import "node_modules/bulma/sass/components/level.sass"
+@import "node_modules/bulma/sass/components/media.sass"
+@import "node_modules/bulma/sass/components/menu.sass"
+@import "node_modules/bulma/sass/components/message.sass"
+@import "node_modules/bulma/sass/components/modal.sass"
+@import "node_modules/bulma/sass/components/panel.sass"
+@import "node_modules/bulma/sass/components/tabs.sass"
 
-@import "node_modules/bulma/sass/elements/box.sass";
-@import "node_modules/bulma/sass/elements/button.sass";
-@import "node_modules/bulma/sass/elements/container.sass";
-// @import "node_modules/bulma/sass/elements/content.sass";
-@import "node_modules/bulma/sass/elements/form.sass";
-@import "node_modules/bulma/sass/elements/icon.sass";
-@import "node_modules/bulma/sass/elements/image.sass";
-@import "node_modules/bulma/sass/elements/notification.sass";
-@import "node_modules/bulma/sass/elements/other.sass";
-@import "node_modules/bulma/sass/elements/table.sass";
-@import "node_modules/bulma/sass/elements/tag.sass";
-@import "node_modules/bulma/sass/elements/title.sass";
+@import "node_modules/bulma/sass/elements/box.sass"
+@import "node_modules/bulma/sass/elements/button.sass"
+@import "node_modules/bulma/sass/elements/container.sass"
+// @import "node_modules/bulma/sass/elements/content.sass"
+@import "node_modules/bulma/sass/elements/form.sass"
+@import "node_modules/bulma/sass/elements/icon.sass"
+@import "node_modules/bulma/sass/elements/image.sass"
+@import "node_modules/bulma/sass/elements/notification.sass"
+@import "node_modules/bulma/sass/elements/other.sass"
+@import "node_modules/bulma/sass/elements/table.sass"
+@import "node_modules/bulma/sass/elements/tag.sass"
+@import "node_modules/bulma/sass/elements/title.sass"
 
-@import "node_modules/bulma/sass/grid/columns.sass";
+@import "node_modules/bulma/sass/grid/columns.sass"
 
-@import "node_modules/bulma/sass/layout/hero.sass";
-@import "node_modules/bulma/sass/layout/section.sass";
+@import "node_modules/bulma/sass/layout/hero.sass"
+@import "node_modules/bulma/sass/layout/section.sass"
 
 // Extend Bulma BDS Extend
-@import "bds-bulma-ext.sass";
+@import "bds-bulma-ext.sass"
