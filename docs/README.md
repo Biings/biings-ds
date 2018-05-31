@@ -1,61 +1,50 @@
-<h1 class="title is-2">Biings <span class="has-text-weight-light">Design System</span></h1>
-<p class="subtitle is-5">
-    <span class="has-text-weight-semibold">Biings DS</span> is the design system for Biings applications and web pages. It is a series of individual styles, components and guidelines used for creating unified UI.
-    Avoid creating your own CSS code by combining components and helpers together.
-</p>
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Biings DS</h6><h1 class="title is-1">How to use</h1>
 
-<hr>
+<hr class="is-visible">
 
+<p>Once built you will find the following files in the `build` folder. Files can be embedded anywhere you want to use Biings DS.</p>
 
-<div class="columns is-multiline is-mobile is-variable is-5">
-    <div class="column is-half-desktop is-full-tablet">
-        <div class="level">
-            <div class="media-left"><img src="media/style.png" width="70"/> &nbsp;&nbsp;</div>
-            <div class="media-content">
-                <a href="#/doc-color" class="title is-3 is-link is-relaxed has-text-weight-light">Style</a><br>
-                <p>Guidance on usage and application for basic design elements.</p>
-            </div>
-        </div>
+<br>
+<div class="box is-bordered">**bds.css**<br>The only CSS file you'll need to use Biings DS.</div>
+<div class="box is-bordered">**bds-icons.svg**<br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</div>
+
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 has-text-weight-semibold">How to contribute</h2>
+
+<div class="media is-large">
+    <div class="media-left">
+        <p class="title is-6">1.</p>
     </div>
-    <div class="column is-12 is-hidden-desktop"></div>
-    <div class="column is-half-desktop is-full-tablet">
-        <div class="level">
-            <div class="media-left"><img src="media/voice.png" width="70"/> &nbsp;&nbsp;</div>
-            <div class="media-content">
-                <a href="#/doc-voice" class="title is-3 is-relaxed is-link has-text-weight-light">Voice & Tone</a><br>
-                <p>Good design starts<br>with good copy.</p>
-            </div>
-        </div>
-    </div>
-    <div class="column is-12"></div>
-    <div class="column is-half-desktop is-full-tablet">
-        <div class="level">
-            <div class="media-left"><img src="media/appcomp.png" width="70"/> &nbsp;&nbsp;</div>
-            <div class="media-content">
-                <a href="#/doc-button" class="title is-3 is-link is-relaxed has-text-weight-light">Components</a><br>
-                <p>Guidance on usage for app design elements.</p>
-            </div>
-        </div>
-    </div>
-    <div class="column is-12 is-hidden-desktop"></div>
-    <div class="column is-half-desktop is-full-tablet">
-        <div class="level">
-            <div class="media-left"><img src="media/layout.png" width="70"/> &nbsp;&nbsp;</div>
-            <div class="media-content">
-                <a href="#/doc-columns" class="title is-3 is-link has-text-weight-light is-relaxed">Layout</a><br>
-                <p>The structure on which content and components live.</p>
-            </div>
-        </div>
+    <div class="media-content">
+        <p class="title is-6 has-text-weight-semibold">Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/ForsysInteractive/biings-ds">https://github.com/ForsysInteractive/biings-ds</a></p>
     </div>
 </div>
-
-<hr class="is-large">
-
-<div class="box is-bordered is-relaxed">
-        <div class="title is-spaced is-4 has-text-link has-text-weight-normal">
-            How to contribute?
-        </div>
-        <div class="subtitle is-6 has-text-grey-dark">
-            We welcome all feedback, designs, or ideas in order to produce the best possible experience for our users. If you're interested in contributing, check out the **<a href="#/doc-contribute">Guide</a>** to get started.
-        </div>
+&nbsp;
+<div class="media is-large">
+    <div class="media-left">
+        <p class="title is-6">2.</p>
+    </div>
+    <div class="media-content">
+        <p class="title is-6 has-text-weight-semibold">Make your changes</p>
+        <ul class="list">
+            <li>**Styles** – Bulma-BDS Sass file or a components in `src/styles/bds/..`</li>
+            <li>**Icon set** – svg icon files in `src/icons/bds/`</li>
+        </ul>
+    </div>
+</div>
+<div class="media is-large">
+    <div class="media-left">
+        <p class="title is-6">3.</p>
+    </div>
+    <div class="media-content">
+        <p class="title is-6 has-text-weight-semibold">Build it!</p>
+        <pre data-lang="bash">npm run build</pre>
+        <br>
+        <br>
+        <p>You can build a specific part by calling the command directly</p><br>
+        <pre data-lang="bash">npm run icons</pre>
+        <br>
+        <pre data-lang="bash">npm run styles</pre>
+    </div>
 </div>

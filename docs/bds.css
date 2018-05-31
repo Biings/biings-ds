@@ -45,7 +45,7 @@ p
     position: relative;
     padding: 0 0 .375em 1.75em;
 }
-.list > li::before
+ul.list > li::before
 {
     position: absolute;
     left: .25em;

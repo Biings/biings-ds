@@ -11,7 +11,6 @@ These guidelines apply for developers working with Biings applications and publi
 
 <div class="section">
     <h3 class="subtitle is-5 has-text-grey-darker">Use simple tense</h3>
-
     <table class="table is-fullwidth">
     <thead>
         <tr>
@@ -30,9 +29,7 @@ These guidelines apply for developers working with Biings applications and publi
         </tr>
     </tbody>
     </table>
-
     <hr class="is-large">
-
     <h3 class="subtitle is-5 has-text-grey-darker">Use active voice</h3>
     <table class="table is-fullwidth">
     <thead>

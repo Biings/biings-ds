@@ -34,21 +34,20 @@
 
 <hr class="is-small">
 
-```
-<nav class="panel">
-    <div class="panel-tabs">
-        <a class="is-active">All</a>
-        <a>Bio</a>
-        <a>Notes</a>
-    </div>
-    <div class="panel-block">
-        Content..
-    </div>
-    <div class="panel-block is-active">
-        Content..
-    </div>
-    <a class="panel-block">
-        Link content..
-    </a>
-</nav>
-```
+
+    <nav class="panel">
+        <div class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Bio</a>
+            <a>Notes</a>
+        </div>
+        <div class="panel-block">
+            Content..
+        </div>
+        <div class="panel-block is-active">
+            Content..
+        </div>
+        <a class="panel-block">
+            Link content..
+        </a>
+    </nav>

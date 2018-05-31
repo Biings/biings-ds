@@ -26,15 +26,16 @@
         executeScript: false,
         loadSidebar: '_sidebar.html',
         maxLevel: 0,
+        homepage: 'start.md',
         subMaxLevel: 0,
         auto2top: true,
-        formatUpdated: '{DD}/{MM}/{YY} at {HH}:{mm}',
+        formatUpdated: '{DD}/{MM}/{YY}',
         plugins: [
           function (hook,vm) {
-            hook.afterEach(function (html) {
+            hook.beforeEach(function (html) {
               return html + '<hr class="is-invisible is-large">'
               +'<footer class="is-clearfix">'
-              +'2018 © Biings. All rights reserved. Last updated on {docsify-updated}'
+              +'2018 © Biings. All rights reserved. Last update {docsify-updated}'
               +'</footer>'
             });
           }

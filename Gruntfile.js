@@ -28,12 +28,12 @@ module.exports = function(grunt) {
             },
             default : {
                 files: {
-                    'bds-icons.min.svg': [
-                        'bds/*.svg',
-                        'bds/feather/*.svg'
+                    'build/bds-icons.svg': [
+                        'src/icons/*.svg',
+                        'src/icons/feather/*.svg'
                     ]
                 },
-            },
+            }
         },
 
         svgmin: {
@@ -56,8 +56,8 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'bds-icons.min.svg': 'bds-icons.min.svg',
-                    '../docs/media/bds-icons.min.svg': 'bds-icons.min.svg'
+                    'build/bds-icons.min.svg': 'build/bds-icons.svg',
+                    'docs/media/bds-icons.min.svg': 'build/bds-icons.svg',
                 }
             }
         }
