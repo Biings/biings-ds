@@ -4,8 +4,9 @@
   "description": "Biings Design System",
   "main": "build/bds.css",
   "scripts": {
-    "sass": "sass -I node_modules src/styles/bulma-bds/bulma.sass src/styles/bulma-bds/bulma.css",
-    "postcss": "postcss docs/bds.css --config src/styles/postcss.config.js -o build/bds.css",
+    "sass": "node_modules/node-sass/bin/node-sass --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma/bulma.css",
+    "postcssdoc": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o docs/bds.css",
+    "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css --map",
     "styles": "npm run sass && npm run postcss",
     "icons": "grunt",
     "build": "npm run styles && npm run icons"
@@ -34,6 +35,10 @@
     "email": "info@biings.com"
   },
   "homepage": "https://github.com/ForsysInteractive/biings-ds#readme",
+  "browserslist": [
+    "defaults",
+    "not ie <= 8"
+  ],
   "devDependencies": {
     "bulma": "^0.7.1",
     "cssnano": "^3.10.0",
@@ -45,9 +50,10 @@
     "grunt-contrib-requirejs": "~0.4.4",
     "grunt-svgmin": "~0.4.0",
     "grunt-svgstore": "^0.5.0",
+    "node-sass": "^4.9.0",
     "postcss": "^6.0.22",
     "postcss-cli": "^5.0.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0"
+    "postcss-import": "^11.1.0",
+    "postcss-preset-env": "^5.1.0"
   }
 }

@@ -1,15 +1,13 @@
 module.exports = {
     sourceMap: false,
     plugins: [
-        require('postcss-import'),
-        require('postcss-cssnext')({
-            browsers: [
-                "defaults"
-            ],
-            verbose:  true
+        require('postcss-import')({
+            sourceMap: false
         }),
+        require('postcss-preset-env'),
         require('cssnano')({
-            preset: 'default'
+            preset: 'default',
+            discardComments: {removeAll: true}
         })
     ]
 }

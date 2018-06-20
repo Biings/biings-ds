@@ -1,0 +1,83 @@
+/*
+    █▀▀█ ▀█▀ ▀█▀ ░█▄─░█ ░█▀▀█ ░█▀▀▀█ 
+    █▀▀▄ ░█─ ░█─ ░█░█░█ ░█─▄▄ ─▀▀▀▄▄ 
+    █▄▄█ ▄█▄ ▄█▄ ░█──▀█ ░█▄▄█ ░█▄▄▄█ 
+*/
+
+@import 'fontfaces.css';
+@import 'bulma/bulma.css';
+
+/* —— Element —— */
+
+.title
+{
+    letter-spacing: -.2px;
+}
+.title > sup
+{
+    font-weight: 400;
+}
+p.title,
+p.subtitle,
+.is-relaxed
+{
+    line-height: 1.5em;
+}
+p
+{
+    letter-spacing: -.01em;
+}
+
+.list
+{
+    margin: 1.5em .25em;
+}
+.list > li
+{
+    line-height: 1.375em;
+    position: relative;
+    padding: 0 0 .375em 1.75em;
+}
+ul.list > li::before
+{
+    position: absolute;
+    left: .25em;
+    content: '•';
+    color: var(--color-text3);
+}
+
+
+/* —— Helpers —— */
+
+.is-link
+{
+    transition: color .05s linear;
+}
+.is-link:hover
+{
+    color: var(--color-brand1);
+}
+
+.is-motionless
+{
+    transition: none;
+}
+
+.has-gradient-1
+{
+    background: linear-gradient(45deg, #815AC4 10%,#5A4C9F 90%);
+}
+
+/* — Modifiers — */
+.is-monospace
+{
+    font-family: 'Roboto Mono', monospace;
+}
+.has-text-brand-1
+{
+    color: var(--color-primary-txt);
+}
+.has-text-red
+{
+    color: var(--color-red);
+}
