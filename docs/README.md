@@ -28,8 +28,9 @@
     <div class="media-content">
         <p class="title is-6 has-text-weight-semibold">Make your changes</p>
         <ul class="list">
-            <li>**Styles** – Bulma-BDS Sass file or a components in `src/styles/bds/..`</li>
-            <li>**Icon set** – svg icon files in `src/icons/bds/`</li>
+            <li>**Styles** – all BDS components in `src/styles/..`</li>
+            <li>**Bulma for BDS** – Bulma Sass files in `src/styles/bulma/..`</li>
+            <li>**Icon set** – SVG icon files in `src/icons/..`</li>
         </ul>
     </div>
 </div>
@@ -42,9 +43,11 @@
         <pre data-lang="bash">npm run build</pre>
         <br>
         <br>
-        <p>You can build a specific part by calling the command directly</p><br>
+        <p>You can build a specific part by calling the command directly:</p><br>
         <pre data-lang="bash">npm run icons</pre>
         <br>
         <pre data-lang="bash">npm run styles</pre>
+        <br>
+        <pre data-lang="bash">npm run sass // only build Bulma for BDS</pre>
     </div>
 </div>
