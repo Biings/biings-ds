@@ -3,103 +3,62 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Base</h2>
+<h2 class="title is-4 has-text-weight-semibold">Brand</h2>
 
 <hr class="is-small">
 
-<div class="columns is-multiline is-gapless">
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #715EB8;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #393B4F;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFFFFF; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.075);"><br></div></div>
-    <div class="column is-3"></div>
-    <div class="column is-3"><br>**Brand–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#7E6ADE</span></div>
-    <div class="column is-3"><br>**Brand–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#393B4F</span></div>
-    <div class="column is-3"><br>**Brand–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFFFFF</span></div>
+<div class="columns is-multiline">
+    <div class="column is-3"><div class="notification has-background-primary"><br></div><span>primary</span><br>**Biings Violet**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#715EB8</span></div>
+    <div class="column is-3"><div class="notification has-background-light"><br></div><span>light</span><br>**Biings White**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#F9F8FC</span></div>
+    <div class="column is-3"><div class="notification has-background-dark"><br></div><span>dark</span><br>**Biings Black**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#363244</span></div>
     <div class="column is-12"><br></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #F9F9FD;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #F1F1F5;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #E1E2E9;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #CFCFD7;"><br></div></div>
-    <div class="column is-3"><br>**UI–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#F9F9FD</span></div>
-    <div class="column is-3"><br>**UI–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#F1F1F5</span></div>
-    <div class="column is-3"><br>**UI–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#E1E2E9</span></div>
-    <div class="column is-3"><br>**UI–4**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#CFCFD7</span></div>
-    <div class="column is-12"><br></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #333446;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #606272;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #848593;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #9C9DA7;"><br></div></div>
-    <div class="column is-3"><br>**Text–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#333446</span></div>
-    <div class="column is-3"><br>**Text–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#606272</span></div>
-    <div class="column is-3"><br>**Text–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#848593</span></div>
-    <div class="column is-3"><br>**Text–4**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#9C9DA7</span></div>
 </div>
 
-<hr class="is-large is-visible">
+<h2 class="title is-4 has-text-weight-semibold">Palette</h2>
 
-<h2 class="title is-4 has-text-weight-semibold">Support colors</h2>
-
-<hr class="is-small">
-
-<div class="columns is-multiline is-gapless">
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FF5A5F;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #06BE8F;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFC566;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #C9F0FF;"><br></div></div>
-    <div class="column is-3"><br>**Support–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FF5A5F</span></div>
-    <div class="column is-3"><br>**Support–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#06BE8F</span></div>
-    <div class="column is-3"><br>**Support–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFC566</span></div>
-    <div class="column is-3"><br>**Support–4**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#C9F0FF</span></div>
+<div class="columns is-multiline">
+    <div class="column is-3"><div class="notification has-background-cyan"><br></div><span>cyan</span><br>**Viking**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#78C0E0</span></div>
+    <div class="column is-3"><div class="notification has-background-blue"><br></div><span>blue</span><br>**Indigo**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#5A7BC9</span></div>
+    <div class="column is-3"><div class="notification has-background-purple"><br></div><span>purple</span><br>**Fuchsia Blue**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#715AC9</span></div>
+    <div class="column is-3"><div class="notification has-background-red"><br></div><span>red</span><br>**Froly**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#EF626C</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="notification has-background-turquoise"><br></div><span>turquoise</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#000000</span></div>
+    <div class="column is-3"><div class="notification has-background-green"><br></div><span>green</span><br>**Ocean Green**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#43AA8B</span></div>
+    <div class="column is-3"><div class="notification has-background-yellow"><br></div><span>yellow</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#000000</span></div>
+    <div class="column is-3"><div class="notification has-background-orange"><br></div><span>orange</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#000000</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="notification has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br></div><span>white</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFFFFF</span></div>
+    <div class="column is-3"><div class="notification has-background-white-bis"><br></div><span>white-bis</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#F9F8FC</span></div>
+    <div class="column is-3"><div class="notification has-background-white-ter"><br></div><span>white-ter</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#F6F5FA</span></div>
+    <div class="column is-3"><div class="notification has-background-grey-lighter"><br></div><span>grey-lighter</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#E9E8EC</span></div>
+    <div class="column is-12"></div>    
+    <div class="column is-3"><div class="notification has-background-grey-light"><br></div><span>grey-light</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#DAD9DF</span></div>
+    <div class="column is-3"><div class="notification has-background-grey"><br></div><span>grey</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#CBC9D3</span></div>
+    <div class="column is-3"><div class="notification has-background-grey-dark"><br></div><span>grey-dark</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#474259</span></div>
+    <div class="column is-3"><div class="notification has-background-grey-darker"><br></div><span>grey-darker</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#363244</span></div>
     <div class="column is-12"><br></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFACAF;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #B5F2E2;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FFE2B2;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #D3F3FF;"><br></div></div>
-    <div class="column is-3"><br>**Pastel–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFACAF</span></div>
-    <div class="column is-3"><br>**Pastel–2**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#B5F2E2</span></div>
-    <div class="column is-3"><br>**Pastel–3**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FFE2B2</span></div>
-    <div class="column is-3"><br>**Pastel–4**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#D3F3FF</span></div>
-    <div class="column is-12"><br></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #715FC7;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #5D7DC7;"><br></div></div>
-    <div class="column is-3"><div class="notification is-radiusless" style="background: #FF8D40;"><br></div></div>
-    <div class="column is-3"></div>
-    <div class="column is-3"><br>**Support–5**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#715FC7</span></div>
-    <div class="column is-3"><br>**Support–6**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#5D7DC7</span></div>
-    <div class="column is-3"><br>**Support–7**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#FF8D40</span></div>
-    <div class="column"></div>
+    <div class="column is-3"><div class="notification has-background-black-ter"><br></div><span>black-ter</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#302D3D</span></div>
+    <div class="column is-3"><div class="notification has-background-black-bis"><br></div><span>black-bis</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#25222F</span></div>
+    <div class="column is-3"><div class="notification has-background-black"><br></div><span>black</span><br>**name**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#15141B</span></div>
 </div>
 
 <hr class="is-large is-visible">
 
 <h2 class="title is-4 has-text-weight-semibold">Color modifiers</h2>
 
+Most elements and components have color variations thanks to modifiers with syntax `.is-[color]`, like `is-primary`, `is-dark` or `has-background-purple`.
+
+<hr class="is-small">
+
 <table class="table is-bordered">
 <thead>
-    <tr><th>Color</th>
-    <th>Class (text)</th>
-    <th>Class (background)</th></tr>
+    <tr><th>Target</th>
+    <th>Class pattern</th></tr>
 </thead>
 <tbody>
-    <tr><td class="has-text-black">black</td><td>`has-text-black`</td><td>`has-background-black`</td></tr>
-    <tr><td class="has-text-dark">dark</td><td>`has-text-dark`</td><td>`has-background-dark`</td></tr>
-    <tr><td class="has-text-primary">primary</td><td>`has-text-primary`</td><td>`has-background-primary`</td></tr>
-    <tr><td class="has-text-info">info</td><td>`has-text-info`</td><td>`has-background-info`</td></tr>
-    <tr><td class="has-text-link">link</td><td>`has-text-link`</td><td>`has-background-link`</td></tr>
-    <tr><td class="has-text-success">success</td><td>`has-text-success`</td><td>`has-background-success`</td></tr>
-    <tr><td class="has-text-warning">warning</td><td>`has-text-warning`</td><td>`has-background-warning`</td></tr>
-    <tr><td class="has-text-danger">danger</td><td>`has-text-danger`</td><td>`has-background-danger`</td></tr>
-    <tr><td class="has-text-black-bis">black-bis</td><td>`has-text-black-bis`</td><td>`has-background-black-bis`</td></tr>
-    <tr><td class="has-text-black-ter">black-ter</td><td>`has-text-black-ter`</td><td>`has-background-black-ter`</td></tr>
-    <tr><td class="has-text-grey-darker">grey-darker</td><td>`has-text-grey-darker`</td><td>`has-background-grey-darker`</td></tr>
-    <tr><td class="has-text-grey-dark">grey-dark</td><td>`has-text-grey-dark`</td><td>`has-background-grey-dark`</td></tr>
-    <tr><td class="has-text-grey">grey</td><td>`has-text-grey`</td><td>`has-background-grey`</td></tr>
-    <tr><td class="has-text-grey-light">grey-light</td><td>`has-text-grey-light`</td><td>`has-background-grey-light`</td></tr>
-    <tr><td class="has-text-grey-lighter">grey-lighter</td><td>`has-text-grey-lighter`</td><td>`has-background-grey-lighter`</td></tr>
-    <tr><td class="has-background-light has-text-white">light</td><td>`has-text-light`</td><td>`has-background-light`</td></tr>
-    <tr><td class="has-background-white-ter has-text-white">white-ter</td><td>`has-text-white-ter`</td><td>`has-background-white-ter`</td></tr>
-    <tr><td class="has-background-white-bis has-text-white">white-bis</td><td>`has-text-white-bis`</td><td>`has-background-white-bis`</td></tr>
-    <tr><td class="has-background-grey-lighter has-text-white">white</td><td>`has-text-white`</td><td>`has-background-white`</td></tr>
+    <tr><td>Text</td><td>`has-text-[color]`</td></tr>
+    <tr><td>Icon</td><td>`has-fill-[color]`</td></tr>
+    <tr><td>divs</td><td>`has-background-[color]`</td></tr>
 </tbody>
 </table>
 
@@ -111,12 +70,10 @@
 
 <div class="columns is-multiline is-gapless">
     <div class="column is-12"><div class="notification has-gradient-1"><br></div></div>
-    <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#815AC4</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-grey-dark has-text-monospace">#5A4C9F</span></div>
+    <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#915DBB</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-grey-dark has-text-monospace">#626CB7</span></div>
 </div>
 
-```css
-.has-gradient-1
-{
-    background: linear-gradient(45deg, #815AC4 10%,#5A4C9F 90%);
-}
-```
+    .has-gradient-1
+    {
+        background-image: linear-gradient(-90deg, #626CB7, #915DBB);
+    }

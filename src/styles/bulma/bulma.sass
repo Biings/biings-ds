@@ -4,32 +4,32 @@
 // Initial variables
 
 // Colors
-$primary: #715EB8 !default
+$cyan:         #78C0E0 !default
+$blue:         #5A7BC9 !default
+$purple:       #715AC9 !default
+$red:          #EF626C !default
+$orange:       #FF9505 !default
+$green:        #43AA8B !default
+$yellow:       #ffc15e !default
+$turquoise:    #5DD9C1 !default
 
-$cyan:         #C9F0FF !default
-$blue:         #5D7DC7 !default
-$purple:       #715FC7 !default
-$red:          #FF5A5F !default
-$orange:       #FF8D40 !default
-$green:        #06BE8F !default
-$yellow:       #FFC857 !default
-$turquoise:    #15C4C8 !default
+$black:        #15141B
+$black-bis:    #25222F
+$black-ter:    #302D3D
 
-$black:        #333446
-$black-bis:    #2D2F3F
-$black-ter:    #272937
+$grey-darker:  #363244 !default
+$grey-dark:    #474259 !default
+$grey:         #CBC9D3 !default
+$grey-light:   #DAD9DF !default
+$grey-lighter: #EEEDF3 !default
 
-$grey-darker:  #393B4F !default
-$grey-dark:    #848593 !default
-$grey:         #A9AAB5 !default
-$grey-light:   #CFCFD7 !default
-$grey-lighter: #E2E2E8 !default
-
-$white-ter:    #F9F9FD !default
-$white-bis:    #FAFAFC !default
+$white-ter:    #F6F5FA !default
+$white-bis:    #F9F8FC !default
 $white:        white !default
 
-$light: #F1F1F5 !default
+// Main colors
+$primary: #715EB8 !default
+$light: $white-bis !default
 $dark: $grey-darker !default
 
 $info: $cyan !default
@@ -48,7 +48,7 @@ $blue-invert: findColorInvert($blue) !default
 $purple-invert: findColorInvert($purple) !default
 $red-invert: findColorInvert($red) !default
 
-$primary-invert: $turquoise-invert !default
+$primary-invert: $purple-invert !default
 $info-invert: $cyan-invert !default
 $success-invert: $green-invert !default
 $warning-invert: $yellow-invert !default
@@ -59,13 +59,12 @@ $dark-invert: $light !default
 // General colors
 
 $background: $white-ter !default
-
 $border: $grey-lighter !default
 $border-hover: $grey-light !default
 
 // Text colors
 
-$text: $black
+$text: $grey-darker !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: $grey-darker !default
@@ -80,9 +79,9 @@ $pre-background: white
 
 // Link colors
 
-$link: $primary
+$link: $purple
 $link-invert: $primary-invert
-$link-visited: $text
+$link-visited: $primary
 
 $link-hover: $text
 $link-hover-border: $grey-light !default

@@ -5,7 +5,7 @@
   "main": "build/bds.css",
   "scripts": {
     "sass": "node_modules/node-sass/bin/node-sass --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma/bulma.css",
-    "postcssdoc": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o docs/bds.css",
+    "postcssdoc": "npm run sass && postcss src/styles/bds.css --config src/styles/postcss.config.js -o docs/bds.css",
     "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css --map",
     "styles": "npm run sass && npm run postcss",
     "icons": "grunt",
