@@ -33,12 +33,12 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 </div>
 <div class="box is-bordered">
     <div class="subtitle has-text-grey-dark is-6">**Bordered**</div>
-    </div>
-<div class="box is-ground">
-    <div class="subtitle has-text-grey-dark is-6">**Ground**</div>
 </div>
 <div class="box is-well">
     <div class="subtitle has-text-grey-dark is-6">**Well**</div>
+</div>
+<div class="box is-white">
+    <div class="subtitle has-text-grey-dark is-6">**White**</div>
 </div>
 <div class="box is-raised">
     <div class="subtitle has-text-grey-dark is-6">**Raised**</div>
@@ -62,7 +62,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
 
 <ul class="list">
     <li>`hover-to-box`</li>
-    <li>`hover-to-ground`</li>
+    <li>`hover-to-white`</li>
     <li>`hover-to-well`</li>
     <li>`hover-to-raised`</li>
     <li>`hover-to-floating`</li>
