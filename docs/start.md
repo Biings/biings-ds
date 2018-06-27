@@ -12,8 +12,8 @@
         <div class="level">
             <div class="media-left"><img src="media/style.png" width="70"/> &nbsp;&nbsp;</div>
             <div class="media-content">
-                <a href="#/doc-color" class="title is-3 is-link is-relaxed has-text-weight-light">Style</a><br>
-                <p>Guidance on usage and application for basic design elements.</p>
+                <a href="#/doc-color" class="title is-3 is-link is-relaxed has-text-weight-light">Colors</a><br>
+                <p>Color brings a design to life.</p>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
             <div class="media-left"><img src="media/appcomp.png" width="70"/> &nbsp;&nbsp;</div>
             <div class="media-content">
                 <a href="#/doc-button" class="title is-3 is-link is-relaxed has-text-weight-light">Components</a><br>
-                <p>Guidance on usage for app design elements.</p>
+                <p>Guidance on usage for app design building blocks.</p>
             </div>
         </div>
     </div>

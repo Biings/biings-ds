@@ -1,0 +1,35 @@
+// Sass to CSS4 vars
+:root
+{
+    --color-cyan: #{$cyan};
+    --color-blue: #{$blue};
+    --color-purple: #{$purple};
+    --color-red: #{$red};
+    --color-orange: #{$orange};
+    --color-green: #{$green};
+    --color-yellow: #{$yellow};
+    --color-turquoise: #{$turquoise};
+
+    --color-black: #{$black};
+    --color-black-bis: #{$black-bis};
+    --color-black-ter: #{$black-ter};
+
+    --color-grey-darker: #{$grey-darker};
+    --color-grey-dark: #{$grey-dark};
+    --color-grey: #{$grey};
+    --color-grey-light: #{$grey-light};
+    --color-grey-lighter: #{$grey-lighter};
+
+    --color-white-ter: #{$white-ter};
+    --color-white-bis: #{$white-bis};
+    --color-white: #{$white};
+
+    --color-primary: #{$primary};
+    --color-light: #{$light};
+    --color-dark: #{$dark};
+
+    --color-info: #{$info};
+    --color-success: #{$success};
+    --color-warning: #{$warning};
+    --color-danger: #{$danger};
+}
