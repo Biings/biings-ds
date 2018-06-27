@@ -7,7 +7,7 @@
 @import 'fontfaces.css';
 @import 'bulma/bulma.css';
 
-/* —— Element —— */
+/* —— Elements —— */
 
 .title
 {
@@ -80,4 +80,72 @@ ul.list > li::before
 .has-text-red
 {
     color: var(--color-red);
+}
+
+/* Avatar */
+.avatar
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.avatar > div
+{
+    display: table-cell;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: rgba(54, 50, 68,.1);
+}
+.avatar > img
+{
+    width: 100%;
+    height: 100%;
+}
+.avatar.is-small,
+.avatar.is-small > div
+{
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+.avatar.is-large,
+.avatar.is-large > div
+{
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.avatar.is-huge,
+.avatar.is-huge > div
+{
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.avatar + span
+{
+    margin-left: 1rem;
+}
+.avatar.is-small + span
+{
+    margin-left: 0.75rem;
+}
+.avatar.is-large + span
+{
+    margin-left: 1.4rem;
+}
+.avatar.is-huge + span
+{
+    margin-left: 1.9rem;
 }
