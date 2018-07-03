@@ -5254,6 +5254,33 @@ a.tag:hover {
 .has-background-pink {
   background-color: #cc5bb5; }
 
+.has-text-cyan {
+  color: #78C0E0; }
+
+.has-text-blue {
+  color: #5A7BC9; }
+
+.has-text-purple {
+  color: #735BCC; }
+
+.has-text-red {
+  color: #EF626C; }
+
+.has-text-orange {
+  color: #FF9505; }
+
+.has-text-green {
+  color: #5bcc72; }
+
+.has-text-yellow {
+  color: #ffc15e; }
+
+.has-text-turquoise {
+  color: #5DD9C1; }
+
+.has-text-pink {
+  color: #cc5bb5; }
+
 svg.has-fill-cyan,
 .icon.has-fill-cyan {
   fill: #78C0E0; }
