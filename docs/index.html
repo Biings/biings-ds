@@ -23,7 +23,7 @@
         name: '',
         themeColor: '#7E6ADE',
         coverpage: true,
-        executeScript: false,
+        executeScript: true,
         loadSidebar: '_sidebar.html',
         maxLevel: 0,
         homepage: 'start.md',
@@ -40,6 +40,18 @@
             });
           }
       ]
+    };
+
+    function openModal()
+    {
+      var modal = document.getElementById("js-modal");
+      modal.classList.add("is-active");
+    }
+
+    function closeModal()
+    {
+      var modal = document.getElementById("js-modal");
+      modal.classList.remove("is-active");
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
