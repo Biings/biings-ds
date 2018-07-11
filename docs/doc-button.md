@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Types & States</h2>
+<h2 class="title is-4">Types & States</h2>
 
 <table class="table is-fullwidth">
     <thead>
@@ -56,7 +56,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Sizes</h2>
+<h2 class="title is-4">Sizes</h2>
 <p>Use classes `is-small`, `is-medium` and `is-large` to change the size of any button.</p>
 <br>
 <span class="button is-small">Small</span> &nbsp; 

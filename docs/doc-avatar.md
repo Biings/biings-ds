@@ -18,7 +18,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Sizes</h2>
+<h2 class="title is-4">Sizes</h2>
 Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar.
 <hr>
 <div class="box">
@@ -29,9 +29,9 @@ Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar
     </div>
 </div>
 
-<hr class="is-visible">
+<hr class="is-visible is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Photo Avatar</h2>
+<h2 class="title is-4">Photo Avatar</h2>
 Avatars can nest an image to act as the person's photo.<br><br>
 
 <div class="box is-well is-relaxed is-marginless">

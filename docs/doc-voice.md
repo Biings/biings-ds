@@ -5,12 +5,14 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Do's & Dont's</h2>
+<h2 class="title is-4">Do's & Dont's</h2>
 
 These guidelines apply for developers working with Biings applications and public facing web pages.
 
-<div class="section">
-    <h3 class="subtitle is-5 has-text-grey-darker">Use simple tense</h3>
+<br><br>
+
+<div class="box is-relaxed is-bordered">
+    <h3 class="subtitle is-5 has-text-weight-semibold has-text-grey-dark">Use simple tense</h3>
     <table class="table is-fullwidth">
     <thead>
         <tr>
@@ -29,8 +31,9 @@ These guidelines apply for developers working with Biings applications and publi
         </tr>
     </tbody>
     </table>
-    <hr class="is-large">
-    <h3 class="subtitle is-5 has-text-grey-darker">Use active voice</h3>
+</div>
+<div class="box is-relaxed is-bordered">
+    <h3 class="subtitle is-5 has-text-weight-semibold has-text-grey-dark">Use active voice</h3>
     <table class="table is-fullwidth">
     <thead>
         <tr>

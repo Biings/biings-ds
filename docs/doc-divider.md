@@ -5,8 +5,6 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Usage</h2>
-
 <div class="box is-well is-relaxed is-marginless">
     <hr class="is-visible">
 </div>
@@ -16,7 +14,7 @@
 
 <hr>
 
-<h2 class="title is-4 has-text-weight-semibold">Variations</h2>
+<h2 class="title is-4">Variations</h2>
 
 <ul class="list">
     <li>By default a divider uses negative space to create a seperation. Use the `is-visible` class to show an explicit line division.</li>

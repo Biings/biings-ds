@@ -3,10 +3,6 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Example</h2>
-
-<hr class="is-small">
-
 <div class="box is-well is-marginless">
     <div class="menu">
         <ul class="menu-list">

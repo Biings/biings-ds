@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Report-Copy-3" transform="translate(-773.000000, -302.000000)" fill="#393B4F" fill-rule="nonzero">
+            <path d="M785.292893,302.292893 C785.683418,301.902369 786.316582,301.902369 786.707107,302.292893 C787.097631,302.683418 787.097631,303.316582 786.707107,303.707107 L780.707107,309.707107 C780.316582,310.097631 779.683418,310.097631 779.292893,309.707107 L773.292893,303.707107 C772.902369,303.316582 772.902369,302.683418 773.292893,302.292893 C773.683418,301.902369 774.316582,301.902369 774.707107,302.292893 L780,307.585786 L785.292893,302.292893 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

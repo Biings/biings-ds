@@ -8,9 +8,9 @@ html
 
 pre
 {
-    border: 2px solid rgba(113,95,199,.1);
-    border-left-width: 6px;
-    border-radius: 1px;
+    border: 1px solid rgba(71, 66, 89, 0.15);
+    border-left-width: 8px;
+    border-radius: 0;
 }
 pre code
 {
@@ -210,6 +210,7 @@ body.sticky .sidebar-toggle span
 .token.tag
 {
     color: #2973b7;
+    padding: 0;
 }
 
 .token.string
@@ -226,6 +227,7 @@ body.sticky .sidebar-toggle span
 .token.attr-name
 {
     color: #2973b7;
+    padding-left: 0.7em;
 }
 
 .language-css .token.string,

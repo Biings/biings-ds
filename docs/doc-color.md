@@ -3,7 +3,7 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Brand</h2>
+<h2 class="title is-4">Brand</h2>
 
 <hr class="is-small">
 
@@ -11,10 +11,11 @@
     <div class="column is-3"><div class="notification has-background-primary"><br></div><span>primary</span><br>**Biings Violet**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#715EB8</span></div>
     <div class="column is-3"><div class="notification has-background-light"><br></div><span>light</span><br>**Biings White**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#F9F8FC</span></div>
     <div class="column is-3"><div class="notification has-background-dark"><br></div><span>dark</span><br>**Biings Black**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#363244</span></div>
-    <div class="column is-12"><br></div>
 </div>
 
-<h2 class="title is-4 has-text-weight-semibold">Palette</h2>
+<hr class="is-visible is-large">
+
+<h2 class="title is-4">Palette</h2>
 
 <div class="columns is-multiline">
     <div class="column is-3"><div class="notification has-background-cyan"><br></div><span>cyan</span><br>**Viking**<br><span class="subtitle is-6 has-text-grey-dark has-text-monospace">#78C0E0</span></div>
@@ -49,7 +50,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Color modifiers</h2>
+<h2 class="title is-4">Color modifiers</h2>
 
 Most elements and components have color variations thanks to modifiers with syntax `.is-[color]`, like `is-primary`, `is-dark` or `has-background-purple`.
 
@@ -69,7 +70,7 @@ Most elements and components have color variations thanks to modifiers with synt
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Gradients</h2>
+<h2 class="title is-4">Gradients</h2>
 
 <hr class="is-invisible is-small">
 

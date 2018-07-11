@@ -3,9 +3,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Usage</h2>
-
-<div class="columns">
+<div class="bo columns">
     <div class="column is-two-thirds">
         <nav class="panel">
             <div class="panel-tabs is-size-6 has-text-weight-semibold">

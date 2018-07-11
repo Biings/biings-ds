@@ -5,8 +5,6 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Basic usage</h2>
-
 <div class="box is-well is-marginless is-relaxed">
 <div class="columns">
     <div class="column">

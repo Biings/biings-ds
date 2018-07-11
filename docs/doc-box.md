@@ -5,8 +5,6 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Basic usage</h2>
-
 <div class="box is-well is-marginless">
     <div class="box is-ground">
         <div class="box is-floating">Boxed content about an entity or subject.</div>
@@ -15,13 +13,13 @@
 
 ```
 <div class="box is-floating hover-to-popping">
-        <!-- Boxed content.. -->
+    <!-- Boxed content.. -->
 </div>
 ```
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Box depths</h2>
+<h2 class="title is-4">Box depths</h2>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
@@ -56,7 +54,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Depth transition</h2>
+<h2 class="title is-4">Depth transition</h2>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -82,12 +80,12 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Link box</h2>
+<h2 class="title is-4">Link box</h2>
 
 Add class `is-link` to make a box behave like a link.
 
-<div class="box is-well is-marginless">
-    <div class="box is-ground">
-        <div class="box is-floating">Boxed content about an entity or subject.</div>
-    </div>
+<br>
+
+<div class="box is-well is-relaxed">
+    <div class="box is-white is-link">Boxed content about an entity or subject.</div>
 </div>

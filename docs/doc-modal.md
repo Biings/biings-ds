@@ -1,11 +1,10 @@
 <h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Foundation</h6><h1 class="title is-1 has-text-weight-bold">Modal</h1>
-<p class="subtitle is-5"><span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Keep in mind that a Modal strongly interrupts user workflow.</p>
+<p class="subtitle is-5"><span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task.</span></p>
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4 has-text-weight-semibold">Example</h2>
 
-<button onclick="openModal()" class="button is-medium is-primary">Click to Open</button>
+<button onclick="openModal()" class="button is-rounded is-outlined is-primary">Open Modal</button>
 
 <hr class="is-small">
 
@@ -28,6 +27,9 @@
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
+
+
+!> Keep in mind that a Modal strongly interrupts user workflow.
 
 
 <hr class="is-large ">

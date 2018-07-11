@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<h4 class="title is-4 has-text-weight-semibold">Font family</h4>
+<h4 class="title is-4">Font family</h4>
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <strong>Averta</strong> as its main font family</li>
@@ -15,7 +15,9 @@
 
 <hr class="is-large is-visible">
 
-<h4 class="title is-4 is-spaced has-text-weight-semibold">Scales</h4>
+<h4 class="title is-4 is-spaced">Scales</h4>
+
+<hr>
 
 <h1 class="title is-1">Hero Title 1</h1><div class="subtitle is-6 has-text-grey">Hero title (website only)</div>
 <br>
