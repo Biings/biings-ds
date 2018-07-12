@@ -14,7 +14,7 @@ pre
 }
 pre code
 {
-    font-size: .85em;
+    font-size: .85em !important;
 }
 code .tag
 {
@@ -45,6 +45,11 @@ section.content
 {
     padding: 30px 30px 40px;
     max-width: 815px;
+}
+
+.markdown-section hr
+{
+    margin: 1.5rem 0;
 }
 .markdown-section p.tip
 {
@@ -227,7 +232,6 @@ body.sticky .sidebar-toggle span
 .token.attr-name
 {
     color: #2973b7;
-    padding-left: 0.7em;
 }
 
 .language-css .token.string,

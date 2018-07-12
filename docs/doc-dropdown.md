@@ -16,15 +16,16 @@
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
                 <a class="dropdown-item">This works</a>
-                <a class="dropdown-item">Without</a>
-                <a class="dropdown-item is-active">Any</a>
+                <a class="dropdown-item is-active">Without</a>
+                <a class="dropdown-item">Any</a>
+                <div class="dropdown-divider"></div>
                 <a class="dropdown-item">Javascript &nbsp;😉</a>
             </div>
         </div>
     </div>
 
 </div>
-```
+```html
 <div class="dropdown is-hoverable">
     <div class="dropdown-trigger">
         <div class="button">Default Dropdown</div>
@@ -34,6 +35,7 @@
             <a class="dropdown-item">This works</a>
             <a class="dropdown-item">Without</a>
             <a class="dropdown-item is-active">Any</a>
+            <hr class="dropdown-divider">
             <a class="dropdown-item">Javascript</a>
         </div>
     </div>
