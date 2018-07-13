@@ -267,7 +267,7 @@ a {
 code {
   background-color: rgba(113, 95, 199, 0.07);
   color: #735BCC;
-  font-size: 0.8em;
+  font-size: 0.875em;
   font-weight: 400;
   padding: 0.1em 0.4em; }
 
@@ -5283,6 +5283,9 @@ hr.is-large {
   width: 1em;
   height: 1em; }
 
+.button.is-beefy {
+  padding: 1.4em 1.8em; }
+
 /* Box */
 .box {
   transition: all .25s ease-out; }
@@ -5314,7 +5317,7 @@ hr.is-large {
 .box.is-well,
 .box.hover-to-well:hover {
   transition-duration: .3s;
-  background-color: rgba(113, 95, 199, 0.04); }
+  background-color: rgba(113, 94, 184, 0.04); }
 
 .box.is-raised,
 .box.hover-to-raised:hover {

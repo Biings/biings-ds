@@ -9,12 +9,12 @@ html
 pre
 {
     border: 1px solid rgba(71, 66, 89, 0.15);
-    border-left-width: 8px;
+    border-left-width: 9px;
     border-radius: 0;
 }
 pre code
 {
-    font-size: .85em !important;
+    font-size: 1em !important;
 }
 code .tag
 {
@@ -46,11 +46,11 @@ section.content
     padding: 30px 30px 40px;
     max-width: 815px;
 }
-
-.markdown-section hr
+.markdown-section>*
 {
-    margin: 1.5rem 0;
+    font-size: initial;
 }
+
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;

@@ -1,6 +1,6 @@
 <h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Components</h6><h1 class="title is-1 has-text-weight-bold">Button</h1>
 <p class="subtitle is-5">
-    The <span class="has-text-weight-semibold">button</span> allow users to take actions, and make choices.
+    <span class="has-text-weight-semibold">Buttons</span> allow users to take actions, and make choices.
 </p>
 
 <hr class="is-large is-visible">
@@ -57,12 +57,21 @@
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Sizes</h2>
-<p>Use classes `is-small`, `is-medium` and `is-large` to change the size of any button.</p>
+
+Use classes `is-small`, `is-medium` and `is-large` to change the size of any button.
+
 <br>
 <span class="button is-small">Small</span> &nbsp; 
 <span class="button">Normal</span> &nbsp; 
 <span class="button is-medium">Medium</span> &nbsp; 
 <span class="button is-large">Large</span>
+<hr class="is-small">
+
+To beef up a button, use `is-beefy`.
+
+<br>
+<div class="button is-beefy is-primary">Beefy Button</div>
+
 
 <hr class="is-large is-visible">
 
