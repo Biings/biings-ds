@@ -14,7 +14,7 @@ pre
 }
 pre code
 {
-    font-size: 1em !important;
+    font-size: 15px !important;
 }
 code .tag
 {
@@ -77,7 +77,7 @@ aside.sidebar
     padding-top: 5rem;
     width: 270px;
     border-right: none;
-    background-color: #f9f8fc;
+    background-color: #F9F8FC;
     color: #393b4f;
     font-size: .75em;
 }
