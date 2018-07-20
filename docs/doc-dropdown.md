@@ -97,6 +97,35 @@ Use the class `.is-active` if you want to control the dropdown with javascript (
 
 </div>
 
+<br><br>
+
+<hr class="is-visible is-large">
+
+<h2 class="title is-4">Searchable list</h2>
+
+You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
+
+<hr class="is-small">
+
+<div class="dropdown is-active">
+    <div class="dropdown-trigger">
+        <div class="button">Choose a value</div>
+    </div>
+    <div class="dropdown-menu" id="dropdown-menu" role="menu">
+        <div class="dropdown-content">
+            <div class="dropdown-item ">
+                <input class="input is-small is-paddingless has-background-white" type="text" placeholder="Search the list">
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item is-large">Show</a>
+            <a class="dropdown-item is-active">results</a>
+            <a class="dropdown-item">here</a>
+        </div>
+    </div>
+</div>
+
+<hr class="is-large">
+<br>
 <hr class="is-large">
 
 <div class="box is-bordered">

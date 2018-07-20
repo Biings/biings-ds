@@ -2489,8 +2489,8 @@ a.box:active {
 
 .input,
 .textarea {
-  background-color: white;
-  border-color: #DAD9DF;
+  background-color: rgba(203, 201, 211, 0.18);
+  border-color: tranparent;
   color: #363244;
   box-shadow: none;
   max-width: 100%;
@@ -2510,13 +2510,13 @@ a.box:active {
   .input:hover, .input.is-hovered,
   .textarea:hover,
   .textarea.is-hovered {
-    border-color: #DAD9DF; }
+    border-color: tranparent; }
   .input:focus, .input.is-focused, .input:active, .input.is-active,
   .textarea:focus,
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
-    border-color: #a99ed4;
+    border-color: tranparent;
     box-shadow: 0 0 0 0 rgba(71, 66, 89, 0.05); }
   .input[disabled],
   .textarea[disabled] {
@@ -2709,8 +2709,8 @@ a.box:active {
     border-radius: 290486px;
     padding-left: 1em; }
   .select select {
-    background-color: white;
-    border-color: #DAD9DF;
+    background-color: rgba(203, 201, 211, 0.18);
+    border-color: tranparent;
     color: #363244;
     cursor: pointer;
     display: block;
@@ -2726,9 +2726,9 @@ a.box:active {
     .select select:-ms-input-placeholder {
       color: rgba(54, 50, 68, 0.3); }
     .select select:hover, .select select.is-hovered {
-      border-color: #DAD9DF; }
+      border-color: tranparent; }
     .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
-      border-color: #a99ed4;
+      border-color: tranparent;
       box-shadow: 0 0 0 0 rgba(71, 66, 89, 0.05); }
     .select select[disabled] {
       background-color: white;
@@ -5260,9 +5260,9 @@ hr.is-large {
 
 /* Button */
 .button {
-  font-weight: 500;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.15s linear, transform 0.15s linear; }
+  font-weight: 500;
+  transition: box-shadow .15s linear, transform .15s linear; }
 
 .button:not(:active) {
   box-shadow: none; }
@@ -5272,8 +5272,8 @@ hr.is-large {
   transform: translateY(-1px); }
 
 .button:active {
-  transition-duration: 0;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05); }
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+  transition-duration: 0; }
 
 .has-addons .button,
 .dropdown .button {
@@ -5291,7 +5291,7 @@ hr.is-large {
   transition: all .25s ease-out; }
 
 .box.is-small {
-  padding: 0.6rem 0.8rem; }
+  padding: .6rem .8rem; }
 
 .box.is-large,
 .box.is-relaxed {
@@ -5311,13 +5311,13 @@ hr.is-large {
 
 .box.is-white,
 .box.hover-to-white:hover {
-  transition-duration: .3s;
-  background-color: white; }
+  background-color: white;
+  transition-duration: .3s; }
 
 .box.is-well,
 .box.hover-to-well:hover {
-  transition-duration: .3s;
-  background-color: rgba(113, 94, 184, 0.04); }
+  background-color: rgba(113, 94, 184, 0.04);
+  transition-duration: .3s; }
 
 .box.is-raised,
 .box.hover-to-raised:hover {
@@ -5326,22 +5326,22 @@ hr.is-large {
 
 .box.is-floating,
 .box.hover-to-floating:hover {
-  transition-duration: .3s;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition-duration: .3s; }
 
 .box.is-popping,
 .box.hover-to-popping:hover {
-  transition-duration: .4s;
   background-color: white;
-  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+  transition-duration: .4s; }
 
 /* Menu */
 .menu-label {
-  font-size: 1em;
-  font-weight: 700;
+  text-transform: none;
   letter-spacing: 0;
-  text-transform: none; }
+  font-weight: 700;
+  font-size: 1em; }
 
 .menu-label:not(:last-child) {
   margin-bottom: .5em; }
@@ -5371,13 +5371,13 @@ svg.is-grey-dark {
   padding-right: 3rem; }
 
 .dropdown:not(.is-iconless):after {
-  content: '⌞';
   position: absolute;
-  right: 0.6em;
-  top: 0.075em;
-  font-size: 1.8rem;
-  font-weight: 500;
+  top: .075em;
+  right: .6em;
   color: #CBC9D3;
+  content: '⌞';
+  font-weight: 500;
+  font-size: 1.8rem;
   transform: rotate(-45deg);
   pointer-events: none; }
 
@@ -5390,23 +5390,79 @@ svg.is-grey-dark {
 .panel > a:last-child {
   border-radius: 0 0 2px 2px; }
 
+/* Input field */
 .input {
-  transition: border-color 0.1s linear;
-  padding: calc(1.4375em - 1px) calc(.75em - 1px); }
+  padding: calc(1.4375em - 1px) calc(.75em - 1px);
+  transition: background-color .1s linear; }
+
+.textarea {
+  padding-left: calc(.75em - 1px);
+  transition: background-color .1s linear; }
+
+.input:focus,
+.textarea:focus {
+  background-color: rgba(203, 201, 211, 0.3); }
 
 .field:not(:last-child) {
   margin-bottom: 1rem; }
 
 .label {
-  font-size: 0.75rem;
-  letter-spacing: 0.5px;
-  text-transform: uppercase; }
-  .label.is-small {
-    font-size: 0.625rem; }
-  .label.is-medium {
-    font-size: 0.875rem; }
-  .label.is-large {
-    font-size: 1rem; }
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: .75rem; }
+
+.label.is-small {
+  font-size: .625rem; }
+
+.label.is-medium {
+  font-size: .875rem; }
+
+.label.is-large {
+  font-size: 1rem; }
+
+/* Modal */
+.modal-content,
+.modal-background {
+  will-change: opacity;
+  will-change: transform; }
+
+.modal.is-active > .modal-content {
+  animation: shrinkIn .15s ease-out 0 1; }
+
+.modal.is-active > .modal-background {
+  animation: fadeIn .2s ease-out 0 1; }
+
+.modal.is-closing > .modal-content {
+  animation: shrinkOut .25s ease-out 0 1; }
+
+.modal.is-closing > .modal-background {
+  animation: fadeIn .25s ease-out 0 1; }
+
+@keyframes shrinkIn {
+  0% {
+    opacity: .1;
+    transform: scale(1.1); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes shrinkOut {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 
 :root {
   --color-cyan: #78C0E0;

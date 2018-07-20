@@ -18,7 +18,7 @@
 
 <h2 class="title is-4">Form fields</h2>
 
-<form class="box is-well is-relaxed is-marginless" spellcheck="false">
+<form class="box is-bordered is-relaxed is-marginless" spellcheck="false">
     <div class="field">
         <label for="demofield" class="label">With a label</label>
         <input id="demofield" class="input is-radiusless" type="text" placeholder="Radiusless input">

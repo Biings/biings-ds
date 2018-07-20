@@ -104,7 +104,8 @@ svg.has-fill-white-bis,
 svg.has-fill-white,
 .icon.has-fill-white
     fill: $white
- 
+
+
 /* Titles */
 .title.is-5,
 .title.is-6
@@ -113,27 +114,31 @@ svg.has-fill-white,
 
 /* Rules / Lines */
 hr:not(.is-visible):not(.dropdown-divider)
-    visibility: hidden !important;
+    visibility: hidden !important
+
 
 hr.is-small
-    margin: .9em 0;
+    margin: .9em 0
+
 
 hr.is-large
-    margin: 3em 0;
+    margin: 3em 0
+
+
 
 /* Button */
 .button
-    font-weight: 500
     box-shadow: 0 1px 2px rgba(0,0,0,.05)
-    transition: box-shadow 0.15s linear, transform 0.15s linear
+    font-weight: 500
+    transition: box-shadow .15s linear, transform .15s linear
 .button:not(:active)
     box-shadow: none
 .button:hover:not(:active):not(.is-outlined):not(.is-rounded):not(.is-light)
     box-shadow: 0 4px 8px rgba(0,0,0,.05)
     transform: translateY(-1px)
 .button:active
-    transition-duration: 0
     box-shadow: 0 0 2px rgba(0,0,0,.05)
+    transition-duration: 0
 .has-addons .button,
 .dropdown .button
     transform: translateY(0) !important
@@ -142,18 +147,22 @@ hr.is-large
     height: 1em
 
 .button.is-beefy
-    padding: 1.4em 1.8em;
+    padding: 1.4em 1.8em
+
+
 
 /* Box */
 .box
-    transition: all .25s ease-out;
+    transition: all .25s ease-out
+
 
 .box.is-small
-    padding: 0.6rem 0.8rem
+    padding: .6rem .8rem
 
 .box.is-large,
 .box.is-relaxed
-    padding: 2.875em 3em;
+    padding: 2.875em 3em
+
 
 .box.is-link
     cursor: pointer
@@ -161,83 +170,103 @@ hr.is-large
     box-shadow: 0 0 0 1px $primary
 
 .box.is-bordered
-    box-shadow: 0 0 0 1px rgba(0,0,0,.10);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.10)
+
 
 .box.hover-to-box:hover
-    background: white;
+    background: white
+
 
 .box.is-white,
 .box.hover-to-white:hover
-    transition-duration: .3s;
-    background-color: white;
+    background-color: white
+    transition-duration: .3s
+
 
 .box.is-well,
 .box.hover-to-well:hover
-    transition-duration: .3s;
-    background-color: rgba(113, 94, 184,.04);
+    background-color: rgba(113, 94, 184,.04)
+    transition-duration: .3s
+
 
 .box.is-raised,
 .box.hover-to-raised:hover
-    background-color: white;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.10);
+    background-color: white
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.10)
+
 
 .box.is-floating,
 .box.hover-to-floating:hover
-    transition-duration: .3s;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.10);
+    background-color: white
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.10)
+    transition-duration: .3s
+
 
 .box.is-popping,
 .box.hover-to-popping:hover
-    transition-duration: .4s;
-    background-color: white;
-    box-shadow: 0 12px 24px 0 rgba(0,0,0,.10);
+    background-color: white
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,.10)
+    transition-duration: .4s
+
 
 
 /* Menu */
 .menu-label
-    font-size: 1em;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-transform: none;
+    text-transform: none
+    letter-spacing: 0
+    font-weight: 700
+    font-size: 1em
+
 
 .menu-label:not(:last-child)
-    margin-bottom: .5em;
+    margin-bottom: .5em
+
 
 .menu-list a
-    font-weight: 500;
+    font-weight: 500
+
 
 .menu-list a.is-active
-    font-weight: 600;
-    font-size: 1.1em;
+    font-weight: 600
+    font-size: 1.1em
+
+
 
 /* Icon */
 svg.icon
-    fill: $grey-darker;
+    fill: $grey-darker
+
 
 svg.is-grey
-    fill: $grey;
+    fill: $grey
+
 
 svg.is-grey-dark
-    fill: $grey-dark;
+    fill: $grey-dark
+
+
 
 /* Dropdown */
 .dropdown-item.is-active
-    font-weight: 500;
+    font-weight: 500
+
 
 .dropdown:not(.is-iconless) .button
-    padding-right: 3rem;
+    padding-right: 3rem
+
 
 .dropdown:not(.is-iconless):after
-    content: '⌞';
-    position: absolute;
-    right: 0.6em;
-    top: 0.075em;
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: $grey;
-    transform: rotate(-45deg);
-    pointer-events: none;
+    position: absolute
+    top: .075em
+    right: .6em
+    color: $grey
+    content: '⌞'
+    font-weight: 500
+    font-size: 1.8rem
+    transform: rotate(-45deg)
+    pointer-events: none
+
+
 
 /* Panel */
 .panel > div:first-child,
@@ -247,24 +276,76 @@ svg.is-grey-dark
 .panel > a:last-child
     border-radius: 0 0 $box-radius $box-radius
 
+
+/* Input field */
 .input
-    transition: border-color 0.1s linear
     padding: calc(1.4375em - 1px) calc(.75em - 1px)
+    transition: background-color .1s linear
+.textarea
+    padding-left: calc(.75em - 1px)
+    transition: background-color .1s linear
+
+.input:focus,
+.textarea:focus
+    background-color: rgba($grey, .3)
 
 .field:not(:last-child)
     margin-bottom: 1rem
 
 .label
-  font-size: 0.75rem
-  letter-spacing: 0.5px
-  text-transform: uppercase
-  // Sizes
-  &.is-small
-    font-size: 0.625rem
-  &.is-medium
-    font-size: 0.875rem
-  &.is-large
+    text-transform: uppercase
+    letter-spacing: .5px
+    font-size: .75rem
+.label.is-small
+    font-size: .625rem
+.label.is-medium
+    font-size: .875rem
+.label.is-large
     font-size: 1rem
 
 
-@import "css4-vars.scss"
+/* Modal */
+.modal-content,
+.modal-background
+    will-change: opacity
+    will-change: transform
+
+.modal.is-active > .modal-content
+    animation: shrinkIn .15s ease-out 0 1
+
+.modal.is-active > .modal-background
+    animation: fadeIn .2s ease-out 0 1
+
+.modal.is-closing > .modal-content
+    animation: shrinkOut .25s ease-out 0 1
+
+.modal.is-closing > .modal-background
+    animation: fadeIn .25s ease-out 0 1
+
+@keyframes shrinkIn
+    0%
+        opacity: .1
+        transform: scale(1.1)
+    100%
+        opacity: 1
+        transform: scale(1)
+
+@keyframes fadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+@keyframes shrinkOut
+    0%
+        transform: scale(1)
+    100%
+        transform: scale(1.1)
+
+@keyframes fadeOut
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+
+@import 'css4-vars.scss'
