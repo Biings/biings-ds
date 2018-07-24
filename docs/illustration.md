@@ -13,6 +13,7 @@
 <div class="columns is-multiline has-text-centered">
     <div class="column is-4 box"><img src="media/illustrations/people-duo.svg" width="180"><div class="subtitle is-6">People</div></div>
     <div class="column is-4 box"><img src="media/illustrations/bubbles-duo.svg" width="180"><div class="subtitle is-6">Bubbles</div></div>
+    <div class="column is-4 box"><img src="media/illustrations/vacant-duo.svg" width="180"><div class="subtitle is-6">Vacant</div></div>
 </div>
 
 <hr class="is-large is-visible">
