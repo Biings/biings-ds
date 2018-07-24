@@ -30,6 +30,7 @@ module.exports = function(grunt) {
                 files: {
                     'build/bds-icons.svg': [
                         'src/icons/*.svg',
+                        'src/glyphs/*.svg',
                         'src/icons/feather/*.svg'
                     ]
                 },
