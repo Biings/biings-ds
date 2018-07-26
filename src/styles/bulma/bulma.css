@@ -1780,10 +1780,10 @@ a.box:active {
     color: #403d4b;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
-      background-color: white;
+      background-color: transparent;
       color: inherit; }
     .button.is-text:active, .button.is-text.is-active {
-      background-color: #f2f2f2;
+      background-color: rgba(0, 0, 0, 0);
       color: inherit; }
     .button.is-text[disabled] {
       background-color: transparent;

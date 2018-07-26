@@ -47,8 +47,8 @@ Glyphs should <u>not exceed 25 pixels</u> (width and height) and should always b
 <hr class="is-small">
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-weight-semibold is-monospace has-text-grey-dark">
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>
 </div>
