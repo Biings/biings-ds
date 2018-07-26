@@ -1,111 +1,5 @@
 /* —— Bulma BDS Extend —— */
 
-$pink: #cc5bb5 !default
-
-// Coloring
-.has-background-cyan
-    background-color: $cyan
-.has-background-blue
-    background-color: $blue
-.has-background-purple
-    background-color: $purple
-.has-background-red
-    background-color: $red
-.has-background-orange
-    background-color: $orange
-.has-background-green
-    background-color: $green
-.has-background-yellow
-    background-color: $yellow
-.has-background-turquoise
-    background-color: $turquoise
-.has-background-pink
-    background-color: $pink
-
-.has-text-cyan
-    color: $cyan
-.has-text-blue
-    color: $blue
-.has-text-purple
-    color: $purple
-.has-text-red
-    color: $red
-.has-text-orange
-    color: $orange
-.has-text-green
-    color: $green
-.has-text-yellow
-    color: $yellow
-.has-text-turquoise
-    color: $turquoise
-.has-text-pink
-    color: $pink
-
-svg.has-fill-cyan,
-.icon.has-fill-cyan
-    fill: $cyan
-svg.has-fill-blue,
-.icon.has-fill-blue
-    fill: $blue
-svg.has-fill-purple,
-.icon.has-fill-purple
-    fill: $purple
-svg.has-fill-red,
-.icon.has-fill-red
-    fill: $red
-svg.has-fill-orange,
-.icon.has-fill-orange
-    fill: $orange
-svg.has-fill-green,
-.icon.has-fill-green
-    fill: $green
-svg.has-fill-yellow,
-.icon.has-fill-yellow
-    fill: $yellow
-svg.has-fill-turquoise,
-.icon.has-fill-turquoise
-    fill: $turquoise
-svg.has-fill-pink,
-.icon.has-fill-pink
-    fill: $pink
-svg.has-fill-primary,
-.icon.has-fill-primary
-    fill: $primary
-svg.has-fill-black,
-.icon.has-fill-black
-    fill: $black
-svg.has-fill-black-bis,
-.icon.has-fill-black-bis
-    fill: $black-bis
-svg.has-fill-black-ter,
-.icon.has-fill-black-ter
-    fill: $black-ter
-svg.has-fill-grey-darker,
-.icon.has-fill-grey-darker
-    fill: $grey-darker
-svg.has-fill-grey-dark,
-.icon.has-fill-grey-dark
-    fill: $grey-dark
-svg.has-fill-grey,
-.icon.has-fill-grey
-    fill: $grey
-svg.has-fill-grey-light,
-.icon.has-fill-grey-light
-    fill: $grey-light
-svg.has-fill-grey-lighter,
-.icon.has-fill-grey-lighter
-    fill: $grey-lighter
-svg.has-fill-white-ter,
-.icon.has-fill-white-ter
-    fill: $white-ter
-svg.has-fill-white-bis,
-.icon.has-fill-white-bis
-    fill: $white-bis
-svg.has-fill-white,
-.icon.has-fill-white
-    fill: $white
-
-
 /* Titles */
 .title.is-5,
 .title.is-6
@@ -128,26 +22,34 @@ hr.is-large
 
 /* Button */
 .button
-    box-shadow: 0 1px 2px rgba(0,0,0,.05)
     font-weight: 500
-    transition: box-shadow .15s linear, transform .15s linear
 .button:not(:active)
     box-shadow: none
-.button:hover:not(:active):not(.is-outlined):not(.is-rounded):not(.is-light)
-    box-shadow: 0 4px 8px rgba(0,0,0,.05)
-    transform: translateY(-1px)
-.button:active
-    box-shadow: 0 0 2px rgba(0,0,0,.05)
-    transition-duration: 0
-.has-addons .button,
-.dropdown .button
-    transform: translateY(0) !important
 .button .icon
     width: 1em
     height: 1em
 
 .button.is-beefy
     padding: 1.4em 1.8em
+    box-shadow: 0 1px 2px rgba(0,0,0,.05)
+    transition: box-shadow .15s linear, transform .15s linear
+.button.is-beefy:hover
+    box-shadow: 0 4px 8px rgba(0,0,0,.05)
+    transform: translateY(-1px)
+.button.is-beefy:active
+    box-shadow: 0 0 2px rgba(0,0,0,.05)
+    transition-duration: 0
+
+.button.is-text
+    text-decoration: none
+
+.button.is-secondary
+    background-color: $grey-lighter
+    border-width: 0
+.button.is-secondary:hover
+    background-color: mix(white,$grey-light,40)
+.button.is-secondary:active
+    background-color: mix(white,$grey-light,35)
 
 
 
@@ -250,23 +152,26 @@ svg.is-grey-dark
 .dropdown-item.is-active
     font-weight: 500
 
-
 .dropdown:not(.is-iconless) .button
-    padding-right: 3rem
-
+    padding-right: 2.5rem
+.dropdown.is-small:not(.is-iconless) .button
+    padding-right: 2.25rem
 
 .dropdown:not(.is-iconless):after
     position: absolute
-    top: .075em
+    top: 2px
     right: .6em
     color: $grey
     content: '⌞'
     font-weight: 500
-    font-size: 1.8rem
+    font-size: 1.75rem
     transform: rotate(-45deg)
     pointer-events: none
 
-
+.dropdown.is-small:not(.is-iconless):after
+    top: 0
+    right: .5em
+    font-size: 1.625rem
 
 /* Panel */
 .panel > div:first-child,
@@ -347,5 +252,3 @@ svg.is-grey-dark
         opacity: 1
     100%
         opacity: 0
-
-@import 'css4-vars.scss'

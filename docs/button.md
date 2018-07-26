@@ -17,60 +17,58 @@
     </thead>
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-primary">Primary</div><br><br></td>
-            <td>For primary actions<br>_Ex: <strong>Save</strong>, <strong>Change</strong>, etc._</td>
-            <td>`button is-primary`</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button">Secondary</div><br><br></td>
-            <td>For secondary actions<br>_Ex: <strong>Cancel</strong>, <strong>Back</strong>, <strong>Download</strong>, etc._</td>
+            <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
+            <td><br>For controls, like Dropdowns</td>
             <td>`button`</td>
         </tr>
         <tr>
+            <td class="has-text-centered"><br><div class="button is-primary">Primary</div><br><br></td>
+            <td><br>For primary actions, like **Save**</td>
+            <td>`button is-primary`</td>
+        </tr>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-secondary">Secondary</div><br><br></td>
+            <td><br>For secondary actions, like **Cancel**</td>
+            <td>`is-secondary`</td>
+        </tr>
+        <tr>
             <td class="has-text-centered"><br><div class="button is-danger">Dangerous</div><br><br></td>
-            <td>For primary dangerous actions<br>_Ex: <strong>Delete</strong>, <strong>Remove</strong>, etc._</td>
+            <td><br>For primary dangerous actions</td>
             <td>`button is-danger`</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light">Segment</div><br><br></td>
-            <td>For elements behaving like a button<br>_Ex: Filter, segment, _</td>
-            <td>`is-light`</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-rounded">Link button</div><br><br></td>
-            <td>For link buttons, use rounded corners.</td>
-            <td>`is-rounded`</td>
+            <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
+            <td><br>For texts behaving like a button.</td>
+            <td>`is-text`</td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-loading">Hidden text</div><br><br></td>
-            <td>Loading state.</td>  
+            <td><br>Loading state.</td>  
             <td>`is-loading`</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-static">Static button</div><br><br></td>
-            <td>Static or non-interactive state.</td>
-            <td>`is-static` / <br>`disabled`</td>
+            <td class="has-text-centered"><br><div class="button" disabled>Disabled</div><br><br></td>
+            <td><br>Disabled or non-interactive state.</td>
+            <td>`disabled` attribute</td>
         </tr>
     </tbody>
 </table>
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Sizes</h2>
+<h2 class="title is-4">Sizes and shapes</h2>
 
-Use classes `is-small`, `is-medium` and `is-large` to change the size of any button.
+Use classes starting with `is-[size or shape]` to change the style of a button.
 
-<br>
+<hr class="is-small">
+
 <span class="button is-small">Small</span> &nbsp; 
 <span class="button">Normal</span> &nbsp; 
 <span class="button is-medium">Medium</span> &nbsp; 
 <span class="button is-large">Large</span>
 <hr class="is-small">
-
-To beef up a button, use `is-beefy`.
-
-<br>
-<div class="button is-beefy is-primary">Beefy Button</div>
+<div class="button is-beefy is-primary">Beefy</div> &nbsp;&nbsp; 
+<div class="button is-rounded is-medium">Rounded</div>
 
 
 <hr class="is-large is-visible">

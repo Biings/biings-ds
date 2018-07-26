@@ -14,14 +14,14 @@ $yellow:       #ffc15e !default
 $turquoise:    #5DD9C1 !default
 
 $black:        #15141B
-$black-bis:    #25222F
-$black-ter:    #302D3D
+$black-bis:    #302D3D
+$black-ter:    #403d4b
 
-$grey-darker:  #363244 !default
-$grey-dark:    #474259 !default
-$grey:         #CBC9D3 !default
-$grey-light:   #DAD9DF !default
-$grey-lighter: #EEEDF3 !default
+$grey-darker:  #6d6881 !default
+$grey-dark:    #8b85a0 !default
+$grey:         #b4b0c2 !default
+$grey-light:   #d3d1db !default
+$grey-lighter: #edecf0 !default
 
 $white-ter:    #F6F5FA !default
 $white-bis:    #F9F8FC !default
@@ -30,10 +30,10 @@ $white:        white !default
 // Main colors
 $primary: #715EB8 !default
 $light: $white-bis !default
-$dark: $grey-darker !default
+$dark: $black-ter !default
 
 $info: $cyan !default
-$success: $green !default
+$success: $turquoise !default
 $warning: $yellow !default
 $danger: $red !default
 
@@ -64,10 +64,10 @@ $border-hover: $grey-light !default
 
 // Text colors
 
-$text: $grey-darker !default
+$text: $black-ter !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
-$text-strong: $grey-darker !default
+$text-strong: inherit !default
 
 // Code colors
 
@@ -83,7 +83,7 @@ $link: $purple
 $link-invert: $primary-invert
 $link-visited: $primary
 
-$link-hover: $text
+$link-hover: $link
 $link-hover-border: $grey-light !default
 
 $link-focus: $grey-darker !default
@@ -122,7 +122,7 @@ $weight-bold: 800 !default
 
 $control-padding-vertical: calc(0.375em - 1px)
 
-$title-color: $grey-darker
+$title-color: $text
 $title-size: $size-3
 $title-weight: $weight-bold
 $title-strong-color: inherit
@@ -133,7 +133,7 @@ $title-sup-size: 0.75em
 $subtitle-color: $title-color
 $subtitle-size: $size-5
 $subtitle-weight: $weight-normal
-$subtitle-strong-color: $grey-darker
+$subtitle-strong-color: inherit
 $subtitle-strong-weight: $weight-semibold
 
 
@@ -209,8 +209,10 @@ $menu-item-active-background-color: transparent
 $menu-list-border-left: 1px solid $border !default
 $menu-label-color: $text
 
-$button-hover-border-color: $grey-lighter !default
-$button-active-border-color: $grey-light !default
+$button-hover-color: $text !default
+$button-hover-border-color: $grey-light !default
+$button-active-color: $text !default
+$button-active-border-color: $grey !default
 $button-padding-horizontal: 0.95em !default
 
 $modal-background-background-color: rgba($grey-darker, 0.6) !default
@@ -266,4 +268,5 @@ $label-weight: $weight-semibold !default
 @import "bulma/sass/layout/section.sass"
 
 // Extend Bulma BDS Extend
+@import "bds-color-ext.sass"
 @import "bds-ext.sass"

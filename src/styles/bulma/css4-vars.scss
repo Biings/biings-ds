@@ -2,14 +2,50 @@
 :root
 {
     --color-cyan: #{$cyan};
+    --color-cyan-dark: #{$cyan-dark};
+    --color-cyan-light: #{$cyan-light};
+    --color-cyan-lighter: #{$cyan-lighter};
+    
     --color-blue: #{$blue};
+    --color-blue-dark: #{$blue-dark};
+    --color-blue-light: #{$blue-light};
+    --color-blue-lighter: #{$blue-lighter};
+    
     --color-purple: #{$purple};
+    --color-purple-dark: #{$purple-dark};
+    --color-purple-light: #{$purple-light};
+    --color-purple-lighter: #{$purple-lighter};
+    
     --color-red: #{$red};
+    --color-red-dark: #{$red-dark};
+    --color-red-light: #{$red-light};
+    --color-red-lighter: #{$red-lighter};
+    
     --color-orange: #{$orange};
+    --color-orange-dark: #{$orange-dark};
+    --color-orange-light: #{$orange-light};
+    --color-orange-lighter: #{$orange-lighter};
+    
     --color-green: #{$green};
+    --color-green-dark: #{$green-dark};
+    --color-green-light: #{$green-light};
+    --color-green-lighter: #{$green-lighter};
+    
     --color-yellow: #{$yellow};
+    --color-yellow-dark: #{$yellow-dark};
+    --color-yellow-light: #{$yellow-light};
+    --color-yellow-lighter: #{$yellow-lighter};
+    
     --color-turquoise: #{$turquoise};
-
+    --color-turquoise-dark: #{$turquoise-dark};
+    --color-turquoise-light: #{$turquoise-light};
+    --color-turquoise-lighter: #{$turquoise-lighter};
+    
+    --color-pink: #{$pink};
+    --color-pink-dark: #{$pink-dark};
+    --color-pink-light: #{$pink-light};
+    --color-pink-lighter: #{$pink-lighter};
+    
     --color-black: #{$black};
     --color-black-bis: #{$black-bis};
     --color-black-ter: #{$black-ter};
