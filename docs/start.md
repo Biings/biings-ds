@@ -9,7 +9,7 @@
 <div class="columns is-multiline is-mobile is-variable">
     <div class="column is-half-desktop is-full-tablet">
         <a href="#/color" class="box is-well is-relaxed hover-to-popping">
-            <img src="media/appcomp.png" width="80"/>
+            <img src="media/appcomp.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Colors</div>
                 <div class="subtitle is-6">Color brings a design to life.</div>
@@ -19,7 +19,7 @@
     <div class="column is-12 is-hidden-desktop"></div>
     <div class="column is-half-desktop is-full-tablet">
         <a href="#/voice" class="box is-well is-relaxed hover-to-popping">
-            <img src="media/voice.png" width="80"/>
+            <img src="media/voice.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Voice & Tone</div>
                 <div class="subtitle is-6">Good design starts with good copy.</div>
@@ -28,7 +28,7 @@
     </div>
     <div class="column is-half-desktop is-full-tablet">
         <a href="#/illustration" class="box is-well is-relaxed hover-to-popping">
-            <img src="media/layout.png" width="80"/>
+            <img src="media/layout.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Illustrations</div>
                 <div class="subtitle is-6">What makes complex ideas more accessible.</div>
@@ -38,7 +38,7 @@
     <div class="column is-12 is-hidden-desktop"></div>
     <div class="column is-half-desktop is-full-tablet">
         <a href="#/avatar" class="box is-well is-relaxed hover-to-popping">
-            <img src="media/components.png" width="80"/>
+            <img src="media/components.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Components</div>
                 <div class="subtitle is-6">All BDS components, with code and usage guidelines.</div>
