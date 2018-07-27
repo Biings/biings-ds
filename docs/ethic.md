@@ -5,18 +5,17 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-3">HR should be sustainable</h2>
+<h2 class="title is-3">Sustainable HR</h2>
 <div class="subitle is-6 has-text-grey">To be written..</div>
-
 <hr>
 
-<h2 class="title is-3">Connect facts with values</h2>
+<h2 class="title is-3">Facts over surveys</h2>
 <div class="subitle is-6 has-text-grey">To be written..</div>
 
 <hr>
 
 <h2 class="title is-3">Work-atmosphere over coercive management</h2>
-<div class="subitle is-6 has-text-grey">To be written..</div>
+<div class="subitle is-6 has-text-grey">Favor good work-atmosphere rather than adopting a coercive control of absences.</div>
 
 <hr>
 

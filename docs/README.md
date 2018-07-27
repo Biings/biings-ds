@@ -5,12 +5,13 @@
 <p>Once built you will find the following files in the `build` folder. Files can be embedded anywhere you want to use Biings DS.</p>
 
 <br>
-<div class="box is-bordered">**bds.css**<br>The only CSS file you'll need to use Biings DS.</div>
-<div class="box is-bordered">**bds-icons.svg**<br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</div>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered is-link" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered is-link" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://github.com/ForsysInteractive/biings-ds/tree/master/docs/media/illustrations" class="box is-bordered is-link"><span class="is-monospace">**illustrations / ...**</span><br>Illustrations have their own svg file.</a>
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">How to contribute</h2>
+<h2 class="title is-4">How to contribute</h2>
 
 <div class="media is-large">
     <div class="media-left">
@@ -48,6 +49,6 @@
         <br>
         <pre data-lang="bash">npm run styles</pre>
         <br>
-        <pre data-lang="bash">npm run sass // only build Bulma for BDS</pre>
+        <pre data-lang="bash">npm run stylesdoc // to update the styles of this doc</pre>
     </div>
 </div>

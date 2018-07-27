@@ -15,11 +15,14 @@
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">This works</a>
-                <a class="dropdown-item is-active">Without</a>
-                <a class="dropdown-item">Any</a>
+                <a class="dropdown-item">
+                    <span class="is-size-7 has-text-grey">Fondation La Côte / CMS / Rolles Fondation La Côte / CMS Rolles / Fondation La Côte / CMS</span><br>
+                    CMS Rolles
+                </a>
+                <a class="dropdown-item is-active"><span class="is-size-7 has-text-grey">Fondation La Côte / CMS Rolles</span><br>Without</a>
+                <a class="dropdown-item"><span class="is-size-7 has-text-grey">Fondation La Côte / CMS Rolles</span><br>Any</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item">Javascript &nbsp;😉</a>
+                <a class="dropdown-item"><span class="is-size-7 has-text-grey">Fondation La Côte / CMS Rolles</span><br>Javascript &nbsp;😉</a>
             </div>
         </div>
     </div>

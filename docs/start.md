@@ -50,9 +50,8 @@
 <hr>
 
 <div class="box is-bordered is-relaxed">
-        <div class="title is-spaced is-3 has-text-weight-light has-text-grey-dark">How to use?
-        </div>
-        <div class="subtitle is-6 has-text-grey-dark">
-            We welcome all feedback, designs, or ideas in order to produce the best possible experience for our users. If you're interested in contributing, check out the **<a href="#/readme">Readme</a>** to get started.
-        </div>
+    <div class="title is-spaced is-3 has-text-weight-light has-text-grey-darker">How to use?</div>
+    <div class="subtitle is-6 has-text-grey-darker">
+        We welcome all feedback, designs, or ideas in order to produce the best possible experience for our users. If you're interested in contributing, check out the **<a href="#/readme">Readme</a>** to get started.
+    </div>
 </div>

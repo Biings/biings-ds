@@ -12,7 +12,7 @@ These guidelines apply for developers working with Biings applications and publi
 <br><br>
 
 <div class="box is-relaxed is-bordered">
-    <h3 class="subtitle is-5 has-text-weight-semibold has-text-grey-dark">Use simple tense</h3>
+    <h3 class="subtitle is-5 has-text-weight-semibold">Use simple tense</h3>
     <table class="table is-fullwidth">
     <thead>
         <tr>
@@ -33,7 +33,7 @@ These guidelines apply for developers working with Biings applications and publi
     </table>
 </div>
 <div class="box is-relaxed is-bordered">
-    <h3 class="subtitle is-5 has-text-weight-semibold has-text-grey-dark">Use active voice</h3>
+    <h3 class="subtitle is-5 has-text-weight-semibold">Use active voice</h3>
     <table class="table is-fullwidth">
     <thead>
         <tr>

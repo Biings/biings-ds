@@ -7,11 +7,11 @@
 
 <h2 class="title is-4">Types & States</h2>
 
-<table class="table is-fullwidth">
+<table class="table is-bordered is-fullwidth">
     <thead>
-        <tr>
+        <tr class="has-background-light">
             <th></th>
-            <th>Usage</th>
+            <th>When to use it</th>
             <th>Class</th>
         </tr>
     </thead>

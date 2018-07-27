@@ -91,7 +91,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Color modifiers</h2>
+<h2 class="title is-4">Color classes</h2>
 
 Most elements and components have color variations thanks to modifiers with syntax `.is-[color]`, like `is-primary`, `is-dark` or `has-background-purple`.
 

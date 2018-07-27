@@ -5216,111 +5216,264 @@ a.box:active {
 .has-text-cyan {
   color: #78C0E0; }
 
+.has-text-cyan-dark {
+  color: #5a90a8; }
+
+.has-text-cyan-light {
+  color: #a1d3e9; }
+
+.has-text-cyan-lighter {
+  color: #c9e6f3; }
+
 .has-text-blue {
   color: #5A7BC9; }
+
+.has-text-blue-dark {
+  color: #445c97; }
+
+.has-text-blue-light {
+  color: #8ca3d9; }
+
+.has-text-blue-lighter {
+  color: #bdcae9; }
 
 .has-text-purple {
   color: #735BCC; }
 
+.has-text-purple-dark {
+  color: #564499; }
+
+.has-text-purple-light {
+  color: #9d8cdb; }
+
+.has-text-purple-lighter {
+  color: #c7bdeb; }
+
 .has-text-red {
   color: #EF626C; }
+
+.has-text-red-dark {
+  color: #bf4e56; }
+
+.has-text-red-light {
+  color: #f49198; }
+
+.has-text-red-lighter {
+  color: #f9c0c4; }
 
 .has-text-orange {
   color: #FF9505; }
 
+.has-text-orange-dark {
+  color: #d97f04; }
+
+.has-text-orange-light {
+  color: #ffb550; }
+
+.has-text-orange-lighter {
+  color: #ffd59b; }
+
 .has-text-green {
   color: #5bcc72; }
+
+.has-text-green-dark {
+  color: #449956; }
+
+.has-text-green-light {
+  color: #8cdb9c; }
+
+.has-text-green-lighter {
+  color: #bdebc7; }
 
 .has-text-yellow {
   color: #ffc15e; }
 
+.has-text-yellow-dark {
+  color: #dea244; }
+
+.has-text-yellow-light {
+  color: #ffd48e; }
+
+.has-text-yellow-lighter {
+  color: #ffe6bf; }
+
 .has-text-turquoise {
   color: #5DD9C1; }
+
+.has-text-turquoise-dark {
+  color: #46a391; }
+
+.has-text-turquoise-light {
+  color: #8ee4d4; }
+
+.has-text-turquoise-lighter {
+  color: #bef0e6; }
 
 .has-text-pink {
   color: #cc5bb5; }
 
-svg.has-fill-cyan,
+.has-text-pink-dark {
+  color: #9d468b; }
+
+.has-text-pink-light {
+  color: #db8ccb; }
+
+.has-text-pink-lighter {
+  color: #ebbde1; }
+
 .icon.has-fill-cyan {
   fill: #78C0E0; }
 
-svg.has-fill-blue,
+.icon.has-fill-cyan-dark {
+  fill: #5a90a8; }
+
+.icon.has-fill-cyan-light {
+  fill: #a1d3e9; }
+
+.icon.has-fill-cyan-lighter {
+  fill: #c9e6f3; }
+
 .icon.has-fill-blue {
   fill: #5A7BC9; }
 
-svg.has-fill-purple,
+.icon.has-fill-blue-dark {
+  fill: #445c97; }
+
+.icon.has-fill-blue-light {
+  fill: #8ca3d9; }
+
+.icon.has-fill-blue-lighter {
+  fill: #bdcae9; }
+
 .icon.has-fill-purple {
   fill: #735BCC; }
 
-svg.has-fill-red,
+.icon.has-fill-purple-dark {
+  fill: #564499; }
+
+.icon.has-fill-purple-light {
+  fill: #9d8cdb; }
+
+.icon.has-fill-purple-lighter {
+  fill: #c7bdeb; }
+
 .icon.has-fill-red {
   fill: #EF626C; }
 
-svg.has-fill-orange,
+.icon.has-fill-red-dark {
+  fill: #bf4e56; }
+
+.icon.has-fill-red-light {
+  fill: #f49198; }
+
+.icon.has-fill-red-lighter {
+  fill: #f9c0c4; }
+
 .icon.has-fill-orange {
   fill: #FF9505; }
 
-svg.has-fill-green,
+.icon.has-fill-orange-dark {
+  fill: #d97f04; }
+
+.icon.has-fill-orange-light {
+  fill: #ffb550; }
+
+.icon.has-fill-orange-lighter {
+  fill: #ffd59b; }
+
 .icon.has-fill-green {
   fill: #5bcc72; }
 
-svg.has-fill-yellow,
+.icon.has-fill-green-dark {
+  fill: #449956; }
+
+.icon.has-fill-green-light {
+  fill: #8cdb9c; }
+
+.icon.has-fill-green-lighter {
+  fill: #bdebc7; }
+
 .icon.has-fill-yellow {
   fill: #ffc15e; }
 
-svg.has-fill-turquoise,
+.icon.has-fill-yellow-dark {
+  fill: #dea244; }
+
+.icon.has-fill-yellow-light {
+  fill: #ffd48e; }
+
+.icon.has-fill-yellow-lighter {
+  fill: #ffe6bf; }
+
 .icon.has-fill-turquoise {
   fill: #5DD9C1; }
 
-svg.has-fill-pink,
+.icon.has-fill-turquoise-dark {
+  fill: #46a391; }
+
+.icon.has-fill-turquoise-light {
+  fill: #8ee4d4; }
+
+.icon.has-fill-turquoise-lighter {
+  fill: #bef0e6; }
+
 .icon.has-fill-pink {
   fill: #cc5bb5; }
 
-svg.has-fill-primary,
+.icon.has-fill-pink-dark {
+  fill: #9d468b; }
+
+.icon.has-fill-pink-light {
+  fill: #db8ccb; }
+
+.icon.has-fill-pink-lighter {
+  fill: #ebbde1; }
+
 .icon.has-fill-primary {
   fill: #715EB8; }
 
-svg.has-fill-black,
+.icon.has-fill-success {
+  fill: #5DD9C1; }
+
+.icon.has-fill-info {
+  fill: #78C0E0; }
+
+.icon.has-fill-warning {
+  fill: #ffc15e; }
+
+.icon.has-fill-danger {
+  fill: #EF626C; }
+
 .icon.has-fill-black {
   fill: #15141B; }
 
-svg.has-fill-black-bis,
 .icon.has-fill-black-bis {
   fill: #302D3D; }
 
-svg.has-fill-black-ter,
 .icon.has-fill-black-ter {
   fill: #403d4b; }
 
-svg.has-fill-grey-darker,
 .icon.has-fill-grey-darker {
   fill: #6d6881; }
 
-svg.has-fill-grey-dark,
 .icon.has-fill-grey-dark {
   fill: #8b85a0; }
 
-svg.has-fill-grey,
 .icon.has-fill-grey {
   fill: #b4b0c2; }
 
-svg.has-fill-grey-light,
 .icon.has-fill-grey-light {
   fill: #d3d1db; }
 
-svg.has-fill-grey-lighter,
 .icon.has-fill-grey-lighter {
   fill: #edecf0; }
 
-svg.has-fill-white-ter,
 .icon.has-fill-white-ter {
   fill: #F6F5FA; }
 
-svg.has-fill-white-bis,
 .icon.has-fill-white-bis {
   fill: #F9F8FC; }
 
-svg.has-fill-white,
 .icon.has-fill-white {
   fill: white; }
 
