@@ -54,12 +54,37 @@ section.content
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;
-    background-color: #f8eceb;
+    background-color: rgba(249, 192, 196,0.25);
+    border-color: #EF626C;
+}
+.markdown-section p.tip::before
+{
+    background-color: #EF626C;
+    font-weight: 700;
+    font-family: Averta,Helvetica Neue,Arial,sans-serif;
 }
 .markdown-section p.warn
 {
+    position: relative;
     padding: 1rem 1.6rem;
-    background-color: #ddf2fe;
+    background-color: rgba(201, 230, 243, 0.3);
+    border-left: 4px solid #78C0E0;
+}
+.markdown-section p.warn::before
+{
+    content: 'i';
+    position: absolute;
+    top: 1em;
+    font-size: 1em;
+    left: -0.85em;
+    background-color: white;
+    box-shadow: inset 0 0 0 2px #78C0E0;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 2em;
+    font-weight: 700;
+    text-align: center;
+    color: #78C0E0;
 }
 .markdown-section table
 {

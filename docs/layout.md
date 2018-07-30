@@ -1,6 +1,6 @@
 <h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Components</h6><h1 class="title is-1 has-text-weight-bold">Layout</h1>
 <p class="subtitle is-5">
-    Used only within a Biings app, <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
+    Used only within the Biings desktop app, <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
 
 <hr class="is-large is-visible">

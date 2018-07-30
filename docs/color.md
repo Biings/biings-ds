@@ -88,6 +88,16 @@
     <div class="column is-3"><div class="notification has-background-green-lighter"><br></div><span>**green-lighter**</span><br><span class="subtitle is-6 has-text-monospace">#BDEBC7</span></div>
 </div>
 
+<hr class="is-large is-visible">
+
+<h2 class="title is-4">Gradients</h2>
+
+<hr class="is-invisible is-small">
+
+<div class="columns is-multiline is-gapless">
+    <div class="column is-12"><div class="notification has-gradient-1"><br></div></div>
+    <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-monospace">#715EB8</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-monospace">#CC5BB5</span></div>
+</div>
 
 <hr class="is-large is-visible">
 
@@ -103,24 +113,10 @@ Most elements and components have color variations thanks to modifiers with synt
     <th>Class pattern</th></tr>
 </thead>
 <tbody>
-    <tr><td>Text</td><td>`has-text-[color]`</td></tr>
-    <tr><td>Icon</td><td>`has-fill-[color]`</td></tr>
-    <tr><td>divs</td><td>`has-background-[color]`</td></tr>
+    <tr><td>Background</td><td>`has-background-[color]`</td></tr>
+    <tr><td>Text <sup class="has-text-cyan">1</sup></td><td>`has-text-[color]`</td></tr>
+    <tr><td>Icon <sup class="has-text-cyan">1</sup></td><td>`has-fill-[color]`</td></tr>
 </tbody>
 </table>
 
-<hr class="is-large is-visible">
-
-<h2 class="title is-4">Gradients</h2>
-
-<hr class="is-invisible is-small">
-
-<div class="columns is-multiline is-gapless">
-    <div class="column is-12"><div class="notification has-gradient-1"><br></div></div>
-    <div class="column is-12"><br>**Gradient–1**<br><span class="subtitle is-6 has-text-monospace">#915DBB</span> &nbsp;→&nbsp; <span class="subtitle is-6 has-text-monospace">#626CB7</span></div>
-</div>
-
-    .has-gradient-1
-    {
-        background-image: linear-gradient(-90deg, #626CB7, #915DBB);
-    }
+?> <span class="has-text-cyan">**1** -</span> &nbsp;*does not work with gradients.*
