@@ -12,30 +12,31 @@ Icons should <u>not be less than 25 pixels</u> (width and height). Use, or make,
 <hr class="is-small">
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-weight-semibold is-monospace has-text-grey-dark">
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#biings-care"></use></svg></div>biings-care</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#book"></use></svg></div>book</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#bubble"></use></svg></div>bubble</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#chevron_down"></use></svg></div>chevron_down</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#legal-proof"></use></svg></div>legal-proof</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#timelines"></use></svg></div>timelines</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#arrow-down"></use></svg></div>arrow-down</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#arrow-left"></use></svg></div>arrow-left</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#arrow-right"></use></svg></div>arrow-right</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#arrow-up"></use></svg></div>arrow-up</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#briefcase"></use></svg></div>briefcase</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#check"></use></svg></div>check</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#circle-minus"></use></svg></div>circle-minus</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#circle-plus"></use></svg></div>circle-plus</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#download"></use></svg></div>download</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#gear"></use></svg></div>gear</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#help"></use></svg></div>help</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#off"></use></svg></div>off</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#prefs"></use></svg></div>prefs</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-left"></use></svg></div>arrow-left</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-right"></use></svg></div>arrow-right</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-up"></use></svg></div>arrow-up</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-down"></use></svg></div>arrow-down</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#biings-care"></use></svg></div>biings-care</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#book"></use></svg></div>book</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bubble"></use></svg></div>bubble</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#briefcase"></use></svg></div>briefcase</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#check"></use></svg></div>check</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#circle-minus"></use></svg></div>circle-minus</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#circle-plus"></use></svg></div>circle-plus</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#chevron_down"></use></svg></div>chevron_down</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#download"></use></svg></div>download</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#legal-proof"></use></svg></div>legal-proof</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#persons"></use></svg></div>persons</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#gear"></use></svg></div>gear</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#help"></use></svg></div>help</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#off"></use></svg></div>off</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#prefs"></use></svg></div>prefs</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#timelines"></use></svg></div>timelines</div>
 </div>
 
 <hr class="is-large is-visible">
@@ -47,8 +48,8 @@ Glyphs should <u>not exceed 25 pixels</u> (width and height) and should always b
 <hr class="is-small">
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-weight-semibold is-monospace has-text-grey-dark">
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
-    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-relaxed"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-medium"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-medium"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-medium"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-medium"><svg class="icon has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>
 </div>
