@@ -1,5 +1,5 @@
 <h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Foundation</h6><h1 class="title is-1 has-text-weight-bold">Modal</h1>
-<p class="subtitle is-5"><span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task.</span></p>
+<p class="subtitle is-5"><span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span></p>
 
 <hr class="is-visible is-large">
 
@@ -28,12 +28,12 @@
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
 
+!> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
 
-!> Keep in mind that a Modal strongly interrupts user workflow.
+<hr class="is-large is-visible">
+
+<h2 class="title is-4">Pin to top</h2>
+
+Use `is-pinned` to prevent the modal from re-centering itself when its content change.
 
 
-<hr class="is-large ">
-
-<div class="box is-bordered">
-    Find more possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/modal/" target="blank">Bulma / <strong>Modal</strong></a>
-</div>

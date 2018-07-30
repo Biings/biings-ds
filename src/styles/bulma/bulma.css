@@ -1465,7 +1465,7 @@ a.dropdown-item {
     display: flex; }
 
 .modal-background {
-  background-color: rgba(109, 104, 129, 0.6); }
+  background-color: white; }
 
 .modal-content,
 .modal-card {
@@ -1506,7 +1506,7 @@ a.dropdown-item {
   position: relative; }
 
 .modal-card-head {
-  border-bottom: 1px solid #edecf0;
+  border-bottom: 0 solid white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px; }
 
@@ -1520,7 +1520,7 @@ a.dropdown-item {
 .modal-card-foot {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-top: 1px solid #edecf0; }
+  border-top: 0 solid white; }
   .modal-card-foot .button:not(:last-child) {
     margin-right: 10px; }
 
@@ -5745,6 +5745,9 @@ svg.is-grey-dark {
 
 .modal.is-closing > .modal-background {
   animation: fadeIn .25s ease-out 0 1; }
+
+.modal.is-pinned > .modal-content {
+  top: 1%; }
 
 @keyframes shrinkIn {
   0% {
