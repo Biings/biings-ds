@@ -36,6 +36,7 @@ Icons should <u>not be less than 25 pixels</u> (width and height). Use, or make,
     <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#off"></use></svg></div>off</div>
     <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#prefs"></use></svg></div>prefs</div>
     <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
+    <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search-list"></use></svg></div>search-list</div>
     <div class="column is-one-third-mobile is-one-fifth-tablet"><div class="box is-bordered is-large"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#timelines"></use></svg></div>timelines</div>
 </div>
 

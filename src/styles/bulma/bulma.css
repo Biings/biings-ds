@@ -5543,8 +5543,11 @@ a.box:active {
 hr:not(.is-visible):not(.dropdown-divider) {
   visibility: hidden !important; }
 
+hr.is-smaller {
+  margin: .5em 0; }
+
 hr.is-small {
-  margin: .9em 0; }
+  margin: .875em 0; }
 
 hr.is-large {
   margin: 3em 0; }

@@ -120,9 +120,9 @@ Most elements and components have color variations thanks to modifiers with synt
 </thead>
 <tbody>
     <tr><td>Background</td><td>`has-background-[color]`</td></tr>
-    <tr><td>Text <sup class="has-text-cyan">1</sup></td><td>`has-text-[color]`</td></tr>
-    <tr><td>Icon <sup class="has-text-cyan">1</sup></td><td>`has-fill-[color]`</td></tr>
+    <tr><td>Text <sup class="has-text-cyan">( i )</sup></td><td>`has-text-[color]`</td></tr>
+    <tr><td>Icon <sup class="has-text-cyan">( i )</sup></td><td>`has-fill-[color]`</td></tr>
 </tbody>
 </table>
 
-?> <span class="has-text-cyan">**1** :</span> &nbsp;*does not work with gradients.*
+?> *does not work with gradients*

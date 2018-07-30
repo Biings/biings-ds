@@ -28,7 +28,9 @@
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
 
-!> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
+<br>
+
+?> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
 
 <hr class="is-large is-visible">
 
