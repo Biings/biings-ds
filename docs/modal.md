@@ -4,10 +4,9 @@
 <hr class="is-visible is-large">
 
 
-<button onclick="openModal()" class="button is-rounded is-outlined is-primary">Open Modal</button>
-
-<hr class="is-small">
-
+<div class="box is-well is-large has-text-centered is-marginless">
+    <button onclick="openModal()" class="button is-rounded is-primary">Open Modal</button>
+</div>
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal()"></div>
     <div class="modal-content">
