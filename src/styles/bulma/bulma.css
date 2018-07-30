@@ -1465,7 +1465,7 @@ a.dropdown-item {
     display: flex; }
 
 .modal-background {
-  background-color: white; }
+  background-color: rgba(21, 20, 27, 0.6); }
 
 .modal-content,
 .modal-card {
