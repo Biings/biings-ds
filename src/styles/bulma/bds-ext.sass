@@ -227,8 +227,10 @@ svg.is-grey-dark
 .modal.is-closing > .modal-background
     animation: fadeIn .25s ease-out 0 1
 
-.modal.is-pinned > .modal-content
-    top: 1%
+.modal.is-pinned > .modal-content,
+.modal.is-pinned > .modal-card
+    position: absolute
+    top: 8%
 
 @keyframes shrinkIn
     0%
