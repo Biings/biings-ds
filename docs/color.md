@@ -84,8 +84,8 @@
     <div class="column is-12"></div>
     <div class="column is-3"><div class="notification has-background-green-dark"><br></div><span>**green-dark**</span><br><span class="has-text-grey-dark is-monospace">#449956</span></div>
     <div class="column is-3"><div class="notification has-background-green"><br></div><span>**green** / Emerald</span><br><span class="has-text-grey-dark is-monospace">#5BCC72</span></div>
-    <div class="column is-3"><div class="notification has-background-green-light"><br></div><span>**green-light**</span><br><span class="has-text-grey-dark is-monospace is-size-7">#8CDB9C</span></div>
-    <div class="column is-3"><div class="notification has-background-green-lighter"><br></div><span>**green-lighter**</span><br><span class="has-text-grey-dark is-monospace is-size-7">#BDEBC7</span></div>
+    <div class="column is-3"><div class="notification has-background-green-light"><br></div><span>**green-light**</span><br><span class="has-text-grey-dark is-monospace">#8CDB9C</span></div>
+    <div class="column is-3"><div class="notification has-background-green-lighter"><br></div><span>**green-lighter**</span><br><span class="has-text-grey-dark is-monospace">#BDEBC7</span></div>
 </div>
 
 <hr class="is-large is-visible">
@@ -96,20 +96,20 @@
 
 <div class="columns is-multiline">
     <div class="column is-12"><div class="notification has-background-gradient-1"><br></div></div>
-    <div class="column is-12">**gradient–1**<span class="is-pulled-right is-size-7 has-text-grey-dark"><span class="is-monospace">Primary</span> &nbsp;→&nbsp; <span class="is-monospace">Pink</span></span></div>
+    <div class="column is-12">**gradient–1**<span class="is-pulled-right has-text-grey-dark is-size-7"><span class="is-monospace">Primary</span> &nbsp;→&nbsp; <span class="is-monospace">Pink</span></span></div>
     <div class="column is-12"></div>
     <div class="column is-12"><div class="notification has-background-gradient-2"><br></div></div>
-    <div class="column is-12">**gradient–2** <span class="is-pulled-right is-size-7 has-text-grey-dark"><span class="is-monospace">Cyan</span> &nbsp;→&nbsp; <span class="is-monospace">Turquoise</span></span></div>
+    <div class="column is-12">**gradient–2** <span class="is-pulled-right has-text-grey-dark is-size-7"><span class="is-monospace">Cyan</span> &nbsp;→&nbsp; <span class="is-monospace">Turquoise</span></span></div>
     <div class="column is-12"></div>
     <div class="column is-12"><div class="notification has-background-gradient-3"><br></div></div>
-    <div class="column is-12">**gradient–3** <span class="is-pulled-right is-size-7 has-text-grey-dark"><span class="is-monospace">Red</span> &nbsp;→&nbsp; <span class="is-monospace">Yellow</span></span></div>
+    <div class="column is-12">**gradient–3** <span class="is-pulled-right has-text-grey-dark is-size-7"><span class="is-monospace">Red</span> &nbsp;→&nbsp; <span class="is-monospace">Yellow</span></span></div>
 </div>
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Color classes</h2>
+<h2 class="title is-4">Color modifiers</h2>
 
-Most elements and components have color variations thanks to modifiers with syntax `.is-[color]`, like `is-primary`, `is-dark` or `has-background-purple`.
+Most elements and components have color variations thanks to modifiers with syntax `.is-[color]` (`is-primary`, `is-dark`) or `.has-text-[color]` (`has-background-red`, `has-background-gradient-1`).
 
 <hr class="is-small">
 
@@ -120,9 +120,9 @@ Most elements and components have color variations thanks to modifiers with synt
 </thead>
 <tbody>
     <tr><td>Background</td><td>`has-background-[color]`</td></tr>
-    <tr><td>Text <sup class="has-text-cyan">( i )</sup></td><td>`has-text-[color]`</td></tr>
-    <tr><td>Icon <sup class="has-text-cyan">( i )</sup></td><td>`has-fill-[color]`</td></tr>
+    <tr><td>Text <sup class="has-text-red">( i )</sup></td><td>`has-text-[color]`</td></tr>
+    <tr><td>Icon <sup class="has-text-red">( i )</sup></td><td>`has-fill-[color]`</td></tr>
 </tbody>
 </table>
 
-?> *does not work with gradients*
+!> *does not work with gradients*

@@ -106,17 +106,6 @@ aside.sidebar
     color: #393b4f;
     font-size: .75em;
 }
-aside.sidebar:after
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 7px;
-    height: 100%;
-    border-radius: 6px 0 0 6px;
-    background-color: white;
-    content: '';
-}
 .sidebar-toggle
 {
     bottom: 3px;

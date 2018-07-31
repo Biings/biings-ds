@@ -62,32 +62,34 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
 
 <hr class="is-small">
 
-<span class="button is-small">Small</span> &nbsp; 
-<span class="button">Normal</span> &nbsp; 
-<span class="button is-medium">Medium</span> &nbsp; 
-<span class="button is-large">Large</span>
-<hr class="is-small">
-<div class="button is-beefy is-primary">Beefy</div> &nbsp;&nbsp; 
-<div class="button is-rounded is-medium">Rounded</div>
+<div class="box is-well is-large">
+    <span class="button is-small">Small</span> &nbsp; 
+    <span class="button">Normal</span> &nbsp; 
+    <span class="button is-medium">Medium</span> &nbsp; 
+    <span class="button is-large">Large</span>
+    <hr class="is-small">
+    <div class="button is-beefy is-primary">Beefy</div> &nbsp;&nbsp; 
+    <div class="button is-rounded is-medium">Rounded</div>
+</div>
 
 
 <hr class="is-large is-visible">
 
 <h2 class="title is-4 has-text-weight-semibold">Button Group</h2>
 
-<div class="field has-addons">
-    <p class="control">
-        <a class="button">Yes</a>
-    </p>
-    <p class="control">
-        <a class="button">No</a>
-    </p>
-    <p class="control">
-        <a class="button">Maybe</a>
-    </p>
+<div class="box is-well is-marginless is-large">
+        <div class="field has-addons">
+                <p class="control">
+                    <a class="button">Yes</a>
+                </p>
+                <p class="control">
+                    <a class="button">No</a>
+                </p>
+                <p class="control">
+                    <a class="button">Maybe</a>
+                </p>
+            </div>
 </div>
-
-<br>
 
     <div class="field has-addons">
         <p class="control">

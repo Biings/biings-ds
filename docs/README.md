@@ -1,8 +1,12 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Biings DS</h6><h1 class="title is-1">How to use</h1>
+<h1 class="title is-1">Getting Started</h1>
+<p class="subtitle is-5">
+    Onboarding for designers and developers on how to use BDS. We welcome all feedback and ideas in order to produce the best possible experience for our users.
+</p>
 
 <hr class="is-visible">
 
-<p>Once built you will find the following files in the `build` folder. Files can be embedded anywhere you want to use Biings DS.</p>
+<h2 class="title is-4">Files to include</h2>
+<p>To start using BDS inlude the following files in your web project.</p>
 
 <br>
 <a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered is-link" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
