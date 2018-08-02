@@ -28,9 +28,7 @@ blockquote
 }
 footer
 {
-    color: #9c9da7;
     letter-spacing: .2px;
-    font-size: 13px !important;
     line-height: 1.5em;
 }
 section.cover .cover-main
@@ -39,7 +37,7 @@ section.cover .cover-main
 }
 section.content
 {
-    left: 270px;
+    left: 230px;
 }
 .markdown-section
 {
@@ -100,7 +98,7 @@ section.content
 aside.sidebar
 {
     padding-top: 5rem;
-    width: 270px;
+    width: 230px;
     border-right: none;
     background-color: #F6F5FA;
     color: #393b4f;

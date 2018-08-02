@@ -79,12 +79,10 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 <h2 class="title is-4">Changer the trigger</h2>
 
 Any element or component can trigger a dropdown when placed inside the `.dropdown-trigger` div.
-<br><br>
-Use the class `.is-active` if you want to control the dropdown with javascript (otherwise use `.is-hoverable`).
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed is-marginless">
+<div class="box is-well is-relaxed">
 
     <div class="dropdown is-hoverable is-iconless is-active">
         <div class="dropdown-trigger">
@@ -99,10 +97,10 @@ Use the class `.is-active` if you want to control the dropdown with javascript (
             </div>
         </div>
     </div>
-
+    <hr>
 </div>
 
-<br><br>
+?> Use the class `.is-active` if you want to control the dropdown with javascript.<br>For CSS only, use `.is-hoverable`.
 
 <hr class="is-visible is-large">
 
@@ -112,25 +110,44 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
 <hr class="is-small">
 
-<div class="dropdown is-active is-small">
-    <div class="dropdown-trigger">
-        <div class="button is-small is-secondary">Choose a value</div>
-    </div>
-    <div class="dropdown-menu" id="dropdown-menu" role="menu">
-        <div class="dropdown-content">
-            <div class="dropdown-item ">
-                <input class="input is-small is-paddingless has-background-white" type="text" placeholder="Search the list">
+<div class="box is-bordered is-large is-marginless">
+    <div class="dropdown is-hoverable is-small">
+        <div class="dropdown-trigger">
+            <div class="button is-small is-secondary">Choose a value</div>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+                <div class="dropdown-item ">
+                    <input class="input is-small is-paddingless has-background-white" type="text" placeholder="Search the list">
+                </div>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item">Show</a>
+                <a class="dropdown-item is-active">results</a>
+                <a class="dropdown-item">here</a>
             </div>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item is-large">Show</a>
-            <a class="dropdown-item is-active">results</a>
-            <a class="dropdown-item">here</a>
         </div>
     </div>
 </div>
 
-<hr class="is-large">
-<br>
+    <div class="dropdown">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary">Choose a value</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <div class="dropdown-item ">
+                    <input class="input is-small is-paddingless has-background-white" 
+                           type="text"
+                           placeholder="Search the list">
+                </div>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item">..</a>
+                <a class="dropdown-item">..</a>
+                <a class="dropdown-item">..</a>
+            </div>
+        </div>
+    </div>
+
 <hr class="is-large">
 
 <div class="box is-bordered">

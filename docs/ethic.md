@@ -5,17 +5,18 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-3">Sustainable HR</h2>
-<div class="subitle is-6 has-text-grey">To be written..</div>
-<hr>
-
-<h2 class="title is-3">Facts over surveys</h2>
-<div class="subitle is-6 has-text-grey">To be written..</div>
+<h2 class="title is-3">Sustainable HR</h2><h3 class="subtitle is-5 has-text-weight-light">Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organsation, and over time.</h3>
+<!-- Favor good work-atmosphere rather than adopting a coercive control of absences. Always Manage, never judge -->
 
 <hr>
 
-<h2 class="title is-3">Work-atmosphere over coercive management</h2>
-<div class="subitle is-6 has-text-grey">Favor good work-atmosphere rather than adopting a coercive control of absences.</div>
+<h2 class="title is-3">Facts over Surveys</h2>
+<div class="subitle is-6 has-text-grey">*Under preparation..*</div>
+
+<hr>
+
+<h2 class="title is-3">Privacy by Design</h2>
+<div class="subitle is-6 has-text-grey">*Under preparation..*</div>
 
 <hr>
 

@@ -19,6 +19,7 @@
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Sizes</h2>
+
 Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar.
 <hr class="is-small">
 <div class="level">
