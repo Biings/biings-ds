@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Components</h6><h1 class="title is-1 has-text-weight-bold">Input</h1>
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Component</h6><h1 class="title is-1 has-text-weight-bold">Input</h1>
 <p class="subtitle is-5"><span class="has-text-weight-semibold">Input fields</span> enable users to provide information.</p>
 
 <hr class="is-visible is-large">

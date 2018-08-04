@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-3">Sustainable HR</h2><h3 class="subtitle is-5 has-text-weight-light">Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organsation, and over time.</h3>
+<h2 class="title is-3">Sustainable HR</h2><h3 class="subtitle is-5 has-text-weight-light">Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organisation, and over time.</h3>
 <!-- Favor good work-atmosphere rather than adopting a coercive control of absences. Always Manage, never judge -->
 
 <hr>

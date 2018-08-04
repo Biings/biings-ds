@@ -8,7 +8,7 @@ html
 
 pre
 {
-    border: 1px solid rgba(71, 66, 89, 0.15);
+    border: 1px solid rgba(71, 66, 89, .15);
     border-left-width: 9px;
     border-radius: 0;
 }
@@ -44,7 +44,7 @@ section.content
     padding: 30px 30px 40px;
     max-width: 815px;
 }
-.markdown-section>*
+.markdown-section > *
 {
     font-size: initial;
 }
@@ -52,12 +52,12 @@ section.content
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;
-    background-color: rgba(249, 192, 196,0.25);
-    border-color: #EF626C;
+    border-color: #ef626c;
+    background-color: rgba(249, 192, 196,.25);
 }
 .markdown-section p.tip::before
 {
-    background-color: #EF626C;
+    background-color: #ef626c;
     font-weight: 700;
     font-family: Averta,Helvetica Neue,Arial,sans-serif;
 }
@@ -65,24 +65,24 @@ section.content
 {
     position: relative;
     padding: 1rem 1.6rem;
-    background-color: rgba(201, 230, 243, 0.3);
-    border-left: 4px solid #78C0E0;
+    border-left: 4px solid #78c0e0;
+    background-color: rgba(201, 230, 243, .3);
 }
 .markdown-section p.warn::before
 {
-    content: 'i';
     position: absolute;
     top: 1em;
-    font-size: 1em;
-    left: -0.85em;
-    background-color: white;
-    box-shadow: inset 0 0 0 2px #78C0E0;
+    left: -.85em;
     width: 1.5em;
     height: 1.5em;
     border-radius: 2em;
-    font-weight: 700;
+    background-color: white;
+    box-shadow: inset 0 0 0 2px #78c0e0;
+    color: #78c0e0;
+    content: 'i';
     text-align: center;
-    color: #78C0E0;
+    font-weight: 700;
+    font-size: 1em;
 }
 .markdown-section table
 {
@@ -100,7 +100,7 @@ aside.sidebar
     padding-top: 5rem;
     width: 230px;
     border-right: none;
-    background-color: #F6F5FA;
+    background-color: #f9f8fc;
     color: #393b4f;
     font-size: .75em;
 }
@@ -108,16 +108,16 @@ aside.sidebar
 {
     bottom: 3px;
     left: 3px;
-    padding: 0.8em !important;
-    background-color: rgba(246, 245, 250, 0.8) !important;
-    cursor: pointer;
+    padding: .8em !important;
     border-radius: 2px;
+    background-color: rgba(246, 245, 250, .8) !important;
+    cursor: pointer;
     transition-duration: 0 !important;
 }
 .sidebar-toggle-button > span
 {
-    background-color: #8B85A0;
     border-radius: 4px;
+    background-color: #8b85a0;
 }
 .sidebar-toggle-button > span:last-child
 {
@@ -148,7 +148,7 @@ body.close .sidebar-toggle
     left: 2em;
 }
 .docsify-logo > img
-{   
+{
     width: 110px;
     height: 33px;
 }
@@ -201,6 +201,15 @@ img.no-zoom
     border-color: #7e6ade;
 }
 
+.hover-to-black
+{
+    transition: color .15s linear;
+}
+.hover-to-black:hover
+{
+    color: #403d4b !important;
+}
+
 /* Code Highlighting */
 .token.cdata,
 .token.comment,
@@ -233,8 +242,8 @@ img.no-zoom
 
 .token.tag
 {
-    color: #2973b7;
     padding: 0;
+    color: #2973b7;
 }
 
 .token.string

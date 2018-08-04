@@ -16,4 +16,4 @@
 </div>
 
 <!-- background color -->
-![color](#F7F6FA)
+![color](#f9f8fc)
