@@ -4905,6 +4905,41 @@ hr.is-small {
 hr.is-large {
   margin: 3em 0; }
 
+/* Loader */
+.loader {
+  display: inline-block;
+  border-bottom-color: rgba(64, 61, 75, 0.15);
+  border-left-color: rgba(64, 61, 75, 0.15); }
+
+.loader.is-inverted {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-left-color: rgba(255, 255, 255, 0.25); }
+
+.loader.is-large {
+  width: 2em;
+  height: 2em;
+  border-width: 3px; }
+
+.loader.is-huge {
+  width: 3.5em;
+  height: 3.5em;
+  border-width: 4px; }
+
+.loader.is-undetermined {
+  animation-name: backSpin;
+  animation-duration: .85s; }
+
+@keyframes backSpin {
+  from {
+    transform: rotate(359deg); }
+  to {
+    transform: rotate(0deg); } }
+
+/* .loader.is-colored
+    border-left-color: var(--color-turquoise)
+    border-bottom-color: var(--color-purple-lighter)
+    border-right-color: var(--color-orange-light)
+    border-top-color: var(--color-cyan) */
 /* Button */
 .button {
   font-weight: 500; }
@@ -4933,8 +4968,8 @@ hr.is-large {
   text-decoration: none; }
 
 .button.is-secondary {
-  background-color: #edecf0;
-  border-width: 0; }
+  border-width: 0;
+  background-color: #edecf0; }
 
 .button.is-secondary:hover {
   background-color: #e5e3e9; }
