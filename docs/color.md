@@ -126,3 +126,18 @@ Most elements and components have color variations thanks to modifiers with synt
 </table>
 
 !> *does not work with gradients*
+
+<hr class="is-large is-visible">
+
+<h2 class="title is-4">CSS variables</h2>
+
+All colors are available as CSS variables through the prefix `--color-`.
+
+<hr class="is-small">
+
+```css
+    .your-selector
+    {
+        color: var(--color-primary);
+    }
+```
