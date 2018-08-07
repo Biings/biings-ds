@@ -72,10 +72,9 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
     <div class="button is-rounded is-medium">Rounded</div>
 </div>
 
-
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 has-text-weight-semibold">Button Group</h2>
+<h2 class="title is-4">Button Group</h2>
 
 <div class="box is-well is-marginless is-large">
         <div class="field has-addons">
@@ -102,10 +101,3 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
             <a class="button">Maybe</a>
         </p>
     </div>
-
-
-<hr class="is-large">
-
-<div class="box is-bordered">
-    Find more variations on &nbsp;→&nbsp; <a href="http://bulma.io/documentation/elements/button/" target="blank">Bulma / <strong>Buttons</strong></a>
-</div>

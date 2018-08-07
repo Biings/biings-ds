@@ -17,22 +17,28 @@
 
 <h4 class="title is-4 is-spaced">Scales</h4>
 
+Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax `is-[1-6]` for titles, and `is-size-[1-7]` for texts.
+
+<br>
+
+<div class="box is-well is-large">
+    <h1 class="title is-1">Hero</h1><div class="subtitle is-3 has-text-grey">Website or marketing message</div>
+    <hr class="is-smaller">
+    <h2 class="title is-2">Page</h2><div class="subtitle is-4 has-text-grey">Main page title</div>
+    <hr class="is-smaller">
+    <h3 class="title is-3">Section</h3><div class="subtitle is-5 has-text-grey">Page section title</div>
+    <hr class="is-smaller">
+    <h4 class="title is-4">Modal</h4><div class="subtitle is-6 has-text-grey">Modal header title</div>
+    <hr class="is-smaller">
+    <h5 class="title is-5">Header</h5><div class="subtitle is-6 has-text-grey">Paragraph title</div>
+    <hr class="is-smaller">
+    <h6 class="title is-6">Text</h6><div class="subtitle is-size-7 has-text-grey">Same size as regular text</div>
+</div>
+
+?> There should be a size difference of <strong>two</strong> between a title and its direct subtitle.
+
 <hr>
 
-<h1 class="title is-1">Hero Title 1</h1><div class="subtitle is-6 has-text-grey">Hero title (website only)</div>
-<br>
-<h2 class="title is-2">Title 2</h2><div class="subtitle is-6 has-text-grey">Window title</div><br>
-
-<h3 class="title is-3">Title 3</h3><div class="subtitle is-6 has-text-grey">Modal title</div>
-<br>
-<h4 class="title is-4">Title 4</h4><div class="subtitle is-6 has-text-grey">Modal title</div>
-<br>
-<h5 class="title is-5">Title 5</h5><div class="subtitle is-6 has-text-grey">Modal title</div>
-<br>
-<h6 class="title is-6">Title 6</h6><div class="subtitle is-6 has-text-grey">Modal title</div>
-
-<hr class="is-large">
-
 <div class="box is-bordered">
-    Find more variations on &nbsp;→&nbsp; <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank">Bulma / <strong>Typography helpers</strong></a>
+    More information on &nbsp;→&nbsp; <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank">Bulma / <strong>Typography helpers</strong></a>
 </div>
