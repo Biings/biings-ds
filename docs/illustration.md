@@ -1,6 +1,6 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Foundation</h6><h1 class="title is-1 has-text-weight-bold">Illustration</h1>
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Component</h6><h1 class="title is-1 has-text-weight-bold">Illustration</h1>
 <p class="subtitle is-5">
-    <span class="has-text-weight-semibold">Illustration</span> makes complex ideas more accessible. Use it to change tone depending on the job to be done and the user's emotional state.
+    An <span class="has-text-weight-semibold">Illustration</span> makes a complex ideas more accessible. Use it to change tone depending on the job to be done and the user's emotional state.
 </p>
 
 <hr class="is-large is-visible">
