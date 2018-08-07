@@ -4953,15 +4953,15 @@ hr.is-large {
 
 .button.is-beefy {
   padding: 1.4em 1.8em;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(48, 45, 61, 0.05);
   transition: box-shadow .15s linear, transform .15s linear; }
 
 .button.is-beefy:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(48, 45, 61, 0.05);
   transform: translateY(-1px); }
 
 .button.is-beefy:active {
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px rgba(48, 45, 61, 0.05);
   transition-duration: 0; }
 
 .button.is-text {
@@ -4995,7 +4995,7 @@ hr.is-large {
   box-shadow: 0 0 0 1px #715EB8; }
 
 .box.is-bordered {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); }
+  border: 1px solid rgba(48, 45, 61, 0.1); }
 
 .box.hover-to-box:hover {
   background: white; }
@@ -5007,24 +5007,24 @@ hr.is-large {
 
 .box.is-well,
 .box.hover-to-well:hover {
-  background-color: rgba(86, 68, 153, 0.05);
+  background-color: rgba(48, 45, 61, 0.04);
   transition-duration: .3s; }
 
 .box.is-raised,
 .box.hover-to-raised:hover {
   background-color: white;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1px 2px 0 rgba(48, 45, 61, 0.1); }
 
 .box.is-floating,
 .box.hover-to-floating:hover {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(48, 45, 61, 0.1);
   transition-duration: .3s; }
 
 .box.is-popping,
 .box.hover-to-popping:hover {
   background-color: white;
-  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 24px 0 rgba(48, 45, 61, 0.1);
   transition-duration: .4s; }
 
 /* Menu */

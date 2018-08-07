@@ -5,7 +5,7 @@
 
 <hr class="is-visible is-large">
 
-<div class="box is-well is-large is-marginless has-text-centered">
+<div class="box has-background-light is-large is-marginless has-text-centered">
     <div class="level">
         <div class="level-item"><div class="loader"></div></div>
         <div class="level-item"><div class="loader is-large"></div></div>
@@ -40,4 +40,6 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
 Add class `is-undetermined` when loading time is expected to take <strong>longer than usual</strong>.
 <hr class="is-small">
-<div class="loader is-large is-undetermined"></div>
+<div class="box">
+    <div class="loader is-large is-undetermined"></div>
+</div>

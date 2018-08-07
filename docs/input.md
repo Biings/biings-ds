@@ -3,7 +3,7 @@
 
 <hr class="is-visible is-large">
 
-<form class="box is-well is-relaxed is-marginless" spellcheck="false">
+<form class="box is-bordered is-relaxed is-marginless" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-small">
     <input class="input" type="tel" placeholder="Normal input">

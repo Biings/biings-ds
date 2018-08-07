@@ -7,7 +7,7 @@
 
 
 
-<div class="box is-well is-relaxed is-marginless">
+<div class="box has-background-light is-relaxed is-marginless">
 
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
@@ -55,7 +55,7 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed is-marginless">
+<div class="box has-background-light is-relaxed is-marginless">
 
     <div class="dropdown is-hoverable is-iconless">
         <div class="dropdown-trigger">
@@ -82,7 +82,7 @@ Any element or component can trigger a dropdown when placed inside the `.dropdow
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed">
+<div class="box has-background-light is-relaxed">
 
     <div class="dropdown is-hoverable is-iconless is-active">
         <div class="dropdown-trigger">

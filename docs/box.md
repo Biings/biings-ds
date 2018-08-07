@@ -5,14 +5,14 @@
 
 <hr class="is-large is-visible">
 
-<div class="box is-well is-marginless">
-    <div class="box is-ground">
+<div class="box has-background-light is-marginless">
+    <div class="box">
         <div class="box is-floating">Boxed content about an entity or subject.</div>
     </div>
 </div>
 
 ```
-<div class="box is-floating hover-to-popping">
+<div class="box is-floating">
     <!-- Boxed content.. -->
 </div>
 ```
@@ -23,8 +23,7 @@
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
-<div class="box is-well">
-<div class="section">
+<div class="box has-background-light is-large">
 
 <div class="box">
     <div class="subtitle has-text-grey-dark is-6">**Box** &nbsp; ( default )</div>
@@ -41,14 +40,11 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 <div class="box is-raised">
     <div class="subtitle has-text-grey-dark is-6">**Raised**</div>
 </div>
-
 <div class="box is-floating">
     <div class="subtitle has-text-grey-dark is-6">**Floating**</div>
 </div>
-
 <div class="box is-popping">
     <div class="subtitle has-text-grey-dark is-6">**Popping**</div>
-</div>
 </div>
 </div>
 
@@ -67,7 +63,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     <li>`hover-to-popping`</li>
 </ul>
 
-<div class="box is-well is-marginless">
+<div class="box has-background-light is-marginless">
     <div class="box is-ground">
         <div class="box is-raised hover-to-popping">Box with depth transition effect ( hover me )</div>
     </div>
@@ -86,6 +82,6 @@ Add class `is-link` to make a box behave like a link.
 
 <br>
 
-<div class="box is-well is-relaxed">
+<div class="box has-background-light is-relaxed">
     <div class="box is-white is-link">Boxed content about an entity or subject.</div>
 </div>

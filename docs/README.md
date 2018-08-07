@@ -1,21 +1,9 @@
-<h1 class="title is-1">Getting Started</h1>
+<h1 class="title is-1">How to contribute</h1>
 <p class="subtitle is-5">
-    Onboarding for designers and developers on how to use BDS. We welcome all feedback and ideas in order to produce the best possible experience for our users.
+    We welcome all feedback and ideas in order to produce the best possible experience for our users.
 </p>
 
 <hr class="is-visible">
-
-<h2 class="title is-4">Files to include</h2>
-<p>To start using BDS inlude the following files in your web project.</p>
-
-<br>
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered is-link" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered is-link" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
-<a href="https://github.com/ForsysInteractive/biings-ds/tree/master/docs/media/illustrations" class="box is-bordered is-link"><span class="is-monospace">**illustrations / ...**</span><br>Illustrations have their own svg file.</a>
-
-<hr class="is-large is-visible">
-
-<h2 class="title is-4">How to contribute</h2>
 
 <div class="media is-large">
     <div class="media-left">

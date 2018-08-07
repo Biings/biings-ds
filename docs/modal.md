@@ -4,7 +4,7 @@
 <hr class="is-visible is-large">
 
 
-<div class="box is-well is-large has-text-centered is-marginless">
+<div class="box has-background-light is-large has-text-centered is-marginless">
     <button onclick="openModal()" class="button is-rounded is-primary">Open Modal</button>
 </div>
 <div id="js-modal" class="modal">

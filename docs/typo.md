@@ -1,6 +1,6 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Foundation</h6><h1 class="title is-1 has-text-weight-bold">Typography</h1>
+<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Guidelines</h6><h1 class="title is-1 has-text-weight-bold">Typography</h1>
 <p class="subtitle is-5">
-    <span class="has-text-weight-semibold">Typography</span> is used to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
+    <strong>Typography</strong> is used to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>
 
 <hr class="is-large is-visible">
@@ -19,9 +19,7 @@
 
 Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax `is-[1-6]` for titles, and `is-size-[1-7]` for texts.
 
-<br>
-
-<div class="box is-well is-large">
+<div class="box is-large">
     <h1 class="title is-1">Hero</h1><div class="subtitle is-3 has-text-grey">Website or marketing message</div>
     <hr class="is-smaller">
     <h2 class="title is-2">Page</h2><div class="subtitle is-4 has-text-grey">Main page title</div>

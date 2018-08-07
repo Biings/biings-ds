@@ -22,7 +22,7 @@ Both `.page-header` and `.page-content` are optional. They are used <u>together 
 
 <hr class="is-small">
 
-<div class="box is-well is-marginless"><img src="media/layout_1.png"></div>
+<div class="box has-background-light is-marginless"><img src="media/layout_1.png"></div>
 
     <div class="layout">
       <div class="nav">...</div>
@@ -43,7 +43,7 @@ The page header acts as a menu with tabs.<br>Neither `.page-header` or `.page-co
 
 <hr class="is-small">
 
-<div class="box is-well is-marginless"><img src="media/layout_2.png"></div>
+<div class="box has-background-light is-marginless"><img src="media/layout_2.png"></div>
 
     <div class="layout">
       <div class="nav">...</div>
@@ -61,7 +61,7 @@ Same as the basic layout but with a side menu on the left.
 
 <hr class="is-small">
 
-<div class="box is-well is-marginless"><img src="media/layout_3.png"></div>
+<div class="box has-background-light is-marginless"><img src="media/layout_3.png"></div>
 
     <div class="layout">
       <div class="nav">...</div>

@@ -41,7 +41,7 @@ section.content
 }
 .markdown-section
 {
-    padding: 30px 30px 40px;
+    padding: 5px 30px 40px;
     max-width: 815px;
 }
 .markdown-section > *
@@ -185,6 +185,10 @@ img.no-zoom
 .sidebar-nav > ul > li > ul > li > a
 {
     padding-left: 2.5rem;
+}
+.sidebar-nav > ul:first-child > li > ul > li > a
+{
+    padding-left: 1.9rem;
 }
 .sidebar ul li a:hover
 {
