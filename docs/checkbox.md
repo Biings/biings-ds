@@ -11,9 +11,14 @@
         Check me!
     </label>
     <hr class="is-smaller">
+    <label class="checkbox">
+        <input type="checkbox" checked><span class="checkbox-mark"></span>
+        I'm already checked.
+    </label>
+    <hr class="is-smaller">
     <label class="checkbox" disabled>
         <input type="checkbox" disabled><span class="checkbox-mark"></span>
-        You cannot check me.
+        I'm disabled
     </label>
 </div>
 
@@ -22,11 +27,22 @@
         Check me!
     </label>
 
+    <label class="checkbox">
+        <input type="checkbox" checked><span class="checkbox-mark"></span>
+        I'm already checked
+    </label>
+
     <label class="checkbox" disabled>
         <input type="checkbox" disabled><span class="checkbox-mark"></span>
-        You cannot check me.
+        I'm disabled.
     </label>
 
 <br>
 
 ?> **A checkbox's label should always toggle the checkbox when clicked!**<br>Make sure the label's text is a direct child of `.checkbox`.
+
+<hr>
+
+<div class="box is-bordered">
+    For mutually exclusive options use <a href="#/radio">**Radio buttons**</a>.
+</div>
