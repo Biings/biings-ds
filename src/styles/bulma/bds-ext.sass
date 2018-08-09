@@ -201,14 +201,17 @@ svg.is-grey-dark
     right: .5em
     font-size: 1.625rem
 
-/* Checkbox */
-.checkbox
+/* Checkbox & Radio */
+.checkbox,
+.radio
     user-select: none
-.checkbox > input
+.checkbox > input,
+.radio > input
     width: 1.5rem
     opacity: 0
     cursor: pointer
-.checkbox-mark
+.checkbox-mark,
+.radio-mark
     position: absolute
     top: 0
     left: 0
@@ -216,24 +219,50 @@ svg.is-grey-dark
     height: 1.25rem
     border-radius: 4px
     background-color: white
-    box-shadow: inset 0 0 0 1px $grey-lighter
-.checkbox:hover:not([disabled]) > .checkbox-mark
-    box-shadow: inset 0 0 0 1px $grey-light
+    box-shadow: inset 0 0 0 2px $grey-light
+.radio-mark
+    border-radius: 50%
+.checkbox[disabled] > .checkbox-mark,
+.radio[disabled] > .radio-mark
+    box-shadow: inset 0 0 0 2px lighten($grey-light,6)
+.checkbox:hover:not([disabled]) > .checkbox-mark,
+.radio:hover:not([disabled]) > .radio-mark
+    box-shadow: inset 0 0 0 2px darken($grey-light,8)
 .checkbox input:checked ~ .checkbox-mark
     background-color: $purple
-    box-shadow: 0 1px 2px 0 rgba(115,91,204,.2)!important
+    box-shadow: none !important
+.radio input:checked ~ .radio-mark
+    box-shadow: inset 0 0 0 2px $purple !important
 .checkbox-mark:after
     position: absolute
-    top: 4px
-    left: 8px
+    top: 3px
+    left: 7px
     display: none
-    width: 5px
-    height: 10px
+    width: 6px
+    height: 11px
     border: solid white
-    border-width: 0 2px 2px 0
+    border-width: 0 3px 3px 0
     content: ''
     transform: rotate(45deg)
-.checkbox input:checked ~ .checkbox-mark:after
+.checkbox > input:indeterminate + .checkbox-mark:after
+    top: 9px
+    left: 6px
+    width: 8px
+    height: 0
+    border-width: 0 0 2px 0
+    transform: none
+.radio-mark:after
+    position: absolute
+    top: 5px
+    left: 5px
+    display: none
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    background-color: $purple
+    content: ''
+.checkbox input:checked ~ .checkbox-mark:after,
+.radio input:checked ~ .radio-mark:after
     display: block
 
 

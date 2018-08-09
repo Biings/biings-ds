@@ -31,12 +31,14 @@ Icons should **not be less than 24 pixels** (width and height).<br>Use, or make,
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#legal-proof"></use></svg></div>legal-proof</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#off"></use></svg></div>off</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#pen"></use></svg></div>pen</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#persons"></use></svg></div>persons</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#prefs"></use></svg></div>prefs</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search-list"></use></svg></div>search-list</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#timelines"></use></svg></div>timelines</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#trash"></use></svg></div>trash</div>
 </div>
 
 <hr class="is-large is-visible">
