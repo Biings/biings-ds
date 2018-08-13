@@ -9,7 +9,7 @@
     <div class="level">
         <div class="level-item"><div class="loader"></div></div>
         <div class="level-item"><div class="loader is-large"></div></div>
-        <div class="level-item"><div class="loader is-huge"></div></div>
+        <div class="level-item"><div class="loader is-huge is-colorful"></div></div>
     </div>
 </div>
     
@@ -20,7 +20,6 @@
 <br>
 
 ?> Use your own CSS or wrapping modifiers to change the position of the loader.
-
 
 <hr class="is-large is-visible">
 
@@ -43,3 +42,17 @@ Add class `is-undetermined` when loading time is expected to take <strong>longer
 <div class="box">
     <div class="loader is-large is-undetermined"></div>
 </div>
+
+<hr class="is-large is-visible">
+
+<h2 class="title is-4">Colorful</h2>
+
+Add class `is-colorful` to give the loader a unique Biings look.
+
+<hr class="is-small">
+
+<div class="box">
+    <div class="loader is-large is-colorful"></div>
+</div>
+
+?> Use it only for full page loading.

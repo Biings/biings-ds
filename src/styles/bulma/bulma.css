@@ -4923,7 +4923,7 @@ hr.is-large {
 .loader.is-huge {
   width: 3.5em;
   height: 3.5em;
-  border-width: 4px; }
+  border-width: 5px; }
 
 .loader.is-undetermined {
   animation-name: backSpin;
@@ -4935,11 +4935,26 @@ hr.is-large {
     to {
       transform: rotate(0deg); } } }
 
-/* .loader.is-colored
-    border-left-color: var(--color-turquoise)
-    border-bottom-color: var(--color-purple-lighter)
-    border-right-color: var(--color-orange-light)
-    border-top-color: var(--color-cyan) */
+.loader.is-colorful {
+  animation: colorShading 1800ms infinite linear, a 600ms infinite linear; }
+
+@keyframes colorShading {
+  0% {
+    border-bottom-color: #9d8cdb;
+    border-left-color: #9d8cdb; }
+  30% {
+    border-bottom-color: #8ee4d4;
+    border-left-color: #8ee4d4; }
+  50% {
+    border-bottom-color: #ffc15e;
+    border-left-color: #ffc15e; }
+  75% {
+    border-bottom-color: #f49198;
+    border-left-color: #f49198; }
+  100% {
+    border-bottom-color: #9d8cdb;
+    border-left-color: #9d8cdb; } }
+
 /* Button */
 .button {
   font-weight: 500; }

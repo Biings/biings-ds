@@ -32,7 +32,7 @@ hr.is-large
 .loader.is-huge
     width: 3.5em
     height: 3.5em
-    border-width: 4px
+    border-width: 5px
 
 .loader.is-undetermined
     animation-name: backSpin
@@ -42,11 +42,26 @@ hr.is-large
         transform: rotate(359deg)
         to
             transform: rotate(0deg)
-/* .loader.is-colored
-    border-left-color: var(--color-turquoise)
-    border-bottom-color: var(--color-purple-lighter)
-    border-right-color: var(--color-orange-light)
-    border-top-color: var(--color-cyan) */
+
+.loader.is-colorful
+    animation: colorShading 1800ms infinite linear, a 600ms infinite linear
+
+@keyframes colorShading
+    0%
+        border-bottom-color: $purple-light
+        border-left-color: $purple-light
+    30%
+        border-bottom-color: $turquoise-light
+        border-left-color: $turquoise-light
+    50%
+        border-bottom-color: $yellow
+        border-left-color: $yellow
+    75%
+        border-bottom-color: $red-light
+        border-left-color: $red-light
+    100%
+        border-bottom-color: $purple-light
+        border-left-color: $purple-light
 
 /* Button */
 .button
