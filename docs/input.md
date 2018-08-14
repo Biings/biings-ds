@@ -3,7 +3,7 @@
 
 <hr class="is-visible is-large">
 
-<form class="box is-bordered is-relaxed is-marginless" spellcheck="false">
+<form class="box has-background-light is-relaxed is-marginless" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-small">
     <input class="input" type="tel" placeholder="Normal input">
@@ -11,35 +11,36 @@
     <input class="input is-medium" type="email" placeholder="Medium input">
 </form>
 
-    <input class="input is-medium is-radiusless" type="text" placeholder="..">
+    <input class="input is-medium" type="text" placeholder="..">
 
 
 <hr class="is-visible is-large">
 
 <h2 class="title is-4">Form fields</h2>
 
-<form class="box is-bordered is-relaxed is-marginless" spellcheck="false">
+<form class="box has-background-light is-relaxed is-marginless" spellcheck="false">
     <div class="field">
         <label for="demofield" class="label">With a label</label>
-        <input id="demofield" class="input is-radiusless" type="text" placeholder="Radiusless input">
+        <input id="demofield" class="input" type="text" placeholder="Some input">
     </div>
     <div class="field">
-        <label class="label">Textarea</label>
-        <textarea class="textarea" placeholder="For looong text inputs.."></textarea>
+        <label for="textfield" class="label">Textarea</label>
+        <textarea id="textfield" class="textarea" placeholder="For looong text inputs.."></textarea>
     </div>
 </form>
 
-    <form action="">
+    <form>
         <div class="field">
-            <label class="label">Label</label>
-            <input class="input is-radiusless" type="text">
+            <label for="demofield" class="label">Label</label>
+            <input id="demofield" class="input" type="text">
         </div>
         <div class="field">
-            <label class="label">Textarea</label>
-            <textarea class="textarea" placeholder="..."></textarea>
+            <label for="textfield" class="label">Textarea</label>
+            <textarea id="textfield" class="textarea" placeholder="..."></textarea>
         </div>
     </form>
 
+!> A field's Label should always have a `for="..."` attribute corresponding to the field ID it is refering to.
 
 <hr class="is-large">
 

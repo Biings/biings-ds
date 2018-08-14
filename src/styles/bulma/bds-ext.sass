@@ -291,17 +291,15 @@ svg.is-grey-dark
 
 
 /* Input field */
+.input,
+.textarea
+    border-radius: $input-radius
 .input
     padding: calc(1.4375em - 1px) calc(.75em - 1px)
-    transition: background-color .1s linear
+    transition: border-color .1s linear
 .textarea
     padding-left: calc(.75em - 1px)
-    transition: background-color .1s linear
-
-.input:focus,
-.textarea:focus
-    background-color: rgba($grey, .3)
-
+    transition: border-color .1s linear
 .field:not(:last-child)
     margin-bottom: 1rem
 

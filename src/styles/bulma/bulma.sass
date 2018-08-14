@@ -59,7 +59,7 @@ $dark-invert: $light !default
 // General colors
 
 $background: $white !default
-$border: $grey-lighter !default
+$border: lighten($grey-light,8) !default
 $border-hover: $grey-light !default
 
 // Text colors
@@ -231,10 +231,9 @@ $dropdown-content-radius: $radius-small !default
 $input-shadow: none !default
 $input-color: $text !default
 $input-hover-color: $text !default
-$input-radius: $radius-small !important
-$input-border-color: tranparent !default
-$input-background-color: rgba($grey, 0.18) !default
-$input-focus-border-color: tranparent !default
+$input-radius: $radius !important
+$input-border-color: $border !default
+$input-focus-border-color: $link-hover-border !default
 $input-hover-border-color: tranparent !default
 $input-focus-box-shadow-size: 0 0 0 0 !default
 $input-focus-box-shadow-color: rgba($grey-dark, 0.05) !default
