@@ -9,7 +9,7 @@
     <div class="level">
         <div class="level-item"><div class="loader"></div></div>
         <div class="level-item"><div class="loader is-large"></div></div>
-        <div class="level-item"><div class="loader is-huge is-colorful"></div></div>
+        <div class="level-item"><div class="loader is-huge"></div></div>
     </div>
 </div>
     
