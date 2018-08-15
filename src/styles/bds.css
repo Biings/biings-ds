@@ -118,7 +118,6 @@ ul.list > li::before
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    background-color: rgba(54, 50, 68,.1);
     color: white;
     vertical-align: middle;
     text-align: center;

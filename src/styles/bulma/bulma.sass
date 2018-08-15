@@ -59,7 +59,7 @@ $dark-invert: $light !default
 // General colors
 
 $background: $white !default
-$border: lighten($grey-light,8) !default
+$border: lighten($grey-light,4) !default
 $border-hover: $grey-light !default
 
 // Text colors
@@ -233,10 +233,10 @@ $input-color: $text !default
 $input-hover-color: $text !default
 $input-radius: $radius !important
 $input-border-color: $border !default
-$input-focus-border-color: $link-hover-border !default
-$input-hover-border-color: tranparent !default
-$input-focus-box-shadow-size: 0 0 0 0 !default
-$input-focus-box-shadow-color: rgba($grey-dark, 0.05) !default
+$input-hover-border-color: $link-hover-border !default
+$input-focus-border-color: darken($input-hover-border-color,4) !default
+$input-focus-box-shadow-size: 0 0 0 2px !default
+$input-focus-box-shadow-color: rgba($border, 0.25) !default
 $label-weight: $weight-semibold !default
 
 // Import a selection of Bulma modules

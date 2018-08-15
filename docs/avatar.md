@@ -6,15 +6,19 @@
 <hr class="is-large is-visible">
 
 <div class="box has-background-light is-relaxed is-marginless">
-    <div class="avatar"><div>JD</div></div><span class="subtitle is-5">John Doe</span>
+    <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
 </div>
 
 ```
 <div class="avatar">
-    <div>JD</div>
+    <div class="has-background-grey-light">JD</div>
 </div>
 <span>John Doe</span>
 ```
+
+<br>
+
+?> For flexibility purpose the background defaults to "transparent" and should be set manually.
 
 <hr class="is-large is-visible">
 
@@ -23,10 +27,10 @@
 Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar.
 <hr class="is-small">
 <div class="level">
-    <div class="level-item has-text-left"><div class="avatar is-small"><div>S</div></div><span class="is-size-7">Small</span></div>
-    <div class="level-item"><div class="avatar"><div>D</div></div><span class="is-size-6 has-text-grey">Default</span></div>
-    <div class="level-item"><div class="avatar is-large"><div>L</div></div><span class="is-size-5">Large</span></div>
-    <div class="level-item"><div class="avatar is-huge"><div>H</div></div><span class="is-size-4">Huge</span></div>
+    <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise">S</div></div><span class="is-size-7">Small</span></div>
+    <div class="level-item"><div class="avatar"><div class="has-background-turquoise">D</div></div><span class="is-size-6 has-text-grey">Default</span></div>
+    <div class="level-item"><div class="avatar is-large"><div class="has-background-turquoise-light">L</div></div><span class="is-size-5">Large</span></div>
+    <div class="level-item"><div class="avatar is-huge"><div class="has-background-turquoise-light">H</div></div><span class="is-size-4">Huge</span></div>
 </div>
 
 <hr class="is-visible is-large">
@@ -36,7 +40,7 @@ Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar
 Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 <div class="box has-background-light is-relaxed is-marginless">
-    <div class="avatar"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?size=100&d=blank"></div><span class="subtitle is-5">**Aamir Khan**</span>
+    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?size=100&d=blank"></div><span class="subtitle is-5">**Aamir Khan**</span>
 </div>
 
 
@@ -54,7 +58,7 @@ Avatars can nest an image to act as a person's photo.
 Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar.
 <hr class="is-small">
 <div class="box is-large has-background-light is-marginless">
-    <div class="avatar is-status-green"><img src="https://www.gravatar.com/avatar/ded2d271be31a09049209089b50cb882?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-green is-large"><img src="https://www.gravatar.com/avatar/ded2d271be31a09049209089b50cb882?s=200&d=blank&r=g"></div>
     <span class="subtitle is-5">**Tom** is online</span>
 </div>
 
