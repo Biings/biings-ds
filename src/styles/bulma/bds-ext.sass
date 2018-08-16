@@ -5,6 +5,8 @@
 .title.is-6
     font-weight: 700
 
+.is-borderless
+    border: none !important
 
 /* Rules / Lines */
 hr:not(.is-visible):not(.dropdown-divider)
@@ -216,6 +218,9 @@ svg.is-grey-dark
     right: .5em
     font-size: 1.625rem
 
+.select:not(.is-multiple):not(.is-loading):after
+    border-width: 2px
+
 /* Checkbox & Radio */
 .checkbox,
 .radio
@@ -291,17 +296,19 @@ svg.is-grey-dark
 
 
 /* Input field */
+
 .input,
+.select > select,
 .textarea
-    border-radius: $input-radius
-.input
-    padding: calc(1.4375em - 1px) calc(.875em - 1px)
+    min-height: 2.75em
     transition: border-color .1s linear
 .textarea
     padding-left: calc(.875em - 1px)
-    transition: border-color .1s linear
 .field:not(:last-child)
     margin-bottom: 1rem
+
+.select:not(.is-multiple):not(.is-loading):after
+    margin-top: -.2em
 
 .label
     text-transform: uppercase

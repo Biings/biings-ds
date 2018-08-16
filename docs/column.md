@@ -6,18 +6,18 @@
 <hr class="is-large is-visible">
 
 <div class="box has-background-light is-marginless is-relaxed">
-<div class="columns">
+<div class="columns has-text-white has-text-centered">
     <div class="column">
-      <div class="notification has-text-weight-semibold is-primary">First</div>
+      <div class="message has-background-red-light has-text-weight-semibold"><br>First<br><br></div>
     </div>
     <div class="column">
-      <div class="notification has-text-weight-semibold is-danger">Second</div>
+      <div class="message has-background-pink-light has-text-weight-semibold"><br>Second<br><br></div>
     </div>
     <div class="column">
-      <div class="notification has-text-weight-semibold is-warning">Third</div>
+      <div class="message has-background-turquoise has-text-weight-semibold"><br>Third<br><br></div>
     </div>
     <div class="column">
-      <div class="notification has-text-weight-semibold is-success">Fourth</div>
+      <div class="message has-background-cyan has-text-weight-semibold"><br>Fourth<br><br></div>
     </div>
   </div>
 </div>
@@ -29,7 +29,7 @@
       <div class="column">Fourth</div>
     </div>
 
-<hr class="is-large">
+<hr>
 
 <div class="box is-bordered">
     Find more possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/columns/" target="blank">Bulma / <strong>Columns</strong></a>

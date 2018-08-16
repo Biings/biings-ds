@@ -42,8 +42,10 @@
 
 !> A field's Label should always have a `for="..."` attribute corresponding to the field ID it is refering to.
 
-<hr class="is-large">
+<hr>
 
 <div class="box is-bordered">
     More options on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/form/input/" target="blank">Bulma / <strong>Input</strong></a>
+    <br>
+    Looking for <strong>Select lists</strong>? Check here &nbsp;→&nbsp; <a href="#/dropdown#selectlist" target="blank"><strong>Dropdown</strong></a>
 </div>

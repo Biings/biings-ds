@@ -25,6 +25,9 @@
         </ul>
     </div>
 
+<br>
+
+?> Modifiers like `is-small` are supported.
 
 <hr>
 

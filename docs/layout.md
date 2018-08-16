@@ -69,13 +69,12 @@ Same as the basic layout but with a side menu on the left.
         <div class="side-menu">
           ...
         </div>
-        <div class="page page--with-side-menu">
+        <div class="page">
           ...
         </div>
       </div>
     </div>
 
-<hr class="is-large">
-<div class="box is-bordered">
-    💡 Combine it with <a href="#/columns">**Columns**</a> to virtually build any kind of page.
-</div>
+<hr>
+
+?> Build any kind of page by combining <strong>Layout</strong> with → <a href="#/columns">**Columns**</a>

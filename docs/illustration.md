@@ -29,7 +29,7 @@
     <div class="column is-4 box"><img src="media/illustrations/indemnity.svg" width="180"><div class="subtitle is-6">Indemnity</div></div>
 </div>
 
-<hr class="is-large">
+<hr>
 
 <div class="box is-bordered">
     Download illustrations here &nbsp;→&nbsp; <a href="https://github.com/ForsysInteractive/biings-ds/tree/master/docs/media/illustrations" target="blank">biings-ds / docs / media / <strong>illustrations</strong></a>

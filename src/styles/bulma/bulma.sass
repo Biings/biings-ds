@@ -120,8 +120,6 @@ $weight-medium: 500 !default
 $weight-semibold: 500 !default
 $weight-bold: 800 !default
 
-$control-padding-vertical: calc(0.375em - 1px)
-
 $title-color: $text
 $title-size: $size-3
 $title-weight: $weight-bold
@@ -227,35 +225,36 @@ $dropdown-content-shadow: 0 6px 12px rgba($black-ter, 0.15), 0 0 0 1px rgba($bla
 $dropdown-item-hover-background-color: $white-ter !default
 $dropdown-content-radius: $radius-small !default
 
-// Form inputs
+// Form elements
+$control-padding-vertical: calc(0.5em - 1px) !default
+$control-padding-horizontal: calc(.875em - 1px) !default
+
 $input-shadow: none !default
 $input-color: $text !default
+$input-arrow: $grey !default
 $input-hover-color: $text !default
-$input-radius: $radius !important
 $input-border-color: $border !default
 $input-hover-border-color: $link-hover-border !default
 $input-focus-border-color: darken($input-hover-border-color,4) !default
 $input-focus-box-shadow-size: 0 0 0 2px !default
 $input-focus-box-shadow-color: rgba($border, 0.25) !default
-$label-weight: $weight-semibold !default
+$label-color: lighten($text,5) !default
+$label-weight: 600 !default
 
 // Import a selection of Bulma modules
 @import "bulma/sass/utilities/animations.sass"
 @import "bulma/sass/utilities/mixins.sass"
 @import "bulma/sass/utilities/controls.sass"
-
 @import "bulma/sass/base/_all.sass"
-
 @import "bulma/sass/components/card.sass"
 @import "bulma/sass/components/dropdown.sass"
 @import "bulma/sass/components/level.sass"
 @import "bulma/sass/components/media.sass"
 @import "bulma/sass/components/menu.sass"
-// @import "bulma/sass/components/message.sass"
+@import "bulma/sass/components/message.sass"
 @import "bulma/sass/components/modal.sass"
 @import "bulma/sass/components/panel.sass"
 @import "bulma/sass/components/tabs.sass"
-
 @import "bulma/sass/elements/box.sass"
 @import "bulma/sass/elements/button.sass"
 @import "bulma/sass/elements/container.sass"
@@ -263,14 +262,12 @@ $label-weight: $weight-semibold !default
 @import "bulma/sass/elements/form.sass"
 @import "bulma/sass/elements/icon.sass"
 @import "bulma/sass/elements/image.sass"
-@import "bulma/sass/elements/notification.sass"
+//@import "bulma/sass/elements/notification.sass"
 @import "bulma/sass/elements/other.sass"
 @import "bulma/sass/elements/table.sass"
 // @import "bulma/sass/elements/tag.sass"
 @import "bulma/sass/elements/title.sass"
-
 @import "bulma/sass/grid/columns.sass"
-
 // @import "bulma/sass/layout/hero.sass"
 // @import "bulma/sass/layout/section.sass"
 

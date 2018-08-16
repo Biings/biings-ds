@@ -61,7 +61,7 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
         <div class="dropdown-trigger">
             <div class="button">
                 <span>With custom icon &nbsp;</span>
-                <svg class="icon has-fill-green"><use xlink:href="media/bds-icons.min.svg#circle-plus"></use></svg>&nbsp;
+                <svg class="icon has-fill-green"><use xlink:href="media/bds-icons.min.svg#help"></use></svg>&nbsp;
             </div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
@@ -118,7 +118,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
                 <div class="dropdown-item ">
-                    <input class="input is-small is-paddingless has-background-white" type="text" placeholder="Search the list">
+                    <input class="input is-small is-paddingless is-borderless is-shadowless" type="text" placeholder="Search the list">
                 </div>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item">Show</a>
@@ -148,8 +148,58 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
     </div>
 
-<hr class="is-large">
+<a id="selectlist"></a>
+<hr class="is-visible is-large">
+
+<h2 class="title is-4">Select list</h2>
+
+Create a system default select list just by wrapping it with a `.select` div.
+
+<hr class="is-small">
+
+<div class="box has-background-light is-large is-marginless">
+    <div class="select is-small">
+        <select>
+            <option value="">Small</option>
+            <option value="">System</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
+    </div> &nbsp; &nbsp;
+    <div class="select">
+        <select>
+            <option value="">Default</option>
+            <option value="">System</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
+    </div>
+    &nbsp; &nbsp;
+    <div class="select is-medium">
+            <select>
+                <option value="">Medium</option>
+                <option value="">System</option>
+                <option value="">Select</option>
+                <option value="">List</option>
+            </select>
+        </div>
+</div>
+
+    <div class="select is-medium">
+        <select>
+            <option value="1">Default</option>
+            <option value="2">System</option>
+            <option value="3">Select</option>
+            <option value="4">List</option>
+        </select>
+    </div>
+
+<br>
+
+?> Size modifiers `is-small`, `is-medium` are also supported.
+
+<hr>
 
 <div class="box is-bordered">
-    More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a>
+    More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/" target="blank">Bulma / <strong>Select</strong></a>
 </div>
