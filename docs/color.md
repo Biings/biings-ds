@@ -5,10 +5,12 @@
 
 <h2 class="title is-4">Brand</h2>
 
-<hr class="is-small">
+The brand colors are mostly used for marketing or when refering to Biings directly.<br>For print material use **PANTONE<sup>®</sup> 2097 U**.
+
+<hr>
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-primary"><br><br></div><span>**primary** / Violet</span><br><span class="has-text-grey-dark is-monospace">#715EB8</span></div>
+    <div class="column is-3"><div class="has-background-primary"><br><br></div><span>**primary**</span><br><span class="has-text-grey-dark is-monospace">#715EB8</span></div>
     <div class="column is-3"><div class="has-background-light"><br><br></div><span>**light**</span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
     <div class="column is-3"><div class="has-background-dark"><br><br></div><span>**dark**</span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
 </div>

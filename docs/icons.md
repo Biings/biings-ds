@@ -32,6 +32,7 @@ Icons should **not be less than 24 pixels** (width and height).<br>Use, or make,
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#key"></use></svg></div>key</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#legal-proof"></use></svg></div>legal-proof</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#menu"></use></svg></div>menu</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#off"></use></svg></div>off</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#pen"></use></svg></div>pen</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon is-medium has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
@@ -56,6 +57,7 @@ Glyphs should **not exceed 24 pixels** (width and height) and should always be a
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-weight-semibold is-monospace has-text-grey">
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#today"></use></svg></div>today</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="icon has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>

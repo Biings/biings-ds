@@ -5047,15 +5047,13 @@ hr.is-large {
 .button.is-beefy {
   padding: 1.4em 1.8em;
   box-shadow: 0 1px 2px rgba(48, 45, 61, 0.05);
-  transition: box-shadow .15s linear, transform .15s linear; }
+  transition: box-shadow .15s linear; }
 
 .button.is-beefy:hover {
-  box-shadow: 0 4px 8px rgba(48, 45, 61, 0.05);
-  transform: translateY(-1px); }
+  box-shadow: 0 4px 8px rgba(48, 45, 61, 0.05); }
 
 .button.is-beefy:active {
-  box-shadow: 0 0 2px rgba(48, 45, 61, 0.05);
-  transition-duration: 0; }
+  box-shadow: 0 0 2px rgba(48, 45, 61, 0.05); }
 
 .button.is-text {
   text-decoration: none; }
