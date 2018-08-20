@@ -1,7 +1,13 @@
 <h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Component</h6><h1 class="title is-1">Loader</h1>
 <p class="subtitle is-5">
-    <span class="has-text-weight-semibold">Loaders</span> are used when retrieving data or performing slow computations, notifying users that loading is underway.
+    <span class="has-text-weight-semibold">Loaders</span> are used when performing slow computations, notifying users that loading is underway.
 </p>
+
+<div class="message is-info">
+    <div class="message-body">
+        For page loading, a <a href="#/skeleton">Skeleton</a> screen is probably a better option.
+    </div>
+</div>
 
 <hr class="is-visible is-large">
 
@@ -54,5 +60,3 @@ Add class `is-colorful` to give the loader a unique Biings look.
 <div class="box">
     <div class="loader is-large is-colorful"></div>
 </div>
-
-?> Use it only for full page loading.

@@ -188,32 +188,32 @@ ul.list > li::before
     position: absolute;
     right: -2px;
     bottom: -2px;
-    width: 0.9em;
-    height: 0.9em;
+    width: .9em;
+    height: .9em;
     border: 2px solid white;
     border-radius: 50%;
     content: '';
 }
 .avatar.is-small:after
 {
-    width: 12px;
-    height: 12px;
     right: -3px;
     bottom: -3px;
+    width: 12px;
+    height: 12px;
     border-width: 2px;
 }
 .avatar.is-large:after
 {
-    width: 0.8em;
-    height: 0.8em;
+    width: .8em;
+    height: .8em;
     border-width: 3px;
 }
 .avatar.is-huge:after
 {
-    width: 0.8em;
-    height: 0.8em;
     right: -3px;
     bottom: -3px;
+    width: .8em;
+    height: .8em;
     border-width: 4px;
 }
 
@@ -292,4 +292,31 @@ ul.list > li::before
 .has-background-light > .avatar.is-status-white:after
 {
     border-color: var(--color-light);
+}
+
+/* Skeletons */
+.has-skeleton:empty
+{
+    min-height: 1.5em;
+    background-color: var(--color-white-ter);
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0px, var(--color-grey-lighter) 10em, rgba(255,255,255,0) 20em);
+    background-size: 200%;
+    content: '';
+    animation: skeleton-shine 1.8s infinite linear;
+}
+.has-skeleton + .has-skeleton:empty
+{
+    width: 50%;
+}
+
+@keyframes skeleton-shine
+{
+    0%
+    {
+        background-position: 50%;
+    }
+    100%
+    {
+        background-position: -100%;
+    }
 }
