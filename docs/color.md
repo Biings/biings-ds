@@ -138,8 +138,13 @@ All colors are available as CSS variables through the prefix `--color-`.
 <hr class="is-small">
 
 ```css
-    .your-selector
-    {
-        color: var(--color-primary);
-    }
+.your-selector
+{
+    color: var(--color-primary);
+}
+
+.your-has-gradient-1
+{
+    background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
+}
 ```

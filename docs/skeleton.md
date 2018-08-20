@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box is-bordered is-relaxed is-marginless">
+<div class="box has-background-light is-relaxed is-marginless">
     <div class="has-skeleton"></div>
 </div>
 
