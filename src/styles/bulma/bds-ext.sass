@@ -23,7 +23,7 @@ hr.is-large
 
 th
     font-weight: 700
-    
+
 /* Loader */
 .loader
     display: inline-block
@@ -380,3 +380,21 @@ svg.is-grey-dark
     100%
         opacity: 0
 
+.message.is-noti
+    user-select: none
+    padding: 3rem 2rem
+    background-color: rgba(245,245,245,0.9)
+    border-radius: 2rem
+    text-align: center
+    max-width: 30rem;
+    width: 15rem;
+    display: block;
+    margin: 1.5rem auto;
+    opacity: 0
+    transition: opacity 0.25s linear
+
+.message.is-noti.is-danger
+    background-color: rgba(lighten($red-lighter,9),0.9)
+
+.modal.is-active .message.is-noti
+    opacity: 1

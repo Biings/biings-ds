@@ -8,7 +8,7 @@
 <div class="box has-background-grey-lighter is-relaxed is-marginless">
     <div class="message">
         <div class="message-body">
-            A message can act as a <strong>notification</strong>.
+            A message can act as a small <strong>note</strong>.
         </div>
     </div>
     <hr class="is-small">
@@ -38,7 +38,7 @@
 
 <br>
 
-<hr class="is-visible">
+<hr class="is-visible is-large">
 
 <h2 class="title is-4">Colors and sizes</h2>
 
@@ -61,6 +61,40 @@ Messages support modifiers `is-info`, `is-danger`, `is-warning`, `is-success` as
         A large <strong>success</strong> message 👍
     </div>
 </div>
+
+<hr class="is-visible is-large">
+
+<h2 class="title is-4">Notification message</h2>
+
+A Message can act as a notification when combined with a Modal. Add `is-noti` and put the message in a <a href="#/modal">simple Modal</a> to create an overlayed notification message.
+
+<br><br>
+
+<div class="box has-background-light is-large is-marginless has-text-centered">
+    <div class="button is-sucess" onclick="openModal('3')">Show notification</div>
+</div>
+
+<div id="js-modal3" class="modal" onclick="closeModal('3')">
+    <div class="modal-content">
+        <div class="message is-noti">
+            <div class="title has-text-purple">Hey!</div>
+            <div class="subtitle has-text-grey-dark">This is just a<br>brief notification</div>
+        </div>
+    </div>
+</div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <div class="message">
+                <div class="title has-text-primary">Hey!</div>
+                <div class="subtitle has-text-grey">This is just a<br>brief notification</div>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+?> Add modifier `is-danger` for failure notifications. 
 
 <hr>
 
