@@ -85,9 +85,9 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 
     <div class="modal">
         <div class="modal-content">
-            <div class="message">
+            <div class="message is-noti">
                 <div class="title has-text-primary">Hey!</div>
-                <div class="subtitle has-text-grey">This is just a<br>brief notification</div>
+                <div class="subtitle has-text-grey">...</div>
             </div>
         </div>
     </div>
