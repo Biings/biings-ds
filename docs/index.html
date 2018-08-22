@@ -35,7 +35,7 @@
             hook.beforeEach(function (html) {
               return html + '<hr>'
               +'<footer class="is-clearfix is-size-7 has-text-grey">'
-              +'V.1.8.2 – Last updated on {docsify-updated}<br>'
+              +'V.1.9.0 – Last updated on {docsify-updated}<br>'
               +'Copyright © 2018 Biings Technologies SA. All rights reserved.'
               +'</footer>'
             });
@@ -43,15 +43,15 @@
       ]
     };
 
-    function openModal()
+    function openModal(num)
     {
-      var modal = document.getElementById("js-modal");
+      var modal = document.getElementById("js-modal"+num);
       modal.classList.add("is-active");
     }
 
-    function closeModal()
+    function closeModal(num)
     {
-      var modal = document.getElementById("js-modal");
+      var modal = document.getElementById("js-modal"+num);
       modal.classList.remove("is-active");
     }
   </script>

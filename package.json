@@ -4,7 +4,7 @@
   "description": "Biings Design System",
   "main": "build/bds.css",
   "scripts": {
-    "sass": "node_modules/node-sass/bin/node-sass --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma/bulma.css",
+    "sass": "\"node-sass\" --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma/bulma.css",
     "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css",
     "styles": "npm run sass && npm run postcss",
     "stylesdoc": "npm run sass && postcss src/styles/bds.css --config src/styles/postcss.config.js -o docs/bds.css",

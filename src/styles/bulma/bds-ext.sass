@@ -19,6 +19,11 @@ hr.is-small
 hr.is-large
     margin: 3em 0
 
+/* Table */
+
+th
+    font-weight: 700
+    
 /* Loader */
 .loader
     display: inline-block
@@ -326,6 +331,9 @@ svg.is-grey-dark
     will-change: opacity
     will-change: transform
 
+.modal-content > .box
+    border-radius: 1rem
+
 .modal.is-active > .modal-content
     animation: shrinkIn .15s ease-out 0 1
 
@@ -342,6 +350,9 @@ svg.is-grey-dark
 .modal.is-pinned > .modal-card
     position: absolute
     top: 8%
+
+.modal-card-foot
+    justify-content: flex-end
 
 @keyframes shrinkIn
     0%

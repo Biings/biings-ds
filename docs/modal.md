@@ -5,18 +5,18 @@
 
 
 <div class="box has-background-light is-large has-text-centered is-marginless">
-    <button onclick="openModal()" class="button is-rounded is-primary">Open Modal</button>
+    <div onclick="openModal('')" class="button is-primary">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
-    <div class="modal-background" onclick="closeModal()"></div>
+    <div class="modal-background" onclick="closeModal('')"></div>
     <div class="modal-content">
         <div class="box is-white is-relaxed has-text-centered">
             <div class="title is-spaced is-2">Bravo!</div>
-            <div class="subtitle is-5">This <strong>Modal</strong> was open just by adding the class `is-active` to the modal div.</div>
+            <div class="subtitle is-6">This <strong>Modal</strong> was open just by adding the class `is-active` to the modal div.</div>
             <p class="has-text-grey has-text-weight-semibold">Use the button on the top right corner to close.</p>
         </div>
     </div>
-    <button onclick="closeModal()" class="modal-close is-large" aria-label="close"></button>
+    <button onclick="closeModal('')" class="modal-close is-large" aria-label="close"></button>
 </div>
 
     <div class="modal">
@@ -33,8 +33,52 @@
 
 <hr class="is-large is-visible">
 
+<h2 class="title is-4">Modal Card</h2>
+
+<div class="box has-background-light is-large has-text-centered is-marginless">
+    <button onclick="openModal(1)" class="button">Open Card</button>
+</div>
+<div id="js-modal1" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <div class="modal-card-title">
+                <div class="title">Modal Card</div>
+                 <div class="subtitle is-6 has-text-grey">The close button is optional</div>
+            </div>
+            <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body has-text-centered">
+            <div class="box is-white">*Place your form here<br>(or other interactions)*</div>
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button is-primary">Primary Action</button>
+            <button  onclick="closeModal(1)" class="button is-secondary">Cancel</button>
+        </footer>
+    </div>
+</div>
+
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <div class="modal-card-title">
+                    <div class="title">Modal title</div>
+                    <div class="subtitle is-6">Subtitle</div>
+                </div>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                ...
+            </section>
+            <footer class="modal-card-foot">
+                ...
+            </footer>
+        </div>
+    </div>
+
+<hr class="is-large is-visible">
+
 <h2 class="title is-4">Pin to top</h2>
 
 Use `is-pinned` to prevent the modal from re-centering itself when its content change.
-
-

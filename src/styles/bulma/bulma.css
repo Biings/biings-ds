@@ -1498,17 +1498,17 @@ a.dropdown-item {
 .modal-card-head,
 .modal-card-foot {
   align-items: center;
-  background-color: white;
+  background-color: #F9F8FC;
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 1.5rem 2rem;
   position: relative; }
 
 .modal-card-head {
   border-bottom: 0 solid white;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px; }
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem; }
 
 .modal-card-title {
   color: inherit;
@@ -1518,8 +1518,8 @@ a.dropdown-item {
   line-height: 1; }
 
 .modal-card-foot {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
   border-top: 0 solid white; }
   .modal-card-foot .button:not(:last-child) {
     margin-right: 10px; }
@@ -1530,7 +1530,7 @@ a.dropdown-item {
   flex-grow: 1;
   flex-shrink: 1;
   overflow: auto;
-  padding: 20px; }
+  padding: 1.5rem 2rem; }
 
 .panel {
   font-size: 1rem; }
@@ -4983,6 +4983,10 @@ hr.is-small {
 hr.is-large {
   margin: 3em 0; }
 
+/* Table */
+th {
+  font-weight: 700; }
+
 /* Loader */
 .loader {
   display: inline-block;
@@ -5294,6 +5298,9 @@ svg.is-grey-dark {
   will-change: opacity;
   will-change: transform; }
 
+.modal-content > .box {
+  border-radius: 1rem; }
+
 .modal.is-active > .modal-content {
   animation: shrinkIn .15s ease-out 0 1; }
 
@@ -5310,6 +5317,9 @@ svg.is-grey-dark {
 .modal.is-pinned > .modal-card {
   position: absolute;
   top: 8%; }
+
+.modal-card-foot {
+  justify-content: flex-end; }
 
 @keyframes shrinkIn {
   0% {
