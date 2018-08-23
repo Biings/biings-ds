@@ -7,9 +7,9 @@
 
 <h2 class="title is-4">Types & States</h2>
 
-<table class="table is-bordered is-fullwidth">
+<table class="table is-fullwidth">
     <thead>
-        <tr class="has-background-light">
+        <tr>
             <th></th>
             <th>When to use it</th>
             <th>Class</th>

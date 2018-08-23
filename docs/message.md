@@ -14,7 +14,7 @@
     <hr class="is-small">
     <div class="message is-info">
         <div class="message-header">
-            Or as a has an information notice
+            Or as an information notice
         </div>
         <div class="message-body">
             Put some useful information here.
@@ -29,7 +29,7 @@
     </div>
     <div class="message is-info">
         <div class="message-header">
-            Or as a has an information notice
+            Or as an information notice
         </div>
         <div class="message-body">
             Put some useful information here.

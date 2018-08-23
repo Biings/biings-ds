@@ -7,9 +7,7 @@
 
 <h2 class="title is-4">Do's & Dont's</h2>
 
-These guidelines apply for developers working with Biings applications and public facing web pages.
-
-<br><br>
+<hr class="is-small">
 
 <div class="box is-relaxed is-bordered">
     <h3 class="subtitle is-5 has-text-weight-semibold">Use simple tense</h3>

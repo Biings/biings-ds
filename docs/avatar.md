@@ -55,8 +55,10 @@ Avatars can nest an image to act as a person's photo.
 
 <h2 class="title is-4">Status</h2>
 
-Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar.
+Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-black">black</span> and white.
+
 <hr class="is-small">
+
 <div class="box is-large has-background-light is-marginless">
     <div class="avatar is-status-green is-large"><img src="https://www.gravatar.com/avatar/ded2d271be31a09049209089b50cb882?s=200&d=blank&r=g"></div>
     <span class="subtitle is-5">**Tom** is online</span>
@@ -65,7 +67,3 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar.
     <div class="avatar is-status-green">
         <!-- <div> or <image> -->
     <div>
-
-<br>
-
-?> **Available colors are:**<br><span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-black">black</span> and <span class="has-text-white has-background-cyan-dark">white</span>.
