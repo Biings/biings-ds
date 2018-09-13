@@ -105,7 +105,6 @@ th
 .box
     transition: all .25s ease-out
 
-
 .box.is-small
     padding: .6rem .8rem
 
@@ -158,7 +157,11 @@ th
     box-shadow: 0 12px 24px 0 rgba(48, 45, 61,.10)
     transition-duration: .4s
 
-
+.box.is-expandable
+    cursor: pointer
+    transition-duration: .15s !important
+.box.is-expandable.is-expanded
+    margin: .625rem -.5rem 0
 
 /* Menu */
 .menu-list
@@ -380,21 +383,22 @@ svg.is-grey-dark
         opacity: 0
 
 .message.is-noti
-    user-select: none
+    display: block
+    margin: 1.5rem auto
     padding: 3rem 2rem
-    background-color: rgba($white,0.94)
-    box-shadow: 0 0 14px 0 rgba($black,0.02), 0 0 0 1px rgba($black-bis,0.02)
+    max-width: 30rem
+    width: 15rem
     border-radius: 2rem
+    background-color: rgba($white,.94)
+    box-shadow: 0 0 14px 0 rgba($black,.02), 0 0 0 1px rgba($black-bis,.02)
     text-align: center
-    max-width: 30rem;
-    width: 15rem;
-    display: block;
-    margin: 1.5rem auto;
     opacity: 0
-    transition: opacity 0.25s linear
+    transition: opacity .25s linear
+
+    user-select: none
 
 .message.is-noti.is-danger
-    background-color: rgba(lighten($red-lighter,9),0.9)
+    background-color: rgba(lighten($red-lighter,9),.9)
 
 .modal.is-active .message.is-noti
-    opacity: 1
+    opacity: 1;

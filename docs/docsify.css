@@ -100,10 +100,16 @@ aside.sidebar
     padding-top: 5rem;
     width: 230px;
     border-right: none;
-    background-color: #fff;
+    background-color: transparent;
     color: #393b4f;
     font-size: .75em;
+    transition: background-color 0.1s linear;
 }
+aside.sidebar:hover
+{
+    background-color: #fff;
+}
+
 .sidebar-toggle
 {
     bottom: 3px;
@@ -335,4 +341,13 @@ img.no-zoom
 .token.entity
 {
     cursor: help;
+}
+
+.expanded-content
+{
+    display: none;
+}
+.is-expanded > .expanded-content
+{
+    display: block;
 }

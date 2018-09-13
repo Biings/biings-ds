@@ -5122,6 +5122,13 @@ th {
   box-shadow: 0 12px 24px 0 rgba(48, 45, 61, 0.1);
   transition-duration: .4s; }
 
+.box.is-expandable {
+  cursor: pointer;
+  transition-duration: .15s !important; }
+
+.box.is-expandable.is-expanded {
+  margin: .625rem -.5rem 0; }
+
 /* Menu */
 .menu-list {
   line-height: 1.2; }
@@ -5350,18 +5357,18 @@ svg.is-grey-dark {
     opacity: 0; } }
 
 .message.is-noti {
-  user-select: none;
-  padding: 3rem 2rem;
-  background-color: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 0 14px 0 rgba(21, 20, 27, 0.02), 0 0 0 1px rgba(48, 45, 61, 0.02);
-  border-radius: 2rem;
-  text-align: center;
-  max-width: 30rem;
-  width: 15rem;
   display: block;
   margin: 1.5rem auto;
+  padding: 3rem 2rem;
+  max-width: 30rem;
+  width: 15rem;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 0 14px 0 rgba(21, 20, 27, 0.02), 0 0 0 1px rgba(48, 45, 61, 0.02);
+  text-align: center;
   opacity: 0;
-  transition: opacity 0.25s linear; }
+  transition: opacity .25s linear;
+  user-select: none; }
 
 .message.is-noti.is-danger {
   background-color: rgba(253, 234, 235, 0.9); }

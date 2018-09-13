@@ -64,15 +64,37 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
 </ul>
 
 <div class="box is-well is-marginless">
-    <div class="box is-ground">
+    <div class="box">
         <div class="box is-raised hover-to-popping">Box with depth transition effect ( hover me )</div>
     </div>
 </div>
+
 ```
-<div class="box is-floating hover-to-popping">
+<div class="box is-raised hover-to-popping">
         •••
 </div>
 ```
+
+<hr class="is-large is-visible">
+
+<h2 class="title is-4">Expandable box</h2>
+
+Add class `is-expandable` to boxes that can expand inline.<br>Then add the class `is-expanded` to a box that has been expanded.
+
+<br>
+
+<div class="box is-well">
+    <div class="box">
+        <div id="ebox" class="box is-large is-white hover-to-popping is-expandable" onclick="toggleExpand('')">
+            <span class="title is-4 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
+            <div class="expanded-content">
+                <hr class="is-small">
+                <div class="title is-5 has-text-weight-bold has-text-grey-darker">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <hr class="is-large is-visible">
 
