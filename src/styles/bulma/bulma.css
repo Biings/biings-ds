@@ -118,7 +118,7 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
@@ -1739,14 +1739,14 @@ a.box:active {
 .button {
   background-color: white;
   border-color: #edecf0;
-  border-width: 1px;
+  border-width: 2px;
   color: #6d6881;
   cursor: pointer;
   justify-content: center;
-  padding-bottom: calc(0.375em - 1px);
+  padding-bottom: calc(0.375em - 2px);
   padding-left: 0.95em;
   padding-right: 0.95em;
-  padding-top: calc(0.375em - 1px);
+  padding-top: calc(0.375em - 2px);
   text-align: center;
   white-space: nowrap; }
   .button strong {
@@ -1755,14 +1755,14 @@ a.box:active {
     height: 1.5em;
     width: 1.5em; }
   .button .icon:first-child:not(:last-child) {
-    margin-left: calc(-0.375em - 1px);
+    margin-left: calc(-0.375em - 2px);
     margin-right: 0.1875em; }
   .button .icon:last-child:not(:first-child) {
     margin-left: 0.1875em;
-    margin-right: calc(-0.375em - 1px); }
+    margin-right: calc(-0.375em - 2px); }
   .button .icon:first-child:last-child {
-    margin-left: calc(-0.375em - 1px);
-    margin-right: calc(-0.375em - 1px); }
+    margin-left: calc(-0.375em - 2px);
+    margin-right: calc(-0.375em - 2px); }
   .button:hover, .button.is-hovered {
     border-color: #d3d1db;
     color: #403d4b; }
@@ -2516,8 +2516,8 @@ a.box:active {
   .textarea.is-focused,
   .textarea:active,
   .textarea.is-active {
-    border-color: #c8c6d2;
-    box-shadow: 0 0 0 2px rgba(222, 220, 228, 0.25); }
+    border-color: rgba(115, 91, 204, 0.6);
+    box-shadow: 0 0 0 0 none; }
   .input[disabled],
   .textarea[disabled] {
     background-color: white;
@@ -2547,7 +2547,7 @@ a.box:active {
     .textarea.is-white.is-focused,
     .textarea.is-white:active,
     .textarea.is-white.is-active {
-      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25); }
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25); }
   .input.is-black,
   .textarea.is-black {
     border-color: #15141B; }
@@ -2556,7 +2556,7 @@ a.box:active {
     .textarea.is-black.is-focused,
     .textarea.is-black:active,
     .textarea.is-black.is-active {
-      box-shadow: 0 0 0 2px rgba(21, 20, 27, 0.25); }
+      box-shadow: 0 0 0 0 rgba(21, 20, 27, 0.25); }
   .input.is-light,
   .textarea.is-light {
     border-color: #F9F8FC; }
@@ -2565,7 +2565,7 @@ a.box:active {
     .textarea.is-light.is-focused,
     .textarea.is-light:active,
     .textarea.is-light.is-active {
-      box-shadow: 0 0 0 2px rgba(249, 248, 252, 0.25); }
+      box-shadow: 0 0 0 0 rgba(249, 248, 252, 0.25); }
   .input.is-dark,
   .textarea.is-dark {
     border-color: #403d4b; }
@@ -2574,7 +2574,7 @@ a.box:active {
     .textarea.is-dark.is-focused,
     .textarea.is-dark:active,
     .textarea.is-dark.is-active {
-      box-shadow: 0 0 0 2px rgba(64, 61, 75, 0.25); }
+      box-shadow: 0 0 0 0 rgba(64, 61, 75, 0.25); }
   .input.is-primary,
   .textarea.is-primary {
     border-color: #715EB8; }
@@ -2583,7 +2583,7 @@ a.box:active {
     .textarea.is-primary.is-focused,
     .textarea.is-primary:active,
     .textarea.is-primary.is-active {
-      box-shadow: 0 0 0 2px rgba(113, 94, 184, 0.25); }
+      box-shadow: 0 0 0 0 rgba(113, 94, 184, 0.25); }
   .input.is-link,
   .textarea.is-link {
     border-color: #735BCC; }
@@ -2592,7 +2592,7 @@ a.box:active {
     .textarea.is-link.is-focused,
     .textarea.is-link:active,
     .textarea.is-link.is-active {
-      box-shadow: 0 0 0 2px rgba(115, 91, 204, 0.25); }
+      box-shadow: 0 0 0 0 rgba(115, 91, 204, 0.25); }
   .input.is-info,
   .textarea.is-info {
     border-color: #78C0E0; }
@@ -2601,7 +2601,7 @@ a.box:active {
     .textarea.is-info.is-focused,
     .textarea.is-info:active,
     .textarea.is-info.is-active {
-      box-shadow: 0 0 0 2px rgba(120, 192, 224, 0.25); }
+      box-shadow: 0 0 0 0 rgba(120, 192, 224, 0.25); }
   .input.is-success,
   .textarea.is-success {
     border-color: #5DD9C1; }
@@ -2610,7 +2610,7 @@ a.box:active {
     .textarea.is-success.is-focused,
     .textarea.is-success:active,
     .textarea.is-success.is-active {
-      box-shadow: 0 0 0 2px rgba(93, 217, 193, 0.25); }
+      box-shadow: 0 0 0 0 rgba(93, 217, 193, 0.25); }
   .input.is-warning,
   .textarea.is-warning {
     border-color: #ffc15e; }
@@ -2619,7 +2619,7 @@ a.box:active {
     .textarea.is-warning.is-focused,
     .textarea.is-warning:active,
     .textarea.is-warning.is-active {
-      box-shadow: 0 0 0 2px rgba(255, 193, 94, 0.25); }
+      box-shadow: 0 0 0 0 rgba(255, 193, 94, 0.25); }
   .input.is-danger,
   .textarea.is-danger {
     border-color: #EF626C; }
@@ -2628,7 +2628,7 @@ a.box:active {
     .textarea.is-danger.is-focused,
     .textarea.is-danger:active,
     .textarea.is-danger.is-active {
-      box-shadow: 0 0 0 2px rgba(239, 98, 108, 0.25); }
+      box-shadow: 0 0 0 0 rgba(239, 98, 108, 0.25); }
   .input.is-small,
   .textarea.is-small {
     border-radius: 2px;
@@ -2728,8 +2728,8 @@ a.box:active {
     .select select:hover, .select select.is-hovered {
       border-color: #d3d1db; }
     .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
-      border-color: #c8c6d2;
-      box-shadow: 0 0 0 2px rgba(222, 220, 228, 0.25); }
+      border-color: rgba(115, 91, 204, 0.6);
+      box-shadow: 0 0 0 0 none; }
     .select select[disabled] {
       background-color: white;
       border-color: white;
@@ -2763,7 +2763,7 @@ a.box:active {
     .select.is-white select:hover, .select.is-white select.is-hovered {
       border-color: #f2f2f2; }
     .select.is-white select:focus, .select.is-white select.is-focused, .select.is-white select:active, .select.is-white select.is-active {
-      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25); }
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25); }
   .select.is-black:not(:hover)::after {
     border-color: #15141B; }
   .select.is-black select {
@@ -2771,7 +2771,7 @@ a.box:active {
     .select.is-black select:hover, .select.is-black select.is-hovered {
       border-color: #0a090c; }
     .select.is-black select:focus, .select.is-black select.is-focused, .select.is-black select:active, .select.is-black select.is-active {
-      box-shadow: 0 0 0 2px rgba(21, 20, 27, 0.25); }
+      box-shadow: 0 0 0 0 rgba(21, 20, 27, 0.25); }
   .select.is-light:not(:hover)::after {
     border-color: #F9F8FC; }
   .select.is-light select {
@@ -2779,7 +2779,7 @@ a.box:active {
     .select.is-light select:hover, .select.is-light select.is-hovered {
       border-color: #eae6f4; }
     .select.is-light select:focus, .select.is-light select.is-focused, .select.is-light select:active, .select.is-light select.is-active {
-      box-shadow: 0 0 0 2px rgba(249, 248, 252, 0.25); }
+      box-shadow: 0 0 0 0 rgba(249, 248, 252, 0.25); }
   .select.is-dark:not(:hover)::after {
     border-color: #403d4b; }
   .select.is-dark select {
@@ -2787,7 +2787,7 @@ a.box:active {
     .select.is-dark select:hover, .select.is-dark select.is-hovered {
       border-color: #34323d; }
     .select.is-dark select:focus, .select.is-dark select.is-focused, .select.is-dark select:active, .select.is-dark select.is-active {
-      box-shadow: 0 0 0 2px rgba(64, 61, 75, 0.25); }
+      box-shadow: 0 0 0 0 rgba(64, 61, 75, 0.25); }
   .select.is-primary:not(:hover)::after {
     border-color: #715EB8; }
   .select.is-primary select {
@@ -2795,7 +2795,7 @@ a.box:active {
     .select.is-primary select:hover, .select.is-primary select.is-hovered {
       border-color: #624daf; }
     .select.is-primary select:focus, .select.is-primary select.is-focused, .select.is-primary select:active, .select.is-primary select.is-active {
-      box-shadow: 0 0 0 2px rgba(113, 94, 184, 0.25); }
+      box-shadow: 0 0 0 0 rgba(113, 94, 184, 0.25); }
   .select.is-link:not(:hover)::after {
     border-color: #735BCC; }
   .select.is-link select {
@@ -2803,7 +2803,7 @@ a.box:active {
     .select.is-link select:hover, .select.is-link select.is-hovered {
       border-color: #6248c6; }
     .select.is-link select:focus, .select.is-link select.is-focused, .select.is-link select:active, .select.is-link select.is-active {
-      box-shadow: 0 0 0 2px rgba(115, 91, 204, 0.25); }
+      box-shadow: 0 0 0 0 rgba(115, 91, 204, 0.25); }
   .select.is-info:not(:hover)::after {
     border-color: #78C0E0; }
   .select.is-info select {
@@ -2811,7 +2811,7 @@ a.box:active {
     .select.is-info select:hover, .select.is-info select.is-hovered {
       border-color: #63b6db; }
     .select.is-info select:focus, .select.is-info select.is-focused, .select.is-info select:active, .select.is-info select.is-active {
-      box-shadow: 0 0 0 2px rgba(120, 192, 224, 0.25); }
+      box-shadow: 0 0 0 0 rgba(120, 192, 224, 0.25); }
   .select.is-success:not(:hover)::after {
     border-color: #5DD9C1; }
   .select.is-success select {
@@ -2819,7 +2819,7 @@ a.box:active {
     .select.is-success select:hover, .select.is-success select.is-hovered {
       border-color: #48d4b9; }
     .select.is-success select:focus, .select.is-success select.is-focused, .select.is-success select:active, .select.is-success select.is-active {
-      box-shadow: 0 0 0 2px rgba(93, 217, 193, 0.25); }
+      box-shadow: 0 0 0 0 rgba(93, 217, 193, 0.25); }
   .select.is-warning:not(:hover)::after {
     border-color: #ffc15e; }
   .select.is-warning select {
@@ -2827,7 +2827,7 @@ a.box:active {
     .select.is-warning select:hover, .select.is-warning select.is-hovered {
       border-color: #ffb745; }
     .select.is-warning select:focus, .select.is-warning select.is-focused, .select.is-warning select:active, .select.is-warning select.is-active {
-      box-shadow: 0 0 0 2px rgba(255, 193, 94, 0.25); }
+      box-shadow: 0 0 0 0 rgba(255, 193, 94, 0.25); }
   .select.is-danger:not(:hover)::after {
     border-color: #EF626C; }
   .select.is-danger select {
@@ -2835,7 +2835,7 @@ a.box:active {
     .select.is-danger select:hover, .select.is-danger select.is-hovered {
       border-color: #ed4b56; }
     .select.is-danger select:focus, .select.is-danger select.is-focused, .select.is-danger select:active, .select.is-danger select.is-active {
-      box-shadow: 0 0 0 2px rgba(239, 98, 108, 0.25); }
+      box-shadow: 0 0 0 0 rgba(239, 98, 108, 0.25); }
   .select.is-small {
     border-radius: 2px;
     font-size: 0.875rem; }
@@ -5283,6 +5283,12 @@ svg.is-grey-dark {
 
 .field:not(:last-child) {
   margin-bottom: 1rem; }
+
+.input.is-danger {
+  border-color: rgba(239, 98, 108, 0.6); }
+
+.input.is-warning {
+  border-color: rgba(255, 193, 94, 0.8); }
 
 .select:not(.is-multiple):not(.is-loading):after {
   margin-top: -.2em; }

@@ -43,7 +43,7 @@
     <div class="modal-card">
         <header class="modal-card-head">
             <div class="modal-card-title">
-                <div class="title">Modal Card</div>
+                <div class="title is-4">Modal Card</div>
                  <div class="subtitle is-6 has-text-grey">The close button is optional</div>
             </div>
             <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
@@ -63,7 +63,7 @@
         <div class="modal-card">
             <header class="modal-card-head">
                 <div class="modal-card-title">
-                    <div class="title">Modal title</div>
+                    <div class="title is-4">Modal title</div>
                     <div class="subtitle is-6">Subtitle</div>
                 </div>
                 <button class="delete" aria-label="close"></button>

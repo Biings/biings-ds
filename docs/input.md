@@ -4,14 +4,16 @@
 <hr class="is-visible is-large">
 
 <form class="box is-relaxed is-well is-marginless" spellcheck="false">
-    <input class="input is-small" type="tel" placeholder="Small input">
+    <input class="input is-small is-warning" type="tel" placeholder="Small warning input">
     <hr class="is-small">
     <input class="input" type="tel" placeholder="Normal input">
     <hr class="is-small">
-    <input class="input is-medium" type="email" placeholder="Medium input">
+    <input class="input is-medium is-danger" type="email" placeholder="Medium input">
 </form>
 
-    <input class="input is-medium" type="text" placeholder="..">
+    <input class="input is-small is-warning" type="text" placeholder="..">
+    <input class="input" type="text" placeholder="..">
+    <input class="input is-medium is-danger" type="text" placeholder="..">
 
 
 <hr class="is-visible is-large">
