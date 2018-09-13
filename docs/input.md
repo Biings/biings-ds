@@ -3,7 +3,7 @@
 
 <hr class="is-visible is-large">
 
-<form class="box is-relaxed has-background-light is-marginless" spellcheck="false">
+<form class="box is-relaxed is-well is-marginless" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-small">
     <input class="input" type="tel" placeholder="Normal input">
@@ -18,7 +18,7 @@
 
 <h2 class="title is-4">Form fields</h2>
 
-<form class="box has-background-light is-relaxed is-marginless" spellcheck="false">
+<form class="box is-well is-relaxed is-marginless" spellcheck="false">
     <div class="field">
         <label for="demofield" class="label">With a label</label>
         <input id="demofield" class="input" type="text" placeholder="Some input">

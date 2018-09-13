@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box has-background-light is-marginless is-relaxed">
+<div class="box is-well is-marginless is-relaxed">
 <div class="columns has-text-white has-text-centered">
     <div class="column">
       <div class="message has-background-red-light has-text-weight-semibold"><br>First<br><br></div>

@@ -3,7 +3,7 @@
 
 <hr class="is-visible is-large">
 
-<div class="box has-background-light is-marginless">
+<div class="box is-well is-marginless">
     <div class="menu">
         <ul class="menu-list">
             <li><a>Biodata</a></li>

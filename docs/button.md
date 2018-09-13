@@ -62,7 +62,7 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
 
 <hr class="is-small">
 
-<div class="box has-background-light is-large">
+<div class="box is-well is-large">
     <span class="button is-small">Small</span> &nbsp; 
     <span class="button">Normal</span> &nbsp; 
     <span class="button is-medium">Medium</span> &nbsp; 
@@ -76,7 +76,7 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
 
 <h2 class="title is-4">Button Group</h2>
 
-<div class="box has-background-light is-marginless is-large">
+<div class="box is-well is-marginless is-large">
         <div class="field has-addons">
                 <p class="control">
                     <a class="button">Yes</a>

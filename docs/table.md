@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box is-bordered is-relaxed is-marginless">
+<div class="box has-background-white is-relaxed is-marginless">
     <table class="table">
         <thead>
             <tr>

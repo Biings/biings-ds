@@ -1306,10 +1306,10 @@ a.dropdown-item {
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
       background-color: transparent;
-      color: #735BCC; }
+      color: #715EB8; }
     .menu-list a.is-active {
       background-color: transparent;
-      color: #735BCC; }
+      color: #403d4b; }
   .menu-list li ul {
     border-left: 1px solid #dedce4;
     margin: 0.75em;
@@ -3500,7 +3500,7 @@ a.box:active {
   vertical-align: top; }
 
 .table {
-  background-color: white;
+  background-color: transparent;
   color: #6d6881; }
   .table td,
   .table th {
@@ -5102,7 +5102,7 @@ th {
 
 .box.is-well,
 .box.hover-to-well:hover {
-  background-color: rgba(48, 45, 61, 0.04);
+  background-color: rgba(48, 45, 61, 0.03);
   transition-duration: .3s; }
 
 .box.is-raised,
@@ -5123,6 +5123,9 @@ th {
   transition-duration: .4s; }
 
 /* Menu */
+.menu-list {
+  line-height: 1.2; }
+
 .menu-label {
   text-transform: none;
   letter-spacing: 0;
@@ -5136,8 +5139,7 @@ th {
   font-weight: 500; }
 
 .menu-list a.is-active {
-  font-weight: 600;
-  font-size: 1.1em; }
+  font-weight: 600; }
 
 /* Icon */
 svg.icon {
@@ -5350,7 +5352,8 @@ svg.is-grey-dark {
 .message.is-noti {
   user-select: none;
   padding: 3rem 2rem;
-  background-color: rgba(245, 245, 245, 0.9);
+  background-color: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 0 14px 0 rgba(21, 20, 27, 0.02), 0 0 0 1px rgba(48, 45, 61, 0.02);
   border-radius: 2rem;
   text-align: center;
   max-width: 30rem;

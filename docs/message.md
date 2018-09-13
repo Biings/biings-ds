@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box has-background-grey-lighter is-relaxed is-marginless">
+<div class="box is-well is-relaxed is-marginless">
     <div class="message">
         <div class="message-body">
             A message can act as a small <strong>note</strong>.
@@ -70,7 +70,7 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 
 <br><br>
 
-<div class="box has-background-light is-large is-marginless has-text-centered">
+<div class="box is-well is-large is-marginless has-text-centered">
     <div class="button is-sucess" onclick="openModal('3')">Show notification</div>
 </div>
 

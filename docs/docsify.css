@@ -3,7 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: white;
+    background-color: #f9f8fc;
 }
 
 pre
@@ -100,7 +100,7 @@ aside.sidebar
     padding-top: 5rem;
     width: 230px;
     border-right: none;
-    background-color: #f9f8fc;
+    background-color: #fff;
     color: #393b4f;
     font-size: .75em;
 }
@@ -155,6 +155,10 @@ body.close .sidebar-toggle
 img.no-zoom
 {
     pointer-events: none;
+}
+.sidebar ul
+{
+    margin: 0;
 }
 .sidebar-nav > ul
 {

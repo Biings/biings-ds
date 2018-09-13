@@ -11,7 +11,7 @@
 
 <hr class="is-visible is-large">
 
-<div class="box has-background-light is-large is-marginless has-text-centered">
+<div class="box is-well is-large is-marginless has-text-centered">
     <div class="level">
         <div class="level-item"><div class="loader"></div></div>
         <div class="level-item"><div class="loader is-large"></div></div>

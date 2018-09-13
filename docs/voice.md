@@ -9,7 +9,7 @@
 
 <hr class="is-small">
 
-<div class="box is-relaxed is-bordered">
+<div class="box is-relaxed is-white">
     <h3 class="subtitle is-5 has-text-weight-semibold">Use simple tense</h3>
     <table class="table is-fullwidth">
     <thead>
@@ -30,7 +30,7 @@
     </tbody>
     </table>
 </div>
-<div class="box is-relaxed is-bordered">
+<div class="box is-relaxed is-white">
     <h3 class="subtitle is-5 has-text-weight-semibold">Use active voice</h3>
     <table class="table is-fullwidth">
     <thead>

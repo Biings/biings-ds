@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box has-background-light is-relaxed is-marginless">
+<div class="box is-well is-relaxed is-marginless">
     <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
 </div>
 
@@ -39,7 +39,7 @@ Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar
 
 Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
-<div class="box has-background-light is-relaxed is-marginless">
+<div class="box is-well is-relaxed is-marginless">
     <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?size=100&d=blank"></div><span class="subtitle is-5">**Aamir Khan**</span>
 </div>
 
@@ -59,7 +59,7 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
 
 <hr class="is-small">
 
-<div class="box is-large has-background-light is-marginless">
+<div class="box is-large is-well is-marginless">
     <div class="avatar is-status-green is-large"><img src="https://www.gravatar.com/avatar/ded2d271be31a09049209089b50cb882?s=200&d=blank&r=g"></div>
     <span class="subtitle is-5">**Tom** is online</span>
 </div>

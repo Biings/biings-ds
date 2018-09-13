@@ -8,7 +8,7 @@
 
 <div class="columns is-multiline is-mobile is-variable">
     <div class="column is-half-desktop is-full-tablet">
-        <a href="#/avatar" class="box is-bordered is-relaxed is-link">
+        <a href="#/avatar" class="box is-white is-relaxed hover-to-popping">
             <img src="media/components.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Components</div>
@@ -18,7 +18,7 @@
     </div>
     <div class="column is-12 is-hidden-desktop"></div>
     <div class="column is-half-desktop is-full-tablet">
-        <a href="#/color" class="box is-bordered is-relaxed is-link">
+        <a href="#/color" class="box is-white is-relaxed hover-to-popping">
             <img src="media/style.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Colors</div>
@@ -28,7 +28,7 @@
     </div>
     <div class="column is-12 is-hidden-desktop"></div>
     <div class="column is-half-desktop is-full-tablet">
-        <a href="#/voice" class="box is-bordered is-relaxed is-link">
+        <a href="#/voice" class="box is-white is-relaxed hover-to-popping">
             <img src="media/voice.png" width="80" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Voice & Tone</div>
@@ -37,7 +37,7 @@
         </a>
     </div>
     <div class="column is-half-desktop is-full-tablet">
-        <a href="#/illustration" class="box is-bordered is-relaxed is-link">
+        <a href="#/illustration" class="box is-white is-relaxed hover-to-popping">
             <img src="media/layout.png" width="75" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-primary has-text-weight-light">Illustrations</div>

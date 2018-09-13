@@ -135,7 +135,7 @@ th
 
 .box.is-well,
 .box.hover-to-well:hover
-    background-color: rgba(48, 45, 61,.04)
+    background-color: rgba(48, 45, 61,.03)
     transition-duration: .3s
 
 
@@ -161,24 +161,23 @@ th
 
 
 /* Menu */
+.menu-list
+    line-height: 1.2
+
 .menu-label
     text-transform: none
     letter-spacing: 0
     font-weight: 700
     font-size: 1em
 
-
 .menu-label:not(:last-child)
     margin-bottom: .5em
-
 
 .menu-list a
     font-weight: 500
 
-
 .menu-list a.is-active
     font-weight: 600
-    font-size: 1.1em
 
 
 
@@ -383,7 +382,8 @@ svg.is-grey-dark
 .message.is-noti
     user-select: none
     padding: 3rem 2rem
-    background-color: rgba(245,245,245,0.9)
+    background-color: rgba($white,0.94)
+    box-shadow: 0 0 14px 0 rgba($black,0.02), 0 0 0 1px rgba($black-bis,0.02)
     border-radius: 2rem
     text-align: center
     max-width: 30rem;
