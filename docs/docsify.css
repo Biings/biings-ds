@@ -164,11 +164,12 @@ img.no-zoom
 }
 .sidebar ul
 {
-    margin: 0;
+    margin: 0 0 0.5em;
+    padding-left: 1.75rem;
 }
 .sidebar-nav > ul
 {
-    margin-top: .5em;
+    margin-top: 0.5em;
 }
 .sidebar-nav > ul > li
 {
@@ -176,7 +177,6 @@ img.no-zoom
 }
 .sidebar ul li p
 {
-    padding-left: 1.9rem;
     letter-spacing: 0 !important;
     font-weight: 500;
 }
@@ -190,15 +190,7 @@ img.no-zoom
 }
 .sidebar ul li ul
 {
-    padding: .375em 0 1.125em 0;
-}
-.sidebar-nav > ul > li > ul > li > a
-{
-    padding-left: 2.5rem;
-}
-.sidebar-nav > ul:first-child > li > ul > li > a
-{
-    padding-left: 1.9rem;
+    padding: .375em 0 0 0;
 }
 .sidebar ul li a:hover
 {

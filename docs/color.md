@@ -148,3 +148,13 @@ All colors are available as CSS variables through the prefix `--color-`.
     background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
 }
 ```
+
+<hr>
+
+<div class="box is-bordered is-large is-well">
+    <h4 class="subtitle is-6 has-text-grey-darker has-text-weight-semibold">BONUS</h4>
+    <h4 class="title is-4 has-text-weight-bold has-text-primary">Slack Sidebar Theme</h4>
+    Paint your Slack to the colors of Biings by copy-pasting the following HEX codes into your Slack preferences.<br><br>
+
+    #403D4B,#302D3D,#715EB8,#ffffff,#302D3D,#F9F8FC,#5BCC72,#FF9505
+</div>
