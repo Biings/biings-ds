@@ -4,11 +4,12 @@
 <div class="columns is-centered">
 <div class="column is-four-fifths">
 
-<img src="media/biings_ds.png" width="140" class="no-zoom"/>
+<img src="media/bds.png" width="140" class="no-zoom"/>
 <hr class="is-invisible is-small"/>
-<div class="title is-1 is-spaced has-text-weight-bold ">Biings <span class="has-text-weight-light">DS</span></div>
-<div class="subtitle is-4 has-text-grey-dark">The single source of truth for building Biings UIs</div>
-<hr class="is-invisible is-large"/>
+<span class="title is-1 has-text-weight-bold ">Biings <span class="has-text-weight-light">Design System</span></span>
+<hr class="is-small">
+<div class="subtitle is-4 has-text-grey-dark">The single source of truth for building Biings products</div>
+<hr>
 <a href="#/?id=main" class="button is-primary is-medium is-beefy">Explore the system</a>
 
 </div>

@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Component</h6><h1 class="title is-1 has-text-weight-bold">Box</h1>
+<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 has-text-weight-bold">Box</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Box</span> is a visual motif used to create groupings of content related to a same entity or subject as well as focus through depth.
 </p>
@@ -83,9 +83,9 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
 
 <br>
 
-<div class="box is-well">
+<div class="box is-well is-marginless">
     <div class="box">
-        <div id="ebox" class="box is-large is-white hover-to-popping is-expandable" onclick="toggleExpand('')">
+        <div id="ebox" class="box is-large is-white hover-to-popping is-expandable" onclick="toggleExpand('ebox')">
             <span class="title is-4 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
             <div class="expanded-content">
                 <hr class="is-small">
@@ -94,6 +94,15 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
         </div>
     </div>
 </div>
+
+    <div class="box is-expandable">
+        I'm expandable (click me)
+        <div class="expanded-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            An vero, inquit, quisquam potest probare, quod perceptfum, quod.
+            Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.
+        </div>
+    </div>
 
 
 <hr class="is-large is-visible">

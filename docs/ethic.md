@@ -1,25 +1,33 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Guidelines</h6><h1 class="title is-1 has-text-weight-bold">Ethics</h1>
+<h6 class="subtitle is-5 has-text-grey">Principles</h6><h1 class="title is-1 has-text-weight-bold">Ethic</h1>
 <p class="subtitle is-5">
-    <span class="has-text-weight-semibold">Ethics</span> are the set of principles governing what we decide to create, and how. They should be kept in mind at all stages of the design process.
+    <span class="has-text-weight-semibold">Ethic</span> is the set of principles governing what we decide to create. It should be kept in mind at all stages of the design process.
 </p>
 
-<hr class="is-large is-visible">
-
-<h2 class="title is-3">Sustainable HR</h2><h3 class="subtitle is-5 has-text-weight-light">Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organisation, and over time.</h3>
-<!-- Favor good work-atmosphere rather than adopting a coercive control of absences. Always Manage, never judge -->
-
 <hr>
 
-<h2 class="title is-3">Facts over Surveys</h2>
-<div class="subitle is-6 has-text-grey">*Under preparation..*</div>
+<div class="box is-large is-white hover-to-floating">
+    <h2 class="title is-3">Sustainable HR</h2>
+    <h3 class="subtitle is-5 has-text-weight-normal has-text-grey-dark">
+        Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organisation, and over time.
+    </h3>
+    <!-- <a href="">Read more</a> -->
+    <!-- Favor good work-atmosphere rather than adopting a coercive control of absences. Always Manage, never judge -->
+</div>
 
-<hr>
+<hr class="is-small">
 
-<h2 class="title is-3">Privacy by Design</h2>
-<div class="subitle is-6 has-text-grey">*Under preparation..*</div>
+<div class="box is-large is-white hover-to-floating">
+    <h2 class="title is-3">Facts over Surveys</h2>
+    <h3 class="subtitle is-5 has-text-weight-normal has-text-grey-dark">
+        Collecting factual data over information from surveys is key for a reliable analysis of HR social climate.
+    </h3>
+</div>
 
-<hr>
+<hr class="is-small">
 
-<div class="box is-bordered">
-    **Feel something is missing?** 🤔 <br>Start a thread here &nbsp;→&nbsp; <a href="https://biings.slack.com" target="blank">biings.slack.com</strong></a>
+<div class="box is-large is-white hover-to-floating">
+    <h2 class="title is-3">Privacy by Default</h2>
+    <h3 class="subtitle is-5 has-text-weight-normal has-text-grey-dark">
+        When releasing new procut features, the strictest privacy settings should be applied by defaults.
+    </h3>
 </div>

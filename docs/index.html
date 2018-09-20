@@ -33,18 +33,18 @@
           function (hook,vm) {
             hook.beforeEach(function (html) {
               return html + '<hr>'
-              +'<footer class="is-clearfix is-size-7 has-text-grey">'
-              +'V.1.10.1 – Last updated on {docsify-updated}<br>'
-              +'Copyright © 2018 Biings Technologies SA. All rights reserved.'
-              +'</footer>'
+              +'<footer class="is-clearfix is-size-6 has-text-grey-light"><hr><div class="level">'
+              +'<div class="level-left"><div class="level-item">© Biings Technologies SA</div></div>'
+              +'<div class="level-right"><div class="level-item">V.1.10.2 &nbsp;/&nbsp; {docsify-updated}</div></div>'
+              +'</div></footer>'
             });
           }
       ]
     };
 
-    function toggleExpand()
+    function toggleExpand(boxId)
     {
-      var box = document.getElementById("ebox");
+      var box = document.getElementById(boxId);
       box.classList.toggle("is-expanded");
     }
 

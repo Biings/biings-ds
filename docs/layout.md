@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Component</h6><h1 class="title is-1 has-text-weight-bold">Layout</h1>
+<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 has-text-weight-bold">Layout</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>

@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Component</h6><h1 class="title is-1 has-text-weight-bold">Avatar</h1>
+<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 has-text-weight-bold">Avatar</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Avatar</span> is used to display a picture, typically next to a person's name.
 </p>

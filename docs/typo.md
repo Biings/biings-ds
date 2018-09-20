@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey has-text-weight-semibold">Guidelines</h6><h1 class="title is-1 has-text-weight-bold">Typography</h1>
+<h6 class="subtitle is-5 has-text-grey">Style</h6><h1 class="title is-1 has-text-weight-bold">Typography</h1>
 <p class="subtitle is-5">
     <strong>Typography</strong> is used to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>

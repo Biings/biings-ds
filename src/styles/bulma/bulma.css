@@ -5127,7 +5127,13 @@ th {
   transition-duration: .15s !important; }
 
 .box.is-expandable.is-expanded {
-  margin: .625rem -.5rem 0; }
+  margin-top: .275em;
+  margin-right: -.5rem;
+  margin-left: -.5rem; }
+
+.box.is-expandable + .box.is-expandable.is-expanded {
+  margin-top: 1.775em;
+  transition-duration: .1s !important; }
 
 /* Menu */
 .menu-list {

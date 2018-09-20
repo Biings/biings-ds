@@ -97,13 +97,13 @@ section.content
 
 aside.sidebar
 {
-    padding-top: 5rem;
+    padding-top: 4.75rem;
     width: 230px;
     border-right: none;
     background-color: transparent;
-    color: #393b4f;
-    font-size: .75em;
-    transition: background-color 0.1s linear;
+    color: #403d4b;
+    font-size: 13px;
+    transition: background-color .1s linear;
 }
 aside.sidebar:hover
 {
@@ -164,16 +164,12 @@ img.no-zoom
 }
 .sidebar ul
 {
-    margin: 0 0 0.5em;
-    padding-left: 1.75rem;
-}
-.sidebar-nav > ul
-{
-    margin-top: 0.5em;
+    margin: 0 0 .5em;
+    padding-left: 2rem;
 }
 .sidebar-nav > ul > li
 {
-    padding-bottom: .75em;
+    padding-bottom: 0.875em;
 }
 .sidebar ul li p
 {
@@ -183,7 +179,7 @@ img.no-zoom
 .sidebar ul li a,
 .sidebar ul li p a
 {
-    padding: .25em 0;
+    padding: .125em 0;
     color: #9c9da7;
     font-weight: 500;
     font-size: .875rem;
@@ -194,12 +190,12 @@ img.no-zoom
 }
 .sidebar ul li a:hover
 {
-    color: #715EB8;
+    color: #715eb8;
 }
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #403D4B;
+    color: #403d4b;
 }
 .sidebar ul p.active,
 .sidebar ul li.active a
