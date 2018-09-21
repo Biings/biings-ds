@@ -4,8 +4,8 @@
 </p>
 <hr class="is-smaller">&nbsp;
 
-<div id="r-wc" class="box is-expandable is-large is-white hover-to-floating" onclick="toggleExpand('r-wc')">
-    <span class="title is-4">Worrying chronicity of absence cases <span class="has-text-weight-normal is-size-6 has-text-grey-dark">&nbsp; conditions</span></span>
+<div id="r-wc" class="box is-expandable is-large is-well hover-to-white" onclick="toggleExpand('r-wc')">
+    <span class="title is-4 has-text-weight-semibold">Worrying chronicity of absence cases <span class="has-text-weight-normal is-size-6 has-text-grey-dark">&nbsp; conditions</span></span>
     <div class="expanded-content">
         <br>
         - 1 cas de chronicité = 4 absences durant la période déterminée pour une personne.<br>
@@ -17,16 +17,16 @@
     </div>
 </div>
 
-<div id="r-adc" class="box is-expandable is-large is-white hover-to-floating" onclick="toggleExpand('r-adc')">
-    <span class="title is-4">Absences duration categories <span class="has-text-weight-normal is-size-6 has-text-grey-dark">&nbsp; classification</span></span>
+<div id="r-adc" class="box is-expandable is-large is-well hover-to-white" onclick="toggleExpand('r-adc')">
+    <span class="title is-4 has-text-weight-semibold">Absences duration categories <span class="has-text-weight-normal is-size-6 has-text-grey-dark">&nbsp; classification</span></span>
     <div class="expanded-content">
         <hr class="is-smaller">
         Under construction..
     </div>
 </div>
 
-<div id="r-rtw" class="box is-expandable is-large is-white hover-to-floating" onclick="toggleExpand('r-rtw')">
-    <span class="title is-4">Return to work meeting <span class="has-text-weight-normal is-size-6 has-text-grey-dark">&nbsp; occurence</span></span>
+<div id="r-rtw" class="box is-expandable is-large is-well hover-to-white" onclick="toggleExpand('r-rtw')">
+    <span class="title is-4 has-text-weight-semibold">Return to work meeting <span class="has-text-weight-normal is-size-6 has-text-grey-dark">&nbsp; occurence</span></span>
     <div class="expanded-content">
         <hr class="is-smaller">
         Under construction..

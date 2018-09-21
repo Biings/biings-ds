@@ -112,37 +112,37 @@ th
 .box.is-relaxed
     padding: 2.875em 3em
 
-
 .box.is-link
     cursor: pointer
 .box.is-link:hover
-    box-shadow: 0 0 0 1px $primary
+    box-shadow: 0 0 0 1px $purple
 
-.box.is-bordered
-    border: 1px solid rgba(48, 45, 61,.10)
+.box.is-bordered,
+.box.hover-to-bordered:hover
+    box-shadow: 0 0 0 1px rgba(48, 45, 61,.10)
 
+.box.is-bordered.hover-to-box:hover,
+.box.is-bordered.hover-to-well:hover,
+.box.is-bordered.hover-to-white:hover
+    box-shadow: none
 
 .box.hover-to-box:hover
-    background: white
-
+    background: transparent
 
 .box.is-white,
 .box.hover-to-white:hover
     background-color: white
     transition-duration: .3s
 
-
 .box.is-well,
 .box.hover-to-well:hover
     background-color: rgba(48, 45, 61,.03)
     transition-duration: .3s
 
-
 .box.is-raised,
 .box.hover-to-raised:hover
     background-color: white
     box-shadow: 0 1px 2px 0 rgba(48, 45, 61,.10)
-
 
 .box.is-floating,
 .box.hover-to-floating:hover
@@ -150,12 +150,12 @@ th
     box-shadow: 0 4px 8px 0 rgba(48, 45, 61,.10)
     transition-duration: .3s
 
-
 .box.is-popping,
 .box.hover-to-popping:hover
     background-color: white
     box-shadow: 0 12px 24px 0 rgba(48, 45, 61,.10)
     transition-duration: .4s
+
 
 .box.is-expandable
     cursor: pointer

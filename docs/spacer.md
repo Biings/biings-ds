@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box has-background-white-ter is-relaxed is-marginless">
+<div class="box is-white is-large is-marginless">
     <hr class="is-visible">
 </div>
 

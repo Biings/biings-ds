@@ -30,6 +30,11 @@ footer
 {
     letter-spacing: .2px;
     line-height: 1.5em;
+    transition: color .1s linear;
+}
+footer:hover
+{
+    color: #B4B0C2 !important;
 }
 section.cover .cover-main
 {
@@ -338,4 +343,10 @@ img.no-zoom
 .is-expanded > .expanded-content
 {
     display: block;
+}
+
+.is-marginless + span
+{
+    display: inline-block;
+    margin-top: 4px;
 }

@@ -8,29 +8,29 @@
 
 <div class="columns is-multiline">
     <div class="column is-full">
-        <a href="#/ethic" class="box is-large is-white">
+        <a href="#/ethic" class="box is-large is-floating has-background-gradient-3 hover-to-popping">
             <img src="media/layout.png" width="65" class="no-zoom" style="margin-bottom: 0.5rem;"/>
             <div>
-                <div class="title is-2 has-text-red has-text-weight-light">Principles</div>
-                <div class="subtitle is-5 has-text-grey-dark">Design for HR sustainabilty</div>
+                <div class="title is-2 has-text-white has-text-weight-light">Principles</div>
+                <div class="subtitle is-5 has-text-yellow-lighter">Design for HR sustainabilty</div>
             </div>
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/color" class="box is-large is-white">
+        <a href="#/color" class="box is-large is-floating has-background-gradient-2 hover-to-popping">
             <img src="media/style.png" width="55" class="no-zoom" style="margin: 0.5rem 0;"/>
             <div>
-                <div class="title is-3 has-text-cyan has-text-weight-light">Style</div>
-                <div class="subtitle is-5 has-text-grey-dark">Guidelines and colors to bring a design to life</div>
+                <div class="title is-3 has-text-white has-text-weight-light">Style</div>
+                <div class="subtitle is-5 has-text-turquoise-lighter">Guidelines and colors to bring a design to life</div>
             </div>
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-large is-white">
+        <a href="#/avatar" class="box is-large is-floating has-background-gradient-1 hover-to-popping">
             <img src="media/components.png" width="65" class="no-zoom"/>
             <div>
-                <div class="title is-3 has-text-purple has-text-weight-light">Components</div>
-                <div class="subtitle is-5 has-text-grey-dark">Library of all BDS components</div>
+                <div class="title is-3 has-text-white has-text-weight-light">Components</div>
+                <div class="subtitle is-5 has-text-pink-lighter">Library of all BDS components</div>
             </div>
         </a>
     </div>
@@ -40,29 +40,23 @@
 
 <h2 class="title is-3">Quick start</h2><br>
 
-<div class="has-text-weight-bold">Using NPM</div>
-
-Install BDS in your project using the npm package <strong>biings-ds</strong>.
-
-<br>
+<div class="title is-5 is-spaced">Using NPM</div>
+<div class="subtitle">Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>
 
     npm install biings-ds
 
 <br><br>
 
-<div class="has-text-weight-bold">Manually</div>
+<div class="title is-5 is-spaced">Manually</div>
+<div class="subtitle">Only two files are required to start using BDS:</div>
 
-Only two files are required to start using BDS:
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered hover-to-well has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered hover-to-well has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
-<hr class="is-small">
-
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered is-link" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered is-link" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
-
-<hr>
+<hr class="is-large">
 
 <div class="box is-bordered is-large">
-    <div class="title is-spaced is-3 has-text-weight-light has-text-primary">How to contribute</div>
-    <p>Onboarding for designers and developers wanting to contribute. We welcome all feedback and ideas in order to produce the best possible experience for our users.</p><br>
+    <div class="title is-3 has-text-primary has-text-weight-light">Want to contribute?</div>
+    <div class="subtitle is-5 has-text-grey-dark">Onboarding for designers and developers wanting to contribute. We welcome all feedback and ideas in order to produce the best possible experience for our users.</div>
     <a href="#/contribute" class="button is-primary">Start contributing</a>
 </div>

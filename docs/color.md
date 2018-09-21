@@ -10,9 +10,9 @@ The brand colors are mostly used for marketing or when refering to Biings direct
 <hr>
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-primary"><br><br></div><span>**primary**</span><br><span class="has-text-grey-dark is-monospace">#715EB8</span></div>
-    <div class="column is-3"><div class="has-background-light"><br><br></div><span>**light**</span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
-    <div class="column is-3"><div class="has-background-dark"><br><br></div><span>**dark**</span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
+    <div class="column is-3"><div class="box has-background-primary is-marginless"></div><span>**primary**</span><br><span class="has-text-grey-dark is-monospace">#715EB8</span></div>
+    <div class="column is-3"><div class="box has-background-light is-bordered is-marginless"></div><span>**light**</span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
+    <div class="column is-3"><div class="box has-background-dark is-marginless"></div><span>**dark**</span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
 </div>
 
 <hr class="is-visible is-large">
@@ -149,12 +149,11 @@ All colors are available as CSS variables through the prefix `--color-`.
 }
 ```
 
-<hr>
+<hr class="is-large">
 
-<div class="box is-bordered is-large is-well">
-    <h4 class="subtitle is-6 has-text-grey-darker has-text-weight-semibold">BONUS</h4>
-    <h4 class="title is-4 has-text-weight-bold has-text-primary">Slack Sidebar Theme</h4>
-    Paint your Slack to the colors of Biings by copy-pasting the following HEX codes into your Slack preferences.<br><br>
+<div class="box is-large is-popping has-background-gradient-1">
+    <h4 class="title is-4 has-text-white">Slack Sidebar Theme</h4>
+    <div class="subtitle is-6 has-text-pink-lighter has-text-weight-semibold">Paint your Slack to the colors of Biings by copy-pasting the following HEX codes into your Slack preferences.</div>
 
     #403D4B,#302D3D,#715EB8,#ffffff,#302D3D,#F9F8FC,#5BCC72,#FF9505
 </div>

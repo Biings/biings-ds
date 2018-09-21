@@ -1724,7 +1724,7 @@ label.panel-block {
 
 .box {
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 0.5em;
   box-shadow: none;
   color: #403d4b;
   display: block;
@@ -5087,13 +5087,19 @@ th {
   cursor: pointer; }
 
 .box.is-link:hover {
-  box-shadow: 0 0 0 1px #715EB8; }
+  box-shadow: 0 0 0 1px #735BCC; }
 
-.box.is-bordered {
-  border: 1px solid rgba(48, 45, 61, 0.1); }
+.box.is-bordered,
+.box.hover-to-bordered:hover {
+  box-shadow: 0 0 0 1px rgba(48, 45, 61, 0.1); }
+
+.box.is-bordered.hover-to-box:hover,
+.box.is-bordered.hover-to-well:hover,
+.box.is-bordered.hover-to-white:hover {
+  box-shadow: none; }
 
 .box.hover-to-box:hover {
-  background: white; }
+  background: transparent; }
 
 .box.is-white,
 .box.hover-to-white:hover {
@@ -5271,11 +5277,11 @@ svg.is-grey-dark {
 /* Panel */
 .panel > div:first-child,
 .panel > a:first-child {
-  border-radius: 2px 2px 0 0; }
+  border-radius: 0.5em 0.5em 0 0; }
 
 .panel > div:last-child,
 .panel > a:last-child {
-  border-radius: 0 0 2px 2px; }
+  border-radius: 0 0 0.5em 0.5em; }
 
 /* Input field */
 .input,

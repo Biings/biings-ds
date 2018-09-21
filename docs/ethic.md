@@ -5,29 +5,20 @@
 
 <hr>
 
-<div class="box is-large is-white hover-to-floating">
-    <h2 class="title is-3">Sustainable HR</h2>
-    <h3 class="subtitle is-5 has-text-weight-normal has-text-grey-dark">
+<div class="box is-white is-large">
+    <div class="title is-4 has-text-weight-semibold">HR sustainability first</div><p class="subtitle is-6 has-text-grey-darker">
         Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organisation, and over time.
-    </h3>
-    <!-- <a href="">Read more</a> -->
-    <!-- Favor good work-atmosphere rather than adopting a coercive control of absences. Always Manage, never judge -->
-</div>
-
-<hr class="is-small">
-
-<div class="box is-large is-white hover-to-floating">
-    <h2 class="title is-3">Facts over Surveys</h2>
-    <h3 class="subtitle is-5 has-text-weight-normal has-text-grey-dark">
+    </p>
+    <hr>
+    <h2 class="title is-4 has-text-weight-semibold">Manage without judge</h2><p class="subtitle is-6 has-text-weight-normal has-text-grey-darker">
+        Favor good work-atmosphere rather than adopting a coercive control of absences.
+    </p>
+    <hr>
+    <h2 class="title is-4 has-text-weight-semibold">Facts over surveys</h2><p class="subtitle is-6 has-text-weight-normal has-text-grey-darker">
         Collecting factual data over information from surveys is key for a reliable analysis of HR social climate.
-    </h3>
-</div>
-
-<hr class="is-small">
-
-<div class="box is-large is-white hover-to-floating">
-    <h2 class="title is-3">Privacy by Default</h2>
-    <h3 class="subtitle is-5 has-text-weight-normal has-text-grey-dark">
+    </p>
+    <hr>
+    <h2 class="title is-4 has-text-weight-semibold">Privacy by default</h2><p class="subtitle is-6 has-text-weight-normal has-text-grey-darker">
         When releasing new procut features, the strictest privacy settings should be applied by defaults.
-    </h3>
+    </p>
 </div>
