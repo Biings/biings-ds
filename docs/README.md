@@ -1,5 +1,5 @@
 <br><br><br>
-<h1 class="title is-1">Biings <span class="has-text-weight-light">DS</span></h1>
+<h1 class="title is-1 has-text-weight-bold">Biings <span class="has-text-weight-light">DS</span></h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Biings DS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
 </p>
@@ -8,11 +8,11 @@
 
 <div class="columns is-multiline">
     <div class="column is-full">
-        <a href="#/ethic" class="box is-large is-floating has-background-gradient-3 hover-to-popping">
-            <img src="media/layout.png" width="65" class="no-zoom" style="margin-bottom: 0.5rem;"/>
+        <a href="#/approach" class="box is-large is-floating has-background-gradient-1 hover-to-popping">
+            <img src="media/principles.png" width="65" class="no-zoom" style="margin-bottom: 0.5rem;"/>
             <div>
                 <div class="title is-2 has-text-white has-text-weight-light">Principles</div>
-                <div class="subtitle is-5 has-text-yellow-lighter">Design for HR sustainabilty</div>
+                <div class="subtitle is-5 has-text-pink-lighter">Design for HR sustainabilty</div>
             </div>
         </a>
     </div>
@@ -26,11 +26,11 @@
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-large is-floating has-background-gradient-1 hover-to-popping">
+        <a href="#/avatar" class="box is-large is-floating has-background-gradient-3 hover-to-popping">
             <img src="media/components.png" width="65" class="no-zoom"/>
             <div>
                 <div class="title is-3 has-text-white has-text-weight-light">Components</div>
-                <div class="subtitle is-5 has-text-pink-lighter">Library of all BDS components</div>
+                <div class="subtitle is-5 has-text-yellow-lighter">Library of all BDS components</div>
             </div>
         </a>
     </div>
@@ -38,7 +38,7 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-3">Quick start</h2><br>
+<h2 class="title is-3 has-text-weight-bold">Quick start</h2><br>
 
 <div class="title is-5 is-spaced">Using NPM</div>
 <div class="subtitle">Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>

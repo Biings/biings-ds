@@ -3,10 +3,8 @@
     <span class="has-text-weight-semibold">Loaders</span> are used when performing slow computations, notifying users that loading is underway.
 </p>
 
-<div class="message is-info">
-    <div class="message-body">
-        For page loading, a <a href="#/skeleton">Skeleton</a> screen is probably a better option.
-    </div>
+<div class="subtitle is-6">
+    For page loading, a <a href="#/skeleton">Skeleton</a> screen is probably a better option.
 </div>
 
 <hr class="is-visible is-large">
