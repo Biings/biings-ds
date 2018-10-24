@@ -5,7 +5,7 @@
 
 <div class="bo columns">
     <div class="column is-two-thirds">
-        <nav class="panel">
+        <nav class="panel has-background-white">
             <div class="panel-tabs is-size-6 has-text-weight-semibold">
                 <a class="is-active">All</a>
                 <a>Bio</a>

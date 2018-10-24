@@ -297,16 +297,45 @@ svg.is-grey-dark
 
 
 /* Panel */
-.panel > div:first-child,
-.panel > a:first-child
+.panel-block:first-child
     border-radius: $box-radius $box-radius 0 0
-.panel > div:last-child,
-.panel > a:last-child
+.panel-block:last-child
     border-radius: 0 0 $box-radius $box-radius
+
+/* Tabs */
+.tabs
+    font-weight: 500
+.tabs:not(.is-boxed) li.is-active a
+    position: relative
+.tabs:not(.is-boxed) li.is-active a:after
+    position: absolute
+    right: 35%
+    bottom: .25em
+    left: 35%
+    height: 3px
+    border-radius: 5px
+    background-color: $purple-light
+    content: ''
+.tabs.is-boxed > ul
+    margin-left: .25em
+.tabs.is-boxed a
+    border: none
+.tabs.is-boxed li:not(.is-active) + li:not(.is-active)
+    margin-left: 1px
+.tabs.is-boxed > ul > li:not(.is-active)
+    position: relative
+    bottom: -.375em
+    background-color: rgba(0,0,0,.04)
+.tabs.is-boxed > ul > li.is-active > a
+    padding-top: .875em
+    padding-bottom: .875em
+.tabs.is-boxed > ul > li:first-child
+    border-radius: $tabs-boxed-link-radius 0 0 0
+.tabs.is-boxed > ul > li:last-child
+    border-radius: 0 $tabs-boxed-link-radius 0 0
 
 
 /* Input field */
-
 .input,
 .select > select,
 .textarea
