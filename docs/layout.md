@@ -77,4 +77,4 @@ Same as the basic layout but with a side menu on the left.
 
 <hr>
 
-?> Build any kind of page by combining <strong>Layout</strong> with → <a href="#/columns">**Columns**</a>
+?> Build any kind of page by combining <strong>Layout</strong> with → <a href="#/column">**Columns**</a>

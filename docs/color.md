@@ -14,7 +14,7 @@ The brand colors are mostly used for marketing or when refering to Biings direct
     <div class="column is-3"><div class="has-background-light"><br><br></div><span>**light**</span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
     <div class="column is-3"><div class="has-background-dark"><br><br></div><span>**dark**</span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-pilot"><br><br></div><span>**pilot** / velvet</span><br><span class="has-text-grey-dark is-monospace">#9B5DB5</span></div>
+    <div class="column is-3"><div class="has-background-pilot"><br><br></div><span>**pilot** / velvet</span><br><span class="has-text-grey-dark is-monospace">#A05CB7</span></div>
     <div class="column is-3"><div class="has-background-care"><br><br></div><span>**care** / sky</span><br><span class="has-text-grey-dark is-monospace">#71C7D6</span></div>
     <div class="column is-3"><div class="has-background-claim"><br><br></div><span>**claim** / fire</span><br><span class="has-text-grey-dark is-monospace">#F89465</span></div>
 </div>

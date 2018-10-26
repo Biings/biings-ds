@@ -346,15 +346,6 @@ img.no-zoom
     cursor: help;
 }
 
-.expanded-content
-{
-    display: none;
-}
-.is-expanded > .expanded-content
-{
-    display: block;
-}
-
 .is-marginless + span
 {
     display: inline-block;

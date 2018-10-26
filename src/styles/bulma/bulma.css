@@ -4450,13 +4450,13 @@ a.box:active {
 
 /* —— Bulma Color Extend —— */
 .has-background-pilot {
-  background-color: #9B5DB5; }
+  background-color: #A05CB7; }
 
 .has-text-pilot {
-  color: #9B5DB5; }
+  color: #A05CB7; }
 
 .has-fill-pilot {
-  fill: #9B5DB5; }
+  fill: #A05CB7; }
 
 .has-background-care {
   background-color: #71C7D6; }
@@ -5083,6 +5083,9 @@ th {
 .box.is-expandable + .box.is-expandable.is-expanded {
   margin-top: 1.775em;
   transition-duration: .1s !important; }
+
+.box.is-expandable:not(.is-expanded) > .expanded-content {
+  display: none; }
 
 /* Menu */
 .menu-list {

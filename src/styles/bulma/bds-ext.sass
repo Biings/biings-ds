@@ -167,6 +167,8 @@ th
 .box.is-expandable + .box.is-expandable.is-expanded
     margin-top: 1.775em
     transition-duration: .1s !important
+.box.is-expandable:not(.is-expanded) > .expanded-content
+    display: none
 
 /* Menu */
 .menu-list
