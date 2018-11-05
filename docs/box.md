@@ -11,11 +11,9 @@
     </div>
 </div>
 
-```
-<div class="box is-floating">
-    <!-- Boxed content.. -->
-</div>
-```
+    <div class="box is-floating">
+        <!-- Boxed content.. -->
+    </div>
 
 <hr class="is-large is-visible">
 
@@ -26,25 +24,25 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 <div class="box is-well is-large">
 
 <div class="box">
-    <div class="subtitle has-text-grey-dark is-6">**Box** &nbsp; ( default )</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>Box</strong> &nbsp; ( default )</div>
 </div>
 <div class="box is-bordered">
-    <div class="subtitle has-text-grey-dark is-6">**Bordered**</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>Bordered</strong></div>
 </div>
 <div class="box is-well">
-    <div class="subtitle has-text-grey-dark is-6">**Well**</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>Well</strong></div>
 </div>
 <div class="box is-white">
-    <div class="subtitle has-text-grey-dark is-6">**White**</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>White</strong></div>
 </div>
 <div class="box is-raised">
-    <div class="subtitle has-text-grey-dark is-6">**Raised**</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>Raised</strong></div>
 </div>
 <div class="box is-floating">
-    <div class="subtitle has-text-grey-dark is-6">**Floating**</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>Floating</strong></div>
 </div>
 <div class="box is-popping">
-    <div class="subtitle has-text-grey-dark is-6">**Popping**</div>
+    <div class="subtitle has-text-grey-dark is-6"><strong>Popping</strong></div>
 </div>
 </div>
 
@@ -55,13 +53,13 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
 <ul class="list">
-    <li>`hover-to-box`</li>
-    <li>`hover-to-bordered`</li>
-    <li>`hover-to-well`</li>
-    <li>`hover-to-white`</li>
-    <li>`hover-to-raised`</li>
-    <li>`hover-to-floating`</li>
-    <li>`hover-to-popping`</li>
+    <li><code>hover-to-box</code></li>
+    <li><code>hover-to-bordered</code></li>
+    <li><code>hover-to-well</code></li>
+    <li><code>hover-to-white</code></li>
+    <li><code>hover-to-raised</code></li>
+    <li><code>hover-to-floating</code></li>
+    <li><code>hover-to-popping</code></li>
 </ul>
 
 <div class="box is-well is-marginless">
@@ -70,11 +68,9 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 </div>
 
-```
-<div class="box is-well hover-to-popping">
-        •••
-</div>
-```
+    <div class="box is-well hover-to-popping">
+            •••
+    </div>
 
 <hr class="is-large is-visible">
 
@@ -104,8 +100,6 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
             Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.
         </div>
     </div>
-
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Link box</h2>

@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<div class="box has-background-white is-relaxed is-marginless">
+<div class="box is-well is-relaxed is-marginless">
     <table class="table">
         <thead>
             <tr>
@@ -28,7 +28,7 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr class="has-background-white-ter">
+            <tr class="has-background-grey-lighter">
                 <td>Line 3</td>
                 <td>this</td>
                 <td>is</td>
@@ -68,7 +68,6 @@
             </tr>
         </tbody>
     </table>
-
 <br>
 
 ?> **Table** supports most text and color modifiers.

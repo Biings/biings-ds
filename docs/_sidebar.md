@@ -18,7 +18,6 @@
     - [ Box](box)
     - [ Button](button)
     - [ Checkbox](checkbox)
-    - [ Column](column)
     - [ Dropdown](dropdown)
     - [ Illustration](illustration)
     - [ Input](input)

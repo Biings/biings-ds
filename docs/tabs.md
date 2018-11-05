@@ -24,7 +24,6 @@
             <li><a>Claim</a></li>
         </ul>
     </div>
-
 <hr class="is-visible is-large">
 
 <h2 class="title is-4">Boxed Tabs</h2>
@@ -42,7 +41,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
     </ul>
 </div>
 <div class="box is-white is-large has-text-grey-dark">
-    Boxed content<br>_Use Javascript for the tab switching behaviour._
+    Boxed content<br><i>Use Javascript for the tab switching behaviour.</i>
 </div>
 
     <div class="tabs is-boxed is-marginless">
@@ -56,7 +55,6 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
     <div class="box is-white">
         ...
     </div>
-
 <hr>
 
 <div class="box is-bordered">

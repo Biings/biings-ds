@@ -14,8 +14,6 @@
     <input class="input is-small is-warning" type="text" placeholder="..">
     <input class="input" type="text" placeholder="..">
     <input class="input is-medium is-danger" type="text" placeholder="..">
-
-
 <hr class="is-visible is-large">
 
 <h2 class="title is-4">Form fields</h2>
@@ -41,7 +39,6 @@
             <textarea id="textfield" class="textarea" placeholder="..."></textarea>
         </div>
     </form>
-
 !> A field's Label should always have a `for="..."` attribute corresponding to the field ID it is refering to.
 
 <hr>

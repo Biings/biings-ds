@@ -34,7 +34,6 @@
         <input type="radio" name="answer" disabled><span class="radio-mark"></span>
         Maybe
     </label>
-
 <br>
 
 ?> **A radio button's label should always select the radio button when clicked!**<br>Make sure the label's text is a direct child of `.radio`

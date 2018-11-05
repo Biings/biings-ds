@@ -26,7 +26,6 @@
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
-
 <br>
 
 ?> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
@@ -76,7 +75,6 @@
             </footer>
         </div>
     </div>
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Pin to top</h2>

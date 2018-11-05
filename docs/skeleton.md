@@ -10,7 +10,6 @@
 </div>
 
     <div class="has-skeleton"></div>
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Anything can be a Skeleton <span class="has-text-weight-normal has-text-red">(Beta)</span></h2>

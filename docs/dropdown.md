@@ -27,26 +27,24 @@
     </div>
 
 </div>
-```html
-<div class="dropdown is-hoverable">
-    <div class="dropdown-trigger">
-        <div class="button">Default Dropdown</div>
-    </div>
-    <div class="dropdown-menu">
-        <div class="dropdown-content">
-            <a class="dropdown-item">This works</a>
-            <a class="dropdown-item">Without</a>
-            <a class="dropdown-item is-active">Any</a>
-            <hr class="dropdown-divider">
-            <a class="dropdown-item">
-                <span class="is-size-7 has-text-grey">Stuff here</span>
-                <br>Javascript
-            </a>
+
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <div class="button">Default Dropdown</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">This works</a>
+                <a class="dropdown-item">Without</a>
+                <a class="dropdown-item is-active">Any</a>
+                <hr class="dropdown-divider">
+                <a class="dropdown-item">
+                    <span class="is-size-7 has-text-grey">Stuff here</span>
+                    <br>Javascript
+                </a>
+            </div>
         </div>
     </div>
-</div>
-```
-
 <hr class="is-visible is-large">
 
 <h2 class="title is-4">Use a custom icon</h2>

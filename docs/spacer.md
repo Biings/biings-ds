@@ -10,7 +10,6 @@
 </div>
 
     <hr class="is-visible">
-
 <br>
 
 ?> By default a spacer uses negative space to create a seperation. Use the `is-visible` class to show an explicit line division (divider).

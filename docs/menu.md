@@ -24,7 +24,6 @@
             <li>Settings</li>
         </ul>
     </div>
-
 <br>
 
 ?> Modifiers like `is-small` are supported.
