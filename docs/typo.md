@@ -9,8 +9,8 @@
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <strong>Averta</strong> as its main font family</li>
-    <li>Use different font weights classes to emphasize or differentiate content hierarchy:<br>from `has-text-weight-light` / `normal` / `semibold` / `bold`</li>
-    <li>When a Monospace font is required use the <strong class="has-text-monospace">Roboto Mono</strong> font (use `is-monospace`)</li>
+    <li>Use different font weights classes to emphasize or differentiate content hierarchy:<br>from <code>has-text-weight-light</code> / <code>normal</code> / <code>semibold</code> / <code>bold</code></li>
+    <li>When a Monospace font is required use the <strong class="has-text-monospace">Roboto Mono</strong> font (use <code>is-monospace</code>)</li>
 </ul>
 
 <hr class="is-large is-visible">

@@ -41,7 +41,11 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 </div>
   
 <hr class="is-large is-visible">
-<h2 class="title is-4">Levels</h2>
+<h2 class="title is-4">Level</h2>
+
+Use **Level items** when you need to vertically center elements on one line.
+
+<hr class="is-small">
 
 <div class="box is-well is-marginless is-relaxed">
   <div class="level has-text-white">
@@ -59,13 +63,13 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 
     <div class="level">
       <div class="level-left">
-        <div class="level-item"> Item 1 </div>
-        <div class="level-item"> Item 2 </div>
-        <div class="level-item"> Item 3 </div>
+        <div class="level-item">Item 1</div>
+        <div class="level-item">Item 2</div>
+        <div class="level-item">Item 3</div>
       </div>
       <div class="level-right">
-          <div class="level-item"> Item 4 </div>
-          <div class="level-item"> Item 5 </div>
+          <div class="level-item">Item 4</div>
+          <div class="level-item">Item 5</div>
       </div>
     </div>
 
@@ -91,7 +95,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 
 <h2 class="title is-5">Basic</h2>
 
-A **Basic** layout has no margin or padding and allows the content to stretch and fill the entire screen.
+A **Basic** layout has no margin or padding and allows the content to stretch and fill the entire stage.
 
 <hr class="is-small">
 

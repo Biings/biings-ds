@@ -20,7 +20,6 @@
     <div class="loader">
     <div class="loader is-large">
     <div class="loader is-huge">
-
 <br>
 
 ?> Use your own CSS or wrapping modifiers to change the position of the loader.

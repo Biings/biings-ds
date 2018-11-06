@@ -14,7 +14,6 @@
     <div class="box is-floating">
         <!-- Boxed content.. -->
     </div>
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Box depths</h2>
@@ -71,7 +70,6 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     <div class="box is-well hover-to-popping">
             •••
     </div>
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Expandable box</h2>

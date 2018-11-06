@@ -145,7 +145,6 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
             </div>
         </div>
     </div>
-
 <a id="selectlist"></a>
 <hr class="is-visible is-large">
 
@@ -191,7 +190,6 @@ Create a system default select list just by wrapping it with a `.select` div.
             <option value="4">List</option>
         </select>
     </div>
-
 <br>
 
 ?> Size modifiers `is-small`, `is-medium` are also supported.

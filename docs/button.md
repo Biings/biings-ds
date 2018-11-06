@@ -19,37 +19,37 @@
         <tr>
             <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
             <td><br>For controls, like Dropdowns</td>
-            <td>`button`</td>
+            <td><code>button</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary">Primary</div><br><br></td>
-            <td><br>For primary actions, like **Save**</td>
-            <td>`button is-primary`</td>
+            <td><br>For primary actions, like <strong>Save</strong></td>
+            <td><code>button is-primary</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-secondary">Secondary</div><br><br></td>
-            <td><br>For secondary actions, like **Cancel**</td>
-            <td>`is-secondary`</td>
+            <td><br>For secondary actions, like <strong>Cancel</strong></td>
+            <td><code>is-secondary</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-danger">Dangerous</div><br><br></td>
             <td><br>For primary dangerous actions</td>
-            <td>`button is-danger`</td>
+            <td><code>button is-danger</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
             <td><br>For texts behaving like a button.</td>
-            <td>`is-text`</td>
+            <td><code>is-text</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-loading">Hidden text</div><br><br></td>
             <td><br>Loading state.</td>  
-            <td>`is-loading`</td>
+            <td><code>is-loading</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button" disabled>Disabled</div><br><br></td>
             <td><br>Disabled or non-interactive state.</td>
-            <td>`disabled` attribute</td>
+            <td><code>disabled` attribute</td>
         </tr>
     </tbody>
 </table>

@@ -35,7 +35,6 @@
             Put some useful information here.
         </div>
     </div>
-
 <br>
 
 <hr class="is-visible is-large">
@@ -91,7 +90,6 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
             </div>
         </div>
     </div>
-
 <br>
 
 ?> Add modifier `is-danger` for failure notifications. 

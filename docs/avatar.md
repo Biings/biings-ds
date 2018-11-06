@@ -14,8 +14,6 @@
         <div class="has-background-grey-light">JD</div>
     </div>
     <span>John Doe</span>
-
-
 <br>
 
 ?> For flexibility purpose the background defaults to "transparent" and should be set manually.
@@ -49,7 +47,6 @@ Avatars can nest an image to act as a person's photo.
         <img src="https://www.gravatar.com/avatar/aamir.gif">
     </div>
     <span class="subtitle is-5">Aamir Khan</span>
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Status</h2>
