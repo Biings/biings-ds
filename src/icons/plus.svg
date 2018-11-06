@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Slice</title>
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>bell copy 5</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4477153 5.44771525,11 6,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 Z" id="Combined-Shape-Copy-7" fill="#000000" fill-rule="nonzero"></path>
-        <path d="M6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4477153 5.44771525,11 6,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 Z" id="Combined-Shape-Copy-7" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) "></path>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.75,10.75 L10.75,3.25 C10.75,2.55964406 11.3096441,2 12,2 C12.6903559,2 13.25,2.55964406 13.25,3.25 L13.25,10.75 L20.75,10.75 C21.4403559,10.75 22,11.3096441 22,12 C22,12.6903559 21.4403559,13.25 20.75,13.25 L13.25,13.25 L13.25,20.75 C13.25,21.4403559 12.6903559,22 12,22 C11.3096441,22 10.75,21.4403559 10.75,20.75 L10.75,13.25 L3.25,13.25 C2.55964406,13.25 2,12.6903559 2,12 C2,11.3096441 2.55964406,10.75 3.25,10.75 L10.75,10.75 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
     </g>
 </svg>

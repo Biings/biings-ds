@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Style</h6><h1 class="title is-1 has-text-weight-bold">Color</h1>
+<h6 class="subtitle is-5 has-text-grey">Style</h6><h1 class="title is-1 has-text-weight-bold">Colors</h1>
 <p class="subtitle is-5"><span class="has-text-weight-semibold">Color</span> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
 
 <hr class="is-visible is-large">

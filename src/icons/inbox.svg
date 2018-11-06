@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>bell copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18,3 L6,3 L0,9 L0,18 C0,19.6575 1.38975,21 3.047,21 L21,21 C22.6575,21 24,19.6575 24,18 L24,9.03125 L18,3 Z M6.828,5 L17.20875,5 L21.17425,9.02025 L16,9 C16,11 14.209,13 12,13 C9.79075,13 8,11 8,9 L2.828,9 L6.828,5 Z M22,18 C22,18.5515 21.5515,19 21,19 L3.047,19 C2.47925,19 2,18.542 2,18 L2,11 L6.25,11 L6.3105,11 C7.17425,13.28075 9.46675,15 11.96975,15 C14.47025,15 16.74575,13.284 17.61125,11.00625 L22,11.0235 L22,18 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

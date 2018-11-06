@@ -7,7 +7,7 @@
     - [ Rules](rules)
 
 - <span class="has-text-cyan-dark">Style</span>
-    - [ Color](color)
+    - [ Colors](color)
     - [ Iconography](icons)
     - [ Terminology](terms)
     - [ Typography](typo)
