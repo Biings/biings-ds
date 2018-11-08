@@ -18,8 +18,8 @@
 <h4 class="title is-4 is-spaced">Scales</h4>
 
 Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax `is-[1-6]` for titles, and `is-size-[1-7]` for texts.
-
-<div class="box is-large">
+<hr class="is-small">
+<div class="box">
     <h1 class="title is-1">Hero</h1><div class="subtitle is-3 has-text-grey">Website or marketing message</div>
     <hr class="is-smaller">
     <h2 class="title is-2">Page</h2><div class="subtitle is-4 has-text-grey">Main page title</div>
@@ -28,9 +28,9 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts 
     <hr class="is-smaller">
     <h4 class="title is-4">Modal</h4><div class="subtitle is-6 has-text-grey">Modal header title</div>
     <hr class="is-smaller">
-    <h5 class="title is-5">Header</h5><div class="subtitle is-6 has-text-grey">Paragraph title</div>
+    <h5 class="title is-5">Header</h5><div class="subtitle is-6 has-text-grey">Paragraph title, same size as regular text</div>
     <hr class="is-smaller">
-    <h6 class="title is-6">Text</h6><div class="subtitle is-size-7 has-text-grey">Same size as regular text</div>
+    <h6 class="title is-6">Text</h6><div class="subtitle is-size-7 has-text-grey">The smallest size you can get</div>
 </div>
 
 ?> There should be a size difference of <strong>two</strong> between a title and its direct subtitle.

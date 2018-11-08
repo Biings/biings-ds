@@ -17,6 +17,7 @@
     - [ Avatar](avatar)
     - [ Box](box)
     - [ Button](button)
+    - [ Card](card)
     - [ Checkbox](checkbox)
     - [ Dropdown](dropdown)
     - [ Illustration](illustration)
