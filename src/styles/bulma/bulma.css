@@ -4833,18 +4833,18 @@ a.box:active {
   fill: white; }
 
 :root {
-  --color-pilot: pilot;
-  --color-pilot-dark: pilot-dark;
-  --color-pilot-light: pilot-light;
-  --color-pilot-lighter: pilot-lighter;
-  --color-care: care;
-  --color-care-dark: care-dark;
-  --color-care-light: care-light;
-  --color-care-lighter: care-lighter;
-  --color-claim: claim;
-  --color-claim-dark: claim-dark;
-  --color-claim-light: claim-light;
-  --color-claim-lighter: claim-lighter;
+  --color-pilot: #A05CB7;
+  --color-pilot-dark: #784589;
+  --color-pilot-light: #bd8dcd;
+  --color-pilot-lighter: #d9bee2;
+  --color-care: #71C7D6;
+  --color-care-dark: #5595a1;
+  --color-care-light: #9cd8e2;
+  --color-care-lighter: #c6e9ef;
+  --color-claim: #F89465;
+  --color-claim-dark: #ba6f4c;
+  --color-claim-light: #fab493;
+  --color-claim-lighter: #fcd4c1;
   --color-cyan: #78C0E0;
   --color-cyan-dark: #5a90a8;
   --color-cyan-light: #a1d3e9;
