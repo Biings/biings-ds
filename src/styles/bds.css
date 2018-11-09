@@ -122,7 +122,7 @@ ul.list > li::before
     vertical-align: middle;
     text-align: center;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 .avatar > img
 {
@@ -136,8 +136,16 @@ ul.list > li::before
 {
     width: 2rem;
     height: 2rem;
-    font-weight: 900;
-    font-size: .7rem;
+    font-weight: 800;
+    font-size: .875rem;
+}
+.avatar.is-medium,
+.avatar.is-medium > div
+{
+    width: 4rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 .avatar.is-large,
 .avatar.is-large > div
@@ -188,33 +196,39 @@ ul.list > li::before
     position: absolute;
     right: -2px;
     bottom: -2px;
-    width: .9em;
-    height: .9em;
+    width: .875rem;
+    height: .875rem;
     border: 2px solid white;
     border-radius: 50%;
     content: '';
 }
 .avatar.is-small:after
 {
-    right: -3px;
-    bottom: -3px;
-    width: 12px;
-    height: 12px;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-width: 2px;
+}
+.avatar.is-medium:after
+{
+    right: -1px;
+    bottom: -1px;
+    width: 1.0625rem;
+    height: 1.0625rem;
     border-width: 2px;
 }
 .avatar.is-large:after
 {
-    width: .8em;
-    height: .8em;
+    width: 1.5rem;
+    height: 1.5rem;
     border-width: 3px;
 }
 .avatar.is-huge:after
 {
     right: -3px;
     bottom: -3px;
-    width: .8em;
-    height: .8em;
-    border-width: 4px;
+    width: 2rem;
+    height: 2rem;
+    border-width: 3px;
 }
 
 .avatar.is-status-purple:after

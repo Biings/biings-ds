@@ -22,11 +22,11 @@
 
 <h2 class="title is-4">Sizes</h2>
 
-Use classes `is-small`, `is-large` and `is-huge` to change the size of an avatar.
+In addition to the default size, use classes `is-small`, `is-medium`, `is-large` and `is-huge` to adjust the size of an avatar.
 <hr class="is-small">
 <div class="level">
     <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise">S</div></div><span class="is-size-7">Small</span></div>
-    <div class="level-item"><div class="avatar"><div class="has-background-turquoise">D</div></div><span class="is-size-6 has-text-grey">Default</span></div>
+    <div class="level-item"><div class="avatar is-medium"><div class="has-background-turquoise">M</div></div><span class="is-size-6">Medium</span></div>
     <div class="level-item"><div class="avatar is-large"><div class="has-background-turquoise-light">L</div></div><span class="is-size-5">Large</span></div>
     <div class="level-item"><div class="avatar is-huge"><div class="has-background-turquoise-light">H</div></div><span class="is-size-4">Huge</span></div>
 </div>
@@ -40,13 +40,13 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box is-well is-relaxed is-marginless">
-    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?size=100&d=blank"></div><span class="subtitle is-5"><strong>Aamir Khan</strong></span>
+    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/1139aec0d65f8e3735d9a142e99ca804?size=100&d=blank"></div><span class="subtitle is-5"><strong>Redford, Robert</strong></span>
 </div>
 
-    <div class="avatar is-large">
+    <div class="avatar is-medium">
         <img src="https://www.gravatar.com/avatar/aamir.gif">
     </div>
-    <span class="subtitle is-5">Aamir Khan</span>
+    <span class="subtitle is-5">Redford, Robert</span>
 <hr class="is-large is-visible">
 
 <h2 class="title is-4">Status</h2>
@@ -56,8 +56,8 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
 <hr class="is-small">
 
 <div class="box is-large is-well is-marginless">
-    <div class="avatar is-status-green is-large"><img src="https://www.gravatar.com/avatar/ded2d271be31a09049209089b50cb882?s=200&d=blank&r=g"></div>
-    <span class="subtitle is-5"><strong>Tom</strong> is online</span>
+    <div class="avatar is-status-green is-medium"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <span class="subtitle is-5"><strong>Aamir</strong> is online</span>
 </div>
 
     <div class="avatar is-status-green">
