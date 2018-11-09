@@ -1,20 +1,20 @@
 // Sass to CSS4 vars
 :root
 {
-    --color-pilot: #{pilot};
-    --color-pilot-dark: #{pilot-dark};
-    --color-pilot-light: #{pilot-light};
-    --color-pilot-lighter: #{pilot-lighter};
+    --color-pilot: #{$pilot};
+    --color-pilot-dark: #{$pilot-dark};
+    --color-pilot-light: #{$pilot-light};
+    --color-pilot-lighter: #{$pilot-lighter};
 
-    --color-care: #{care};
-    --color-care-dark: #{care-dark};
-    --color-care-light: #{care-light};
-    --color-care-lighter: #{care-lighter};
+    --color-care: #{$care};
+    --color-care-dark: #{$care-dark};
+    --color-care-light: #{$care-light};
+    --color-care-lighter: #{$care-lighter};
 
-    --color-claim: #{claim};
-    --color-claim-dark: #{claim-dark};
-    --color-claim-light: #{claim-light};
-    --color-claim-lighter: #{claim-lighter};
+    --color-claim: #{$claim};
+    --color-claim-dark: #{$claim-dark};
+    --color-claim-light: #{$claim-light};
+    --color-claim-lighter: #{$claim-lighter};
 
     --color-cyan: #{$cyan};
     --color-cyan-dark: #{$cyan-dark};
