@@ -1500,14 +1500,14 @@ a.dropdown-item {
   white-space: nowrap; }
   .tabs a {
     align-items: center;
-    border-bottom-color: transparent;
+    border-bottom-color: #dedce4;
     border-bottom-style: solid;
-    border-bottom-width: 0;
+    border-bottom-width: 1px;
     color: #b4b0c2;
     display: flex;
     justify-content: center;
-    margin-bottom: -0;
-    padding: 0.75em 1em 1em;
+    margin-bottom: -1px;
+    padding: 0.75em 1.125em 1em;
     vertical-align: top; }
     .tabs a:hover {
       border-bottom-color: transparent;
@@ -1519,9 +1519,9 @@ a.dropdown-item {
       color: #403d4b; }
   .tabs ul {
     align-items: center;
-    border-bottom-color: transparent;
+    border-bottom-color: #dedce4;
     border-bottom-style: solid;
-    border-bottom-width: 0;
+    border-bottom-width: 1px;
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
@@ -1548,7 +1548,7 @@ a.dropdown-item {
     border: 1px solid transparent;
     border-radius: 8px 8px 0 0; }
     .tabs.is-boxed a:hover {
-      background-color: rgba(0, 0, 0, 0.035);
+      background-color: transparent;
       border-bottom-color: transparent; }
   .tabs.is-boxed li.is-active a {
     background-color: white;
@@ -5230,29 +5230,34 @@ svg.is-grey-dark {
 .tabs {
   font-weight: 500; }
 
+.tabs:not(.is-boxed) li:first-child a {
+  padding-left: 0.75em; }
+
 .tabs:not(.is-boxed) li.is-active a {
   position: relative; }
 
 .tabs:not(.is-boxed) li.is-active a:after {
   position: absolute;
   right: 35%;
-  bottom: .25em;
+  bottom: -1px;
   left: 35%;
   height: 3px;
   border-radius: 5px;
-  background-color: #815BC3;
+  background-color: #9d8cdb;
   content: ''; }
 
 .tabs.is-boxed > ul {
-  margin-left: .25em; }
+  margin-left: .25em;
+  border-bottom: none; }
 
 .tabs.is-boxed a {
-  border: none;
+  padding-right: 1.5em;
   padding-left: 1.5em;
-  padding-right: 1.5em; }
+  border: none; }
 
 .tabs.is-boxed li:not(.is-active) a {
-  border-radius: 0; }
+  border-radius: 0;
+  color: #8b85a0; }
 
 .tabs.is-boxed li:not(.is-active) + li:not(.is-active) {
   margin-left: 1px; }
@@ -5264,12 +5269,6 @@ svg.is-grey-dark {
 .tabs.is-boxed > ul > li.is-active > a {
   padding-top: .875em;
   padding-bottom: .875em; }
-
-.tabs.is-boxed > ul > li:first-child > a {
-  border-radius: 8px 0 0 0; }
-
-.tabs.is-boxed > ul > li:last-child > a {
-  border-radius: 0 8px 0 0; }
 
 /* Input field */
 .input,

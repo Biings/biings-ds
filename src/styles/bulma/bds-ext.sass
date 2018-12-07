@@ -307,25 +307,29 @@ svg.is-grey-dark
 /* Tabs */
 .tabs
     font-weight: 500
+.tabs:not(.is-boxed) li:first-child a
+    padding-left: 0.75em
 .tabs:not(.is-boxed) li.is-active a
     position: relative
 .tabs:not(.is-boxed) li.is-active a:after
     position: absolute
     right: 35%
-    bottom: .25em
+    bottom: -1px
     left: 35%
     height: 3px
     border-radius: 5px
-    background-color: $primary
+    background-color: $purple-light
     content: ''
 .tabs.is-boxed > ul
     margin-left: .25em
+    border-bottom: none
 .tabs.is-boxed a
-    border: none
-    padding-left: 1.5em
     padding-right: 1.5em
+    padding-left: 1.5em
+    border: none
 .tabs.is-boxed li:not(.is-active) a
     border-radius: 0
+    color: $grey-dark
 .tabs.is-boxed li:not(.is-active) + li:not(.is-active)
     margin-left: 1px
 .tabs.is-boxed > ul > li:not(.is-active)
@@ -334,10 +338,6 @@ svg.is-grey-dark
 .tabs.is-boxed > ul > li.is-active > a
     padding-top: .875em
     padding-bottom: .875em
-.tabs.is-boxed > ul > li:first-child > a
-    border-radius: $tabs-boxed-link-radius 0 0 0
-.tabs.is-boxed > ul > li:last-child > a
-    border-radius: 0 $tabs-boxed-link-radius 0 0
 
 
 /* Input field */

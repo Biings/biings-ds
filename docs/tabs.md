@@ -7,7 +7,7 @@
 
 <div class="box is-well is-marginless is-large">
     <div class="tabs">
-        <ul>
+        <ul class="is-borderless">
             <li><a>Pilot</a></li>
             <li class="is-active"><a>Care</a></li>
             <li><a>Plan</a></li>
