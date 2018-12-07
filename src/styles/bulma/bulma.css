@@ -4893,6 +4893,9 @@ a.box:active {
   --color-white-bis: #F9F8FC;
   --color-white: white;
   --color-primary: #815BC3;
+  --color-primary-dark: #614492;
+  --color-primary-light: #a78cd5;
+  --color-primary-lighter: #cdbde7;
   --color-light: #F9F8FC;
   --color-dark: #403d4b;
   --color-info: #78C0E0;

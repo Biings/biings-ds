@@ -121,7 +121,7 @@ ul.list > li::before
     color: white;
     vertical-align: middle;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.25rem;
 }
 .avatar > img
@@ -136,7 +136,7 @@ ul.list > li::before
 {
     width: 2rem;
     height: 2rem;
-    font-weight: 800;
+    font-weight: 700;
     font-size: .875rem;
 }
 .avatar.is-medium,
@@ -144,7 +144,7 @@ ul.list > li::before
 {
     width: 4rem;
     height: 4rem;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 .avatar.is-large,
@@ -152,16 +152,16 @@ ul.list > li::before
 {
     width: 5rem;
     height: 5rem;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.9rem;
 }
 .avatar.is-huge,
 .avatar.is-huge > div
 {
-    width: 7rem;
-    height: 7rem;
-    font-weight: 500;
-    font-size: 2.5rem;
+    width: 8rem;
+    height: 8rem;
+    font-weight: 400;
+    font-size: 3rem;
 }
 .avatar + span
 {

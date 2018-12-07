@@ -27,8 +27,8 @@ In addition to the default size, use classes `is-small`, `is-medium`, `is-large`
 <div class="level">
     <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise">S</div></div><span class="is-size-7">Small</span></div>
     <div class="level-item"><div class="avatar is-medium"><div class="has-background-turquoise">M</div></div><span class="is-size-6">Medium</span></div>
-    <div class="level-item"><div class="avatar is-large"><div class="has-background-turquoise-light">L</div></div><span class="is-size-5">Large</span></div>
-    <div class="level-item"><div class="avatar is-huge"><div class="has-background-turquoise-light">H</div></div><span class="is-size-4">Huge</span></div>
+    <div class="level-item"><div class="avatar is-large"><div class="has-background-turquoise">L</div></div><span class="is-size-5">Large</span></div>
+    <div class="level-item"><div class="avatar is-huge"><div class="has-background-turquoise">H</div></div><span class="is-size-3">Huge</span></div>
 </div>
 
 <hr class="is-visible is-large">
