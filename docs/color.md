@@ -10,7 +10,7 @@ The brand colors are mostly used for marketing or when refering to Biings direct
 <hr>
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-primary"><br><br></div><span><strong>primary</strong></span><br><span class="has-text-grey-dark is-monospace">#715EB8</span></div>
+    <div class="column is-3"><div class="has-background-primary"><br><br></div><span><strong>primary</strong></span><br><span class="has-text-grey-dark is-monospace">#815BC3</span></div>
     <div class="column is-3"><div class="has-background-light" style="border:1px solid #EDECF0;"><br><br></div><span><strong>light</strong></span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
     <div class="column is-3"><div class="has-background-dark"><br><br></div><span><strong>dark</strong></span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
     <div class="column is-12"></div>
@@ -26,7 +26,7 @@ The brand colors are mostly used for marketing or when refering to Biings direct
 <hr class="is-small">
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-white-ter" style="border:1px solid #EDECF0;"><br><br></div><span><strong>white-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#F6F5FA</span></div>
+    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><span><strong>white-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#F3F2F6</span></div>
     <div class="column is-3"><div class="has-background-white-bis" style="border:1px solid #EDECF0;"><br><br></div><span><strong>white-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
     <div class="column is-3"><div class="has-background-white"><br><br></div><span><strong>white</strong></span><br><span class="has-text-grey-dark is-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>

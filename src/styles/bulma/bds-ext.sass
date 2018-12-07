@@ -316,24 +316,27 @@ svg.is-grey-dark
     left: 35%
     height: 3px
     border-radius: 5px
-    background-color: $purple-light
+    background-color: $primary
     content: ''
 .tabs.is-boxed > ul
     margin-left: .25em
 .tabs.is-boxed a
     border: none
+    padding-left: 1.5em
+    padding-right: 1.5em
+.tabs.is-boxed li:not(.is-active) a
+    border-radius: 0
 .tabs.is-boxed li:not(.is-active) + li:not(.is-active)
     margin-left: 1px
 .tabs.is-boxed > ul > li:not(.is-active)
     position: relative
-    bottom: -.375em
-    background-color: rgba(0,0,0,.04)
+    bottom: -.125em
 .tabs.is-boxed > ul > li.is-active > a
     padding-top: .875em
     padding-bottom: .875em
-.tabs.is-boxed > ul > li:first-child
+.tabs.is-boxed > ul > li:first-child > a
     border-radius: $tabs-boxed-link-radius 0 0 0
-.tabs.is-boxed > ul > li:last-child
+.tabs.is-boxed > ul > li:last-child > a
     border-radius: 0 $tabs-boxed-link-radius 0 0
 
 
@@ -428,6 +431,8 @@ svg.is-grey-dark
 
 .card
     border-radius: 2px
+.card-footer
+    border-radius: 0 0 2px 2px
 
 .message.is-noti
     display: block
