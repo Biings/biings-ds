@@ -1463,7 +1463,7 @@ a.dropdown-item {
   position: relative; }
 
 .modal-card-head {
-  border-bottom: 1px solid #F9F8FC;
+  border-bottom: none;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem; }
 
@@ -1477,7 +1477,7 @@ a.dropdown-item {
 .modal-card-foot {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  border-top: 1px solid #F9F8FC; }
+  border-top: 1px solid #F3F2F6; }
   .modal-card-foot .button:not(:last-child) {
     margin-right: 10px; }
 
@@ -1487,7 +1487,7 @@ a.dropdown-item {
   flex-grow: 1;
   flex-shrink: 1;
   overflow: auto;
-  padding: 1.5rem 2rem; }
+  padding: 0.25rem 2rem 1.5rem; }
 
 .tabs {
   -webkit-overflow-scrolling: touch;
@@ -4981,8 +4981,12 @@ th {
 
 /* Button */
 .button {
+  border-radius: 3px;
   font-weight: 500;
-  border-radius: 3px; }
+  transition: background-color .1s linear; }
+
+.button.is-primary:hover {
+  background-color: #7348bc; }
 
 .button .icon {
   width: 1em;
@@ -4998,7 +5002,7 @@ th {
   border-color: transparent;
   background-color: rgba(109, 104, 129, 0.15); }
 
-.button.is-secondary:active {
+.button.is-secondary:hover {
   background-color: rgba(109, 104, 129, 0.18); }
 
 /* Box */
@@ -5218,7 +5222,7 @@ svg.is-grey-dark {
   font-weight: 500; }
 
 .tabs:not(.is-boxed) li:first-child a {
-  padding-left: 0.75em; }
+  padding-left: .75em; }
 
 .tabs:not(.is-boxed) li.is-active a {
   position: relative; }

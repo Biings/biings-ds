@@ -42,13 +42,13 @@
     <div class="modal-card">
         <header class="modal-card-head">
             <div class="modal-card-title">
-                <span class="subtitle is-4">Modal Card</span>
+                <div class="title is-3">Modal Card</div>
                 <div class="subtitle is-6 has-text-grey">The close button is optional</div>
             </div>
             <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
         </header>
-        <section class="modal-card-body has-text-centered">
-            <div class="box is-white is-italic is-size-5 has-text-grey">Place your form here<br>(or other interactions)</div>
+        <section class="modal-card-body">
+            <div class="is-italic is-size-5 has-text-grey">Place your form here<br>(or other interactions)</div>
         </section>
         <footer class="modal-card-foot">
             <div class="button is-primary is-beefy">Primary Action</div>

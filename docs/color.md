@@ -156,5 +156,5 @@ All colors are available as CSS variables through the prefix `--color-`.
     <h4 class="title is-4 has-text-white">Slack Sidebar Theme</h4>
     <div class="subtitle is-6 has-text-pink-lighter has-text-weight-semibold">Paint your Slack to the colors of Biings by copy-pasting the following HEX codes into your Slack preferences.</div>
 
-    #403D4B,#302D3D,#715EB8,#ffffff,#302D3D,#F9F8FC,#5BCC72,#FF9505
+    #302D3D,#403D4B,#815BC3,#ffffff,#403D4B,#F9F8FC,#5BCC72,#F89465
 </div>

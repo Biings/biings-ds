@@ -72,8 +72,11 @@ th
 
 /* Button */
 .button
-    font-weight: 500
     border-radius: $radius
+    font-weight: 500
+    transition: background-color .1s linear
+.button.is-primary:hover
+    background-color: darken($primary,5%)
 .button .icon
     width: 1em
     height: 1em
@@ -85,9 +88,9 @@ th
 
 .button.is-secondary
     border-color: transparent
-    background-color: rgba($grey-darker,0.15)
-.button.is-secondary:active
-    background-color: rgba($grey-darker,0.18)
+    background-color: rgba($grey-darker,.15)
+.button.is-secondary:hover
+    background-color: rgba($grey-darker,.18)
 
 
 
@@ -298,7 +301,7 @@ svg.is-grey-dark
 .tabs
     font-weight: 500
 .tabs:not(.is-boxed) li:first-child a
-    padding-left: 0.75em
+    padding-left: .75em
 .tabs:not(.is-boxed) li.is-active a
     position: relative
 .tabs:not(.is-boxed) li.is-active a:after
