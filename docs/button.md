@@ -64,12 +64,12 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
 
 <div class="box is-well is-large">
     <span class="button is-small">Small</span> &nbsp; 
-    <span class="button">Normal</span> &nbsp; 
+    <span class="button is-rounded">Rounded</span> &nbsp; 
     <span class="button is-medium">Medium</span> &nbsp; 
     <span class="button is-large">Large</span>
     <hr class="is-small">
-    <div class="button is-beefy is-primary">Beefy</div> &nbsp;&nbsp; 
-    <div class="button is-rounded is-medium">Rounded</div>
+    <div class="button is-beefy is-primary">Beefy</div>
+    <div class="button is-beefy is-secondary">Beefy Secondary</div>
 </div>
 
 <hr class="is-large is-visible">
@@ -78,16 +78,27 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
 
 <div class="box is-well is-marginless is-large">
         <div class="field has-addons">
-                <p class="control">
-                    <a class="button">Yes</a>
-                </p>
-                <p class="control">
-                    <a class="button">No</a>
-                </p>
-                <p class="control">
-                    <a class="button">Maybe</a>
-                </p>
-            </div>
+            <p class="control">
+                <a class="button">Yes</a>
+            </p>
+            <p class="control">
+                <a class="button">No</a>
+            </p>
+            <p class="control">
+                <a class="button">Maybe</a>
+            </p>
+        </div>
+        <div class="field has-addons">
+            <p class="control">
+                <a class="button has-text-grey">Option</a>
+            </p>
+            <p class="control">
+                <a class="button has-text-grey">Option</a>
+            </p>
+            <p class="control">
+                <a class="button is-primary">Selected</a>
+            </p>
+        </div>
 </div>
 
     <div class="field has-addons">

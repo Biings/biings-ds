@@ -73,31 +73,21 @@ th
 /* Button */
 .button
     font-weight: 500
-.button:not(:active)
-    box-shadow: none
+    border-radius: $radius
 .button .icon
     width: 1em
     height: 1em
-
 .button.is-beefy
-    padding: 1.4em 1.8em
-    box-shadow: 0 1px 2px rgba(48, 45, 61,.05)
-    transition: box-shadow .15s linear
-.button.is-beefy:hover
-    box-shadow: 0 4px 8px rgba(48, 45, 61,.05)
-.button.is-beefy:active
-    box-shadow: 0 0 2px rgba(48, 45, 61,.05)
+    padding: calc(1.25em - #{$button-border-width}) 1.75em
 
 .button.is-text
     text-decoration: none
 
 .button.is-secondary
-    border-width: 0
-    background-color: $grey-lighter
-.button.is-secondary:hover
-    background-color: mix(white,$grey-light,40)
+    border-color: transparent
+    background-color: rgba($grey-darker,0.15)
 .button.is-secondary:active
-    background-color: mix(white,$grey-light,35)
+    background-color: rgba($grey-darker,0.18)
 
 
 
@@ -345,7 +335,7 @@ svg.is-grey-dark
 .select > select,
 .textarea
     min-height: 2.75em
-    transition: border-color .1s linear
+    transition: border-color .1s linear, box-shadow .08s linear
 .textarea
     padding-left: calc(.875em - 1px)
 .field:not(:last-child)

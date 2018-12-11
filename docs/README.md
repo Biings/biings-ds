@@ -21,7 +21,7 @@
             <img src="media/style.png" width="55" class="no-zoom" style="margin: 0.5rem 0;"/>
             <div>
                 <div class="title is-3 has-text-white has-text-weight-light">Style</div>
-                <div class="subtitle is-5 has-text-turquoise-lighter">Guidelines and colors to bring a design to life</div>
+                <div class="subtitle is-5 has-text-cyan-lighter">Guidelines and Colors</div>
             </div>
         </a>
     </div>
@@ -44,7 +44,6 @@
 <div class="subtitle">Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>
 
     npm install biings-ds
-
 <br><br>
 
 <div class="title is-5 is-spaced">Manually</div>
@@ -58,5 +57,5 @@
 <div class="box is-bordered is-large">
     <div class="title is-3 has-text-primary has-text-weight-light">Want to contribute?</div>
     <div class="subtitle is-5 has-text-grey-dark">Onboarding for designers and developers wanting to contribute. We welcome all feedback and ideas in order to produce the best possible experience for our users.</div>
-    <a href="#/contribute" class="button is-primary">Start contributing</a>
+    <a href="#/contribute" class="button is-primary is-medium">Start contributing</a>
 </div>

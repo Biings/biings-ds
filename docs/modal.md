@@ -5,7 +5,7 @@
 
 
 <div class="box is-well is-large has-text-centered is-marginless">
-    <div onclick="openModal('')" class="button is-primary">Open Modal</div>
+    <div onclick="openModal('')" class="button is-primary is-beefy" style="box-shadow: 0 6px 12px rgba(129, 91, 195,0.2)">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal('')"></div>
@@ -35,24 +35,24 @@
 <h2 class="title is-4">Modal Card</h2>
 
 <div class="box is-well is-large has-text-centered is-marginless">
-    <button onclick="openModal(1)" class="button">Open Card</button>
+    <div onclick="openModal(1)" class="button is-beefy is-dark">Open Card</div>
 </div>
 <div id="js-modal1" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
         <header class="modal-card-head">
             <div class="modal-card-title">
-                <div class="title is-4">Modal Card</div>
-                 <div class="subtitle is-6 has-text-grey">The close button is optional</div>
+                <span class="subtitle is-4">Modal Card</span>
+                <div class="subtitle is-6 has-text-grey">The close button is optional</div>
             </div>
             <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-text-centered">
-            <div class="box is-white">*Place your form here<br>(or other interactions)*</div>
+            <div class="box is-white is-italic is-size-5 has-text-grey">Place your form here<br>(or other interactions)</div>
         </section>
         <footer class="modal-card-foot">
-            <button class="button is-primary">Primary Action</button>
-            <button  onclick="closeModal(1)" class="button is-secondary">Cancel</button>
+            <div class="button is-primary is-beefy">Primary Action</div>
+            <div  onclick="closeModal(1)" class="button is-beefy is-secondary">Cancel</div>
         </footer>
     </div>
 </div>
@@ -62,7 +62,7 @@
         <div class="modal-card">
             <header class="modal-card-head">
                 <div class="modal-card-title">
-                    <div class="title is-4">Modal title</div>
+                    <div class="title is-3">Modal title</div>
                     <div class="subtitle is-6">Subtitle</div>
                 </div>
                 <button class="delete" aria-label="close"></button>

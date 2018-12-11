@@ -59,7 +59,7 @@ $dark-invert: $light !default
 // General colors
 
 $background: $white !default
-$border: lighten($grey-light,4) !default
+$border: $grey-light !default
 $border-hover: $grey-light !default
 
 // Text colors
@@ -105,7 +105,7 @@ $size-1: 3rem !default
 $size-2: 2.5rem !default
 $size-3: 2rem !default
 $size-4: 1.5rem !default
-$size-5: 1.25rem !default
+$size-5: 1.125rem !default
 $size-6: 1rem !default
 $size-7: 0.875rem !default
 
@@ -207,17 +207,18 @@ $menu-item-active-background-color: transparent
 $menu-list-border-left: 1px solid $border !default
 $menu-label-color: $text !default
 
+$button-border-color: lighten($grey-light,5) !default
 $button-hover-color: $text !default
 $button-hover-border-color: $grey-light !default
 $button-active-color: $text !default
-$button-active-border-color: $grey !default
+$button-active-border-color: lighten($grey,5) !default
 $button-text-hover-background-color: transparent !default
 $button-padding-horizontal: 0.95em !default
 
 $modal-background-background-color: rgba($black, 0.6) !default 
-$modal-card-head-background-color: $light !default
-$modal-card-head-border-bottom: 0 solid white !default
-$modal-card-foot-border-top: 0 solid white !default
+$modal-card-head-background-color: $white !default
+$modal-card-head-border-bottom: 1px solid $light !default
+$modal-card-foot-border-top: 1px solid $light !default
 $modal-card-head-radius: 0.5rem !default
 $modal-card-foot-radius: 0.5rem !default
 $modal-card-head-padding: 1.5rem 2rem !default
@@ -232,7 +233,7 @@ $dropdown-item-hover-background-color: $white-ter !default
 $dropdown-content-radius: $radius-small !default
 
 // Form elements
-$control-border-width: 2px !default
+$control-border-width: 1px !default
 $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
 
@@ -241,10 +242,10 @@ $input-color: $text !default
 $input-arrow: $grey !default
 $input-hover-color: $text !default
 $input-border-color: $border !default
-$input-hover-border-color: $link-hover-border !default
+$input-hover-border-color: $grey !default
 $input-focus-border-color: rgba($purple,0.6) !default
-$input-focus-box-shadow-size: 0 0 0 0 !default
-$input-focus-box-shadow-color: none !default
+$input-focus-box-shadow-size: 0 0 0 0.125em !default
+$input-focus-box-shadow-color: rgba($primary, 0.1) !default
 $label-color: lighten($text,5) !default
 $label-weight: 600 !default
 
