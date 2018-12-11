@@ -259,7 +259,7 @@ img.no-zoom
 
 .token.tag
 {
-    padding: 0;
+    padding: 0 0.5em;
     color: #2973b7;
 }
 

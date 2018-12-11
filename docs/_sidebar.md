@@ -32,3 +32,4 @@
     - [ Spacer](spacer)
     - [ Table](table)
     - [ Tabs](tabs)
+    - [ Tag](tag)
