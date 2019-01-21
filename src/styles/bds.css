@@ -93,13 +93,10 @@ ul.list > li::before
 {
     font-family: 'Roboto Mono', monospace;
 }
-.has-text-brand-1
+.is-serif
 {
-    color: var(--color-primary-txt);
-}
-.has-text-red
-{
-    color: var(--color-red);
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
 }
 
 /* Avatar */

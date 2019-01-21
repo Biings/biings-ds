@@ -6,7 +6,7 @@
 <hr class="is-visible is-large">
 
 <div id="r-wc" class="box is-expandable is-unselectable is-large is-well hover-to-white" onclick="toggleExpand('r-wc')">
-    <span class="title is-4">Repetitive absences</span>
+    <span class="title is-4 is-serif">Repetitive absences</span>
     <div class="expanded-content content">
         <p>
             <br>A person reaches a status of *repetitive absences* when he or she accumulates 4 unplanned cases of absences within the last 12 months.
@@ -20,7 +20,7 @@
 </div>
 
 <div id="r-adc" class="box is-large is-expandable is-unselectable is-well hover-to-white" onclick="toggleExpand('r-adc')">
-    <span class="title is-4">Absences duration categories</span>
+    <span class="title is-4 is-serif">Absences duration categories</span>
     <div class="expanded-content content">
         <p><br>Absences can be sorted into 6 categories depending on their duration (in days):</p>
         <table>
@@ -40,7 +40,7 @@
 </div>
 
 <div id="r-rtw" class="box is-expandable is-large is-well hover-to-white is-unselectable" onclick="toggleExpand('r-rtw')">
-    <span class="title is-4">Return to work meeting</span>
+    <span class="title is-4 is-serif">Return to work meeting</span>
     <div class="expanded-content">
         <hr class="is-smaller">
         Under construction..

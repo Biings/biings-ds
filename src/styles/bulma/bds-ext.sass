@@ -1,12 +1,16 @@
 /* —— Bulma BDS Extend —— */
 
-/* Titles */
+/* Typography */
 .title.is-5,
 .title.is-6
     font-weight: 700
 
 .is-borderless
     border: none !important
+
+.has-text-weight-medium
+    font-weight: $weight-medium !important
+
 
 /* Rules / Lines */
 hr:not(.is-visible):not(.dropdown-divider)
@@ -164,9 +168,6 @@ th
     display: none
 
 /* Menu */
-.menu-list
-    line-height: 1.2
-
 .menu-label
     text-transform: none
     letter-spacing: 0
@@ -178,6 +179,7 @@ th
 
 .menu-list a
     font-weight: 500
+    padding: .375em .5em
 
 .menu-list a.is-active
     font-weight: 600

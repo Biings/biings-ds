@@ -11,19 +11,19 @@
 
 <div class="columns">
     <div class="column is-10 is-full-mobile">
-        <div class="title is-4 has-text-weight-semibold">Put HR sustainability first</div><p class="subtitle is-6">
+        <div class="title is-4 is-serif">Put HR sustainability first</div><p class="subtitle is-6">
             Sustainable human ressources maintain the same level of corporate culture, knowledge and creativity within an organisation, and over time.
         </p>
         <hr>
-        <h2 class="title is-4 has-text-weight-semibold">Favor responsibility and independance</h2><p class="subtitle is-6">
+        <h2 class="title is-4 is-serif">Favor responsibility and independance</h2><p class="subtitle is-6">
             Favor good work-atmosphere rather than adopting a coercive control of absences. Manage without judging.
         </p>
         <hr>
-        <h2 class="title is-4 has-text-weight-semibold">Facts over surveys</h2><p class="subtitle is-6">
+        <h2 class="title is-4 is-serif">Facts over surveys</h2><p class="subtitle is-6">
             Collecting factual data over information from surveys is key for a reliable analysis of occupational well-being.
         </p>
         <hr>
-        <h2 class="title is-4 has-text-weight-semibold">Privacy by default</h2><p class="subtitle is-6">
+        <h2 class="title is-4 is-serif">Privacy by default</h2><p class="subtitle is-6">
             When releasing new product features, the strictest privacy settings should be applied by defaults.
         </p>
     </div>

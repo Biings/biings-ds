@@ -1,5 +1,5 @@
 <br><br><br>
-<h1 class="title is-1 has-text-weight-bold">Biings <span class="has-text-weight-light">DS</span></h1>
+<h1 class="title is-2 is-serif">Create for Biings</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Biings DS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
 </p>
@@ -54,8 +54,14 @@
 
 <hr class="is-large">
 
-<div class="box is-bordered is-large">
-    <div class="title is-3 has-text-primary has-text-weight-light">Want to contribute?</div>
-    <div class="subtitle is-5 has-text-grey-dark">Onboarding for designers and developers wanting to contribute. We welcome all feedback and ideas in order to produce the best possible experience for our users.</div>
-    <a href="#/contribute" class="button is-primary is-medium">Start contributing</a>
+<div class="box is-large is-bordered is-white">
+    <div class="columns is-marginless is-vcentered">
+        <div class="column is-7">
+            <div class="title is-4 has-text-weight-semibold">Want to contribute?</div>
+            <div class="subtitle is-6 has-text-grey-dark">Onboarding for designers and developers wanting to contribute.</div>
+        </div>
+        <div class="column is-5 has-text-right">
+            <a href="#/contribute" class="button is-rounded is-primary is-beefy">Start contributing</a>
+        </div>
+    </div>
 </div>
