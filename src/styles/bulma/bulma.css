@@ -435,7 +435,7 @@ table th {
   .is-size-7-widescreen {
     font-size: 0.875rem !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-size-1-fullhd {
     font-size: 3rem !important; }
   .is-size-2-fullhd {
@@ -491,11 +491,11 @@ table th {
   .has-text-centered-widescreen {
     text-align: center !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .has-text-centered-widescreen-only {
     text-align: center !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .has-text-centered-fullhd {
     text-align: center !important; } }
 
@@ -527,11 +527,11 @@ table th {
   .has-text-justified-widescreen {
     text-align: justify !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .has-text-justified-widescreen-only {
     text-align: justify !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .has-text-justified-fullhd {
     text-align: justify !important; } }
 
@@ -563,11 +563,11 @@ table th {
   .has-text-left-widescreen {
     text-align: left !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .has-text-left-widescreen-only {
     text-align: left !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .has-text-left-fullhd {
     text-align: left !important; } }
 
@@ -599,11 +599,11 @@ table th {
   .has-text-right-widescreen {
     text-align: right !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .has-text-right-widescreen-only {
     text-align: right !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .has-text-right-fullhd {
     text-align: right !important; } }
 
@@ -806,11 +806,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-block-widescreen {
     display: block !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-block-widescreen-only {
     display: block !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-block-fullhd {
     display: block !important; } }
 
@@ -845,11 +845,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-flex-widescreen {
     display: flex !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-flex-widescreen-only {
     display: flex !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-flex-fullhd {
     display: flex !important; } }
 
@@ -884,11 +884,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-inline-widescreen {
     display: inline !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-inline-widescreen-only {
     display: inline !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-inline-fullhd {
     display: inline !important; } }
 
@@ -923,11 +923,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-inline-block-widescreen {
     display: inline-block !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-inline-block-widescreen-only {
     display: inline-block !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-inline-block-fullhd {
     display: inline-block !important; } }
 
@@ -962,11 +962,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-inline-flex-widescreen {
     display: inline-flex !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-inline-flex-widescreen-only {
     display: inline-flex !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-inline-flex-fullhd {
     display: inline-flex !important; } }
 
@@ -1001,11 +1001,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-hidden-widescreen {
     display: none !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-hidden-widescreen-only {
     display: none !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-hidden-fullhd {
     display: none !important; } }
 
@@ -1040,11 +1040,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .is-invisible-widescreen {
     visibility: hidden !important; } }
 
-@media screen and (min-width: 1216px) and (max-width: 1407px) {
+@media screen and (min-width: 1216px) and (max-width: 1311px) {
   .is-invisible-widescreen-only {
     visibility: hidden !important; } }
 
-@media screen and (min-width: 1408px) {
+@media screen and (min-width: 1312px) {
   .is-invisible-fullhd {
     visibility: hidden !important; } }
 
@@ -2347,18 +2347,18 @@ a.box:active {
     .container.is-widescreen {
       max-width: 1152px;
       width: auto; } }
-  @media screen and (max-width: 1407px) {
+  @media screen and (max-width: 1311px) {
     .container.is-fullhd {
-      max-width: 1344px;
+      max-width: 1248px;
       width: auto; } }
   @media screen and (min-width: 1216px) {
     .container {
       max-width: 1152px;
       width: 1152px; } }
-  @media screen and (min-width: 1408px) {
+  @media screen and (min-width: 1312px) {
     .container {
-      max-width: 1344px;
-      width: 1344px; } }
+      max-width: 1248px;
+      width: 1248px; } }
 
 .input,
 .textarea {
@@ -4355,7 +4355,7 @@ a.tag:hover {
       width: 100%; }
     .column.is-offset-12-widescreen {
       margin-left: 100%; } }
-  @media screen and (min-width: 1408px) {
+  @media screen and (min-width: 1312px) {
     .column.is-narrow-fullhd {
       flex: none; }
     .column.is-full-fullhd {
