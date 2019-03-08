@@ -88,6 +88,14 @@ ul.list > li::before
     background: linear-gradient(25deg, #ef626c -30%, #ffc15e 130%);
 }
 
+@media print
+{
+    .is-hidden-print
+    {
+        display: none !important;
+    }
+}
+
 /* — Modifiers — */
 .is-monospace
 {

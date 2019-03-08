@@ -4,7 +4,21 @@
 <hr class="is-visible is-large">
 
 <div class="box is-well is-marginless">
-    <div class="menu">
+    <div class="menu is-size-7" style="max-width: 200px">
+        <ul class="menu-list">
+            <li><a>Biodata</a></li>
+            <li><a>Timelines</a></li>
+            <li><a>Follow-ups</a></li>
+        </ul>
+        <p class="menu-label">Label</p>
+        <ul class="menu-list">
+            <li><a class="is-active">Claim reports</a></li>
+            <li><a>Settings</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="menu is-size-7">
         <ul class="menu-list">
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>
@@ -13,20 +27,9 @@
             <li><a>Settings</a></li>
         </ul>
     </div>
-</div>
-
-    <div class="menu">
-        <ul class="menu-list">
-            <li>Biodata</li>
-            <li>Timelines</li>
-            <li>Follow-ups</li>
-            <li class="is-active">Claim reports</li>
-            <li>Settings</li>
-        </ul>
-    </div>
 <br>
 
-?> Modifiers like `is-small` are supported.
+?> Modifiers like `is-size-7` are supported.
 
 <hr>
 

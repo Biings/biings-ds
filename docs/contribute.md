@@ -23,3 +23,16 @@
 <pre data-lang="bash">npm run styles</pre>
 <br>
 <pre data-lang="bash">npm run stylesdoc // to update the styles of this doc</pre>
+
+<hr class="is-small">
+
+<p class="title is-6 has-text-weight-semibold">4 )&nbsp; Commit your code and tag a new version</p>
+<pre data-lang="bash">npm version x.x.x</pre>
+
+<hr class="is-small">
+
+<p class="title is-6 has-text-weight-semibold">5 )&nbsp; Make it available</p>
+
+<pre data-lang="bash">npm login // you need an NPM account first</pre>
+<br>
+<pre data-lang="bash">npm publish</pre>

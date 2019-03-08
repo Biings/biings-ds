@@ -1,5 +1,6 @@
-<br><br><br>
+<br>
 <h1 class="title is-2 is-serif">Create for Biings</h1>
+<hr class="is-visible">
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Biings DS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
 </p>

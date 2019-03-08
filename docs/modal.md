@@ -52,7 +52,7 @@
         </section>
         <footer class="modal-card-foot">
             <div class="button is-primary is-beefy">Primary Action</div>
-            <div  onclick="closeModal(1)" class="button is-beefy is-secondary">Cancel</div>
+            <div onclick="closeModal(1)" class="button is-beefy is-secondary">Cancel</div>
         </footer>
     </div>
 </div>
