@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 has-text-weight-bold">Card</h1>
+<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Card</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Card</span> is used to give actionable options to a related grouping of information.
 </p>

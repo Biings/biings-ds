@@ -1,4 +1,4 @@
-<h1 class="title is-1">How to contribute</h1>
+<h1 class="title is-1 is-serif">How to contribute</h1>
 <p class="subtitle is-5">
     We welcome all feedback and ideas in order to produce the best possible experience for our users.
 </p>

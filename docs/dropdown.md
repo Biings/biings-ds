@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1">Dropdown</h1>
+<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1">Dropdown</h1>
 <p class="subtitle is-5">
     The <span class="has-text-weight-semibold">dropdown</span> allow users to choose from a list of different actions or choices.
 </p>

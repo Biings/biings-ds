@@ -1,49 +1,82 @@
-<h6 class="subtitle is-5 has-text-grey">Principles</h6><h1 class="title is-1 has-text-weight-bold">Rules</h1>
+<h6 class="subtitle is-5 has-text-grey">Principles</h6><h1 class="title is-1 is-serif">Rules</h1>
 <p class="subtitle is-5">
     When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of the Biings approach. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
 </p>
 
 <hr class="is-visible is-large">
 
-<div id="r-wc" class="box is-expandable is-unselectable is-large is-well hover-to-white" onclick="toggleExpand('r-wc')">
-    <span class="title is-4 is-serif">Repetitive absences</span>
+<div id="r-wc" class="box is-expandable is-unselectable is-large is-well" onclick="toggleExpand('r-wc')">
+        <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
+    <span class="title is-4">Repetitive absences</span>
     <div class="expanded-content content">
-        <p>
-            <br>A person reaches a status of *repetitive absences* when he or she accumulates 4 unplanned cases of absences within the last 12 months.
-        </p>
-        <p>The status remains as long as the person continues to be chronicly absent. The status is removed once the total number of unplanned absences in the last 12 months drops below 4.</p>
-        <br>
-        <h5>Repetitive absence rate</h5>
-        <p>The rate of *repetitive absences* (RA) within a group of people is computed as follows:</p>
-        <p class="has-text-centered box is-bordered">**RA rate** = ( **nb. of persons currently in RA** / **total number of persons** ) &times; **100**</p>
+        <hr class="is-visible">
+        A person reaches a status of *repetitive absences* when he or she accumulates 4 unplanned cases of absences within the last 12 months.
+        <br><br>
+        The status remains as long as the person continues to be chronicly absent. The status is removed once the total number of unplanned absences in the last 12 months drops below 4.
+        <br><br>
+        <strong>Formula : Repetitive absence rate (RA) within a group</strong><br><br>
+        <p class="has-text-centered box is-bordered">RA rate = ( nb. of persons currently in RA / total number of persons ) &times; 100</p>
     </div>
 </div>
 
-<div id="r-adc" class="box is-large is-expandable is-unselectable is-well hover-to-white" onclick="toggleExpand('r-adc')">
-    <span class="title is-4 is-serif">Absences duration categories</span>
+<div id="r-adc" class="box is-large is-expandable is-unselectable is-well" onclick="toggleExpand('r-adc')">
+    <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
+    <span class="title is-4">Absences duration categories</span>
     <div class="expanded-content content">
-        <p><br>Absences can be sorted into 6 categories depending on their duration (in days):</p>
+        <hr class="is-visible">
+        Absences can be sorted into 6 categories depending on their duration (in days):
+        <hr class="is-smaller">
         <table>
             <thead><tr><th>Category</th><th>Duration</th></tr></thead>
             <tbody>            
-                <tr><td>**A**</td><td>1 → 3 days</td></tr>
-                <tr><td>**B**</td><td>4 → 10 days</td></tr>
-                <tr><td>**C**</td><td>11 → 30 days</td></tr>
-                <tr><td>**D**</td><td>31 → 90 days</td></tr>
-                <tr><td>**E**</td><td>91 → 270 days</td></tr>
-                <tr><td>**F**</td><td>271 → 720 days</td></tr>
-                <tr><td><br>Short term</td><td><br>1 → 30 days</td></tr>
+                <tr><td>A</td><td>1 → 3 days</td></tr>
+                <tr><td>B</td><td>4 → 10 days</td></tr>
+                <tr><td>C</td><td>11 → 30 days</td></tr>
+                <tr><td>D</td><td>31 → 90 days</td></tr>
+                <tr><td>E</td><td>91 → 270 days</td></tr>
+                <tr><td>F</td><td>271 → 720 days</td></tr>
+                <tr><td></td><td></td></tr>
+                <tr><td>Short term</td><td>1 → 30 days</td></tr>
                 <tr><td>Long term</td><td>31 → 720 days</td></tr>
             </tbody>
         </table>
     </div>
 </div>
 
-<div id="r-rtw" class="box is-expandable is-large is-well hover-to-white is-unselectable" onclick="toggleExpand('r-rtw')">
-    <span class="title is-4 is-serif">Return to work meeting</span>
+<div id="r-rtw" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-rtw')">
+    <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
+    <span class="title is-4">Return to work</span>
     <div class="expanded-content">
-        <hr class="is-smaller">
-        Under construction..
+        <hr class="is-visible">
+        <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">5 days</span> after the person has returned.
+    </div>
+</div>
+
+<div id="r-asm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-asm')">
+        <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
+    <span class="title is-4">1-on-1 Assessment (<span class="is-serif">I</span> & <span class="is-serif">II</span>)</span>
+    <div class="expanded-content">
+        <hr class="is-visible">
+        <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">45 days</span> after the last absence.
+    </div>
+</div>
+
+<div id="r-hrasm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-hrasm')">
+    <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
+    <span class="title is-4">HR Assessment</span>
+    <div class="expanded-content">
+        <hr class="is-visible">
+        <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">45 days</span> after the last absence.
+    </div>
+</div>
+
+<div id="r-algo1" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-algo1')">
+    <span class="subtitle is-size-7 has-text-primary">ALGORITHM</span><br>
+    <span class="title is-4">Next meeting type</span>
+    <div class="expanded-content">
+        <hr class="is-visible">
+        For a chronically absent person (4+) the next meeting type is either a 1-on-1 Assessment (the first one) or the meeting type coming after the type of the last meeting and if that meeting occurred within the last 12 months.
+        <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">45 days</span> after the last absence.
     </div>
 </div>
 

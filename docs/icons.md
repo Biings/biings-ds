@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Style</h6><h1 class="title is-1 has-text-weight-bold">Iconography</h1>
+<h6 class="subtitle is-5 has-text-grey">Style</h6><h1 class="title is-serif is-1 has-text-weight-bold">Iconography</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action visually. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
