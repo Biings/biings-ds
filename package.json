@@ -9,7 +9,8 @@
     "styles": "npm run sass && npm run postcss",
     "stylesdoc": "npm run sass && postcss src/styles/bds.css --config src/styles/postcss.config.js -o docs/bds.css",
     "icons": "grunt",
-    "build": "npm run styles && npm run icons"
+    "copycomb" : "cp src/styles/.csscomb.json build/",
+    "build": "npm run styles && npm run icons && npm run copycomb"
   },
   "repository": {
     "type": "git",

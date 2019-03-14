@@ -12,7 +12,7 @@
                 <hr>
                 <a href="#/?id=main" class="button is-primary is-medium is-beefy" style="box-shadow: 0 7px 13px rgba(129, 91, 195,0.25)">Start exploring</a>
                 <hr class="is-smaller">
-                <div class="has-text-grey is-size-7">&nbsp;Version 1.18.0</div>
+                <div class="has-text-grey is-size-7">&nbsp;Version 1.18.1</div>
             </div>
         </div>
     </div>
