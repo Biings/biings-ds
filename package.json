@@ -1,6 +1,6 @@
 {
   "name": "biings-ds",
-  "version": "1.18.0",
+  "version": "1.18.1",
   "description": "Biings Design System",
   "main": "build/bds.css",
   "scripts": {
@@ -9,7 +9,7 @@
     "styles": "npm run sass && npm run postcss",
     "stylesdoc": "npm run sass && postcss src/styles/bds.css --config src/styles/postcss.config.js -o docs/bds.css",
     "icons": "grunt",
-    "copycomb" : "cp src/styles/.csscomb.json build/",
+    "copycomb": "cp src/styles/.csscomb.json build/",
     "build": "npm run styles && npm run icons && npm run copycomb"
   },
   "repository": {
