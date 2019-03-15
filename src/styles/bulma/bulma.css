@@ -1248,7 +1248,7 @@ a.dropdown-item {
 .menu {
   font-size: 1rem; }
   .menu.is-small {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .menu.is-medium {
     font-size: 1.125rem; }
   .menu.is-large {
@@ -1292,7 +1292,7 @@ a.dropdown-item {
     color: currentColor;
     text-decoration: underline; }
   .message.is-small {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .message.is-medium {
     font-size: 1.125rem; }
   .message.is-large {
@@ -1503,7 +1503,7 @@ a.dropdown-item {
     border-bottom-color: #d3d1db;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: #b4b0c2;
+    color: #6d6881;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -1511,7 +1511,7 @@ a.dropdown-item {
     vertical-align: top; }
     .tabs a:hover {
       border-bottom-color: transparent;
-      color: #6d6881; }
+      color: #403d4b; }
   .tabs li {
     display: block; }
     .tabs li.is-active a {
@@ -1589,7 +1589,7 @@ a.dropdown-item {
     border-top-right-radius: 290486px;
     padding-right: 1.25em; }
   .tabs.is-small {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .tabs.is-medium {
     font-size: 1.125rem; }
   .tabs.is-large {
@@ -2264,7 +2264,7 @@ a.box:active {
         color: #fff; }
   .button.is-small {
     border-radius: 2px;
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .button.is-medium {
     font-size: 1.125rem; }
   .button.is-large {
@@ -2505,7 +2505,7 @@ a.box:active {
   .input.is-small,
   .textarea.is-small {
     border-radius: 2px;
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .input.is-medium,
   .textarea.is-medium {
     font-size: 1.125rem; }
@@ -2711,7 +2711,7 @@ a.box:active {
       box-shadow: 0 0 0 0.125em rgba(239, 98, 108, 0.25); }
   .select.is-small {
     border-radius: 2px;
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .select.is-medium {
     font-size: 1.125rem; }
   .select.is-large {
@@ -2729,7 +2729,7 @@ a.box:active {
     top: 0.625em;
     transform: none; }
   .select.is-loading.is-small:after {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .select.is-loading.is-medium:after {
     font-size: 1.125rem; }
   .select.is-loading.is-large:after {
@@ -2901,7 +2901,7 @@ a.box:active {
     border-color: transparent;
     color: #fff; }
   .file.is-small {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .file.is-medium {
     font-size: 1.125rem; }
     .file.is-medium .file-icon .fa {
@@ -3027,7 +3027,7 @@ a.box:active {
   .label:not(:last-child) {
     margin-bottom: 0.5em; }
   .label.is-small {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .label.is-medium {
     font-size: 1.125rem; }
   .label.is-large {
@@ -3035,7 +3035,7 @@ a.box:active {
 
 .help {
   display: block;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   margin-top: 0.25rem; }
   .help.is-white {
     color: white; }
@@ -3159,7 +3159,7 @@ a.box:active {
     margin-right: 1.5rem;
     text-align: right; }
     .field-label.is-small {
-      font-size: 0.8125rem;
+      font-size: 0.875rem;
       padding-top: 0.375em; }
     .field-label.is-normal {
       padding-top: 0.375em; }
@@ -3203,7 +3203,7 @@ a.box:active {
   .control.has-icon .input:focus + .icon {
     color: #b4b0c2; }
   .control.has-icon .input.is-small + .icon {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .control.has-icon .input.is-medium + .icon {
     font-size: 1.125rem; }
   .control.has-icon .input.is-large + .icon {
@@ -3223,7 +3223,7 @@ a.box:active {
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .control.has-icons-left .input.is-medium ~ .icon,
   .control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon,
   .control.has-icons-right .select.is-medium ~ .icon {
@@ -3256,7 +3256,7 @@ a.box:active {
     top: 0.625em;
     z-index: 4; }
   .control.is-loading.is-small:after {
-    font-size: 0.8125rem; }
+    font-size: 0.875rem; }
   .control.is-loading.is-medium:after {
     font-size: 1.125rem; }
   .control.is-loading.is-large:after {
@@ -3531,7 +3531,7 @@ a.box:active {
   border-radius: 3px;
   color: #403d4b;
   display: inline-flex;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   height: 2em;
   justify-content: center;
   line-height: 1.5;
