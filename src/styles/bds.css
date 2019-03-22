@@ -10,52 +10,13 @@
 
 ::selection
 {
-    background: var(--color-purple);
+    background: var(--color-primary);
     color: white;
 }
 ::-moz-selection
 {
-    background: var(--color-purple);
+    background: var(--color-primary);
     color: white;
-}
-
-/* —— Elements —— */
-
-.title
-{
-    letter-spacing: -.2px;
-}
-.title > sup
-{
-    font-weight: 400;
-}
-p.title,
-p.subtitle,
-.is-relaxed
-{
-    line-height: 1.5em;
-}
-p
-{
-    letter-spacing: -.01em;
-}
-
-.list
-{
-    margin: 1.5em .25em;
-}
-.list > li
-{
-    position: relative;
-    padding: 0 0 .375em 1.75em;
-    line-height: 1.375em;
-}
-ul.list > li::before
-{
-    position: absolute;
-    left: .25em;
-    color: var(--color-text3);
-    content: '•';
 }
 
 
@@ -163,10 +124,10 @@ ul.list > li::before
 .avatar.is-huge,
 .avatar.is-huge > div
 {
-    width: 8rem;
-    height: 8rem;
+    width: 9rem;
+    height: 9rem;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .avatar + span
 {
@@ -209,8 +170,8 @@ ul.list > li::before
 }
 .avatar.is-small:after
 {
-    width: 0.75rem;
-    height: 0.75rem;
+    width: .75rem;
+    height: .75rem;
     border-width: 2px;
 }
 .avatar.is-medium:after

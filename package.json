@@ -7,9 +7,9 @@
     "sass": "\"node-sass\" --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma/bulma.css",
     "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css",
     "copytodoc": "cp build/bds.css docs/bds.css",
-    "icons": "grunt",
     "copycomb": "cp src/styles/.csscomb.json build/",
-    "buildstyle": "npm run sass && npm run postcss && npm run copytodoc",
+    "icons": "grunt",
+    "styles": "npm run sass && npm run postcss && npm run copytodoc",
     "build": "npm run styles && npm run icons && npm run copycomb"
   },
   "repository": {

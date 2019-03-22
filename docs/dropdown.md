@@ -45,6 +45,7 @@
             </div>
         </div>
     </div>
+    
 <hr class="is-visible is-large">
 
 <h2 class="title is-4">Use a custom icon</h2>

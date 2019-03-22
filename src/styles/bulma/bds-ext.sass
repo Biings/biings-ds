@@ -1,6 +1,9 @@
 /* —— Bulma BDS Extend —— */
 
 /* Typography */
+.title.is-0
+    font-size: 3.75rem
+
 .title.is-5,
 .title.is-6
     font-weight: 700
@@ -10,6 +13,30 @@
 
 .has-text-weight-medium
     font-weight: $weight-medium !important
+
+.title
+    letter-spacing: -.2px
+.title > sup
+    font-weight: 400
+
+p.title,
+p.subtitle,
+.is-relaxed
+    line-height: 1.5em
+p
+    letter-spacing: -.01em
+
+.list
+    margin: 1.5em .25em
+.list > li
+    position: relative
+    padding: 0 0 .375em 1.75em
+    line-height: 1.375em
+ul.list > li::before
+    position: absolute
+    left: .25em
+    color: var(--color-text3)
+    content: '•'
 
 
 /* Rules / Lines */
@@ -111,7 +138,7 @@ th
 
 .box.is-link
     cursor: pointer
-.box.is-link:hover
+.box.is-link:not(.is-raised):hover
     box-shadow: 0 0 0 1px $purple
 
 .box.is-bordered,
@@ -139,7 +166,8 @@ th
 .box.is-raised,
 .box.hover-to-raised:hover
     background-color: white
-    box-shadow: 0 1px 2px 0 rgba(48, 45, 61,.10)
+    border: 1px solid rgba(139, 133, 160, 0.1)
+    border-bottom: 4px solid rgba(139, 133, 160, 0.25)
 
 .box.is-floating,
 .box.hover-to-floating:hover
@@ -335,7 +363,7 @@ svg.is-grey-dark
 .select > select,
 .textarea
     min-height: 2.75em
-    transition: border-color .1s linear, box-shadow .08s linear
+    transition: border-color .1s linear, box-shadow .1s linear
 .textarea
     padding-left: calc(.875em - 1px)
 .field:not(:last-child)

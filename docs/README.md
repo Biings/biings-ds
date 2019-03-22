@@ -50,8 +50,8 @@
 <div class="title is-5 is-spaced">Manually</div>
 <div class="subtitle">Only two files are required to start using BDS:</div>
 
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered hover-to-well has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered hover-to-well has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-raised has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-raised has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
 <hr class="is-large">
 
