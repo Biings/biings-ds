@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Layout</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Layout</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
@@ -36,9 +36,9 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
       </div>
 
 <br>
-<div class="box is-bordered">
-    More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/columns/" target="blank">Bulma / <strong>Columns</strong></a>
-</div>
+<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-bordered">
+    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
+</a>
   
 <hr class="is-large is-visible">
 <h2 class="title is-4">Level</h2>
@@ -74,8 +74,8 @@ Use **Level items** when you need to vertically center elements on one line.
     </div>
 
 <br>
-<div class="box is-bordered">
-    More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/layout/level/" target="blank">Bulma / <strong>Level</strong></a>
+<a href="https://bulma.io/documentation/layout/level/" target="blank" class="box is-bordered">
+    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Level</strong></a>
 </div>
 
 <hr class="is-large is-visible">

@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Tabs</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Tabs</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Tabs</span> are used to quickly navigate between views within the same context.
 </p>
@@ -57,6 +57,6 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
     </div>
 <hr>
 
-<div class="box is-bordered">
-    More options on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/tabs/" target="blank">Bulma / <strong>Tabs</strong></a>
-</div>
+<a href="http://bulma.io/documentation/components/tabs/" target="blank" class="box is-bordered">
+    More options on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Tabs</strong>
+</a>

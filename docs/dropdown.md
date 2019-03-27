@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1">Dropdown</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1">Dropdown</h1>
 <p class="subtitle is-5">
     The <span class="has-text-weight-semibold">dropdown</span> allow users to choose from a list of different actions or choices.
 </p>
@@ -197,6 +197,6 @@ Create a system default select list just by wrapping it with a `.select` div.
 
 <hr>
 
-<div class="box is-bordered">
+<div class="box is-bordered is-link">
     More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/">Bulma / <strong>Select</strong></a>
 </div>

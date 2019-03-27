@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Skeleton</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Skeleton</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Squeleton</span> is a blank version of a component that has not been loaded yet. Unlike Loaders, a skeleton screen visually tells users what to expect and make them focus on the progress, rather than the wait time.
 </p>

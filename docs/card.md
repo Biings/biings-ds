@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Card</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Card</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Card</span> is used to give actionable options to a related grouping of information.
 </p>
@@ -37,6 +37,6 @@
 
 <hr>
 
-<div class="box is-bordered">
-    Find more possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/card/" target="blank">Bulma / <strong>Card</strong></a>
-</div>
+<a href="https://bulma.io/documentation/components/card/" target="blank" class="box is-bordered">
+    Find more possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Card</strong></a>
+</a>

@@ -1,4 +1,5 @@
 <br>
+<p class="subtitle is-uppercase is-6 has-text-grey">BDS</p>
 <h1 class="title is-2 is-serif">Create for Biings</h1>
 <hr class="is-visible">
 <p class="subtitle is-5">
@@ -50,19 +51,19 @@
 <div class="title is-5 is-spaced">Manually</div>
 <div class="subtitle">Only two files are required to start using BDS:</div>
 
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-raised has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-raised has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-bordered has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered has-text-grey-darker" download><span class="is-monospace has-text-dark">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
-<hr class="is-large">
+<hr>
 
-<div class="box is-large is-bordered is-white">
+<div class="box is-large is-raised is-white">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-7">
             <div class="title is-4 has-text-weight-semibold">Want to contribute?</div>
             <div class="subtitle is-6 has-text-grey-dark">Onboarding for designers and developers wanting to contribute.</div>
         </div>
         <div class="column is-5 has-text-right">
-            <a href="#/contribute" class="button is-rounded is-primary is-beefy">Start contributing</a>
+            <a href="#/contribute" class="button is-rounded is-primary is-beefy is-outlined">Start contributing</a>
         </div>
     </div>
 </div>

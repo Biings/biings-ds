@@ -10,13 +10,11 @@
 
 ::selection
 {
-    background: var(--color-primary);
-    color: white;
+    background: #E1DBF5;
 }
 ::-moz-selection
 {
-    background: var(--color-primary);
-    color: white;
+    background: #E1DBF5;
 }
 
 
@@ -64,8 +62,8 @@
 }
 .is-serif
 {
-    font-family: 'Merriweather', serif;
     font-weight: 900;
+    font-family: 'Merriweather', serif;
 }
 
 /* Avatar */

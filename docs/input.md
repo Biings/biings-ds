@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Input</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Input</h1>
 <p class="subtitle is-5"><span class="has-text-weight-semibold">Input fields</span> enable users to provide information.</p>
 
 <hr class="is-visible is-large">
@@ -43,7 +43,7 @@
 
 <hr>
 
-<div class="box is-bordered">
+<div class="box is-bordered is-link">
     More options on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/form/input/" target="blank">Bulma / <strong>Input</strong></a>
     <br>
     Looking for <strong>Select lists</strong>? Check here &nbsp;→&nbsp; <a href="#/dropdown#selectlist" target="blank"><strong>Dropdown</strong></a>

@@ -2,18 +2,18 @@
 ![](media/biings-logo_ds.png ':no-zoom')
 </a>
 
-- <span class="has-text-primary has-text-weight-normal">Principles</span>
+- <span class="subtitle is-7 is-uppercase has-text-pilot">Principles</span>
     - [ Approach](approach)
     - [ Rules](rules)
 
-- <span class="has-text-cyan-dark has-text-weight-normal">Style</span>
+- <span class="subtitle is-7 is-uppercase has-text-turquoise-dark">Style</span>
     - [ Colors](color)
     - [ Iconography](icons)
     - [ Terminology](terms)
     - [ Typography](typo)
     - [ Voice & Tone](voice)
   
-- <span class="has-text-orange-dark has-text-weight-normal">Components</span>
+- <span class="subtitle is-7 is-uppercase has-text-yellow-dark">Components</span>
     - [ Avatar](avatar)
     - [ Box](box)
     - [ Button](button)

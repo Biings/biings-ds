@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Message</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Message</h1>
 <p class="subtitle is-5">
     <span class="has-text-weight-semibold">Message</span> allows to communicate information to the user. Messages can act as notifications or other kinds of alert messages.
 </p>
@@ -96,6 +96,6 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 
 <hr>
 
-<div class="box is-bordered">
-    More variations on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/message/" target="blank">Bulma / <strong>Message</strong></a>
-</div>
+<a href="https://bulma.io/documentation/components/message/" target="blank" class="box is-bordered">
+    More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Message</strong>
+</a>

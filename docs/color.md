@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Style</h6><h1 class="title is-1 is-serif has-text-weight-bold">Colors</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-serif has-text-weight-bold">Colors</h1>
 <p class="subtitle is-5"><span class="has-text-weight-semibold">Color</span> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
 
 <hr class="is-visible is-large">
@@ -15,7 +15,7 @@ The brand colors are mostly used for marketing or when refering to Biings direct
     <div class="column is-3"><div class="has-background-dark"><br><br></div><span><strong>dark</strong></span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-pilot"><br><br></div><span><strong>pilot</strong> / velvet</span><br><span class="has-text-grey-dark is-monospace">#A05CB7</span></div>
-    <div class="column is-3"><div class="has-background-care"><br><br></div><span><strong>care</strong> / sky</span><br><span class="has-text-grey-dark is-monospace">#71C7D6</span></div>
+    <div class="column is-3"><div class="has-background-care"><br><br></div><span><strong>care</strong> / sky</span><br><span class="has-text-grey-dark is-monospace">#6bc0bf</span></div>
     <div class="column is-3"><div class="has-background-claim"><br><br></div><span><strong>claim</strong> / fire</span><br><span class="has-text-grey-dark is-monospace">#F89465</span></div>
 </div>
 

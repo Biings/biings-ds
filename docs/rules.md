@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Principles</h6><h1 class="title is-1 is-serif">Rules</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Principles</h6><h1 class="title is-1 is-serif">Rules</h1>
 <p class="subtitle is-5">
     When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of the Biings approach. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
 </p>
@@ -82,6 +82,6 @@
 
 <hr>
 
-<div class="box is-bordered">
-    **Feel something is missing?** 🤔 <br>Start a thread here &nbsp;→&nbsp; <a href="https://biings.slack.com" target="blank">biings.slack.com</strong></a>
-</div>
+<a href="https://biings.slack.com" target="blank" class="box is-bordered">
+    **Feel something is missing?** 🤔 <br>Start a thread here &nbsp;→&nbsp; <strong class="has-text-primary">biings.slack.com</strong></a>
+</a>

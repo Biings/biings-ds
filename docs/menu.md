@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Menu</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Menu</h1>
 <p class="subtitle is-5"><span class="has-text-weight-semibold">Menus</span> present a list of links and should be used for content navigation.</p>
 
 <hr class="is-visible is-large">
@@ -33,6 +33,6 @@
 
 <hr>
 
-<div class="box is-bordered">
-    Find more possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/menu/" target="blank">Bulma / <strong>Menu</strong></a>
+<a href="https://bulma.io/documentation/components/menu/" target="blank" class="box is-bordered">
+    Find more possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Menu</strong>
 </div>

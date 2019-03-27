@@ -1,4 +1,4 @@
-<h6 class="subtitle is-5 has-text-grey">Principles</h6><h1 class="title is-1 is-serif has-text-weight-bold">Our approach</h1>
+<h6 class="subtitle is-6 has-text-grey is-uppercase">Principles</h6><h1 class="title is-1 is-serif has-text-weight-bold">Our approach</h1>
 <p class="subtitle is-5">
     Biings <span class="has-text-weight-medium">Principles</span> are at the heart of how we approach the design of anything related to Biings. They help deciding what to create (and how) and should be kept in mind when building new features or adapting existing ones.
 </p>
@@ -33,7 +33,7 @@
         <hr class="is-small">
     </div>
 </div>
-
-<div class="box is-bordered">
-    Those Principles are implemented in our set of &nbsp;→&nbsp; <a href="#/rules" target="blank"><strong>Rules</strong></a>
-</div>
+<hr>
+<a href="#/rules" class="box is-bordered">
+    Those Principles are implemented in our set of &nbsp;→&nbsp; <strong class="has-text-link">Rules</strong>
+</a>
