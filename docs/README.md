@@ -23,7 +23,7 @@
             <img src="media/style.png" width="55" class="no-zoom" style="margin: 0.5rem 0;"/>
             <div>
                 <div class="title is-3 has-text-white has-text-weight-light">Style</div>
-                <div class="subtitle is-5 has-text-cyan-lighter">Guidelines and Colors</div>
+                <div class="subtitle is-5 has-text-grey-lighter">Colors and guidelines</div>
             </div>
         </a>
     </div>

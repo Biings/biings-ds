@@ -20,7 +20,7 @@
 <p>You can also build a specific part by calling the command directly:</p><br>
 <pre data-lang="bash">npm run icons</pre>
 <br>
-<pre data-lang="bash">npm run style</pre>
+<pre data-lang="bash">npm run styles</pre>
 
 <hr class="is-small">
 

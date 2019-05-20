@@ -15,7 +15,7 @@ $care-light: mix(white, $care, 30) !default
 $care-lighter: mix(white, $care, 60) !default
 
 $claim: #F89465 !default
-$claim-dark: mix(black, $claim, 25) !default
+$claim-dark: mix(black, $claim, 20) !default
 $claim-light: mix(white, $claim, 30) !default
 $claim-lighter: mix(white, $claim, 60) !default
 
@@ -58,6 +58,15 @@ $green-light: mix(white, $green, 30) !default
 $green-lighter: mix(white, $green, 60) !default
 
 // Coloring
+.has-background-primary
+    background-color: $primary
+.has-background-primary-dark
+    background-color: $primary-dark
+.has-background-primary-light
+    background-color: $primary-light
+.has-background-primary-lighter
+    background-color: $primary-lighter
+    
 .has-background-pilot
     background-color: $pilot
 .has-background-pilot-dark
@@ -78,26 +87,49 @@ $green-lighter: mix(white, $green, 60) !default
 
 .has-fill-pilot
     fill: $pilot
-.has-fill-pilot-dark
-    fill: $pilot-dark
-.has-fill-pilot-light
-    fill: $pilot-light
-.has-fill-pilot-lighter
-    fill: $pilot-lighter
 
 .has-background-care
     background-color: $care
+.has-background-care-dark
+    background-color: $care-dark
+.has-background-care-light
+    background-color: $care-light
+.has-background-care-lighter
+    background-color: $care-lighter
+
 .has-text-care
     color: $care
+.has-text-care-dark
+    fill: $care-dark
+.has-text-care-light
+    fill: $care-light
+.has-text-care-lighter
+    fill: $care-lighter
+
 .has-fill-care
     fill: $care
 
 .has-background-claim
     background-color: $claim
+.has-background-claim-dark
+    background-color: $claim-dark
+.has-background-claim-light
+    background-color: $claim-light
+.has-background-claim-lighter
+    background-color: $claim-lighter
+
 .has-text-claim
     color: $claim
+.has-text-claim-dark
+    fill: $claim-dark
+.has-text-claim-light
+    fill: $claim-light
+.has-text-claim-lighter
+    fill: $claim-lighter
+
 .has-fill-claim
     fill: $claim
+
 
 .has-background-cyan
     background-color: $cyan

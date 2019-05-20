@@ -40,6 +40,19 @@
 
 ?> **A checkbox's label should always toggle the checkbox when clicked!**<br>Make sure the label's text is a direct child of `.checkbox`
 
+<hr class="is-large is-visible">
+
+<h2 class="title is-4">Toggle</h2>
+
+A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
+
+<div class="box is-well is-marginless is-large">
+    <label class="checkbox is-toggle">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        I'm a toggle (but I'm still a checkbox)
+    </label>
+</div>
+
 <hr>
 
 <a href="#/radio" class="box is-bordered">

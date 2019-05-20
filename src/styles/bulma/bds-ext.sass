@@ -6,29 +6,25 @@
 .title.is-5,
 .title.is-6
     font-weight: 700
-
 .title
     letter-spacing: -.2px
 .title > sup
     font-weight: 400
 
-.is-borderless
-    border: none !important
-
-.has-text-weight-medium
-    font-weight: $weight-medium !important
-
 p.title,
-p.subtitle,
-.is-relaxed
+p.subtitle
     line-height: 1.5em
 p
     letter-spacing: -.01em
 
 .is-uppercase.is-7
     font-size: .75rem
-.subtitle.is-uppercase
-    font-weight: 500
+
+.is-borderless
+    border: none !important
+
+.has-text-weight-medium
+    font-weight: $weight-medium !important
 
 /* Lists */
 .list
@@ -48,6 +44,8 @@ ul.list > li::before
 hr:not(.is-visible):not(.dropdown-divider)
     visibility: hidden !important
 
+hr.is-thin
+    margin: 0 0
 hr.is-smaller
     margin: .5em 0
 hr.is-small
@@ -106,6 +104,7 @@ th
         border-bottom-color: $purple-light
         border-left-color: $purple-light
 
+
 /* Button */
 .button
     border-radius: $radius
@@ -127,7 +126,6 @@ th
     background-color: rgba($grey-darker,.15)
 .button.is-secondary:hover
     background-color: rgba($grey-darker,.18)
-
 
 
 /* Box */
@@ -186,7 +184,6 @@ th
     box-shadow: 0 12px 24px 0 rgba(48, 45, 61,.10)
     transition-duration: .4s
 
-
 .box.is-expandable
     cursor: pointer
     transition-duration: .15s !important
@@ -199,6 +196,7 @@ th
     transition-duration: .1s !important
 .box.is-expandable:not(.is-expanded) > .expanded-content
     display: none
+
 
 /* Menu */
 .menu-label
@@ -213,19 +211,15 @@ th
     font-weight: 500
 
 
-
 /* Icon */
 svg.icon
     fill: $grey-darker
 
-
 svg.is-grey
     fill: $grey
 
-
 svg.is-grey-dark
     fill: $grey-dark
-
 
 
 /* Dropdown */
@@ -256,6 +250,7 @@ svg.is-grey-dark
 .select:not(.is-multiple):not(.is-loading):after
     border-width: 2px
 
+
 /* Checkbox & Radio */
 .checkbox,
 .radio
@@ -279,15 +274,15 @@ svg.is-grey-dark
     border-radius: 50%
 .checkbox[disabled] > .checkbox-mark,
 .radio[disabled] > .radio-mark
-    box-shadow: inset 0 0 0 2px lighten($grey-light,6)
-.checkbox:hover:not([disabled]) > .checkbox-mark,
+    box-shadow: inset 0 0 0 2px lighten($grey-light,5)
+.checkbox:hover:not([disabled]):not(:active) > .checkbox-mark,
 .radio:hover:not([disabled]) > .radio-mark
     box-shadow: inset 0 0 0 2px darken($grey-light,8)
 .checkbox input:checked ~ .checkbox-mark
-    background-color: $purple
+    background: linear-gradient(25deg, $primary -25%, $pilot 140%)
     box-shadow: none !important
 .radio input:checked ~ .radio-mark
-    box-shadow: inset 0 0 0 2px $purple !important
+    box-shadow: inset 0 0 0 2px $primary !important
 .checkbox-mark:after
     position: absolute
     top: 3px
@@ -296,7 +291,7 @@ svg.is-grey-dark
     width: 6px
     height: 11px
     border: solid white
-    border-width: 0 3px 3px 0
+    border-width: 0 2px 2px 0
     content: ''
     transform: rotate(45deg)
 .checkbox > input:indeterminate + .checkbox-mark:after
@@ -314,11 +309,34 @@ svg.is-grey-dark
     width: 10px
     height: 10px
     border-radius: 50%
-    background-color: $purple
+    background-color: $primary
     content: ''
 .checkbox input:checked ~ .checkbox-mark:after,
 .radio input:checked ~ .radio-mark:after
     display: block
+
+.checkbox.is-toggle > input
+    width: 2.5rem
+.checkbox.is-toggle .checkbox-mark
+    margin-top: 1px
+    width: 2.125rem
+    height: 1.125rem
+    border-radius: 2rem
+.checkbox.is-toggle .checkbox-mark:after
+    top: .25rem
+    left: .25rem
+    display: block
+    width: .625rem
+    height: .625rem
+    border: none
+    border-radius: 50%
+    background-color: $primary
+    opacity: .8
+    transition: left .15s ease-in
+.checkbox.is-toggle input:checked ~ .checkbox-mark:after
+    left: 1.25rem
+    background-color: white
+    opacity: 1
 
 
 /* Panel */
@@ -326,6 +344,7 @@ svg.is-grey-dark
     border-radius: $box-radius $box-radius 0 0
 .panel-block:last-child
     border-radius: 0 0 $box-radius $box-radius
+
 
 /* Tabs */
 .tabs
@@ -451,7 +470,6 @@ svg.is-grey-dark
 
 
 /* Card */
-
 .card
     border-radius: 2px
 .card-footer

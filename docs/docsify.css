@@ -348,3 +348,8 @@ img.no-zoom
     display: inline-block;
     margin-top: 4px;
 }
+
+.has-shadow
+{
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
