@@ -53,6 +53,11 @@ A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
     </label>
 </div>
 
+    <label class="checkbox is-toggle">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        I'm a toggle
+    </label>
+
 <hr>
 
 <a href="#/radio" class="box is-bordered">
