@@ -1222,7 +1222,7 @@ button.dropdown-item {
   width: 100%; }
   a.dropdown-item:hover,
   button.dropdown-item:hover {
-    background-color: #F9F8FC;
+    background-color: #F3F2F6;
     color: #15141B; }
   a.dropdown-item.is-active,
   button.dropdown-item.is-active {

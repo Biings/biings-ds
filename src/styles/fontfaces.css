@@ -2,7 +2,16 @@
  *	WebFont Package Licensed to Biings
  */
 
-/* Averta Standard Extra Thin */
+/* Merriweather Extra bold (serif title font) */
+@font-face {
+	font-family: Averta;
+	src:	url('fonts/Merriweather-900.woff') format('woff'),
+			url('fonts/Merriweather-900.eot') format('eot');
+	font-weight: 900;
+	font-style: normal;
+}
+
+ /* Averta Standard Extra Thin */
 @font-face {
 	font-family: Averta;
 	src:	url('fonts/hinted-AvertaStd-Extrathin.woff') format('woff'),
