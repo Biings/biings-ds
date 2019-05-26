@@ -40,6 +40,7 @@ The brand colors are mostly used for marketing or when refering to Biings direct
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><span><strong>white-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#F3F2F6</span></div>
     <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05), 0 4px 8px rgba(0,0,0,0.05);"><br><br></div><span><strong>white-bis / light</strong></span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
+    <div class="column is-3"><div class="has-background-dark"><br><br></div><span><strong>dark</strong></span><br><span class="has-text-grey-dark is-monospace">#432f65</span></div>
     <div class="column is-3"><div class="has-background-white"><br><br></div><span><strong>white</strong></span><br><span class="has-text-grey-dark is-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><span><strong>grey-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#8B85A0</span></div>
@@ -48,7 +49,7 @@ The brand colors are mostly used for marketing or when refering to Biings direct
     <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><span><strong>grey-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#EDECF0</span></div> 
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#15141B</span></div>
-    <div class="column is-3"><div class="has-background-black-bis has-shadow"><br><br></div><span><strong>black-bis / dark</strong></span><br><span class="has-text-grey-dark is-monospace">#302D3D</span></div>
+    <div class="column is-3"><div class="has-background-black-bis has-shadow"><br><br></div><span><strong>black-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#302D3D</span></div>
     <div class="column is-3"><div class="has-background-black-ter"><br><br></div><span><strong>black-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
     <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><span><strong>grey-darker</strong></span><br><span class="has-text-grey-dark is-monospace">#6D6881</span></div>
 </div>

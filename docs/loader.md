@@ -32,7 +32,7 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
 <hr class="is-small">
 
-<div class="box has-background-grey-darker is-large has-text-centered">
+<div class="box has-background-dark is-large has-text-centered">
     <div class="loader is-large is-inverted"></div>
 </div>
 

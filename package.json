@@ -10,7 +10,8 @@
     "copycomb": "cp src/styles/.csscomb.json build/",
     "icons": "grunt",
     "styles": "npm run sass && npm run postcss && npm run copytodoc",
-    "build": "npm run styles && npm run icons && npm run copycomb"
+    "build": "npm run styles && npm run icons && npm run copycomb",
+    "dev": "docsify serve docs"
   },
   "repository": {
     "type": "git",
