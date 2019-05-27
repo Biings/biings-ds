@@ -5500,9 +5500,6 @@ a.tag:hover {
   padding: 3rem 1.5rem; }
 
 /* —— Bulma Color Extend —— */
-.has-background-primary {
-  background-color: #815BC3; }
-
 .has-background-primary-dark {
   background-color: #614492; }
 
@@ -5511,6 +5508,18 @@ a.tag:hover {
 
 .has-background-primary-lighter {
   background-color: #cdbde7; }
+
+.has-text-primary {
+  color: #815BC3; }
+
+.has-text-primary-dark {
+  color: #614492; }
+
+.has-text-primary-light {
+  color: #a78cd5; }
+
+.has-text-primary-lighter {
+  color: #d9bee2; }
 
 .has-background-pilot {
   background-color: #A05CB7; }
