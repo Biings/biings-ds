@@ -63,7 +63,7 @@
             <div class="subtitle is-6 has-text-grey-dark">Onboarding for designers and developers wanting to contribute.</div>
         </div>
         <div class="column is-5 has-text-right">
-            <a href="#/contribute" class="button is-rounded is-primary is-beefy is-outlined">Start contributing</a>
+            <a href="#/contribute" class="button is-rounded is-info is-beefy is-outlined">Start contributing</a>
         </div>
     </div>
 </div>

@@ -32,10 +32,10 @@ $primary: #815BC3 !default
 $light: $white-bis !default
 $dark: #432f65 !default
 
-$info: #71C7D6 !default
-$success: $green !default
-$warning: #F89465 !default
-$danger: $red !default
+$info: mix(black, $blue, 3) !default
+$success: mix(black, $turquoise, 15) !default
+$warning: mix(black, $yellow, 5) !default
+$danger: mix(black, $red, 2) !default
 
 // Invert colors
 
@@ -48,11 +48,11 @@ $blue-invert: findColorInvert($blue) !default
 $purple-invert: findColorInvert($purple) !default
 $red-invert: findColorInvert($red) !default
 
-$primary-invert: $purple-invert !default
-$info-invert: $cyan-invert !default
-$success-invert: $green-invert !default
-$warning-invert: $yellow-invert !default
-$danger-invert: $red-invert !default
+$primary-invert: findColorInvert($primary) !default
+$info-invert: findColorInvert($info) !default
+$success-invert: findColorInvert($success) !default
+$warning-invert: findColorInvert($orange) !default
+$danger-invert: findColorInvert($danger) !default
 $light-invert: $black-ter !default
 $dark-invert: $light !default
 
@@ -208,14 +208,6 @@ $menu-item-active-background-color: $primary
 $menu-list-border-left: 1px solid $border !default
 $menu-label-color: $text !default
 
-$button-border-color: lighten($grey-light,5) !default
-$button-hover-color: $text !default
-$button-hover-border-color: $grey-light !default
-$button-active-color: $text !default
-$button-active-border-color: lighten($grey,5) !default
-$button-text-hover-background-color: transparent !default
-$button-padding-horizontal: 0.95em !default
-
 $modal-background-background-color: rgba($black, 0.6) !default 
 $modal-card-head-background-color: $white !default
 $modal-card-head-border-bottom: none !default
@@ -237,6 +229,15 @@ $dropdown-content-radius: $radius-small !default
 $control-border-width: 1px !default
 $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
+
+$button-border-color: lighten($grey-light,5) !default
+$button-hover-color: $text !default
+$button-hover-border-color: $grey-light !default
+$button-active-color: $text !default
+$button-active-border-color: lighten($grey,5) !default
+$button-text-hover-background-color: transparent !default
+$button-padding-horizontal: 0.95em !default
+$button-padding-vertical: calc(0.25em - #{$control-border-width}) !default
 
 $input-shadow: none !default
 $input-color: $text !default

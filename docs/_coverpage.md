@@ -10,9 +10,9 @@
                 <hr class="is-smaller">
                 <div class="subtitle is-4 has-text-grey-dark">The single source of truth for building Biings products</div>
                 <hr>
-                <a href="#/?id=main" class="button is-medium is-primary is-beefy is-outlined">Start exploring</a>
+                <a href="#/?id=main" class="button is-medium is-dark is-beefy is-outlined">Start exploring</a>
                 <hr class="is-smaller">
-                <div class="has-text-grey is-size-7">&nbsp;Version 1.20.4</div>
+                <div class="has-text-grey is-size-7">&nbsp;Version 1.20.5</div>
             </div>
         </div>
     </div>

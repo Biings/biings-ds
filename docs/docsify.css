@@ -20,6 +20,10 @@ code .tag
 {
     background-color: transparent;
 }
+strong
+{
+    font-weight: 500;
+}
 blockquote
 {
     padding-left: 1rem;
