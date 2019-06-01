@@ -20,7 +20,7 @@
     - [ Card](card)
     - [ Checkbox](checkbox)
     - [ Dropdown](dropdown)
-    - [ Illustration](illustration)
+    <!-- - [ Illustration](illustration) -->
     - [ Input](input)
     - [ Layout](layout)
     - [ Loader](loader)

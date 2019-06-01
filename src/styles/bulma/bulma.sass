@@ -13,7 +13,7 @@ $green:        #5bcc72 !default
 $yellow:       #ffc15e !default
 $turquoise:    #5DD9C1 !default
 
-$black:        #15141B
+$black:        #1E162B
 $black-bis:    #302D3D
 $black-ter:    #403d4b
 
@@ -64,7 +64,7 @@ $border-hover: $grey-light !default
 
 // Text colors
 
-$text: $black-ter !default
+$text: $black !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: inherit !default
@@ -89,7 +89,7 @@ $link-hover-border: $grey-light !default
 $link-focus: $grey-darker !default
 $link-focus-border: $blue !default
 
-$link-active: $grey-darker !default
+$link-active: $black !default
 $link-active-border: $grey-dark !default
 
 // Typography
@@ -122,6 +122,7 @@ $weight-semibold: 600 !default
 $weight-bold: 800 !default
 
 $title-color: $text
+$title-family: $family-secondary !default
 $title-size: $size-3
 $title-weight: $weight-bold
 $title-strong-color: inherit
@@ -129,7 +130,7 @@ $title-strong-weight: inherit
 $title-sub-size: 0.75em
 $title-sup-size: 0.75em
 
-$subtitle-color: $title-color
+$subtitle-color: $black-ter !default
 $subtitle-size: $size-5
 $subtitle-weight: $weight-normal
 $subtitle-strong-color: inherit
@@ -284,8 +285,8 @@ $tabs-boxed-link-hover-background-color: transparent !default
 @import "bulma/sass/elements/button.sass"
 @import "bulma/sass/elements/container.sass"
 // @import "bulma/sass/elements/content.sass"
-@import "bulma/sass/elements/form.sass"
-@import "bulma/sass/elements/icon.sass"
+@import "bulma/sass/form/_all.sass"
+// @import "bulma/sass/elements/icon.sass"
 @import "bulma/sass/elements/image.sass"
 //@import "bulma/sass/elements/notification.sass"
 @import "bulma/sass/elements/other.sass"

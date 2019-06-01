@@ -3,11 +3,9 @@
     <span class="has-text-weight-semibold">Buttons</span> allow users to take actions, and make choices.
 </p>
 
-<hr class="is-large is-visible">
+<hr class="is-small">
 
-<h2 class="title is-4">Types & States</h2>
-
-<table class="table is-fullwidth">
+<table class="table is-fullwidth is-bordered">
     <tbody>
         <tr>
             <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
@@ -73,9 +71,9 @@
     </tbody>
 </table>
 
-<hr class="is-large is-visible">
+<hr>
 
-<h2 class="title is-4">Sizes and shapes</h2>
+<h2 class="title is-4 is-family-sans-serif">Sizes and shapes</h2>
 
 Use classes starting with `is-[size or shape]` to change the style of a button.
 
@@ -96,7 +94,7 @@ Use classes starting with `is-[size or shape]` to change the style of a button.
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Button Group</h2>
+<h2 class="title is-4 is-family-sans-serif">Button Group</h2>
 
 <div class="box is-well is-marginless is-large">
     <div class="field has-addons">

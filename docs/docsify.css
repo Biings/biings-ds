@@ -24,6 +24,10 @@ strong
 {
     font-weight: 500;
 }
+svg.image
+{
+    margin: 0 auto;
+}
 blockquote
 {
     padding-left: 1rem;
@@ -43,6 +47,10 @@ footer > .level
 footer:hover > .level
 {
     opacity: 1;
+}
+section.cover
+{
+    background: linear-gradient(0deg, #edecf0 0%,#f9f8fc 20%) !important;
 }
 section.cover .cover-main
 {
@@ -119,7 +127,7 @@ aside.sidebar
     padding-top: 4.75rem;
     width: 230px;
     border-right: none;
-    background-color: #F3F2F6;
+    background-color: #edecf0;
     color: #403d4b;
     font-size: 13px;
 }
@@ -259,8 +267,8 @@ img.no-zoom
 
 .token.tag
 {
-    padding: 0 !important;
     display: inline;
+    padding: 0 !important;
     color: #2973b7;
 }
 
@@ -355,5 +363,5 @@ img.no-zoom
 
 .has-shadow
 {
-    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }

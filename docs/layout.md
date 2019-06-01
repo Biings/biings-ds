@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Columns</h2>
+<h2 class="title is-4 is-family-sans-serif">Columns</h2>
 
 Columns are used to structure content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
 
@@ -41,7 +41,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 </a>
   
 <hr class="is-large is-visible">
-<h2 class="title is-4">Level</h2>
+<h2 class="title is-4 is-family-sans-serif">Level</h2>
 
 Use **Level items** when you need to vertically center elements on one line.
 
@@ -79,7 +79,7 @@ Use **Level items** when you need to vertically center elements on one line.
 </div>
 
 <hr class="is-large is-visible">
-<h2 class="title is-4">Content Layout</h2>
+<h2 class="title is-4 is-family-sans-serif">Content Layout</h2>
 
 <div class="columns has-text-centered">
   <div class="column is-4"><img src="media/layout_1.png"><a href="#/layout?id=basic">Basic</a></div>

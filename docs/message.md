@@ -39,7 +39,7 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Colors and sizes</h2>
+<h2 class="title is-4 is-family-sans-serif">Colors and sizes</h2>
 
 Messages support modifiers `is-info`, `is-danger`, `is-warning`, `is-success` as well as size modifiers `is-small` and `is-large`.
 
@@ -63,7 +63,7 @@ Messages support modifiers `is-info`, `is-danger`, `is-warning`, `is-success` as
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Notification message</h2>
+<h2 class="title is-4 is-family-sans-serif">Notification message</h2>
 
 A Message can act as a notification when combined with a Modal. Add `is-noti` and put the message in a <a href="#/modal">simple Modal</a> to create an overlayed notification message.
 

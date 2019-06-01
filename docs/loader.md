@@ -26,7 +26,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Inverted</h2>
+<h2 class="title is-4 is-family-sans-serif">Inverted</h2>
 
 Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
@@ -38,7 +38,7 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Undetermined</h2>
+<h2 class="title is-4 is-family-sans-serif">Undetermined</h2>
 
 Add class `is-undetermined` when loading time is expected to take <strong>longer than usual</strong>.
 <hr class="is-small">
@@ -48,7 +48,7 @@ Add class `is-undetermined` when loading time is expected to take <strong>longer
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Colorful</h2>
+<h2 class="title is-4 is-family-sans-serif">Colorful</h2>
 
 Add class `is-colorful` to give the loader a unique Biings look.
 

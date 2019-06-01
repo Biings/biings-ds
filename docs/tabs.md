@@ -26,7 +26,7 @@
     </div>
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Boxed Tabs</h2>
+<h2 class="title is-4 is-family-sans-serif">Boxed Tabs</h2>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
 

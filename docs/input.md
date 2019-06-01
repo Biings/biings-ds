@@ -16,7 +16,7 @@
     <input class="input is-medium is-danger" type="text" placeholder="..">
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Form fields</h2>
+<h2 class="title is-4 is-family-sans-serif">Form fields</h2>
 
 <form class="box is-well is-relaxed is-marginless" spellcheck="false">
     <div class="field">

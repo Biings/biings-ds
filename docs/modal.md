@@ -32,7 +32,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Modal Card</h2>
+<h2 class="title is-4 is-family-sans-serif">Modal Card</h2>
 
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal(1)" class="button is-beefy is-dark">Open Card</div>
@@ -77,6 +77,6 @@
     </div>
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Pin to top</h2>
+<h2 class="title is-4 is-family-sans-serif">Pin to top</h2>
 
 Use `is-pinned` to prevent the modal from re-centering itself when its content change.

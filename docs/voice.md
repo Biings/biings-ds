@@ -5,7 +5,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Do's & Dont's</h2>
+<h2 class="title is-4 is-family-sans-serif">Do's & Dont's</h2>
 
 <hr class="is-small">
 

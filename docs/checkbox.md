@@ -42,7 +42,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Toggle</h2>
+<h2 class="title is-4 is-family-sans-serif">Toggle</h2>
 
 A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
 

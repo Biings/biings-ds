@@ -17,6 +17,6 @@
 
 <hr class="is-visible">
 
-<h2 class="title is-4">Sizes</h2>
+<h2 class="title is-4 is-family-sans-serif">Sizes</h2>
 
-You can increase or decrease the size of a spacer using `is-smaller`, `is-small` or `is-large`.
+You can increase or decrease the size of a spacer using `is-thin`, `is-smaller`, `is-small` or `is-large`.

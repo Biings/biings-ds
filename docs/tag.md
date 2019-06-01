@@ -17,7 +17,7 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Size, Shape and Colors</h2>
+<h2 class="title is-4 is-family-sans-serif">Size, Shape and Colors</h2>
 
 The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 

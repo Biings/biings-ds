@@ -6,9 +6,12 @@
 <hr class="is-visible is-large">
 
 <div class="columns is-multiline">
-    <div class="column is-1 is-size-1 is-serif has-text-pilot">1</div>
+    <div class="column is-1">
+        <h2 class="title is-1 has-text-pilot">1</h2>
+    </div>
     <div class="column is-11 is-full-mobile">
-        <div class="title is-4 is-spaced">Put HR-Sustainability first</div>
+        <hr class="is-smaller">
+        <div class="title is-4 is-spaced is-family-sans-serif">Put HR-Sustainability first</div>
         <p class="subtitle is-6">
             In a group of people, sustainable human ressources maintain the same level of corporate culture, knowledge and creativity over time.
             <br><br>
@@ -16,17 +19,23 @@
         </p>
         <hr class="is-small">
     </div>
-    <div class="column is-1 is-size-1 is-serif has-text-pilot">2</div>
+    <div class="column is-1 is-size-1 has-text-pilot">
+        <h2 class="title is-1 has-text-pilot">2</h2>
+    </div>
     <div class="column is-11">
-        <h2 class="title is-4 is-spaced">Favor Trust and Responsibility</h2>
+        <hr class="is-smaller">
+        <h2 class="title is-4 is-spaced is-family-sans-serif">Favor Trust and Responsibility</h2>
         <p class="subtitle is-6">
             Favor good work-atmosphere rather than adopting a coercive control of absences. Manage without judging.
         </p>
         <hr class="is-small">
     </div>
-    <div class="column is-1 is-size-1 is-serif has-text-pilot">3</div>
+    <div class="column is-1 is-size-1 has-text-pilot">
+        <h2 class="title is-1 has-text-pilot">3</h2>
+    </div>
     <div class="column is-11">
-        <h2 class="title is-4 is-spaced">Facts over surveys</h2>
+        <hr class="is-smaller">
+        <h2 class="title is-4 is-spaced is-family-sans-serif">Facts over surveys</h2>
         <p class="subtitle is-6">
             Collecting factual data over information from surveys is key for a reliable analysis of occupational well-being.
         </p>

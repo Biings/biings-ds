@@ -3,7 +3,7 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Brand</h2>
+<h2 class="title is-4 is-family-sans-serif">Brand</h2>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -36,7 +36,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Greyscale</h2>
+<h2 class="title is-4 is-family-sans-serif">Greyscale</h2>
 
 <hr class="is-small">
 
@@ -51,14 +51,14 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-grey"><br><br></div><span><strong>grey</strong></span><br><span class="has-text-grey-dark is-monospace">#B4B0C2</span></div>
     <div class="column is-3"><div class="has-background-grey-light"><br><br></div><span><strong>grey-light</strong></span><br><span class="has-text-grey-dark is-monospace">#D3D1DB</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#15141B</span></div>
+    <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#1E162B</span></div>
     <div class="column is-3"><div class="has-background-black-bis has-shadow"><br><br></div><span><strong>black-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#302D3D</span></div>
     <div class="column is-3"><div class="has-background-black-ter"><br><br></div><span><strong>black-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
 </div>
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Palette</h2>
+<h2 class="title is-4 is-family-sans-serif">Palette</h2>
 
 <hr class="is-small">
 
@@ -111,7 +111,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Gradients</h2>
+<h2 class="title is-4 is-family-sans-serif">Gradients</h2>
 
 <hr class="is-invisible is-small">
 
@@ -128,7 +128,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Color modifiers</h2>
+<h2 class="title is-4 is-family-sans-serif">Color modifiers</h2>
 
 Most elements and components have color variations thanks to modifiers with syntax `.is-[color]` (`is-primary`, `is-dark`) or `.has-text-[color]` (`has-background-red`, `has-background-gradient-1`).
 
@@ -150,7 +150,7 @@ Most elements and components have color variations thanks to modifiers with synt
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">CSS variables</h2>
+<h2 class="title is-4 is-family-sans-serif">CSS variables</h2>
 
 All colors are available as CSS variables through the prefix `--color-`.
 

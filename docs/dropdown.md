@@ -48,7 +48,7 @@
     
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Use a custom icon</h2>
+<h2 class="title is-4 is-family-sans-serif">Use a custom icon</h2>
 
 Use `is-iconless` if you want to use your own icon in the dropdown button.
 
@@ -75,7 +75,7 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Changer the trigger</h2>
+<h2 class="title is-4 is-family-sans-serif">Changer the trigger</h2>
 
 Any element or component can trigger a dropdown when placed inside the `.dropdown-trigger` div.
 
@@ -103,7 +103,7 @@ Any element or component can trigger a dropdown when placed inside the `.dropdow
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Searchable list</h2>
+<h2 class="title is-4 is-family-sans-serif">Searchable list</h2>
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
@@ -149,7 +149,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 <a id="selectlist"></a>
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Select list</h2>
+<h2 class="title is-4 is-family-sans-serif">Select list</h2>
 
 Create a system default select list just by wrapping it with a `.select` div.
 

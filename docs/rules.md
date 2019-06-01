@@ -6,8 +6,8 @@
 <hr class="is-visible is-large">
 
 <div id="r-wc" class="box is-expandable is-unselectable is-large is-well" onclick="toggleExpand('r-wc')">
-        <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
-    <span class="title is-4">Repetitive absences</span>
+    <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold has-text-dark">Repetitive absences</span>
     <div class="expanded-content content">
         <hr class="is-visible">
         A person reaches a status of *repetitive absences* when he or she accumulates 4 unplanned cases of absences within the last 12 months.
@@ -21,7 +21,7 @@
 
 <div id="r-adc" class="box is-large is-expandable is-unselectable is-well" onclick="toggleExpand('r-adc')">
     <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
-    <span class="title is-4">Absences duration categories</span>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold has-text-dark">Absences duration categories</span>
     <div class="expanded-content content">
         <hr class="is-visible">
         Absences can be sorted into 6 categories depending on their duration (in days):
@@ -45,7 +45,7 @@
 
 <div id="r-rtw" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-rtw')">
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
-    <span class="title is-4">Return to work</span>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold has-text-dark">Return to work</span>
     <div class="expanded-content">
         <hr class="is-visible">
         <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">5 days</span> after the person has returned.
@@ -53,8 +53,8 @@
 </div>
 
 <div id="r-asm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-asm')">
-        <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
-    <span class="title is-4">1-on-1 Assessment (<span class="is-serif">I</span> & <span class="is-serif">II</span>)</span>
+    <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold has-text-dark">1-on-1 Assessment (<span class="is-serif">I</span> & <span class="is-serif">II</span>)</span>
     <div class="expanded-content">
         <hr class="is-visible">
         <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">45 days</span> after the last absence.
@@ -63,7 +63,7 @@
 
 <div id="r-hrasm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-hrasm')">
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
-    <span class="title is-4">HR Assessment</span>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold has-text-dark">HR Assessment</span>
     <div class="expanded-content">
         <hr class="is-visible">
         <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">45 days</span> after the last absence.
@@ -72,7 +72,7 @@
 
 <div id="r-algo1" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-algo1')">
     <span class="subtitle is-size-7 has-text-primary">ALGORITHM</span><br>
-    <span class="title is-4">Next meeting type</span>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold has-text-dark">Next meeting type</span>
     <div class="expanded-content">
         <hr class="is-visible">
         For a chronically absent person (4+) the next meeting type is either a 1-on-1 Assessment (the first one) or the meeting type coming after the type of the last meeting and if that meeting occurred within the last 12 months.

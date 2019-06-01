@@ -12,7 +12,7 @@
     <div class="has-skeleton"></div>
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Anything can be a Skeleton <span class="has-text-weight-normal has-text-red">(Beta)</span></h2>
+<h2 class="title is-4 is-family-sans-serif">Anything can be a Skeleton <span class="has-text-weight-normal has-text-red">(Beta)</span></h2>
 
 Add class `has-skeleton` to any empty component to show its skeleton.
 

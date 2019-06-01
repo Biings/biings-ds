@@ -20,7 +20,7 @@
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Sizes</h2>
+<h2 class="title is-4 is-family-sans-serif">Sizes</h2>
 
 In addition to the default size, use classes `is-small`, `is-medium`, `is-large` and `is-huge` to adjust the size of an avatar.
 <hr class="is-small">
@@ -33,7 +33,7 @@ In addition to the default size, use classes `is-small`, `is-medium`, `is-large`
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-4">Photo Avatar</h2>
+<h2 class="title is-4 is-family-sans-serif">Photo Avatar</h2>
 
 Avatars can nest an image to act as a person's photo.
 
@@ -49,7 +49,7 @@ Avatars can nest an image to act as a person's photo.
     <span class="subtitle is-5">Redford, Robert</span>
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Status</h2>
+<h2 class="title is-4 is-family-sans-serif">Status</h2>
 
 Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-black">black</span> and white.
 

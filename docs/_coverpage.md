@@ -8,15 +8,13 @@
                 <hr class="is-invisible is-small"/>
                 <span class="title is-0 is-serif has-text-dark">Biings Design System</span>
                 <hr class="is-smaller">
-                <div class="subtitle is-4 has-text-grey-dark">The single source of truth for building Biings products</div>
-                <hr>
+                <div class="subtitle is-4 has-text-grey-darker">The single source of truth for building Biings products</div>
+                <hr class="is-small">
                 <a href="#/?id=main" class="button is-medium is-dark is-beefy is-outlined">Start exploring</a>
-                <hr class="is-smaller">
-                <div class="has-text-grey is-size-7">&nbsp;Version 1.20.5</div>
+                <a href="https://www.npmjs.com/package/biings-ds" class="button is-medium is-text is-beefy"><img src="https://img.shields.io/npm/v/biings-ds.svg" alt="biings-ds"></a>
+                <hr>
+                
             </div>
         </div>
     </div>
 </div>
-
-<!-- background color -->
-![color](#f9f8fc)

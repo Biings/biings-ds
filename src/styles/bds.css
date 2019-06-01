@@ -55,17 +55,6 @@
     }
 }
 
-/* — Modifiers — */
-.is-monospace
-{
-    font-family: 'Roboto Mono', monospace;
-}
-.is-serif
-{
-    font-weight: 900;
-    font-family: 'Merriweather', serif;
-}
-
 /* Avatar */
 .avatar
 {

@@ -16,7 +16,7 @@
     </div>
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Box depths</h2>
+<h2 class="title is-4 is-family-sans-serif">Box depths</h2>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
@@ -47,7 +47,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Depth transition</h2>
+<h2 class="title is-4 is-family-sans-serif">Depth transition</h2>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -72,7 +72,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Expandable box</h2>
+<h2 class="title is-4 is-family-sans-serif">Expandable box</h2>
 
 Add class `is-expandable` to boxes that can expand inline.<br>Then add the class `is-expanded` to a box that has been expanded.
 
@@ -100,7 +100,7 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
     </div>
 <hr class="is-large is-visible">
 
-<h2 class="title is-4">Link box</h2>
+<h2 class="title is-4 is-family-sans-serif">Link box</h2>
 
 Add class `is-link` to make a box behave like a link.
 
