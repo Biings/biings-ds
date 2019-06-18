@@ -1,13 +1,15 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-serif is-1 has-text-weight-bold">Iconography</h1>
 <p class="subtitle is-5">
-    <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action visually. They should be used sparingly to provide clarity and reduce cognitive load.
+    <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
 
 <hr class="is-large is-visible">
 
 <h2 class="title is-4 is-family-sans-serif">Icons</h2>
 
-Icons should **not be less than 24 pixels** (width and height).<br>Use, or make, an equivalent Glyph when displayed below 24px.
+Icons are mostly used to provide a visual accompaniment to other UI components.<br>
+They should **not be less than 24 pixels** (width and height).<br>
+*Use an equivalent Glyph when displayed below 24px.*
 
 <br><br>
 
@@ -50,7 +52,8 @@ Icons should **not be less than 24 pixels** (width and height).<br>Use, or make,
 
 <h2 class="title is-4 is-family-sans-serif">Glyphs</h2>
 
-Glyphs should **not exceed 24 pixels** (width and height) and should always be a filled icon.<br>Fine stroke weights should also disappear.
+Glyphs are mostly used to be part of an actionable component (like a button or dropdown).
+<br>They should **not exceed 24 pixels** (width and height).
 
 <br><br>
 
@@ -95,3 +98,14 @@ Logo icons should **not be less than 16px** (width and height).
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-claim"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-pilot"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
 </div>
+
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 is-family-sans-serif">How to use</h2>
+
+BDS iconography is available as an SVG sprite to include in your HTML page.<br>
+To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
+
+<br>
+
+    <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
