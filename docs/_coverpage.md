@@ -12,7 +12,7 @@
                 <hr class="is-small">
                 <a href="#/?id=main" class="button is-medium is-white is-beefy is-outlined">Start exploring</a>
                 <hr>
-                <img src="https://img.shields.io/npm/v/biings-ds.svg" alt="biings-ds">
+                <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
             </div>
         </div>
     </div>
