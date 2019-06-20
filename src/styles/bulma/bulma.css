@@ -6373,9 +6373,6 @@ svg.is-grey-dark {
   border-radius: 0 0 0.5em 0.5em; }
 
 /* Tabs */
-.tabs {
-  font-weight: 500; }
-
 .tabs:not(.is-boxed) li:first-child a {
   padding-left: .75em; }
 
