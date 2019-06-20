@@ -6,14 +6,13 @@
             <div class="box">
                 <img src="media/bds.png" width="140" class="no-zoom"/>
                 <hr class="is-invisible is-small"/>
-                <span class="title is-0 is-serif has-text-dark">Biings Design System</span>
-                <hr class="is-smaller">
-                <div class="subtitle is-4 has-text-grey-darker">The single source of truth for building Biings products</div>
+                <span class="title is-0 is-serif has-text-white">Biings Design System</span>
                 <hr class="is-small">
-                <a href="#/?id=main" class="button is-medium is-dark is-beefy is-outlined">Start exploring</a>
-                <a href="https://www.npmjs.com/package/biings-ds" class="button is-medium is-text is-beefy"><img src="https://img.shields.io/npm/v/biings-ds.svg" alt="biings-ds"></a>
+                <div class="subtitle is-4 has-text-primary-lighter">The single source of truth for building Biings products</div>
+                <hr class="is-small">
+                <a href="#/?id=main" class="button is-medium is-white is-beefy is-outlined">Start exploring</a>
                 <hr>
-                
+                <img src="https://img.shields.io/npm/v/biings-ds.svg" alt="biings-ds">
             </div>
         </div>
     </div>
