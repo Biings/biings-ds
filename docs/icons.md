@@ -13,7 +13,9 @@ They should **not be less than 24 pixels** (width and height).<br>
 
 <br><br>
 
-<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey-dark">
+<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#accident"></use></svg></div>accident</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#army"></use></svg></div>army</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-left"></use></svg></div>arrow-left</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-right"></use></svg></div>arrow-right</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-up"></use></svg></div>arrow-up</div>
@@ -27,25 +29,34 @@ They should **not be less than 24 pixels** (width and height).<br>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#bubbles"></use></svg></div>bubbles</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#briefcase"></use></svg></div>briefcase</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#certificate"></use></svg></div>certificate</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#chair"></use></svg></div>chair</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#check"></use></svg></div>check</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#download"></use></svg></div>download</div>    
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#compliant"></use></svg></div>compliant</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#download"></use></svg></div>download</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#dropbox"></use></svg></div>dropbox</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#help"></use></svg></div>help</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#holiday"></use></svg></div>holiday</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#illness"></use></svg></div>illness</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#inbox"></use></svg></div>inbox</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#indemnity"></use></svg></div>indemnity</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#job_assignement"></use></svg></div>job_assignement</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#legal-proof"></use></svg></div>legal-proof</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#magnifier"></use></svg></div>magnifier</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#manager"></use></svg></div>manager</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#maternity"></use></svg></div>maternity</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#other"></use></svg></div>other</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#pencil"></use></svg></div>pencil</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#persons"></use></svg></div>persons</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#phone-call"></use></svg></div>phone-call</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#profile"></use></svg></div>profile</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#reminder"></use></svg></div>reminder</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#rest"></use></svg></div>rest</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#role"></use></svg></div>role</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#salary"></use></svg></div>salary</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#social-climat"></use></svg></div>social-climat</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#settings"></use></svg></div>settings</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#sick"></use></svg></div>sick</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#social-climat"></use></svg></div>social-climat</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#talk"></use></svg></div>talk</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#trash"></use></svg></div>trash</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#treatment"></use></svg></div>treatment</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#user"></use></svg></div>user</div>
@@ -60,38 +71,53 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
 
 <br><br>
 
-<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey-dark">
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#add"></use></svg></div>add</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#archive"></use></svg></div>archive</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-left-g"></use></svg></div>arrow-left-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-right-g"></use></svg></div>arrow-right-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-up-g"></use></svg></div>arrow-up-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-down-g"></use></svg></div>arrow-down-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#badge"></use></svg></div>badge</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#bell"></use></svg></div>bell</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#birthday-g"></use></svg></div>birthday-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#briefcase-g"></use></svg></div>briefcase-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#business-g"></use></svg></div>business-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#clock"></use></svg></div>clock</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#document-g"></use></svg></div>document-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg></div>download-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#edit"></use></svg></div>edit</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#gear"></use></svg></div>gear</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#gender"></use></svg></div>gender</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_esc"></use></svg></div>key_esc</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#orgchart"></use></svg></div>orgchart</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#redo"></use></svg></div>redo</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#remove"></use></svg></div>remove</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#role-g"></use></svg></div>role-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#search-list"></use></svg></div>search-list</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#timelines"></use></svg></div>timelines</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#today"></use></svg></div>today</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg></div>trash-g</div>
-    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#unarchive"></use></svg></div>unarchive</div>
+<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#accident-g"></use></svg></div>accident-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#add"></use></svg></div>add</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#archive"></use></svg></div>archive</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#army-g"></use></svg></div>army-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-left-g"></use></svg></div>arrow-left-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-right-g"></use></svg></div>arrow-right-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-up-g"></use></svg></div>arrow-up-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#arrow-down-g"></use></svg></div>arrow-down-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#attachment-g"></use></svg></div>attachment-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#badge"></use></svg></div>badge</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#bell"></use></svg></div>bell</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#birthday-g"></use></svg></div>birthday-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#book-g"></use></svg></div>book-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#briefcase-g"></use></svg></div>briefcase-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#business-g"></use></svg></div>business-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#chair-g"></use></svg></div>chair-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#clock"></use></svg></div>clock</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#document-g"></use></svg></div>document-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg></div>download-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#edit"></use></svg></div>edit</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#gear"></use></svg></div>gear</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#gender"></use></svg></div>gender</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#help-g"></use></svg></div>help-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#holiday-g"></use></svg></div>holiday-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#indemnity-g"></use></svg></div>indemnity-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_esc"></use></svg></div>key_esc</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_return"></use></svg></div>key_return</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#key_up_down"></use></svg></div>key_up_down</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#mail"></use></svg></div>mail</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#maternity-g"></use></svg></div>maternity-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#orgchart"></use></svg></div>orgchart</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#other-g"></use></svg></div>other-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#phone-call-g"></use></svg></div>phone-call-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#redo"></use></svg></div>redo</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#remove"></use></svg></div>remove</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg></div>rest-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#role-g"></use></svg></div>role-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#search-list"></use></svg></div>search-list</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#segment"></use></svg></div>segment</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#sick-g"></use></svg></div>sick-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#talk-g"></use></svg></div>talk-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#timelines"></use></svg></div>timelines</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#today"></use></svg></div>today</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg></div>trash-g</div>
+    <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-20x20 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#unarchive"></use></svg></div>unarchive</div>
 </div>
 
 <hr class="is-large is-visible">
@@ -102,7 +128,7 @@ Logo icons should **not be less than 16px** (width and height).
 
 <br><br>
 
-<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey-dark">
+<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-care"><use xlink:href="media/bds-icons.min.svg#biings-care"></use></svg></div>biings-care</div>
     <div class="column is-one-third-mobile is-2 hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-claim"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
