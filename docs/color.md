@@ -51,9 +51,9 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-grey"><br><br></div><span><strong>grey</strong></span><br><span class="has-text-grey-dark is-monospace">#B4B0C2</span></div>
     <div class="column is-3"><div class="has-background-grey-light"><br><br></div><span><strong>grey-light</strong></span><br><span class="has-text-grey-dark is-monospace">#D3D1DB</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#1E162B</span></div>
-    <div class="column is-3"><div class="has-background-black-bis has-shadow"><br><br></div><span><strong>black-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#302D3D</span></div>
-    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><span><strong>black-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#403D4B</span></div>
+    <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#1E132F</span></div>
+    <div class="column is-3"><div class="has-background-black-bis has-shadow"><br><br></div><span><strong>black-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#312A43</span></div>
+    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><span><strong>black-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#3E384F</span></div>
 </div>
 
 <hr class="is-large is-visible">
