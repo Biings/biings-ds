@@ -29,7 +29,7 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><span><strong>care-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#C4E6E5</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><span><strong>claim-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#C88327</span></div>
-    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><span><strong>claim</strong></span><br><span class="has-text-grey-dark is-monospace">#F89465</span></div>
+    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><span><strong>claim</strong></span><br><span class="has-text-grey-dark is-monospace">#fAA431</span></div>
     <div class="column is-3"><div class="has-background-claim-light"><br><br></div><span><strong>claim-light</strong></span><br><span class="has-text-grey-dark is-monospace">#FCBF6F</span></div>
     <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><span><strong>claim-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#FDDBAD</span></div>
 </div>

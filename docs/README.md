@@ -1,7 +1,8 @@
-<hr>
-<h1 class="title is-2 is-spaced">Get started with BDS</h1>
-<p class="subtitle is-5">
-    <span class="has-text-weight-semibold">BDS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
+<hr class="is-small">
+<h2 class="is-size-5 is-uppercase has-text-weight-semibold has-text-grey">Biings Design System</h2>
+<hr class="is-smaller">
+<p class="subtitle is-4">
+        <span class="has-text-weight-semibold">BDS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
 </p>
 
 <hr class="is-small">

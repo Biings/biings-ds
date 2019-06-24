@@ -5,6 +5,27 @@
 
 <hr class="is-large is-visible">
 
+<h2 class="title is-4 is-family-sans-serif">Section</h2>
+
+Sections are used to handle **vertical spacing**.  
+Add class `is-medium` or `is-large` to fruther increase the vertical space.
+
+<hr class="is-small">
+
+<div class="box is-well is-marginless is-relaxed">
+    <div class="section has-background-grey-lighter">
+        Normal size
+    </div>
+    <div class="section is-medium has-background-grey-light">
+        Medium size
+    </div>
+</div>
+
+    <div class="section is-large">
+        Large size
+    </div>
+<hr class="is-large is-visible">
+
 <h2 class="title is-4 is-family-sans-serif">Columns</h2>
 
 Columns are used to structure content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
@@ -41,6 +62,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 </a>
   
 <hr class="is-large is-visible">
+
 <h2 class="title is-4 is-family-sans-serif">Level</h2>
 
 Use **Level items** when you need to vertically center elements on one line.
@@ -77,79 +99,3 @@ Use **Level items** when you need to vertically center elements on one line.
 <a href="https://bulma.io/documentation/layout/level/" target="blank" class="box is-bordered">
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Level</strong></a>
 </div>
-
-<hr class="is-large is-visible">
-<h2 class="title is-4 is-family-sans-serif">Content Layout</h2>
-
-<div class="columns has-text-centered">
-  <div class="column is-4"><img src="media/layout_1.png"><a href="#/layout?id=basic">Basic</a></div>
-  <div class="column is-4"><img src="media/layout_2.png"><a href="#/layout?id=page">Page</a></div>
-  <div class="column is-4"><img src="media/layout_3.png"><a href="#/layout?id=menu">Page with Menu</a></div>
-</div>
-
-!> **Content Layout** is used only in a Biings Desktop or Tablet app.
-
-<hr class="is-small">
-
-<a id="basic"></a>
-
-<h2 class="title is-5">Basic</h2>
-
-A **Basic** layout has no margin or padding and allows the content to stretch and fill the entire stage.
-
-<hr class="is-small">
-
-<div class="box is-well is-marginless"><img src="media/layout_1.png"></div>
-
-    <div class="layout">
-      <div class="nav">...</div>
-
-      <div class="content">
-          ...
-      </div>
-
-    </div>
-<a id="page"></a>
-<hr>
-
-<h2 class="title is-5">Page</h2>
-
-A **Page layout** has responsive padded content. Add `.is-centered` for fixed width centered content.
-
-<hr class="is-small">
-
-<div class="box is-well is-marginless"><img src="media/layout_2.png"></div>
-
-    <div class="layout">
-      <div class="nav">...</div>
-
-      <div class="content">
-        <div class="page">
-          ...
-        </div>
-      </div>
-
-    </div>
-<a id="menu"></a>
-
-<hr>
-<h2 class="title is-5">Page with Menu</h2>
-Similar to the Page layout with an additional **Side-menu** for quick navigation.
-
-<hr class="is-small">
-
-<div class="box is-well is-marginless"><img src="media/layout_3.png"></div>
-
-    <div class="layout">
-      <div class="nav">...</div>
-
-      <div class="content has-side-menu">
-        <div class="side-menu">
-          ...
-        </div>
-        <div class="page">
-          ...
-        </div>
-      </div>
-
-    </div>
