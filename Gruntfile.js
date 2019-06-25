@@ -23,7 +23,10 @@ module.exports = function(grunt) {
                     'xmlns:xlink' : "http://www.w3.org/1999/xlink"
                 },
                 cleanup: ['fill','stroke'],
-                preserveDescElement: false
+                cleanupdefs: true,
+                inheritviewbox: true,
+                preserveDescElement: false,
+                includeTitleElement: false
             },
             default : {
                 files: {
