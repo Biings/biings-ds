@@ -33,6 +33,11 @@ svg.image
     width: 20px;
     height: 20px;
 }
+.image.is-38x38
+{
+    width: 38px;
+    height: 38px;
+}
 blockquote
 {
     padding-left: 1rem;
