@@ -6105,7 +6105,8 @@ th {
       transform: rotate(0deg); } } }
 
 .loader.is-colorful {
-  animation: colorShading 1800ms infinite linear, a 600ms infinite linear; }
+  border-bottom-color: #815BC3;
+  border-left-color: #815BC3; }
 
 @keyframes colorShading {
   0% {
@@ -6130,9 +6131,6 @@ th {
   font-weight: 500;
   transition: background-color .1s linear; }
 
-.button.is-primary:hover {
-  background-color: #7348bc; }
-
 .button .icon {
   width: 1em;
   height: 1em; }
@@ -6143,12 +6141,53 @@ th {
 .button.is-text {
   text-decoration: none; }
 
+button.button {
+  box-shadow: 0 0 0 1px rgba(30, 19, 47, 0);
+  transition: box-shadow 0.75s linear; }
+
+button.button:active {
+  box-shadow: 0 0 0 3px rgba(30, 19, 47, 0.08);
+  transition-duration: 0.02s; }
+
 .button.is-secondary {
   border-color: transparent;
   background-color: rgba(109, 104, 129, 0.15); }
 
 .button.is-secondary:hover {
-  background-color: rgba(109, 104, 129, 0.18); }
+  background-color: rgba(109, 104, 129, 0.19); }
+
+.button.is-glowing.is-primary {
+  animation: glowing-primary 2.5s infinite; }
+
+@keyframes glowing-primary {
+  0% {
+    box-shadow: 0 2px 4px rgba(129, 91, 195, 0.2), 0 1px 10px rgba(129, 91, 195, 0.3); }
+  50% {
+    box-shadow: 0 2px 4px rgba(129, 91, 195, 0.4), 0 1px 14px rgba(129, 91, 195, 0.6); }
+  100% {
+    box-shadow: 0 2px 4px rgba(129, 91, 195, 0.2), 0 1px 10px rgba(129, 91, 195, 0.3); } }
+
+.button.is-glowing.is-danger {
+  animation: glowing-dangerous 2.5s infinite; }
+
+@keyframes glowing-dangerous {
+  0% {
+    box-shadow: 0 2px 4px rgba(234, 96, 106, 0.2), 0 1px 10px rgba(234, 96, 106, 0.3); }
+  50% {
+    box-shadow: 0 2px 4px rgba(234, 96, 106, 0.4), 0 1px 14px rgba(234, 96, 106, 0.6); }
+  100% {
+    box-shadow: 0 2px 4px rgba(234, 96, 106, 0.2), 0 1px 10px rgba(234, 96, 106, 0.3); } }
+
+.button.is-glowing.is-success {
+  animation: glowing-success 2.5s infinite; }
+
+@keyframes glowing-success {
+  0% {
+    box-shadow: 0 2px 4px rgba(79, 184, 164, 0.2), 0 1px 10px rgba(79, 184, 164, 0.3); }
+  50% {
+    box-shadow: 0 2px 4px rgba(79, 184, 164, 0.4), 0 1px 14px rgba(79, 184, 164, 0.6); }
+  100% {
+    box-shadow: 0 2px 4px rgba(79, 184, 164, 0.2), 0 1px 10px rgba(79, 184, 164, 0.3); } }
 
 /* Box */
 .box {

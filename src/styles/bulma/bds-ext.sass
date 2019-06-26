@@ -82,7 +82,9 @@ th
             transform: rotate(0deg)
 
 .loader.is-colorful
-    animation: colorShading 1800ms infinite linear, a 600ms infinite linear
+    // animation: colorShading 1800ms infinite linear, a 600ms infinite linear
+    border-bottom-color: $primary
+    border-left-color: $primary
 
 @keyframes colorShading
     0%
@@ -107,22 +109,60 @@ th
     border-radius: $radius
     font-weight: 500
     transition: background-color .1s linear
-.button.is-primary:hover
-    background-color: darken($primary,5%)
 .button .icon
     width: 1em
     height: 1em
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
-
 .button.is-text
     text-decoration: none
+button.button
+    box-shadow: 0 0 0 1px rgba($black, 0)
+    transition: box-shadow 0.75s linear
+button.button:active
+    box-shadow: 0 0 0 3px rgba($black, 0.08)
+    transition-duration: 0.02s
 
+// New type
 .button.is-secondary
     border-color: transparent
     background-color: rgba($grey-darker,.15)
 .button.is-secondary:hover
-    background-color: rgba($grey-darker,.18)
+    background-color: rgba($grey-darker,.19)
+
+.button.is-glowing.is-primary
+    animation: glowing-primary 2.5s infinite
+
+// Glowing state
+@keyframes glowing-primary
+    0%
+        box-shadow: 0 2px 4px rgba($primary,.2), 0 1px 10px rgba($primary,.3)
+    50%
+        box-shadow: 0 2px 4px rgba($primary,.4), 0 1px 14px rgba($primary,.6)
+    100%
+        box-shadow: 0 2px 4px rgba($primary,.2), 0 1px 10px rgba($primary,.3)
+
+.button.is-glowing.is-danger
+    animation: glowing-dangerous 2.5s infinite
+
+@keyframes glowing-dangerous
+    0%
+        box-shadow: 0 2px 4px rgba($danger,.2), 0 1px 10px rgba($danger,.3)
+    50%
+        box-shadow: 0 2px 4px rgba($danger,.4), 0 1px 14px rgba($danger,.6)
+    100%
+        box-shadow: 0 2px 4px rgba($danger,.2), 0 1px 10px rgba($danger,.3)
+
+.button.is-glowing.is-success
+    animation: glowing-success 2.5s infinite
+
+@keyframes glowing-success
+    0%
+        box-shadow: 0 2px 4px rgba($success,.2), 0 1px 10px rgba($success,.3)
+    50%
+        box-shadow: 0 2px 4px rgba($success,.4), 0 1px 14px rgba($success,.6)
+    100%
+        box-shadow: 0 2px 4px rgba($success,.2), 0 1px 10px rgba($success,.3)
 
 
 /* Box */
