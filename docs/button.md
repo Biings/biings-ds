@@ -100,7 +100,7 @@ Use modifier classes to alter a button's look.
             <td><hr class="is-small"><code>is-rounded</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-loading">Loading</div><br><br></td>
+            <td class="has-text-centered"><br><button class="button is-loading">Loading</button><br><br></td>
             <td><hr class="is-small"><code>is-loading</code></td>
         </tr>
         <tr>

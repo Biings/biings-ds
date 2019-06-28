@@ -58,11 +58,11 @@ th
 /* Loader */
 .loader
     display: inline-block
-    border-bottom-color: rgba(64, 61, 75,.15)
-    border-left-color: rgba(64, 61, 75,.15)
+    border-bottom-color: RGBA(67,47,101,.3)
+    border-left-color: RGBA(67,47,101,.3)
 .loader.is-inverted
-    border-bottom-color: rgba(255,255,255,.25)
-    border-left-color: rgba(255,255,255,.25)
+    border-bottom-color: rgba(255,255,255,.3)
+    border-left-color: rgba(255,255,255,.3)
 .loader.is-large
     width: 2em
     height: 2em
@@ -82,6 +82,8 @@ th
             transform: rotate(0deg)
 
 .loader.is-colorful
+    border-top-color: RGBA(67,47,101,.1)
+    border-right-color: RGBA(67,47,101,.1)
     // animation: colorShading 1800ms infinite linear, a 600ms infinite linear
     border-bottom-color: $primary
     border-left-color: $primary
@@ -108,7 +110,9 @@ th
 .button
     border-radius: $radius
     font-weight: 500
-    transition: background-color .1s linear
+    transition: background-color .1s linear, padding-left .3s cubic-bezier(.645, .045, .355, 1), box-shadow .5s linear
+.button.is-small
+    height: 2.1875em
 .button .icon
     width: 1em
     height: 1em
@@ -117,11 +121,18 @@ th
 .button.is-text
     text-decoration: none
 button.button
-    box-shadow: 0 0 0 1px rgba($black, 0)
-    transition: box-shadow 0.75s linear
+    box-shadow: 0 0 0 5px rgba($black, 0)
 button.button:active
-    box-shadow: 0 0 0 3px rgba($black, 0.08)
-    transition-duration: 0.02s
+    box-shadow: 0 0 0 0 rgba($black, .15)
+    transition-duration: 0
+
+.button.is-loading
+    padding-left: calc(#{$button-padding-horizontal} * 2.5)
+    color: rgba(255,255,255,.7) !important
+button.button.is-loading
+    color: var(--color-grey-dark) !important
+.button.is-loading:after
+    left: calc(#{$button-padding-horizontal} * .75)
 
 // New type
 .button.is-secondary
