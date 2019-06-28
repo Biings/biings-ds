@@ -3,7 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: #f9f8fc;
+    background-color: #FAF7FF;
 }
 
 pre
@@ -138,8 +138,7 @@ aside.sidebar
     padding-top: 4.75rem;
     width: 230px;
     border-right: none;
-    background-color: #F3F2F6;
-    color: #403d4b;
+    background-color: #F3F0F8;
     font-size: 13px;
 }
 
@@ -214,7 +213,7 @@ img.no-zoom
 .sidebar ul li p a
 {
     padding: .125em 0;
-    color: #9c9da7;
+    color: #B4B0C2;
     font-weight: 500;
     font-size: .875rem;
 }
@@ -224,12 +223,12 @@ img.no-zoom
 }
 .sidebar ul li a:hover
 {
-    color: #715eb8;
+    color: #8B85A0;
 }
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #403d4b;
+    color: #3E384F;
 }
 .sidebar ul p.active,
 .sidebar ul li.active a

@@ -4,7 +4,7 @@
 <hr class="is-visible is-large">
 
 <div class="box is-well is-marginless">
-    <div class="menu is-size-7" style="max-width: 200px">
+    <div class="menu" style="max-width: 200px">
         <ul class="menu-list">
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>
@@ -18,7 +18,7 @@
     </div>
 </div>
 
-    <div class="menu is-size-7">
+    <div class="menu">
         <ul class="menu-list">
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>

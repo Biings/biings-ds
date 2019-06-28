@@ -1,5 +1,5 @@
 <hr>
-<p class="subtitle is-4 has-text-black-ter">
+<p class="subtitle is-4">
         <span class="has-text-weight-semibold">BDS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
 </p>
 

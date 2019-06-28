@@ -17,14 +17,14 @@ $black:        #1E132F
 $black-bis:    #312A43
 $black-ter:    #3E384F
 
-$grey-darker:  #6d6881 !default
-$grey-dark:    #8b85a0 !default
-$grey:         #b4b0c2 !default
-$grey-light:   #d3d1db !default
-$grey-lighter: #edecf0 !default
+$grey-darker:  #6D647F !default
+$grey-dark:    #8E849F !default
+$grey:         #B5AFC0 !default
+$grey-light:   #D4CFDB !default
+$grey-lighter: #EDEAF2 !default
 
-$white-ter:    #F3F2F6 !default
-$white-bis:    #F9F8FC !default
+$white-ter:    #F3F0F8 !default
+$white-bis:    #FAF7FF !default
 $white:        white !default
 
 // Main colors
@@ -64,7 +64,7 @@ $border-hover: $grey-light !default
 
 // Text colors
 
-$text: $black !default
+$text: $black-bis !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: inherit !default
@@ -159,6 +159,10 @@ $radius-large: 8px !default
 $radius-rounded: 290486px !default
 $speed: 86ms !default
 
+$section-padding: 3rem 1.5rem !default
+$section-padding-medium: 6rem 1.5rem !default
+$section-padding-large: 9rem 1.5rem !default
+
 // Flags
 
 $variable-columns: true !default
@@ -185,7 +189,7 @@ $code-padding: 0.1em 0.4em
 $code-weight: 400
 $code-size: 0.875em
 
-$hr-background-color: $border
+$hr-background-color: rgba(211, 209, 219, 0.6)
 $hr-height: 1px
 $hr-margin: 1.5rem 0
 
@@ -200,12 +204,12 @@ $box-padding: 1.25rem 1.375rem
 $box-link-hover-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $link !default
 $box-link-active-shadow: inset 0 1px 2px rgba($black, 0.2), 0 0 0 1px $link !default
 
-$menu-item-color: $grey-dark !default
+$menu-item-color: $grey !default
 $menu-item-radius: $radius !default
-$menu-item-hover-color: $primary !default
+$menu-item-hover-color: $grey-dark !default
 $menu-item-hover-background-color: transparent
-$menu-item-active-color: white !default
-$menu-item-active-background-color: $primary
+$menu-item-active-color: $black-ter !default
+$menu-item-active-background-color: transparent;
 $menu-list-border-left: 1px solid $border !default
 $menu-label-color: $text !default
 
@@ -299,5 +303,5 @@ $tabs-boxed-link-hover-background-color: transparent !default
 @import "bulma/sass/layout/section.sass"
 
 // Extend Bulma BDS Extend
-@import "bds-color-ext.sass"
+@import "bds-color-ext.sass" // Extended colors
 @import "bds-ext.sass"
