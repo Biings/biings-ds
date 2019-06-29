@@ -2,11 +2,11 @@
 ![](media/biings-ds-logo.svg ':no-zoom')
 </a>
 
-- <span class="subtitle is-7 is-uppercase has-text-pilot has-text-weight-medium">Principles</span>
+- <span class="subtitle is-7 is-uppercase has-text-primary has-text-weight-medium">Principles</span>
     - [ Approach](approach)
     - [ Rules](rules)
 
-- <span class="subtitle is-7 is-uppercase has-text-turquoise-dark has-text-weight-medium">Style</span>
+- <span class="subtitle is-7 is-uppercase has-text-care has-text-weight-medium">Style</span>
     - [ Colors](color)
     - [ Iconography](icons)
     - [ Terminology](terms)

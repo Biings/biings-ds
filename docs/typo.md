@@ -9,8 +9,8 @@
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <strong>Averta</strong> as its main font family.</li>
-    <li>For important headings use <strong class="is-serif">Merriweather</strong> – modifier <code>is-serif</code></li>
-    <li>When a Monospace font is required use <strong class="is-monospace">Roboto Mono</strong> – modifier <code>is-monospace</code></li>
+    <li>For important headings use <strong class="is-family-secondary">Merriweather</strong> – modifier <code>is-family-secondary</code></li>
+    <li>When a Monospace font is required use <strong class="is-family-monospace">Roboto Mono</strong> – modifier <code>is-family-monospace</code></li>
 </ul>
 
 <hr class="is-large is-visible">

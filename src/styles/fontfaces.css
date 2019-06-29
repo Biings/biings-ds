@@ -155,7 +155,17 @@
 	font-style: italic;
 }
 
-/* Averta Standard Black Italic */
+
+/* Merriweather Light */
+@font-face {
+	font-family: Merriweather;
+	src:	url('fonts/Merriweather-300.woff') format('woff'),
+			url('fonts/Merriweather-300.eot') format('eot');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* Merriweather Black */
 @font-face {
 	font-family: Merriweather;
 	src:	url('fonts/Merriweather-900.woff') format('woff'),

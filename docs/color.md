@@ -78,11 +78,6 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-purple-light"><br><br></div><span><strong>purple-light</strong></span><br><span class="has-text-grey-dark is-monospace">#9D8CDB</span></div>
     <div class="column is-3"><div class="has-background-purple-lighter"><br><br></div><span><strong>purple-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#C7BDEB</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-pink-dark"><br><br></div><span><strong>pink-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#9D468B</span></div>
-    <div class="column is-3"><div class="has-background-pink has-shadow"><br><br></div><span><strong>pink</strong></span><br><span class="has-text-grey-dark is-monospace">#CC5BB5</span></div>
-    <div class="column is-3"><div class="has-background-pink-light"><br><br></div><span><strong>pink-light</strong></span><br><span class="has-text-grey-dark is-monospace">#DB8CCB</span></div>
-    <div class="column is-3"><div class="has-background-pink-lighter"><br><br></div><span><strong>pink-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#EBBDE1</span></div>
-    <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-red-dark"><br><br></div><span><strong>red-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#BF4E56</span></div>
     <div class="column is-3"><div class="has-background-red has-shadow"><br><br></div><span><strong>red</strong></span><br><span class="has-text-grey-dark is-monospace">#EF626C</span></div>
     <div class="column is-3"><div class="has-background-red-light"><br><br></div><span><strong>red-light</strong></span><br><span class="has-text-grey-dark is-monospace">#F49198</span></div>
@@ -107,23 +102,6 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><span><strong>green</strong></span><br><span class="has-text-grey-dark is-monospace">#5BCC72</span></div>
     <div class="column is-3"><div class="has-background-green-light"><br><br></div><span><strong>green-light</strong></span><br><span class="has-text-grey-dark is-monospace">#8CDB9C</span></div>
     <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><span><strong>green-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#BDEBC7</span></div>
-</div>
-
-<hr class="is-large is-visible">
-
-<h2 class="title is-4 is-family-sans-serif">Gradients</h2>
-
-<hr class="is-invisible is-small">
-
-<div class="columns is-multiline is-gapless">
-    <div class="column is-12"><div class="has-background-gradient-1"><br><br></div></div>
-    <div class="column is-12"><strong>gradient–1</strong><span class="is-pulled-right has-text-grey-dark is-size-7"><span class="is-monospace">Primary</span> &nbsp;→&nbsp; <span class="is-monospace">Pink</span></span></div>
-    <div class="column is-12"><br></div>
-    <div class="column is-12"><div class="has-background-gradient-2"><br><br></div></div>
-    <div class="column is-12"><strong>gradient–2</strong><span class="is-pulled-right has-text-grey-dark is-size-7"><span class="is-monospace">Cyan</span> &nbsp;→&nbsp; <span class="is-monospace">Turquoise</span></span></div>
-    <div class="column is-12"><br></div>
-    <div class="column is-12"><div class="has-background-gradient-3"><br><br></div></div>
-    <div class="column is-12"><strong>gradient–3</strong><span class="is-pulled-right has-text-grey-dark is-size-7"><span class="is-monospace">Red</span> &nbsp;→&nbsp; <span class="is-monospace">Yellow</span></span></div>
 </div>
 
 <hr class="is-large is-visible">
@@ -165,10 +143,13 @@ All colors are available as CSS variables through the prefix `--color-`.
     {
         background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
     }
-<hr>
+<hr class="is-large is-visible">
 
-<div class="box is-large is-popping has-background-gradient-1">
-    <h4 class="title is-4 has-text-white">Slack Sidebar Theme</h4>
-    <div class="subtitle is-6 has-text-pink-lighter">Paint your Slack to the colors of Biings by copy-pasting the following HEX codes into your Slack preferences.</div>
+<div class="box is-large is-popping" style="background: linear-gradient(90deg, var(--color-primary-dark) -70%, var(--color-pilot) 150%);">
+    <span class="tag is-light is-uppercase has-text-weight-semibold">Bonus</span>
+    <hr class="is-smaller">
+    <h4 class="title is-4 has-text-white is-spaced is-family-primary">Slack Sidebar Theme</h4>
+    
     #302D3D,#1E162B,#815BC3,#FFFFFF,#432F65,#F9F8FC,#5BCC72,#FCCA48
+<p class="is-size-6 has-text-white"><br>Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</p>
 </div>

@@ -49,7 +49,7 @@
             <td><hr class="is-small">Dark looking button.</td>
         </tr>
         <tr>
-            <td class="has-text-centered has-background-grey-lighter"><br><div class="button is-light">Light</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light">Light</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>is-light</code></td>
             <td><hr class="is-small">Light looking button.</td>
         </tr>

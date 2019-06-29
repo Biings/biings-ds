@@ -7,7 +7,7 @@
 
 <div class="columns is-multiline">
     <div class="column is-1">
-        <h2 class="title is-1 has-text-pilot">1</h2>
+        <h2 class="title is-1 has-text-primary has-text-weight-normal">1</h2>
     </div>
     <div class="column is-11 is-full-mobile">
         <hr class="is-smaller">
@@ -19,8 +19,8 @@
         </p>
         <hr class="is-small">
     </div>
-    <div class="column is-1 is-size-1 has-text-pilot">
-        <h2 class="title is-1 has-text-pilot">2</h2>
+    <div class="column is-1 is-size-1">
+        <h2 class="title is-1 has-text-primary has-text-weight-normal">2</h2>
     </div>
     <div class="column is-11">
         <hr class="is-smaller">
@@ -30,8 +30,8 @@
         </p>
         <hr class="is-small">
     </div>
-    <div class="column is-1 is-size-1 has-text-pilot">
-        <h2 class="title is-1 has-text-pilot">3</h2>
+    <div class="column is-1 is-size-1">
+        <h2 class="title is-1 has-text-primary has-text-weight-normal">3</h2>
     </div>
     <div class="column is-11">
         <hr class="is-smaller">

@@ -34,19 +34,6 @@
     transition: none;
 }
 
-.has-background-gradient-1
-{
-    background-image: linear-gradient(25deg, var(--color-primary) 0%, var(--color-pink) 140%);
-}
-.has-background-gradient-2
-{
-    background: linear-gradient(25deg, var(--color-cyan) 25%, var(--color-turquoise) 110%);
-}
-.has-background-gradient-3
-{
-    background: linear-gradient(25deg, var(--color-red) -30%, var(--color-yellow) 130%);
-}
-
 @media print
 {
     .is-hidden-print

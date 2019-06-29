@@ -5,7 +5,7 @@
 
 
 <div class="box is-well is-large has-text-centered is-marginless">
-    <div onclick="openModal('')" class="button is-primary is-beefy" style="box-shadow: 0 6px 12px rgba(129, 91, 195,0.2)">Open Modal</div>
+    <div onclick="openModal('')" class="button is-primary is-beefy is-glowing">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal('')"></div>
@@ -35,7 +35,7 @@
 <h2 class="title is-4 is-family-sans-serif">Modal Card</h2>
 
 <div class="box is-well is-large has-text-centered is-marginless">
-    <div onclick="openModal(1)" class="button is-beefy is-dark">Open Card</div>
+    <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Open Card</div>
 </div>
 <div id="js-modal1" class="modal">
     <div class="modal-background"></div>

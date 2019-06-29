@@ -51,13 +51,21 @@ A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle (but I'm still a checkbox)
     </label>
+    <hr class="is-visible">
+    <label class="checkbox is-toggle is-large">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        I can be larger!
+    </label>
 </div>
 
     <label class="checkbox is-toggle">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle
     </label>
-
+    <label class="checkbox is-toggle is-large">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        Larger
+    </label>
 <hr>
 
 <a href="#/radio" class="box is-bordered">

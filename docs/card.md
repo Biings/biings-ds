@@ -8,8 +8,8 @@
 <div class="box is-well is-large is-marginless">
     <div class="card">
         <div class="card-content">
-            <div class="title is-4 is-serif">"A Card is like a Box but with action buttons."</div>
-            <div class="subtitle is-6">The Biings Design System</div>
+            <div class="title is-4 has-text-weight-normal">A Card is like a Box, but with action buttons.</div>
+            <div class="subtitle is-6 is-italic">The Biings Design System</div>
         </div>
         <footer class="card-footer">
             <a class="card-footer-item has-text-weight-semibold">I Agree</a>

@@ -3,7 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: #FAF7FF;
+    background-color: #f7f4fb;
 }
 
 pre
@@ -60,7 +60,7 @@ footer:hover > .level
 }
 section.cover
 {
-    background: #432F65 !important;
+    background: #dfdbe5 !important;
     
 }
 section.cover .cover-main
@@ -132,13 +132,17 @@ div.content
     border-top: none;
     background-color: transparent;
 }
+.markdown-section hr
+{
+    border: none;
+}
 
 aside.sidebar
 {
     padding-top: 4.75rem;
     width: 230px;
     border-right: none;
-    background-color: #F3F0F8;
+    background-color: #efecf4;
     font-size: 13px;
 }
 
@@ -156,7 +160,7 @@ aside.sidebar
 .sidebar-toggle-button > span
 {
     border-radius: 4px;
-    background-color: #8b85a0;
+    background-color: #9b94a4;
 }
 .sidebar-toggle-button > span:last-child
 {
@@ -213,7 +217,7 @@ img.no-zoom
 .sidebar ul li p a
 {
     padding: .125em 0;
-    color: #B4B0C2;
+    color: #9b94a4;
     font-weight: 500;
     font-size: .875rem;
 }
@@ -223,7 +227,7 @@ img.no-zoom
 }
 .sidebar ul li a:hover
 {
-    color: #8B85A0;
+    color: #71687c;
 }
 .sidebar ul p.active a,
 .sidebar ul li.active a
@@ -369,4 +373,17 @@ img.no-zoom
 {
     display: inline-block;
     margin-top: 4px;
+}
+
+.has-background-gradient-1
+{
+    background-image: linear-gradient(-45deg, var(--color-primary) 0%, var(--color-purple-dark) 100%);
+}
+.has-background-gradient-2
+{
+    background: linear-gradient(25deg, var(--color-care) 0%, var(--color-turquoise-light) 100%);
+}
+.has-background-gradient-3
+{
+    background: linear-gradient(30deg, var(--color-orange) 0%, var(--color-yellow) 120%);
 }

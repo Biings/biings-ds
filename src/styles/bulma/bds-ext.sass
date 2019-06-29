@@ -141,39 +141,37 @@ button.button.is-loading
 .button.is-secondary:hover
     background-color: rgba($grey-darker,.19)
 
-.button.is-glowing.is-primary
-    animation: glowing-primary 2.5s infinite
+.button.is-glowing
+    position: relative
+.button.is-glowing:before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 8%
+    right: 8%
+    top: 15%
+
+.button.is-glowing.is-primary:before
+    box-shadow: 0 0.25em 1.125em rgba($primary,.7)
+    // animation: glowing-primary 2.5s infinite
+.button.is-glowing.is-success:before
+    box-shadow: 0 0.25em 1.125em rgba($success,.7)
+    // animation: glowing-primary 2.5s infinite
+.button.is-glowing.is-danger:before
+    box-shadow: 0 0.25em 1.125em rgba($danger,.7)
+    // animation: glowing-primary 2.5s infinite
+.button.is-glowing.is-dark:before
+    box-shadow: 0 0.25em 1.125em rgba($dark,.7)
+    // animation: glowing-primary 2.5s infinite
 
 // Glowing state
 @keyframes glowing-primary
     0%
-        box-shadow: 0 2px 4px rgba($primary,.2), 0 1px 10px rgba($primary,.3)
+        box-shadow: 0 0.25em 1.25em rgba($primary,.6)
     50%
-        box-shadow: 0 2px 4px rgba($primary,.4), 0 1px 14px rgba($primary,.6)
+        box-shadow: 0 0.25em 1.25em rgba($primary,.8)
     100%
-        box-shadow: 0 2px 4px rgba($primary,.2), 0 1px 10px rgba($primary,.3)
-
-.button.is-glowing.is-danger
-    animation: glowing-dangerous 2.5s infinite
-
-@keyframes glowing-dangerous
-    0%
-        box-shadow: 0 2px 4px rgba($danger,.2), 0 1px 10px rgba($danger,.3)
-    50%
-        box-shadow: 0 2px 4px rgba($danger,.4), 0 1px 14px rgba($danger,.6)
-    100%
-        box-shadow: 0 2px 4px rgba($danger,.2), 0 1px 10px rgba($danger,.3)
-
-.button.is-glowing.is-success
-    animation: glowing-success 2.5s infinite
-
-@keyframes glowing-success
-    0%
-        box-shadow: 0 2px 4px rgba($success,.2), 0 1px 10px rgba($success,.3)
-    50%
-        box-shadow: 0 2px 4px rgba($success,.4), 0 1px 14px rgba($success,.6)
-    100%
-        box-shadow: 0 2px 4px rgba($success,.2), 0 1px 10px rgba($success,.3)
+        box-shadow: 0 0.25em 1.25em rgba($primary,.6)
 
 
 /* Box */
@@ -325,7 +323,7 @@ svg.is-grey-dark
 .radio:hover:not([disabled]) > .radio-mark
     box-shadow: inset 0 0 0 2px darken($grey-light,8)
 .checkbox input:checked ~ .checkbox-mark
-    background: linear-gradient(25deg, $primary -25%, $pilot 140%)
+    background: linear-gradient(60deg, $purple -10%, $primary 110%)
     box-shadow: none !important
 .radio input:checked ~ .radio-mark
     box-shadow: inset 0 0 0 2px $primary !important
@@ -362,25 +360,34 @@ svg.is-grey-dark
     display: block
 
 .checkbox.is-toggle > input
-    width: 2.5rem
+    width: 3.5em
 .checkbox.is-toggle .checkbox-mark
     margin-top: 1px
-    width: 2.125rem
-    height: 1.125rem
+    width: 2.125em
+    height: 1.125em
     border-radius: 2rem
 .checkbox.is-toggle .checkbox-mark:after
-    top: .25rem
-    left: .25rem
+    top: .25em
+    left: .25em
     display: block
-    width: .625rem
-    height: .625rem
+    width: .625em
+    height: .625em
     border: none
     border-radius: 50%
     background-color: $primary
     transition: left .15s ease-in
 .checkbox.is-toggle input:checked ~ .checkbox-mark:after
-    left: 1.25rem
+    left: 1.25em
     background-color: white
+
+.checkbox.is-toggle.is-large
+    font-size: 1.375rem
+.checkbox.is-toggle.is-large > input
+    width: 4.5em
+.checkbox.is-toggle.is-large .checkbox-mark:after
+    top: 5px
+    width: 15px
+    height: 15px
 
 
 /* Panel */
