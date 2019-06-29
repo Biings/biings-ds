@@ -88,7 +88,7 @@ Use modifier classes to alter a button's look.
             <td><hr class="is-small"><code>is-glowing</code> + <code>is-[primary,danger or success]</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-dark is-outlined">Outlined</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-primary is-outlined">Outlined</div><br><br></td>
             <td><hr class="is-small"><code>is-outlined</code> + a color</td>
         </tr>
         <tr>
