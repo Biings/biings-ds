@@ -8,7 +8,7 @@
         <h2 class="title is-0 is-size-2-mobile is-serif has-text-dark is-spaced">Biings Design System</h2>
         <div class="subtitle is-4 is-size-5-mobile has-text-grey">The single source of truth for building Biings products</div>
         <hr class="is-hidden-mobile">
-        <a href="#/?id=main" class="button is-medium is-primary is-beefy is-glowing is-hidden-mobile">Start exploring</a>
+        <a href="#/?id=main" class="button is-medium is-dark is-beefy is-glowing is-hidden-mobile">Start exploring</a>
         <hr class="is-hidden-mobile">
         <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
     </div>
