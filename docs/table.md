@@ -1,9 +1,10 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Table</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Table</span> presents data sets in an easily scannable and comparable way.
 </p>
 
-<hr class="is-large is-visible">
+<hr class="is-visible"><br>
 
 <div class="box is-well is-relaxed is-marginless">
     <table class="table">
@@ -28,7 +29,7 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr class="has-background-grey-lighter">
+            <tr class="has-background-white-bis">
                 <td>Line 3</td>
                 <td>this</td>
                 <td>is</td>
@@ -60,7 +61,7 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr class="has-background-white-ter">
+            <tr class="has-background-white-bis">
                 <td>Line 3</td>
                 <td>This</td>
                 <td>is</td>

@@ -1,9 +1,10 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Message</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Message</span> allows to communicate information to the user. Messages can act as notifications or other kinds of alert messages.
 </p>
 
-<hr class="is-large is-visible">
+<hr class="is-visible"><br>
 
 <div class="box is-well is-relaxed is-marginless">
     <div class="message">
@@ -70,13 +71,13 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 <br><br>
 
 <div class="box is-well is-large is-marginless has-text-centered">
-    <div class="button is-sucess" onclick="openModal('3')">Show notification</div>
+    <div class="button is-success is-glowing is-beefy" onclick="openModal('3')">Show notification</div>
 </div>
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
     <div class="modal-content">
         <div class="message is-noti">
-            <div class="title has-text-purple">Hey!</div>
+            <div class="title has-text-success">Hey!</div>
             <div class="subtitle has-text-grey-dark">This is just a<br>brief notification</div>
         </div>
     </div>

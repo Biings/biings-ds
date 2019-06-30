@@ -1,9 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-serif is-1 has-text-weight-bold">Iconography</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
-
-<hr class="is-large is-visible">
+<hr class="is-visible"><br>
 
 <h2 class="title is-4 is-family-sans-serif">Icons</h2>
 

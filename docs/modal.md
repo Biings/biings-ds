@@ -1,8 +1,10 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Modal</h1>
-<p class="subtitle is-5"><span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span></p>
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
+    <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
+</p>
 
-<hr class="is-visible is-large">
-
+<hr class="is-visible"><br>
 
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal('')" class="button is-primary is-beefy is-glowing">Open Modal</div>

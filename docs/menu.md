@@ -1,9 +1,12 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-serif has-text-weight-bold">Menu</h1>
-<p class="subtitle is-5"><span class="has-text-weight-semibold">Menus</span> present a list of links and should be used for content navigation.</p>
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
+    <span class="has-text-weight-semibold">Menu</span> presents a list of links and should be used for content navigation.
+</p>
 
-<hr class="is-visible is-large">
+<hr class="is-visible"><br>
 
-<div class="box is-well is-marginless">
+<div class="box is-large is-well is-marginless">
     <div class="menu" style="max-width: 200px">
         <ul class="menu-list">
             <li><a>Biodata</a></li>

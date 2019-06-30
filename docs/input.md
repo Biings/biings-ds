@@ -1,17 +1,22 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Input</h1>
-<p class="subtitle is-5"><span class="has-text-weight-semibold">Input fields</span> enable users to provide information.</p>
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
+    <span class="has-text-weight-semibold">Input fields</span> enable users to provide information.
+</p>
 
-<hr class="is-visible is-large">
+<hr class="is-visible"><br>
+
+<h2 class="title is-4 is-family-sans-serif">Defaults</h2>
 
 <form class="box is-relaxed is-well is-marginless" spellcheck="false">
-    <input class="input is-small is-warning" type="tel" placeholder="Small warning input">
+    <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-small">
-    <input class="input" type="tel" placeholder="Normal input">
+    <input class="input" type="tel" placeholder="Default input">
     <hr class="is-small">
-    <input class="input is-medium is-danger" type="email" placeholder="Medium input">
+    <input class="input is-medium is-danger" type="email" placeholder="Medium and danger input">
 </form>
 
-    <input class="input is-small is-warning" type="text" placeholder="..">
+    <input class="input is-small" type="text" placeholder="..">
     <input class="input" type="text" placeholder="..">
     <input class="input is-medium is-danger" type="text" placeholder="..">
 <hr class="is-visible is-large">

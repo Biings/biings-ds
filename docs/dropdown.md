@@ -1,11 +1,10 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1">Dropdown</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     The <span class="has-text-weight-semibold">dropdown</span> allow users to choose from a list of different actions or choices.
 </p>
 
-<hr class="is-large is-visible">
-
-
+<hr class="is-visible"><br>
 
 <div class="box is-well is-relaxed is-marginless">
 

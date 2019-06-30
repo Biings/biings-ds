@@ -1,13 +1,12 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1">Loader</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Loaders</span> are used when performing slow computations, notifying users that loading is underway.
 </p>
 
-<div class="subtitle is-6">
-    For page loading, a <a href="#/skeleton">Skeleton</a> screen is probably a better option.
-</div>
+!> For page loading, a <a href="#/skeleton">Skeleton</a> screen is probably a better option.
 
-<hr class="is-visible is-large">
+<hr class="is-large is-visible">
 
 <div class="box is-well is-large is-marginless has-text-centered">
     <div class="level">

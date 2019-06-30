@@ -1,9 +1,10 @@
-<h1 class="title is-1 is-serif">How to contribute</h1>
-<p class="subtitle is-5">
-    We welcome all feedback and ideas in order to produce the best possible experience for our users.
+<h1 class="title is-2 is-serif">How to contribute</h1>
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
+    We welcome all feedback and ideas in order to produce the best possible experience for our users!
 </p>
 
-<hr class="is-visible">
+<hr class="is-visible"><br>
 
 <p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/ForsysInteractive/biings-ds">https://github.com/ForsysInteractive/biings-ds</a></p>
 <br>

@@ -1,9 +1,10 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Layout</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
 
-<hr class="is-large is-visible">
+<hr class="is-visible"><br>
 
 <h2 class="title is-4 is-family-sans-serif">Section</h2>
 
@@ -38,7 +39,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
         <div class="message has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
       </div>
       <div class="column">
-        <div class="message has-background-pink-light has-text-weight-semibold"><br>Second<br><br></div>
+        <div class="message has-background-purple-light has-text-weight-semibold"><br>Second<br><br></div>
       </div>
       <div class="column">
         <div class="message has-background-turquoise has-text-weight-semibold"><br>Third<br><br></div>

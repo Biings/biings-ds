@@ -60,7 +60,7 @@ footer:hover > .level
 }
 section.cover
 {
-    background: #dfdbe5 !important;
+    background: #efecf4 !important;
     
 }
 section.cover .cover-main
@@ -375,15 +375,11 @@ img.no-zoom
     margin-top: 4px;
 }
 
-.has-background-gradient-1
-{
-    background-image: linear-gradient(-45deg, var(--color-primary) 0%, var(--color-purple-dark) 100%);
-}
 .has-background-gradient-2
 {
-    background: linear-gradient(25deg, var(--color-care) 0%, var(--color-turquoise-light) 100%);
+    background: linear-gradient(25deg, var(--color-care-light) 30%, var(--color-turquoise-lighter) 100%);
 }
 .has-background-gradient-3
 {
-    background: linear-gradient(30deg, var(--color-orange) 0%, var(--color-yellow) 120%);
+    background: linear-gradient(30deg, var(--color-claim) -10%, var(--color-yellow-light) 130%);
 }

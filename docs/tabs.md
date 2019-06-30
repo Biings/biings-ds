@@ -1,9 +1,10 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Tabs</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Tabs</span> are used to quickly navigate between views within the same context.
 </p>
 
-<hr class="is-large is-visible">
+<hr class="is-visible"><br>
 
 <div class="box is-well is-marginless is-large">
     <div class="tabs">

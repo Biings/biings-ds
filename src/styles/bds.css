@@ -252,15 +252,15 @@
 .has-skeleton:empty
 {
     min-height: 1.5em;
-    background-color: rgba(139, 133, 160, .1);
-    background-image: linear-gradient(105deg, rgba(211, 209, 219, 0) 0px, rgba(211, 209, 219, .55) 20%, rgba(211, 209, 219, 0) 40%);
+    background-color: rgba(200, 195, 207, .2);
+    background-image: linear-gradient(100deg, rgba(223, 219, 229, 0) 0px, rgba(223, 219, 229, .7) 20%, rgba(223, 219, 229, 0) 40%);
     background-size: 200%;
     content: '';
     animation: skeleton-shine 1.8s infinite linear;
 }
 .has-skeleton:empty:first-child
 {
-    background-color: rgba(139, 133, 160, .2);
+    background-color: rgba(200, 195, 207, .2);
 }
 .has-skeleton:empty:nth-child(odd):not(:first-child)
 {
@@ -268,7 +268,7 @@
 }
 .avatar > .has-skeleton
 {
-    background-image: linear-gradient(90deg, rgba(211, 209, 219, 0) 0px, rgba(211, 209, 219, .4) 40%, rgba(211, 209, 219, 0) 80%);
+    background-image: linear-gradient(100deg, rgba(223, 219, 229, 0) 0px, rgba(223, 219, 229, .7) 30%, rgba(223, 219, 229, 0) 70%);
 }
 
 @keyframes skeleton-shine

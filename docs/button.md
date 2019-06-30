@@ -1,9 +1,12 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Button</h1>
-<p class="subtitle is-5">
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> allow users to take actions, and make choices.
 </p>
 
-<hr class="is-small">
+<hr class="is-visible"><br>
+
+<h2 class="title is-4 is-family-sans-serif">Defaults</h2>
 
 <table class="table is-fullwidth is-bordered">
     <tbody>
@@ -61,11 +64,9 @@
     </tbody>
 </table>
 
-<hr>
+<hr class="is-large is-visible">
 
 <h2 class="title is-4 is-family-sans-serif">Sizes, states and shapes</h2>
-
-Use modifier classes to alter a button's look.
 
 <hr class="is-small">
 
@@ -88,7 +89,7 @@ Use modifier classes to alter a button's look.
             <td><hr class="is-small"><code>is-glowing</code> + <code>is-[primary,danger or success]</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-primary is-outlined">Outlined</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-dark is-outlined">Outlined</div><br><br></td>
             <td><hr class="is-small"><code>is-outlined</code> + a color</td>
         </tr>
         <tr>

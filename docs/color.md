@@ -1,59 +1,60 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-serif has-text-weight-bold">Colors</h1>
-<p class="subtitle is-5"><span class="has-text-weight-semibold">Color</span> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
-
-<hr class="is-visible is-large">
-
-<h2 class="title is-4 is-family-sans-serif">Brand</h2>
-
-Brand colors are used when refering to Biings or any of its products.
-
-<br><br>
-
-<div class="columns is-multiline">
-    
-    <div class="column is-6"><div class="has-background-primary has-shadow"><br><br></div><span><strong>primary</strong></span><br><span class="has-text-grey-dark is-monospace">#815BC3 / PANTONE<sup>®</sup> 2097 U</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-dark"><br><br></div><span><strong>dark</strong></span><br><span class="has-text-grey-dark is-monospace">#432F65</span></div>
-    <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><span><strong>primary-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#614492</span></div>
-    <div class="column is-3"><div class="has-background-primary-light"><br><br></div><span><strong>primary-light</strong></span><br><span class="has-text-grey-dark is-monospace">#A78CD5</span></div>
-    <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><span><strong>primary-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#CDBDE7</span></div>
-    <div class="column is-12"><br></div>
-    <div class="column is-3"><div class="has-background-pilot-dark"><br><br></div><span><strong>pilot-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#784589</span></div>
-    <div class="column is-3"><div class="has-background-pilot has-shadow"><br><br></div><span><strong>pilot</strong></span><br><span class="has-text-grey-dark is-monospace">#A05CB7</span></div>
-    <div class="column is-3"><div class="has-background-pilot-light"><br><br></div><span><strong>pilot-light</strong></span><br><span class="has-text-grey-dark is-monospace">#BD8DCD</span></div>
-    <div class="column is-3"><div class="has-background-pilot-lighter"><br><br></div><span><strong>pilot-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#D9BEE2</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><span><strong>care-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#50908f</span></div>
-    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><span><strong>care</strong></span><br><span class="has-text-grey-dark is-monospace">#6BC0BF</span></div>
-    <div class="column is-3"><div class="has-background-care-light"><br><br></div><span><strong>care-light</strong></span><br><span class="has-text-grey-dark is-monospace">#97D3D2</span></div>
-    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><span><strong>care-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#C4E6E5</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><span><strong>claim-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#C88327</span></div>
-    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><span><strong>claim</strong></span><br><span class="has-text-grey-dark is-monospace">#fAA431</span></div>
-    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><span><strong>claim-light</strong></span><br><span class="has-text-grey-dark is-monospace">#FCBF6F</span></div>
-    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><span><strong>claim-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#FDDBAD</span></div>
-</div>
-
-<hr class="is-visible is-large">
-
-<h2 class="title is-4 is-family-sans-serif">Greyscale</h2>
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
+<hr class="is-visible">
+<br>
+<h2 class="title is-4 is-spaced is-family-sans-serif">Brand</h2>
+<p class="subtitle is-5">
+    Brand colors are used when refering to Biings or any of its products.
+</p>
 
 <hr class="is-small">
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><span><strong>grey-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#EDECF0</span></div> 
-    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><span><strong>white-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#F3F2F6</span></div>
-    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><span><strong>white-bis / light</strong></span><br><span class="has-text-grey-dark is-monospace">#F9F8FC</span></div>
+    
+    <div class="column is-6"><div class="has-background-primary has-shadow"><br><br></div><span><strong>primary</strong></span><br><span class="has-text-grey-dark is-monospace">#875BC1 / PANTONE<sup>®</sup> 2097 U</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-dark"><br><br></div><span><strong>dark</strong></span><br><span class="has-text-grey-dark is-monospace">#351F52</span></div>
+    <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><span><strong>primary-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#654491</span></div>
+    <div class="column is-3"><div class="has-background-primary-light"><br><br></div><span><strong>primary-light</strong></span><br><span class="has-text-grey-dark is-monospace">#AB8CD4</span></div>
+    <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><span><strong>primary-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#CFBDE6</span></div>
+    <div class="column is-12"><br></div>
+    <div class="column is-3"><div class="has-background-pilot-dark"><br><br></div><span><strong>pilot-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#74438C</span></div>
+    <div class="column is-3"><div class="has-background-pilot has-shadow"><br><br></div><span><strong>pilot</strong></span><br><span class="has-text-grey-dark is-monospace">#9B59BB</span></div>
+    <div class="column is-3"><div class="has-background-pilot-light"><br><br></div><span><strong>pilot-light</strong></span><br><span class="has-text-grey-dark is-monospace">#B98BCF</span></div>
+    <div class="column is-3"><div class="has-background-pilot-lighter"><br><br></div><span><strong>pilot-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#D7BDE4</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><span><strong>care-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#2D8C90</span></div>
+    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><span><strong>care</strong></span><br><span class="has-text-grey-dark is-monospace">#3CBBC0</span></div>
+    <div class="column is-3"><div class="has-background-care-light"><br><br></div><span><strong>care-light</strong></span><br><span class="has-text-grey-dark is-monospace">#77CFD3</span></div>
+    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><span><strong>care-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#B1E4E6</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><span><strong>claim-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#BA854E</span></div>
+    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><span><strong>claim</strong></span><br><span class="has-text-grey-dark is-monospace">#E9A662</span></div>
+    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><span><strong>claim-light</strong></span><br><span class="has-text-grey-dark is-monospace">#F0C191</span></div>
+    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><span><strong>claim-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#F6DBC0</span></div>
+</div>
+
+<hr class="is-visible is-large">
+
+<h2 class="title is-3 is-family-sans-serif">Greyscale</h2>
+
+<hr class="is-small">
+
+<div class="columns is-multiline">
+    <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><span><strong>grey-lighter</strong></span><br><span class="has-text-grey-dark is-monospace">#DFDBE5</span></div> 
+    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><span><strong>white-ter / light</strong></span><br><span class="has-text-grey-dark is-monospace">#EFECF4</span></div>
+    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><span><strong>white-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#F7F4FB</span></div>
     <div class="column is-3"><div class="has-background-white"><br><br></div><span><strong>white</strong></span><br><span class="has-text-grey-dark is-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><span><strong>grey-darker</strong></span><br><span class="has-text-grey-dark is-monospace">#6D6881</span></div>
-    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><span><strong>grey-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#8B85A0</span></div>
-    <div class="column is-3"><div class="has-background-grey"><br><br></div><span><strong>grey</strong></span><br><span class="has-text-grey-dark is-monospace">#B4B0C2</span></div>
-    <div class="column is-3"><div class="has-background-grey-light"><br><br></div><span><strong>grey-light</strong></span><br><span class="has-text-grey-dark is-monospace">#D3D1DB</span></div>
+    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><span><strong>grey-darker</strong></span><br><span class="has-text-grey-dark is-monospace">#53485F</span></div>
+    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><span><strong>grey-dark</strong></span><br><span class="has-text-grey-dark is-monospace">#71687C</span></div>
+    <div class="column is-3"><div class="has-background-grey"><br><br></div><span><strong>grey</strong></span><br><span class="has-text-grey-dark is-monospace">#9B94A4</span></div>
+    <div class="column is-3"><div class="has-background-grey-light"><br><br></div><span><strong>grey-light</strong></span><br><span class="has-text-grey-dark is-monospace">#C8C3CF</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#1E132F</span></div>
-    <div class="column is-3"><div class="has-background-black-bis has-shadow"><br><br></div><span><strong>black-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#312A43</span></div>
-    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><span><strong>black-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#3E384F</span></div>
+    <div class="column is-3"><div class="has-background-black"><br><br></div><span><strong>black</strong></span><br><span class="has-text-grey-dark is-monospace">#1B1029</span></div>
+    <div class="column is-3"><div class="has-background-black-bis"><br><br></div><span><strong>black-bis</strong></span><br><span class="has-text-grey-dark is-monospace">#241931</span></div>
+    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><span><strong>black-ter</strong></span><br><span class="has-text-grey-dark is-monospace">#2D223A</span></div>
 </div>
 
 <hr class="is-large is-visible">
@@ -106,9 +107,11 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Color modifiers</h2>
+<h2 class="title is-4 is-family-sans-serif is-spaced">Color modifiers</h2>
 
-Most elements and components have color variations thanks to modifiers with syntax `.is-[color]` (`is-primary`, `is-dark`) or `.has-text-[color]` (`has-background-red`, `has-background-gradient-1`).
+<p class="subtitle is-5">
+    Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
+</p>
 
 <hr class="is-small">
 
@@ -128,9 +131,10 @@ Most elements and components have color variations thanks to modifiers with synt
 
 <hr class="is-large is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">CSS variables</h2>
-
-All colors are available as CSS variables through the prefix `--color-`.
+<h2 class="title is-4 is-family-sans-serif is-spaced">CSS variables</h2>
+<p class="subtitle is-5">
+    All colors are available as CSS variables through the prefix <code>--color-</code>.
+</p>
 
 <hr class="is-small">
 
@@ -148,8 +152,8 @@ All colors are available as CSS variables through the prefix `--color-`.
 <div class="box is-large is-popping" style="background: linear-gradient(90deg, var(--color-primary-dark) -70%, var(--color-pilot) 150%);">
     <span class="tag is-light is-uppercase has-text-weight-semibold">Bonus</span>
     <hr class="is-smaller">
-    <h4 class="title is-4 has-text-white is-spaced is-family-primary">Slack Sidebar Theme</h4>
+    <h4 class="title is-4 has-text-white is-family-primary">Slack Sidebar Theme</h4>
+    <div class="subtitle is-6 has-text-white">Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</div>
     
-    #302D3D,#1E162B,#815BC3,#FFFFFF,#432F65,#F9F8FC,#5BCC72,#FCCA48
-<p class="is-size-6 has-text-white"><br>Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</p>
+    #2D223A,#1B1029,#654491,#FFFFFF,#1B1029,#EFECF4,#2DC06D,#875BC1
 </div>

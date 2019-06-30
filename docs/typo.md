@@ -1,22 +1,22 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-serif is-1">Typography</h1>
-<p class="subtitle is-5">
-    <strong>Typography</strong> is used to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1">Typography</h1>
+<hr class="is-visible">
+<p class="subtitle is-5 is-family-secondary">
+    Use <strong>typography</strong> to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>
 
-<hr class="is-large is-visible">
+<hr class="is-visible"><br>
 
-<h4 class="title is-4">Font family</h4>
+<h4 class="title is-4 is-family-primary">Font family</h4>
 
 <ul class="list">
-    <li>For maximum legibility Biings DS uses <strong>Averta</strong> as its main font family.</li>
-    <li>For important headings use <strong class="is-family-secondary">Merriweather</strong> – modifier <code>is-family-secondary</code></li>
+    <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its main font family.</li>
+    <li>For important headings use <strong class="is-family-secondary has-text-weight-bold">Merriweather</strong> – modifier <code>is-family-secondary</code></li>
     <li>When a Monospace font is required use <strong class="is-family-monospace">Roboto Mono</strong> – modifier <code>is-family-monospace</code></li>
 </ul>
 
 <hr class="is-large is-visible">
-<h4 class="title is-4 is-spaced">Font weights</h4>
-
-Use font weights to emphasize or differentiate content hierarchy.
+<h4 class="title is-4 is-spaced is-family-primary">Font weights</h4>
+<p class="subtitle is-6">Use font weights to emphasize or differentiate content hierarchy.</p>
 
 <ul class="list">
     <li><span class="has-text-weight-light">Light 300</span> – <code>has-text-weight-light</code></li>
@@ -27,10 +27,10 @@ Use font weights to emphasize or differentiate content hierarchy.
 </ul>
 
 <hr class="is-large is-visible">
-<h4 class="title is-4 is-spaced">Scales</h4>
-
+<h4 class="title is-4 is-spaced is-family-primary">Scales</h4>
+<p class="subtitle is-6">
 Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax `is-[1-6]` for titles, and `is-size-[1-7]` for texts.
-<hr class="is-small">
+</p>
 <div class="box">
     <h1 class="title is-0 is-serif">Hero</h1><div class="subtitle is-4 has-text-grey">Website and marketing headers, serif recommanded</div>
     <hr class="is-smaller">
