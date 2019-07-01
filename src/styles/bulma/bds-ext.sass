@@ -60,6 +60,7 @@ th
     display: inline-block
     border-bottom-color: RGBA(67,47,101,.3)
     border-left-color: RGBA(67,47,101,.3)
+    animation-duration: 600ms
 .loader.is-inverted
     border-bottom-color: rgba(255,255,255,.3)
     border-left-color: rgba(255,255,255,.3)
@@ -74,7 +75,7 @@ th
 
 .loader.is-undetermined
     animation-name: backSpin
-    animation-duration: .85s
+    animation-duration: .95s
 @keyframes backSpin
     from
         transform: rotate(359deg)
@@ -145,23 +146,27 @@ button.button.is-loading
     position: relative
 .button.is-glowing:before
     position: absolute
-    top: 15%
+    top: 20%
     right: 8%
     bottom: 0
     left: 8%
+    z-index: -1
     content: ''
 
 .button.is-glowing.is-primary:before
-    box-shadow: 0 .25em 1.125em rgba($primary,.7)
+    box-shadow: 0 .1875em 1.125em rgba($purple,.7)
     // animation: glowing-primary 2.5s infinite
 .button.is-glowing.is-success:before
-    box-shadow: 0 .25em 1.125em rgba($success,.7)
+    box-shadow: 0 .1875em 1.125em rgba($success,.7)
+    // animation: glowing-primary 2.5s infinite
+.button.is-glowing.is-info:before
+    box-shadow: 0 .1875em 1.125em rgba($info,.7)
     // animation: glowing-primary 2.5s infinite
 .button.is-glowing.is-danger:before
-    box-shadow: 0 .25em 1.125em rgba($danger,.7)
+    box-shadow: 0 .1875em 1.125em rgba($danger,.7)
     // animation: glowing-primary 2.5s infinite
 .button.is-glowing.is-dark:before
-    box-shadow: 0 .25em 1.125em rgba($dark,.7)
+    box-shadow: 0 .1875em 1.125em rgba($dark,.6)
     // animation: glowing-primary 2.5s infinite
 
 // Glowing state
@@ -287,13 +292,13 @@ svg.is-grey-dark
     pointer-events: none
 
 .dropdown.is-small:after
-    font-size: 1.5rem
-    right: .625em
     top: -2px
+    right: .625em
+    font-size: 1.5rem
 .dropdown.is-medium:after
-    font-size: 1.625rem
-    right: .75em
     top: 2px
+    right: .75em
+    font-size: 1.625rem
 
 .select:not(.is-multiple):not(.is-loading):after
     border-width: 2px
