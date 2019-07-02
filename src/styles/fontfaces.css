@@ -2,174 +2,183 @@
  *	WebFont Package Licensed to Biings
  */
 
-/* Merriweather Extra bold (serif title font) */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/Merriweather-900.woff') format('woff'),
-			url('fonts/Merriweather-900.eot') format('eot');
-	font-weight: 900;
-	font-style: normal;
-}
-
- /* Averta Standard Extra Thin */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Extrathin.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Extrathin.eot') format('eot');
-	font-weight: 100;
-	font-style: normal;
-}
-
-/* Averta Standard Extra Thin Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-ExtrathinItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-ExtrathinItalic.eot') format('eot');
-	font-weight: 100;
-	font-style: italic;
-}
-
-/* Averta Standard Thin */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Thin.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Thin.eot') format('eot');
-	font-weight: 200;
-	font-style: normal;
-}
-
-/* Averta Standard Thin Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-ThinItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-ThinItalic.eot') format('eot');
-	font-weight: 200;
-	font-style: italic;
-}
-
 /* Averta Standard Light */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Light.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Light.eot') format('eot');
-	font-weight: 300;
-	font-style: normal;
+@font-face
+{
+    font-weight: 300;
+    font-style: normal;
+    font-family: Averta;
+    src: url('fonts/Averta-Light.woff') format('woff'),
+    url('fonts/Averta-Light.eot') format('eot');
 }
 
 /* Averta Standard Light Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-LightItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-LightItalic.eot') format('eot');
-	font-weight: 300;
-	font-style: italic;
+@font-face
+{
+    font-weight: 300;
+    font-style: italic;
+    font-family: Averta;
+    src: url('fonts/Averta-LightItalic.woff') format('woff'),
+    url('fonts/Averta-LightItalic.eot') format('eot');
 }
 
 /* Averta Standard Regular */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Regular.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Regular.eot') format('eot');
-	font-weight: 400;
-	font-style: normal;
+@font-face
+{
+    font-weight: 400;
+    font-style: normal;
+    font-family: Averta;
+    src: url('fonts/Averta-Regular.woff') format('woff'),
+    url('fonts/Averta-Regular.eot') format('eot');
 }
 
 /* Averta Standard Regular Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-RegularItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-RegularItalic.eot') format('eot');
-	font-weight: 400;
-	font-style: italic;
+@font-face
+{
+    font-weight: 400;
+    font-style: italic;
+    font-family: Averta;
+    src: url('fonts/Averta-RegularItalic.woff') format('woff'),
+    url('fonts/Averta-RegularItalic.eot') format('eot');
 }
 
 /* Averta Standard Semibold  */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Semibold.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Semibold.eot') format('eot');
-	font-weight: 500;
-	font-style: normal;
+@font-face
+{
+    font-weight: 500;
+    font-style: normal;
+    font-family: Averta;
+    src: url('fonts/Averta-Semibold.woff') format('woff'),
+    url('fonts/Averta-Semibold.eot') format('eot');
 }
 
 /* Averta Standard Semibold Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-SemiboldItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Semibold.eot') format('eot');
-	font-weight: 500;
-	font-style: italic;
+@font-face
+{
+    font-weight: 500;
+    font-style: italic;
+    font-family: Averta;
+    src: url('fonts/Averta-SemiboldItalic.woff') format('woff'),
+    url('fonts/Averta-Semibold.eot') format('eot');
 }
 
 /* Averta Standard Bold */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Bold.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Bold.eot') format('eot');
-	font-weight: 700;
-	font-style: normal;
+@font-face
+{
+    font-weight: 700;
+    font-style: normal;
+    font-family: Averta;
+    src: url('fonts/Averta-Bold.woff') format('woff'),
+    url('fonts/Averta-Bold.eot') format('eot');
 }
 
 /* Averta Standard Bold Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-BoldItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-BoldItalic.eot') format('eot');
-	font-weight: 700;
-	font-style: italic;
+@font-face
+{
+    font-weight: 700;
+    font-style: italic;
+    font-family: Averta;
+    src: url('fonts/Averta-BoldItalic.woff') format('woff'),
+    url('fonts/Averta-BoldItalic.eot') format('eot');
 }
 
 /* Averta Standard Extra Bold  */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Extrabold.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Extrabold.eot') format('eot');
-	font-weight: 800;
-	font-style: normal;
+@font-face
+{
+    font-weight: 800;
+    font-style: normal;
+    font-family: Averta;
+    src: url('fonts/Averta-Extrabold.woff') format('woff'),
+    url('fonts/Averta-Extrabold.eot') format('eot');
 }
 
 /* Averta Standard Extra Bold Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-ExtraboldItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-ExtraboldItalic.eot') format('eot');
-	font-weight: 800;
-	font-style: italic;
+@font-face
+{
+    font-weight: 800;
+    font-style: italic;
+    font-family: Averta;
+    src: url('fonts/Averta-ExtraboldItalic.woff') format('woff'),
+    url('fonts/Averta-ExtraboldItalic.eot') format('eot');
 }
 
 /* Averta Standard Black */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-Black.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-Black.eot') format('eot');
-	font-weight: 900;
-	font-style: normal;
+@font-face
+{
+    font-weight: 900;
+    font-style: normal;
+    font-family: Averta;
+    src: url('fonts/Averta-Black.woff') format('woff'),
+    url('fonts/Averta-Black.eot') format('eot');
 }
 
 /* Averta Standard Black Italic */
-@font-face {
-	font-family: Averta;
-	src:	url('fonts/hinted-AvertaStd-BlackItalic.woff') format('woff'),
-			url('fonts/hinted-AvertaStd-BlackItalic.eot') format('eot');
-	font-weight: 900;
-	font-style: italic;
+@font-face
+{
+    font-weight: 900;
+    font-style: italic;
+    font-family: Averta;
+    src: url('fonts/Averta-BlackItalic.woff') format('woff'),
+    url('fonts/Averta-BlackItalic.eot') format('eot');
 }
 
 
-/* Merriweather Light */
-@font-face {
-	font-family: Merriweather;
-	src:	url('fonts/Merriweather-300.woff') format('woff'),
-			url('fonts/Merriweather-300.eot') format('eot');
-	font-weight: 300;
-	font-style: normal;
+/* Merriweather Regular */
+@font-face
+{
+    font-weight: 400;
+    font-style: normal;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-300.woff') format('woff'),
+    url('fonts/Merriweather-300.eot') format('eot');
+}
+
+/* Merriweather Regular Italic */
+@font-face
+{
+    font-weight: 400;
+    font-style: italic;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-300italic.woff') format('woff'),
+    url('fonts/Merriweather-300italic.eot') format('eot');
+}
+
+/* Merriweather Medium */
+@font-face
+{
+    font-weight: 500;
+    font-style: normal;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-500.woff') format('woff'),
+    url('fonts/Merriweather-500.eot') format('eot');
+}
+
+/* Merriweather Medium Italic */
+@font-face
+{
+    font-weight: 500;
+    font-style: italic;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-500italic.woff') format('woff'),
+    url('fonts/Merriweather-500italic.eot') format('eot');
 }
 
 /* Merriweather Black */
-@font-face {
-	font-family: Merriweather;
-	src:	url('fonts/Merriweather-900.woff') format('woff'),
-			url('fonts/Merriweather-900.eot') format('eot');
-	font-weight: 900;
-	font-style: normal;
+@font-face
+{
+    font-weight: 900;
+    font-style: normal;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-900.woff') format('woff'),
+    url('fonts/Merriweather-900.eot') format('eot');
+}
+
+/* Merriweather Black Italic */
+@font-face
+{
+    font-weight: 900;
+    font-style: italic;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-900italic.woff') format('woff'),
+    url('fonts/Merriweather-900italic.eot') format('eot');
 }

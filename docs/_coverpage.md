@@ -1,11 +1,10 @@
 <!-- _coverpage.md -->
 
 <div class="container">
-    <div class="box">
-        <hr class="is-small">
+    <div class="box is-large">
         <img src="media/bds.png" width="130" class="no-zoom"/>
         <hr class="is-small">
-        <h2 class="title is-0 is-size-2-mobile is-serif has-text-dark is-spaced">Biings Design System</h2>
+        <h2 class="title is-0 is-size-2-mobile has-text-dark is-spaced">Biings Design System</h2>
         <div class="subtitle is-4 is-size-5-mobile has-text-grey-dark">The single source of truth for building Biings products</div>
         <hr class="is-hidden-mobile">
         <a href="#/?id=main" class="button is-medium is-dark is-beefy is-glowing is-hidden-mobile">Start exploring</a>
