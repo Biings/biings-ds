@@ -20,12 +20,12 @@
 <pre data-lang="bash">npm run build</pre>
 <br>
 <p>You can also build a specific part by calling the command directly:</p><br>
-<pre data-lang="bash">npm run icons</pre>
-<br>
 <pre data-lang="bash">npm run styles</pre>
+<br>
+<pre data-lang="bash">npm run icons</pre>
 
 <br>
-<p class="has-text-weight-semibold">4 )&nbsp; Commit your code and tag a new version</p>
+<p class="has-text-weight-semibold">4 )&nbsp; Commit your code – Push! – and tag a new version</p>
 <br>
 <pre data-lang="bash">npm version x.x.x</pre>
 

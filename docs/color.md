@@ -152,5 +152,5 @@
     <h4 class="title is-4 has-text-white is-family-primary">Slack Sidebar Theme</h4>
     <div class="subtitle is-6 has-text-white">Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</div>
     
-    #2D223A,#1B1029,#654491,#FFFFFF,#1B1029,#EFECF4,#2DC06D,#875BC1
+    #241A2E,#2D2236,#8C50B9,#FFFFFF,#2D2236,#F7F4FA,#00C46C,#A568D1
 </div>

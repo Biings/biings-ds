@@ -37,8 +37,8 @@ $care           : #66BCC2 !default
 $claim          : #FFAE35 !default
 // ———— (NOT BULMA END)
 
-$info           : $blue !default
-$success        : $turquoise !default
+$info           : mix($primary, $blue, 25) !default
+$success        : mix($turquoise, $care, 25) !default
 $warning        : $claim !default
 $danger         : $red !default
 
@@ -118,7 +118,7 @@ $size-7: 0.875rem !default
 $size-small: $size-7 !default
 $size-normal: $size-6 !default
 $size-medium: $size-5 !default
-$size-large: $size-4 !default
+$size-large: 1.375rem !default
 
 $weight-light: 300 !default
 $weight-normal: 400 !default
@@ -305,7 +305,7 @@ $tabs-boxed-link-hover-background-color: transparent !default
 @import "bulma/sass/elements/title.sass"
 @import "bulma/sass/grid/columns.sass"
 @import "bulma/sass/grid/tiles.sass"
-@import "bulma/sass/layout/hero.sass"
+// @import "bulma/sass/layout/hero.sass"
 @import "bulma/sass/layout/section.sass"
 
 // Extend Bulma BDS Extend

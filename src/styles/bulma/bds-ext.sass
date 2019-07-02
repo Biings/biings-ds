@@ -150,11 +150,10 @@ button.button.is-loading
     right: 8%
     bottom: 0
     left: 8%
-    z-index: -1
     content: ''
 
 .button.is-glowing.is-primary:before
-    box-shadow: 0 .1875em 1.125em rgba($purple,.7)
+    box-shadow: 0 .1875em 1.125em rgba($primary,.7)
     // animation: glowing-primary 2.5s infinite
 .button.is-glowing.is-success:before
     box-shadow: 0 .1875em 1.125em rgba($success,.7)
@@ -372,31 +371,35 @@ svg.is-grey-dark
     width: 3.5em
 .checkbox.is-toggle .checkbox-mark
     margin-top: 1px
-    width: 2.125em
-    height: 1.125em
+    width: 2.125rem
+    height: 1.125rem
     border-radius: 2rem
 .checkbox.is-toggle .checkbox-mark:after
-    top: .25em
-    left: .25em
+    top: .25rem
+    left: .25rem
     display: block
-    width: .625em
-    height: .625em
+    width: .625rem
+    height: .625rem
     border: none
     border-radius: 50%
     background-color: $primary
     transition: left .15s ease-in
 .checkbox.is-toggle input:checked ~ .checkbox-mark:after
-    left: 1.25em
+    left: 1.25rem
     background-color: white
-
 .checkbox.is-toggle.is-large
-    font-size: 1.375rem
+    font-size: 19px
+.checkbox.is-toggle.is-large .checkbox-mark
+    width: 2.75rem
+    height: 23px
 .checkbox.is-toggle.is-large > input
-    width: 4.5em
+    width: 3.125rem
 .checkbox.is-toggle.is-large .checkbox-mark:after
-    top: 5px
+    top: 4px
     width: 15px
     height: 15px
+.checkbox.is-toggle.is-large input:checked ~ .checkbox-mark:after
+    left: 25px
 
 
 /* Panel */

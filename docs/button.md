@@ -73,15 +73,15 @@
 <table class="table is-fullwidth is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-small">Small</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-small">Sml</div><br><br></td>
             <td><hr class="is-small"><code>is-small</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-medium">Medium</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-medium">Med</div><br><br></td>
             <td><hr class="is-small"><code>is-medium</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-large">Large</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-large">Lrg</div><br><br></td>
             <td><hr class="is-small"><code>is-large</code></td>
         </tr>
         <tr>
