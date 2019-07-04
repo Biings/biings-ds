@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Principles</h6><h1 class="title is-1 is-serif">Rules</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Principles</h6><h1 class="title is-1 is-family-secondary">Rules</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
     When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of the Biings approach. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
@@ -55,7 +55,7 @@
 
 <div id="r-asm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-asm')">
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
-    <span class="title is-4 is-family-sans-serif has-text-weight-semibold">1-on-1 Assessment (<span class="is-serif">I</span> & <span class="is-serif">II</span>)</span>
+    <span class="title is-4 is-family-sans-serif has-text-weight-semibold">1-on-1 Assessment (<span class="">I</span> & <span class="">II</span>)</span>
     <div class="expanded-content">
         <hr class="is-visible">
         <span class="has-text-weight-medium">Time Relevance</span> : within <span class="has-text-primary">45 days</span> after the last absence.

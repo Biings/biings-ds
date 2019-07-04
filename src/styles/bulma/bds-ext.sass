@@ -420,8 +420,7 @@ svg.is-grey-dark
     bottom: -1px
     left: 35%
     height: 3px
-    border-radius: 5px
-    background-color: $purple-light
+    background-color: $grey-darker
     content: ''
 .tabs.is-boxed > ul
     margin-left: .25em
@@ -430,9 +429,8 @@ svg.is-grey-dark
     padding-right: 1.5em
     padding-left: 1.5em
     border: none
-.tabs.is-boxed li:not(.is-active) a
+.tabs.is-boxed li:not(.is-active):not(:hover) a
     border-radius: 0
-    color: $grey-dark
 .tabs.is-boxed li:not(.is-active) + li:not(.is-active)
     margin-left: 1px
 .tabs.is-boxed > ul > li:not(.is-active)

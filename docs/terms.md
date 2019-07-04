@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-spaced">Terminology</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-family-secondary">Terminology</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
     This section covers the approved <strong>terms and idioms</strong> for use in Biings apps.</span>

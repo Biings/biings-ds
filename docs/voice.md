@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 has-text-weight-bold">Voice & Tone</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-family-secondary">Voice & Tone</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Voice</span> expresses our personality and stays consistent across all of our content. <span class="has-text-weight-semibold">Tone</span> expresses the mood or feeling of the voice, it should change based on the situation. Find below the way we present all titles, headers, copy and buttons.

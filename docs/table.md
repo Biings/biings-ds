@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-serif is-1 has-text-weight-bold">Table</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Table</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Table</span> presents data sets in an easily scannable and comparable way.

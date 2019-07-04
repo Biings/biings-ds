@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-serif has-text-weight-bold">Colors</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-family-secondary">Colors</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
 <hr class="is-visible">
@@ -33,7 +33,7 @@
 
 <hr class="is-visible is-large">
 
-<h2 class="title is-3 is-family-sans-serif">Greyscale</h2>
+<h2 class="title is-4 is-family-sans-serif">Greyscale</h2>
 
 <hr class="is-small">
 
@@ -119,12 +119,10 @@
 </thead>
 <tbody>
     <tr><td>Background</td><td><code>has-background-[color]</code></td></tr>
-    <tr><td>Text <sup class="has-text-red">( i )</sup></td><td><code>has-text-[color]</code></td></tr>
-    <tr><td>Icon <sup class="has-text-red">( i )</sup></td><td><code>has-fill-[color]</code></td></tr>
+    <tr><td>Text</td><td><code>has-text-[color]</code></td></tr>
+    <tr><td>Icon</td><td><code>has-fill-[color]</code></td></tr>
 </tbody>
 </table>
-
-!> *does not work with gradients*
 
 <hr class="is-large is-visible">
 
