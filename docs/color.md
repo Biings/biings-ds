@@ -12,23 +12,24 @@
 
 <div class="columns is-multiline">
     
-    <div class="column is-6"><div class="has-background-primary has-shadow"><br><br></div><strong>primary</strong> <br><span class="has-text-grey-dark is-family-monospace">#8c50b9</span></div>
+    <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong>primary</strong> <br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
     <div class="column is-4"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="has-text-grey-dark"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
+    <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="has-text-grey-dark is-family-monospace">#46285D</span></div>
+    <div class="column is-12"><hr class="is-visible is-thin"><br></div>
+    <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#5B3478</span></div>
+    <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary · pilot</strong><br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
+    <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
+    <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#D1B9E3</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#654491</span></div>
-    <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary · pilot</strong><br><span class="has-text-grey-dark is-family-monospace">#8c50b9</span></div>
-    <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AB8CD4</span></div>
-    <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CFBDE6</span></div>
+    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#4D8D92</span></div>
+    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#66BCC2</span></div>
+    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#94D0D4</span></div>
+    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#C2E4E7</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#2D8C90</span></div>
-    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#3CBBC0</span></div>
-    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#77CFD3</span></div>
-    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#B1E4E6</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#BA854E</span></div>
-    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#E9A662</span></div>
-    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#F0C191</span></div>
-    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#F6DBC0</span></div>
+    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#CC8B2A</span></div>
+    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#FFAE35</span></div>
+    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FFC672</span></div>
+    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFDFAE</span></div>
 </div>
 
 <hr class="is-visible is-large">
@@ -38,20 +39,19 @@
 <hr class="is-small">
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><strong>grey-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#DFDBE5</span></div> 
-    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="has-text-grey-dark is-family-monospace">#EFECF4</span></div>
-    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#F7F4FB</span></div>
+    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="has-text-grey-dark is-family-monospace">#EFECF2</span></div>
+    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#F7F4FA</span></div>
     <div class="column is-3"><div class="has-background-white"><br><br></div><strong>white</strong><br><span class="has-text-grey-dark is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="has-text-grey-dark is-family-monospace">#53485F</span></div>
-    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#71687C</span></div>
-    <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="has-text-grey-dark is-family-monospace">#9B94A4</span></div>
-    <div class="column is-3"><div class="has-background-grey-light"><br><br></div><strong>grey-light</strong><br><span class="has-text-grey-dark is-family-monospace">#C8C3CF</span></div>
+    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#706777</span></div>
+    <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="has-text-grey-dark is-family-monospace">#A69FAC</span></div>
+    <div class="column is-3"><div class="has-background-grey-light"><br><br></div><strong>grey-light</strong><br><span class="has-text-grey-dark is-family-monospace">#C8C3CD</span></div>
+    <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><strong>grey-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#DFDBE3</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-black"><br><br></div><strong>black</strong><br><span class="has-text-grey-dark is-family-monospace">#1B1029</span></div>
-    <div class="column is-3"><div class="has-background-black-bis"><br><br></div><strong>black-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#241931</span></div>
-    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><strong>black-ter</strong><br><span class="has-text-grey-dark is-family-monospace">#2D223A</span></div>
-    <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="has-text-grey-dark is-family-monospace">#351F52</span></div>
+    <div class="column is-3"><div class="has-background-black"><br><br></div><strong>black</strong><br><span class="has-text-grey-dark is-family-monospace">#1A0E23</span></div>
+    <div class="column is-3"><div class="has-background-black-bis"><br><br></div><strong>black-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#241A2E</span></div>
+    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><strong>black-ter</strong><br><span class="has-text-grey-dark is-family-monospace">#2D2236</span></div>
+    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="has-text-grey-dark is-family-monospace">#514759</span></div>
 </div>
 
 <hr class="is-large is-visible">
@@ -144,11 +144,11 @@
     }
 <hr class="is-large is-visible">
 
-<div class="box is-large is-popping" style="background: linear-gradient(90deg, var(--color-primary-dark) -70%, var(--color-pilot) 150%);">
-    <span class="tag is-light is-uppercase has-text-weight-semibold">Bonus</span>
+<div class="box is-large is-popping" style="background: linear-gradient(90deg, var(--color-dark) -70%, var(--color-primary-dark) 150%);">
+    <span class="tag is-success is-uppercase has-text-weight-semibold">Bonus</span>
     <hr class="is-smaller">
-    <h4 class="title is-4 has-text-white is-family-primary">Slack Sidebar Theme</h4>
-    <div class="subtitle is-6 has-text-white">Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</div>
+    <p class="title is-4 has-text-white is-family-primary">Slack Sidebar Theme</p>
+    <div class="subtitle is-6 has-text-grey-lighter">Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</div>
     
-    #241A2E,#2D2236,#8C50B9,#FFFFFF,#2D2236,#F7F4FA,#00C46C,#A568D1
+    #2D2236,#241A2E,#8246AF,#FFFFFF,#5B3478,#FFFFFF,#5DD9C1,#A568D1
 </div>

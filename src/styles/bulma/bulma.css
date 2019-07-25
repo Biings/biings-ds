@@ -1488,7 +1488,7 @@ button.dropdown-item {
     display: flex; }
 
 .modal-background {
-  background-color: rgba(26, 14, 35, 0.6); }
+  background-color: rgba(26, 14, 35, 0.5); }
 
 .modal-content,
 .modal-card {
@@ -5691,7 +5691,7 @@ button.button.is-loading {
 
 .box.is-well,
 .box.hover-to-well:hover {
-  background-color: rgba(48, 45, 61, 0.03);
+  background-color: rgba(27, 16, 41, 0.03);
   transition-duration: .3s; }
 
 .box.is-raised,
