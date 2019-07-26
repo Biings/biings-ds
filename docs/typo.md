@@ -31,7 +31,8 @@
 <hr class="is-large is-visible">
 <h4 class="title is-4 is-spaced is-family-primary">Scales</h4>
 <p class="subtitle is-6">
-Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax `is-[1-6]` for titles, and `is-size-[1-7]` for texts.
+Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). 
+Texts have an extra 7th smaller size. Use the modifier syntax <code>is-[0-6]</code> for titles, and <code>is-size-[1-7]</code> for texts.
 </p>
 
 ?> There should be a size difference of <strong>2</strong> between a title and its direct subtitle.
@@ -39,19 +40,19 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts 
 <hr class="is-small">
 
 <div class="box">
-    <h1 class="title is-0 is-family-secondary">Hero</h1><div class="subtitle is-4 has-text-grey">Website and marketing headers, serif recommanded</div>
+    <h1 class="title is-0 is-family-secondary">Title Zero</h1><div class="subtitle is-4 has-text-grey">Website and marketing headers, serif recommanded</div>
     <hr class="is-smaller">
-    <h1 class="title is-1 is-family-secondary">Page</h1><div class="subtitle is-4 has-text-grey">Main page header, serif recommanded</div>
+    <h1 class="title is-1 is-family-secondary">Title One</h1><div class="subtitle is-4 has-text-grey">Main page header, serif recommanded</div>
     <hr class="is-smaller">
-    <h2 class="title is-2">Section</h2><div class="subtitle is-4 has-text-grey">Section header, serif recommanded</div>
+    <h2 class="title is-2 is-family-secondary">Title Two</h2><div class="subtitle is-4 has-text-grey">Section header, serif recommanded</div>
     <hr class="is-smaller">
-    <h3 class="title is-3">Default</h3><div class="subtitle is-5 has-text-grey">Default size header</div>
+    <h3 class="title is-3 is-family-secondary">Title Three</h3><div class="subtitle is-5 has-text-grey">Default size header</div>
     <hr class="is-smaller">
-    <h4 class="title is-4">Title</h4><div class="subtitle is-5 has-text-grey">Basic title</div>
+    <h4 class="title is-4 is-family-secondary">Title Four</h4><div class="subtitle is-5 has-text-grey">Basic title</div>
     <hr class="is-smaller">
-    <h5 class="title is-5">Paragraph</h5><div class="subtitle is-6 has-text-grey">Paragraph header</div>
+    <h5 class="title is-5 is-family-secondary">Title Five</h5><div class="subtitle is-6 has-text-grey">Paragraph header</div>
     <hr class="is-smaller">
-    <h6 class="title is-6 has-text-weight-medium">Text</h6><div class="subtitle is-6 has-text-grey">Same size as regular text</div>
+    <h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-6 has-text-grey">Same size as regular text</div>
 </div>
 
 <hr>

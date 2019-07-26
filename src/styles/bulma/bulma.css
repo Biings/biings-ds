@@ -371,7 +371,7 @@ table th {
   font-size: 2.5rem !important; }
 
 .is-size-3 {
-  font-size: 2rem !important; }
+  font-size: 1.875rem !important; }
 
 .is-size-4 {
   font-size: 1.5rem !important; }
@@ -391,7 +391,7 @@ table th {
   .is-size-2-mobile {
     font-size: 2.5rem !important; }
   .is-size-3-mobile {
-    font-size: 2rem !important; }
+    font-size: 1.875rem !important; }
   .is-size-4-mobile {
     font-size: 1.5rem !important; }
   .is-size-5-mobile {
@@ -407,7 +407,7 @@ table th {
   .is-size-2-tablet {
     font-size: 2.5rem !important; }
   .is-size-3-tablet {
-    font-size: 2rem !important; }
+    font-size: 1.875rem !important; }
   .is-size-4-tablet {
     font-size: 1.5rem !important; }
   .is-size-5-tablet {
@@ -423,7 +423,7 @@ table th {
   .is-size-2-touch {
     font-size: 2.5rem !important; }
   .is-size-3-touch {
-    font-size: 2rem !important; }
+    font-size: 1.875rem !important; }
   .is-size-4-touch {
     font-size: 1.5rem !important; }
   .is-size-5-touch {
@@ -439,7 +439,7 @@ table th {
   .is-size-2-desktop {
     font-size: 2.5rem !important; }
   .is-size-3-desktop {
-    font-size: 2rem !important; }
+    font-size: 1.875rem !important; }
   .is-size-4-desktop {
     font-size: 1.5rem !important; }
   .is-size-5-desktop {
@@ -455,7 +455,7 @@ table th {
   .is-size-2-widescreen {
     font-size: 2.5rem !important; }
   .is-size-3-widescreen {
-    font-size: 2rem !important; }
+    font-size: 1.875rem !important; }
   .is-size-4-widescreen {
     font-size: 1.5rem !important; }
   .is-size-5-widescreen {
@@ -471,7 +471,7 @@ table th {
   .is-size-2-fullhd {
     font-size: 2.5rem !important; }
   .is-size-3-fullhd {
-    font-size: 2rem !important; }
+    font-size: 1.875rem !important; }
   .is-size-4-fullhd {
     font-size: 1.5rem !important; }
   .is-size-5-fullhd {
@@ -1488,7 +1488,7 @@ button.dropdown-item {
     display: flex; }
 
 .modal-background {
-  background-color: rgba(26, 14, 35, 0.5); }
+  background-color: rgba(26, 14, 35, 0.6); }
 
 .modal-content,
 .modal-card {
@@ -3713,7 +3713,7 @@ a.tag:hover {
 .title {
   color: #241a2e;
   font-family: "Averta", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 2rem;
+  font-size: 1.875rem;
   font-weight: 800;
   line-height: 1.125; }
   .title strong {
@@ -3728,7 +3728,7 @@ a.tag:hover {
   .title.is-2 {
     font-size: 2.5rem; }
   .title.is-3 {
-    font-size: 2rem; }
+    font-size: 1.875rem; }
   .title.is-4 {
     font-size: 1.5rem; }
   .title.is-5 {
@@ -3753,7 +3753,7 @@ a.tag:hover {
   .subtitle.is-2 {
     font-size: 2.5rem; }
   .subtitle.is-3 {
-    font-size: 2rem; }
+    font-size: 1.875rem; }
   .subtitle.is-4 {
     font-size: 1.5rem; }
   .subtitle.is-5 {
@@ -5466,15 +5466,8 @@ svg.has-fill-white {
 .title.is-0 {
   font-size: 3.5rem; }
 
-.title.is-5,
-.title.is-6 {
-  font-weight: 700; }
-
 .title {
   letter-spacing: -.2px; }
-
-.title > sup {
-  font-weight: 400; }
 
 p.title,
 p.subtitle {
