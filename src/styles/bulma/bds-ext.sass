@@ -2,21 +2,50 @@
 
 /* Typography */
 .title.is-0
-    font-size: 3.5rem
-.title
-    letter-spacing: -.2px
+    font-size: 5vw
+
+@media (min-width: 1500px)
+    .title.is-0
+        font-size: 5rem
+
+.title.is-0,
+.title.is-1,
+.title.is-2
+    letter-spacing: -1.5px
+.title.is-3
+    letter-spacing: -1px
+.title.is-5,
+.title.is-6
+    letter-spacing: -.5px
 
 p.title,
 p.subtitle
     line-height: 1.5em
-p
-    letter-spacing: -.01em
+
+.is-size-8
+    letter-spacing: .25px
+    font-size: .75rem
 
 .is-uppercase.is-7
     font-size: .75rem
 
 .is-borderless
     border: none !important
+
+.has-text-weight-bolder
+    font-weight: 900
+
+/* Links */
+a.is-discreet,
+a.is-discreet.is-underlined:hover
+    color: inherit
+a.is-discreet:hover
+    color: $primary
+a.is-underlined:not(.is-discreet)
+    text-decoration: underline
+a.is-underlined:hover
+    text-decoration: underline
+    text-decoration-color: $purple
 
 /* Lists */
 .list
@@ -208,7 +237,7 @@ button.button.is-loading
 
 .box.is-well,
 .box.hover-to-well:hover
-    background-color: rgba(27, 16, 41, 0.03)
+    background-color: rgba(27, 16, 41, .03)
     transition-duration: .3s
 
 .box.is-raised,

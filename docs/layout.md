@@ -96,7 +96,20 @@ Use **Level items** when you need to vertically center elements on one line.
       </div>
     </div>
 
-<br>
-<a href="https://bulma.io/documentation/layout/level/" target="blank" class="box is-bordered">
-    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Level</strong></a>
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 is-family-sans-serif">Spacer</h2>
+
+Use a **Spacer** – aka HR or Divider – as a visual help for grouping related content together. It is used to define thematic changes in a layout.
+
+<hr class="is-small">
+
+<div class="box is-well is-large is-marginless">
+    <hr class="is-visible">
 </div>
+  
+      <hr class="is-visible">
+  <br>
+  
+?> By default a spacer uses negative space to create a seperation. Use the `is-visible` class to show an explicit line division (divider).
+You can increase or decrease the size of a spacer using `is-thin`, `is-smaller`, `is-small` or `is-large`.

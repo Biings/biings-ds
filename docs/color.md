@@ -21,10 +21,10 @@
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
     <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#D1B9E3</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#4D8D92</span></div>
-    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#66BCC2</span></div>
-    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#94D0D4</span></div>
-    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#C2E4E7</span></div>
+    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#008A83</span></div>
+    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#00B8AE</span></div>
+    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#4DCDC6</span></div>
+    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#99E3DF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#CC8B2A</span></div>
     <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#FFAE35</span></div>
@@ -40,7 +40,7 @@
 
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="has-text-grey-dark is-family-monospace">#EFECF2</span></div>
-    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#F7F4FA</span></div>
+    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#FAF8FC</span></div>
     <div class="column is-3"><div class="has-background-white"><br><br></div><strong>white</strong><br><span class="has-text-grey-dark is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#706777</span></div>
@@ -61,10 +61,10 @@
 <hr class="is-small">
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-cyan-dark"><br><br></div><strong>cyan-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#5A90A8</span></div>
-    <div class="column is-3"><div class="has-background-cyan has-shadow"><br><br></div><strong>cyan</strong><br><span class="has-text-grey-dark is-family-monospace">#78C0E0</span></div>
-    <div class="column is-3"><div class="has-background-cyan-light"><br><br></div><strong>cyan-light</strong><br><span class="has-text-grey-dark is-family-monospace">#A1D3E9</span></div>
-    <div class="column is-3"><div class="has-background-cyan-lighter"><br><br></div><strong>cyan-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#C9E6F3</span></div>
+    <div class="column is-3"><div class="has-background-cyan-dark"><br><br></div><strong>cyan-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#018FB0</span></div>
+    <div class="column is-3"><div class="has-background-cyan has-shadow"><br><br></div><strong>cyan</strong><br><span class="has-text-grey-dark is-family-monospace">#087FD2</span></div>
+    <div class="column is-3"><div class="has-background-cyan-light"><br><br></div><strong>cyan-light</strong><br><span class="has-text-grey-dark is-family-monospace">#4DD2F0</span></div>
+    <div class="column is-3"><div class="has-background-cyan-lighter"><br><br></div><strong>cyan-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#99E5F7</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-blue-dark"><br><br></div><strong>blue-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#445C97</span></div>
     <div class="column is-3"><div class="has-background-blue has-shadow"><br><br></div><strong>blue</strong><br><span class="has-text-grey-dark is-family-monospace">#5A7BC9</span></div>

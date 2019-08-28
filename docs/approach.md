@@ -1,7 +1,7 @@
 <h6 class="subtitle is-6 has-text-grey is-uppercase">Principles</h6><h1 class="title is-1 is-family-secondary">Our Approach</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
-    Biings <span class="has-text-weight-medium">Principles</span> are at the heart of how we approach the design of anything related to Biings. They help deciding what to create (and how) and should be kept in mind when building new features or adapting existing ones.
+    Biings <span class="has-text-weight-semibold">Principles</span> are at the heart of how we approach the design of anything related to Biings. They help deciding what to create (and how) and should be kept in mind when building new features or adapting existing ones.
 </p>
 
 <hr class="is-visible"><br>

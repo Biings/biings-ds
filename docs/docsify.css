@@ -3,7 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: #f7f4fa;
+    background-color: #FAF8FC;
 }
 
 pre
@@ -216,7 +216,7 @@ img.no-zoom
 .sidebar ul li p a
 {
     padding: .125em 0;
-    color: #9b94a4;
+    color: #A69FAC;
     font-weight: 500;
     font-size: .875rem;
 }
@@ -231,7 +231,7 @@ img.no-zoom
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #3E384F;
+    color: #2D2236;
 }
 .sidebar ul p.active,
 .sidebar ul li.active a

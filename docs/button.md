@@ -1,7 +1,7 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Button</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
-    <span class="has-text-weight-semibold">Buttons</span> allow users to take actions, and make choices.
+    <span class="has-text-weight-semibold">Buttons</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
 
 <hr class="is-visible"><br>
@@ -140,3 +140,26 @@
             <a class="button is-primary">Maybe</a>
         </p>
     </div>
+
+
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 is-family-sans-serif">Links</h2>
+
+Use a Link instead of a button when navigating or when the action is tertiary.
+
+<hr class="is-small">
+
+<div class="box is-well is-marginless is-large">
+    <div class="level">
+        <div class="level-item"><a href="">Regular Link</a></div>
+        <div class="level-item"><a href="" class="is-discreet">Discreet Link</a></div>
+        <div class="level-item"><a href="" class="is-underlined">Underlined Link</a></div>
+        <div class="level-item"><a class="is-discreet is-underlined">Discreet Underline</a></div>
+    </div>
+</div>
+
+    <a>Regular Link</a>
+    <a class="is-discreet">Discreet</a>
+    <a class="is-underlined">Underlined</a>
+    <a class="is-discreet is-underlined">Underlined and Discreet</a>

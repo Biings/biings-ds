@@ -1,8 +1,11 @@
-<hr>
-<p class="subtitle is-size-4 is-family-secondary">
-    <span class="has-text-weight-semibold">BDS</span> is the design system for Biings applications and web pages. It is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining <span class="has-text-primary">principles</span>, <span class="has-text-turquoise">style</span> and <span class="has-text-claim">components</span> together.
+<h1 class="title is-1 is-family-secondary">Biings Design System</h1>
+<p class="subtitle is-4">
+    <span class="has-text-weight-medium">
+        The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining principles, style and components together.
 </p>
-<hr>
+<hr class="is-smaller">
+<img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
+<hr class="is-small">
 <div class="columns is-multiline">
     <div class="column is-full">
         <a href="#/approach" class="box is-raised has-background-grey-lighter hover-to-popping">

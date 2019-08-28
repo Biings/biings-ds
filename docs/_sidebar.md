@@ -1,4 +1,4 @@
-- <a href="/#/?id=main" class="docsify-logo">
+- <a href="/" class="docsify-logo">
 ![](media/biings-ds-logo.svg ':no-zoom')
 </a>
 
@@ -29,7 +29,6 @@
     - [ Modal](modal)
     - [ Radio button](radio)
     - [ Skeleton](skeleton)
-    - [ Spacer](spacer)
     - [ Table](table)
     - [ Tabs](tabs)
     - [ Tag](tag)
