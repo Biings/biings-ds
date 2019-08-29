@@ -5513,7 +5513,6 @@ a.is-underlined:not(.is-discreet) {
 
 a.is-underlined:hover {
   text-decoration: underline;
-  text-decoration-style: wavy;
   text-decoration-color: #af85ce; }
 
 /* Lists */
