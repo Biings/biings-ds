@@ -152,14 +152,15 @@ Use a Link instead of a button when navigating or when the action is tertiary.
 
 <div class="box is-well is-marginless is-large">
     <div class="level">
-        <div class="level-item"><a href="">Regular Link</a></div>
-        <div class="level-item"><a href="" class="is-discreet">Discreet Link</a></div>
-        <div class="level-item"><a href="" class="is-underlined">Underlined Link</a></div>
-        <div class="level-item"><a class="is-discreet is-underlined">Discreet Underline</a></div>
+        <div class="level-item"><a href="">Regular</a></div>
+        <div class="level-item"><a href="" class="is-underlined">Underlined</a></div>
+        <div class="level-item"><a href="" class="is-ghost">Ghost</a></div>
+        <div class="level-item"><a href="" class="is-underlining">Underlining</a></div>
+        <div class="level-item"><a href="" class="is-ghost is-underlining">Underlining Ghost</a></div>
     </div>
 </div>
 
     <a>Regular Link</a>
-    <a class="is-discreet">Discreet</a>
+    <a class="is-ghost">Ghost</a>
     <a class="is-underlined">Underlined</a>
-    <a class="is-discreet is-underlined">Underlined and Discreet</a>
+    <a class="is-ghost is-underlined">Ghost Underlined</a>

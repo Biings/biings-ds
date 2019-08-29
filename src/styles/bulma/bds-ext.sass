@@ -36,16 +36,15 @@ p.subtitle
     font-weight: 900
 
 /* Links */
-a.is-discreet,
-a.is-underlined,
-a.is-discreet.is-underlined:hover
+a.is-ghost
     color: inherit
-a.is-discreet:hover
+a.is-underlining:not(.is-ghost),
+a.is-ghost:hover:not(.is-underlining)
     color: $primary
-a.is-underlined:not(.is-discreet)
+a.is-underlined,
+a.is-underlining:hover
     text-decoration: underline
-a.is-underlined:hover
-    text-decoration: underline
+a.is-ghost.is-underlining:hover
     text-decoration-color: $primary-light
 
 /* Lists */

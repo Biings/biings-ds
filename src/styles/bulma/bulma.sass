@@ -69,7 +69,7 @@ $border-hover: $grey-light !default
 
 // Text colors
 
-$text: $black-ter !default
+$text: mix(black, $dark, 10) !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: inherit !default
@@ -79,7 +79,7 @@ $text-strong: inherit !default
 $code: $primary
 $code-background: rgba(113,95,199,.07)
 
-$pre: $grey-dark
+$pre: $dark
 $pre-background: white
 
 // Link colors
@@ -126,12 +126,12 @@ $weight-medium: 500 !default
 $weight-semibold: 600 !default
 $weight-bold: 800 !default
 
-$title-color: $text
+$title-color: $dark
 $title-family: $family-primary !default
 $title-size: $size-3
 $title-weight: $weight-bold
 $title-strong-color: inherit
-$title-strong-weight: inherit
+$title-strong-weight: 900
 $title-sub-size: 0.75em
 $title-sup-size: 0.75em
 
