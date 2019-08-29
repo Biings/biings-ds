@@ -56,6 +56,33 @@ Texts have an extra 7th smaller size. Use the modifier syntax <code>is-[0-6]</co
     <h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-6 has-text-grey">Same size as regular text</div>
 </div>
 
+<hr class="is-large is-visible">
+<h4 class="title is-4 is-spaced is-family-primary">Emphasizers</h4>
+<p class="subtitle is-6">
+Use one of the following classes to emphasize words or part of a text.
+</p>
+
+<hr class="is-small">
+
+<div class="box is-well is-marginless is-size-5">
+    Let's <u>underline that!</u>
+</div>
+
+    Let's <u>underline that!</u>
+<hr class="is-small">
+
+<div class="box is-well is-marginless is-size-5">
+    <p class="is-italic">Lorem ipsum dolor sit amet.<p>
+</div>
+
+    <p class="is-italic">Lorem ipsum dolor sit amet.<p>
+<hr class="is-small">
+
+<div class="box is-well is-marginless is-size-5">
+    <p class="is-capitalized">this is capitalized</p>
+</div>
+
+    <p class="is-capitalized">this is capitalized</p>
 <hr>
 
 <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank" class="box is-bordered is-link">

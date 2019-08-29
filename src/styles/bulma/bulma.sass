@@ -56,7 +56,7 @@ $red-invert: findColorInvert($red) !default
 $primary-invert: findColorInvert($primary) !default
 $info-invert: findColorInvert($info) !default
 $success-invert: findColorInvert($success) !default
-$warning-invert: findColorInvert($orange) !default
+$warning-invert: $black !default
 $danger-invert: findColorInvert($danger) !default
 $light-invert: $black-ter !default
 $dark-invert: $light !default
@@ -69,7 +69,7 @@ $border-hover: $grey-light !default
 
 // Text colors
 
-$text: $dark !default
+$text: $black-ter !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: inherit !default
@@ -86,16 +86,16 @@ $pre-background: white
 
 $link: $primary
 $link-invert: $primary-invert
-$link-visited: $purple
+$link-visited: $primary
 
 $link-hover: inherit
 $link-hover-border: $grey-light !default
 
-$link-focus: $grey-darker !default
+$link-focus: $dark !default
 $link-focus-border: $blue !default
 
-$link-active: $black !default
-$link-active-border: $grey-dark !default
+$link-active: $dark !default
+$link-active-border: $dark !default
 
 // Typography
 
@@ -135,7 +135,7 @@ $title-strong-weight: inherit
 $title-sub-size: 0.75em
 $title-sup-size: 0.75em
 
-$subtitle-color: $dark !default
+$subtitle-color: $title-color !default
 $subtitle-size: $size-5
 $subtitle-weight: $weight-normal
 $subtitle-strong-color: inherit

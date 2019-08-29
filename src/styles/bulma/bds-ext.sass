@@ -37,6 +37,7 @@ p.subtitle
 
 /* Links */
 a.is-discreet,
+a.is-underlined,
 a.is-discreet.is-underlined:hover
     color: inherit
 a.is-discreet:hover
@@ -45,7 +46,8 @@ a.is-underlined:not(.is-discreet)
     text-decoration: underline
 a.is-underlined:hover
     text-decoration: underline
-    text-decoration-color: $purple
+    text-decoration-style: wavy;
+    text-decoration-color: $primary-light
 
 /* Lists */
 .list
@@ -237,7 +239,7 @@ button.button.is-loading
 
 .box.is-well,
 .box.hover-to-well:hover
-    background-color: rgba(27, 16, 41, .03)
+    background-color: rgba(26, 14, 35, .03)
     transition-duration: .3s
 
 .box.is-raised,
