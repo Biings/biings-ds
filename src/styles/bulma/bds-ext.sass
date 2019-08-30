@@ -24,7 +24,7 @@ p.subtitle
 
 .is-size-8
     letter-spacing: .25px
-    font-size: .75rem
+    font-size: $size-8
 
 .is-uppercase.is-7
     font-size: .75rem
@@ -202,16 +202,22 @@ button.button.is-loading
         box-shadow: 0 .25em 1.25em rgba($primary,.6)
 
 
+
+/* Tag */
+.tag
+    font-weight: $weight-medium
+.tag.is-small
+    font-size: $size-8
+
 /* Box */
 .box
     transition: all .25s ease-out
-
 .box.is-small
     padding: .6rem .8rem
-
-.box.is-large,
-.box.is-relaxed
+.box.is-large
     padding: 2.875em 3em
+.box.is-larger
+    padding: 3.5em 4em
 
 .box.is-link
     cursor: pointer
@@ -276,11 +282,11 @@ button.button.is-loading
 .menu-label
     padding-left: 1em
     letter-spacing: .5px
-    font-weight: 500
+    font-weight: $weight-medium
 .menu-label:not(:last-child)
     margin-bottom: .5em
 .menu-list a
-    font-weight: 500
+    font-weight: $weight-medium
 
 
 /* Icon */
@@ -296,7 +302,7 @@ svg.is-grey-dark
 
 /* Dropdown */
 .dropdown-item.is-active
-    font-weight: 500
+    font-weight: $weight-medium
 
 .dropdown:not(.is-iconless) .button
     padding-right: 2.5rem
@@ -309,7 +315,7 @@ svg.is-grey-dark
     right: .75em
     color: $grey
     content: '⌞'
-    font-weight: 400
+    font-weight: $weight-normal
     font-size: 1.625em
     transform: rotate(-45deg)
     pointer-events: none
@@ -355,7 +361,7 @@ svg.is-grey-dark
 .radio:hover:not([disabled]) > .radio-mark
     box-shadow: inset 0 0 0 2px darken($grey-light,8)
 .checkbox input:checked ~ .checkbox-mark
-    background: linear-gradient(60deg, $purple -10%, $primary 110%)
+    background: linear-gradient(60deg, $primary-dark -10%, $primary 110%)
     box-shadow: none !important
 .radio input:checked ~ .radio-mark
     box-shadow: inset 0 0 0 2px $primary !important

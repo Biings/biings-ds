@@ -4948,12 +4948,12 @@ a.tag:hover {
       width: 100%; } }
 
 .section {
-  padding: 3rem 1.5rem; }
+  padding: 3rem 2rem; }
   @media screen and (min-width: 1024px) {
     .section.is-medium {
-      padding: 6rem 1.5rem; }
+      padding: 6rem 2rem; }
     .section.is-large {
-      padding: 9rem 1.5rem; } }
+      padding: 9rem 2rem; } }
 
 /* —— Bulma Color Extend —— */
 .has-background-primary-dark {
@@ -5488,7 +5488,7 @@ p.subtitle {
 
 .is-size-8 {
   letter-spacing: .25px;
-  font-size: .75rem; }
+  font-size: 0.75rem; }
 
 .is-uppercase.is-7 {
   font-size: .75rem; }
@@ -5680,6 +5680,13 @@ button.button.is-loading {
   100% {
     box-shadow: 0 0.25em 1.25em rgba(140, 80, 185, 0.6); } }
 
+/* Tag */
+.tag {
+  font-weight: 500; }
+
+.tag.is-small {
+  font-size: 0.75rem; }
+
 /* Box */
 .box {
   transition: all .25s ease-out; }
@@ -5687,9 +5694,11 @@ button.button.is-loading {
 .box.is-small {
   padding: .6rem .8rem; }
 
-.box.is-large,
-.box.is-relaxed {
+.box.is-large {
   padding: 2.875em 3em; }
+
+.box.is-larger {
+  padding: 3.5em 4em; }
 
 .box.is-link {
   cursor: pointer; }
@@ -5843,7 +5852,7 @@ svg.is-grey-dark {
   box-shadow: inset 0 0 0 2px #b4adba; }
 
 .checkbox input:checked ~ .checkbox-mark {
-  background: linear-gradient(60deg, #aa50b5 -10%, #8c50b9 110%);
+  background: linear-gradient(60deg, #5b3478 -10%, #8c50b9 110%);
   box-shadow: none !important; }
 
 .radio input:checked ~ .radio-mark {

@@ -25,11 +25,12 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 <br>
 
 <div class="box is-well is-large">
-    <span class="tag">normal</span>&nbsp;
-    <span class="tag is-medium">medium</span>&nbsp;
-    <span class="tag is-large">large</span>
+    <span class="tag is-small">Small</span>&nbsp;
+    <span class="tag">Normal</span>&nbsp;
+    <span class="tag is-medium">Medium</span>&nbsp;
+    <span class="tag is-large">Large</span>
     <hr class="is-smaller">
-    <span class="tag is-rounded">rounded</span>&nbsp;
+    <span class="tag is-rounded">Rounded</span>&nbsp;
     <span class="tag is-rounded is-danger has-text-weight-semibold">3</span>
     <hr class="is-smaller">
     <span class="tag is-primary">primary</span>&nbsp;
