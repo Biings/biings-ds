@@ -33,7 +33,7 @@ p.subtitle
     border: none !important
 
 .has-text-weight-bolder
-    font-weight: 900
+    font-weight: 900 !important
 
 /* Links */
 a.is-ghost
@@ -218,6 +218,16 @@ button.button.is-loading
     padding: 2.875em 3em
 .box.is-larger
     padding: 3.5em 4em
+
+@media screen and (max-width: 768px)
+    .box.is-large,
+    .box.is-larger
+        padding-right: 1.5rem
+        padding-left: 1.5rem
+    .section .box
+        margin-right: -1.5em
+        margin-left: -1.5em
+
 
 .box.is-link
     cursor: pointer
