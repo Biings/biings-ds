@@ -6,10 +6,10 @@
 <div class="menu is-small"><ul class="menu-list">
 - [Colors](color)
 - [Iconography](icons)
+- [Rules](rules)
 - [Terminology](terms)
 - [Typography](typo)
 - [Voice & Tone](voice)
-- [Rules](rules)
 </ul></div>
   
 - <span class="subtitle is-7 has-text-dark has-text-weight-bold">Components</span>

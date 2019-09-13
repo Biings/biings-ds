@@ -1230,7 +1230,7 @@ button.dropdown-item {
     color: #1a0e23; }
   a.dropdown-item.is-active,
   button.dropdown-item.is-active {
-    background-color: #8c50b9;
+    background-color: #5b3478;
     color: #fff; }
 
 .dropdown-divider {
@@ -1323,15 +1323,15 @@ button.dropdown-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 3px;
-    color: #a69fac;
+    color: #706777;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
-      background-color: transparent;
+      background-color: rgba(70, 40, 93, 0.06);
       color: #706777; }
     .menu-list a.is-active {
-      background-color: transparent;
-      color: #2d2236; }
+      background-color: #5b3478;
+      color: white; }
   .menu-list li ul {
     border-left: 1px solid #c8c3cd;
     margin: 0.75em;
@@ -5861,7 +5861,7 @@ svg.is-grey-dark {
   box-shadow: inset 0 0 0 2px #b4adba; }
 
 .checkbox input:checked ~ .checkbox-mark {
-  background: linear-gradient(60deg, #5b3478 -10%, #8c50b9 110%);
+  background: #8c50b9;
   box-shadow: none !important; }
 
 .radio input:checked ~ .radio-mark {

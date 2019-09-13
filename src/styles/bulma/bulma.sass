@@ -212,12 +212,12 @@ $box-padding: 1.25rem 1.375rem
 $box-link-hover-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $link !default
 $box-link-active-shadow: inset 0 1px 2px rgba($black, 0.2), 0 0 0 1px $link !default
 
-$menu-item-color: $grey !default
+$menu-item-color: $grey-dark !default
 $menu-item-radius: $radius !default
-$menu-item-hover-color: $grey-dark !default
-$menu-item-hover-background-color: transparent
-$menu-item-active-color: $black-ter !default
-$menu-item-active-background-color: transparent;
+$menu-item-hover-color: $menu-item-color !default
+$menu-item-hover-background-color: rgba(70, 40, 93, 0.06)
+$menu-item-active-color: white !default
+$menu-item-active-background-color: mix(black, $primary, 35)
 $menu-list-border-left: 1px solid $border !default
 $menu-label-color: $text !default
 
@@ -237,6 +237,7 @@ $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 6px 12px rgba($black-ter, 0.15), 0 0 0 1px rgba($black-ter, 0.04) !default
 $dropdown-item-hover-background-color: $white-bis !default
 $dropdown-content-radius: $radius-small !default
+$dropdown-item-active-background-color: mix(black, $primary, 35) !default
 
 // Form elements
 $control-border-width: 1px !default

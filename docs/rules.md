@@ -1,7 +1,7 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Rules</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
-    When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of the Biings approach. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
+    When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of <a href="https://biings.com/why">Biings philosophy</a>. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
 </p>
 
 <hr class="is-visible"><br>
