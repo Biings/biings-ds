@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Style</h6><h1 class="title is-1 is-family-secondary">Colors</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Colors</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
 <hr class="is-visible">
@@ -144,11 +144,10 @@
     }
 <hr class="is-large is-visible">
 
-<div class="box is-large is-popping" style="background: linear-gradient(90deg, var(--color-dark) -70%, var(--color-primary-dark) 150%);">
-    <span class="tag is-success is-uppercase has-text-weight-semibold">Bonus</span>
-    <hr class="is-smaller">
-    <p class="title is-4 has-text-white is-family-primary">Slack Sidebar Theme</p>
-    <div class="subtitle is-6 has-text-grey-lighter">Paint your Slack to the colors of Biings by copy-pasting the above HEX codes into your Slack preferences.</div>
+<div class="box is-large is-raised is-floating hover-to-popping">
+    <div class="subtitle is-3"><span class="tag is-small is-primary is-uppercase has-text-weight-semibold">Bonus</span></div>
+    <p class="title is-4 has-text-primary-dark">Slack Sidebar Theme</p>
+    <p class="subtitle is-5">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #2D2236,#241A2E,#8246AF,#FFFFFF,#5B3478,#FFFFFF,#5DD9C1,#A568D1
+    #241A2E,#2D2236,#8246AF,#FFFFFF,#46285D,#EFECF2,#4DCDC6,#AF85CE
 </div>

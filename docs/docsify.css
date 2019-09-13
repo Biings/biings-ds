@@ -3,7 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: #FAF8FC;
+    background-color: #FFFFFF;
 }
 
 pre
@@ -69,7 +69,7 @@ section.cover .cover-main
 }
 section.content
 {
-    left: 230px;
+    left: 210px;
 }
 div.content
 {
@@ -140,9 +140,10 @@ div.content
 aside.sidebar
 {
     padding-top: 4.75rem;
-    width: 230px;
+    width: 210px;
     border-right: none;
     font-size: 13px;
+    background-color: #FAF8FC;
 }
 
 
@@ -201,7 +202,8 @@ img.no-zoom
 .sidebar ul
 {
     margin: 0 0 .5em;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
 }
 .sidebar-nav > ul > li
 {
@@ -211,14 +213,6 @@ img.no-zoom
 {
     letter-spacing: 0 !important;
     font-weight: 500;
-}
-.sidebar ul li a,
-.sidebar ul li p a
-{
-    padding: .125em 0;
-    color: #A69FAC;
-    font-weight: 500;
-    font-size: .875rem;
 }
 .sidebar ul li ul
 {
@@ -231,7 +225,8 @@ img.no-zoom
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #2D2236;
+    color: #FFF;
+    background-color: #5B3478; 
 }
 .sidebar ul p.active,
 .sidebar ul li.active a

@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Principles</h6><h1 class="title is-1 is-family-secondary">Rules</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Rules</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
     When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of the Biings approach. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
@@ -6,7 +6,7 @@
 
 <hr class="is-visible"><br>
 
-<div id="r-wc" class="box is-expandable is-unselectable is-large is-well" onclick="toggleExpand('r-wc')">
+<div id="r-wc" class="box is-expandable is-unselectable is-large is-raised is-floating hover-to-popping" onclick="toggleExpand('r-wc')">
     <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Repetitive absences</span>
     <div class="expanded-content content">
@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div id="r-adc" class="box is-large is-expandable is-unselectable is-well" onclick="toggleExpand('r-adc')">
+<div id="r-adc" class="box is-large is-expandable is-unselectable is-raised is-floating hover-to-popping" onclick="toggleExpand('r-adc')">
     <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Absences duration categories</span>
     <div class="expanded-content content">
@@ -44,7 +44,7 @@
     </div>
 </div>
 
-<div id="r-rtw" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-rtw')">
+<div id="r-rtw" class="box is-expandable is-large is-unselectable is-raised is-floating hover-to-popping" onclick="toggleExpand('r-rtw')">
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Return to work</span>
     <div class="expanded-content">
@@ -53,7 +53,7 @@
     </div>
 </div>
 
-<div id="r-asm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-asm')">
+<div id="r-asm" class="box is-expandable is-large is-unselectable is-raised is-floating hover-to-popping" onclick="toggleExpand('r-asm')">
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">1-on-1 Assessment (<span class="">I</span> & <span class="">II</span>)</span>
     <div class="expanded-content">
@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<div id="r-hrasm" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-hrasm')">
+<div id="r-hrasm" class="box is-expandable is-large is-unselectable is-raised is-floating hover-to-popping" onclick="toggleExpand('r-hrasm')">
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">HR Assessment</span>
     <div class="expanded-content">
@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div id="r-algo1" class="box is-expandable is-large is-well is-unselectable" onclick="toggleExpand('r-algo1')">
+<div id="r-algo1" class="box is-expandable is-large is-unselectable is-raised is-floating hover-to-popping" onclick="toggleExpand('r-algo1')">
     <span class="subtitle is-size-7 has-text-primary">ALGORITHM</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Next meeting type</span>
     <div class="expanded-content">
