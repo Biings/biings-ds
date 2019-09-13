@@ -8,9 +8,10 @@ html
 
 pre
 {
-    border: 1px solid rgba(71, 66, 89, .15);
+    border: 1px solid #DFDBE3;
     border-left-width: 9px;
     border-radius: 0;
+    background-color: #EFECF2;
 }
 pre code
 {

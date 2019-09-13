@@ -6,7 +6,7 @@
 
 <hr class="is-visible"><br>
 
-<p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/ForsysInteractive/biings-ds">https://github.com/ForsysInteractive/biings-ds</a></p>
+<p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/biings/biings-ds">https://github.com/biings/biings-ds</a></p>
 <br>
 <p class="has-text-weight-semibold">2 )&nbsp; Make your changes</p>
 <ul class="list">
@@ -35,3 +35,5 @@
 <pre data-lang="bash">npm login // you need an NPM account first</pre>
 <br>
 <pre data-lang="bash">npm publish</pre>
+<br>
+<p class="has-text-weight-semibold">5 )&nbsp; Done. You can now tell everyone to "`npm update biings-ds`" 😇</p>

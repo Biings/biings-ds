@@ -3,7 +3,7 @@
     <span class="has-text-weight-medium">
         The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
 </p>
-<hr class="is-small">
+<hr>
 <div class="columns is-multiline">
     <div class="column is-half">
         <a href="#/color" class="box is-raised is-floating has-background-white-ter hover-to-popping">
@@ -11,6 +11,7 @@
                     <img src="media/bds.png" width="58" class="no-zoom"/>
                     <hr class="is-smaller">
                     <div class="title is-4 has-text-dark">Foundation</div>
+                    <p class="subtitle is-6 has-text-weight-medium has-text-grey">Colors, icons, rules, etc</p>
             </div>
         </a>
     </div>
@@ -20,11 +21,12 @@
                 <img src="media/components.png" width="60" class="no-zoom"/>
                 <hr class="is-smaller">
                 <div class="title is-4 has-text-white">Components</div>
+                <p class="subtitle is-6 has-text-weight-medium has-text-primary-lighter">All you need to build your UIs</p>
             </div>
         </a>
     </div>
 </div>
-<hr class="is-small">
+<hr>
 <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
 
 <hr class="is-visible is-large">
@@ -38,8 +40,8 @@
 
 <div class="subtitle">Only two files are required to start using BDS:</div>
 
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds.css" class="box is-raised is-floating hover-to-popping has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/ForsysInteractive/biings-ds/master/build/bds-icons.min.svg" class="box is-raised is-floating hover-to-popping has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-raised is-floating hover-to-popping has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-raised is-floating hover-to-popping has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
 <hr class="is-visible is-large">
 
