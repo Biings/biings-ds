@@ -5464,11 +5464,11 @@ svg.has-fill-white {
 /* —— Bulma BDS Extend —— */
 /* Typography */
 .title.is-0 {
-  font-size: 4.5vw; }
+  font-size: 5.4vw; }
 
 @media (min-width: 1500px) {
   .title.is-0 {
-    font-size: 4.5rem; } }
+    font-size: 5rem; } }
 
 .title {
   letter-spacing: -1px; }
