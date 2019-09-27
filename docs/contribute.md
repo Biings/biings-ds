@@ -6,7 +6,7 @@
 
 <hr class="is-visible"><br>
 
-<p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/biings/biings-ds">https://github.com/biings/biings-ds</a></p>
+<p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/biings/biings-ds" class="is-underlined">https://github.com/biings/biings-ds</a></p>
 <br>
 <p class="has-text-weight-semibold">2 )&nbsp; Make your changes</p>
 <ul class="list">

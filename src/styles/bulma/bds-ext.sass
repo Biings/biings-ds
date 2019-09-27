@@ -36,16 +36,29 @@ p.subtitle
     font-weight: 900 !important
 
 /* Links */
+a
+    transition: all 0.15s ease
+a.is-underlined,
 a.is-ghost
     color: inherit
-a.is-underlining:not(.is-ghost),
-a.is-ghost:hover:not(.is-underlining)
+a.is-ghost:hover:not(.is-underlined)
     color: $primary
-a.is-underlined,
-a.is-underlining:hover
+a.is-underlined
     text-decoration: underline
-a.is-ghost.is-underlining:hover
-    text-decoration-color: $primary-light
+    text-underline-offset: 0.125em
+    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
+    text-decoration-thickness: .1em
+    text-decoration-width: .1em
+    text-decoration-color: inherit
+a.is-underlined.is-ghost
+    text-decoration-color: transparent
+a.is-underlined:hover,
+a.is-underlined.is-ghost:hover
+    text-decoration: underline
+    text-decoration-color: mix($primary, $primary-light, 20)
+    text-decoration-thickness: .2em
+    text-decoration-width: .2em
+    
 
 /* Lists */
 .list

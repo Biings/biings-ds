@@ -33,16 +33,18 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
 
 <br><br>
 
-<div class="tabs is-boxed is-marginless">
-    <ul>
-        <li><a>Employer</a></li>
-        <li class="is-active"><a>Insured</a></li>
-        <li><a>Incapacity</a></li>
-        <li><a>Certificates</a></li>
-    </ul>
-</div>
-<div class="box is-white is-large has-text-grey-dark">
-    Boxed content<br><i>Use Javascript for the tab switching behaviour.</i>
+<div class="box is-well is-large is-marginless">
+    <div class="tabs is-boxed is-marginless">
+        <ul>
+            <li><a>Employer</a></li>
+            <li class="is-active"><a>Insured</a></li>
+            <li><a>Incapacity</a></li>
+            <li><a>Certificates</a></li>
+        </ul>
+    </div>
+    <div class="box is-white is-large has-text-grey-dark">
+        Boxed content<br><i>Use Javascript for the tab switching behaviour.</i>
+    </div>
 </div>
 
     <div class="tabs is-boxed is-marginless">

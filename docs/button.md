@@ -1,7 +1,7 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Button</h1>
+<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Button / Link</h1>
 <hr class="is-visible">
 <p class="subtitle is-5 is-family-secondary">
-    <span class="has-text-weight-semibold">Buttons</span> allow users to take actions, make choices or navigate within a product or website.
+    <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
 
 <hr class="is-visible"><br>
@@ -153,14 +153,13 @@ Use a Link instead of a button when navigating or when the action is tertiary.
 <div class="box is-well is-marginless is-large">
     <div class="level">
         <div class="level-item"><a href="">Regular</a></div>
+        <div class="level-item"><a href="" class="is-ghost">Ghost link</a></div>
         <div class="level-item"><a href="" class="is-underlined">Underlined</a></div>
-        <div class="level-item"><a href="" class="is-ghost">Ghost</a></div>
-        <div class="level-item"><a href="" class="is-underlining">Underlining</a></div>
-        <div class="level-item"><a href="" class="is-ghost is-underlining">Underlining Ghost</a></div>
+        <div class="level-item"><a href="" class="is-ghost is-underlined">Underlined Ghost</a></div>
     </div>
 </div>
 
     <a>Regular Link</a>
     <a class="is-ghost">Ghost</a>
     <a class="is-underlined">Underlined</a>
-    <a class="is-ghost is-underlined">Ghost Underlined</a>
+    <a class="is-ghost is-underlined">Underlined Ghost </a>

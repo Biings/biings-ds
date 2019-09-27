@@ -71,6 +71,23 @@ Use one of the following classes to emphasize words or part of a text.
     Let's <u>underline that!</u>
 <hr class="is-small">
 
+<div class="level is-marginless is-size-5 has-background-white-bis">
+    <div class="level-item is-marginless">
+        <div class="box is-large">
+            And let's <em>highlight this in yellow</em>..
+        </div>
+    </div>
+    <div class="level-item is-large is-marginless">
+        <div class="box is-large has-background-black-ter has-text-white">
+            Or <em class="is-primary">some of that in purple</em>.
+        </div>
+    </div>
+</div>
+    
+    And let's <em>highlight this in yellow</em>..
+    Or <em class="is-primary">some of that in purple</em>.
+<hr class="is-small">
+
 <div class="box is-well is-marginless is-size-5">
     <p class="is-italic">Lorem ipsum dolor sit amet.<p>
 </div>

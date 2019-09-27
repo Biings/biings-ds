@@ -1,32 +1,32 @@
 <h1 class="title is-1 is-family-secondary">Biings Design System</h1>
+<hr class="is-small">
 <p class="subtitle is-4">
-    <span class="has-text-weight-medium">
-        The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
+    <span class="has-text-weight-semibold">The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
 </p>
-<hr>
+<hr class="is-small">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-raised is-floating has-background-white-ter hover-to-popping">
+        <a href="#/color" class="box is-raised is-floating has-background-dark hover-to-popping">
             <div class="box">
                     <img src="media/bds.png" width="58" class="no-zoom"/>
                     <hr class="is-smaller">
-                    <div class="title is-4 has-text-dark">Foundation</div>
-                    <p class="subtitle is-6 has-text-weight-medium has-text-grey">Colors, icons, rules, etc</p>
+                    <div class="title is-4 has-text-white">Foundation</div>
+                    <p class="subtitle is-6 has-text-weight-medium has-text-primary-lighter">Colors, icons, rules, etc</p>
             </div>
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-raised is-floating has-background-dark hover-to-popping">
+        <a href="#/avatar" class="box is-raised is-floating has-background-white-ter hover-to-popping">
             <div class="box">
                 <img src="media/components.png" width="60" class="no-zoom"/>
                 <hr class="is-smaller">
-                <div class="title is-4 has-text-white">Components</div>
-                <p class="subtitle is-6 has-text-weight-medium has-text-primary-lighter">All you need to build your UIs</p>
+                <div class="title is-4">Components</div>
+                <p class="subtitle is-6 has-text-weight-medium has-text-grey">All you need to build your UIs</p>
             </div>
         </a>
     </div>
 </div>
-<hr>
+<hr class="is-smaller">
 <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
 
 <hr class="is-visible is-large">

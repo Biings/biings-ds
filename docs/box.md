@@ -107,6 +107,10 @@ Add class `is-link` to make a box behave like a link.
 
 <br>
 
-<div class="box is-well is-relaxed">
-    <div class="box is-white is-link">Boxed content about an entity or subject.</div>
+<div class="box is-well is-large is-marginless">
+    <div class="box has-background-primary-lighter is-link">I behave like a link!</div>
 </div>
+
+    <div class="box is-white is-link">
+        I behave like a link!
+    </div>

@@ -4,9 +4,8 @@
 <hr class="is-visible">
 <br>
 <h2 class="title is-4 is-spaced is-family-sans-serif">Brand</h2>
-<p class="subtitle is-5">
-    Brand colors are used when refering to Biings or any of its products.
-</p>
+
+Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-small">
 
@@ -40,8 +39,8 @@
 
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="has-text-grey-dark is-family-monospace">#EFECF2</span></div>
-    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#FAF8FC</span></div>
-    <div class="column is-3"><div class="has-background-white"><br><br></div><strong>white</strong><br><span class="has-text-grey-dark is-family-monospace">#FFFFFF</span></div>
+    <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#FAF8FC</span></div>
+    <div class="column is-3"><div class="has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white</strong><br><span class="has-text-grey-dark is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#706777</span></div>
     <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="has-text-grey-dark is-family-monospace">#A69FAC</span></div>
@@ -106,9 +105,7 @@
 
 <h2 class="title is-4 is-family-sans-serif is-spaced">Color modifiers</h2>
 
-<p class="subtitle is-5">
-    Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
-</p>
+Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
 
 <hr class="is-small">
 
@@ -127,21 +124,24 @@
 <hr class="is-large is-visible">
 
 <h2 class="title is-4 is-family-sans-serif is-spaced">CSS variables</h2>
-<p class="subtitle is-5">
-    All colors are available as CSS variables through the prefix <code>--color-</code>.
-</p>
+
+All colors are available as CSS variables through the prefix <code>--color-</code>.
 
 <hr class="is-small">
 
-    .your-selector
-    {
-        color: var(--color-primary);
-    }
+<pre>
+.your-selector
+{
+    color: var(--color-primary);
+}
 
-    .your-has-gradient-1
-    {
-        background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
-    }
+.your-has-gradient-1
+{
+    background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
+}
+</pre>
+
+
 <hr class="is-large is-visible">
 
 <div class="box is-large is-raised is-floating hover-to-popping">
@@ -149,5 +149,5 @@
     <p class="title is-4 has-text-primary-dark">Slack Sidebar Theme</p>
     <p class="subtitle is-5">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #2D2236,#241A2E,#8246AF,#FFFFFF,#46285D,#EFECF2,#4DCDC6,#AF85CE
+    #2D2236,#2D2236,#8246AF,#FFFFFF,#46285D,#EFECF2,#4DD698,#F45564
 </div>

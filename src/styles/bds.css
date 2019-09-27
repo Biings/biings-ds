@@ -23,6 +23,17 @@ strong
     font-weight: 800;
 }
 
+em
+{
+    border-radius: 1em 0 1em 0;
+    background-image: linear-gradient(90deg, rgba(255, 199, 72, 0.25), rgba(255, 199, 72, .5) 30%,rgba(255, 199, 72, .4) 95%, rgba(255, 199, 72, .2));
+    font-style: normal;
+}
+em.is-primary
+{
+    background-image: linear-gradient(90deg, rgba(140, 80, 185, 0.25), rgba(91, 37, 133, 0.7) 30%,rgba(140, 80, 185, .5) 95%, rgba(140, 80, 185, .2));
+}
+
 /* —— Helpers —— */
 
 .is-motionless
