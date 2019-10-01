@@ -1323,12 +1323,12 @@ button.dropdown-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 3px;
-    color: #706777;
+    color: inherit;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
       background-color: rgba(70, 40, 93, 0.06);
-      color: #706777; }
+      color: inherit; }
     .menu-list a.is-active {
       background-color: #5b3478;
       color: white; }
@@ -5515,8 +5515,7 @@ a.is-underlined {
   text-underline-offset: 0.125em;
   transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width;
   text-decoration-thickness: .1em;
-  text-decoration-width: .1em;
-  text-decoration-color: inherit; }
+  text-decoration-width: .1em; }
 
 a.is-underlined.is-ghost {
   text-decoration-color: transparent; }

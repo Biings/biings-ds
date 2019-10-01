@@ -12,21 +12,26 @@
     <table class="table is-fullwidth">
         <thead>
             <tr>
-            <th style="width: 250px;"><span class="has-text-danger">Don't</th>
-            <th><span class="has-text-turquoise-dark">Do &nbsp;✓</span></th>
+                <th style="width: 250px;"><span class="has-text-danger">Don't</th>
+                <th><span class="has-text-turquoise-dark">Do &nbsp;✓</span></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <td class="subtitle is-5 has-text-grey-dark">404 Error</td>
-            <td class="subtitle is-5"><p>Sorry, that page isn’t here.</p></td>
+                <td class="subtitle is-5 has-text-grey-dark">404 Error</td>
+                <td class="subtitle is-5"><p>Sorry, that page isn’t here.</p></td>
             </tr>
             <tr>
-            <td class="subtitle is-5 has-text-grey-dark">Wrong URL. There is no page at this address.</td>
-            <td class="subtitle is-5">You didn’t do anything wrong. We may have moved the page you’re looking for somewhere else.</td>
+                <td class="subtitle is-5 has-text-grey-dark">Wrong URL. There is no page at this address.</td>
+                <td class="subtitle is-5">You didn’t do anything wrong. We may have moved the page you’re looking for somewhere else.</td>
+            </tr>
+            <tr>
+                <td class="subtitle is-5 has-text-grey-dark">L'adresse email est manquante.</td>
+                <td class="subtitle is-5">Indiquez une adresse email pour que nous puissions vous répondre.</td>
             </tr>
         </tbody>
     </table>
+    </div>
 </div>
 
 <hr class="is-large is-visible">
@@ -42,12 +47,12 @@
         </thead>
     <tbody>
         <tr>
-        <td class="subtitle is-5 has-text-grey-dark">This will send you a notification.</td>
-        <td class="subtitle is-5">This sends you a notification.</td>
+            <td class="subtitle is-5 has-text-grey-dark">This will send you a notification.</td>
+            <td class="subtitle is-5">This sends you a notification.</td>
         </tr>
         <tr>
-        <td class="subtitle is-5 has-text-grey-dark">The absence has been deleted.</td>
-        <td class="subtitle is-5">The absence was deleted.</td>
+            <td class="subtitle is-5 has-text-grey-dark">The absence has been deleted.</td>
+            <td class="subtitle is-5">The absence was deleted.</td>
         </tr>
     </tbody>
     </table>
