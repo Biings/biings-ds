@@ -140,8 +140,6 @@
             <a class="button is-primary">Maybe</a>
         </p>
     </div>
-
-
 <hr class="is-large is-visible">
 
 <h2 class="title is-4 is-family-sans-serif">Links</h2>

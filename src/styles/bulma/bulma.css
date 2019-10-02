@@ -134,7 +134,7 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
@@ -1679,14 +1679,14 @@ a.box:active {
 .button {
   background-color: #ffffff;
   border-color: #d5d1d9;
-  border-width: 1px;
+  border-width: 2px;
   color: #514759;
   cursor: pointer;
   justify-content: center;
-  padding-bottom: calc(0.25em - 1px);
+  padding-bottom: calc(0.25em - 2px);
   padding-left: 0.95em;
   padding-right: 0.95em;
-  padding-top: calc(0.25em - 1px);
+  padding-top: calc(0.25em - 2px);
   text-align: center;
   white-space: nowrap; }
   .button strong {
@@ -1695,14 +1695,14 @@ a.box:active {
     height: 1.5em;
     width: 1.5em; }
   .button .icon:first-child:not(:last-child) {
-    margin-left: calc(-0.375em - 1px);
+    margin-left: calc(-0.375em - 2px);
     margin-right: 0.1875em; }
   .button .icon:last-child:not(:first-child) {
     margin-left: 0.1875em;
-    margin-right: calc(-0.375em - 1px); }
+    margin-right: calc(-0.375em - 2px); }
   .button .icon:first-child:last-child {
-    margin-left: calc(-0.375em - 1px);
-    margin-right: calc(-0.375em - 1px); }
+    margin-left: calc(-0.375em - 2px);
+    margin-right: calc(-0.375em - 2px); }
   .button:hover, .button.is-hovered {
     border-color: #c8c3cd;
     color: #3f2454; }
@@ -5501,7 +5501,7 @@ p.subtitle {
 
 /* Links */
 a {
-  transition: all 0.15s ease; }
+  transition: all .15s ease; }
 
 a.is-underlined,
 a.is-ghost {
@@ -5512,8 +5512,8 @@ a.is-ghost:hover:not(.is-underlined) {
 
 a.is-underlined {
   text-decoration: underline;
-  text-underline-offset: 0.125em;
   transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width;
+  text-underline-offset: .125em;
   text-decoration-thickness: .1em;
   text-decoration-width: .1em; }
 
@@ -5630,7 +5630,7 @@ th {
   height: 1em; }
 
 .button.is-beefy {
-  padding: calc(1.375em - 1px) 1.75em; }
+  padding: calc(1.375em - 2px) 1.75em; }
 
 .button.is-text {
   text-decoration: none; }
@@ -5641,6 +5641,9 @@ button.button {
 button.button:active {
   box-shadow: 0 0 0 0 rgba(26, 14, 35, 0.15);
   transition-duration: 0; }
+
+.field.has-addons .control:not(:last-child) {
+  margin-right: -2px; }
 
 .button.is-loading {
   padding-left: calc(0.95em * 2.5);
@@ -5730,7 +5733,7 @@ button.button.is-loading {
 
 .box.is-bordered,
 .box.hover-to-bordered:hover {
-  box-shadow: 0 0 0 1px rgba(48, 45, 61, 0.1); }
+  box-shadow: 0 0 0 2px rgba(48, 45, 61, 0.1); }
 
 .box.is-bordered.hover-to-box:hover,
 .box.is-bordered.hover-to-well:hover,
@@ -5752,7 +5755,7 @@ button.button.is-loading {
 
 .box.is-raised,
 .box.hover-to-raised:hover {
-  border: 1px solid rgba(139, 133, 160, 0.1);
+  border: 2px solid rgba(139, 133, 160, 0.1);
   border-bottom: 4px solid rgba(139, 133, 160, 0.25);
   background-color: white; }
 
@@ -6008,6 +6011,7 @@ svg.is-grey-dark {
 .select > select,
 .textarea {
   min-height: 2.75em;
+  border-width: 2px;
   transition: border-color .15s linear, box-shadow .15s linear; }
 
 .textarea {

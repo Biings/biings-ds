@@ -37,7 +37,7 @@ p.subtitle
 
 /* Links */
 a
-    transition: all 0.15s ease
+    transition: all .15s ease
 a.is-underlined,
 a.is-ghost
     color: inherit
@@ -45,8 +45,9 @@ a.is-ghost:hover:not(.is-underlined)
     color: $primary
 a.is-underlined
     text-decoration: underline
-    text-underline-offset: 0.125em
     transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
+
+    text-underline-offset: .125em
     text-decoration-thickness: .1em
     text-decoration-width: .1em
 a.is-underlined.is-ghost
@@ -54,10 +55,11 @@ a.is-underlined.is-ghost
 a.is-underlined:hover,
 a.is-underlined.is-ghost:hover
     text-decoration: underline
+
     text-decoration-color: mix($primary, $primary-light, 20)
     text-decoration-thickness: .2em
     text-decoration-width: .2em
-    
+
 
 /* Lists */
 .list
@@ -162,6 +164,8 @@ button.button
 button.button:active
     box-shadow: 0 0 0 0 rgba($black, .15)
     transition-duration: 0
+.field.has-addons .control:not(:last-child)
+    margin-right: -2px
 
 .button.is-loading
     padding-left: calc(#{$button-padding-horizontal} * 2.5)
@@ -248,7 +252,7 @@ button.button.is-loading
 
 .box.is-bordered,
 .box.hover-to-bordered:hover
-    box-shadow: 0 0 0 1px rgba(48, 45, 61,.10)
+    box-shadow: 0 0 0 2px rgba(48, 45, 61,.10)
 
 .box.is-bordered.hover-to-box:hover,
 .box.is-bordered.hover-to-well:hover,
@@ -270,7 +274,7 @@ button.button.is-loading
 
 .box.is-raised,
 .box.hover-to-raised:hover
-    border: 1px solid rgba(139, 133, 160, .1)
+    border: 2px solid rgba(139, 133, 160, .1)
     border-bottom: 4px solid rgba(139, 133, 160, .25)
     background-color: white
 
@@ -498,6 +502,7 @@ svg.is-grey-dark
 .select > select,
 .textarea
     min-height: 2.75em
+    border-width: 2px
     transition: border-color .15s linear, box-shadow .15s linear
 .textarea
     padding-left: calc(.875em - 1px)

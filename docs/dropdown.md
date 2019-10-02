@@ -109,9 +109,9 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 <hr class="is-small">
 
 <div class="box is-well is-large is-marginless">
-    <div class="dropdown is-hoverable is-small">
+    <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-small is-secondary">Choose a value</div>
+            <div class="button is-secondary">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
