@@ -6,9 +6,35 @@
 
 <hr class="is-visible"><br>
 
+<h2 class="title is-4 is-family-sans-serif">Container</h2>
+
+Container is used to center your content horizontally. There are 3 levels :
+<hr class="is-smaller">
+<table class="table is-bordered">
+  <tr>
+      <td class="is-narrow"><code>container</code></td>
+      <td>Max <strong>1248px</strong>, with breakpoints</td>
+  </tr>
+  <tr>
+      <td class="is-narrow"><code>container is-narrow</code></td>
+      <td>Max <strong>960px</strong> (the desktop breakpoint)</td>
+  </tr>
+  <tr>
+      <td class="is-narrow"><code>container is-narrower</code></td>
+      <td>Max <strong>769px</strong> (the tablet breakpoint)</td>
+  </tr>
+</table>
+
+<br>
+<a href="https://bulma.io/documentation/layout/container/" target="blank" class="box is-bordered">
+    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Container</strong>
+</a>
+
+<hr class="is-large is-visible">
+
 <h2 class="title is-4 is-family-sans-serif">Section</h2>
 
-Sections are used to handle **vertical spacing**.  
+Sections are used to handle **vertical spacing** as well as ensuring a minimum horizontal padding from the window. 
 Add class `is-medium` or `is-large` to fruther increase the vertical space.
 
 <hr class="is-small">

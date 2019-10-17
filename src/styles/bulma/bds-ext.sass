@@ -60,20 +60,11 @@ a.is-underlined.is-ghost:hover
     text-decoration-thickness: .2em
     text-decoration-width: .2em
 
-
-/* Lists */
-.list
-    margin: 1.5em .25em
-.list > li
-    position: relative
-    padding: 0 0 .375em 1.75em
-    line-height: 1.375em
-ul.list > li::before
-    position: absolute
-    left: .25em
-    color: var(--color-text3)
-    content: '•'
-
+/* Containers */
+.container.is-narrow
+    max-width: $desktop
+.container.is-narrower
+    max-width: $tablet
 
 /* Rules / Lines */
 hr:not(.is-visible):not(.dropdown-divider)
@@ -313,17 +304,6 @@ button.button.is-loading
     margin-bottom: .5em
 .menu-list a
     font-weight: $weight-medium
-
-
-/* Icon */
-svg.icon
-    fill: $grey-darker
-
-svg.is-grey
-    fill: $grey
-
-svg.is-grey-dark
-    fill: $grey-dark
 
 
 /* Dropdown */
