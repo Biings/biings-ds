@@ -5523,7 +5523,7 @@ a.is-underlined.is-ghost:hover {
 
 /* Containers */
 .container.is-narrow {
-  max-width: 1024px; }
+  max-width: 936px; }
 
 .container.is-narrower {
   max-width: 769px; }
