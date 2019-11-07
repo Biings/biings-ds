@@ -26,6 +26,16 @@
             <td><hr class="is-small">For secondary actions, ex: <strong>"Cancel"</strong>.</td>
         </tr>
         <tr>
+            <td class="has-text-centered"><br><div class="button is-dark">Dark</div><br><br></td>
+            <td class="has-text-centered"><hr class="is-small"><code>is-dark</code></td>
+            <td><hr class="is-small">Dark looking button.</td>
+        </tr>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-link is-light">Light</div><br><br></td>
+            <td class="has-text-centered"><hr class="is-small"><code>is-light<br>(is-[color]) </code></td>
+            <td><hr class="is-small">Light looking button (applicable to any button).</td>
+        </tr>
+        <tr>
             <td class="has-text-centered"><br><div class="button is-success">Success</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>is-success</code></td>
             <td><hr class="is-small">For success related things, ex: <strong>"Win a price!"</strong>.</td>
@@ -44,16 +54,6 @@
             <td class="has-text-centered"><br><div class="button is-danger">Dangerous</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>is-danger</code></td>
             <td><hr class="is-small">For primary dangerous actions, like <strong>"Delete"</strong>.</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-dark">Dark</div><br><br></td>
-            <td class="has-text-centered"><hr class="is-small"><code>is-dark</code></td>
-            <td><hr class="is-small">Dark looking button.</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-link is-light">Light</div><br><br></td>
-            <td class="has-text-centered"><hr class="is-small"><code>is-light<br>(is-[color]) </code></td>
-            <td><hr class="is-small">Light looking button (applicable to any button).</td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
