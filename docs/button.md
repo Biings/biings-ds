@@ -11,7 +11,7 @@
 <table class="table is-fullwidth is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><button class="button">Button</button><br><br></td>
+            <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>button</code></td>
             <td><hr class="is-small">For controls, like Dropdowns.</td>
         </tr>
@@ -25,7 +25,6 @@
             <td class="has-text-centered"><hr class="is-small"><code>is-secondary</code></td>
             <td><hr class="is-small">For secondary actions, ex: <strong>"Cancel"</strong>.</td>
         </tr>
-        
         <tr>
             <td class="has-text-centered"><br><div class="button is-success">Success</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>is-success</code></td>
@@ -52,9 +51,9 @@
             <td><hr class="is-small">Dark looking button.</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light">Light</div><br><br></td>
-            <td class="has-text-centered"><hr class="is-small"><code>is-light</code></td>
-            <td><hr class="is-small">Light looking button.</td>
+            <td class="has-text-centered"><br><div class="button is-link is-light">Light</div><br><br></td>
+            <td class="has-text-centered"><hr class="is-small"><code>is-light<br>(is-[color]) </code></td>
+            <td><hr class="is-small">Light looking button (applicable to any button).</td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
@@ -73,15 +72,15 @@
 <table class="table is-fullwidth is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-small">Sml</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light is-small">Sml</div><br><br></td>
             <td><hr class="is-small"><code>is-small</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-medium">Med</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light is-medium">Med</div><br><br></td>
             <td><hr class="is-small"><code>is-medium</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-large">Lrg</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light is-large">Lrg</div><br><br></td>
             <td><hr class="is-small"><code>is-large</code></td>
         </tr>
         <tr>
@@ -89,28 +88,41 @@
             <td><hr class="is-small"><code>is-glowing</code> + <code>is-[primary,danger or success]</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-dark is-outlined">Outlined</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-primary is-outlined">Outlined</div><br><br></td>
             <td><hr class="is-small"><code>is-outlined</code> + a color</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-beefy">Beefy</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light is-beefy">Beefy</div><br><br></td>
             <td><hr class="is-small"><code>is-beefy</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-rounded">Rounded</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light is-rounded">Rounded</div><br><br></td>
             <td><hr class="is-small"><code>is-rounded</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><button class="button is-loading">Loading</button><br><br></td>
+            <td class="has-text-centered"><br><button class="button is-light is-loading">Loading</button><br><br></td>
             <td><hr class="is-small"><code>is-loading</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button" disabled>Disabled</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light" disabled>Disabled</div><br><br></td>
             <td><hr class="is-small"><code>disabled</code> attribute</td>
         </tr>
     </tbody>
 </table>
 
+<hr class="is-large is-visible">
+
+<h2 class="title is-4 is-family-sans-serif">Clicked Effect</h2>
+
+Using the `<button>` tag with the `button` class will add a remanent effect once the button is clicked.
+
+<hr class="is-small">
+
+<div class="box is-well is-marginless is-large">
+    <button class="button is-medium">Button</button>
+</div>
+
+    <button class="button">Button</button>
 <hr class="is-large is-visible">
 
 <h2 class="title is-4 is-family-sans-serif">Button Group</h2>

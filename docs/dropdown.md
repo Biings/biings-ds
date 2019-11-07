@@ -90,8 +90,8 @@ Any element or component can trigger a dropdown when placed inside the `.dropdow
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">This already has</a>
-                <a class="dropdown-item">The class `is-active`</a>
+                <a class="dropdown-item">This dropdown already has . .</a>
+                <a class="dropdown-item">. . the class <code>is-active</code>.</a>
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 <div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-secondary">Choose a value</div>
+            <div class="button is-light">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -163,7 +163,7 @@ Create a system default select list just by wrapping it with a `.select` div.
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
-    <div class="select">
+    <div class="select is-primary">
         <select>
             <option value="">Default</option>
             <option value="">System</option>
@@ -172,7 +172,7 @@ Create a system default select list just by wrapping it with a `.select` div.
         </select>
     </div>
     &nbsp; &nbsp;
-    <div class="select is-medium">
+    <div class="select is-medium is-success">
             <select>
                 <option value="">Medium</option>
                 <option value="">System</option>

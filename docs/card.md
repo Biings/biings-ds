@@ -10,7 +10,7 @@
     <div class="card">
         <div class="card-content">
             <div class="title is-4">A Card is like a Box, but with action buttons.</div>
-            <div class="subtitle is-6 is-italic">The Biings Design System</div>
+            <div class="subtitle is-6 is-italic">– The Biings Design System</div>
         </div>
         <footer class="card-footer">
             <a class="card-footer-item has-text-weight-semibold">I Agree</a>
