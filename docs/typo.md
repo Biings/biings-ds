@@ -24,9 +24,9 @@
     <li><span class="has-text-weight-light">300 — Light</span></li>
     <li><span class="has-text-weight-normal">400 — Normal / <span class="is-family-secondary">Light Serif</span></span></li>
     <li><span class="has-text-weight-medium">500 — Medium / <span class="is-family-secondary">Medium Serif</span></span></li>
-    <li><span class="has-text-weight-semibold">600 — Semibold</span></li>
-    <li><span class="has-text-weight-bold">800 — Bold / <span class="is-family-secondary">Bold Serif</span></span></li>
-    <li><span class="has-text-weight-bolder">900 — Bolder</span></li>
+    <li><span class="has-text-weight-semibold">600 — Semibold / <span class="is-family-secondary">Semibold Serif</span></span></li>
+    <li><span class="has-text-weight-bold">800 — Bold</span></li>
+    <li><span class="has-text-weight-bolder">900 — Bolder / <span class="is-family-secondary">Bolder Serif</span></span></li>
 </ul>
 
 <hr class="is-large is-visible">

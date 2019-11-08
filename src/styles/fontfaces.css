@@ -166,6 +166,26 @@
 /* Merriweather Black */
 @font-face
 {
+    font-weight: 600;
+    font-style: normal;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-700.woff') format('woff'),
+    url('fonts/Merriweather-700.eot') format('eot');
+}
+
+/* Merriweather Black Italic */
+@font-face
+{
+    font-weight: 600;
+    font-style: italic;
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-700italic.woff') format('woff'),
+    url('fonts/Merriweather-700italic.eot') format('eot');
+}
+
+/* Merriweather UltraBold */
+@font-face
+{
     font-weight: 900;
     font-style: normal;
     font-family: Merriweather;
@@ -173,7 +193,7 @@
     url('fonts/Merriweather-900.eot') format('eot');
 }
 
-/* Merriweather Black Italic */
+/* Merriweather UltraBold Italic */
 @font-face
 {
     font-weight: 900;
