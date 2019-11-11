@@ -7,7 +7,7 @@
 - [Colors](color)
 - [Iconography](icons)
 - [Rules](rules)
-- [Terminology](terms)
+<!-- - [Terminology](terms) -->
 - [Typography](typo)
 - [Voice & Tone](voice)
 </ul></div>

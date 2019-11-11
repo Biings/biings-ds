@@ -9,12 +9,13 @@
 <div class="box is-well is-large is-marginless">
     <div class="card">
         <div class="card-content">
-            <div class="title is-4">A Card is like a Box, but with action buttons.</div>
-            <div class="subtitle is-6 is-italic">– The Biings Design System</div>
+            <div class="title">A Card is like a Box, but with action buttons.</div>
+            <div class="subtitle is-5">– The Biings Design System</div>
         </div>
         <footer class="card-footer">
-            <a class="card-footer-item has-text-weight-semibold">I Agree</a>
-            <a class="card-footer-item has-text-grey-darker">What? No!.</a>
+            <a class="card-footer-item">Agree</a>
+            <a class="card-footer-item">Don't agree</a>
+            <a class="card-footer-item">Cancel</a>
         </footer>
     </div>
 </div>
@@ -27,14 +28,17 @@
             <a class="card-footer-item">
                 Action-1
             </a>
-            <a class="card-footer-item has-text-weight-semibold">
+            <a class="card-footer-item">
                 Action-2
+            </a>
+            <a class="card-footer-item">
+                Action-3
             </a>
         </footer>
     </div>
 <br>
 
-?> A Card can have **one**, **two** or **three** action items!
+?> A Card can have **one**, **two** or **three** action items.
 
 <hr>
 
