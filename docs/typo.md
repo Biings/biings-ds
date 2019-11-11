@@ -74,12 +74,12 @@ Use one of the following classes to emphasize words or part of a text.
 <div class="level is-marginless is-size-5 has-background-white-bis">
     <div class="level-item is-marginless">
         <div class="box is-large">
-            And let's <em>highlight this in yellow</em>..
+            And let's<em> highlight this part </em>..
         </div>
     </div>
     <div class="level-item is-large is-marginless">
         <div class="box is-large has-background-black-ter has-text-white">
-            Or <em class="is-primary">some of that in purple</em>.
+            Or <em class="is-primary">that on a dark background</em>.
         </div>
     </div>
 </div>
