@@ -59,7 +59,7 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
         <div class="dropdown-trigger">
             <div class="button">
                 <span>With custom icon &nbsp;</span>
-                <svg class="icon has-fill-green"><use xlink:href="media/bds-icons.min.svg#help"></use></svg>&nbsp;
+                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg>&nbsp;&nbsp;
             </div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
