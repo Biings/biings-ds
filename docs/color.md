@@ -60,45 +60,45 @@ Brand colors are used when refering to Biings or any of its products.
 <hr class="is-small">
 
 <div class="columns is-multiline">
+    <div class="column is-3"><div class="has-background-purple-dark"><br><br></div><strong>purple-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#803C88</span></div>
+    <div class="column is-3"><div class="has-background-purple has-shadow"><br><br></div><strong>purple</strong><br><span class="has-text-grey-dark is-family-monospace">#AA50B5</span></div>
+    <div class="column is-3"><div class="has-background-purple-light"><br><br></div><strong>purple-light</strong><br><span class="has-text-grey-dark is-family-monospace">#C485CB</span></div>
+    <div class="column is-3"><div class="has-background-purple-lighter"><br><br></div><strong>purple-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#EEDCF0</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-red-dark"><br><br></div><strong>red-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#C34450</span></div>
+    <div class="column is-3"><div class="has-background-red has-shadow"><br><br></div><strong>red</strong><br><span class="has-text-grey-dark is-family-monospace">#F45564</span></div>
+    <div class="column is-3"><div class="has-background-red-light"><br><br></div><strong>red-light</strong><br><span class="has-text-grey-dark is-family-monospace">#F78893</span></div>
+    <div class="column is-3"><div class="has-background-red-lighter"><br><br></div><strong>red-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FDDDE0</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-orange-dark"><br><br></div><strong>orange-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#D97A37</span></div>
+    <div class="column is-3"><div class="has-background-orange has-shadow"><br><br></div><strong>orange</strong><br><span class="has-text-grey-dark is-family-monospace">#FF8F41</span></div>
+    <div class="column is-3"><div class="has-background-orange-light"><br><br></div><strong>orange-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FFB17A</span></div>
+    <div class="column is-3"><div class="has-background-orange-lighter"><br><br></div><strong>orange-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFE9D9</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-yellow-dark"><br><br></div><strong>yellow-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#D9A93D</span></div>
+    <div class="column is-3"><div class="has-background-yellow has-shadow"><br><br></div><strong>yellow</strong><br><span class="has-text-grey-dark is-family-monospace">#FFC748</span></div>
+    <div class="column is-3"><div class="has-background-yellow-light"><br><br></div><strong>yellow-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FFD87F</span></div>
+    <div class="column is-3"><div class="has-background-yellow-lighter"><br><br></div><strong>yellow-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFEEC8</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-green-dark"><br><br></div><strong>green-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#009351</span></div>
+    <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><strong>green</strong><br><span class="has-text-grey-dark is-family-monospace">#00C46C</span></div>
+    <div class="column is-3"><div class="has-background-green-light"><br><br></div><strong>green-light</strong><br><span class="has-text-grey-dark is-family-monospace">#4DD698</span></div>
+    <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><strong>green-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CCF3E2</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-turquoise-dark"><br><br></div><strong>turquoise-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#009688</span></div>
+    <div class="column is-3"><div class="has-background-turquoise has-shadow"><br><br></div><strong>turquoise</strong><br><span class="has-text-grey-dark is-family-monospace">#00C8B5</span></div>
+    <div class="column is-3"><div class="has-background-turquoise-light"><br><br></div><strong>turquoise-light</strong><br><span class="has-text-grey-dark is-family-monospace">#4DD9CB</span></div>
+    <div class="column is-3"><div class="has-background-turquoise-lighter"><br><br></div><strong>turquoise-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CCF4F0</span></div>
+    <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-cyan-dark"><br><br></div><strong>cyan-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#018FB0</span></div>
-    <div class="column is-3"><div class="has-background-cyan has-shadow"><br><br></div><strong>cyan</strong><br><span class="has-text-grey-dark is-family-monospace">#087FD2</span></div>
+    <div class="column is-3"><div class="has-background-cyan has-shadow"><br><br></div><strong>cyan</strong><br><span class="has-text-grey-dark is-family-monospace">#01BFEA</span></div>
     <div class="column is-3"><div class="has-background-cyan-light"><br><br></div><strong>cyan-light</strong><br><span class="has-text-grey-dark is-family-monospace">#4DD2F0</span></div>
-    <div class="column is-3"><div class="has-background-cyan-lighter"><br><br></div><strong>cyan-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#99E5F7</span></div>
+    <div class="column is-3"><div class="has-background-cyan-lighter"><br><br></div><strong>cyan-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CCF2FB</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-blue-dark"><br><br></div><strong>blue-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#445C97</span></div>
-    <div class="column is-3"><div class="has-background-blue has-shadow"><br><br></div><strong>blue</strong><br><span class="has-text-grey-dark is-family-monospace">#5A7BC9</span></div>
-    <div class="column is-3"><div class="has-background-blue-light"><br><br></div><strong>blue-light</strong><br><span class="has-text-grey-dark is-family-monospace">#8CA3D9</span></div>
-    <div class="column is-3"><div class="has-background-blue-lighter"><br><br></div><strong>blue-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#BDCAE9</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-purple-dark"><br><br></div><strong>purple-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#564499</span></div>
-    <div class="column is-3"><div class="has-background-purple has-shadow"><br><br></div><strong>purple</strong><br><span class="has-text-grey-dark is-family-monospace">#735BCC</span></div>
-    <div class="column is-3"><div class="has-background-purple-light"><br><br></div><strong>purple-light</strong><br><span class="has-text-grey-dark is-family-monospace">#9D8CDB</span></div>
-    <div class="column is-3"><div class="has-background-purple-lighter"><br><br></div><strong>purple-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#C7BDEB</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-red-dark"><br><br></div><strong>red-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#BF4E56</span></div>
-    <div class="column is-3"><div class="has-background-red has-shadow"><br><br></div><strong>red</strong><br><span class="has-text-grey-dark is-family-monospace">#EF626C</span></div>
-    <div class="column is-3"><div class="has-background-red-light"><br><br></div><strong>red-light</strong><br><span class="has-text-grey-dark is-family-monospace">#F49198</span></div>
-    <div class="column is-3"><div class="has-background-red-lighter"><br><br></div><strong>red-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#F9C0C4</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-orange-dark"><br><br></div><strong>orange-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#D97F04</span></div>
-    <div class="column is-3"><div class="has-background-orange has-shadow"><br><br></div><strong>orange</strong><br><span class="has-text-grey-dark is-family-monospace">#FF9505</span></div>
-    <div class="column is-3"><div class="has-background-orange-light"><br><br></div><strong>orange-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FFB550</span></div>
-    <div class="column is-3"><div class="has-background-orange-lighter"><br><br></div><strong>orange-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFD59B</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-yellow-dark"><br><br></div><strong>yellow-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#E3AB1B</span></div>
-    <div class="column is-3"><div class="has-background-yellow has-shadow"><br><br></div><strong>yellow</strong><br><span class="has-text-grey-dark is-family-monospace">#FCCA48</span></div>
-    <div class="column is-3"><div class="has-background-yellow-light"><br><br></div><strong>yellow-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FFE08E</span></div>
-    <div class="column is-3"><div class="has-background-yellow-lighter"><br><br></div><strong>yellow-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFECBA</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-turquoise-dark"><br><br></div><strong>turquoise-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#46A391</span></div>
-    <div class="column is-3"><div class="has-background-turquoise has-shadow"><br><br></div><strong>turquoise</strong><br><span class="has-text-grey-dark is-family-monospace">#5DD9C1</span></div>
-    <div class="column is-3"><div class="has-background-turquoise-light"><br><br></div><strong>turquoise-light</strong><br><span class="has-text-grey-dark is-family-monospace">#8EE4D4</span></div>
-    <div class="column is-3"><div class="has-background-turquoise-lighter"><br><br></div><strong>turquoise-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#BEF0E6</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-green-dark"><br><br></div><strong>green-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#449956</span></div>
-    <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><strong>green</strong><br><span class="has-text-grey-dark is-family-monospace">#5BCC72</span></div>
-    <div class="column is-3"><div class="has-background-green-light"><br><br></div><strong>green-light</strong><br><span class="has-text-grey-dark is-family-monospace">#8CDB9C</span></div>
-    <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><strong>green-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#BDEBC7</span></div>
+    <div class="column is-3"><div class="has-background-blue-dark"><br><br></div><strong>blue-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#065F9E</span></div>
+    <div class="column is-3"><div class="has-background-blue has-shadow"><br><br></div><strong>blue</strong><br><span class="has-text-grey-dark is-family-monospace">#087FD2</span></div>
+    <div class="column is-3"><div class="has-background-blue-light"><br><br></div><strong>blue-light</strong><br><span class="has-text-grey-dark is-family-monospace">#52A5E0</span></div>
+    <div class="column is-3"><div class="has-background-blue-lighter"><br><br></div><strong>blue-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CEE5F6</span></div>
 </div>
 
 <hr class="is-large is-visible">
