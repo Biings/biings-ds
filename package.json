@@ -9,9 +9,10 @@
         "copytodoc": "cp build/bds.css docs/bds.css",
         "copycomb": "cp src/styles/.csscomb.json build/",
         "icons": "grunt",
-        "styles": "npm run sass && npm run postcss && npm run copytodoc",
+        "styles": "npm run sass && npm run postcss && npm run copytodoc && npm run cleanup",
         "build": "npm run styles && npm run icons && npm run copycomb",
-        "dev": "docsify serve docs --port 3001"
+        "dev": "docsify serve docs --port 3001",
+        "cleanup": "rm -f src/styles/bulma/bulma.css"
     },
     "files": [
         "build/*"

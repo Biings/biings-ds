@@ -81,7 +81,7 @@ div.content
 .markdown-section
 {
     padding: 5px 30px 40px;
-    max-width: 815px;
+    max-width: 1024px;
 }
 .markdown-section > *
 {
@@ -175,7 +175,7 @@ body.close .sidebar-toggle
 {
     .markdown-section
     {
-        margin: 0 0 0 5%;
+        margin: 0 4%;
     }
 }
 @media screen and (min-width: 769px)
