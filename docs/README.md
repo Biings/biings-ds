@@ -1,4 +1,5 @@
-<h1 class="title is-0 is-family-secondary">Biings Design System</h1>
+<hr class="is-hidden-desktop is-smaller">
+<h1 class="title is-0 is-size-1-mobile is-family-secondary">Biings Design System</h1>
 <hr class="is-small">
 <p class="subtitle is-4">
     <span class="has-text-weight-semibold">The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
