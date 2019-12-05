@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Dropdown</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     The <span class="has-text-weight-semibold">dropdown</span> allow users to choose from a list of different actions or choices.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-relaxed is-marginless">
 
@@ -45,9 +44,9 @@
         </div>
     </div>
     
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Use a custom icon</h2>
+<h2 class="title is-3 is-family-sans-serif">Use a custom icon</h2>
 
 Use `is-iconless` if you want to use your own icon in the dropdown button.
 
@@ -72,9 +71,9 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 </div>
 
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Changer the trigger</h2>
+<h2 class="title is-3 is-family-sans-serif">Changer the trigger</h2>
 
 Any element or component can trigger a dropdown when placed inside the `.dropdown-trigger` div.
 
@@ -100,9 +99,9 @@ Any element or component can trigger a dropdown when placed inside the `.dropdow
 
 ?> Use the class `.is-active` if you want to control the dropdown with javascript.<br>For CSS only, use `.is-hoverable`.
 
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Searchable list</h2>
+<h2 class="title is-3 is-family-sans-serif">Searchable list</h2>
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
@@ -146,9 +145,9 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
     </div>
 <a id="selectlist"></a>
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Select list</h2>
+<h2 class="title is-3 is-family-sans-serif">Select list</h2>
 
 Create a system default select list just by wrapping it with a `.select` div.
 

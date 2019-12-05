@@ -1,10 +1,10 @@
 <h1 class="title is-1 is-family-secondary">How to contribute</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     We welcome all feedback and ideas in order to produce the best possible experience for our users!
 </p>
 
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/biings/biings-ds" class="is-underlined">https://github.com/biings/biings-ds</a></p>
 <br>

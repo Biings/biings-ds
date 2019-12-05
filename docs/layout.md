@@ -1,12 +1,11 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Layout</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
+<hr class="is-visible is-size-3"><br>
 
-<hr class="is-visible"><br>
-
-<h2 class="title is-4 is-family-sans-serif">Container</h2>
+<h2 class="title is-3 is-family-sans-serif">Container</h2>
 
 Container is used to center your content horizontally. There are 3 levels :
 <hr class="is-smaller">
@@ -30,9 +29,9 @@ Container is used to center your content horizontally. There are 3 levels :
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Container</strong>
 </a>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Section</h2>
+<h2 class="title is-3 is-family-sans-serif">Section</h2>
 
 Sections are used to handle **vertical spacing** as well as ensuring a minimum horizontal padding from the window. 
 Add class `is-medium` or `is-large` to fruther increase the vertical space.
@@ -51,9 +50,9 @@ Add class `is-medium` or `is-large` to fruther increase the vertical space.
     <div class="section is-large">
         Large size
     </div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Columns</h2>
+<h2 class="title is-3 is-family-sans-serif">Columns</h2>
 
 Columns are used to structure content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
 
@@ -88,9 +87,9 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
 </a>
   
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Level</h2>
+<h2 class="title is-3 is-family-sans-serif">Level</h2>
 
 Use **Level items** when you need to vertically center elements on one line.
 
@@ -122,9 +121,9 @@ Use **Level items** when you need to vertically center elements on one line.
       </div>
     </div>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Spacer</h2>
+<h2 class="title is-3 is-family-sans-serif">Spacer</h2>
 
 Use a **Spacer** – aka HR or Divider – as a visual help for grouping related content together. It is used to define thematic changes in a layout.
 
@@ -132,9 +131,12 @@ Use a **Spacer** – aka HR or Divider – as a visual help for grouping related
 
 <div class="box is-well is-large is-marginless">
     <hr class="is-visible">
+    <br>
+    <hr class="is-visible is-wavy">
 </div>
   
       <hr class="is-visible">
+      <hr class="is-visible is-wavy">
   <br>
   
 ?> By default a spacer uses negative space to create a seperation. Use the `is-visible` class to show an explicit line division (divider).

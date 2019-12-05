@@ -1,16 +1,16 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Rules</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     When designing features, <span class="has-text-weight-semibold">Rules</span> ensure the safeguard of <a href="https://biings.com/en/philosophy">Biings philosophy</a>. They are the result of careful reflexions on how to implement any specific HR principle and establish an agreed approach to recurent problems.
 </p>
 
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div id="r-wc" class="box is-expandable is-unselectable is-large has-background-white-bis is-raised is-floating hover-to-popping" onclick="toggleExpand('r-wc')">
     <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Repetitive absences</span>
     <div class="expanded-content content">
-        <hr class="is-visible">
+        <hr class="is-visible is-size-4">
         A person reaches a status of repetitive absences when he or she accumulates <em>4 unplanned cases of absences within the last 12 months</em>.
         <br><br>
         The status remains as long as the person continues to be chronicly absent. The status is removed once the total number of unplanned absences in the last 12 months drops below 4.
@@ -24,9 +24,9 @@
     <span class="subtitle is-size-7 has-text-primary">CLASSIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Absences duration categories</span>
     <div class="expanded-content content">
-        <hr class="is-visible">
+        <hr class="is-visible is-size-4">
         Absences can be sorted into 6 categories depending on their duration (in days):
-        <hr class="is-smaller">
+        <hr>
         <table>
             <thead><tr><th>Category</th><th>Duration</th></tr></thead>
             <tbody>            
@@ -48,7 +48,7 @@
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Return to work</span>
     <div class="expanded-content">
-        <hr class="is-visible">
+        <hr class="is-visible is-size-4">
         <span class="has-text-weight-medium">Time Relevance</span> : within <em>5 days</em> after the person has returned.
     </div>
 </div>
@@ -57,7 +57,7 @@
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">1-on-1 Assessment (<span class="">I</span> & <span class="">II</span>)</span>
     <div class="expanded-content">
-        <hr class="is-visible">
+        <hr class="is-visible is-size-4">
         <span class="has-text-weight-medium">Time Relevance</span> : within <em>45 days</em> after the last absence.
     </div>
 </div>
@@ -66,7 +66,7 @@
     <span class="subtitle is-size-7 has-text-primary">NOTIFICATION</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">HR Assessment</span>
     <div class="expanded-content">
-        <hr class="is-visible">
+        <hr class="is-visible is-size-4">
         <span class="has-text-weight-medium">Time Relevance</span> : within <em>45 days</em> after the last absence.
     </div>
 </div>
@@ -75,7 +75,7 @@
     <span class="subtitle is-size-7 has-text-primary">ALGORITHM</span><br>
     <span class="title is-4 is-family-sans-serif has-text-weight-semibold">Next meeting type</span>
     <div class="expanded-content">
-        <hr class="is-visible">
+        <hr class="is-visible is-size-4">
         For a chronically absent person (4+) the next meeting type is either a 1-on-1 Assessment (the first one) or the meeting type coming after the type of the last meeting and if that meeting occurred within the last 12 months.
         <span class="has-text-weight-medium">Time Relevance</span> : within <em>45 days</em> after the last absence.
     </div>

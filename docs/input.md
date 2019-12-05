@@ -1,12 +1,11 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Input</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Input fields</span> enable users to provide information.
 </p>
+<hr class="is-visible is-size-3"><br>
 
-<hr class="is-visible"><br>
-
-<h2 class="title is-4 is-family-sans-serif">Defaults</h2>
+<h2 class="title is-3 is-family-sans-serif">Defaults</h2>
 
 <form class="box is-relaxed is-well is-marginless" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
@@ -19,9 +18,9 @@
     <input class="input is-small" type="text" placeholder="..">
     <input class="input" type="text" placeholder="..">
     <input class="input is-medium is-danger" type="text" placeholder="..">
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Form fields</h2>
+<h2 class="title is-3 is-family-sans-serif">Form fields</h2>
 
 <form class="box is-well is-relaxed is-marginless" spellcheck="false">
     <div class="field">

@@ -1,9 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Colors</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <br>
-<h2 class="title is-4 is-spaced is-family-sans-serif">Brand</h2>
+<h2 class="title is-3 is-spaced is-family-sans-serif">Brand</h2>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -14,7 +14,7 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong>primary</strong> <br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
     <div class="column is-4"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="has-text-grey-dark"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
     <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="has-text-grey-dark is-family-monospace">#46285D</span></div>
-    <div class="column is-12"><hr class="is-visible is-thin"><br></div>
+    <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#5B3478</span></div>
     <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary · pilot</strong><br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
@@ -31,9 +31,9 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFDFAE</span></div>
 </div>
 
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Greyscale</h2>
+<h2 class="title is-3 is-family-sans-serif">Greyscale</h2>
 
 <hr class="is-small">
 
@@ -53,9 +53,9 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="has-text-grey-dark is-family-monospace">#514759</span></div>
 </div>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Palette</h2>
+<h2 class="title is-3 is-family-sans-serif">Palette</h2>
 
 <hr class="is-small">
 
@@ -101,9 +101,9 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-blue-lighter"><br><br></div><strong>blue-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CEE5F6</span></div>
 </div>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif is-spaced">Color modifiers</h2>
+<h2 class="title is-3 is-family-sans-serif is-spaced">Color modifiers</h2>
 
 Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
 
@@ -121,9 +121,9 @@ Most elements and components have color variations thanks to modifiers with synt
 </tbody>
 </table>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif is-spaced">CSS variables</h2>
+<h2 class="title is-3 is-family-sans-serif is-spaced">CSS variables</h2>
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
@@ -142,7 +142,7 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
 </pre>
 
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
 <div class="box is-large is-raised is-floating hover-to-popping">
     <div class="subtitle is-3"><span class="tag is-small is-primary is-uppercase has-text-weight-semibold">Bonus</span></div>

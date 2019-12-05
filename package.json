@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ForsysInteractive/biings-ds.git"
+        "url": "git+https://github.com/Biings/biings-ds.git"
     },
     "keywords": [
         "biings",
@@ -36,7 +36,7 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ForsysInteractive/biings-ds/issues",
+        "url": "https://biings.com/contact",
         "email": "info@biings.com"
     },
     "homepage": "https://biings.design",

@@ -1,19 +1,18 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Skeleton</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Squeleton</span> is a blank version of a component that has not been loaded yet. Unlike Loaders, a skeleton screen visually tells users what to expect and make them focus on the progress, rather than the wait time.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-relaxed is-marginless">
     <div class="has-skeleton"></div>
 </div>
 
     <div class="has-skeleton"></div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Anything can be a Skeleton <span class="has-text-weight-normal has-text-red">(Beta)</span></h2>
+<h2 class="title is-3 is-family-sans-serif">Anything can be a Skeleton <span class="has-text-weight-normal has-text-red">(Beta)</span></h2>
 
 Add class `has-skeleton` to any empty component to show its skeleton.
 

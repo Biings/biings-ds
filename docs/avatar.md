@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Avatar</h1>
-<hr class="is-visible">
-<p class="subtitle is-5 is-family-secondary">
+<hr class="is-visible is-size-3">
+<p class="is-size-5 is-family-secondary">
     <span class="has-text-weight-semibold">Avatar</span> is used to display a picture, typically next to a person's name.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-relaxed is-marginless">
     <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
@@ -19,9 +18,9 @@
 
 ?> For flexibility purpose the background defaults to "transparent" and should be set manually.
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Sizes</h2>
+<h2 class="title is-3 is-family-sans-serif">Sizes</h2>
 
 In addition to the default size, use classes `is-small`, `is-medium`, `is-large` and `is-huge` to adjust the size of an avatar.
 <hr class="is-small">
@@ -32,9 +31,9 @@ In addition to the default size, use classes `is-small`, `is-medium`, `is-large`
     <div class="level-item"><div class="avatar is-huge"><div class="has-background-primary">H</div></div><span class="is-size-3">Huge</span></div>
 </div>
 
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Photo Avatar</h2>
+<h2 class="title is-3 is-family-sans-serif">Photo Avatar</h2>
 
 Avatars can nest an image to act as a person's photo.
 
@@ -48,9 +47,9 @@ Avatars can nest an image to act as a person's photo.
         <img src="https://www.gravatar.com/avatar/aamir.gif">
     </div>
     <span class="subtitle is-5">Redford, Robert</span>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Status</h2>
+<h2 class="title is-3 is-family-sans-serif">Status</h2>
 
 Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-black">black</span> and white.
 

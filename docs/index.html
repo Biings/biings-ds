@@ -37,8 +37,8 @@
         plugins: [
           function (hook,vm) {
             hook.beforeEach(function (html) {
-              return html + '<hr>'
-              +'<footer class="is-clearfix is-size-7 has-text-grey-dark"><hr class="is-visible"><div class="level">'
+              return html + '<hr class="is-size-2">'
+              +'<footer class="is-clearfix is-size-7 has-text-grey-dark"><hr class="is-visible is-size-3"><div class="level">'
               +'<div class="level-left"><div class="level-item"><a href="https://www.biings.com/" class="has-text-grey-dark">2019 © Biings</a></div></div>'
               +'<div class="level-right"><div class="level-item">Last edited on {docsify-updated}</div></div>'
               +'</div></footer>'

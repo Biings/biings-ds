@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Checkbox</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Checkboxes</span> are used when there is a list of options and the user may select multiple options, including all or none.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-marginless is-large">
     <label class="checkbox">
@@ -41,9 +40,9 @@
 
 ?> **A checkbox's label should always toggle the checkbox when clicked!**<br>Make sure the label's text is a direct child of `.checkbox`
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Toggle</h2>
+<h2 class="title is-3 is-family-sans-serif">Toggle</h2>
 
 A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
 
@@ -52,7 +51,7 @@ A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle (but I'm still a checkbox)
     </label>
-    <hr class="is-visible">
+    <hr class="is-visible is-size-4">
     <label class="checkbox is-toggle is-large">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I can be larger!

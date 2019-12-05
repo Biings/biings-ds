@@ -136,6 +136,12 @@ div.content
 .markdown-section hr
 {
     border: none;
+    margin: 1em 0;
+}
+.markdown-section hr.is-thin
+{
+    border: none;
+    margin: 0;
 }
 
 aside.sidebar

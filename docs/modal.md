@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Modal</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal('')" class="button is-primary is-beefy is-glowing">Open Modal</div>
@@ -32,9 +31,9 @@
 
 ?> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Modal Card</h2>
+<h2 class="title is-3 is-family-sans-serif">Modal Card</h2>
 
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Open Card</div>
@@ -77,8 +76,8 @@
             </footer>
         </div>
     </div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Pin to top</h2>
+<h2 class="title is-3 is-family-sans-serif">Pin to top</h2>
 
 Use `is-pinned` to prevent the modal from re-centering itself when its content change.

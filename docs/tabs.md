@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Tabs</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Tabs</span> are used to quickly navigate between views within the same context.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-marginless is-large">
     <div class="tabs">
@@ -25,9 +24,9 @@
             <li><a>Claim</a></li>
         </ul>
     </div>
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Boxed Tabs</h2>
+<h2 class="title is-3 is-family-sans-serif">Boxed Tabs</h2>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
 

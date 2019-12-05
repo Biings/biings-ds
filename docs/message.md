@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Message</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Message</span> allows to communicate information to the user. Messages can act as notifications or other kinds of alert messages.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-relaxed is-marginless">
     <div class="message">
@@ -38,9 +37,9 @@
     </div>
 <br>
 
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Colors and sizes</h2>
+<h2 class="title is-3 is-family-sans-serif">Colors and sizes</h2>
 
 Messages support modifiers `is-info`, `is-danger`, `is-warning`, `is-success` as well as size modifiers `is-small` and `is-large`.
 
@@ -62,9 +61,9 @@ Messages support modifiers `is-info`, `is-danger`, `is-warning`, `is-success` as
     </div>
 </div>
 
-<hr class="is-visible is-large">
+<hr class="is-visible is-size-1">
 
-<h2 class="title is-4 is-family-sans-serif">Notification message</h2>
+<h2 class="title is-3 is-family-sans-serif">Notification message</h2>
 
 A Message can act as a notification when combined with a Modal. Add `is-noti` and put the message in a <a href="#/modal">simple Modal</a> to create an overlayed notification message.
 

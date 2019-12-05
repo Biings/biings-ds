@@ -1,11 +1,11 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Iconography</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
-<h2 class="title is-4 is-family-sans-serif">How to use</h2>
+<h2 class="title is-3 is-family-sans-serif">How to use</h2>
 
 BDS iconography is available as an SVG sprite to include in your HTML page.<br>
 To display an icon or glyph use an ```<svg>``` tag with an `xlink:href` attribute.
@@ -13,86 +13,86 @@ To display an icon or glyph use an ```<svg>``` tag with an `xlink:href` attribut
 <br>
 
     <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Icons</h2>
+<h2 class="title is-3 is-family-sans-serif">Icons</h2>
 
 Icons are mostly used to provide a visual accompaniment to other UI components.<br>
-They should **not be less than 24 pixels** (width and height).
+They should **not be less than 32 pixels** (width and height).
 
 <br>
 
 
-?> Use an **equivalent glyph** when displayed below 24px.
+?> Use an **equivalent glyph** when displayed below 32px.
 
 <br><br>
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident"></use></svg></div>accident</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#army"></use></svg></div>army</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-left"></use></svg></div>arrow-left</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-right"></use></svg></div>arrow-right</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-up"></use></svg></div>arrow-up</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-down"></use></svg></div>arrow-down</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#assessment"></use></svg></div>assessment</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#attachment"></use></svg></div>attachment</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bank"></use></svg></div>bank</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#birthday"></use></svg></div>birthday</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#business"></use></svg></div>business</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#business-big"></use></svg></div>business-big</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#book"></use></svg></div>book</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bubble"></use></svg></div>bubble</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bubbles"></use></svg></div>bubbles</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#briefcase"></use></svg></div>briefcase</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#certificate"></use></svg></div>certificate</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#chair"></use></svg></div>chair</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#check"></use></svg></div>check</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#clock"></use></svg></div>clock</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#coaching"></use></svg></div>coaching</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#compliant"></use></svg></div>compliant</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#crossroad"></use></svg></div>crossroad</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#deadline"></use></svg></div>deadline</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#download"></use></svg></div>download</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#dropbox"></use></svg></div>dropbox</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#globe"></use></svg></div>globe</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#heart-check"></use></svg></div>heart-check</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#help"></use></svg></div>help</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#holiday"></use></svg></div>holiday</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#indemnity"></use></svg></div>indemnity</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#job_assignement"></use></svg></div>job_assignement</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#mail"></use></svg></div>mail</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#manager"></use></svg></div>manager</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#maternity"></use></svg></div>maternity</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#other"></use></svg></div>other</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#pencil"></use></svg></div>pencil</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#persons"></use></svg></div>persons</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#phone-call"></use></svg></div>phone-call</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#profile"></use></svg></div>profile</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#refusal"></use></svg></div>refusal</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#reminder"></use></svg></div>reminder</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#rest"></use></svg></div>rest</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#role"></use></svg></div>role</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#salary"></use></svg></div>salary</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#settings"></use></svg></div>settings</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#sick"></use></svg></div>sick</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#social-climat"></use></svg></div>social-climat</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#stethoscope"></use></svg></div>stethoscope</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#talk"></use></svg></div>talk</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#trash"></use></svg></div>trash</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#treatment"></use></svg></div>treatment</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#user"></use></svg></div>user</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-40x40 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#yang"></use></svg></div>yang</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident"></use></svg></div>accident</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#army"></use></svg></div>army</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-left"></use></svg></div>arrow-left</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-right"></use></svg></div>arrow-right</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-up"></use></svg></div>arrow-up</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-down"></use></svg></div>arrow-down</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#assessment"></use></svg></div>assessment</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#attachment"></use></svg></div>attachment</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bank"></use></svg></div>bank</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#birthday"></use></svg></div>birthday</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#business"></use></svg></div>business</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#business-big"></use></svg></div>business-big</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#book"></use></svg></div>book</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bubble"></use></svg></div>bubble</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#bubbles"></use></svg></div>bubbles</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#briefcase"></use></svg></div>briefcase</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#certificate"></use></svg></div>certificate</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#chair"></use></svg></div>chair</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#check"></use></svg></div>check</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#clock"></use></svg></div>clock</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#coaching"></use></svg></div>coaching</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#compliant"></use></svg></div>compliant</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#crossroad"></use></svg></div>crossroad</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#deadline"></use></svg></div>deadline</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#download"></use></svg></div>download</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#dropbox"></use></svg></div>dropbox</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#globe"></use></svg></div>globe</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#heart-check"></use></svg></div>heart-check</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#help"></use></svg></div>help</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#holiday"></use></svg></div>holiday</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#indemnity"></use></svg></div>indemnity</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#job_assignement"></use></svg></div>job_assignement</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#mail"></use></svg></div>mail</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#manager"></use></svg></div>manager</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#maternity"></use></svg></div>maternity</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#medical"></use></svg></div>medical</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#other"></use></svg></div>other</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#pencil"></use></svg></div>pencil</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#person"></use></svg></div>person</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#persons"></use></svg></div>persons</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#phone-call"></use></svg></div>phone-call</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#profile"></use></svg></div>profile</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#refusal"></use></svg></div>refusal</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#reminder"></use></svg></div>reminder</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#rest"></use></svg></div>rest</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#role"></use></svg></div>role</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#salary"></use></svg></div>salary</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#settings"></use></svg></div>settings</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#search"></use></svg></div>search</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#sick"></use></svg></div>sick</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#social-climat"></use></svg></div>social-climat</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#stethoscope"></use></svg></div>stethoscope</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#talk"></use></svg></div>talk</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#trash"></use></svg></div>trash</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#treatment"></use></svg></div>treatment</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#user"></use></svg></div>user</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#yang"></use></svg></div>yang</div>
 </div>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Glyphs</h2>
+<h2 class="title is-3 is-family-sans-serif">Glyphs</h2>
 
 Glyphs are mostly used to be part of an actionable component (like a button or dropdown).
-<br>They should **not exceed 24 pixels** (width and height).
+<br>They should **not exceed 28 pixels** (width and height).
 
 <br><br>
 
@@ -122,6 +122,10 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#document-g"></use></svg></div>document-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg></div>download-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#edit-g"></use></svg></div>edit-g</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#eyeglasses-g"></use></svg></div>eyeglasses-g</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#eyeglasses-empty-g"></use></svg></div>eyeglasses-empty-g</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#eyeglasses-ok-g"></use></svg></div>eyeglasses-ok-g</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#eyeglasses-notok-g"></use></svg></div>eyeglasses-notok-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#gear-g"></use></svg></div>gear-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#gender-g"></use></svg></div>gender-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#globe-g"></use></svg></div>globe-g</div>
@@ -160,9 +164,9 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#yang-g"></use></svg></div>yang-g</div>
 </div>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Logos</h2>
+<h2 class="title is-3 is-family-sans-serif">Logos</h2>
 
 Logo icons should **not be less than 16px** (width and height).
 
@@ -170,7 +174,7 @@ Logo icons should **not be less than 16px** (width and height).
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-pilot"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-care"><use xlink:href="media/bds-icons.min.svg#biings-care"></use></svg></div>biings-care</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-claim"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
-    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-pilot"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
 </div>

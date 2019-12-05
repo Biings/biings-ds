@@ -1,10 +1,9 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Box</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Box</span> is a visual motif used to create groupings of content related to a same entity or subject as well as focus through depth.
 </p>
-
-<hr class="is-visible"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-marginless">
     <div class="box">
@@ -15,9 +14,9 @@
     <div class="box is-floating">
         <!-- Boxed content.. -->
     </div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Box depths</h2>
+<h2 class="title is-3 is-family-sans-serif">Box depths</h2>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
@@ -46,9 +45,9 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 </div>
 </div>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Depth transition</h2>
+<h2 class="title is-3 is-family-sans-serif">Depth transition</h2>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -71,9 +70,9 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     <div class="box is-well hover-to-popping">
             •••
     </div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Expandable box</h2>
+<h2 class="title is-3 is-family-sans-serif">Expandable box</h2>
 
 Add class `is-expandable` to boxes that can expand inline.<br>Then add the class `is-expanded` to a box that has been expanded.
 
@@ -99,9 +98,9 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
             Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.
         </div>
     </div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Link box</h2>
+<h2 class="title is-3 is-family-sans-serif">Link box</h2>
 
 Add class `is-link` to make a box behave like a link.
 

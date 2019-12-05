@@ -1,12 +1,11 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Button / Link</h1>
-<hr class="is-visible">
+<hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
+<hr class="is-visible is-size-3"><br>
 
-<hr class="is-visible"><br>
-
-<h2 class="title is-4 is-family-sans-serif">Defaults</h2>
+<h2 class="title is-3 is-family-sans-serif">Defaults</h2>
 
 <table class="table is-fullwidth is-bordered">
     <tbody>
@@ -63,9 +62,9 @@
     </tbody>
 </table>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Sizes, states and shapes</h2>
+<h2 class="title is-3 is-family-sans-serif">Sizes, states and shapes</h2>
 
 <hr class="is-small">
 
@@ -110,9 +109,9 @@
     </tbody>
 </table>
 
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Clicked Effect</h2>
+<h2 class="title is-3 is-family-sans-serif">Clicked Effect</h2>
 
 Using the `<button>` tag with the `button` class will add a remanent effect once the button is clicked.
 
@@ -123,9 +122,9 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
 </div>
 
     <button class="button">Button</button>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Button Group</h2>
+<h2 class="title is-3 is-family-sans-serif">Button Group</h2>
 
 <div class="box is-well is-marginless is-large">
     <div class="field has-addons">
@@ -152,9 +151,9 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
             <a class="button is-primary">Maybe</a>
         </p>
     </div>
-<hr class="is-large is-visible">
+<hr class="is-size-1 is-visible">
 
-<h2 class="title is-4 is-family-sans-serif">Links</h2>
+<h2 class="title is-3 is-family-sans-serif">Links</h2>
 
 Use a Link instead of a button when navigating or when the action is tertiary.
 
