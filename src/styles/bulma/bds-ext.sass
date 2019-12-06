@@ -83,7 +83,7 @@ hr.is-wavy
     background-repeat: repeat-x
 
 hr.is-wavy.is-thin
-    margin: 0 0.25em
+    margin: 0 .25em
 
 
 /* Table */
@@ -499,16 +499,45 @@ button.button.is-loading
 .select:not(.is-multiple):not(.is-loading):after
     margin-top: -.25em
 
-.label
-    text-transform: uppercase
-    letter-spacing: .5px
-    font-size: .75rem
-.label.is-small
-    font-size: .625rem
-.label.is-medium
-    font-size: .875rem
-.label.is-large
-    font-size: 1rem
+.label:not(:last-child)
+    margin-bottom: .25em
+
+.field
+    position: relative
+    border-radius: $control-radius
+    background-color: white
+
+.field > input,
+.field > textarea
+    padding-top: 2.125em
+    padding-bottom: .75em
+    height: auto
+    background-color: transparent !important
+
+.field > .label
+    position: absolute
+    top: .375em
+    left: .25em
+    padding-top: $control-padding-vertical
+    padding-right: $control-padding-horizontal
+    padding-bottom: $control-padding-vertical
+    padding-left: $control-padding-horizontal
+    color: $grey
+    font-size: $size-small
+    transition: color .1s linear
+
+.field:focus-within > .label,
+.field > .input:focus + .label
+    color: $primary
+
+.field.is-danger > .label
+    color: $danger
+.field.is-danger > .input
+    border-color: $danger
+.field.is-warning > .label
+    color: $claim
+.field.is-warning > .input
+    border-color: $claim
 
 
 /* Modal */
