@@ -133,6 +133,7 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#heart-bold-g"></use></svg></div>heart-bold-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#help-g"></use></svg></div>help-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#holiday-g"></use></svg></div>holiday-g</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#info-g"></use></svg></div>info-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#indemnity-g"></use></svg></div>indemnity-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#key_esc-g"></use></svg></div>key_esc-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#key_return-g"></use></svg></div>key_return-g</div>
@@ -161,6 +162,7 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg></div>trash-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#unarchive-g"></use></svg></div>unarchive-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#user-g"></use></svg></div>user-g</div>
+    <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#warning-g"></use></svg></div>warning-g</div>
     <div class="column is-2-desktop is-4-mobile hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#yang-g"></use></svg></div>yang-g</div>
 </div>
 
