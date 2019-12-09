@@ -6,8 +6,7 @@
 <div class="menu is-small"><ul class="menu-list">
 - [Colors](color)
 - [Iconography](icons)
-- [Rules](rules)
-<!-- - [Terminology](terms) -->
+<!-- - [Rules](rules) -->
 - [Typography](typo)
 - [Voice & Tone](voice)
 </ul></div>
@@ -21,6 +20,7 @@
 - [Checkbox](checkbox)
 - [Dropdown](dropdown)
 <!-- - [Illustration](illustration) -->
+- [Form](form)
 - [Input](input)
 - [Layout](layout)
 - [Loader](loader)

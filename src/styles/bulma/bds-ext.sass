@@ -486,8 +486,11 @@ button.button.is-loading
 
 /* Input field */
 .input,
+.textarea,
+select,
 .select > select,
-.textarea
+.field > .checkbox,
+.field > .radio
     min-height: 2.75em
     border-width: 2px
     transition: border-color .15s linear, box-shadow .15s linear
@@ -508,11 +511,31 @@ button.button.is-loading
     background-color: white
 
 .field > input,
-.field > textarea
+.field > textarea,
+.field > select
     padding-top: 2.125em
     padding-bottom: .75em
+    width: 100%
     height: auto
     background-color: transparent !important
+
+.field.select
+    width: 100%
+    height: auto
+.field.select:after
+    right: 1.5em !important
+    margin-top: -.4375em !important
+
+.field > .checkbox,
+.field > .radio
+    @extend %input
+    padding: 1.75em
+    width: 100%
+
+.field > .checkbox > .checkbox-mark,
+.field > .radio > .radio-mark
+    top: 1.125em
+    left: 1.25em
 
 .field > .label
     position: absolute
