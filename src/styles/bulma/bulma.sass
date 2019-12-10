@@ -33,9 +33,10 @@ $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
 $light          : $white-ter !default
 $dark           : mix(black, $primary, 50) !default
 
-// Special product color (NOT BULMA)
+// Special colors (NOT BULMA)
 $care           : #00B8AE !default
 $claim          : #FFA335 !default
+$pink           : #E26EA5 !default
 // ———— (NOT BULMA END)
 
 $info           : mix($primary, $blue, 25) !default
@@ -83,14 +84,14 @@ $scheme-invert-ter: $black-ter !default
 
 $background: $white !default
 
-$border: $grey-lighter !default
-$border-hover: $grey-light !default
+$border: $grey-light !default
+$border-hover: $grey !default
 $border-light: $grey-lightest !default
 $border-light-hover: $grey-light !default
 
 // Text colors
 
-$text: mix(black, $dark, 10) !default
+$text: $black-ter !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: inherit !default
@@ -278,12 +279,12 @@ $button-padding-horizontal: 0.95em !default
 $button-padding-vertical: calc(0.25em - #{$control-border-width}) !default
 
 $input-shadow: none !default
-$input-color: $text !default
+$input-color: $black !default
 $input-placeholder-color: rgba($input-color, 0.25) !default
 $input-arrow: $grey-dark !default
 $input-hover-color: $text !default
 $input-border-color: $border !default
-$input-hover-border-color: rgba($grey,0.8) !default
+$input-hover-border-color: $border-hover !default
 $input-focus-border-color: rgba($primary,0.8) !default
 $input-focus-box-shadow-size: 0 0 0 2px !default
 $input-focus-box-shadow-color: rgba($primary,0.15) !default
@@ -298,9 +299,9 @@ $tabs-link-padding: 0.75em 1.125em 1em !default
 $tabs-link-hover-border-bottom-color: transparent !default
 $tabs-link-active-border-bottom-color: transparent !default
 $tabs-border-bottom-width: 1px !default
-$tabs-link-color: $grey-dark !default
-$tabs-link-hover-color: $black-ter !default
-$tabs-link-active-color: $black-bis !default
+$tabs-link-color: $grey !default
+$tabs-link-hover-color: $text !default
+$tabs-link-active-color: $tabs-link-hover-color !default
 $tabs-boxed-link-radius: $radius-large !default
 $tabs-boxed-link-active-border-color: transparent !default
 $tabs-boxed-link-hover-border-bottom-color: transparent !default
@@ -339,4 +340,4 @@ $tabs-boxed-link-hover-background-color: transparent !default
 
 // Extend Bulma BDS Extend
 @import "bds-color-ext.sass" // Extended colors
-@import "bds-ext.sass"
+@import "../bds/_all.sass"

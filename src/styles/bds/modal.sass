@@ -1,0 +1,53 @@
+.modal-content,
+.modal-background
+    will-change: opacity
+    will-change: transform
+
+.modal-content > .box
+    border-radius: 1rem
+
+.modal.is-active > .modal-content
+    animation: shrinkIn .15s ease-out 0 1
+
+.modal.is-active > .modal-background
+    animation: fadeIn .2s ease-out 0 1
+
+.modal.is-closing > .modal-content
+    animation: shrinkOut .25s ease-out 0 1
+
+.modal.is-closing > .modal-background
+    animation: fadeIn .25s ease-out 0 1
+
+.modal.is-pinned > .modal-content,
+.modal.is-pinned > .modal-card
+    position: absolute
+    top: 8%
+
+.modal-card-foot
+    justify-content: flex-end
+
+@keyframes shrinkIn
+    0%
+        opacity: .1
+        transform: scale(1.1)
+    100%
+        opacity: 1
+        transform: scale(1)
+
+@keyframes fadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+@keyframes shrinkOut
+    0%
+        transform: scale(1)
+    100%
+        transform: scale(1.1)
+
+@keyframes fadeOut
+    0%
+        opacity: 1
+    100%
+        opacity: 0

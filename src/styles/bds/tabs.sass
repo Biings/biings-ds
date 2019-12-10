@@ -1,0 +1,51 @@
+.tabs > ul > li
+    font-weight: 500
+
+.tabs:not(.is-boxed) > li:first-child > a
+    padding-left: .75em
+
+.tabs:not(.is-boxed) > ul > li.is-active > a
+    position: relative
+
+.tabs:not(.is-boxed) > ul li.is-active > a:after
+    position: absolute
+    right: 35%
+    bottom: -1px
+    left: 35%
+    height: 3px
+    background-color: $primary-dark
+    content: ''
+
+.tabs.is-hanging > ul
+    border-top-width: $tabs-border-bottom-width
+    border-top-style: $tabs-border-bottom-style
+    border-top-color: $tabs-border-bottom-color
+    border-bottom: none
+
+.tabs.is-hanging > ul > li.is-active a:after
+    top: -1px
+    bottom: none
+
+.tabs.is-boxed > ul
+    margin-left: .25em
+    border-bottom: none
+
+.tabs.is-boxed > ul > li > a
+    padding-right: 1.5em
+    padding-left: 1.5em
+    border: none
+
+.tabs.is-boxed > ul > li:not(.is-active):not(:hover) > a
+    border-radius: 0
+
+.tabs.is-boxed > ul > li:not(.is-active) + li:not(.is-active)
+    margin-left: 1px
+
+.tabs.is-boxed > ul > li:not(.is-active)
+    position: relative
+    bottom: -.125em
+
+.tabs.is-boxed > ul > li.is-active > a
+    padding-top: .875em
+    padding-bottom: .875em
+

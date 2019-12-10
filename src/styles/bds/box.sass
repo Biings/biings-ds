@@ -1,0 +1,83 @@
+.box
+    transition: all .25s ease-out
+
+.box.is-small
+    padding: .6rem .8rem
+
+.box.is-large
+    padding: 2.875em 3em
+
+.box.is-larger
+    padding: 3.5em 4em
+
+@media screen and (max-width: 768px)
+    .box.is-large,
+    .box.is-larger
+        padding-right: 1.5rem
+        padding-left: 1.5rem
+        
+    .section .box
+        margin-right: -1.5em
+        margin-left: -1.5em
+
+.box.is-link
+    cursor: pointer
+
+.box.is-link:not(.is-raised):hover
+    box-shadow: 0 0 0 1px $purple
+
+.box.is-bordered,
+.box.hover-to-bordered:hover
+    box-shadow: 0 0 0 2px rgba(48, 45, 61,.10)
+
+.box.is-bordered.hover-to-box:hover,
+.box.is-bordered.hover-to-well:hover,
+.box.is-bordered.hover-to-white:hover
+    box-shadow: none
+
+.box.hover-to-box:hover
+    background: transparent
+
+.box.is-white,
+.box.hover-to-white:hover
+    background-color: white
+    transition-duration: .3s
+
+.box.is-well,
+.box.hover-to-well:hover
+    background-color: rgba(26, 14, 35, .03)
+    transition-duration: .3s
+
+.box.is-raised,
+.box.hover-to-raised:hover
+    border: 2px solid rgba(139, 133, 160, .1)
+    border-bottom: 4px solid rgba(139, 133, 160, .25)
+    background-color: white
+
+.box.is-floating,
+.box.hover-to-floating:hover
+    background-color: white
+    box-shadow: 0 4px 8px 0 rgba(48, 45, 61,.10)
+    transition-duration: .3s
+
+.box.is-popping,
+.box.hover-to-popping:hover
+    background-color: white
+    box-shadow: 0 12px 24px 0 rgba(48, 45, 61,.10)
+    transition-duration: .4s
+
+.box.is-expandable
+    cursor: pointer
+    transition-duration: .15s !important
+
+.box.is-expandable.is-expanded
+    margin-top: .275em
+    margin-right: -.5rem
+    margin-left: -.5rem
+
+.box.is-expandable + .box.is-expandable.is-expanded
+    margin-top: 1.775em
+    transition-duration: .1s !important
+
+.box.is-expandable:not(.is-expanded) > .expanded-content
+    display: none

@@ -26,6 +26,37 @@
     </div>
 <hr class="is-visible is-size-1">
 
+<h2 class="title is-3 is-family-sans-serif">Hanging Tabs</h2>
+
+Hanging Tabs have their active line placed above each item.
+
+<br>
+
+<div class="box is-well is-marginless is-large">
+    <div class="tabs is-hanging">
+        <ul class="is-borderless">
+            <li><a>These</a></li>
+            <li><a>Are</a></li>
+            <li class="is-active"><a>Hanging</a></li>
+            <li><a>Tabs</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tabs is-hanging">
+        <ul class="is-borderless">
+            <li><a>Pilot</a></li>
+            <li class="is-active"><a>Care</a></li>
+            <li><a>Plan</a></li>
+            <li><a>Claim</a></li>
+        </ul>
+    </div>
+<br>
+
+?> You can also remove the tabs line by adding `is-borderless` to the ul tag.
+
+<hr class="is-visible is-size-1">
+
 <h2 class="title is-3 is-family-sans-serif">Boxed Tabs</h2>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.

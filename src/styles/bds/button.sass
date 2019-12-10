@@ -1,0 +1,117 @@
+.button
+    border-radius: $radius
+    font-weight: 500
+    transition: background-color .1s linear, padding-left .3s cubic-bezier(.645, .045, .355, 1), box-shadow .5s linear
+
+.button.is-small
+    height: 2.1875em
+
+.button .icon
+    width: 1em
+    height: 1em
+
+.button.is-beefy
+    padding: calc(1.375em - #{$button-border-width}) 1.75em
+
+.button.is-text
+    text-decoration: none
+
+button.button
+    box-shadow: 0 0 0 5px rgba($black, 0)
+
+button.button:active
+    box-shadow: 0 0 0 0 rgba($black, .15)
+    transition-duration: 0
+
+.field.has-addons .control:not(:last-child)
+    margin-right: -2px
+
+.button.is-loading
+    padding-left: calc(#{$button-padding-horizontal} * 2.5)
+    color: rgba(255,255,255,.7) !important
+
+button.button.is-loading
+    color: var(--color-grey-dark) !important
+
+.button.is-loading:after
+    left: calc(#{$button-padding-horizontal} * .75)
+
+
+// New types
+.button.is-secondary
+    border-color: transparent
+    background-color: rgba($grey-darker,.15)
+
+.button.is-secondary:hover
+    background-color: rgba($grey-darker,.19)
+
+.button.is-glowing
+    position: relative
+
+.button.is-glowing:before
+    position: absolute
+    top: 20%
+    right: 8%
+    bottom: 0
+    left: 8%
+    content: ''
+
+.button.is-glowing.is-primary:before
+    box-shadow: 0 .1875em 1.125em rgba($primary,.7)
+    // animation: glowing-primary 2.5s infinite
+
+.button.is-glowing.is-success:before
+    box-shadow: 0 .1875em 1.125em rgba($success,.7)
+    // animation: glowing-primary 2.5s infinite
+
+.button.is-glowing.is-info:before
+    box-shadow: 0 .1875em 1.125em rgba($info,.7)
+    // animation: glowing-primary 2.5s infinite
+
+.button.is-glowing.is-danger:before
+    box-shadow: 0 .1875em 1.125em rgba($danger,.7)
+    // animation: glowing-primary 2.5s infinite
+
+.button.is-glowing.is-dark:before
+    box-shadow: 0 .1875em 1.125em rgba($dark,.6)
+    // animation: glowing-primary 2.5s infinite
+
+// Glowing state
+@keyframes glowing-primary
+    0%
+        box-shadow: 0 .25em 1.25em rgba($primary,.6)
+    50%
+        box-shadow: 0 .25em 1.25em rgba($primary,.8)
+    100%
+        box-shadow: 0 .25em 1.25em rgba($primary,.6);
+
+/* Links */
+a
+    transition: all .15s ease
+
+a.is-underlined:not(.is-regular),
+a.is-ghost
+    color: inherit
+
+a.is-ghost:hover:not(.is-underlined)
+    color: $primary
+
+a.is-underlined
+    text-decoration: underline
+    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
+    text-underline-offset: .125em
+    text-decoration-thickness: .1em
+    text-decoration-width: .1em
+
+a.is-underlined.is-ghost
+    text-decoration-color: transparent
+
+a.is-underlined:hover,
+a.is-underlined.is-ghost:hover
+    text-decoration: underline
+    text-decoration-color: mix($primary, $primary-light, 20)
+    text-decoration-thickness: .2em
+    text-decoration-width: .2em
+
+a.is-underlined.is-regular:hover
+    color: $primary

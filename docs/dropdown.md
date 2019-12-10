@@ -5,8 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-relaxed is-marginless">
-
+<div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button">Default dropdown</div>
@@ -23,7 +22,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
     <div class="dropdown is-hoverable">
@@ -43,6 +41,40 @@
             </div>
         </div>
     </div>
+<hr class="is-visible is-size-1">
+
+<h2 class="title is-3 is-family-sans-serif">Sizes</h2>
+    
+Dropdown can adapt to the size of their trigger component. Supported sizes are : `is-small` and `is-medium`.
+
+<br>
+
+<div class="box is-well is-large is-marginless">
+    <div class="dropdown is-hoverable is-small">
+        <div class="dropdown-trigger">
+            <div class="button is-small">Small dropdown</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Just add the class</a>
+                <a class="dropdown-item"><code>is-small</code> to the dropdown.</a>
+            </div>
+        </div>
+    </div>
+    &nbsp; &nbsp;
+    <div class="dropdown is-hoverable is-medium">
+        <div class="dropdown-trigger">
+            <div class="button is-medium">Medium dropdown</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Just add the class</a>
+                <a class="dropdown-item"><code>is-medium</code> to the dropdown.</a>
+            </div>
+        </div>
+    </div>
+</div>
+
     
 <hr class="is-visible is-size-1">
 
@@ -52,7 +84,7 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed is-marginless">
+<div class="box is-well is-large is-marginless">
 
     <div class="dropdown is-hoverable is-iconless">
         <div class="dropdown-trigger">
@@ -79,7 +111,7 @@ Any element or component can trigger a dropdown when placed inside the `.dropdow
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed">
+<div class="box is-well is-large">
 
     <div class="dropdown is-hoverable is-iconless is-active">
         <div class="dropdown-trigger">
@@ -195,6 +227,6 @@ Create a system default select list just by wrapping it with a `.select` div.
 
 <hr>
 
-<div class="box is-bordered is-link">
+<div class="box is-bordered">
     More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/">Bulma / <strong>Select</strong></a>
 </div>

@@ -28,8 +28,8 @@
         </a>
     </div>
 </div>
-<hr class="is-size-5">
-<hr class="is-visible is-size-2 is-wavy">
+
+<hr class="is-visible is-size-1 is-wavy">
 
 <h2 class="title is-3">Quick start</h2><br>
 

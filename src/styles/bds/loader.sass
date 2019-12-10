@@ -1,0 +1,54 @@
+.loader
+    display: inline-block
+    border-bottom-color: RGBA(67,47,101,.3)
+    border-left-color: RGBA(67,47,101,.3)
+    animation-duration: 600ms
+
+.loader.is-inverted
+    border-bottom-color: rgba(255,255,255,.3)
+    border-left-color: rgba(255,255,255,.3)
+
+.loader.is-large
+    width: 2em
+    height: 2em
+    border-width: 3px
+
+.loader.is-huge
+    width: 3.5em
+    height: 3.5em
+    border-width: 5px
+
+.loader.is-undetermined
+    animation-name: backSpin
+    animation-duration: .95s
+
+.loader.is-colorful
+    border-top-color: RGBA(67,47,101,.1)
+    border-right-color: RGBA(67,47,101,.1)
+    // animation: colorShading 1800ms infinite linear, a 600ms infinite linear
+    border-bottom-color: $primary
+    border-left-color: $primary
+
+@keyframes backSpin
+    from
+        transform: rotate(359deg)
+    to
+        transform: rotate(0deg)
+
+@keyframes colorShading
+    0%
+        border-bottom-color: $purple-light
+        border-left-color: $purple-light
+    30%
+        border-bottom-color: $turquoise-light
+        border-left-color: $turquoise-light
+    50%
+        border-bottom-color: $yellow
+        border-left-color: $yellow
+    75%
+        border-bottom-color: $red-light
+        border-left-color: $red-light
+    100%
+        border-bottom-color: $purple-light
+        border-left-color: $purple-light
+

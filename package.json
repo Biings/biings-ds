@@ -4,7 +4,7 @@
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
-        "sass": "\"node-sass\" --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma/bulma.css",
+        "sass": "\"node-sass\" --include-path node_modules src/styles/bulma/bulma.sass src/styles/bulma-bds.css",
         "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css",
         "copytodoc": "cp build/bds.css docs/bds.css",
         "copycomb": "cp src/styles/.csscomb.json build/",
@@ -12,7 +12,7 @@
         "styles": "npm run sass && npm run postcss && npm run copytodoc && npm run cleanup",
         "build": "npm run styles && npm run icons && npm run copycomb",
         "dev": "docsify serve docs --port 3001",
-        "cleanup": "rm -f src/styles/bulma/bulma.css"
+        "cleanup": "rm -f src/styles/bulma-bds.css"
     },
     "files": [
         "build/*"

@@ -1,0 +1,22 @@
+.has-skeleton:empty
+    min-height: 1.5em
+    background-color: rgba(200, 195, 207, .2)
+    background-image: linear-gradient(100deg, rgba(223, 219, 229, 0) 0px, rgba(223, 219, 229, .7) 20%, rgba(223, 219, 229, 0) 40%)
+    background-size: 200%
+    content: ''
+    animation: skeleton-shine 1.8s infinite linear
+
+.has-skeleton:empty:first-child
+    background-color: rgba(200, 195, 207, .2)
+
+.has-skeleton:empty:nth-child(odd):not(:first-child)
+    width: 50%
+
+.avatar > .has-skeleton
+    background-image: linear-gradient(100deg, rgba(223, 219, 229, 0) 0px, rgba(223, 219, 229, .7) 30%, rgba(223, 219, 229, 0) 70%)
+
+@keyframes skeleton-shine
+    0%
+        background-position: 100%;
+    100%
+        background-position: -100%

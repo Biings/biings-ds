@@ -65,6 +65,11 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-purple-light"><br><br></div><strong>purple-light</strong><br><span class="has-text-grey-dark is-family-monospace">#C485CB</span></div>
     <div class="column is-3"><div class="has-background-purple-lighter"><br><br></div><strong>purple-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#EEDCF0</span></div>
     <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-pink-dark"><br><br></div><strong>pink-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#AA537C</span></div>
+    <div class="column is-3"><div class="has-background-pink has-shadow"><br><br></div><strong>pink</strong><br><span class="has-text-grey-dark is-family-monospace">#E26EA5</span></div>
+    <div class="column is-3"><div class="has-background-pink-light"><br><br></div><strong>pink-light</strong><br><span class="has-text-grey-dark is-family-monospace">#EB9AC0</span></div>
+    <div class="column is-3"><div class="has-background-pink-lighter"><br><br></div><strong>pink-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#F9E2ED</span></div>
+    <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-red-dark"><br><br></div><strong>red-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#C34450</span></div>
     <div class="column is-3"><div class="has-background-red has-shadow"><br><br></div><strong>red</strong><br><span class="has-text-grey-dark is-family-monospace">#F45564</span></div>
     <div class="column is-3"><div class="has-background-red-light"><br><br></div><strong>red-light</strong><br><span class="has-text-grey-dark is-family-monospace">#F78893</span></div>

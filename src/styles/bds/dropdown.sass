@@ -1,0 +1,32 @@
+.dropdown-item.is-active
+    font-weight: $weight-medium
+
+.dropdown:not(.is-iconless) .button
+    padding-right: 2.5rem
+
+.dropdown.is-medium:not(.is-iconless) .button
+    padding-right: 2.75rem
+
+.dropdown:not(.is-iconless):after
+    position: absolute
+    top: .0625em
+    right: .75em
+    color: $grey
+    content: '⌞'
+    font-weight: 600
+    font-size: 1.625em
+    transform: rotate(-45deg)
+    pointer-events: none
+
+.dropdown.is-small:after
+    top: -2px
+    right: .75em
+    font-size: 1.375rem
+
+.dropdown.is-medium:after
+    top: 0.1875em
+    right: .75em
+    font-size: 1.625rem
+
+.select:not(.is-multiple):not(.is-loading):after
+    border-width: 2px
