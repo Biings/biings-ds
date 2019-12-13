@@ -9,24 +9,28 @@
 
 .dropdown:not(.is-iconless):after
     position: absolute
-    top: .0625em
-    right: .75em
-    color: $grey
-    content: '⌞'
-    font-weight: 600
-    font-size: 1.625em
+    top: .75em
+    right: 1em
+    width: .625em
+    height: .625em
+    margin-top: 1px
+    border-bottom: 2px solid $grey
+    border-left: 2px solid $grey
+    content: ''
     transform: rotate(-45deg)
+    transition: transform .25s ease
     pointer-events: none
 
+.dropdown.is-active:not(.is-iconless):after
+    top: 1em
+    transform: rotate(135deg)
+
 .dropdown.is-small:after
-    top: -2px
-    right: .75em
-    font-size: 1.375rem
+    top: 8px
+    font-size: .875rem
 
 .dropdown.is-medium:after
-    top: 0.1875em
-    right: .75em
-    font-size: 1.625rem
+    font-size: 1.125rem
 
 .select:not(.is-multiple):not(.is-loading):after
-    border-width: 2px
+    border-width: 2px;

@@ -12,17 +12,12 @@
         <tr>
             <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>button</code></td>
-            <td><hr class="is-small">For controls, like Dropdowns.</td>
+            <td><hr class="is-small">For secondary actions or controls (like Dropdowns).</td>
         </tr>
         <tr>
             <td class="has-text-centered"><hr class="is-smaller"><div class="button is-primary">Primary</div><br><br></td>
             <td class="has-text-centered"><hr class="is-small"><code>is-primary</code></td>
             <td><hr class="is-small">For primary actions, ex: <strong>"Save"</strong>.</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-secondary">Secondary</div><br><br></td>
-            <td class="has-text-centered"><hr class="is-small"><code>is-secondary</code></td>
-            <td><hr class="is-small">For secondary actions, ex: <strong>"Cancel"</strong>.</td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-dark">Dark</div><br><br></td>

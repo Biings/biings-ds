@@ -3,6 +3,9 @@
     font-weight: 500
     transition: background-color .1s linear, padding-left .3s cubic-bezier(.645, .045, .355, 1), box-shadow .5s linear
 
+.button:hover
+    background-color: mix($black, $light, 4)
+
 .button.is-small
     height: 2.1875em
 
@@ -12,9 +15,6 @@
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
-
-.button.is-text
-    text-decoration: none
 
 button.button
     box-shadow: 0 0 0 5px rgba($black, 0)
@@ -37,14 +37,7 @@ button.button.is-loading
     left: calc(#{$button-padding-horizontal} * .75)
 
 
-// New types
-.button.is-secondary
-    border-color: transparent
-    background-color: rgba($grey-darker,.15)
-
-.button.is-secondary:hover
-    background-color: rgba($grey-darker,.19)
-
+// New Type
 .button.is-glowing
     position: relative
 
@@ -86,8 +79,9 @@ button.button.is-loading
         box-shadow: 0 .25em 1.25em rgba($primary,.6);
 
 /* Links */
-a
-    transition: all .15s ease
+a,
+.button.is-text,
+    transition: all .15s ease !important
 
 a.is-underlined:not(.is-regular),
 a.is-ghost
@@ -96,6 +90,7 @@ a.is-ghost
 a.is-ghost:hover:not(.is-underlined)
     color: $primary
 
+.button.is-text,
 a.is-underlined
     text-decoration: underline
     transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
@@ -106,6 +101,7 @@ a.is-underlined
 a.is-underlined.is-ghost
     text-decoration-color: transparent
 
+.button.is-text:hover,
 a.is-underlined:hover,
 a.is-underlined.is-ghost:hover
     text-decoration: underline
