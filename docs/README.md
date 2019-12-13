@@ -2,9 +2,11 @@
 <h1 class="title is-0 is-size-1-mobile is-family-secondary">Biings Design System</h1>
 <hr class="is-small">
 <p class="subtitle is-4">
-    <span class="has-text-weight-semibold">The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
+    <span class="has-text-weight-medium">The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
 </p>
 <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
+&nbsp;
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 <hr class="is-size-7">
 <div class="columns is-multiline">
     <div class="column is-half">
@@ -46,13 +48,16 @@
 <hr class="is-size-2">
 
 <div class="box is-large is-well">
-    <div class="columns is-marginless is-vcentered">
+    <div class="columns is-marginless">
         <div class="column is-7">
             <div class="title is-3">Want to<u> contribute?</u></div>
             <p class="subtitle is-5 has-text-grey-darker">Onboarding for designers and developers wanting to contribute.</p>
         </div>
-        <div class="column is-5 has-text-right">
-            <a href="#/contribute" class="button is-rounded is-dark has-text-weight-bold is-beefy">Start contributing</a>
+        <div class="column is-4 is-offset-1 has-text-centered is-size-7 has-text-grey-dark">
+            <a href="#/contribute" class="button is-rounded is-dark is-medium is-glowing is-beefy">Start contributing</a>
+            <hr class="is-thin is-wavy">
+            <hr class="is-thin is-wavy">
+            Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>
     </div>
 </div>
