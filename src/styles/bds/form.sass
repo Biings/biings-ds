@@ -19,6 +19,7 @@
     border-radius: 3px
     background-color: white
     box-shadow: inset 0 0 0 2px $grey-light
+    transition: background-color .15s linear
 
 .radio-mark
     border-radius: 50%
@@ -32,21 +33,20 @@
     box-shadow: inset 0 0 0 2px darken($grey-light,8)
 
 .checkbox input:checked ~ .checkbox-mark
-    background: $primary
-    box-shadow: none !important
+    box-shadow: inset 0 0 0 2px $primary !important
 
 .radio input:checked ~ .radio-mark
     box-shadow: inset 0 0 0 2px $primary !important
 
 .checkbox-mark:after
     position: absolute
-    top: 3px
-    left: 7px
+    top: -5px
+    left: 10px
     display: none
-    width: 6px
-    height: 11px
-    border: solid white
-    border-width: 0 2px 2px 0
+    width: 9px
+    height: 20px
+    border: solid $primary
+    border-width: 0 3px 3px 0
     content: ''
     transform: rotate(45deg)
 
@@ -91,7 +91,10 @@
     border: none
     border-radius: 50%
     background-color: $primary
-    transition: left .15s ease-in
+    transition: left .3s cubic-bezier(.33,.79,.41,1.28)
+
+.checkbox.is-toggle input:checked ~ .checkbox-mark
+    background-color: $primary
 
 .checkbox.is-toggle input:checked ~ .checkbox-mark:after
     left: 1.25rem
