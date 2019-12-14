@@ -228,8 +228,8 @@ img.no-zoom
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #FFF;
-    background-color: #5B3478; 
+    color: #8c50b9;
+    background-color: rgba(140,80,185,.075);
 }
 
 .hover-to-black

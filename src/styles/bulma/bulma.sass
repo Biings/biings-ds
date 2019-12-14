@@ -41,7 +41,7 @@ $pink           : #E26EA5 !default
 
 $info           : mix($primary, $blue, 25) !default
 $success        : mix($turquoise, $care, 25) !default
-$warning        : $yellow !default
+$warning        : mix($claim, $yellow, 35) !default
 $danger         : $red !default
 
 // Invert colors
@@ -240,12 +240,12 @@ $box-padding: 1.25rem 1.375rem
 $box-link-hover-shadow: !default
 $box-link-active-shadow: !default
 
-$menu-item-color: inherit !default
+$menu-item-color: $dark !default
 $menu-item-radius: $radius !default
 $menu-item-hover-color: $menu-item-color !default
-$menu-item-hover-background-color: rgba(70, 40, 93, 0.06)
-$menu-item-active-color: white !default
-$menu-item-active-background-color: mix(black, $primary, 35)
+$menu-item-hover-background-color: rgba($primary, 0.075)
+$menu-item-active-color: $primary !default
+$menu-item-active-background-color: $menu-item-hover-background-color
 $menu-list-border-left: 1px solid $border !default
 $menu-label-color: $text !default
 
@@ -262,7 +262,8 @@ $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 6px 12px rgba($black-ter, 0.15), 0 0 0 1px rgba($black-ter, 0.04) !default
 $dropdown-item-hover-background-color: $white-bis !default
 $dropdown-content-radius: $radius-small !default
-$dropdown-item-active-background-color: mix(black, $primary, 35) !default
+$dropdown-item-active-color: $primary !default
+$dropdown-item-active-background-color: $menu-item-active-background-color !default
 
 // Form elements
 $control-border-width: 2px !default
@@ -270,15 +271,17 @@ $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
 
 $button-background-color: mix($black, $light, 2) !default
-$button-border-color: none !default
-$button-border-width: 0 !default
+$button-border-color: transparent !default
+$button-border-width: 2px !default
 $button-hover-color: $text !default
-$button-hover-border-color: $grey-light !default
+$button-hover-border-color: transparent !default
 $button-active-color: $text !default
-$button-active-border-color: lighten($grey,5) !default
+$button-active-border-color: $light !default
 $button-text-hover-background-color: transparent !default
-$button-padding-horizontal: 0.95em !default
 $button-padding-vertical: calc(0.25em - #{$control-border-width}) !default
+$button-static-color: inherit !default
+$button-static-background-color: transparent !default
+$button-static-border-color: transparent !default
 
 $input-shadow: none !default
 $input-color: $black !default

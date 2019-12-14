@@ -26,15 +26,29 @@ button.button:active
 .field.has-addons .control:not(:last-child)
     margin-right: -2px
 
-.button.is-loading
+.button.is-loading,
+.button.is-loading.is-light,
+.button.is-loading.is-warning
     padding-left: calc(#{$button-padding-horizontal} * 2.5)
-    color: rgba(255,255,255,.7) !important
+    color: rgba(45, 34, 54, .5) !important
 
-button.button.is-loading
-    color: var(--color-grey-dark) !important
+.button.is-loading.is-primary,
+.button.is-loading.is-danger,
+.button.is-loading.is-success,
+.button.is-loading.is-info,
+.button.is-loading.is-warning,
+.button.is-loading.is-dark
+    color: rgba(255, 255, 255, .5) !important
 
 .button.is-loading:after
     left: calc(#{$button-padding-horizontal} * .75)
+
+.button + .button.is-static
+    padding-left: .625em
+    padding-right: 0
+
+.button.is-static + .button.is-text
+    padding-left: 0.5em
 
 
 // New Type
