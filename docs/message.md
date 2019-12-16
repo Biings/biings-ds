@@ -74,20 +74,18 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 </div>
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
-    <div class="modal-content">
-        <div class="message is-noti">
-            <div class="title has-text-success">Hey!</div>
-            <div class="subtitle has-text-grey-dark">This is just a<br>brief notification</div>
+    <div class="message is-noti is-success">
+        <div class="message-body">
+            I'm a notification.
         </div>
     </div>
 </div>
 
     <div class="modal">
-        <div class="modal-content">
-            <div class="message is-noti">
-                <div class="title has-text-primary">Hey!</div>
-                <div class="subtitle has-text-grey">...</div>
-            </div>
+        <div class="message is-noti is-success">
+            <div class="message-body">
+                I'm a notification.
+            </div>  
         </div>
     </div>
 <br>
