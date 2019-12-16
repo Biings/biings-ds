@@ -30,7 +30,7 @@
             <td><hr>Dark looking button.</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-link is-light">Light</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-primary is-light">Light</div><br><br></td>
             <td class="has-text-centered"><hr><code>is-light<br>(is-[color]) </code></td>
             <td><hr>Light looking button (applicable to any color button).</td>
         </tr>
@@ -118,10 +118,14 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
 <hr>
 
 <div class="box is-well is-marginless is-large">
-    <button class="button is-medium">Button</button>
+    <button class="button is-medium">Click Effect</button>
+    <div class="button is-static">or</div>
+    <div class="button is-text">No Click Effect</div>
 </div>
 
     <button class="button">Button</button>
+    <div class="button is-static">or</div>
+    <div class="button is-text">No Click Effect</div>
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Button Group</h2>

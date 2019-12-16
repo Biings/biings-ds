@@ -6,12 +6,13 @@ html
     background-color: #FFFFFF;
 }
 
+.box + pre
+{
+    box-shadow: 0 -4px 0 0 #FAF8FC;
+}
 pre
 {
-    border: 1px solid #DFDBE3;
-    border-left-width: 9px;
     border-radius: 0;
-    background-color: #EFECF2;
 }
 pre code
 {
@@ -228,8 +229,8 @@ img.no-zoom
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #8c50b9;
-    background-color: rgba(140,80,185,.075);
+    color: #46285d;
+    background-color: rgba(91,52,120,.065);
 }
 
 .hover-to-black

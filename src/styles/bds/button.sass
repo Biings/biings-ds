@@ -44,11 +44,18 @@ button.button:active
     left: calc(#{$button-padding-horizontal} * .75)
 
 .button + .button.is-static
-    padding-left: .625em
+    padding-left: .375em
     padding-right: 0
 
 .button.is-static + .button.is-text
-    padding-left: 0.5em
+    padding-left: 0
+
+.button.is-primary.is-light
+    background-color: $primary-lighter
+    color: $primary !important
+
+.button.is-primary.is-light:hover
+    background-color: mix($purple-light,$primary-lighter,6)
 
 
 // New Type
