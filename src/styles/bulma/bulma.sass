@@ -99,10 +99,10 @@ $text-strong: inherit !default
 // Code colors
 
 $code: $primary
-$code-background: rgba(113,95,199,.07)
+$code-background: rgba($primary-dark,.07)
 
 $pre: $dark
-$pre-background: white
+$pre-background: $code-background
 
 // Link colors
 
@@ -240,27 +240,30 @@ $box-padding: 1.25rem 1.375rem
 $box-link-hover-shadow: !default
 $box-link-active-shadow: !default
 
-$menu-item-color: $dark !default
+$menu-item-color: rgba($dark,0.6) !default
 $menu-item-radius: $radius !default
-$menu-item-hover-color: $menu-item-color !default
-$menu-item-hover-background-color: rgba($primary, 0.075)
-$menu-item-active-color: $primary !default
-$menu-item-active-background-color: $menu-item-hover-background-color
+$menu-item-hover-color: $dark !default
+$menu-item-hover-background-color: transparent !default
+$menu-item-active-color: $dark !default
+$menu-item-active-background-color: rgba($primary-dark, 0.065) !default
 $menu-list-border-left: 1px solid $border !default
-$menu-label-color: $text !default
+$menu-label-color: $dark !default
 
-$modal-background-background-color: rgba($black, 0.6) !default 
+$modal-background-background-color: rgba($black, 0.5) !default 
 $modal-card-head-background-color: $white !default
-$modal-card-head-border-bottom: none !default
+$modal-card-head-border-bottom: 1px solid $white-ter !default
 $modal-card-foot-border-top: 1px solid $white-ter !default
 $modal-card-head-radius: 0.5rem !default
 $modal-card-foot-radius: 0.5rem !default
-$modal-card-head-padding: 1.5rem 2rem !default
-$modal-card-body-padding: 0.25rem 2rem 1.5rem !default
+$modal-card-head-padding: 1.125rem 1.875rem 1.25rem !default
+$modal-card-body-padding: 1.5rem 1.875rem !default
+$modal-card-title-color: $dark !default
+$modal-card-title-line-height: 1 !default
+$modal-card-title-size: $size-6 !default
 
 $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 6px 12px rgba($black-ter, 0.15), 0 0 0 1px rgba($black-ter, 0.04) !default
-$dropdown-item-hover-background-color: $white-bis !default
+$dropdown-item-hover-background-color: $menu-item-active-background-color !default
 $dropdown-content-radius: $radius-small !default
 $dropdown-item-active-color: $primary !default
 $dropdown-item-active-background-color: $menu-item-active-background-color !default
