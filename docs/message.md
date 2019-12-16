@@ -69,28 +69,44 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 
 <br><br>
 
-<div class="box is-well is-large is-marginless has-text-centered">
-    <div class="button is-success is-glowing is-beefy" onclick="openModal('3')">Show notification</div>
+<div class="box is-well is-medium is-marginless">
+    <div class="button is-light" onclick="openModal('3')">Show Default Noti</div>&nbsp; 
+    <div class="button is-info is-light" onclick="openModal('4')">Show Small Noti</div>&nbsp;
+    <div class="button is-primary is-light" onclick="openModal('5')">Show Medium Noti</div>
 </div>
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
-    <div class="message is-noti is-success">
+    <div class="message is-noti">
         <div class="message-body">
-            I'm a notification.
+            <strong>You Clicked!</strong>
+        </div>
+    </div>
+</div>
+<div id="js-modal4" class="modal" onclick="closeModal('4')">
+    <div class="message is-noti is-success is-small">
+        <div class="message-body">
+            Hi there 👋
+        </div>
+    </div>
+</div>
+<div id="js-modal5" class="modal" onclick="closeModal('5')">
+    <div class="message is-noti is-primary is-medium">
+        <div class="message-body">
+            Hurray! 🎉
         </div>
     </div>
 </div>
 
     <div class="modal">
-        <div class="message is-noti is-success">
+        <div class="message is-noti">
             <div class="message-body">
-                I'm a notification.
+                Place noti message here
             </div>  
         </div>
     </div>
 <br>
 
-?> Add modifier `is-danger` for failure notifications. 
+?> Small and normal-sized notifactions don't have the moving in animation.
 
 <hr>
 

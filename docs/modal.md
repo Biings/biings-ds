@@ -71,6 +71,11 @@
             </section>
         </div>
     </div>
+
+<br>
+
+?> The Header and Footer are optional are can be removed to obtain a different design.
+
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Pin to top</h2>

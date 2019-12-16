@@ -2,7 +2,7 @@
 ![](media/biings-ds-logo.svg ':no-zoom')
 </a>
 
-- <span class="subtitle is-7 has-text-dark has-text-weight-bold">Foundation</span>
+- <span class="subtitle is-7 has-text-dark has-text-weight-semibold is-uppercase">Foundation</span>
 <div class="menu is-small"><ul class="menu-list">
 - [Colors](color)
 - [Iconography](icons)
@@ -11,7 +11,7 @@
 - [Voice & Tone](voice)
 </ul></div>
   
-- <span class="subtitle is-7 has-text-dark has-text-weight-bold">Components</span>
+- <span class="subtitle is-7 has-text-dark has-text-weight-semibold is-uppercase">Components</span>
 <div class="menu is-small"><ul class="menu-list">
 - [Avatar](avatar)
 - [Box](box)

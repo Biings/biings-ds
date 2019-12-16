@@ -20,12 +20,12 @@
     position: absolute
     top: 8%
 
-.modal-card-head
-    padding-top: .875rem
-    padding-bottom: .875rem
-
 .modal-card-title
-    font-weight: $weight-medium
+    font-weight: $weight-semibold
+
+.modal-card-body:first-child
+    border-top-left-radius: $modal-card-head-radius
+    border-top-right-radius: $modal-card-head-radius
 
 .modal-card-body:last-child
     border-bottom-left-radius: $modal-card-head-radius
@@ -43,19 +43,20 @@
 
 .delete
     background-color: transparent !important
-    height: 1.75rem
-    max-height: 1.75rem
-    max-width: 1.75rem
-    min-height: 1.75rem
-    min-width: 1.75rem
-    width: 1.75rem
+    height: 1.25rem
+    max-height: 1.25rem
+    max-width: 1.25rem
+    min-height: 1.25rem
+    min-width: 1.25rem
+    width: 1.25rem
+    margin-right: -.25rem
     &:before,
     &:after
         background-color: $grey-light
     &:before
-        width: 70%
+        width: 100%
     &:after
-        height: 70%
+        height: 100%
 
 .delete:focus,
 .delete:hover
