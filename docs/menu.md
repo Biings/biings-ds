@@ -25,6 +25,9 @@
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>
             <li><a>Follow-ups</a></li>
+        </ul>
+        <p class="menu-label">Label</p>
+        <ul class="menu-list">
             <li><a class="is-active">Claim reports</a></li>
             <li><a>Settings</a></li>
         </ul>
@@ -37,4 +40,4 @@
 
 <a href="https://bulma.io/documentation/components/menu/" target="blank" class="box is-bordered">
     Find more possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Menu</strong>
-</div>
+</a>
