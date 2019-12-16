@@ -3,9 +3,6 @@
     will-change: opacity
     will-change: transform
 
-.modal-content > .box
-    border-radius: 1rem
-
 .modal.is-active > .modal-content
     animation: shrinkIn .15s ease-out 0 1
 
@@ -23,8 +20,48 @@
     position: absolute
     top: 8%
 
+.modal-card-head
+    padding-top: .875rem
+    padding-bottom: .875rem
+
+.modal-card-title
+    font-weight: $weight-medium
+
+.modal-card-body:last-child
+    border-bottom-left-radius: $modal-card-head-radius
+    border-bottom-right-radius: $modal-card-head-radius
+
 .modal-card-foot
-    justify-content: flex-end
+    display: block
+    justify-content: none
+
+.modal-card-foot .button:not(:last-child)
+    margin-right: 0
+
+.modal-card-foot .button.is-text:last-child
+    margin-right: -.75em
+
+.delete
+    background-color: transparent !important
+    height: 1.75rem
+    max-height: 1.75rem
+    max-width: 1.75rem
+    min-height: 1.75rem
+    min-width: 1.75rem
+    width: 1.75rem
+    &:before,
+    &:after
+        background-color: $grey-light
+    &:before
+        width: 70%
+    &:after
+        height: 70%
+
+.delete:focus,
+.delete:hover
+    &:before,
+    &:after
+        background-color: $grey
 
 @keyframes shrinkIn
     0%

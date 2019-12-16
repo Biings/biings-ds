@@ -11,7 +11,7 @@
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal('')"></div>
     <div class="modal-content">
-        <div class="box is-white is-relaxed has-text-centered">
+        <div class="box is-white is-large has-text-centered">
             <div class="title is-spaced is-2">Bravo!</div>
             <div class="subtitle is-6">This <strong>Modal</strong> was open just by adding the class `is-active` to the modal div.</div>
             <p class="has-text-grey has-text-weight-semibold">Use the button on the top right corner to close.</p>
@@ -43,17 +43,18 @@
     <div class="modal-card">
         <header class="modal-card-head">
             <div class="modal-card-title">
-                <div class="title is-3">Modal Card</div>
-                <div class="subtitle is-6 has-text-grey">The close button is optional</div>
+                Modal card title
             </div>
             <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
-            <div class="is-italic is-size-5 has-text-grey">Place your form here<br>(or other interactions)</div>
+            <h2 class="title">Some modal card content</h2>
+            <p class="subtitle is-italic is-size-5 has-text-grey">Can be a form or anything else.</p>
         </section>
-        <footer class="modal-card-foot">
+        <footer class="modal-card-foot has-text-right">
             <div class="button is-primary is-beefy">Primary Action</div>
-            <div onclick="closeModal(1)" class="button is-beefy is-secondary">Cancel</div>
+            <div class="button is-static">or</div>
+            <div onclick="closeModal(1)" class="button is-text">Cancel</div>
         </footer>
     </div>
 </div>
@@ -62,18 +63,12 @@
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
-                <div class="modal-card-title">
-                    <div class="title is-3">Modal title</div>
-                    <div class="subtitle is-6">Subtitle</div>
-                </div>
-                <button class="delete" aria-label="close"></button>
+                <div class="modal-card-title">Modal title</div>
+                <button class="modal-close" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
                 ...
             </section>
-            <footer class="modal-card-foot">
-                ...
-            </footer>
         </div>
     </div>
 <hr class="is-size-1 is-visible">
