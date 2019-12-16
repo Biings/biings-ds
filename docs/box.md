@@ -72,6 +72,29 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 <hr class="is-size-1 is-visible">
 
+<h2 class="title is-3 is-family-sans-serif">Sizes</h2>
+
+You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` or `is-larger` to the box.
+
+<br>
+
+<div class="box is-well is-marginless">
+    <div class="level">
+        <div class="level-item"><div class="box is-raised is-small">Small</div></div>
+        <div class="level-item"><div class="box is-raised has-text-grey">Normal</div></div>
+        <div class="level-item"><div class="box is-raised is-medium">Medium</div></div>
+        <div class="level-item"><div class="box is-raised is-large">Large</div></div>
+        <div class="level-item"><div class="box is-raised is-larger">Larger!</div></div>
+    </div>
+</div>
+
+    <div class="box is-small">Small</div>
+    <div class="box">Normal</div>
+    <div class="box is-medium">Medium</div>
+    <div class="box is-large">Large</div>
+    <div class="box is-larger">Larger!</div>
+<hr class="is-size-1 is-visible">
+
 <h2 class="title is-3 is-family-sans-serif">Expandable box</h2>
 
 Add class `is-expandable` to boxes that can expand inline.<br>Then add the class `is-expanded` to a box that has been expanded.
@@ -97,19 +120,4 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
             An vero, inquit, quisquam potest probare, quod perceptfum, quod.
             Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.
         </div>
-    </div>
-<hr class="is-size-1 is-visible">
-
-<h2 class="title is-3 is-family-sans-serif">Link box</h2>
-
-Add class `is-link` to make a box behave like a link.
-
-<br>
-
-<div class="box is-well is-large is-marginless">
-    <div class="box has-background-primary-lighter is-link">I behave like a link!</div>
-</div>
-
-    <div class="box is-white is-link">
-        I behave like a link!
     </div>
