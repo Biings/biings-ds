@@ -45,8 +45,8 @@ button.button:active
 
 // Button chaining
 .button + .button.is-static
-    padding-left: .625em
     padding-right: .25em
+    padding-left: .625em
 
 .button.is-static + .button.is-text
     padding-left: 0
@@ -98,11 +98,12 @@ button.button:active
     50%
         box-shadow: 0 .25em 1.25em rgba($primary,.8)
     100%
-        box-shadow: 0 .25em 1.25em rgba($primary,.6);
+        box-shadow: 0 .25em 1.25em rgba($primary,.6)
+
 
 /* Links */
 a,
-.button.is-text,
+.button.is-text
     transition: all .15s ease !important
 
 a.is-underlined:not(.is-regular),
@@ -115,10 +116,10 @@ a.is-ghost:hover:not(.is-underlined)
 .button.is-text,
 a.is-underlined
     text-decoration: underline
-    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
     text-underline-offset: .125em
     text-decoration-thickness: .1em
     text-decoration-width: .1em
+    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
 
 a.is-underlined.is-ghost
     text-decoration-color: transparent
@@ -127,9 +128,11 @@ a.is-underlined.is-ghost
 a.is-underlined:hover,
 a.is-underlined.is-ghost:hover
     text-decoration: underline
-    text-decoration-color: mix($primary, $primary-light, 20)
     text-decoration-thickness: .2em
     text-decoration-width: .2em
 
+    text-decoration-color: mix($primary, $primary-light, 20)
+
 a.is-underlined.is-regular:hover
     color: $primary
+

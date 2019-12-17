@@ -7,7 +7,7 @@
 
 Brand colors are used when refering to Biings or any of its products.
 
-<hr class="is-small">
+<hr>
 
 <div class="columns is-multiline">
     
@@ -35,7 +35,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <h2 class="title is-3 is-family-sans-serif">Greyscale</h2>
 
-<hr class="is-small">
+<hr>
 
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="has-text-grey-dark is-family-monospace">#EFECF2</span></div>
@@ -57,7 +57,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <h2 class="title is-3 is-family-sans-serif">Palette</h2>
 
-<hr class="is-small">
+<hr>
 
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-purple-dark"><br><br></div><strong>purple-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#803C88</span></div>
@@ -112,7 +112,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
 
-<hr class="is-small">
+<hr>
 
 <table class="table is-bordered">
 <thead>
@@ -132,21 +132,17 @@ Most elements and components have color variations thanks to modifiers with synt
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
-<hr class="is-small">
+<hr>
 
-<pre>
-.your-selector
-{
-    color: var(--color-primary);
-}
+    .your-selector
+    {
+        color: var(--color-primary);
+    }
 
-.your-has-gradient-1
-{
-    background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
-}
-</pre>
-
-
+    .your-has-gradient-1
+    {
+        background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
+    }
 <hr class="is-size-1 is-visible">
 
 <div class="box is-large is-raised is-floating hover-to-popping">

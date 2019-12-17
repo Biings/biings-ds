@@ -153,6 +153,27 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 <a class="dropdown-item">Show</a>
                 <a class="dropdown-item is-active">results</a>
                 <a class="dropdown-item">here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">and here</a>
             </div>
         </div>
     </div>

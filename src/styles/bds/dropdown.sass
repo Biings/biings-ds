@@ -8,14 +8,14 @@
     position: absolute
     top: .75em
     right: 1em
+    margin-top: 1px
     width: .625em
     height: .625em
-    margin-top: 1px
     border-bottom: 2px solid $grey
     border-left: 2px solid $grey
     content: ''
-    transform: rotate(-45deg)
     transition: transform .25s ease
+    transform: rotate(-45deg)
     pointer-events: none
 
 .dropdown.is-active:not(.is-iconless):after
@@ -29,5 +29,49 @@
 .dropdown.is-medium:after
     font-size: 1.125rem
 
+.dropdown-content
+    overflow-y: scroll
+    max-height: 30em
+    max-height: 50vh
+
 .select:not(.is-multiple):not(.is-loading):after
-    border-width: 2px;
+    border-width: 2px
+
+.dropdown.is-active .dropdown-menu,
+.dropdown.is-hoverable:hover .dropdown-menu
+    animation: dropDown .4s 1
+    animation-timing-function: cubic-bezier(.175, .885, .32, 1.275)
+
+@keyframes dropDown
+    from
+        opacity: 0
+        transform: translateY(-1em)
+    to
+        opacity: 1
+        transform: translateY(0)
+
+// @keyframes dropDown
+//     0%
+//         opacity: 0
+//         transform: translateY(-1em)
+//     16%
+//         opacity: 0.3
+//         transform: translateY(0.6em)
+//     28%
+//         opacity: 0.6
+//         transform: translateY(-0.3em)
+//     44%
+//         opacity: 0.9
+//         transform: translateY(0.1em)
+//     59%
+//         opacity: 1
+//         transform: translateY(-0.05em)
+//     73%
+//         opacity: 1
+//         transform: translateY(0.025em)
+//     88%
+//         opacity: 1
+//         transform: translateY(-0.01em)
+//     100%
+//         opacity: 1
+//         transform: translateY(0)

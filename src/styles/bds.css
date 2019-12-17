@@ -8,3 +8,7 @@
 
 @import 'fontfaces.css';
 @import 'bulma-bds.css';
+
+.afd {
+    color: red;
+}
