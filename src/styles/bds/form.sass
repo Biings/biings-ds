@@ -18,37 +18,49 @@
     height: 1.25rem
     border-radius: 3px
     background-color: white
-    box-shadow: inset 0 0 0 2px $grey-light
-    transition: background-color .15s linear
+    box-shadow: inset 0 0 0 2px $border
+    transition: background-color .15s linear, box-shadow .15s linear
 
 .radio-mark
     border-radius: 50%
 
-.checkbox[disabled] > .checkbox-mark,
-.radio[disabled] > .radio-mark
-    box-shadow: inset 0 0 0 2px lighten($grey-light,5)
-
 .checkbox:hover:not([disabled]):not(:active) > .checkbox-mark,
 .radio:hover:not([disabled]) > .radio-mark
-    box-shadow: inset 0 0 0 2px darken($grey-light,8)
+    box-shadow: inset 0 0 0 2px darken($border,8)
 
-.checkbox input:checked ~ .checkbox-mark
+.checkbox > input:checked ~ .checkbox-mark
+    box-shadow: 0 0 0 1px $primary, inset 0 0 0 2px $primary !important
+    background-color: $primary
+    border-radius: 2px
+
+.radio > input:checked ~ .radio-mark
     box-shadow: inset 0 0 0 2px $primary !important
 
-.radio input:checked ~ .radio-mark
-    box-shadow: inset 0 0 0 2px $primary !important
+.checkbox[disabled] > .checkbox-mark,
+.radio[disabled] > .radio-mark
+    box-shadow: inset 0 0 0 2px rgba($border,.5) !important
+    background-color: transparent
+
+.checkbox[disabled] > input:checked ~ .checkbox-mark,
+.radio[disabled] > input:checked ~  .radio-mark
+    box-shadow: 0 0 0 1px rgba($border,.5), inset 0 0 0 2px transparent !important
+    background-color: rgba($border,.5)
+
+.checkbox[disabled] > input:checked ~ .checkbox-mark:after
+    border: solid $primary !important
+    border-width: 0 2px 2px 0 !important
 
 .checkbox-mark:after
     position: absolute
-    top: -5px
-    left: 10px
+    top: 2px
+    left: 8px
     display: none
-    width: 9px
-    height: 20px
-    border: solid $primary
-    border-width: 0 3px 3px 0
+    width: 6px
+    height: 13px
+    border: solid white
+    border-width: 0 2px 2px 0
     content: ''
-    transform: rotate(45deg)
+    transform: rotate(42deg)
 
 .checkbox > input:indeterminate + .checkbox-mark:after
     top: 9px
@@ -69,20 +81,20 @@
     background-color: $primary
     content: ''
 
-.checkbox input:checked ~ .checkbox-mark:after,
-.radio input:checked ~ .radio-mark:after
+.checkbox > input:checked ~ .checkbox-mark:after,
+.radio > input:checked ~ .radio-mark:after
     display: block
 
 .checkbox.is-toggle > input
     width: 3.5em
 
-.checkbox.is-toggle .checkbox-mark
+.checkbox.is-toggle > .checkbox-mark
     margin-top: 1px
     width: 2.125rem
     height: 1.125rem
-    border-radius: 2rem
+    border-radius: 2rem !important
 
-.checkbox.is-toggle .checkbox-mark:after
+.checkbox.is-toggle > .checkbox-mark:after
     top: .25rem
     left: .25rem
     display: block
@@ -93,10 +105,10 @@
     background-color: $primary
     transition: left .3s cubic-bezier(.33,.79,.41,1.28)
 
-.checkbox.is-toggle input:checked ~ .checkbox-mark
+.checkbox.is-toggle > input:checked ~ .checkbox-mark
     background-color: $primary
 
-.checkbox.is-toggle input:checked ~ .checkbox-mark:after
+.checkbox.is-toggle > input:checked ~ .checkbox-mark:after
     left: 1.25rem
     background-color: white
 
@@ -110,12 +122,12 @@
 .checkbox.is-toggle.is-large > input
     width: 3.125rem
 
-.checkbox.is-toggle.is-large .checkbox-mark:after
+.checkbox.is-toggle.is-large > .checkbox-mark:after
     top: 4px
     width: 15px
     height: 15px
 
-.checkbox.is-toggle.is-large input:checked ~ .checkbox-mark:after
+.checkbox.is-toggle.is-large > input:checked ~ .checkbox-mark:after
     left: 25px
 
 

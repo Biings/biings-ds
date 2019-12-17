@@ -229,8 +229,8 @@ img.no-zoom
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    color: #46285d;
-    background-color: rgba(91,52,120,.065);
+    color: white;
+    background-color: rgba(91, 52, 120, 0.95);
 }
 
 .hover-to-black

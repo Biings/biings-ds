@@ -10,15 +10,20 @@
         <input type="checkbox"><span class="checkbox-mark"></span>
         Check me!
     </label>
-    <hr class="is-smaller">
+    <hr>
     <label class="checkbox">
         <input type="checkbox" checked><span class="checkbox-mark"></span>
         I'm already checked.
     </label>
-    <hr class="is-smaller">
+    <hr>
     <label class="checkbox" disabled>
         <input type="checkbox" disabled><span class="checkbox-mark"></span>
         I'm disabled
+    </label>
+    <hr>
+    <label class="checkbox" disabled>
+        <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
+        I'm checked but disabled
     </label>
 </div>
 
@@ -35,6 +40,11 @@
     <label class="checkbox" disabled>
         <input type="checkbox" disabled><span class="checkbox-mark"></span>
         I'm disabled.
+    </label>
+
+    <label class="checkbox" disabled>
+        <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
+        I'm checked but disabled
     </label>
 <br>
 
