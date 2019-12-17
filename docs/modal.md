@@ -52,9 +52,7 @@
             <p class="subtitle is-italic is-size-5 has-text-grey">Can be a form or anything else.</p>
         </section>
         <footer class="modal-card-foot has-text-right">
-            <div class="button is-primary is-beefy">Primary Action</div>
-            <div class="button is-static">or</div>
-            <div onclick="closeModal(1)" class="button is-text">Cancel</div>
+            <div class="button is-primary is-beefy">Primary Action</div><div class="button is-static">or</div><div onclick="closeModal(1)" class="button is-text">Cancel</div>
         </footer>
     </div>
 </div>

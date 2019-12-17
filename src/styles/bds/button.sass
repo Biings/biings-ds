@@ -43,9 +43,10 @@ button.button:active
 .button.is-loading:after
     left: calc(#{$button-padding-horizontal} * .75)
 
+// Button chaining
 .button + .button.is-static
-    padding-left: .375em
-    padding-right: 0
+    padding-left: .625em
+    padding-right: .25em
 
 .button.is-static + .button.is-text
     padding-left: 0

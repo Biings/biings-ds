@@ -34,9 +34,59 @@ $light          : $white-ter !default
 $dark           : mix(black, $primary, 50) !default
 
 // Special colors (NOT BULMA)
+$primary-lighter: mix(white, $primary, 85) !default
+
+$pilot          : $primary !default
+$pilot-dark     : mix(black, $pilot, 25) !default
+$pilot-light    : mix(white, $pilot, 25) !default
+$pilot-lighter  : mix(white, $pilot, 85) !default
+
 $care           : #00B8AE !default
+$care-dark      : mix(black, $care, 25) !default
+$care-light     : mix(white, $care, 30) !default
+$care-lighter   : mix(white, $care, 85) !default
+
 $claim          : #FFA335 !default
+$claim-dark     : mix(black, $claim, 20) !default
+$claim-light    : mix(white, $claim, 30) !default
+$claim-lighter  : mix(white, $claim, 83) !default
+
+$cyan-dark      : mix(black, $cyan, 25) !default
+$cyan-light     : mix(white, $cyan, 30) !default
+$cyan-lighter   : mix(white, $cyan, 80) !default
+
+$blue-dark      : mix(black, $blue, 25) !default
+$blue-light     : mix(white, $blue, 30) !default
+$blue-lighter   : mix(white, $blue, 80) !default
+
+$purple-dark    : mix(black, $purple, 25) !default
+$purple-light   : mix(white, $purple, 30) !default
+$purple-lighter : mix(white, $purple, 80) !default
+
+$red-dark       : mix(black, $red, 20) !default
+$red-light      : mix(white, $red, 30) !default
+$red-lighter    : mix(white, $red, 80) !default
+
+$orange-dark    : mix(black, $orange, 15) !default
+$orange-light   : mix(white, $orange, 30) !default
+$orange-lighter : mix(white, $orange, 80) !default
+
+$yellow-dark    : mix(black, $yellow, 15) !default
+$yellow-light   : mix(white, $yellow, 30) !default
+$yellow-lighter : mix(white, $yellow, 70) !default
+
+$turquoise-dark : mix(black, $turquoise, 25) !default
+$turquoise-light: mix(white, $turquoise, 30) !default
+$turquoise-lighter: mix(white, $turquoise, 80) !default
+
+$green-dark     : mix(black, $green, 25) !default
+$green-light    : mix(white, $green, 30) !default
+$green-lighter  : mix(white, $green, 80) !default
+
 $pink           : #E26EA5 !default
+$pink-dark      : mix(black, $pink, 25) !default
+$pink-light     : mix(white, $pink, 30) !default
+$pink-lighter   : mix(white, $pink, 80) !default
 // ———— (NOT BULMA END)
 
 $info           : mix($primary, $blue, 25) !default
@@ -263,10 +313,10 @@ $modal-card-title-size: $size-6 !default
 
 $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 6px 12px rgba($black-ter, 0.15), 0 0 0 1px rgba($black-ter, 0.04) !default
-$dropdown-item-hover-background-color: $menu-item-active-background-color !default
+$dropdown-item-hover-background-color: rgba($primary-dark, 0.065) !default
 $dropdown-content-radius: $radius-small !default
 $dropdown-item-active-color: $primary !default
-$dropdown-item-active-background-color: $menu-item-active-background-color !default
+$dropdown-item-active-background-color: rgba($primary-dark, 0.065) !default
 
 // Form elements
 $control-border-width: 2px !default
@@ -308,7 +358,7 @@ $tabs-link-hover-border-bottom-color: transparent !default
 $tabs-link-active-border-bottom-color: transparent !default
 $tabs-border-bottom-width: 1px !default
 $tabs-link-color: $grey !default
-$tabs-link-hover-color: $text !default
+$tabs-link-hover-color: $dark !default
 $tabs-link-active-color: $tabs-link-hover-color !default
 $tabs-boxed-link-radius: $radius-large !default
 $tabs-boxed-link-active-border-color: transparent !default
@@ -316,6 +366,10 @@ $tabs-boxed-link-hover-border-bottom-color: transparent !default
 $tabs-boxed-link-hover-background-color: transparent !default
 
 $message-body-padding: 1.125em 1.5em !default
+
+// Extended colors (NOT BULMA)
+
+// ———— (NOT BULMA END)
 
 // Import a selection of Bulma modules
 @import "bulma/sass/utilities/animations.sass"
@@ -348,6 +402,6 @@ $message-body-padding: 1.125em 1.5em !default
 // @import "bulma/sass/layout/hero.sass"
 @import "bulma/sass/layout/section.sass"
 
-// Extend Bulma BDS Extend
-@import "bds-color-ext.sass" // Extended colors
-@import "../bds/_all.sass"
+// Extend Bulma BDS Extend (NOT BULMA)
+@import "bds/_all.sass"
+// ———— (NOT BULMA END)

@@ -10,20 +10,20 @@
 <hr class="is-size-7">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-raised is-floating has-background-dark hover-to-popping">
+        <a href="#/color" class="box is-raised has-background-primary-dark hover-to-popping">
             <div class="box">
                     <img src="media/bds.png" width="58" class="no-zoom"/>
-                    <hr class="is-smaller">
+                    <hr class="is-size-8">
                     <div class="title is-4 has-text-white">Foundation</div>
                     <p class="subtitle is-6 has-text-weight-medium has-text-primary-lighter">Colors, icons, rules, etc</p>
             </div>
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-raised is-floating has-background-white-ter hover-to-popping">
+        <a href="#/avatar" class="box is-raised has-background-white-ter hover-to-popping">
             <div class="box">
                 <img src="media/components.png" width="60" class="no-zoom"/>
-                <hr class="is-smaller">
+                <hr class="is-size-8">
                 <div class="title is-4">Components</div>
                 <p class="subtitle is-6 has-text-weight-medium has-text-grey">All you need to build your UIs</p>
             </div>
@@ -42,8 +42,8 @@
 
 <div class="subtitle">Only two files are required to start using BDS:</div>
 
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-raised hover-to-popping has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-raised hover-to-popping has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-raised hover-to-floating has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-raised hover-to-floating has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
 <hr class="is-size-2">
 
