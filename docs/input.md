@@ -12,10 +12,15 @@
     <hr class="is-size-8">
     <input class="input" type="tel" placeholder="Default input">
     <hr class="is-size-8">
-    <input class="input is-medium is-danger" type="email" placeholder="Medium and danger input">
+    <input class="input is-medium" type="email" placeholder="Medium and danger input">
     <hr class="is-size-8">
-    <label for="defaultfield" class="label">Has a label</label>
-    <input id="defaultfield" class="input" type="email" placeholder="Medium and danger input">
+    <input class="input is-large" type="email" placeholder="Large input (to use very occasionally)">
+    <hr class="is-size-8">
+    <label for="defaultfield" class="label">With a label</label>
+    <input id="defaultfield" class="input" type="email" placeholder="Placeholder is then used to give examples">
+    <hr class="is-size-8">
+    <label for="defaultfield2" class="label">Required field</label>
+    <input id="defaultfield2" class="input is-danger" type="email" placeholder="With class is-danger">
 </form>
 
     <input class="input is-small" type="text" placeholder="..">

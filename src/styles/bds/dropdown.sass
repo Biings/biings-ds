@@ -29,11 +29,6 @@
 .dropdown.is-medium:after
     font-size: 1.125rem
 
-.dropdown-content
-    overflow-y: scroll
-    max-height: 30em
-    max-height: 50vh
-
 .select:not(.is-multiple):not(.is-loading):after
     border-width: 2px
 
@@ -75,3 +70,22 @@
 //     100%
 //         opacity: 1
 //         transform: translateY(0)
+
+.dropdown.has-arrow > .dropdown-menu:before
+    position: absolute
+    top: -.375em
+    left: 15%
+    width: 0
+    height: 0
+    border-right: .75em solid transparent
+    border-bottom: .75em solid $white
+    border-left: .75em solid transparent
+    content: ''
+
+.dropdown.has-arrow.is-centered > .dropdown-menu:before
+    left: 50%
+    margin-left: -.5em
+
+.dropdown.has-arrow.is-right > .dropdown-menu:before
+    left: 80%
+

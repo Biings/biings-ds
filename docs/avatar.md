@@ -40,13 +40,13 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box is-well is-relaxed is-marginless">
-    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/1139aec0d65f8e3735d9a142e99ca804?size=100&d=blank"></div><span class="subtitle is-5"><strong>Redford, Robert</strong></span>
+    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle is-5"><strong>Padukone, Deepika</strong></span>
 </div>
 
     <div class="avatar is-medium">
-        <img src="https://www.gravatar.com/avatar/aamir.gif">
+        <img src="https://www.gravatar.com/avatar/padukone.png">
     </div>
-    <span class="subtitle is-5">Redford, Robert</span>
+    <span class="subtitle is-5">Padukone, Deepika</span>
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Status</h2>

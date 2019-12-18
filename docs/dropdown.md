@@ -41,6 +41,11 @@
             </div>
         </div>
     </div>
+
+<br>
+
+?> Use the class `.is-active` if you want to control the dropdown with javascript. For CSS only, use `.is-hoverable`.
+
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Sizes</h2>
@@ -82,11 +87,11 @@ Dropdown can adapt to the size of their trigger component. Supported sizes are :
 
 Use `is-iconless` if you want to use your own icon in the dropdown button.
 
-<hr class="is-small">
+<hr>
 
 <div class="box is-well is-large is-marginless">
 
-    <div class="dropdown is-hoverable is-iconless">
+    <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
             <div class="button">
                 <span>With custom icon &nbsp;</span>
@@ -105,31 +110,53 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Changer the trigger</h2>
+<h2 class="title is-3 is-family-sans-serif">Attached arrow</h2>
 
-Any element or component can trigger a dropdown when placed inside the `.dropdown-trigger` div.
+Add class `.has-arrow` when you want to clearly indicate the element the dropdown is attached to.  
+Use `is-centered` and `is-right` to change where the arrow is.
 
-<hr class="is-small">
+<hr>
 
 <div class="box is-well is-large">
 
-    <div class="dropdown is-hoverable is-iconless is-active">
-        <div class="dropdown-trigger">
-            <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div>
-            <span class="title is-6 has-text-grey">Even this can have a dropdown menu.</span>
-            <br><br>
+    <div class="level">
+        <div class="level-left">
+            <div class="dropdown is-hoverable is-iconless is-active has-arrow is-centered">
+                <div class="dropdown-trigger">
+                    <div class="avatar is-small"><div class="has-background-red-light">A</div></div><span class="is-size-6 has-text-grey">A dropdown with a centered arrow</span>
+                    <hr class="is-thin is-wavy">
+                </div>
+                <div class="dropdown-menu"
+                     id="dropdown-menu"
+                     role="menu">
+                    <div class="dropdown-content">
+                        <a class="dropdown-item">Add <code>is-active</code> class</a>
+                        <a class="dropdown-item">for the dropdown to be open.</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="dropdown-menu" id="dropdown-menu" role="menu">
-            <div class="dropdown-content">
-                <a class="dropdown-item">This dropdown already has . .</a>
-                <a class="dropdown-item">. . the class <code>is-active</code>.</a>
+        <div class="level-right">
+            <div class="dropdown is-hoverable is-iconless has-arrow is-right">
+                <div class="dropdown-trigger">
+                    <div class="avatar is-small"><div class="has-background-turquoise-light">R</div></div><span class="has-text-grey">Also works with `is-right`</span>
+                    <hr class="is-thin is-wavy">
+                </div>
+                <div class="dropdown-menu"
+                     id="dropdown-menu"
+                     role="menu">
+                    <div class="dropdown-content">
+                        <a class="dropdown-item">Add <code>is-right</code> class</a>
+                        <a class="dropdown-item">for a right aligned dropdown.</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <hr>
 </div>
 
-?> Use the class `.is-active` if you want to control the dropdown with javascript.<br>For CSS only, use `.is-hoverable`.
+?> Any element can act as a dropdown trigger. Simply place it inside the `.dropdown-trigger` tag.
 
 <hr class="is-visible is-size-1">
 
@@ -137,7 +164,7 @@ Any element or component can trigger a dropdown when placed inside the `.dropdow
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
-<hr class="is-small">
+<hr>
 
 <div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable">
@@ -151,29 +178,15 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 </div>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item">Show</a>
-                <a class="dropdown-item is-active">results</a>
-                <a class="dropdown-item">here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
-                <a class="dropdown-item">and here</a>
+                <a class="dropdown-item">results</a>
+                <a class="dropdown-item">here.</a>
+                <a class="dropdown-item">This list</a>
+                <a class="dropdown-item">can have</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">result</a>
+                <a class="dropdown-item">items</a>
             </div>
         </div>
     </div>
@@ -204,7 +217,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
 Create a system default select list just by wrapping it with a `.select` div.
 
-<hr class="is-small">
+<hr>
 
 <div class="box is-well is-large is-marginless">
     <div class="select is-small">
