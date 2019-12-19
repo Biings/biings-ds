@@ -1,24 +1,35 @@
 <h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Dropdown</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
-    A <span class="has-text-weight-semibold">dropdown</span> presents either a menu of discoverable content, or a list of actions.
+    A <span class="has-text-weight-semibold">dropdown</span> presents either a list of actions or a tooltip with extra contextual information.
 </p>
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button">Default dropdown</div>
+            <div class="button is-light">Hover Me</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">This works</a>
-                <a class="dropdown-item is-active">Without</a>
-                <a class="dropdown-item">Any</a>
+                <a class="dropdown-item">With class <code>is-hoverable</code></a>
+                <a class="dropdown-item">It Works</a>
+                <a class="dropdown-item is-active">Without Any</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item">
-                    <span class="is-size-7 has-text-grey">You can also have stuff here</span>
+                    <span class="is-size-7 has-text-grey">(You can also have stuff here)</span>
                     <br>Javascript &nbsp;😉</a>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown is-active is-pulled-right is-right">
+        <div class="dropdown-trigger">
+            <div class="button">Opened Dropdown</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Add class <code>is-active</code></a>
+                <a class="dropdown-item">top open the dropdown</a>
             </div>
         </div>
     </div>
@@ -41,11 +52,6 @@
             </div>
         </div>
     </div>
-
-<br>
-
-?> Use the class `.is-active` if you want to control the dropdown with javascript. For CSS only, use `.is-hoverable`.
-
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Sizes</h2>
@@ -110,37 +116,41 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Attached arrow</h2>
+<h2 class="title is-3 is-family-sans-serif">Tooltips</h2>
 
-Add class `.has-arrow` when you want to clearly indicate the element the dropdown is attached to.  
-Use `is-centered` and `is-right` to change where the arrow is.
+Add class `.has-arrow` to clearly indicate the element the dropdown is attached to.  
+Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
 
 <hr>
 
-<div class="box is-well is-large">
+<div class="box is-well is-medium">
 
     <div class="level">
-        <div class="level-left">
-            <div class="dropdown is-hoverable is-iconless is-active has-arrow is-centered">
+        <div class="level-item">
+            <div class="dropdown is-iconless is-hoverable has-arrow">
                 <div class="dropdown-trigger">
-                    <div class="avatar is-small"><div class="has-background-red-light">A</div></div><span class="is-size-6 has-text-grey">A dropdown with a centered arrow</span>
-                    <hr class="is-thin is-wavy">
+                    <div class="button is-static is-dark is-paddingless">Tooltip-looking dropdown</div>
                 </div>
-                <div class="dropdown-menu"
-                     id="dropdown-menu"
-                     role="menu">
-                    <div class="dropdown-content">
-                        <a class="dropdown-item">Add <code>is-active</code> class</a>
-                        <a class="dropdown-item">for the dropdown to be open.</a>
+                <div class="dropdown-menu">
+                    <div class="box is-white is-floating is-size-7">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
+                </div>
+            </div>
+        </div>
+        <div class="level-item ">
+            <div class="dropdown is-iconless is-up is-centered is-hoverable has-arrow">
+                <div class="dropdown-trigger has-text-centered">
+                    <div class="button is-static is-paddingless is-fullwidth">Dropup!</div>
+                </div>
+                <div class="dropdown-menu" style="margin-left: -100%;">
+                    <div class="box is-white is-floating is-size-7">This one has both class <code>is-up</code> and <code>is-centered</code>.
                     </div>
                 </div>
             </div>
         </div>
-        <div class="level-right">
+        <div class="level-item">
             <div class="dropdown is-hoverable is-iconless has-arrow is-right">
                 <div class="dropdown-trigger">
-                    <div class="avatar is-small"><div class="has-background-turquoise-light">R</div></div><span class="has-text-grey">Also works with `is-right`</span>
-                    <hr class="is-thin is-wavy">
+                    <div class="button is-static is-paddingless is-fullwidth">Right aligned dropdown</div>
                 </div>
                 <div class="dropdown-menu"
                      id="dropdown-menu"
@@ -153,10 +163,10 @@ Use `is-centered` and `is-right` to change where the arrow is.
             </div>
         </div>
     </div>
-    <hr>
 </div>
 
-?> Any element can act as a dropdown trigger. Simply place it inside the `.dropdown-trigger` tag.
+?> <strong>Create tooltips</strong> by wrapping any element in a `.dropdown-trigger` tag and by combining it with an
+arrow.
 
 <hr class="is-visible is-size-1">
 
