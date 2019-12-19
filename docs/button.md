@@ -8,6 +8,11 @@
 <h2 class="title is-3 is-family-sans-serif">Defaults</h2>
 
 <table class="table is-fullwidth is-bordered">
+    <thead>
+        <tr>
+            <th colspan="3">Buttons – <code>div</code> or <code>button</code></th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
             <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
@@ -61,6 +66,40 @@
         </tr>
     </tbody>
 </table>
+
+<br>
+
+<table class="table is-bordered">
+    <thead>
+        <tr>
+            <th colspan="2" >Links – <code>a</code></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a>Regular</a></td>
+            <td>Just with <code>a</code></td>
+        </tr>
+        <tr>
+            <td><a class="is-ghost">Ghost</a></td>
+            <td><code>is-ghost</code></td>
+        </tr>
+        <tr>
+            <td><a class="is-underlined">Underlined</a></td>
+            <td><code>is-underlined</code></td>
+        </tr>
+        <tr>
+            <td><a class="is-regular is-underlined">Regular Underlined</a></td>
+            <td><code>is-underlined</code> <code>is-regular</code></td>
+        </tr>
+        <tr>
+            <td><a class="is-ghost is-underlined">Underlined Ghost</a></td>
+            <td><code>is-ghost</code> <code>is-underlined</code></td>
+        </tr>
+    </tbody>
+</table>
+
+?> Use a Link instead of a button when navigating or when the action is not primary.
 
 <hr class="is-size-1 is-visible">
 
@@ -153,26 +192,3 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
             <a class="button has-text-primary">Maybe</a>
         </p>
     </div>
-<hr class="is-size-1 is-visible">
-
-<h2 class="title is-3 is-family-sans-serif">Links</h2>
-
-Use a Link instead of a button when navigating or when the action is tertiary.
-
-<hr>
-
-<div class="box is-well is-marginless is-large">
-    <div class="level">
-        <div class="level-item"><a href="">Regular</a></div>
-        <div class="level-item"><a href="" class="is-underlined is-regular">Regular Underlined</a></div>
-        <div class="level-item"><a href="" class="is-ghost">Ghost link</a></div>
-        <div class="level-item"><a href="" class="is-underlined">Underlined</a></div>
-        <div class="level-item"><a href="" class="is-ghost is-underlined">Underlined Ghost</a></div>
-    </div>
-</div>
-
-    <a>Regular Link</a>
-    <a class="is-underlined is-regular">Regular Underlined</a>
-    <a class="is-ghost">Ghost</a>
-    <a class="is-underlined">Underlined</a>
-    <a class="is-ghost is-underlined">Underlined Ghost</a>

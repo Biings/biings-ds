@@ -31,6 +31,12 @@
     border-bottom-left-radius: $modal-card-head-radius
     border-bottom-right-radius: $modal-card-head-radius
 
+.modal-card-head > .delete,
+.modal-card-body > .delete
+    position: absolute
+    top: 1.75rem
+    right: 1.75rem
+
 .modal-card-foot
     display: block
 
@@ -51,7 +57,8 @@
     margin-right: -.25rem
     &:before,
     &:after
-        background-color: $grey-light
+        background-color: $grey-dark
+        transition: background-color .075s linear
     &:before
         width: 100%
     &:after
@@ -61,7 +68,10 @@
 .delete:hover
     &:before,
     &:after
-        background-color: $grey
+        background-color: $grey-darker
+
+.modal-close
+    background-color: rgba($black,0.15)
 
 @keyframes shrinkIn
     0%
