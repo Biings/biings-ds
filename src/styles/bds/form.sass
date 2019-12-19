@@ -29,22 +29,22 @@
     box-shadow: inset 0 0 0 2px darken($border,8)
 
 .checkbox > input:checked ~ .checkbox-mark
-    box-shadow: 0 0 0 1px $primary, inset 0 0 0 2px $primary !important
-    background-color: $primary
     border-radius: 2px
+    background-color: $primary
+    box-shadow: 0 0 0 1px $primary, inset 0 0 0 2px $primary !important
 
 .radio > input:checked ~ .radio-mark
     box-shadow: inset 0 0 0 2px $primary !important
 
 .checkbox[disabled] > .checkbox-mark,
 .radio[disabled] > .radio-mark
-    box-shadow: inset 0 0 0 2px rgba($border,.5) !important
     background-color: transparent
+    box-shadow: inset 0 0 0 2px rgba($border,.5) !important
 
 .checkbox[disabled] > input:checked ~ .checkbox-mark,
-.radio[disabled] > input:checked ~  .radio-mark
-    box-shadow: 0 0 0 1px rgba($border,.5), inset 0 0 0 2px transparent !important
+.radio[disabled] > input:checked ~ .radio-mark
     background-color: rgba($border,.5)
+    box-shadow: 0 0 0 1px rgba($border,.5), inset 0 0 0 2px transparent !important
 
 .checkbox[disabled] > input:checked ~ .checkbox-mark:after
     border: solid $primary !important
@@ -141,7 +141,7 @@ select,
     min-height: 2.75em
     border-width: 2px
     transition: border-color .15s linear, box-shadow .15s linear
-    
+
 .textarea
     padding-left: calc(.875em - 1px)
 
@@ -169,7 +169,7 @@ form .field
     padding-right: $control-padding-horizontal
     padding-bottom: $control-padding-vertical
     padding-left: $control-padding-horizontal
-    color: $grey
+    color: $border-hover
     font-size: $size-small
     transition: color .1s linear
 
@@ -215,4 +215,31 @@ form .field
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
     top: 1.125em
-    left: 1.25em;
+    left: 1.25em
+
+.field > label > span
+    font-style: italic
+    font-weight: 400
+    color: $border-hover
+
+.field.is-required > label 
+    margin-top: -1px
+    text-underline-offset: .125em
+    text-decoration: underline
+
+.control.has-icons-left .icon,
+.control.has-icons-right .icon
+    padding: .75em
+    fill: $border-hover
+
+.control.has-icons-left .icon
+    margin-left: .125em
+
+.control.has-icons-right .icon
+    margin-right: .25em
+
+// .control.has-icons-left .input:focus ~ .icon,
+// .control.has-icons-left .select:focus ~ .icon,
+// .control.has-icons-right .input:focus ~ .icon,
+// .control.has-icons-right .select:focus ~ .icon
+//     fill: $dark

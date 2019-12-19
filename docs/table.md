@@ -5,8 +5,8 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-relaxed is-marginless">
-    <table class="table">
+<div class="box is-well is-large is-marginless">
+    <table class="table is-striped is-hoverable">
         <thead>
             <tr>
                 <th>First column</th>
@@ -28,7 +28,7 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr class="has-background-white-bis">
+            <tr class="is-selected">
                 <td>Line 3</td>
                 <td>this</td>
                 <td>is</td>
@@ -44,7 +44,7 @@
     </table>
 </div>
 
-    <table class="table">
+    <table class="table is-striped is-hoverable">
         <thead>
             <tr>
                 <th>First column</th>
@@ -60,7 +60,7 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr class="has-background-white-bis">
+            <tr class="is-selected">
                 <td>Line 3</td>
                 <td>This</td>
                 <td>is</td>

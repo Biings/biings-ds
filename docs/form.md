@@ -41,7 +41,38 @@
 ?> Add `is-warning` or `is-danger` to the `.field` div to change the status.
 
 <hr class="is-visible is-size-1">
+<h2 class="title is-3 is-family-sans-serif">Required or Optional</h2>
 
+In most cases it is better to indicate the optional fields rather than the required ones. Add a `span` inside the label saying "Optional" is the way to go. But you can also add the class `is-required` to the field you wish to display more strongly.
+
+<hr class="is-size-8">
+
+<div class="box is-well is-large is-marginless">
+    <form class="columns is-variable is-4">
+        <div class="column is-6">
+            <div class="field">
+                <label for="textfieldOp" class="label">Some label <span>– Optional</span></label>
+                <input id="textfieldOp" class="input" placeholder="Nice to have stuff"></textarea>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="field is-required">
+                <label for="textfieldRe" class="label">Something required</label>
+                <input id="textfieldORe" class="input" placeholder="Very important stuff"></textarea>
+            </div>
+        </div>
+    </form>
+</div>
+
+    <div class="field">
+        <label for="textfieldOp" class="label">Some label <span>– Optional</span></label>
+        <input id="textfieldOp" class="input" placeholder="Nice to have stuff"></textarea>
+    </div>
+    <div class="field is-required">
+        <label for="textfieldRe" class="label">Something required</label>
+        <input id="textfieldORe" class="input" placeholder="Very important stuff"></textarea>
+    </div>
+<hr class="is-visible is-size-1">
 <h2 class="title is-3 is-family-sans-serif">Select field</h2>
 
 <form class="box is-well is-large is-marginless">

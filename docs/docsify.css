@@ -92,12 +92,12 @@ div.content
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;
-    border-color: #ef626c;
-    background-color: rgba(249, 192, 196,.25);
+    border-color: #ffba41;
+    background-color: rgba(255, 186, 65,.15);
 }
 .markdown-section p.tip::before
 {
-    background-color: #ef626c;
+    background-color: #ffba41;
     font-weight: 700;
     font-family: Averta,Helvetica Neue,Arial,sans-serif;
 }
@@ -105,8 +105,8 @@ div.content
 {
     position: relative;
     padding: 1rem 1.6rem;
-    border-left: 4px solid #78c0e0;
-    background-color: rgba(201, 230, 243, .3);
+    border-left: 4px solid #52A5E0;
+    background-color: rgba(8, 127, 210, .05);
 }
 .markdown-section p.warn::before
 {
@@ -117,8 +117,8 @@ div.content
     height: 1.5em;
     border-radius: 2em;
     background-color: white;
-    box-shadow: inset 0 0 0 2px #78c0e0;
-    color: #78c0e0;
+    box-shadow: inset 0 0 0 2px #52A5E0;
+    color: #52A5E0;
     content: 'i';
     text-align: center;
     font-weight: 700;

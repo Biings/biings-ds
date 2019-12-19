@@ -1,8 +1,9 @@
 .loader
     position: relative
+    width: 3em
     border: none
     animation: none
-    font-size: 1rem
+    font-size: .75rem
     &:before,
     &:after
         position: absolute
@@ -13,15 +14,15 @@
         border-radius: 50%
         background-color: rgba($primary-dark, .3)
         content: ''
-        animation: kick .6s infinite alternate
+        animation: jump .6s infinite alternate
     &:before
         margin-left: -.9375em
         animation-delay: .2s
     &:after
         margin-left: .9375em
-        animation: kick .6s infinite alternate
+        animation: jump .6s infinite alternate
 
-.loader.is-centered
+.loader:not(.is-inline)
     position: absolute
     top: 0
     left: 0
@@ -30,7 +31,22 @@
     width: 100%
     height: 100%
 
-@keyframes kick
+.loader.is-inline
+    display: inline-block !important
+    margin: 0 0.25em
+
+.loader:not(.is-medium):not(.is-large)
+    font-size: .375rem !important
+    &:before,
+    &:after
+        animation-name: jumpSmall
+        width: 1.125em
+        height: 1.125em
+
+.loader.is-large
+    font-size: 1.25rem !important
+
+@keyframes jump
     from
         opacity: 1
         transform: translateY(0)
@@ -38,12 +54,13 @@
         opacity: .3
         transform: translateY(-1rem)
 
-.loader.is-small
-    font-size: .5rem
-
-.loader.is-large
-    font-size: 1.5rem
-
+@keyframes jumpSmall
+    from
+        opacity: 1
+        transform: translateY(0)
+    to
+        opacity: .3
+        transform: translateY(-0.75rem)
 
 .loader.is-inverted
     &:before,
@@ -54,9 +71,9 @@
     &:before,
     &:after
         background-color: rgba($primary, .7)
-        animation-name: kickColorful
+        animation-name: jumpColorful
 
-@keyframes kickColorful
+@keyframes jumpColorful
     from
         opacity: 1
         background-color: rgba($primary, .7)
