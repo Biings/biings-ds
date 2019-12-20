@@ -6,7 +6,7 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-large has-text-centered is-marginless">
-    <div onclick="openModal('')" class="button is-primary is-beefy is-glowing">Open Modal</div>
+    <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal('')"></div>
@@ -38,7 +38,7 @@
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Modal Card Example 1</div>
     &nbsp; 
-    <div onclick="openModal(2)" class="button is-beefy is-dark is-glowing">Modal Card Example 2</div>
+    <div onclick="openModal(2)" class="button is-beefy is-primary is-glowing">Modal Card Example 2</div>
 </div>
 <div id="js-modal1" class="modal">
     <div class="modal-background" onclick="closeModal(1)"></div>

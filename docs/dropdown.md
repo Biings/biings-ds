@@ -89,9 +89,9 @@ Dropdown can adapt to the size of their trigger component. Supported sizes are :
     
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Use a custom icon</h2>
+<h2 class="title is-3 is-family-sans-serif">Custom icon</h2>
 
-Use `is-iconless` if you want to use your own icon in the dropdown button.
+Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not).
 
 <hr>
 
@@ -118,18 +118,20 @@ Use `is-iconless` if you want to use your own icon in the dropdown button.
 
 <h2 class="title is-3 is-family-sans-serif">Tooltips</h2>
 
-Add class `.has-arrow` to clearly indicate the element the dropdown is attached to.  
-Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
+Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
+
+<br>
+
+<strong>Create tooltips</strong> looking dropdown by wrapping any element in a `.dropdown-trigger` combined with `has-arrow`.
 
 <hr>
 
-<div class="box is-well is-medium">
-
+<div class="box is-well is-medium is-marginless">
     <div class="level">
         <div class="level-item">
             <div class="dropdown is-iconless is-hoverable has-arrow">
                 <div class="dropdown-trigger">
-                    <div class="button is-static is-dark is-paddingless">Tooltip-looking dropdown</div>
+                    <div class="button is-static is-dark is-paddingless">Tooltip-Style</div>
                 </div>
                 <div class="dropdown-menu">
                     <div class="box is-white is-floating is-size-7">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
@@ -142,22 +144,32 @@ Use modifiers `is-centered` and `is-right` to change the alignement of the dropd
                     <div class="button is-static is-paddingless is-fullwidth">Dropup!</div>
                 </div>
                 <div class="dropdown-menu" style="margin-left: -100%;">
-                    <div class="box is-white is-floating is-size-7">This one has both class <code>is-up</code> and <code>is-centered</code>.
+                    <div class="box is-white is-floating is-size-7">
+                        This one has both class <code>is-up</code> and <code>is-centered</code>
                     </div>
                 </div>
             </div>
         </div>
         <div class="level-item">
-            <div class="dropdown is-hoverable is-iconless has-arrow is-right">
+            <div class="dropdown is-hoverable is-iconless is-centered has-arrow">
                 <div class="dropdown-trigger">
-                    <div class="button is-static is-paddingless is-fullwidth">Right aligned dropdown</div>
+                    <div class="button is-static is-paddingless is-fullwidth has-text-primary">Colored</div>
                 </div>
-                <div class="dropdown-menu"
-                     id="dropdown-menu"
-                     role="menu">
-                    <div class="dropdown-content">
-                        <a class="dropdown-item">Add <code>is-right</code> class</a>
-                        <a class="dropdown-item">for a right aligned dropdown.</a>
+                <div class="dropdown-menu" style="margin-left: -100%;">
+                    <div class="box is-white is-floating is-size-7 has-background-primary has-text-white">
+                        This one contains a div with <strong>has-background-primary</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="dropdown is-hoverable is-iconless has-arrow is-right is-up">
+                <div class="dropdown-trigger">
+                    <div class="button is-static is-paddingless is-fullwidth">Right Info</div>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="box is-floating is-size-7 has-background-info has-text-white has-text-right">
+                        This <strong>is-right</strong>, <strong>is-up</strong> and contains a div with <strong>has-background-info</strong>
                     </div>
                 </div>
             </div>
@@ -165,9 +177,17 @@ Use modifiers `is-centered` and `is-right` to change the alignement of the dropd
     </div>
 </div>
 
-?> <strong>Create tooltips</strong> by wrapping any element in a `.dropdown-trigger` tag and by combining it with an
-arrow.
-
+    <!-- Blue tootlip, Right aligned and Up  -->
+    <div class="dropdown is-hoverable is-iconless has-arrow is-right is-up">
+        <div class="dropdown-trigger">
+            <!-- Put anything you want here, it will trigger the dropdown/tooltip -->
+        </div>
+        <div class="dropdown-menu">
+            <div class="box has-background-info has-text-white  has-text-right is-floating">
+                <!-- Your content -->
+            </div>
+        </div>
+    </div>
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Searchable list</h2>

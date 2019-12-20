@@ -71,28 +71,39 @@
 //         opacity: 1
 //         transform: translateY(0)
 
-.dropdown.has-arrow > .dropdown-menu:before
+.dropdown.has-arrow > .dropdown-menu > div:before
     position: absolute
     width: 0
     height: 0
     border-right: .75em solid transparent
     border-left: .75em solid transparent
+    border-left-color: transparent !important
+    border-right-color: transparent !important
     content: ''
 
-.dropdown:not(.is-up) > .dropdown-menu:before
+.dropdown:not(.is-up) > .dropdown-menu > div:before
     top: -.375em
     border-bottom: .75em solid $white
 
-.dropdown.is-up.has-arrow > .dropdown-menu:before
+.dropdown.is-up.has-arrow > .dropdown-menu > div:before
     bottom: -.375em
     border-top: .75em solid $white
 
-.dropdown.has-arrow:not(.is-right) > .dropdown-menu:before
+.dropdown.has-arrow:not(.is-right) > .dropdown-menu > div:before
     left: 1.5em
 
-.dropdown.has-arrow.is-centered > .dropdown-menu:before
+.dropdown.has-arrow.is-centered > .dropdown-menu > div:before
     left: 50%
     margin-left: -.5em
 
-.dropdown.has-arrow.is-right > .dropdown-menu:before
-    right: 1.5em;
+.dropdown.has-arrow.is-right > .dropdown-menu > div:before
+    right: 1.5em
+
+.dropdown.has-arrow > .dropdown-menu > div.has-background-dark:before
+    border-color: $dark
+
+.dropdown.has-arrow > .dropdown-menu > div.has-background-primary:before
+    border-color: $primary
+
+.dropdown.has-arrow > .dropdown-menu > div.has-background-info:before
+    border-color: $info
