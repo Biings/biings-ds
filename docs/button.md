@@ -107,7 +107,7 @@
 
 <hr>
 
-<table class="table is-fullwidth is-bordered">
+<table class="table is-bordered">
     <tbody>
         <tr>
             <td class="has-text-centered"><br><div class="button is-light is-small">Sml</div><br><br></td>

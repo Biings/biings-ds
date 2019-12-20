@@ -51,7 +51,40 @@
         </header>
         <section class="modal-card-body">
             <h2 class="title">Some modal card content</h2>
-            <p class="subtitle is-italic is-size-5 has-text-grey">Can be a form or anything else.</p>
+            <p class="subtitle is-italic is-size-5 has-text-grey">Can handle of lot of content.</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si stante, hoc natura videlicet vult, salvam esse se, quod
+                concedimus; Laboro autem non sine causa; Beatus autem esse in maximarum rerum timore nemo potest. Progredientibus autem
+                aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. Duo Reges: constructio interrete. Quis enim redargueret?
+                Ergo ita: non posse honeste vivi, nisi honeste vivatur?
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magni enim aestimabat pecuniam non modo non contra leges, sed
+                etiam legibus partam. Ergo id est convenienter naturae vivere, a natura discedere. At certe gravius. Huic mori optimum
+                esse propter desperationem sapientiae, illi propter spem vivere. Paupertas si malum est, mendicus beatus esse nemo
+                potest, quamvis sit sapiens. Non est ista, inquam, Piso, magna dissensio.
+                
+                Te enim iudicem aequum puto, modo quae dicat ille bene noris. Sed quot homines, tot sententiae; Duo Reges: constructio
+                interrete. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem.
+                
+                Quicquid porro animo cernimus, id omne oritur a sensibus; Vitiosum est enim in dividendo partem in genere numerare. Hoc
+                ne statuam quidem dicturam pater aiebat, si loqui posset. Est tamen ea secundum naturam multoque nos ad se expetendam
+                magis hortatur quam superiora omnia. Si qua in iis corrigere voluit, deteriora fecit. Ut placet, inquit, etsi enim illud
+                erat aptius, aequum cuique concedere. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? Sic, et
+                quidem diligentius saepiusque ista loquemur inter nos agemusque communiter.
+                
+                Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Octavio fuit, cum illam severitatem in eo filio
+                adhibuit, quem in adoptionem D. Iam doloris medicamenta illa Epicurea tamquam de narthecio proment: Si gravis, brevis;
+                Verba tu fingas et ea dicas, quae non sentias? Atque ab his initiis profecti omnium virtutum et originem et
+                progressionem persecuti sunt. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Videmus
+                igitur ut conquiescere ne infantes quidem possint.
+                
+                Nam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. Sed tu istuc dixti bene Latine, parum
+                plane. Quid, quod res alia tota est? Tu autem negas fortem esse quemquam posse, qui dolorem malum putet. Ego vero volo
+                in virtute vim esse quam maximam; Eaedem enim utilitates poterunt eas labefactare atque pervertere. Quid enim de
+                amicitia statueris utilitatis causa expetenda vides. Mihi quidem Antiochum, quem audis, satis belle videris attendere.
+            </p>
         </section>
         <footer class="modal-card-foot">
             <div class="button is-dark">Footer Action</div><div class="button is-static">or</div><div class="button is-text" onclick="closeModal(1)">Close</div>
@@ -86,7 +119,7 @@
             </form>
         </section>
         <footer class="modal-card-foot">
-            <div class="button is-primary is-beefy is-fullwidth">Primary Action</div>
+            <div class="button is-primary is-medium is-beefy is-fullwidth">Primary Action</div>
         </footer>
     </div>
 </div>

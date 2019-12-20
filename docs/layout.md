@@ -22,6 +22,10 @@ Container is used to center your content horizontally. There are 3 levels :
       <td class="is-narrow"><code>container is-narrower</code></td>
       <td>Max <strong>769px</strong> (the tablet breakpoint)</td>
   </tr>
+  <tr>
+    <td class="is-narrow"><code>container is-narrowest</code></td>
+    <td>Max <strong>560px</strong> (the modal max width)</td>
+  </tr>
 </table>
 
 <br>
@@ -39,10 +43,10 @@ Add class `is-medium` or `is-large` to fruther increase the vertical space.
 <hr class="is-small">
 
 <div class="box is-well is-marginless is-relaxed">
-    <div class="section has-background-grey-lighter">
+    <div class="section has-background-blue-light">
         Normal size
     </div>
-    <div class="section is-medium has-background-grey-light">
+    <div class="section is-medium has-background-cyan-lighter">
         Medium size
     </div>
 </div>

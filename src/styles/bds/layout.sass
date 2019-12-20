@@ -1,9 +1,12 @@
 /* Containers */
 .container.is-narrow
-    max-width: 936px
+    max-width: $desktop - (2 * $gap)
 
 .container.is-narrower
     max-width: $tablet
+
+.container.is-narrowest
+    max-width: $modal-content-width
 
 /* Rules / Lines */
 hr:not(.is-visible):not(.dropdown-divider)

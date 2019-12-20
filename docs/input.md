@@ -22,8 +22,10 @@
     <label for="defaultfield" class="label">With a label</label>
     <input id="defaultfield" class="input" type="email" placeholder="Placeholder is then used to give examples">
     <hr class="is-size-8">
-    <label for="defaultfield2" class="label">Required field</label>
-    <input id="defaultfield2" class="input is-danger" type="email" placeholder="With class is-danger">
+    <div class="columns is-variable is-2">
+        <div class="column is-10"><input class="input is-warning" placeholder="With class is-warning"></div>
+        <div class="column is-2"><div class="button is-warning is-beefy is-fullwidth">Submit</div></div>
+    </div>
 </form>
 
     <input class="input is-small" type="text" placeholder="..">
