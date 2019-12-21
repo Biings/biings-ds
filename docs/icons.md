@@ -171,6 +171,7 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg></div>today-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg></div>trash-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg></div>trash-bold-g</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#undo-g"></use></svg></div>undo-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#warning-g"></use></svg></div>warning-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#yang-g"></use></svg></div>yang-g</div>
 </div>

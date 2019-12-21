@@ -165,6 +165,35 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
     <div class="button is-text">No Click Effect</div>
 <hr class="is-size-1 is-visible">
 
+<h2 class="title is-3 is-family-sans-serif">Icon Button</h2>
+
+Buttons can be enhanced by adding an icon.  
+Simply insert an svg with class `.icon` and wrap the button text in a `span`.
+
+<br>
+
+<div class="box is-medium is-well is-marginless">
+    <div class="button is-beefy">
+        <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+        <span>Today!</span>
+    </div>
+    &nbsp;
+    <div class="button is-beefy is-success">
+        <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
+        <span>Download</span>
+    </div>
+</div>
+
+    <div class="button">
+        <svg class="icon"><use xlink:href="bds.min.svg#icon_name"></use></svg>
+        <span>Regular Button</span>
+    </div>
+    <div class="button is-info">
+        <svg class="icon has-text-fill-white"><use xlink:href="bds.min.svg#icon_name"></use></svg>
+        <span>Info Button</span>
+    </div>
+<hr class="is-size-1 is-visible">
+
 <h2 class="title is-3 is-family-sans-serif">Button Group</h2>
 
 <div class="box is-well is-marginless is-large">
