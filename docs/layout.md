@@ -7,23 +7,23 @@
 
 <h2 class="title is-3 is-family-sans-serif">Container</h2>
 
-Container is used to center your content horizontally. There are 3 levels :
-<hr class="is-smaller">
+Container is used to center your content horizontally. Alter the max width with the following modifiers:
+<br><br>
 <table class="table is-bordered">
   <tr>
       <td class="is-narrow"><code>container</code></td>
       <td>Max <strong>1248px</strong>, with breakpoints</td>
   </tr>
   <tr>
-      <td class="is-narrow"><code>container is-narrow</code></td>
+      <td class="is-narrow"><code>container</code> <code>is-desktop</code></td>
       <td>Max <strong>960px</strong> (the desktop breakpoint)</td>
   </tr>
   <tr>
-      <td class="is-narrow"><code>container is-narrower</code></td>
+      <td class="is-narrow"><code>container</code> <code>is-tablet</code></td>
       <td>Max <strong>769px</strong> (the tablet breakpoint)</td>
   </tr>
   <tr>
-    <td class="is-narrow"><code>container is-narrowest</code></td>
+    <td class="is-narrow"><code>container</code> <code>is-modal</code></td>
     <td>Max <strong>560px</strong> (the modal max width)</td>
   </tr>
 </table>
@@ -43,7 +43,7 @@ Add class `is-medium` or `is-large` to fruther increase the vertical space.
 <hr class="is-small">
 
 <div class="box is-well is-marginless is-relaxed">
-    <div class="section has-background-blue-light">
+    <div class="section has-background-turquoise-light">
         Normal size
     </div>
     <div class="section is-medium has-background-cyan-lighter">

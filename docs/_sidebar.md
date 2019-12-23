@@ -15,7 +15,7 @@
 <div class="menu is-small"><ul class="menu-list">
 - [Avatar](avatar)
 - [Box](box)
-- [Button / Link](button)
+- [Button & Link](button)
 - [Card](card)
 - [Checkbox](checkbox)
 - [Dropdown](dropdown)

@@ -72,28 +72,28 @@
 <table class="table is-bordered">
     <thead>
         <tr>
-            <th colspan="2" >Links – <code>a</code></th>
+            <th colspan="2" >Links (<code>a</code>)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><a>Regular</a></td>
+            <td class="has-text-centered"><a>Regular</a></td>
             <td>Just with <code>a</code></td>
         </tr>
         <tr>
-            <td><a class="is-ghost">Ghost</a></td>
+            <td class="has-text-centered"><a class="is-ghost">Ghost</a></td class="has-text-centered">
             <td><code>is-ghost</code></td>
         </tr>
         <tr>
-            <td><a class="is-underlined">Underlined</a></td>
+            <td class="has-text-centered"><a class="is-underlined">Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code></td>
         </tr>
         <tr>
-            <td><a class="is-regular is-underlined">Regular Underlined</a></td>
+            <td class="has-text-centered"><a class="is-regular is-underlined">Regular Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code> <code>is-regular</code></td>
         </tr>
         <tr>
-            <td><a class="is-ghost is-underlined">Underlined Ghost</a></td>
+            <td class="has-text-centered"><a class="is-ghost is-underlined">Underlined Ghost</a></td class="has-text-centered">
             <td><code>is-ghost</code> <code>is-underlined</code></td>
         </tr>
     </tbody>
@@ -150,21 +150,6 @@
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Clicked Effect</h2>
-
-Using the `<button>` tag with the `button` class will add a remanent effect once the button is clicked.
-
-<hr>
-
-<div class="box is-well is-marginless is-large">
-    <button class="button is-medium">Click Effect</button><div class="button is-static">or</div><div class="button is-text">No Click Effect</div>
-</div>
-
-    <button class="button">Button</button>
-    <div class="button is-static">or</div>
-    <div class="button is-text">No Click Effect</div>
-<hr class="is-size-1 is-visible">
-
 <h2 class="title is-3 is-family-sans-serif">Icon Button</h2>
 
 Buttons can be enhanced by adding an icon.  
@@ -192,6 +177,23 @@ Simply insert an svg with class `.icon` and wrap the button text in a `span`.
         <svg class="icon has-text-fill-white"><use xlink:href="bds.min.svg#icon_name"></use></svg>
         <span>Info Button</span>
     </div>
+<hr class="is-size-1 is-visible">
+
+<h2 class="title is-3 is-family-sans-serif">Clicked Effect</h2>
+
+Using the `<button>` tag with the `button` class will add a remanent effect once the button is clicked.
+
+<hr>
+
+<div class="box is-well is-marginless is-large">
+    <button class="button is-medium">Click Effect</button>
+    <div class="button is-static">or</div>
+    <div class="button is-text">No Click Effect</div>
+</div>
+
+    <button class="button">Button</button>
+    <div class="button is-static">or</div>
+    <div class="button is-text">No Click Effect</div>
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Button Group</h2>
