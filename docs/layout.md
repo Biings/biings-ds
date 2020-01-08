@@ -85,7 +85,6 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
         <div class="column">Third</div>
         <div class="column">Fourth</div>
       </div>
-
 <br>
 <a href="https://bulma.io/documentation/columns/" target="blank" class="box is-bordered">
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
@@ -107,8 +106,9 @@ Use **Level items** when you need to vertically center elements on one line.
       <div class="level-item"><div class="message has-background-red-lighter has-text-weight-semibold"><br>&nbsp; &nbsp; Item 3 &nbsp; &nbsp;<br><br></div></div>
     </div>
     <div class="level-right">
-        <div class="level-item"><div class="message has-background-green-light has-text-weight-semibold"><br>&nbsp; &nbsp; Item 4 &nbsp; &nbsp;<br><br></div></div>
-        <div class="level-item"><div class="message has-background-green has-text-weight-semibold"><br>&nbsp; &nbsp; Item 5 &nbsp; &nbsp;<br><br></div></div>
+        <div class="level-item"><div class="message has-background-green-lighter has-text-weight-semibold"><br>&nbsp; &nbsp; Item 4 &nbsp; &nbsp;<br><br></div></div>
+        <div class="level-item"><div class="message has-background-green-light has-text-weight-semibold"><br>&nbsp; &nbsp; Item 5 &nbsp; &nbsp;<br><br></div></div>
+        <div class="level-item"><div class="message has-background-green has-text-weight-semibold"><br>&nbsp; &nbsp; Item 6 &nbsp; &nbsp;<br><br></div></div>
     </div>
   </div>
 </div>
@@ -122,9 +122,9 @@ Use **Level items** when you need to vertically center elements on one line.
       <div class="level-right">
           <div class="level-item">Item 4</div>
           <div class="level-item">Item 5</div>
+          <div class="level-item">Item 6</div>
       </div>
     </div>
-
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Spacer</h2>

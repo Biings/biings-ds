@@ -11,12 +11,12 @@ Brand colors are used when refering to Biings or any of its products.
 
 <div class="columns is-multiline">
     
-    <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong>primary</strong> <br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
-    <div class="column is-4"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="has-text-grey-dark"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
+    <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong class="has-text-weight-bold">primary</strong> <br><u class="has-text-grey-dark is-family-monospace">#8C50B9</u></div>
+    <div class="column is-4"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="has-text-grey-light"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
     <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="has-text-grey-dark is-family-monospace">#46285D</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#5B3478</span></div>
-    <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary · pilot</strong><br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
+    <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary / pilot</strong><br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
     <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#D1B9E3</span></div>
     <div class="column is-12"></div>
