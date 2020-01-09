@@ -165,7 +165,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
         <div class="level-item">
             <div class="dropdown is-hoverable is-iconless has-arrow is-right is-up">
                 <div class="dropdown-trigger">
-                    <div class="button is-static is-paddingless is-fullwidth">Right Info</div>
+                    <div class="button is-static is-paddingless is-fullwidth has-text-info">Right Info</div>
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="box is-floating is-size-7 has-background-info has-text-white has-text-right">
