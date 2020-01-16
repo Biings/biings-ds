@@ -6,6 +6,7 @@
 <div class="menu is-small"><ul class="menu-list">
 - [Colors](color)
 - [Iconography](icons)
+- [Layout](layout)
 <!-- - [Rules](rules) -->
 - [Typography](typo)
 - [Voice & Tone](voice)
@@ -22,7 +23,6 @@
 <!-- - [Illustration](illustration) -->
 - [Form](form)
 - [Input](input)
-- [Layout](layout)
 - [Loader](loader)
 - [Menu](menu)
 - [Message](message)

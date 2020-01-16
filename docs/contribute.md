@@ -10,8 +10,8 @@
 <br>
 <p class="has-text-weight-semibold">2 )&nbsp; Make your changes</p>
 <ul class="list">
-    <li>Styles – all BDS components in <code>src/styles/..</code></li>
-    <li>Bulma for BDS – Bulma Sass files in <code>src/styles/bulma/..</code></li>
+    <li>Styles – all BDS components in <code>src/styles/bds/..</code></li>
+    <li>Bulma base variables <code>src/styles/bulma.sass</code></li>
     <li>Icon set – SVG icon files in <code>src/icons/..</code></li>
 </ul>
 <br>

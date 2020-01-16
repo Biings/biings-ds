@@ -34,17 +34,18 @@
 
 <h2 class="title is-3">Quick start</h2><br>
 
-<div class="subtitle">Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>
+<div class="subtitle"><strong>1 )</strong> Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>
 
     npm install biings-ds
 <hr>
 
-<div class="subtitle">Only two files are required to start using BDS:</div>
+<div class="subtitle"><strong>2 )</strong> The two files below are enough to start using BDS (fonts must be added seperately).</div>
 
 <a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-raised hover-to-floating has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
 <a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-raised hover-to-floating has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
-<hr class="is-size-2">
+
+<hr class="is-size-3">
 
 <div class="box is-large is-well">
     <div class="columns is-marginless">
