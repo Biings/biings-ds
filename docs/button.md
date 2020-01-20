@@ -122,6 +122,10 @@
             <td><hr><code>is-large</code></td>
         </tr>
         <tr>
+            <td class="has-text-centered"><br><div class="button is-primary is-shadowed">Shadowed</div><br><br></td>
+            <td><hr><code>is-shadowed</code></td>
+        </tr>
+        <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-glowing">Glowing</div><br><br></td>
             <td><hr><code>is-glowing</code> + <code>is-[primary,danger or success]</code></td>
         </tr>

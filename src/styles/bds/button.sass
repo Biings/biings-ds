@@ -2,7 +2,7 @@
     border-radius: $radius
     font-weight: 500
     height: 2.5em
-    transition: background-color .1s linear, padding-left .3s cubic-bezier(.645, .045, .355, 1), box-shadow .5s linear
+    transition: background-color .2s linear, box-shadow .3s linear
 
 .button:hover
     background-color: mix($black, $light, 4)
@@ -101,6 +101,10 @@ button.button:active
     100%
         box-shadow: 0 .25em 1.25em rgba($primary,.6)
 
+.button.is-shadowed
+    box-shadow: 0 1px 4px rgba(0,0,0,.1),0 2px 6px rgba(0,0,0,.1)
+.button.is-shadowed:hover
+    box-shadow: 0 2px 4px rgba(0,0,0,.15),0 3px 9px rgba(0,0,0,.15)
 
 /* Links */
 a,
