@@ -1,12 +1,10 @@
 <hr class="is-hidden-desktop is-smaller">
-<h1 class="title is-0 is-size-1-mobile is-family-secondary is-spaced">Biings Design System</h1>
+<h1 class="title is-0 is-size-1-mobile is-family-secondary">Biings Design System</h1>
+<hr>
 <p class="subtitle is-4">
     <span class="has-text-weight-medium">The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
 </p>
-<img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
-&nbsp;
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-<hr class="is-size-7">
+<hr class="is-size-4">
 <div class="columns is-multiline">
     <div class="column is-half">
         <a href="#/color" class="box is-raised has-background-primary-dark hover-to-popping">
@@ -27,6 +25,28 @@
                 <p class="subtitle is-6 has-text-weight-medium has-text-grey">All you need to build your UIs</p>
             </div>
         </a>
+    </div>
+</div>
+
+<hr>
+
+<div class="levels has-text-grey-light">
+    <div class="level-left">
+        <div class="level-item">
+            <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square"
+                 alt="biings-ds">
+        </div>
+        <div class="level-item">/</div>
+        <div class="level-item">
+            <img alt="Creative Commons License"
+                 style="border-width:0; height: 18px;"
+                 src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg" />
+        </div>
+        <div class="level-item">/</div>
+        <div class="level-item has-text-dark">
+            <a href="https://updates.biings.com/biings-ds"
+               class="is-size-7 is-ghost ">Changelog</a>
+        </div>
     </div>
 </div>
 

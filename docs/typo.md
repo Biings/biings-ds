@@ -8,9 +8,10 @@
 <h4 class="title is-3 is-family-primary">Font family</h4>
 
 <ul class="list">
-    <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its main font family.</li>
-    <li>For important headings use <strong class="is-family-secondary has-text-weight-bold">Merriweather</strong> – modifier <code>is-family-secondary</code></li>
-    <li>When a Monospace font is required use <strong class="is-family-monospace">Roboto Mono</strong> – modifier <code>is-family-monospace</code></li>
+    <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-semibold">Averta</span> as its main font family (with a purchased licence).</li>
+    <li>For important headings use <strong class="is-family-secondary has-text-weight-bold">Merriweather</strong> with modifier <code>is-family-secondary</code></li>
+    <li>When a Monospace font is required use <strong class="is-family-monospace has-text-weight-bold">Roboto Mono</strong> with modifier <code>is-family-monospace</code></li>
+    <li>For hand-drawn text use <strong class="is-family-hand is-size-4">Caveat</strong> with modifier <code>is-family-hand</code></li>
 </ul>
 
 !> Any text immediatly following a <span class="is-family-secondary">Merriweather</span> header should <span style="text-decoration: underline;">always</span> use <span class="has-text-weight-bold">Averta</span>.
@@ -71,7 +72,7 @@ Use one of the following classes to emphasize words or part of a text.
 <div class="level is-marginless is-size-5 has-background-white-bis">
     <div class="level-item is-marginless">
         <div class="box is-large">
-            And let's<em> highlight this part </em>..
+            Let's<em> highlight this part </em>..
         </div>
     </div>
     <div class="level-item is-large is-marginless">
@@ -81,7 +82,7 @@ Use one of the following classes to emphasize words or part of a text.
     </div>
 </div>
     
-    And let's <em>highlight this in yellow</em>..
+    Let's <em>highlight this in yellow</em>..
     Or <em class="is-primary">some of that in purple</em>.
 <hr class="is-small">
 
@@ -93,10 +94,10 @@ Use one of the following classes to emphasize words or part of a text.
 <hr class="is-small">
 
 <div class="box is-well is-marginless is-size-5">
-    <p class="is-capitalized">this is capitalized</p>
+    <p class="is-capitalized is-family-hand">this is capitalized</p>
 </div>
 
-    <p class="is-capitalized">this is capitalized</p>
+    <p class="is-capitalized is-family-hand">this is capitalized</p>
 <hr>
 
 <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank" class="box is-bordered is-link">
