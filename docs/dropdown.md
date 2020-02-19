@@ -100,20 +100,40 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
     <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
             <div class="button">
-                <span>With custom icon &nbsp;</span>
-                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg>&nbsp;&nbsp;
+                <span>With custom icon</span>
+                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg>
             </div>
         </div>
-        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+        <div class="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">This has its </a>
-                <a class="dropdown-item">Own Icon</a>
+                <div class="box has-text-grey has-text-centered">
+                    <div class="loader is-inline is-size-3"></div>
+                    <br>
+                    Loading state...
+                </div>
             </div>
         </div>
     </div>
 
 </div>
 
+    <div class="dropdown is-hoverable is-iconless has-arrow">
+        <div class="dropdown-trigger">
+            <div class="button">
+                <span>With custom icon</span>
+                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg>
+            </div>
+        </div>
+        <div class="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+                <div class="box has-text-grey has-text-centered">
+                    <div class="loader is-inline is-size-3"></div>
+                    <br>
+                    Loading state...
+                </div>
+            </div>
+        </div>
+    </div>
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Tooltips</h2>
