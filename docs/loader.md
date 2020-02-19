@@ -9,27 +9,23 @@
 
 <h2 class="title is-3 is-family-sans-serif">Sizes</h2>
 
-Loaders come in 3 different sizes: the small default size, `is-medium` and `is-large`.
+Loaders automatically adapt to text size.<br>Use text size modifier classes `is-size-[1-8]` if you want to apply a particular size to the loader.
 
 <br>
 
-<div class="box is-well is-large is-marginless">
-    &nbsp;
+<div class="box is-well is-larger is-marginless">
     <div class="level">
         <div class="level-item is-relative"><div class="loader"></div></div>
-        <div class="level-item is-relative"><div class="loader is-medium"></div></div>
-        <div class="level-item is-relative"><div class="loader is-large"></div></div>
+        <div class="level-item is-relative"><div class="loader is-size-2"></div></div>
+        <div class="level-item is-relative"><div class="loader is-size-0"></div></div>
     </div>
-    &nbsp;
 </div>
     
     <div class="loader">
-    <div class="loader is-medium">
-    <div class="loader is-large">
-<br>
-
-?> Loaders will center themselves to their closest parent having `position: relative;`. Use modifier `is-relative` on the
-element you wish the loader to center itself against.
+    <div class="loader is-size-4">
+    <div class="loader is-size-1">
+!> Loaders will center themselves to their closest parent having `position: relative;`. Use modifier `is-relative` on the
+element you wish the loader to center itself to.
 
 <hr class="is-size-1 is-visible">
 
@@ -40,10 +36,10 @@ Add class `is-inline` to remove the auto-centering of the loader.
 <br>
 
 <div class="box is-well is-medium is-relative has-text-grey is-italic is-marginless">
-    <div class="loader is-inline is-small"></div>&nbsp; Loading
+    <div class="loader is-inline"></div> Loading...
 </div>
 
-    <div class="loader is-inline is-small"></div> Loading
+    <div class="loader is-inline"></div> Loading...
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Colorful</h2>
@@ -53,7 +49,7 @@ Add class `is-colorful` to give the loader a unique Biings look.
 <br>
 
 <div class="box is-well is-large is-relative">
-    &nbsp;<div class="loader is-colorful is-medium"></div>&nbsp;
+    <div class="loader is-colorful is-size-2"></div>
 </div>
 
 <hr class="is-size-1 is-visible">
@@ -65,5 +61,5 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 <hr class="is-small">
 
 <div class="box has-background-black-ter is-large is-relative">
-    &nbsp;<div class="loader is-inverted is-medium"></div>&nbsp;
+    <div class="loader is-inverted is-size-2"></div>
 </div>

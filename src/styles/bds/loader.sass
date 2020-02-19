@@ -1,84 +1,45 @@
 .loader
     position: relative
-    width: 3em
+    width: 1em
+    height: 1em
     border: none
-    animation: none
-    font-size: .75rem
-    &:before,
+    opacity: 0
+    transform: scale(0)
+    animation: pulsate 1s linear infinite !important
     &:after
         position: absolute
-        top: 50%
-        left: calc(50% - .625em)
-        width: 1.25em
-        height: 1.25em
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        border: 2px solid rgba(70, 40, 93, .4)
         border-radius: 50%
-        background-color: rgba($primary-dark, .3)
         content: ''
-        animation: jump .6s infinite alternate
-    &:before
-        margin-left: -.9375em
-        animation-delay: .2s
-    &:after
-        margin-left: .9375em
-        animation: jump .6s infinite alternate
+
+@keyframes pulsate
+    0%
+        opacity: 0
+        transform: scale(0)
+    70%
+        opacity: 1
+    100%
+        opacity: 0
+        transform: scale(1)
 
 .loader:not(.is-inline)
     position: absolute
-    top: 0
-    left: 0
-    right: 0
-    left: 0
-    width: 100%
-    height: 100%
+    top: calc(50% - .5em)
+    left: calc(50% - .5em)
 
 .loader.is-inline
     display: inline-block !important
-    margin: 0 0.25em
-
-.loader:not(.is-medium):not(.is-large)
-    font-size: .375rem !important
-    &:before,
-    &:after
-        animation-name: jumpSmall
-        width: 1.125em
-        height: 1.125em
-
-.loader.is-large
-    font-size: 1.25rem !important
-
-@keyframes jump
-    from
-        opacity: 1
-        transform: translateY(0)
-    to
-        opacity: .3
-        transform: translateY(-1rem)
-
-@keyframes jumpSmall
-    from
-        opacity: 1
-        transform: translateY(0)
-    to
-        opacity: .3
-        transform: translateY(-0.75rem)
+    margin: 0 .25em .125em
+    vertical-align: middle
 
 .loader.is-inverted
-    &:before,
     &:after
-        background-color: rgba(white, .3)
+        border-color: rgba(255,255,255,.4)
 
 .loader.is-colorful
-    &:before,
     &:after
-        background-color: rgba($primary, .7)
-        animation-name: jumpColorful
-
-@keyframes jumpColorful
-    from
-        opacity: 1
-        background-color: rgba($primary, .7)
-        transform: translateY(0)
-    to
-        opacity: .3
-        background-color: rgba($primary-dark, .3)
-        transform: translateY(-1rem)
+        border-color: $primary
