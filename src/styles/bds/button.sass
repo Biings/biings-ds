@@ -1,7 +1,7 @@
 .button
+    height: 2.5em
     border-radius: $radius
     font-weight: 500
-    height: 2.5em
     transition: background-color .2s linear, box-shadow .3s linear
 
 .button:hover
@@ -27,10 +27,11 @@ button.button:active
 .field.has-addons .control:not(:last-child)
     margin-right: -2px
 
+// Loading state
 .button.is-loading,
 .button.is-loading.is-light,
 .button.is-loading.is-warning
-    padding-left: calc(#{$button-padding-horizontal} * 2.5)
+    padding-left: calc(#{$button-padding-horizontal} * 2.375)
     color: rgba(45, 34, 54, .5) !important
 
 .button.is-loading.is-primary,
@@ -43,6 +44,31 @@ button.button:active
 
 .button.is-loading:after
     left: calc(#{$button-padding-horizontal} * .75)
+    border-color: $grey
+    animation: pulsate 1s linear infinite !important
+
+.button.is-loading.is-primary:after,
+.button.is-loading.is-success:after,
+.button.is-loading.is-info:after,
+.button.is-loading.is-warning:after,
+.button.is-loading.is-danger:after,
+.button.is-loading.is-dark:after
+    border-color: rgba(255,255,255,.6) !important
+
+.button.is-loading.is-light:after
+    border-color: $grey !important
+
+.button.is-loading.is-light.is-primary:after
+    border-color: $primary !important
+
+.button.is-loading.is-light.is-success:after
+    border-color: $success !important
+
+.button.is-loading.is-light.is-info:after
+    border-color: $info !important
+
+.button.is-loading.is-light.is-danger:after
+    border-color: $danger !important
 
 // Button chaining
 .button + .button.is-static
@@ -74,32 +100,18 @@ button.button:active
 
 .button.is-glowing.is-primary:before
     box-shadow: 0 .1875em 1.125em rgba($primary,.7)
-    // animation: glowing-primary 2.5s infinite
 
 .button.is-glowing.is-success:before
     box-shadow: 0 .1875em 1.125em rgba($success,.7)
-    // animation: glowing-primary 2.5s infinite
 
 .button.is-glowing.is-info:before
     box-shadow: 0 .1875em 1.125em rgba($info,.7)
-    // animation: glowing-primary 2.5s infinite
 
 .button.is-glowing.is-danger:before
     box-shadow: 0 .1875em 1.125em rgba($danger,.7)
-    // animation: glowing-primary 2.5s infinite
 
 .button.is-glowing.is-dark:before
     box-shadow: 0 .1875em 1.125em rgba($dark,.6)
-    // animation: glowing-primary 2.5s infinite
-
-// Glowing state
-@keyframes glowing-primary
-    0%
-        box-shadow: 0 .25em 1.25em rgba($primary,.6)
-    50%
-        box-shadow: 0 .25em 1.25em rgba($primary,.8)
-    100%
-        box-shadow: 0 .25em 1.25em rgba($primary,.6)
 
 .button.is-shadowed
     box-shadow: 0 1px 4px rgba(0,0,0,.1),0 2px 6px rgba(0,0,0,.1)
@@ -135,7 +147,6 @@ a.is-underlined.is-ghost:hover
     text-decoration: underline
     text-decoration-thickness: .2em
     text-decoration-width: .2em
-
     text-decoration-color: mix($primary, $primary-light, 20)
 
 a.is-underlined.is-regular:hover

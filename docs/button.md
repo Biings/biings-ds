@@ -142,7 +142,7 @@
             <td><hr><code>is-rounded</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><button class="button is-light is-loading">Loading</button><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-light is-loading">Loading</div><br><br></td>
             <td><hr><code>is-loading</code></td>
         </tr>
         <tr>

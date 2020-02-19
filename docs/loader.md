@@ -16,8 +16,8 @@ Loaders automatically adapt to text size.<br>Use text size modifier classes `is-
 <div class="box is-well is-larger is-marginless">
     <div class="level">
         <div class="level-item is-relative"><div class="loader"></div></div>
-        <div class="level-item is-relative"><div class="loader is-size-2"></div></div>
-        <div class="level-item is-relative"><div class="loader is-size-0"></div></div>
+        <div class="level-item is-relative"><div class="loader is-size-3"></div></div>
+        <div class="level-item is-relative"><div class="loader is-size-1"></div></div>
     </div>
 </div>
     
@@ -62,4 +62,18 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
 <div class="box has-background-black-ter is-large is-relative">
     <div class="loader is-inverted is-size-2"></div>
+</div>
+
+is-indeterminate
+
+<hr class="is-size-1 is-visible">
+
+<h2 class="title is-3 is-family-sans-serif">Indeterminate</h2>
+
+Add class `is-indeterminate` to express an long or an unknown loading duration.
+
+<hr class="is-small">
+
+<div class="box is-well is-large is-relative">
+    <div class="loader is-indeterminate is-size-3"></div>
 </div>
