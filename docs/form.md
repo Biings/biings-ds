@@ -7,10 +7,10 @@
 
 <h2 class="title is-3 is-family-sans-serif">Input field</h2>
 
-<form class="box is-well is-large is-marginless" spellcheck="false">
+<form class="box is-well is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
-        <label for="fieldId" class="label">Input Field</label>
-        <input id="fieldId" class="input" type="text" placeholder="Some input">
+        <label for="email" class="label">Input field</label>
+        <input id="email" name="email" class="input" type="text" placeholder="Some input">
     </div>
     <div class="field is-warning">
         <label for="warnfield" class="label">Input Field with warning</label>
