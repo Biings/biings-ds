@@ -197,6 +197,7 @@ body.close .sidebar-toggle
     position: absolute;
     top: 1.5rem;
     left: 2em;
+    border: none;
 }
 .docsify-logo > img
 {

@@ -15,14 +15,14 @@
         border-radius: 50%
         content: ''
 .loader:not(.is-indeterminate)
-    animation: pulsate 1.1s linear infinite !important
+    animation: pulsate 1s ease-out infinite !important
 
 .loader.is-indeterminate
     animation: pulsate-ind 1s ease-in-out infinite alternate !important
 
 @keyframes pulsate
     0%
-        opacity: 0
+        opacity: 0.1
         transform: scale(0)
     70%
         opacity: 1
