@@ -58,7 +58,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         <div class="column is-6">
             <div class="field is-required">
                 <label for="textfieldRe" class="label">Something required</label>
-                <input id="textfieldORe" class="input" placeholder="Very important stuff"></textarea>
+                <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
             </div>
         </div>
     </form>

@@ -8,7 +8,7 @@
 <div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-light">Hover Me</div>
+            <div class="button">Hover Me</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -99,9 +99,9 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
     <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
-            <div class="button">
-                <span>With custom icon</span>
-                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg>
+            <div class="button is-light">
+                <span>With custom icon&nbsp;</span>
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             </div>
         </div>
         <div class="dropdown-menu" role="menu">
@@ -121,7 +121,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
         <div class="dropdown-trigger">
             <div class="button">
                 <span>With custom icon</span>
-                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg>
+                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             </div>
         </div>
         <div class="dropdown-menu" role="menu">
@@ -244,7 +244,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
     <div class="dropdown">
         <div class="dropdown-trigger">
-            <div class="button is-secondary">Choose a value</div>
+            <div class="button is-light">Choose a value</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -287,7 +287,7 @@ Create a system default select list just by wrapping it with a `.select` div.
         </select>
     </div>
     &nbsp; &nbsp;
-    <div class="select is-medium is-success">
+    <div class="select is-medium is-warning">
             <select>
                 <option value="">Medium</option>
                 <option value="">System</option>

@@ -157,8 +157,8 @@
                 </div>
                 <form class="box is-well">
                     <div class="field">
-                        <label for="fieldId" class="label">Field example</label>
-                        <input id="fieldId" class="input" type="text" placeholder="Some input">
+                        <label for="fieldId2" class="label">Field example</label>
+                        <input id="fieldId2" class="input" type="text" placeholder="Some input">
                     </div>
                 </form>
             </section>

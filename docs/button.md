@@ -192,7 +192,7 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
 <div class="box is-well is-marginless is-large">
     <button class="button is-medium">Click Effect</button>
     <div class="button is-static">or</div>
-    <div class="button is-text">No Click Effect</div>
+    <div class="button is-medium">No Click Effect</div>
 </div>
 
     <button class="button">Button</button>
@@ -202,28 +202,32 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
 
 <h2 class="title is-3 is-family-sans-serif">Button Group</h2>
 
+Buttons can be grouped together. Note the use of `is-active` and `is-hovered`.
+
+<hr>
+
 <div class="box is-well is-marginless is-large">
     <div class="field has-addons">
         <p class="control">
-            <a class="button">Yes</a>
+            <a class="button is-light is-hovered">Yes</a>
         </p>
         <p class="control">
-            <a class="button">No</a>
+            <a class="button is-light is-hovered">No</a>
         </p>
         <p class="control">
-            <a class="button has-text-primary">Maybe</a>
+            <a class="button is-light is-active">Maybe</a>
         </p>
     </div>
 </div>
 
     <div class="field has-addons">
         <p class="control">
-            <a class="button">Yes</a>
+            <a class="button is-light is-hovered">Yes</a>
         </p>
         <p class="control">
-            <a class="button">No</a>
+            <a class="button is-light is-hovered">No</a>
         </p>
         <p class="control">
-            <a class="button has-text-primary">Maybe</a>
+            <a class="button is-light is-active">Maybe</a>
         </p>
     </div>
