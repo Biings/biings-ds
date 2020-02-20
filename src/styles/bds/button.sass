@@ -4,15 +4,13 @@
     font-weight: 500
     transition: background-color .2s linear, box-shadow .3s linear
 
-.button:hover
-    background-color: mix($black, $light, 4)
-
 .button.is-small
     height: 2.1875em
 
 .button .icon
     width: 1.375em
     height: 1em
+    margin: 0 .25em
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
@@ -117,6 +115,10 @@ button.button:active
     box-shadow: 0 1px 4px rgba(0,0,0,.1),0 2px 6px rgba(0,0,0,.1)
 .button.is-shadowed:hover
     box-shadow: 0 2px 4px rgba(0,0,0,.15),0 3px 9px rgba(0,0,0,.15)
+
+/* Button Group */
+.control > .button.is-active
+    box-shadow: inset 0 2px 0 0 rgba($black,.15)
 
 /* Links */
 a,
