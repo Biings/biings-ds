@@ -18,7 +18,7 @@
     </div>
     <div class="field is-danger">
         <label for="dangerfield" class="label">Input Field with serious warning</label>
-        <input id="dangerfield" class="input" type="text" placeholder="Really, this should not be empty!">
+        <input id="dangerfield" class="input is-danger" type="text" placeholder="Really, this should not be empty!">
     </div>
     <div class="field">
         <label for="textfield" class="label">Textarea Field</label>

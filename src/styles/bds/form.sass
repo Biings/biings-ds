@@ -150,14 +150,13 @@ select,
 .field > .checkbox,
 .field > .radio
     min-height: 2.75em
-    border-width: $control-border-width
     transition: border-color .1s ease-out, box-shadow .2s ease-out
 
 .input:focus,
 .textarea:focus,
 select:focus,
 .select > select:focus
-    box-shadow: 0 0 0 1px $input-focus-border-color
+    box-shadow: $input-focus-box-shadow-size $input-focus-border-color
 
 .textarea
     padding-left: calc(.875em - 1px)
@@ -217,21 +216,21 @@ form .field
 .field.is-warning > .input:focus,
 .field.is-warning > .textarea:focus,
 .select.is-warning > select:focus
-    box-shadow: 0 0 0 1px $warning
+    box-shadow: $input-focus-box-shadow-size $warning !important
 
 .input.is-info:focus,
 .textarea.is-info:focus,
 .field.is-info > .input:focus,
 .field.is-info > .textarea:focus,
 .select.is-info > select:focus
-    box-shadow: 0 0 0 1px $info
+    box-shadow: $input-focus-box-shadow-size $info !important
 
 .input.is-danger:focus,
 .textarea.is-danger:focus,
 .field.is-danger > .input:focus,
 .field.is-danger > .textarea:focus,
 .select.is-danger > select:focus
-    box-shadow: 0 0 0 1px $danger
+    box-shadow: $input-focus-box-shadow-size $danger !important
 
 .field > input,
 .field > textarea,
@@ -274,6 +273,7 @@ form .field
     content: '*'
     font-size: 1.75em
 
+/* Icon */
 .control.has-icons-left .icon,
 .control.has-icons-right .icon
     padding: .75em
@@ -284,4 +284,3 @@ form .field
 
 .control.has-icons-right .icon
     margin-right: .25em
-
