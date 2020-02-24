@@ -34,15 +34,15 @@
     box-shadow: inset 0 0 0 $control-border-width $primary !important
 
 .radio > input:checked ~ .radio-mark
+    background-color: $primary
     box-shadow: inset 0 0 0 $control-border-width $primary !important
 
 .checkbox[disabled] > .checkbox-mark,
 .radio[disabled] > .radio-mark
     background-color: transparent
-    box-shadow: inset 0 0 0 $control-border-width rgba($border,.5) !important
+    box-shadow: inset 0 0 0 $control-border-width $border !important
 
-.checkbox[disabled] > input:checked ~ .checkbox-mark,
-.radio[disabled] > input:checked ~ .radio-mark
+.checkbox[disabled] > input:checked ~ .checkbox-mark
     background-color: rgba($border,.5)
     box-shadow: inset 0 0 0 $control-border-width transparent !important
 
@@ -50,13 +50,21 @@
     border: solid $primary !important
     border-width: 0 2px 2px 0 !important
 
+.radio[disabled] > input:checked ~ .radio-mark
+    background-color: $border
+    box-shadow: inset 0 0 0 $control-border-width $border !important
+
+.radio[disabled] > input:checked ~ .radio-mark:after
+    background-color: $primary
+    box-shadow: 0 0 0 1px $primary
+
 .checkbox-mark:after
     position: absolute
-    top: 2px
+    top: 3px
     left: 7px
     display: none
     width: 6px
-    height: 13px
+    height: 11px
     border: solid white
     border-width: 0 2px 2px 0
     content: ''
@@ -72,13 +80,13 @@
 
 .radio-mark:after
     position: absolute
-    top: 5px
-    left: 5px
+    top: 7px
+    left: 7px
     display: none
-    width: 10px
-    height: 10px
+    width: 6px
+    height: 6px
     border-radius: 50%
-    background-color: $primary
+    background-color: $white
     content: ''
 
 .checkbox > input:checked ~ .checkbox-mark:after,
@@ -93,8 +101,8 @@
     width: 33px
     height: 19px
     border-radius: 2rem !important
-    box-shadow: none !important
     background-color: rgba($dark, .2)
+    box-shadow: none !important
 
 .checkbox.is-toggle > .checkbox-mark:after
     top: .25rem
@@ -106,8 +114,8 @@
     border-radius: 100%
     background-color: white
     box-shadow: 0 1px 2px rgba($dark, .3)
+    transition: left .2s cubic-bezier(.215, .61, .355, 1)
     transform: none
-    transition: left .3s cubic-bezier(0.23, 1.94, 0.38, 0.74)
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark
     background-color: $primary
@@ -143,13 +151,13 @@ select,
 .field > .radio
     min-height: 2.75em
     border-width: $control-border-width
-    transition: border-color .1s linear, box-shadow .2s ease-out
+    transition: border-color .1s ease-out, box-shadow .2s ease-out
 
 .input:focus,
 .textarea:focus,
 select:focus,
 .select > select:focus
-    box-shadow: 0 0 0 1px rgba($primary,0.8)
+    box-shadow: 0 0 0 1px $input-focus-border-color
 
 .textarea
     padding-left: calc(.875em - 1px)
@@ -179,7 +187,7 @@ form .field
     padding-right: $control-padding-horizontal
     padding-bottom: $control-padding-vertical
     padding-left: $control-padding-horizontal
-    color: $grey
+    color: $label-color
     transition: color .1s linear
 
 .field:not(.select) > .label
@@ -204,10 +212,26 @@ form .field
 .field.is-warning > .input
     border-color: $warning
 
+.input.is-warning:focus,
+.textarea.is-warning:focus,
 .field.is-warning > .input:focus,
 .field.is-warning > .textarea:focus,
 .select.is-warning > select:focus
     box-shadow: 0 0 0 1px $warning
+
+.input.is-info:focus,
+.textarea.is-info:focus,
+.field.is-info > .input:focus,
+.field.is-info > .textarea:focus,
+.select.is-info > select:focus
+    box-shadow: 0 0 0 1px $info
+
+.input.is-danger:focus,
+.textarea.is-danger:focus,
+.field.is-danger > .input:focus,
+.field.is-danger > .textarea:focus,
+.select.is-danger > select:focus
+    box-shadow: 0 0 0 1px $danger
 
 .field > input,
 .field > textarea,
@@ -217,10 +241,6 @@ form .field
     width: 100%
     height: auto
     background-color: transparent !important
-
-.field > input,
-.field > textarea
-
 
 .field.select
     width: 100%
@@ -234,22 +254,25 @@ form .field
 .field > .radio
     padding: 1.75em
     width: 100%
-
     @extend %input
+
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
     top: 1.125em
     left: 1.25em
 
 .field > label > span
-    font-style: italic
-    font-weight: 400
     color: $grey
+    font-weight: 400
+    font-style: italic
 
-.field.is-required > label 
-    margin-top: -1px
-    text-underline-offset: .125em
-    text-decoration: underline
+.field.is-required:after
+    position: absolute
+    top: calc(.375em + 1px)
+    right: calc(.375em + 1px)
+    color: $primary-light
+    content: '*'
+    font-size: 1.75em
 
 .control.has-icons-left .icon,
 .control.has-icons-right .icon
@@ -261,3 +284,4 @@ form .field
 
 .control.has-icons-right .icon
     margin-right: .25em
+

@@ -13,8 +13,12 @@
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
     </div>
     <div class="field is-warning">
-        <label for="warnfield" class="label">Input Field with warning</label>
+        <label for="warnfield" class="label">Input Field with Warning</label>
         <input id="warnfield" class="input" type="text" placeholder="Should not be empty">
+    </div>
+    <div class="field is-danger">
+        <label for="dangerfield" class="label">Input Field with serious warning</label>
+        <input id="dangerfield" class="input" type="text" placeholder="Really, this should not be empty!">
     </div>
     <div class="field">
         <label for="textfield" class="label">Textarea Field</label>
@@ -30,6 +34,10 @@
         <div class="field is-warning">
             <label for="warnfield" class="label">Input Field with warning</label>
             <input id="warnfield" class="input" type="text" placeholder="Should not be empty">
+        </div>
+        <div class="field is-danger">
+            <label for="warnfield" class="label">Input Field with serious warning</label>
+            <input id="warnfield" class="input" type="text" placeholder="Really, this should not be empty!">
         </div>
         <div class="field">
             <label for="textfield" class="label">Textarea</label>
@@ -51,7 +59,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     <form class="columns is-variable is-4">
         <div class="column is-6">
             <div class="field">
-                <label for="textfieldOp" class="label">Some label <span>– Optional</span></label>
+                <label for="textfieldOp" class="label">Some label <span>– optional</span></label>
                 <input id="textfieldOp" class="input" placeholder="Nice to have stuff"></textarea>
             </div>
         </div>

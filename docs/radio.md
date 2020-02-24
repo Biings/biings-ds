@@ -17,7 +17,7 @@
     </label>
     &nbsp;
     <label class="radio" disabled>
-        <input type="radio" name="answer" disabled><span class="radio-mark"></span>
+        <input type="radio" name="answer" disabled checked><span class="radio-mark"></span>
         Maybe
     </label>
 </div>

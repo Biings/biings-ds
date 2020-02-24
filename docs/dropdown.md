@@ -270,34 +270,42 @@ Create a system default select list just by wrapping it with a `.select` div.
 <hr>
 
 <div class="box is-well is-large is-marginless">
-    <div class="select is-small">
+    <div class="select is-small is-danger">
         <select>
             <option value="">Small</option>
-            <option value="">System</option>
+            <option value="">Danger</option>
             <option value="">Select</option>
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
-    <div class="select is-primary">
+    <div class="select">
         <select>
             <option value="">Default</option>
             <option value="">System</option>
             <option value="">Select</option>
             <option value="">List</option>
         </select>
+    </div> &nbsp; &nbsp;
+    <div class="select is-medium is-warning">
+        <select>
+            <option value="">Medium</option>
+            <option value="">Warning</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
     </div>
     &nbsp; &nbsp;
-    <div class="select is-medium is-warning">
-            <select>
-                <option value="">Medium</option>
-                <option value="">System</option>
-                <option value="">Select</option>
-                <option value="">List</option>
-            </select>
-        </div>
+    <div class="select is-large is-info">
+        <select>
+            <option value="">Large</option>
+            <option value="">Info</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
+    </div>
 </div>
 
-    <div class="select is-medium">
+    <div class="select is-medium is-info">
         <select>
             <option value="1">Default</option>
             <option value="2">System</option>
@@ -307,7 +315,7 @@ Create a system default select list just by wrapping it with a `.select` div.
     </div>
 <br>
 
-?> Size modifiers `is-small`, `is-medium` are also supported.
+?> Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 
 <hr>
 

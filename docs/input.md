@@ -23,8 +23,8 @@
     <input id="defaultfield" class="input" type="email" placeholder="Placeholder is then used to give examples">
     <hr class="is-size-8">
     <div class="columns is-variable is-2">
-        <div class="column is-10"><input class="input is-warning" placeholder="With class is-warning"></div>
-        <div class="column is-2"><div class="button is-warning is-beefy is-fullwidth">Submit</div></div>
+        <div class="column is-10"><input class="input is-danger" placeholder="With class is-danger"></div>
+        <div class="column is-2"><div class="button is-danger is-beefy is-fullwidth">Submit</div></div>
     </div>
 </form>
 
