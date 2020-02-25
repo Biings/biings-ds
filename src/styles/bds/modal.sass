@@ -37,8 +37,8 @@
 .modal-card-head > .delete,
 .modal-card-body > .delete
     position: absolute
-    top: 1.75rem
-    right: 1.75rem
+    top: 1.5rem
+    right: 1.5rem
 
 .modal-card-foot
     display: block
@@ -49,32 +49,38 @@
 .modal-card-foot .button.is-text:last-child
     margin-right: -.75em
 
+.modal-card-foot.has-text-right .button:last-child
+    margin-left: .5em
+
+.modal-close,
+.delete
+    border-radius: $radius-small
+    &:before
+        width: 65%
+    &:after
+        height: 65%
+
 .delete
     background-color: transparent !important
-    height: 1.25rem
-    max-height: 1.25rem
-    max-width: 1.25rem
-    min-height: 1.25rem
-    min-width: 1.25rem
-    width: 1.25rem
+    height: 1.75rem
+    max-height: 1.75rem
+    max-width: 1.75rem
+    min-height: 1.75rem
+    min-width: 1.75rem
+    width: 1.75rem
     margin-right: -.25rem
     &:before,
     &:after
-        background-color: $grey-dark
-        transition: background-color .075s linear
-    &:before
-        width: 100%
-    &:after
-        height: 100%
+        background-color: rgba($dark,0.75)
 
-.delete:focus,
+.modal-close:hover,
+.delete:hover
+    background-color: rgba($black,0.1) !important
+
 .delete:hover
     &:before,
     &:after
-        background-color: $grey-darker
-
-.modal-close
-    background-color: rgba($black,0.15)
+        background-color: $dark
 
 @keyframes shrinkIn
     0%

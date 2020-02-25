@@ -5,6 +5,8 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
+<h2 class="title is-3 is-family-sans-serif">Basic usage</h2>
+
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
 </div>
@@ -27,13 +29,17 @@
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
-<br>
+!> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
 
-?> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
+?> Use `is-pinned` to prevent the modal from re-centering itself when its content change.
 
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Modal Card</h2>
+
+Use modal cards when displaying a form or when lots of interaction is involved.
+
+!> <strong>Button alignement</strong><br>Buttons should be aligned to the right for small modals. Align to the left when the form is longer.
 
 <div class="box is-well is-large has-text-centered is-marginless">
     <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Modal Card Example 1</div>
@@ -117,9 +123,15 @@
                     <input id="fieldId" class="input" type="text" placeholder="Another input">
                 </div>
             </form>
+            <div class="message is-info is-small">
+                <div class="message-body">
+                    The Header and Footer can be removed for a slimer design.
+                </div>
+            </div>
         </section>
-        <footer class="modal-card-foot">
-            <div class="button is-primary is-medium is-beefy is-fullwidth">Primary Action</div>
+        <footer class="modal-card-foot has-text-right">
+            <div class="button">Cancel</div>
+            <div class="button is-primary">Primary Action</div>
         </footer>
     </div>
 </div>
@@ -168,11 +180,3 @@
         </div>
     </div>
 <br>
-
-?> The Header and Footer are optional are can be removed to obtain a different design.
-
-<hr class="is-size-1 is-visible">
-
-<h2 class="title is-3 is-family-sans-serif">Pin to top</h2>
-
-Use `is-pinned` to prevent the modal from re-centering itself when its content change.
