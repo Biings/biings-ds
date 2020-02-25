@@ -92,7 +92,8 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 <div id="js-modal5" class="modal" onclick="closeModal('5')">
     <div class="message is-noti is-primary is-medium">
         <div class="message-body">
-            Hurray! 🎉
+            <h1 class="title is-4 has-text-weight-bold">Hurray 🎉</h1>
+            You just triggered a noti.
         </div>
     </div>
 </div>

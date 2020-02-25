@@ -11,7 +11,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <div class="columns is-multiline">
     
-    <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong class="has-text-weight-bold">primary</strong> <br><u class="has-text-grey-dark is-family-monospace">#8C50B9</u></div>
+    <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong class="has-text-weight-bold">primary</strong> <br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
     <div class="column is-4"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="has-text-grey-light"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
     <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="has-text-grey-dark is-family-monospace">#46285D</span></div>
     <div class="column is-12"></div>
@@ -147,8 +147,8 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
 
 <div class="box is-large is-raised is-floating hover-to-popping">
     <div class="subtitle is-3"><span class="tag is-small is-primary is-uppercase has-text-weight-semibold">Bonus</span></div>
-    <p class="title is-4 has-text-primary-dark">Slack Sidebar Theme</p>
+    <p class="title is-4 has-text-primary-dark">Slack Theme</p>
     <p class="subtitle is-5">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #2D2236,#2D2236,#8246AF,#FFFFFF,#46285D,#EFECF2,#4DD698,#F45564
+    #2D2236,#2D2236,#8246AF,#FFFFFF,#46285D,#EFECF2,#4DCDC6,#FFA335
 </div>
