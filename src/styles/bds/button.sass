@@ -2,15 +2,49 @@
     height: 2.5em
     border-radius: $radius
     font-weight: 500
-    transition: background-color .2s linear, box-shadow .3s linear
+    transition: background-color .15s linear, box-shadow .3s linear
+
+.button:hover
+    background-color: rgba($black,.05)
 
 .button.is-small
     height: 2.1875em
 
-.button .icon
-    width: 1.375em
-    height: 1em
-    margin: 0 .25em
+.button > .icon
+    width: 1.125em
+    height: 1.125em
+    fill: $text
+    transition: fill .1s linear
+
+.button > .icon:first-child:not(:last-child)
+    margin-right: .375em
+    margin-left: -.125em
+.button > .icon:last-child:not(:first-child)
+    margin-right: -.125em
+    margin-left: .375em
+
+.button.is-primary > .icon,
+.button.is-danger > .icon,
+.button.is-info > .icon,
+.button.is-warning > .icon,
+.button.is-success > .icon,
+.button.is-dark > .icon
+    fill: white
+
+.button:not(:hover) > .icon.is-light
+    fill: $grey-dark
+.button:hover > .icon.is-primary
+    fill: $primary
+.button:hover > .icon.is-danger
+    fill: $danger
+.button:hover > .icon.is-warning
+    fill: $warning
+.button:hover > .icon.is-info
+    fill: $info
+.button:hover > .icon.is-success
+    fill: $success
+.button:hover > .icon.is-dark
+    fill: $dark
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
@@ -26,24 +60,12 @@ button.button:active
     margin-right: -2px
 
 // Loading state
-.button.is-loading,
-.button.is-loading.is-light,
-.button.is-loading.is-warning
-    padding-left: calc(#{$button-padding-horizontal} * 2.375)
-    color: rgba(45, 34, 54, .5) !important
-
-.button.is-loading.is-primary,
-.button.is-loading.is-danger,
-.button.is-loading.is-success,
-.button.is-loading.is-info,
-.button.is-loading.is-warning,
-.button.is-loading.is-dark
-    color: rgba(255, 255, 255, .5) !important
+.button.is-loading
+    color: transparent !important
 
 .button.is-loading:after
-    left: calc(#{$button-padding-horizontal} * .75)
     border-color: $grey
-    animation: pulsate 1s linear infinite !important
+    animation: pulsate .90s linear infinite !important
 
 .button.is-loading.is-primary:after,
 .button.is-loading.is-success:after,
@@ -51,10 +73,10 @@ button.button:active
 .button.is-loading.is-warning:after,
 .button.is-loading.is-danger:after,
 .button.is-loading.is-dark:after
-    border-color: rgba(255,255,255,.6) !important
+    border-color: rgba(255,255,255,.65) !important
 
 .button.is-loading.is-light:after
-    border-color: $grey !important
+    border-color: $grey-dark !important
 
 .button.is-loading.is-light.is-primary:after
     border-color: $primary !important
@@ -116,6 +138,9 @@ button.button:active
 .button.is-shadowed:hover
     box-shadow: 0 2px 4px rgba(0,0,0,.15),0 3px 9px rgba(0,0,0,.15)
 
+.button.is-square
+    width: 2.5em
+
 /* Button Group */
 .control > .button.is-active
     box-shadow: inset 0 2px 0 0 rgba($black,.15)
@@ -149,6 +174,7 @@ a.is-underlined.is-ghost:hover
     text-decoration: underline
     text-decoration-thickness: .2em
     text-decoration-width: .2em
+
     text-decoration-color: mix($primary, $primary-light, 20)
 
 a.is-underlined.is-regular:hover

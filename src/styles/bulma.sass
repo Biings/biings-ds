@@ -328,10 +328,10 @@ $control-padding-horizontal: calc(.875em - 1px) !default
 $button-background-color: transparent !default
 $button-border-color: $border !default
 $button-border-width: $control-border-width !default
-$button-hover-color: $text !default
-$button-hover-border-color: $border-hover !default
+$button-border-color: $text !default
+$button-hover-border-color: $button-border-color !default
 $button-active-color: $text !default
-$button-active-border-color: $border !default
+$button-active-border-color: mix(black,$button-border-color,6) !default
 $button-text-hover-background-color: transparent !default
 $button-padding-vertical: calc(0.25em - #{$control-border-width}) !default
 $button-static-color: inherit !default

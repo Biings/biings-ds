@@ -142,6 +142,10 @@
             <td><hr><code>is-rounded</code></td>
         </tr>
         <tr>
+            <td class="has-text-centered"><br><div class="button is-light is-square">Sq</div><br><br></td>
+            <td><hr><code>is-square</code></td>
+        </tr>
+        <tr>
             <td class="has-text-centered"><br><div class="button is-light is-loading">Loading</div><br><br></td>
             <td><hr><code>is-loading</code></td>
         </tr>
@@ -156,30 +160,44 @@
 
 <h2 class="title is-3 is-family-sans-serif">Icon Button</h2>
 
-Buttons can be enhanced by adding an icon.  
-Simply insert an svg with class `.icon` and wrap the button text in a `span`.
+Buttons can be enhanced by adding an icon or be an icon button.  
+Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
 
 <br>
 
 <div class="box is-medium is-well is-marginless">
-    <div class="button is-beefy">
+    <div class="button">
         <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
         <span>Today!</span>
     </div>
     &nbsp;
+    <div class="button is-square">
+        <svg class="icon is-light"><use xlink:href="media/bds-icons.min.svg#edit-g"></use></svg>
+    </div>
+    &nbsp;
+    <div class="button is-borderless is-square">
+        <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
+    </div>
+    &nbsp;
     <div class="button is-beefy is-success">
-        <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
+        <svg class="icon"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
         <span>Download</span>
     </div>
 </div>
 
     <div class="button">
         <svg class="icon"><use xlink:href="bds.min.svg#icon_name"></use></svg>
-        <span>Regular Button</span>
+        <span>Today</span>
     </div>
-    <div class="button is-info">
+    <div class="button is-square">
+        <svg class="icon"><use xlink:href="bds.min.svg#icon_name"></use></svg>
+    </div>
+    <div class="button is-square is-borderless">
+        <svg class="icon is-danger"><use xlink:href="bds.min.svg#icon_name"></use></svg>
+    </div>
+    <div class="button is-success is-beefy">
         <svg class="icon has-text-fill-white"><use xlink:href="bds.min.svg#icon_name"></use></svg>
-        <span>Info Button</span>
+        <span>Download</span>
     </div>
 <hr class="is-size-1 is-visible">
 
