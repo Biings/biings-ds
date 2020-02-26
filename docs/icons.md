@@ -27,6 +27,7 @@ They should **not be less than 32 pixels** (width and height).
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#12-back"></use></svg></div>12-back</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident"></use></svg></div>accident</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident-pro"></use></svg></div>accident-pro</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#army"></use></svg></div>army</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-left"></use></svg></div>arrow-left</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#arrow-right"></use></svg></div>arrow-right</div>
@@ -113,6 +114,7 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident-g"></use></svg></div>accident-g</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident-pro-g"></use></svg></div>accident-pro-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#add-g"></use></svg></div>add-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#remove-g"></use></svg></div>remove-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#archive-g"></use></svg></div>archive-g</div>
