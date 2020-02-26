@@ -166,6 +166,7 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#persons-g"></use></svg></div>persons-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#phone-g"></use></svg></div>phone-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#phone-call-g"></use></svg></div>phone-call-g</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></div>plus-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#profile-g"></use></svg></div>profile-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#refusal-g"></use></svg></div>refusal-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#rest-g"></use></svg></div>rest-g</div>
@@ -198,7 +199,7 @@ Logo icons should **not be less than 16px** (width and height).
 
 <div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
-    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-pilot"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-care"><use xlink:href="media/bds-icons.min.svg#biings-care"></use></svg></div>biings-care</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-claim"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
 </div>
