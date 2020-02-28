@@ -184,6 +184,7 @@ form .field
     padding-left: $control-padding-horizontal
     color: $label-color
     transition: color .1s linear
+    pointer-events: none
 
 .field:not(.select) > .label
     cursor: text
@@ -249,7 +250,7 @@ form .field
 .field > .radio
     padding: 1.75em
     width: 100%
-    @extend %input
+    @extend %input;
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
@@ -268,6 +269,7 @@ form .field
     color: $primary-light
     content: '*'
     font-size: 1.75em
+    pointer-events: none
 
 /* Icon */
 .control.has-icons-left .icon,
