@@ -23,8 +23,11 @@
     transform: rotate(135deg)
 
 .dropdown.is-small:after
-    top: 10px
+    top: .625em
     font-size: .875rem
+
+.dropdown.is-small.is-active:not(.is-iconless):after
+    top: .875em
 
 .dropdown.is-medium:after
     font-size: 1.125rem
@@ -44,32 +47,6 @@
     to
         opacity: 1
         transform: translateY(0)
-
-// @keyframes dropDown
-//     0%
-//         opacity: 0
-//         transform: translateY(-1em)
-//     16%
-//         opacity: 0.3
-//         transform: translateY(0.6em)
-//     28%
-//         opacity: 0.6
-//         transform: translateY(-0.3em)
-//     44%
-//         opacity: 0.9
-//         transform: translateY(0.1em)
-//     59%
-//         opacity: 1
-//         transform: translateY(-0.05em)
-//     73%
-//         opacity: 1
-//         transform: translateY(0.025em)
-//     88%
-//         opacity: 1
-//         transform: translateY(-0.01em)
-//     100%
-//         opacity: 1
-//         transform: translateY(0)
 
 .dropdown.has-arrow > .dropdown-menu > div:before
     position: absolute

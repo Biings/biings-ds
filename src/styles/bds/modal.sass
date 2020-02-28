@@ -1,22 +1,23 @@
 .modal-card
-    box-shadow: 0 1.5px 2.7px -20px $black, 0 5px 8.9px -20px rgba($black, 0.5), 0 10px 30px -20px rgba($black, 0.9)
+    box-shadow: 0 1.5px 2.7px -20px $black, 0 5px 8.9px -20px rgba($black, 0.5), 0 8px 40px -10px rgba($black, 0.5)
     
 .modal-content,
+.modal-card,
 .modal-background
     will-change: opacity
     will-change: transform
 
 .modal.is-active > .modal-content
-    animation: shrinkIn .15s ease-out 0 1
+    animation: shrinkIn .5s 1
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+
+.modal.is-active > .modal-card
+    animation: dropIn .6s 1
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
 
 .modal.is-active > .modal-background
-    animation: fadeIn .2s ease-out 0 1
-
-.modal.is-closing > .modal-content
-    animation: shrinkOut .25s ease-out 0 1
-
-.modal.is-closing > .modal-background
-    animation: fadeIn .25s ease-out 0 1
+    animation: fadeIn .5s 1
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
 
 .modal.is-pinned > .modal-content,
 .modal.is-pinned > .modal-card
@@ -85,7 +86,7 @@
 @keyframes shrinkIn
     0%
         opacity: .1
-        transform: scale(1.1)
+        transform: scale(1.125)
     100%
         opacity: 1
         transform: scale(1)
@@ -96,14 +97,16 @@
     100%
         opacity: 1
 
-@keyframes shrinkOut
-    0%
-        transform: scale(1)
-    100%
-        transform: scale(1.1)
-
 @keyframes fadeOut
     0%
         opacity: 1
     100%
         opacity: 0
+
+@keyframes dropIn
+    from
+        opacity: 0
+        transform: translateY(-2.5em)
+    to
+        opacity: 1
+        transform: translateY(0)

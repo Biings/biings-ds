@@ -9,7 +9,7 @@
 .has-skeleton:empty:first-child
     background-color: rgba(200, 195, 207, .2)
 
-.has-skeleton:empty:nth-child(odd):not(:first-child)
+.has-skeleton.is-odd
     width: 50%
 
 .avatar > .has-skeleton
@@ -17,6 +17,6 @@
 
 @keyframes skeleton-shine
     0%
-        background-position: 100%;
+        background-position: 100%
     100%
         background-position: -100%
