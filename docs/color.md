@@ -106,6 +106,7 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-blue-lighter"><br><br></div><strong>blue-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CEE5F6</span></div>
 </div>
 
+
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif is-spaced">Color modifiers</h2>
@@ -114,7 +115,7 @@ Most elements and components have color variations thanks to modifiers with synt
 
 <hr>
 
-<table class="table is-bordered">
+<table class="table">
 <thead>
     <tr><th>Target</th>
     <th>Class pattern</th></tr>
@@ -125,6 +126,20 @@ Most elements and components have color variations thanks to modifiers with synt
     <tr><td>Icon</td><td><code>has-fill-[color]</code></td></tr>
 </tbody>
 </table>
+
+<strong class="title is-5">Blurred Background</strong>
+<p>You can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white or dark]`.</p>
+<br>
+<div class="box is-relative is-well is-bordered is-size-3 has-text-grey has-text-centered">
+    🖱
+    <hr class="is-thin is-wavy">
+    <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
+    <hr class="is-thin">
+    <span class="has-text-grey is-size-7">This is made just to demo the effect.</span>
+    <div class="has-background-blur has-background-white" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;" onmouseout="this.className='has-background-blur has-background-white'" onMouseOver="this.className=''"></div>
+</div>
+
+!> Blurred backgrounds are not visible IE and Firefox and fallback to the background-color.
 
 <hr class="is-size-1 is-visible">
 

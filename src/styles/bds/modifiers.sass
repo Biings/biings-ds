@@ -26,6 +26,27 @@ th
 pre
     border-left: .375em solid rgba($primary-dark, .08)
 
+// BLURED BACKGROUND
+
+@supports(-webkit-backdrop-filter: blur())
+    .has-background-blur.has-background-white
+        background-color: rgba(white,.75) !important
+        -webkit-backdrop-filter: blur(1.5rem)
+
+@supports(backdrop-filter: blur())
+    .has-background-blur.has-background-white
+        background-color: rgba(white,.75) !important
+        backdrop-filter: blur(1.5rem)
+
+@supports(-webkit-backdrop-filter: blur())
+    .has-background-blur.has-background-dark
+        background-color: rgba($dark,.6) !important
+        -webkit-backdrop-filter: blur(1.5rem)
+
+@supports(backdrop-filter: blur())
+    .has-background-blur.has-background-dark
+        background-color: rgba($dark,.6) !important
+        backdrop-filter: blur(1.5rem)
 
 // COLOR CLASSES
 .has-background-primary-dark
@@ -405,3 +426,4 @@ pre
     fill: $white !important
 
 @import 'css4-vars.scss'
+
