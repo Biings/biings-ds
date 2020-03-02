@@ -144,6 +144,8 @@ Use a **Spacer** (or Divider) as a visual help for grouping related content toge
 <div class="box is-well is-large is-marginless">
     <hr class="is-visible">
     <br>
+    <hr class="is-visible is-soft">
+    <br>
     <hr class="is-visible is-wavy">
 </div>
   
