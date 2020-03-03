@@ -229,6 +229,10 @@ form .field
 .select.is-danger > select:focus
     box-shadow: $input-focus-box-shadow-size $danger !important
 
+.input[readonly]:focus
+    box-shadow: none !important
+    border-color: $border !important
+
 .field > input,
 .field > textarea,
 .field > select

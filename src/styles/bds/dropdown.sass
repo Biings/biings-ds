@@ -1,61 +1,64 @@
-.dropdown:not(.is-iconless) .button
-    padding-right: 2.625rem
+// Dropdown content appears over the button
+.dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
+    top: 0
+    padding-top: 0
 
-.dropdown.is-medium:not(.is-iconless) .button
-    padding-right: 2.875rem
+.dropdown.is-fullwidth,
+.dropdown.is-fullwidth > .dropdown-trigger,
+.dropdown.is-fullwidth  > .dropdown-menu,
+.dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
+    width: 100%
+
+.dropdown-trigger > .field > input
+    cursor: pointer
+
+.dropdown:not(.is-iconless) .button
+    padding-right: 2.625em
 
 .dropdown:not(.is-iconless):after
     position: absolute
-    top: .875em
-    right: 1.125em
-    margin-top: 1px
+    top: 45%
+    right: 1em
+    margin-top: -.25em
     width: .5em
     height: .5em
-    border-bottom: 2px solid rgba($dark,.5)
-    border-left: 2px solid rgba($dark,.5)
+    border-bottom: 1px solid $input-arrow
+    border-left: 1px solid $input-arrow
     content: ''
     transition: transform .2s ease
     transform: rotate(-45deg)
     pointer-events: none
 
 .dropdown.is-active:not(.is-iconless):after
-    top: 1.125em
+    margin-top: 0
     transform: rotate(135deg)
 
-.dropdown.is-small:after
-    top: .625em
-    font-size: .875rem
-
-.dropdown.is-small.is-active:not(.is-iconless):after
-    top: .875em
-
-.dropdown.is-medium:after
-    font-size: 1.125rem
-
 .select:not(.is-multiple):not(.is-loading):after
-    border-width: 2px
+    border-width: 1px
+    border-radius: 0
 
 .dropdown.is-active:not(.is-motionless) .dropdown-menu,
 .dropdown.is-hoverable:not(.is-motionless):hover .dropdown-menu
     animation: dropDown .4s 1
-    animation-timing-function: cubic-bezier(.175, .885, .32, 1.275)
+    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
+    // animation-timing-function: cubic-bezier(.175, .885, .32, 1.275)
 
 @keyframes dropDown
     from
         opacity: 0
-        transform: translateY(-1em)
+        transform: scale(.9)
     to
         opacity: 1
-        transform: translateY(0)
+        transform: scale(1)
 
 .dropdown.has-arrow > .dropdown-menu > div:before
     position: absolute
     width: 0
     height: 0
     border-right: .625em solid transparent
+    border-right-color: transparent !important
     border-left: .625em solid transparent
     border-left-color: transparent !important
-    border-right-color: transparent !important
     content: ''
 
 .dropdown:not(.is-up) > .dropdown-menu > div:before

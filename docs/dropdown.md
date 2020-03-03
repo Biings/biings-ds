@@ -56,31 +56,31 @@
 
 <h2 class="title is-3 is-family-sans-serif">Sizes</h2>
     
-Dropdown can adapt to the size of their trigger component. Supported sizes are : `is-small` and `is-medium`.
+Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[7-1]` to adjust the size of the arrow.
 
 <br>
 
 <div class="box is-well is-large is-marginless">
-    <div class="dropdown is-hoverable is-small">
+    <div class="dropdown is-hoverable is-size-6">
         <div class="dropdown-trigger">
-            <div class="button is-small">Small dropdown</div>
+            <div class="button is-small">Small button dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
                 <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-small</code> to the dropdown.</a>
+                <a class="dropdown-item"><code>is-size-6</code> to the dropdown.</a>
             </div>
         </div>
     </div>
     &nbsp; &nbsp;
-    <div class="dropdown is-hoverable is-medium">
+    <div class="dropdown is-hoverable is-size-5">
         <div class="dropdown-trigger">
-            <div class="button is-medium">Medium dropdown</div>
+            <div class="button is-medium">Medium button dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
                 <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-medium</code> to the dropdown.</a>
+                <a class="dropdown-item"><code>is-size-5</code> to the dropdown.</a>
             </div>
         </div>
     </div>

@@ -105,6 +105,43 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
+<h2 class="title is-3 is-family-sans-serif">Dropdown Field</h2>
+
+<form class="box is-well is-large is-marginless">
+    <div class="dropdown is-hoverable is-fullwidth is-size-4">
+        <div class="dropdown-trigger">
+            <div class="field">
+                <label for="dropFieldIn" class="label">Read-only Input</label>
+                <input id="dropFieldIn" class="input" readonly placeholder="Select from dropdown"></textarea>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">This works</a>
+                <a class="dropdown-item">Without</a>
+                <a class="dropdown-item">Any</a>
+                <a class="dropdown-item">Javascript</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+    <div class="dropdown is-fullwidth is-size-4">
+        <div class="dropdown-trigger">
+            <div class="field">
+                <label for="fieldId" class="label">Read-only Input</label>
+                <input id="fieldId" class="input" readonly></textarea>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">...</a>
+                <a class="dropdown-item">...</a>
+            </div>
+        </div>
+    </div>
+<hr class="is-visible is-size-1">
+
 <h2 class="title is-3 is-family-sans-serif">Checkbox / Radio field</h2>
 
 <form class="box is-well is-large is-marginless">
