@@ -1,6 +1,6 @@
 .modal-card
-    box-shadow: 0 1.5px 2.7px -20px $black, 0 5px 8.9px -20px rgba($black, 0.5), 0 8px 40px -10px rgba($black, 0.5)
-    
+    box-shadow: 0 1.5px 2.7px -20px $black, 0 5px 8.9px -20px rgba($black, .5), 0 8px 40px -10px rgba($black, .5)
+
 .modal-content,
 .modal-card,
 .modal-background
@@ -9,15 +9,15 @@
 
 .modal.is-active > .modal-content
     animation: shrinkIn .5s 1
-    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
 
 .modal.is-active > .modal-card
     animation: dropIn .6s 1
-    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
 
 .modal.is-active > .modal-background
     animation: fadeIn .5s 1
-    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
 
 .modal.is-pinned > .modal-content,
 .modal.is-pinned > .modal-card
@@ -27,13 +27,24 @@
 .modal-card-title
     font-weight: $weight-semibold
 
+
+// Remove scrollbars
+.modal-card-body
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+// .modal-card-body::-webkit-scrollbar
+//     display: none
+
 .modal-card-body:first-child
+    padding-top: 1.875rem
     border-top-left-radius: $modal-card-head-radius
     border-top-right-radius: $modal-card-head-radius
 
 .modal-card-body:last-child
-    border-bottom-left-radius: $modal-card-head-radius
+    padding-bottom: 1.875rem
     border-bottom-right-radius: $modal-card-head-radius
+    border-bottom-left-radius: $modal-card-head-radius
 
 .modal-card-head > .delete,
 .modal-card-body > .delete
@@ -62,21 +73,21 @@
         height: 60%
 
 .delete
-    background-color: transparent !important
-    height: 2rem
-    max-height: 2rem
-    max-width: 2rem
-    min-height: 2rem
-    min-width: 2rem
-    width: 2rem
     margin-right: -.25rem
+    min-width: 2rem
+    min-height: 2rem
+    max-width: 2rem
+    max-height: 2rem
+    width: 2rem
+    height: 2rem
+    background-color: transparent !important
     &:before,
     &:after
         background-color: $grey
 
 .modal-close:hover,
 .delete:hover
-    background-color: rgba($dark,0.1) !important
+    background-color: rgba($dark,.1) !important
 
 .delete:hover
     &:before,
@@ -109,4 +120,4 @@
         transform: translateY(-2.5em)
     to
         opacity: 1
-        transform: translateY(0)
+        transform: translateY(0);

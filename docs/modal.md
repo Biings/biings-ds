@@ -56,6 +56,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
+            <hr>
             <h2 class="title">Some modal card content</h2>
             <p class="subtitle is-italic is-size-5 has-text-grey">Can handle of lot of content.</p>
             <p>
@@ -91,6 +92,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 in virtute vim esse quam maximam; Eaedem enim utilitates poterunt eas labefactare atque pervertere. Quid enim de
                 amicitia statueris utilitatis causa expetenda vides. Mihi quidem Antiochum, quem audis, satis belle videris attendere.
             </p>
+            <hr>
         </section>
         <footer class="modal-card-foot">
             <div class="button is-dark">Footer Action</div><div class="button is-static">or</div><div class="button is-text" onclick="closeModal(1)">Close</div>
@@ -128,6 +130,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     The Header and Footer can be removed for a slimer design.
                 </div>
             </div>
+            <br>
         </section>
         <footer class="modal-card-foot has-text-right">
             <div class="button">Cancel</div>
@@ -145,7 +148,9 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 <button class="delete" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
+                <hr>
                 ...
+                <hr>
             </section>
             <footer class="modal-card-foot">
                 <div class="button is-dark">Footer Action</div>
@@ -173,6 +178,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                         <input id="fieldId2" class="input" type="text" placeholder="Some input">
                     </div>
                 </form>
+                <br>
             </section>
             <footer class="modal-card-foot">
                 <div class="button is-fullwidth">Primary Action</div>
