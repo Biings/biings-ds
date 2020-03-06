@@ -12,17 +12,21 @@
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
     </div>
+    <div class="field has-warning">
+        <label for="warnfield" class="label">Input Field with Warning</label>
+        <input id="warnfield" class="input" type="text" placeholder="Should not be empty">
+    </div>
     <div class="field is-warning">
         <label for="warnfield" class="label">Input Field with Warning</label>
         <input id="warnfield" class="input" type="text" placeholder="Should not be empty">
     </div>
     <div class="field is-danger">
         <label for="dangerfield" class="label">Input Field with serious warning</label>
-        <input id="dangerfield" class="input is-danger" type="text" placeholder="Really, this should not be empty!">
+        <input id="dangerfield" class="input" type="text" placeholder="Really, this should not be empty!">
     </div>
     <div class="field">
         <label for="textfield" class="label">Textarea Field</label>
-        <textarea id="textfield" class="textarea" placeholder="For looong text inputs.."></textarea>
+        <textarea id="textfield" rows="2" class="textarea" placeholder="For looong text inputs.."></textarea>
     </div>
 </form>
 
@@ -48,6 +52,8 @@
 
 ?> Add `is-warning` or `is-danger` to the `.field` div to change the status.
 
+!> **Use `has-warning` modifier to invite the user to fill in a field**.
+
 <hr class="is-visible is-size-1">
 <h2 class="title is-3 is-family-sans-serif">Required or Optional</h2>
 
@@ -57,16 +63,22 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <div class="box is-well is-large is-marginless">
     <form class="columns is-variable is-4">
-        <div class="column is-6">
+        <div class="column is-4">
             <div class="field">
-                <label for="textfieldOp" class="label">Some label <span>– optional</span></label>
+                <label for="textfieldOp" class="label">Something <span>– optional</span></label>
                 <input id="textfieldOp" class="input" placeholder="Nice to have stuff"></textarea>
             </div>
         </div>
-        <div class="column is-6">
+        <div class="column is-4">
             <div class="field is-required">
                 <label for="textfieldRe" class="label">Something required</label>
                 <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="field has-warning is-required">
+                <label for="textfieldRe" class="label">Something required</label>
+                <input id="textfieldRe" class="input" placeholder="Please fill this input"></textarea>
             </div>
         </div>
     </form>
@@ -80,11 +92,15 @@ In most cases it is better to indicate the optional fields rather than the requi
         <label for="textfieldRe" class="label">Something required</label>
         <input id="textfieldORe" class="input" placeholder="Very important stuff"></textarea>
     </div>
+    <div class="field is-required has-warn">
+        <label for="textfieldRe" class="label">Something required</label>
+        <input id="textfieldORe" class="input" placeholder="Please fill in"></textarea>
+    </div>
 <hr class="is-visible is-size-1">
 <h2 class="title is-3 is-family-sans-serif">Select field</h2>
 
 <form class="box is-well is-large is-marginless">
-    <div class="field select">
+    <div class="field select is-required">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
             <option value="1">Default</option>

@@ -108,16 +108,18 @@
     height: 11px
     border: none
     border-radius: 100%
-    background-color: white
-    box-shadow: 0 1px 2px rgba($dark, .3)
+    background-color: $white-bis
+    box-shadow: 0 1px 3px rgba($dark, .25)
     transition: left .2s cubic-bezier(.215, .61, .355, 1)
     transform: none
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark
     background-color: $primary
+    box-shadow: 0 0 12px rgba($primary,.3) !important
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark:after
     left: 1.125rem
+    background-color: white
 
 .checkbox.is-toggle.is-large
     font-size: 19px
@@ -146,13 +148,7 @@ select,
 .field > .checkbox,
 .field > .radio
     min-height: 2.75em
-    transition: border-color .1s ease-out, box-shadow .2s ease-out
-
-.input:focus,
-.textarea:focus,
-select:focus,
-.select > select:focus
-    box-shadow: $input-focus-box-shadow-size $input-focus-border-color
+    transition: border-color .1s ease-out
 
 .textarea
     padding-left: calc(.875em - 1px)
@@ -196,7 +192,7 @@ form .field
     color: $primary
 
 .field.is-danger > .label
-    color: $danger
+    color: mix($red-dark,$danger,50)
 .field.is-danger > .input
     border-color: $danger
 .field.is-info > .label
@@ -204,33 +200,12 @@ form .field
 .field.is-info > .input
     border-color: $info
 .field.is-warning > .label
-    color: mix($claim,$warning,75)
+    color: mix($claim-dark,$warning,40)
 .field.is-warning > .input
     border-color: $warning
 
-.input.is-warning:focus,
-.textarea.is-warning:focus,
-.field.is-warning > .input:focus,
-.field.is-warning > .textarea:focus,
-.select.is-warning > select:focus
-    box-shadow: $input-focus-box-shadow-size $warning !important
-
-.input.is-info:focus,
-.textarea.is-info:focus,
-.field.is-info > .input:focus,
-.field.is-info > .textarea:focus,
-.select.is-info > select:focus
-    box-shadow: $input-focus-box-shadow-size $info !important
-
-.input.is-danger:focus,
-.textarea.is-danger:focus,
-.field.is-danger > .input:focus,
-.field.is-danger > .textarea:focus,
-.select.is-danger > select:focus
-    box-shadow: $input-focus-box-shadow-size $danger !important
 
 .input[readonly]:focus
-    box-shadow: none !important
     border-color: $border !important
 
 .field > input,
@@ -266,7 +241,8 @@ form .field
     font-weight: 400
     font-style: italic
 
-.field.is-required:after
+// Required field
+.field:not(.select).is-required:after
     position: absolute
     top: calc(.375em + 1px)
     right: calc(.375em + 1px)
@@ -274,6 +250,24 @@ form .field
     content: '*'
     font-size: 1.75em
     pointer-events: none
+
+// Field with warning
+.field:not(.select).is-required.has-warning:after
+    color: mix($claim-dark,$claim,50)
+
+.field.has-warning:focus-within > .label,
+.field.has-warning > .input:focus + .label
+    //color: mix($warning,$claim-dark,20) !important
+    color: mix($claim-dark,$grey-darker,20) !important
+
+.field.has-warning > input:not(:focus),
+.field.has-warning > select
+    background-color: mix($white,$claim-lighter,45) !important
+
+.field.has-warning > input:focus,
+.field.has-warning > select:focus
+    border-color: $warning !important
+
 
 /* Icon */
 .control.has-icons-left .icon,
