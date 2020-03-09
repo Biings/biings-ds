@@ -229,7 +229,7 @@ form .field
 .field > .radio
     padding: 1.75em
     width: 100%
-    @extend %input;
+    @extend %input
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
@@ -251,8 +251,20 @@ form .field
     font-size: 1.75em
     pointer-events: none
 
+.field.select.is-required:before
+    position: absolute
+    top: 51%
+    right: 1.75em
+    z-index: 1
+    margin-top: -.25em
+    color: $primary-light
+    content: '*'
+    font-size: 1.75em
+    pointer-events: none
+
 // Field with warning
-.field:not(.select).is-required.has-warning:after
+.field:not(.select).is-required.has-warning:after,
+.field.select.is-required.has-warning:before
     color: mix($claim-dark,$claim,50)
 
 .field.has-warning:focus-within > .label,
@@ -261,7 +273,7 @@ form .field
     color: mix($claim-dark,$grey-darker,20) !important
 
 .field.has-warning > input:not(:focus),
-.field.has-warning > select
+.field.has-warning > select:not(:focus)
     background-color: mix($white,$claim-lighter,45) !important
 
 .field.has-warning > input:focus,
@@ -280,3 +292,4 @@ form .field
 
 .control.has-icons-right .icon
     margin-right: .25em
+

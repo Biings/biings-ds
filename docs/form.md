@@ -100,7 +100,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 <h2 class="title is-3 is-family-sans-serif">Select field</h2>
 
 <form class="box is-well is-large is-marginless">
-    <div class="field select is-required">
+    <div class="field select is-required has-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
             <option value="1">Default</option>
