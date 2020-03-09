@@ -5,62 +5,26 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-relaxed is-marginless">
-    <div class="message">
-        <div class="message-body">
-            A message can act as a small <strong>note</strong>.
-        </div>
-    </div>
-    <hr class="is-small">
-    <div class="message is-info">
-        <div class="message-header">
-            Or as an information notice
-        </div>
-        <div class="message-body">
-            Put some useful information here.
-        </div>
-    </div>
-</div>
+<h2 class="title is-3 is-family-sans-serif">Default colors and sizes</h2>
 
-    <div class="message">
-        <div class="message-body">
-            A message can act as a <strong>notification</strong>.
-        </div>
-    </div>
-    <div class="message is-info">
-        <div class="message-header">
-            Or as an information notice
-        </div>
-        <div class="message-body">
-            Put some useful information here.
-        </div>
-    </div>
-<br>
-
-<hr class="is-visible is-size-1">
-
-<h2 class="title is-3 is-family-sans-serif">Colors and sizes</h2>
-
-Messages support modifiers `is-info`, `is-danger`, `is-warning`, `is-success` as well as size modifiers `is-small` and `is-large`.
+Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, `is-danger`, `is-dark` as well as size modifiers `is-size-[0-7]`.
 
 <br><br>
 
-<div class="message is-small is-dark">
-    <div class="message-body">
-        A small <strong>dark</strong> message&nbsp; 👀
-    </div>
-</div>
-<div class="message is-info">
-    <div class="message-body">
-        A regular <strong>info</strong> message&nbsp; 💁‍♂️
-    </div>
-</div>
-<div class="message is-large is-success">
-    <div class="message-body">
-        A large <strong>success</strong> message 👍
-    </div>
+<div class="box is-medium is-well is-marginless">
+    <div class="message">Default Message.</div>
+    <br>
+    <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>
+    <br>
+    <div class="message is-size-4 is-success">Big success message</div>
+    <br>
+    <div class="message is-dark is-size-7">A small <strong>dark</strong> message&nbsp; 👀</div>
 </div>
 
+    <div class="message">Default Message.</div>
+    <div class="message is-info">An info message 💁‍♂️</div>
+    <div class="message is-warning is-size-4">Big warning message.</div>
+    etc...
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Notification message</h2>
@@ -69,41 +33,39 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 
 <br><br>
 
-<div class="box is-well is-medium is-marginless">
-    <div class="button is-light" onclick="openModal('3')">Show Default Noti</div>&nbsp; 
-    <div class="button is-info is-light" onclick="openModal('4')">Show Small Noti</div>&nbsp;
-    <div class="button is-primary is-light" onclick="openModal('5')">Show Medium Noti</div>
+<div class="box is-well is-medium is-marginless has-text-centered">
+    <div class="button is-rounded" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
+    <div class="button is-success is-rounded" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
+    <div class="button is-danger is-rounded" onclick="openModal('4')">Small Noti</div>&nbsp; &nbsp;
+    <div class="button is-primary is-shadowed is-rounded" onclick="openModal('5')">Medium Noti</div>
 </div>
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
     <div class="message is-noti">
-        <div class="message-body">
-            <strong>You Clicked!</strong>
-        </div>
+        Hi there 👋
+    </div>
+</div>
+<div id="js-modal9" class="modal" onclick="closeModal('9')">
+    <div class="message is-noti is-success is-size-5">
+        📦 Saved! 
     </div>
 </div>
 <div id="js-modal4" class="modal" onclick="closeModal('4')">
-    <div class="message is-noti is-success is-small">
-        <div class="message-body">
-            Hi there 👋
-        </div>
+    <div class="message is-noti is-danger is-size-7">
+        Deleted..
     </div>
 </div>
 <div id="js-modal5" class="modal" onclick="closeModal('5')">
     <div class="message is-noti is-primary is-medium">
-        <div class="message-body">
-            <h1 class="title is-4 has-text-weight-bold">Hurray 🎉</h1>
-            You just triggered a noti.
-        </div>
+        <h1 class="title is-4 has-text-weight-bold">Hurray 🎉</h1>
+        You just triggered a noti.
     </div>
 </div>
 
     <div class="modal">
-        <div class="message is-noti">
-            <div class="message-body">
-                Place noti message here
-            </div>  
-        </div>
+        <div class="message">
+            Place noti message here
+        </div>  
     </div>
 <br>
 

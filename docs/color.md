@@ -128,7 +128,7 @@ Most elements and components have color variations thanks to modifiers with synt
 </table>
 
 <strong class="title is-5">Blurred Background</strong>
-<p>You can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white or dark]`.</p>
+<p>You can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.</p>
 <br>
 <div class="box is-relative is-well is-bordered is-size-3 has-text-grey has-text-centered">
     🖱

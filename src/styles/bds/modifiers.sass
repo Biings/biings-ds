@@ -13,10 +13,10 @@
 // ADJUSTMENTS TO BULMA :
 // Card
 .card
-    border-radius: 2px
+    border-radius: $radius-small
 
 .card-footer
-    border-radius: 0 0 2px 2px
+    border-radius: 0 0 $radius-small $radius-small
 
 // Table
 th
@@ -27,26 +27,34 @@ pre
     border-left: .375em solid rgba($primary-dark, .08)
 
 // BLURED BACKGROUND
+@supports(-webkit-backdrop-filter: blur())
+    .has-background-blur
+        -webkit-backdrop-filter: blur(1.5rem)
+@supports(backdrop-filter: blur())
+    .has-background-blur
+        backdrop-filter: blur(1.5rem)
 
 @supports(-webkit-backdrop-filter: blur())
     .has-background-blur.has-background-white
         background-color: rgba(white,.75) !important
-        -webkit-backdrop-filter: blur(1.5rem)
-
 @supports(backdrop-filter: blur())
     .has-background-blur.has-background-white
         background-color: rgba(white,.75) !important
-        backdrop-filter: blur(1.5rem)
 
 @supports(-webkit-backdrop-filter: blur())
     .has-background-blur.has-background-dark
         background-color: rgba($dark,.6) !important
-        -webkit-backdrop-filter: blur(1.5rem)
-
 @supports(backdrop-filter: blur())
     .has-background-blur.has-background-dark
         background-color: rgba($dark,.6) !important
-        backdrop-filter: blur(1.5rem)
+
+@supports(-webkit-backdrop-filter: blur())
+    .has-background-blur.has-background-black-bis
+        background-color: rgba($black-bis,.7) !important
+@supports(backdrop-filter: blur())
+    .has-background-blur.has-background-black-bis
+        background-color: rgba($black-bis,.7) !important
+
 
 // COLOR CLASSES
 .has-background-primary-dark
