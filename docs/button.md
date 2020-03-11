@@ -225,16 +225,36 @@ Buttons can be grouped together. Note the use of `is-active` and `is-hovered`.
 <hr>
 
 <div class="box is-well is-marginless is-large">
-    <div class="field has-addons">
-        <p class="control">
-            <a class="button is-light is-hovered">Yes</a>
-        </p>
-        <p class="control">
-            <a class="button is-light is-hovered">No</a>
-        </p>
-        <p class="control">
-            <a class="button is-light is-active">Maybe</a>
-        </p>
+    <div class="level">
+        <div class="level-right">
+            <div class="level-item">
+                <div class="field has-addons">
+                    <p class="control">
+                        <a class="button is-light is-hovered">Yes</a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-light is-hovered">No</a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-light is-active">Maybe</a>
+                    </p>
+                </div>
+            </div>
+            <div class="level-item"></div>
+            <div class="level-item">
+                <div class="field has-addons">
+                    <p class="control">
+                        <a class="button">Red</a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-active">Purple</a>
+                    </p>
+                    <p class="control">
+                        <a class="button">None</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

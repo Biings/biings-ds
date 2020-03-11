@@ -5,24 +5,28 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-relaxed is-marginless">
+<div class="box is-medium is-well is-relaxed is-marginless">
     <div class="has-skeleton"></div>
 </div>
 
     <div class="has-skeleton"></div>
+!> Do NOT use Skeleton when listing an undetermined number of items. Use a <a href="#/loader" class="is-underlined">Loader</a> instead.
+
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Anything can be a Skeleton <span class="has-text-weight-normal has-text-red">(Beta)</span></h2>
+<h2 class="title is-3 is-family-sans-serif">Anything can be a Skeleton</h2>
 
 Add class `has-skeleton` to any empty component to show its skeleton.
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed is-marginless">
+<div class="box is-well is-medium is-marginless">
     <div class="avatar"><div class="has-skeleton"></div></div><br><br>
     <div class="box has-skeleton"></div>
     <div class="message has-skeleton"></div>
+    <br>
     <div class="message has-skeleton"></div>
+    <br>
     <div class="box message has-skeleton is-danger">
         The skeleton is visible <strong>only if the content is empty</strong>.
     </div>

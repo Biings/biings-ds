@@ -10,12 +10,18 @@
         <ul class="menu-list">
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>
-            <li><a>Follow-ups</a></li>
+            <li><a class="is-active">Active item</a></li>
+            <li><a>Claim reports</a></li>
         </ul>
-        <p class="menu-label">Label</p>
+        <p class="menu-label">Coverages:</p>
         <ul class="menu-list">
-            <li><a class="is-active">Claim reports</a></li>
-            <li><a>Settings</a></li>
+            <li>
+                <ul>
+                    <li><a>Illness</a></li>
+                    <li><a>Pro</a></li>
+                    <li><a>Other</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
@@ -24,12 +30,17 @@
         <ul class="menu-list">
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>
-            <li><a>Follow-ups</a></li>
+            <li class="is-active"><a>Follow-ups</a></li>
         </ul>
-        <p class="menu-label">Label</p>
+        <p class="menu-label">Coverages</p>
         <ul class="menu-list">
-            <li><a class="is-active">Claim reports</a></li>
-            <li><a>Settings</a></li>
+            <li>
+                <ul>
+                    <li><a>Illness</a></li>
+                    <li><a>Pro</a></li>
+                    <li><a>Other</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 <br>

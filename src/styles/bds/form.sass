@@ -189,7 +189,7 @@ form .field
 
 .field:focus-within > .label,
 .field > .input:focus + .label
-    color: $primary
+    color: $text
 
 .field.is-danger > .label
     color: mix($red-dark,$danger,50)
@@ -267,10 +267,9 @@ form .field
 .field.select.is-required.has-warning:before
     color: mix($claim-dark,$claim,50)
 
-.field.has-warning:focus-within > .label,
-.field.has-warning > .input:focus + .label
+.field.has-warning > .label
     //color: mix($warning,$claim-dark,20) !important
-    color: mix($claim-dark,$grey-darker,20) !important
+    color: mix($claim,$text,10) !important
 
 .field.has-warning > input:not(:focus),
 .field.has-warning > select:not(:focus)
