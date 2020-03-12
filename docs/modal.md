@@ -55,7 +55,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             </div>
             <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
         </header>
-        <section class="modal-card-body">
+        <section class="modal-card-body has-background-white">
             <hr>
             <h2 class="title">Some modal card content</h2>
             <p class="subtitle is-italic is-size-5 has-text-grey">Can handle of lot of content.</p>
@@ -125,10 +125,8 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <input id="fieldId" class="input" type="text" placeholder="Another input">
                 </div>
             </form>
-            <div class="message is-info is-small">
-                <div class="message-body">
-                    The Header and Footer can be removed for a slimer design.
-                </div>
+            <div class="message is-info is-size-7">
+                The Header and Footer can be removed for a slimer design.
             </div>
             <br>
         </section>
