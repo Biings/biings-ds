@@ -93,51 +93,52 @@
     width: 3.5em
 
 .checkbox.is-toggle > .checkbox-mark
-    margin-top: 1px
-    width: 33px
-    height: 19px
+    margin-top: .125em
+    width: 29px
+    height: 18px
     border-radius: 2rem !important
-    background-color: rgba($dark, .2)
+    background-color: rgba($dark, .25)
     box-shadow: none !important
 
 .checkbox.is-toggle > .checkbox-mark:after
-    top: .25rem
+    top: 4px
     left: .25rem
     display: block
-    width: 11px
-    height: 11px
+    width: 10px
+    height: 10px
     border: none
     border-radius: 100%
     background-color: $white-bis
-    box-shadow: 0 1px 3px rgba($dark, .25)
+    box-shadow: 0 0 3px rgba($dark, .15)
     transition: left .2s cubic-bezier(.215, .61, .355, 1)
     transform: none
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark
     background-color: $primary
-    box-shadow: 0 0 12px rgba($primary,.3) !important
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark:after
-    left: 1.125rem
+    left: 15px
     background-color: white
 
 .checkbox.is-toggle.is-large
     font-size: 19px
 
 .checkbox.is-toggle.is-large .checkbox-mark
-    width: 44px
+    width: 40px
     height: 24px
 
 .checkbox.is-toggle.is-large > input
     width: 3.125rem
+    margin-top: .9375em
 
 .checkbox.is-toggle.is-large > .checkbox-mark:after
-    top: 4px
-    width: 16px
-    height: 16px
+    top: 5px
+    left: 5px
+    width: 14px
+    height: 14px
 
 .checkbox.is-toggle.is-large > input:checked ~ .checkbox-mark:after
-    left: 24px
+    left: 21px
 
 
 /* Input field */
