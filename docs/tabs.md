@@ -32,13 +32,21 @@ Hanging Tabs have their active line placed above each item.
 
 <br>
 
-<div class="box is-well is-marginless is-large">
+<div class="box is-well is-marginless is-medium" style="padding-top: 0;">
     <div class="tabs is-hanging">
         <ul class="is-borderless">
             <li><a>These</a></li>
             <li><a>Are</a></li>
             <li class="is-active"><a>Hanging</a></li>
             <li><a>Tabs</a></li>
+            <li>
+                <a class="dropdown is-hoverable is-iconless has-arrow">
+                    <div class="dropdown-trigger">•••</div>
+                    <div class="dropdown-menu is-paddingless">
+                        <div class="box is-white is-floating">Hey!<br><span class="is-size-7 has-text-grey">Just to show you can also<br>put sub-menus here 😉</span></div>
+                    </div>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
@@ -72,7 +80,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
             <li><a>Certificates</a></li>
         </ul>
     </div>
-    <div class="box is-white is-large has-text-grey-dark">
+    <div class="box is-white is-large is-floating has-text-grey-dark">
         Boxed content<br><i>Use Javascript for the tab switching behaviour.</i>
     </div>
 </div>
@@ -85,11 +93,6 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
             <li><a>Certificates</a></li>
         </ul>
     </div>
-    <div class="box is-white">
+    <div class="box is-white is-floating">
         ...
     </div>
-<hr>
-
-<a href="http://bulma.io/documentation/components/tabs/" target="blank" class="box is-bordered">
-    More options on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Tabs</strong>
-</a>

@@ -1,4 +1,8 @@
+.tabs
+    overflow: visible
+
 .tabs > ul > li
+    position: relative
     font-weight: 500
 
 .tabs:not(.is-boxed) > li:first-child > a
@@ -7,14 +11,19 @@
 .tabs:not(.is-boxed) > ul > li.is-active > a
     position: relative
 
-.tabs:not(.is-boxed) > ul li.is-active > a:after
+.tabs:not(.is-boxed) > ul > li > a:after
     position: absolute
-    right: 35%
+    right: 50%
     bottom: -1px
-    left: 35%
-    height: 3px
+    left: 50%
+    height: 2px
     background-color: $primary-dark
     content: ''
+    transition: left .15s ease, right .15s ease
+
+.tabs:not(.is-boxed) > ul > li.is-active > a:after
+    right: 33%
+    left: 33%
 
 .tabs.is-hanging > ul
     border-top-width: $tabs-border-bottom-width
@@ -22,9 +31,12 @@
     border-top-color: $tabs-border-bottom-color
     border-bottom: none
 
-.tabs.is-hanging > ul > li.is-active a:after
-    top: -1px
-    bottom: none
+.tabs.is-hanging a
+    border: none
+
+.tabs.is-hanging > ul > li a:after
+    top: 0
+    bottom: auto
 
 .tabs.is-boxed > ul
     margin-left: .25em

@@ -1,5 +1,38 @@
-.tag
-    font-weight: $weight-medium
-    
+.tag:not(.body)
+    min-width: 1.875em
+    height: 1.875em
+    font-weight: $weight-semibold
+
+.tag:not(.body)
+    padding-right: .5em
+    padding-left: .5em
+
 .tag.is-small
     font-size: $size-8
+
+.tag.is-glowing.is-primary
+    box-shadow: 0 .25em 1em -.25em rgba($primary,.75)
+.tag.is-glowing.is-success
+    box-shadow: 0 .25em 1em -.25em rgba($success,.75)
+.tag.is-glowing.is-info
+    box-shadow: 0 .25em 1em -.25em rgba($info,.5)
+.tag.is-glowing.is-danger
+    box-shadow: 0 .25em 1em -.25em rgba($danger,.75)
+.tag.is-glowing.is-warning
+    box-shadow: 0 .25em 1em -.25em rgba(mix($care-dark,$warning,20),.7)
+
+.tag.is-pilot,
+.tag.is-care,
+.tag.is-claim
+    color: white
+    font-family: $family-secondary
+    font-weight: 900
+.tag.is-pilot
+    background-color: mix($purple,$primary,20)
+    box-shadow: 0 .25em 1em -.25em rgba(mix($purple,$primary,20),.8)
+.tag.is-care
+    background-color: $care
+    box-shadow: 0 .25em 1em -.25em rgba($care,.8)
+.tag.is-claim
+    background-color: $claim
+    box-shadow: 0 .25em 1em -.25em rgba($claim,.8)
