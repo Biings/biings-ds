@@ -39,11 +39,11 @@ Avatars can nest an image to act as a person's photo.
 
 <hr class="is-small">
 
-<div class="box is-well is-relaxed is-marginless">
-    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle is-5"><strong>Padukone, Deepika</strong></span>
+<div class="box is-well is-medium is-marginless">
+    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle is-5"><strong>Padukone, Deepika</strong></span>
 </div>
 
-    <div class="avatar is-medium">
+    <div class="avatar">
         <img src="https://www.gravatar.com/avatar/padukone.png">
     </div>
     <span class="subtitle is-5">Padukone, Deepika</span>
@@ -51,15 +51,38 @@ Avatars can nest an image to act as a person's photo.
 
 <h2 class="title is-3 is-family-sans-serif">Status</h2>
 
-Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-black">black</span> and white.
+Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-dark">dark</span> and white.
 
 <hr class="is-small">
 
 <div class="box is-large is-well is-marginless">
-    <div class="avatar is-status-green is-medium"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
-    <span class="subtitle is-5"><strong>Aamir</strong> is online</span>
+    <div class="avatar is-status-turquoise is-huge"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <span class="subtitle is-4 has-text-turquoise-dark"><strong>Aamir</strong> is online, or..</span>
+    <hr>
+    <div class="avatar is-medium is-status-green"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-yellow"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-orange"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-red"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-pink"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-purple"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-primary"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-blue"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-cyan"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-dark"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    &nbsp;
+    <div class="avatar is-medium is-status-grey"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
 </div>
 
-    <div class="avatar is-status-green">
+    <div class="avatar is-status-turquoise">
         <!-- <div> or <image> -->
     <div>
+    // etc..

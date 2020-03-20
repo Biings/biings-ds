@@ -63,7 +63,9 @@
 .avatar.is-huge + span
     margin-left: 1.5rem
 
+
 /* Status badge */
+.avatar.is-status-primary:after,
 .avatar.is-status-purple:after,
 .avatar.is-status-cyan:after,
 .avatar.is-status-blue:after,
@@ -74,100 +76,53 @@
 .avatar.is-status-turquoise:after,
 .avatar.is-status-green:after,
 .avatar.is-status-grey:after,
-.avatar.is-status-black:after,
+.avatar.is-status-dark:after,
 .avatar.is-status-white:after
     position: absolute
-    right: -2px
-    bottom: -2px
-    width: .875rem
-    height: .875rem
-    border: 2px solid white
+    top: -3px
+    right: -3px
+    bottom: -3px
+    left: -3px
+    border: 1px solid transparent
     border-radius: 50%
     content: ''
 
-.avatar.is-small:after
-    width: .75rem
-    height: .75rem
-    border-width: 2px
-
-.avatar.is-medium:after
-    right: -1px
-    bottom: -1px
-    width: 1.0625rem
-    height: 1.0625rem
-    border-width: 2px
-
-.avatar.is-large:after
-    width: 1.5rem
-    height: 1.5rem
-    border-width: 3px
-
-.avatar.is-huge:after
-    right: -3px
-    bottom: -3px
-    width: 2rem
-    height: 2rem
-    border-width: 3px
+.avatar.is-status-primary:after
+    border-color: $primary
 
 .avatar.is-status-purple:after
-    background-color: $purple
+    border-color: $purple
 
 .avatar.is-status-cyan:after
-    background-color: $cyan
+    border-color: $cyan
 
 .avatar.is-status-blue:after
-    background-color: $blue
+    border-color: $blue
 
 .avatar.is-status-pink:after
-    background-color: $pink
+    border-color: $pink
 
 .avatar.is-status-red:after
-    background-color: $red
+    border-color: $red
 
 .avatar.is-status-orange:after
-    background-color: $orange
+    border-color: $orange
 
 .avatar.is-status-yellow:after
-    background-color: $yellow
+    border-color: $yellow
 
 .avatar.is-status-turquoise:after
-    background-color: $turquoise
+    border-color: $turquoise
 
 .avatar.is-status-green:after
-    background-color: $green
+    border-color: $green
 
 .avatar.is-status-grey:after
-    background-color: $grey
+    border-color: rgba($grey,.5)
 
-.avatar.is-status-black:after
-    background-color: $black
+.avatar.is-status-dark:after
+    border-color: $dark
 
 .avatar.is-status-white:after
-    background-color: $white
-    box-shadow: inset 0 0 0 1px $grey-light
+    border-color: $white
 
-.is-well > .avatar.is-status-purple:after,
-.has-background-light > .avatar.is-status-purple:after,
-.is-well > .avatar.is-status-cyan:after,
-.has-background-light > .avatar.is-status-cyan:after,
-.is-well > .avatar.is-status-blue:after,
-.has-background-light > .avatar.is-status-blue:after,
-.is-well > .avatar.is-status-pink:after,
-.has-background-light > .avatar.is-status-pink:after,
-.is-well > .avatar.is-status-red:after,
-.has-background-light > .avatar.is-status-red:after,
-.is-well > .avatar.is-status-orange:after,
-.has-background-light > .avatar.is-status-orange:after,
-.is-well > .avatar.is-status-yellow:after,
-.has-background-light > .avatar.is-status-yellow:after,
-.is-well > .avatar.is-status-turquoise:after,
-.has-background-light > .avatar.is-status-turquoise:after,
-.is-well > .avatar.is-status-green:after,
-.has-background-light > .avatar.is-status-green:after,
-.is-well > .avatar.is-status-grey:after,
-.has-background-light > .avatar.is-status-grey:after,
-.is-well > .avatar.is-status-black:after,
-.has-background-light > .avatar.is-status-black:after,
-.is-well > .avatar.is-status-white:after,
-.has-background-light > .avatar.is-status-white:after
-    border-color: $light
