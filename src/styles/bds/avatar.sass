@@ -65,19 +65,19 @@
 
 
 /* Status badge */
-.avatar.is-status-primary:after,
-.avatar.is-status-purple:after,
-.avatar.is-status-cyan:after,
-.avatar.is-status-blue:after,
-.avatar.is-status-pink:after,
-.avatar.is-status-red:after,
-.avatar.is-status-orange:after,
-.avatar.is-status-yellow:after,
-.avatar.is-status-turquoise:after,
-.avatar.is-status-green:after,
-.avatar.is-status-grey:after,
-.avatar.is-status-dark:after,
-.avatar.is-status-white:after
+.avatar.is-status-primary:before,
+.avatar.is-status-purple:before,
+.avatar.is-status-cyan:before,
+.avatar.is-status-blue:before,
+.avatar.is-status-pink:before,
+.avatar.is-status-red:before,
+.avatar.is-status-orange:before,
+.avatar.is-status-yellow:before,
+.avatar.is-status-turquoise:before,
+.avatar.is-status-green:before,
+.avatar.is-status-grey:before,
+.avatar.is-status-dark:before,
+.avatar.is-status-white:before
     position: absolute
     top: -3px
     right: -3px
@@ -86,43 +86,44 @@
     border: 1px solid transparent
     border-radius: 50%
     content: ''
+    transition: border-color .1s linear
 
-.avatar.is-status-primary:after
+.avatar.is-status-primary:before
     border-color: $primary
 
-.avatar.is-status-purple:after
+.avatar.is-status-purple:before
     border-color: $purple
 
-.avatar.is-status-cyan:after
+.avatar.is-status-cyan:before
     border-color: $cyan
 
-.avatar.is-status-blue:after
+.avatar.is-status-blue:before
     border-color: $blue
 
-.avatar.is-status-pink:after
+.avatar.is-status-pink:before
     border-color: $pink
 
-.avatar.is-status-red:after
+.avatar.is-status-red:before
     border-color: $red
 
-.avatar.is-status-orange:after
+.avatar.is-status-orange:before
     border-color: $orange
 
-.avatar.is-status-yellow:after
+.avatar.is-status-yellow:before
     border-color: $yellow
 
-.avatar.is-status-turquoise:after
+.avatar.is-status-turquoise:before
     border-color: $turquoise
 
-.avatar.is-status-green:after
+.avatar.is-status-green:before
     border-color: $green
 
-.avatar.is-status-grey:after
+.avatar.is-status-grey:before
     border-color: rgba($grey,.5)
 
-.avatar.is-status-dark:after
+.avatar.is-status-dark:before
     border-color: $dark
 
-.avatar.is-status-white:after
+.avatar.is-status-white:before
     border-color: $white
 
