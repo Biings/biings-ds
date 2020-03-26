@@ -95,7 +95,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <hr>
         </section>
         <footer class="modal-card-foot">
-            <div class="button is-dark">Footer Action</div><div class="button is-static">or</div><div class="button is-text" onclick="closeModal(1)">Close</div>
+            <div class="button is-primary is-shadowed">Footer Action</div><div class="button is-static">or</div><div class="button is-text" onclick="closeModal(1)">Close</div>
         </footer>
     </div>
 </div>

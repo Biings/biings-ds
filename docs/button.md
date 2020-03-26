@@ -208,9 +208,7 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
 <hr>
 
 <div class="box is-well is-marginless is-large">
-    <button class="button is-medium">Click Effect</button>
-    <div class="button is-static">or</div>
-    <div class="button is-medium">No Click Effect</div>
+    <button class="button is-primary">Click Effect</button><div class="button is-static">or</div><div class="button is-text">No effect</div>
 </div>
 
     <button class="button">Button</button>

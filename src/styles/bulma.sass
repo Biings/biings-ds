@@ -237,9 +237,9 @@ $fullhd: 1248px + (2 * $gap) !default
 // Miscellaneous
 
 $easing: ease-out !default
-$radius-small: 3px !default
-$radius: 4px !default
-$radius-large: 8px !default
+$radius-small: 4px !default
+$radius: 5px !default
+$radius-large: 9px !default
 $radius-rounded: 290486px !default
 $speed: 86ms !default
 
@@ -295,7 +295,7 @@ $box-link-active-shadow: !default
 $menu-item-color: $dark !default
 $menu-item-radius: $radius !default
 $menu-item-hover-color: $dark !default
-$menu-item-hover-background-color: rgba($primary-dark, 0.1) !default
+$menu-item-hover-background-color: rgba(mix($primary-dark,$primary,35), 0.065) !default
 $menu-item-active-color: $white !default
 $menu-item-active-background-color: mix($primary,$primary-dark,10) !default
 $menu-list-border-left: 1px solid $border !default
@@ -317,10 +317,11 @@ $modal-card-title-size: $size-6 !default
 
 $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
-$dropdown-item-hover-background-color: rgba($primary-dark, 0.065) !default
+$dropdown-item-hover-background-color: $menu-item-hover-background-color !default
 $dropdown-content-radius: $radius !default
 $dropdown-item-active-color: $primary !default
-$dropdown-item-active-background-color: rgba($primary-dark, 0.065) !default
+$dropdown-item-active-background-color: $dropdown-item-hover-background-color !default
+$dropdown-divider-background-color: $hr-background-color !default
 
 // Form elements
 $control-height: 2.75em !default
@@ -335,7 +336,9 @@ $button-border-color: $text !default
 $button-hover-border-color: $button-border-color !default
 $button-active-color: $text !default
 $button-active-border-color: mix(black,$button-border-color,6) !default
+$button-text-color: $link !default
 $button-text-hover-background-color: transparent !default
+$button-text-hover-color: $link-dark !default
 $button-padding-vertical: calc(0.25em - #{$button-border-width}) !default
 $button-static-color: inherit !default
 $button-static-background-color: transparent !default
