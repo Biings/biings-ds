@@ -8,7 +8,7 @@
 <div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button">Hover Me</div>
+            <div class="button">Hover me</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -61,18 +61,6 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 <br>
 
 <div class="box is-well is-large is-marginless">
-    <div class="dropdown is-hoverable is-size-6">
-        <div class="dropdown-trigger">
-            <div class="button is-small">Small button dropdown</div>
-        </div>
-        <div class="dropdown-menu">
-            <div class="dropdown-content">
-                <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-size-6</code> to the dropdown.</a>
-            </div>
-        </div>
-    </div>
-    &nbsp; &nbsp;
     <div class="dropdown is-hoverable is-size-5">
         <div class="dropdown-trigger">
             <div class="button is-medium">Medium button dropdown</div>
@@ -81,6 +69,17 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
             <div class="dropdown-content">
                 <a class="dropdown-item">Just add the class</a>
                 <a class="dropdown-item"><code>is-size-5</code> to the dropdown.</a>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown is-hoverable is-size-7 is-pulled-right is-right">
+        <div class="dropdown-trigger">
+            <div class="button is-small is-text">Small text drp</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Just add the class</a>
+                <a class="dropdown-item"><code>is-size-7</code> to the dropdown.</a>
             </div>
         </div>
     </div>
