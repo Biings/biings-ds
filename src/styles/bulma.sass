@@ -149,7 +149,7 @@ $text-strong: inherit !default
 // Code colors
 
 $code: $primary
-$code-background: rgba($primary-dark,.07)
+$code-background: rgba($dark,.075)
 
 $pre: $dark
 $pre-background: $code-background
@@ -162,7 +162,7 @@ $link-light: findLightColor($link) !default
 $link-dark: findDarkColor($link) !default
 $link-visited: $primary !default
 
-$link-hover: inherit
+$link-hover: mix($primary-light,$primary,50) !default
 $link-hover-border: $grey-light !default
 
 $link-focus: $dark !default
@@ -333,6 +333,7 @@ $button-background-color: transparent !default
 $button-border-color: $border !default
 $button-border-width: 1px !default
 $button-border-color: $text !default
+$button-hover-color: inherit !default
 $button-hover-border-color: $button-border-color !default
 $button-active-color: $text !default
 $button-active-border-color: mix(black,$button-border-color,6) !default
@@ -399,7 +400,7 @@ $tabs-boxed-link-hover-background-color: transparent !default
 // @import "bulma/sass/components/panel.sass"
 @import "bulma/sass/components/tabs.sass"
 @import "bulma/sass/elements/box.sass"
-@import "bulma/sass/elements/button.sass"
+@import "./bulma_button_copy.sass" // "bulma/sass/elements/button.sass"
 @import "bulma/sass/elements/container.sass"
 // @import "bulma/sass/elements/content.sass"
 @import "bulma/sass/form/_all.sass"
