@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Typography</h1>
+<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Typography</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     Use <strong>typography</strong> to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
@@ -48,11 +48,11 @@ Texts have an extra 7th smaller size. Use the modifier syntax <code>is-[0-6]</co
 <hr class="is-smaller">
 <h3 class="title is-3 is-family-secondary">Title Three</h3><div class="subtitle is-5 has-text-grey">Default title</div>
 <hr class="is-smaller">
-<h4 class="title is-3 is-family-secondary">Title Four</h4><div class="subtitle is-6 has-text-grey">Large paragraph</div>
+<h4 class="title is-4 is-family-secondary">Title Four</h4><div class="subtitle is-6 has-text-grey">Large paragraph</div>
 <hr class="is-smaller">
 <h5 class="title is-5 is-family-secondary">Title Five</h5><div class="subtitle is-6 has-text-grey">Paragraph</div>
 <hr class="is-smaller">
-<h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-6 has-text-grey">Same size as regular text</div>
+<h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-size-7 has-text-grey">Same size as regular text</div>
 
 <hr class="is-size-1 is-visible">
 <h4 class="title is-3 is-spaced is-family-primary">Emphasizers</h4>

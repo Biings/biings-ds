@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Card</h1>
+<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Card</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-5 is-family-secondary">
     <span class="has-text-weight-semibold">Card</span> is used to give actionable options to a related grouping of information.
@@ -11,10 +11,9 @@
             <div class="title">A Card is like a Box, but with action buttons.</div>
             <div class="subtitle is-5">– The Biings Design System</div>
         </div>
-        <footer class="card-footer">
-            <a class="card-footer-item">Agree</a>
-            <a class="card-footer-item">Don't agree</a>
-            <a class="card-footer-item">Cancel</a>
+        <footer class="card-footer is-size-7">
+            <div class="button is-text">Ok</div>
+            <div class="button is-text">Cancel</div>
         </footer>
     </div>
 </div>
@@ -24,15 +23,8 @@
             A Card is like Box but with action buttons...
         </div>
         <footer class="card-footer">
-            <a class="card-footer-item">
-                Action-1
-            </a>
-            <a class="card-footer-item">
-                Action-2
-            </a>
-            <a class="card-footer-item">
-                Action-3
-            </a>
+            <div class="button is-text">Ok</div>
+            <div class="button is-text">Cancel</div>
         </footer>
     </div>
 <br>

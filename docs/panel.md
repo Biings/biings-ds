@@ -1,4 +1,4 @@
-<h6 class="subtitle is-6 is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Panel</h1>
+<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Panel</h1>
 <p class="subtitle is-5">A <span class="has-text-weight-semibold">panel</span> shows content divided into section. Panels can also allow the user to expand and collapse each section (javascript required).</p>
 
 <hr class="is-large is-visible">
