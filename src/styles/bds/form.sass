@@ -192,16 +192,10 @@ form .field
 .field > .input:focus + .label
     color: $text
 
-.field.is-danger > .label
-    color: mix($red-dark,$danger,50)
 .field.is-danger > .input
     border-color: $danger
-.field.is-info > .label
-    color: $info
 .field.is-info > .input
     border-color: $info
-.field.is-warning > .label
-    color: mix($claim-dark,$warning,40)
 .field.is-warning > .input
     border-color: $warning
 
@@ -264,22 +258,15 @@ form .field
     font-size: 1.75em
     pointer-events: none
 
+.field.select.is-warning:before,
+.field:not(.select).is-warning:after
+    color: $warning
+
 // Field with warning
-.field:not(.select).is-required.has-warning:after,
-.field.select.is-required.has-warning:before
-    color: mix($claim-dark,$claim,50)
-
-.field.has-warning > .label
-    //color: mix($warning,$claim-dark,20) !important
-    color: mix($claim,$text,10) !important
-
-.field.has-warning > input:not(:focus),
-.field.has-warning > select:not(:focus)
+.field.is-warning > input,
+.field.is-warning > select
     background-color: mix($white,$claim-lighter,45) !important
 
-.field.has-warning > input:focus,
-.field.has-warning > select:focus
-    border-color: $warning !important
 
 
 /* Icon */

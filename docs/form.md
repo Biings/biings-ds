@@ -12,10 +12,6 @@
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
     </div>
-    <div class="field has-warning">
-        <label for="warnfield" class="label">Input Field with Warning</label>
-        <input id="warnfield" class="input" type="text" placeholder="Should not be empty">
-    </div>
     <div class="field is-warning">
         <label for="warnfield" class="label">Input Field with Warning</label>
         <input id="warnfield" class="input" type="text" placeholder="Should not be empty">
@@ -72,13 +68,13 @@ In most cases it is better to indicate the optional fields rather than the requi
         <div class="column is-4">
             <div class="field is-required">
                 <label for="textfieldRe" class="label">Something required</label>
-                <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
+                <input id="textfieldRe" class="input" placeholder="Please fill this input"></textarea>
             </div>
         </div>
         <div class="column is-4">
-            <div class="field has-warning is-required">
+            <div class="field is-required is-warning">
                 <label for="textfieldRe" class="label">Something required</label>
-                <input id="textfieldRe" class="input" placeholder="Please fill this input"></textarea>
+                <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
             </div>
         </div>
     </form>
@@ -90,17 +86,17 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
     <div class="field is-required">
         <label for="textfieldRe" class="label">Something required</label>
-        <input id="textfieldORe" class="input" placeholder="Very important stuff"></textarea>
+        <input id="textfieldRe" class="input" placeholder="Please fill in"></textarea>
     </div>
-    <div class="field is-required has-warn">
+    <div class="field is-required is-warning">
         <label for="textfieldRe" class="label">Something required</label>
-        <input id="textfieldORe" class="input" placeholder="Please fill in"></textarea>
+        <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
     </div>
 <hr class="is-visible is-size-1">
 <h2 class="title is-3 is-family-sans-serif">Select field</h2>
 
 <form class="box is-well is-large is-marginless">
-    <div class="field select is-required has-warning">
+    <div class="field select is-required is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
             <option value="1">Default</option>
