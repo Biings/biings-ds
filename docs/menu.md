@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-large is-well is-marginless">
+<div class="box is-large has-background-white-bis is-marginless">
     <div class="menu" style="max-width: 200px">
         <ul class="menu-list">
             <li><a>Biodata</a></li>

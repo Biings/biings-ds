@@ -8,7 +8,7 @@ html
 
 .box + pre
 {
-    box-shadow: 0 -4px 0 0 #FAF8FC;
+    margin-top: -1px;
 }
 pre
 {
@@ -278,6 +278,7 @@ img.no-zoom
     display: inline;
     padding: 0 !important;
     color: #2973b7;
+    font-weight: 500;
 }
 
 .token.string

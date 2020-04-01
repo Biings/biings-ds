@@ -18,7 +18,7 @@
     .box.is-larger
         padding-right: 1.5rem
         padding-left: 1.5rem
-        
+
     .section .box
         margin-right: -1.5em
         margin-left: -1.5em
@@ -42,7 +42,7 @@
 
 .box.is-well,
 .box.hover-to-well:hover
-    background-color: rgba($primary-dark, .04)
+    background-color: $menu-item-hover-background-color
     transition-duration: .3s
 
 .box.is-raised,
@@ -61,27 +61,22 @@
 .box.is-floating,
 .box.hover-to-floating:hover
     background-color: white
-    box-shadow: 0 1px 2px -10px rgba($black, 0.075), 0 2px 6.7px -10px rgba($black, 0.09), 0 6px 30px -10px rgba($black, 0.19)
+    box-shadow: 0 1px 2px -10px rgba($black, .075), 0 2px 6.7px -10px rgba($black, .09), 0 6px 30px -10px rgba($black, .19)
     transition-duration: .3s
 
 .box.is-popping,
 .box.hover-to-popping:hover
     background-color: white
-    box-shadow: 0 1.5px 2.7px -20px rgba($black, 0.9), 0 5px 8.9px -20px rgba($black, 0.12), 0 20px 40px -20px rgba($black, 0.25)
+    box-shadow: 0 1.5px 2.7px -20px rgba($black, .9), 0 5px 8.9px -20px rgba($black, .12), 0 20px 40px -20px rgba($black, .25)
     transition-duration: .4s
 
 .box.is-expandable
     cursor: pointer
     transition-duration: .15s !important
 
-.box.is-expandable.is-expanded
-    margin-top: .275em
-    margin-right: -.5rem
-    margin-left: -.5rem
-
-.box.is-expandable + .box.is-expandable.is-expanded
-    margin-top: 1.775em
-    transition-duration: .1s !important
-
 .box.is-expandable:not(.is-expanded) > .expanded-content
     display: none
+
+.box.is-expandable.is-expanded
+    margin-right: -.5rem
+    margin-left: -.5rem;

@@ -67,7 +67,7 @@
 
 <hr class="is-size-3">
 
-<div class="box is-large is-well">
+<div class="box is-large has-background-white-bis">
     <div class="columns is-marginless">
         <div class="column is-7">
             <div class="title is-3">Want to<u> contribute?</u></div>
