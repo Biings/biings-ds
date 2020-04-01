@@ -6,7 +6,7 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-large has-background-white-bis is-marginless">
-    <div class="menu" style="max-width: 200px">
+    <div class="menu">
         <ul class="menu-list">
             <li><a>Biodata</a></li>
             <li><a>Timelines</a></li>
