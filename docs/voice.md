@@ -6,8 +6,8 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h2 class="title is-3 is-family-sans-serif">Write the way you speak..</h2>
-<div class="box is-well">
+<h2 class="title is-3 is-family-sans-serif">Write "the way you speak".</h2>
+<div class="box has-background-white-bis">
     <table class="table is-fullwidth">
         <thead>
             <tr>
@@ -36,7 +36,7 @@
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Use simple tense.</h2>
-<div class="box is-well">
+<div class="box has-background-white-bis">
     <table class="table is-fullwidth">
         <thead>
             <tr>
@@ -60,7 +60,7 @@
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Use active voice!</h2>
-<div class="box is-well">
+<div class="box has-background-white-bis">
     <table class="table is-fullwidth">
         <thead>
             <tr>

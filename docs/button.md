@@ -165,7 +165,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
 
 <br>
 
-<div class="box is-medium is-well is-marginless">
+<div class="box is-medium has-background-white-bis is-marginless">
     <div class="button">
         <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
         <span>Today!</span>
@@ -207,7 +207,7 @@ Using the `<button>` tag with the `button` class will add a remanent effect once
 
 <hr>
 
-<div class="box is-well is-marginless is-large">
+<div class="box has-background-white-bis is-marginless is-large">
     <button class="button is-primary">Click Effect</button><div class="button is-static">or</div><div class="button is-text">No effect</div>
 </div>
 
@@ -222,7 +222,7 @@ Buttons can be grouped together.
 
 <hr>
 
-<div class="box is-well is-marginless is-large">
+<div class="box has-background-white-bis is-marginless is-large">
     <div class="field has-addons">
         <p class="control">
             <a class="button">Red</a>

@@ -7,7 +7,7 @@
 
 <h2 class="title is-3 is-family-sans-serif">Input field</h2>
 
-<form class="box is-well is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
+<form class="box has-background-white-bis is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
@@ -19,6 +19,10 @@
     <div class="field is-danger">
         <label for="dangerfield" class="label">Input Field with serious warning</label>
         <input id="dangerfield" class="input" type="text" placeholder="Really, this should not be empty!">
+    </div>
+    <div class="field is-info">
+        <label for="infofield" class="label">The Occasional Blue Field</label>
+        <input id="infofield" class="input" type="text" placeholder="Even the input text is blue.">
     </div>
     <div class="field">
         <label for="textfield" class="label">Textarea Field</label>
@@ -39,6 +43,10 @@
             <label for="warnfield" class="label">Input Field with serious warning</label>
             <input id="warnfield" class="input" type="text" placeholder="Really, this should not be empty!">
         </div>
+        <div class="field is-info">
+            <label for="warnfield" class="label">The Occasional Blue Field</label>
+            <input id="warnfield" class="input" type="text" placeholder="Even the input text is blue.">
+        </div>
         <div class="field">
             <label for="textfield" class="label">Textarea</label>
             <textarea id="textfield" class="textarea" placeholder="..."></textarea>
@@ -57,7 +65,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <hr class="is-size-8">
 
-<div class="box is-well is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless">
     <form class="columns is-variable is-4">
         <div class="column is-4">
             <div class="field">
@@ -95,7 +103,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 <hr class="is-visible is-size-1">
 <h2 class="title is-3 is-family-sans-serif">Select field</h2>
 
-<form class="box is-well is-large is-marginless">
+<form class="box has-background-white-bis is-large is-marginless">
     <div class="field select is-required is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
@@ -119,7 +127,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h2 class="title is-3 is-family-sans-serif">Dropdown Field</h2>
 
-<form class="box is-well is-large is-marginless">
+<form class="box has-background-white-bis is-large is-marginless">
     <div class="dropdown is-hoverable is-fullwidth is-size-4">
         <div class="dropdown-trigger">
             <div class="field">
@@ -156,7 +164,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h2 class="title is-3 is-family-sans-serif">Checkbox / Radio field</h2>
 
-<form class="box is-well is-large is-marginless">
+<form class="box has-background-white-bis is-large is-marginless">
     <div class="field">
         <label class="checkbox">
             <input type="checkbox"><span class="checkbox-mark"></span>

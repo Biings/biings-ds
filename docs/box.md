@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-marginless">
+<div class="box has-background-white-bis is-marginless">
     <div class="box">
         <div class="box is-floating">Boxed content about an entity or subject.</div>
     </div>
@@ -20,7 +20,7 @@
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
-<div class="box is-well is-large">
+<div class="box has-background-white-bis is-large">
 
 <div class="box">
     <div class="subtitle has-text-grey-dark is-6"><strong>Box</strong> &nbsp; ( default )</div>
@@ -61,7 +61,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     <li><code>hover-to-popping</code></li>
 </ul>
 
-<div class="box is-well is-marginless">
+<div class="box has-background-white-bis is-marginless">
     <div class="box">
         <div class="box is-well hover-to-popping">Box with depth transition effect ( hover me )</div>
     </div>
@@ -78,7 +78,7 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
 
 <br>
 
-<div class="box is-well is-marginless">
+<div class="box has-background-white-bis is-marginless">
     <div class="level">
         <div class="level-item"><div class="box is-raised is-small">Small</div></div>
         <div class="level-item"><div class="box is-raised has-text-grey">Normal</div></div>
@@ -101,7 +101,7 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
 
 <br>
 
-<div class="box is-well is-marginless ">
+<div class="box has-background-white-bis is-marginless ">
     <div class="box">
         <div id="ebox" class="box is-large is-white hover-to-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
             <span class="title is-4 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>

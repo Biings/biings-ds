@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3">
 
-<div class="box has-background-light is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless">
     <span class="tag">Two</span>
     <span class="tag">Tags</span>
 </div>
@@ -23,7 +23,7 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <br>
 
-<div class="box has-background-light is-large">
+<div class="box has-background-white-bis is-large">
     <span class="tag is-small">Small</span>&nbsp;
     <span class="tag">Normal</span>&nbsp;
     <span class="tag is-medium">Medium</span>&nbsp;

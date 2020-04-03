@@ -10,7 +10,7 @@
 
 <h2 class="title is-3 is-family-sans-serif">Stand-alone input field</h2>
 
-<form class="box is-large is-well is-marginless" spellcheck="false">
+<form class="box is-large has-background-white-bis is-marginless" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-8">
     <input class="input" type="tel" placeholder="Default and loading input">
@@ -43,7 +43,7 @@ You can add one or two icons inside the input.
 
 <hr>
 
-<div class="box is-well is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless">
     <div class="columns is-variable is-5">
         <div class="column is-6">
             <p class="control has-icons-left">

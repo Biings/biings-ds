@@ -62,7 +62,7 @@ Use one of the following classes to emphasize words or part of a text.
 
 <hr class="is-small">
 
-<div class="box is-well is-marginless is-size-5">
+<div class="box has-background-white-bis is-marginless is-size-5">
     Let's <u>underline that!</u>
 </div>
 
@@ -86,14 +86,14 @@ Use one of the following classes to emphasize words or part of a text.
     Or <em class="is-primary">some of that in purple</em>.
 <hr class="is-small">
 
-<div class="box is-well is-marginless is-size-5">
+<div class="box has-background-white-bis is-marginless is-size-5">
     <p class="is-italic">Lorem ipsum dolor sit amet.<p>
 </div>
 
     <p class="is-italic">Lorem ipsum dolor sit amet.<p>
 <hr class="is-small">
 
-<div class="box is-well is-marginless is-size-5">
+<div class="box has-background-white-bis is-marginless is-size-5">
     <p class="is-capitalized is-family-hand">this is capitalized</p>
 </div>
 

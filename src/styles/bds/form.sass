@@ -11,14 +11,13 @@ select,
 .textarea
     padding-left: calc(.875em - 1px)
 
-.field:not(:last-child)
-    margin-bottom: 1rem
-
-.label:not(:last-child)
-    margin-bottom: .25em
-
 .field
     position: relative
+
+.field:not(:last-child)
+    margin-bottom: 1rem
+.label:not(:last-child)
+    margin-bottom: .25em
 
 form .field
     border-radius: $control-radius
@@ -45,17 +44,19 @@ form .field
 .field.select > .label
     cursor: pointer
 
-.field:focus-within > .label,
-.field > .input:focus + .label
-    color: $text
-
 .field.is-danger > .input
     border-color: $danger
 .field.is-info > .input
     border-color: $info
-.field.is-warning > .input
-    border-color: $warning
 
+.field.is-danger > .input
+    color: $danger
+.field.is-info > .input
+    color: $info
+
+.field:focus-within > .label,
+.field > .input:focus + .label
+    color: $text
 
 .input[readonly]:focus
     border-color: $border !important
@@ -68,6 +69,15 @@ form .field
     width: 100%
     height: auto
     background-color: transparent !important
+
+.field > input,
+.field > input[readonly],
+.field > textarea,
+.field > textarea[readonly],
+.field > select,
+.field > select[readonly],
+.field > label.checkbox,
+.field > label.radio
     box-shadow: 0 .25em .125em rgba($black,.025)
 
 .field.select
@@ -102,36 +112,25 @@ form .field
     font-style: italic
 
 // Required field
-.field:not(.select).is-required:after
+.field.is-required > .label:before
     position: absolute
-    top: calc(.375em + 1px)
-    right: calc(.375em + 1px)
-    color: $primary-light
-    content: '*'
-    font-size: 1.75em
-    pointer-events: none
-
-.field.select.is-required:before
-    position: absolute
-    top: 51%
-    right: 1.75em
-    z-index: 1
-    margin-top: -.25em
-    color: $primary-light
-    content: '*'
-    font-size: 1.75em
-    pointer-events: none
-
-.field.select.is-warning:before,
-.field:not(.select).is-warning:after
+    top: calc(.375em + 2px)
+    right: calc(-.125em - 1px)
     color: $warning
+    content: '*'
+    font-size: 1.75em
+    pointer-events: none
 
 // Field with warning
 .field.is-warning > input,
 .field.is-warning > select
     background-color: mix($white,$claim-lighter,45) !important
 
+.field.is-warning > select
+    border-color: $border
 
+.field.is-warning > select:hover
+    border-color: $border-hover
 
 /* Icon */
 .control.has-icons-left .icon,
@@ -144,4 +143,3 @@ form .field
 
 .control.has-icons-right .icon
     margin-right: .25em
-

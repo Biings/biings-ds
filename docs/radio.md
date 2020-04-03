@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-marginless is-large">
+<div class="box has-background-white-bis is-marginless is-large">
     <label class="radio">
         <input type="radio" name="answer"><span class="radio-mark"></span>
         Yes

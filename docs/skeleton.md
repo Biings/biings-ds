@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-medium is-well is-relaxed is-marginless">
+<div class="box is-medium has-background-white-bis is-relaxed is-marginless">
     <div class="has-skeleton"></div>
 </div>
 
@@ -20,7 +20,7 @@ Add class `has-skeleton` to any empty component to show its skeleton.
 
 <hr class="is-small">
 
-<div class="box is-well is-medium is-marginless">
+<div class="box has-background-white-bis is-medium is-marginless">
     <div class="avatar"><div class="has-skeleton"></div></div><br><br>
     <div class="box has-skeleton"></div>
     <div class="message has-skeleton"></div>

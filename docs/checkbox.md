@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-marginless is-large">
+<div class="box has-background-white-bis is-marginless is-large">
     <label class="checkbox">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Check me!
@@ -56,7 +56,7 @@
 
 A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
 
-<div class="box is-well is-marginless is-large">
+<div class="box has-background-white-bis is-marginless is-large">
     <label class="checkbox is-toggle">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle (but I'm still a checkbox)

@@ -7,7 +7,7 @@
 
 <h2 class="title is-3 is-family-sans-serif">Basic usage</h2>
 
-<div class="box is-well is-large has-text-centered is-marginless">
+<div class="box has-background-white-bis is-large has-text-centered is-marginless">
     <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
@@ -41,7 +41,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 
 !> <strong>Button alignement</strong><br>Buttons should be aligned to the right for small modals. Align to the left when the form is longer.
 
-<div class="box is-well is-large has-text-centered is-marginless">
+<div class="box has-background-white-bis is-large has-text-centered is-marginless">
     <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Modal Card Example 1</div>
     &nbsp; 
     <div onclick="openModal(2)" class="button is-beefy is-primary is-glowing">Modal Card Example 2</div>

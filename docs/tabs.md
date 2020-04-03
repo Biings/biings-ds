@@ -5,7 +5,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-marginless is-large">
+<div class="box has-background-white-bis is-marginless is-large">
     <div class="tabs">
         <ul>
             <li><a>Pilot</a></li>
@@ -32,7 +32,7 @@ Hanging Tabs have their active line placed above each item.
 
 <br>
 
-<div class="box is-well is-marginless is-medium" style="padding-top: 0;">
+<div class="box has-background-white-bis is-marginless is-medium" style="padding-top: 0;">
     <div class="tabs is-hanging">
         <ul class="is-borderless">
             <li><a>These</a></li>
@@ -71,7 +71,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
 
 <br><br>
 
-<div class="box is-well is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless">
     <div class="tabs is-boxed is-marginless is-centered">
         <ul class="is-borderless">
             <li class="is-active"><a>Insured</a>

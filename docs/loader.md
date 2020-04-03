@@ -13,7 +13,7 @@ Loaders automatically adapt to text size.<br>Use text size modifier classes `is-
 
 <br>
 
-<div class="box is-well is-larger is-marginless">
+<div class="box has-background-white-bis is-larger is-marginless">
     <div class="level">
         <div class="level-item is-relative"><div class="loader"></div></div>
         <div class="level-item is-relative"><div class="loader is-size-3"></div></div>
@@ -35,7 +35,7 @@ Add class `is-inline` to remove the auto-centering of the loader.
 
 <br>
 
-<div class="box is-well is-medium is-relative has-text-grey is-italic is-marginless">
+<div class="box has-background-white-bis is-medium is-relative has-text-grey is-italic is-marginless">
     <div class="loader is-inline"></div> Loading...
 </div>
 
@@ -48,7 +48,7 @@ Add class `is-colorful` to give the loader a unique Biings look.
 
 <br>
 
-<div class="box is-well is-large is-relative">
+<div class="box has-background-white-bis is-large is-relative">
     <div class="loader is-colorful is-size-2"></div>
 </div>
 
@@ -74,6 +74,6 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 
 <hr class="is-small">
 
-<div class="box is-well is-large is-relative">
+<div class="box has-background-white-bis is-large is-relative">
     <div class="loader is-indeterminate is-size-3"></div>
 </div>
