@@ -15,7 +15,7 @@
 
 .button.is-text
     text-decoration: none
-    transition: color .1s linear 
+    transition: color .1s linear    
 .button.is-text:hover
     color: $link-hover
 .button.is-text:active
@@ -59,6 +59,12 @@
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
+
+.button.is-square
+    padding: 0
+    width: 2.5em
+.button.is-small.is-square
+    width: 2.1875em
 
 button.button
     box-shadow: 0 0 0 5px rgba($black, 0)
@@ -145,11 +151,6 @@ button.button:active
     box-shadow: 0 1px 4px rgba(0,0,0,.1),0 2px 6px rgba(0,0,0,.1)
 .button.is-shadowed:hover
     box-shadow: 0 2px 4px rgba(0,0,0,.15),0 3px 9px rgba(0,0,0,.15)
-
-.button.is-square
-    width: 2.5em
-.button.is-small.is-square
-    width: 2.1875em
 
 /* Button Group */
 .control > .button:not(.is-light).is-active

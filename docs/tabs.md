@@ -9,9 +9,9 @@
     <div class="tabs">
         <ul>
             <li><a>Pilot</a></li>
-            <li class="is-active"><a>Care</a></li>
-            <li><a>Plan</a></li>
+            <li><a>Care</a></li>
             <li><a>Claim</a></li>
+            <li class="is-active"><a>Full Package</a></li>
         </ul>
     </div>
 </div>
@@ -20,8 +20,8 @@
         <ul>
             <li><a>Pilot</a></li>
             <li class="is-active"><a>Care</a></li>
-            <li><a>Plan</a></li>
             <li><a>Claim</a></li>
+            <li><a>Full Package</a></li>
         </ul>
     </div>
 <hr class="is-visible is-size-1">
@@ -80,7 +80,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
             <li><a>Certificates</a></li>
         </ul>
     </div>
-    <div class="box is-white is-large is-raised has-text-grey-dark">
+    <div class="box is-white is-large is-bordered has-text-grey-dark">
         Boxed content<br><i>Use Javascript for the tab switching behaviour.</i>
     </div>
 </div>

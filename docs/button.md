@@ -184,7 +184,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
         <span>Download</span>
     </div>
     &nbsp;
-    <div class="button is-success is-square is-shadowed">
+    <div class="button is-success is-square is-shadowed is-rounded">
         <svg class="icon"><use xlink:href="media/bds-icons.min.svg#send-g"></use></svg>
     </div>
 </div>
