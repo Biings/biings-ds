@@ -18,7 +18,7 @@
     height: 1.5rem
     border-radius: $radius
     background-color: white
-    box-shadow: inset 0 0 0 $control-border-width $border
+    box-shadow: inset 0 0 0 $control-border-width $grey-lighter
     transition: background-color .15s linear, box-shadow .15s linear
 
 .radio-mark
@@ -26,7 +26,7 @@
 
 .checkbox:hover:not([disabled]):not(:active) > .checkbox-mark,
 .radio:hover:not([disabled]) > .radio-mark
-    box-shadow: inset 0 0 0 $control-border-width darken($border,8)
+    box-shadow: inset 0 0 0 $control-border-width darken($grey-lighter,8)
 
 .checkbox:not(.is-toggle) > input:checked ~ .checkbox-mark
     background-color: $primary
@@ -39,10 +39,10 @@
 .checkbox[disabled] > .checkbox-mark,
 .radio[disabled] > .radio-mark
     background-color: transparent
-    box-shadow: inset 0 0 0 $control-border-width $border !important
+    box-shadow: inset 0 0 0 $control-border-width $border-hover !important
 
 .checkbox[disabled] > input:checked ~ .checkbox-mark
-    background-color: rgba($border,.5)
+    background-color: $border-hover
     box-shadow: inset 0 0 0 $control-border-width transparent !important
 
 .checkbox[disabled] > input:checked ~ .checkbox-mark:after

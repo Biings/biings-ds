@@ -222,8 +222,8 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <div class="dropdown-item ">
-                    <input class="input is-small is-paddingless is-borderless is-shadowless" type="text" placeholder="Search the list">
+                <div class="dropdown-item">
+                    <input class="input is-small is-borderless is-paddingless has-background-white" type="text" placeholder="Search the list">
                 </div>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item">Show</a>
@@ -247,8 +247,8 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
-                <div class="dropdown-item ">
-                    <input class="input is-small is-paddingless has-background-white" 
+                <div class="dropdown-item">
+                    <input class="input is-small is-borderless is-paddingless has-background-white" 
                            type="text"
                            placeholder="Search the list">
                 </div>

@@ -44,31 +44,34 @@ form .field
 .field.select > .label
     cursor: pointer
 
-.field.is-danger > .input
-    border-color: $danger
-.field.is-info > .input
-    border-color: $info
-
-.field.is-danger > .input
-    color: $danger
-.field.is-info > .input
-    color: $info
-
 .field:focus-within > .label,
 .field > .input:focus + .label
     color: $text
 
-.input[readonly]:focus
-    border-color: $border !important
-
 .field > input,
 .field > textarea,
-.field > select
+.field > select,
     padding-top: 2.125em
     padding-bottom: .75em
     width: 100%
     height: auto
+
+.field > input,
+.field > textarea,
+.field > select,
+.field.is-warning > select,
+.field > label.checkbox,
+.field > label.radio
     background-color: transparent !important
+    border-color: rgba($black,.125)
+
+.field > input:hover:not(:focus),
+.field > textarea:hover:not(:focus),
+.field > select:hover:not(:focus),
+.field.is-warning > select:hover:not(:focus),
+.field > label.checkbox:hover:not(:active),
+.field > label.radio:hover:not(:active)
+    border-color: rgba($black,.2)
 
 .field > input,
 .field > input[readonly],
@@ -94,10 +97,6 @@ form .field
     width: 100%
     @extend %input
 
-.field > .checkbox:active,
-.field > .radio:active
-    border-color: $input-border-color !important
-
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
     top: .875em
@@ -110,6 +109,16 @@ form .field
     color: $grey
     font-weight: 400
     font-style: italic
+
+.field.is-danger > .input
+    border-color: $danger !important
+.field.is-info > .input
+    border-color: $info !important
+
+.field.is-danger > .input
+    color: $danger
+.field.is-info > .input
+    color: $info
 
 // Required field
 .field.is-required > .label:before
@@ -125,12 +134,6 @@ form .field
 .field.is-warning > input,
 .field.is-warning > select
     background-color: mix($white,$claim-lighter,45) !important
-
-.field.is-warning > select
-    border-color: $border
-
-.field.is-warning > select:hover
-    border-color: $border-hover
 
 /* Icon */
 .control.has-icons-left .icon,

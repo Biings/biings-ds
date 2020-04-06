@@ -90,7 +90,7 @@ $pink-lighter   : mix(white, $pink, 80) !default
 // ———— (NOT BULMA END)
 
 $info           : mix($primary, $blue, 25) !default
-$success        : mix($green, $care, 25) !default
+$success        : mix($green-dark, $care, 25) !default
 $warning        : mix($claim, $yellow, 35) !default
 $danger         : $red !default
 
@@ -134,10 +134,10 @@ $scheme-invert-ter: $black-ter !default
 
 $background: $white !default
 
-$border: $grey-lighter !default
-$border-hover: $grey-light !default
-$border-light: $grey-lightest !default
-$border-light-hover: $grey-light !default
+$border: transparent !default
+$border-hover: rgba($black,.075) !default
+$border-light: $grey-lighter !default
+$border-light-hover: $grey-lightest !default
 
 // Text colors
 
@@ -238,8 +238,8 @@ $fullhd: 1248px + (2 * $gap) !default
 // Miscellaneous
 
 $easing: ease-out !default
-$radius-small: 4px !default
-$radius: 5px !default
+$radius-small: 5px !default
+$radius: 6px !default
 $radius-large: 9px !default
 $radius-rounded: 290486px !default
 $speed: 86ms !default
@@ -299,7 +299,7 @@ $menu-item-hover-color: $dark !default
 $menu-item-hover-background-color: rgba(mix($primary-dark,$primary,35), 0.06) !default
 $menu-item-active-color: $white !default
 $menu-item-active-background-color: mix($primary,$primary-dark,10) !default
-$menu-list-border-left: 1px solid $border !default
+$menu-list-border-left: 1px solid $border-light !default
 $menu-list-line-height: inherit !default
 
 $modal-content-width: 35rem !default
@@ -331,7 +331,7 @@ $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
 
 $button-background-color: transparent !default
-$button-border-color: $border !default
+$button-border-color: $border-hover !default
 $button-border-width: 1px !default
 $button-border-color: $text !default
 $button-hover-color: inherit !default
@@ -347,11 +347,12 @@ $button-static-background-color: transparent !default
 $button-static-border-color: transparent !default
 
 $input-shadow: none !default
+$input-background-color: $light !default
 $input-color: $black !default
-$input-placeholder-color: rgba($input-color, 0.25) !default
+$input-placeholder-color: rgba($input-color, 0.3) !default
 $input-arrow: $grey !default
-$input-hover-color: $text !default
-$input-border-color: $border !default
+$input-hover-color: $input-color !default
+$input-border-color: transparent !default
 $input-hover-border-color: $border-hover !default
 $input-focus-border-color: rgba($primary,0.9) !default
 $input-focus-box-shadow-size: 0 0 0 1px !default

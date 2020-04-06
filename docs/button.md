@@ -179,9 +179,13 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
         <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
     </div>
     &nbsp;
-    <div class="button is-beefy is-success">
+    <div class="button is-info">
         <svg class="icon"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
         <span>Download</span>
+    </div>
+    &nbsp;
+    <div class="button is-success is-square is-shadowed">
+        <svg class="icon"><use xlink:href="media/bds-icons.min.svg#send-g"></use></svg>
     </div>
 </div>
 
@@ -195,7 +199,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     <div class="button is-square is-borderless">
         <svg class="icon is-danger"><use xlink:href="bds.min.svg#icon_name"></use></svg>
     </div>
-    <div class="button is-success is-beefy">
+    <div class="button is-info is-beefy">
         <svg class="icon has-text-fill-white"><use xlink:href="bds.min.svg#icon_name"></use></svg>
         <span>Download</span>
     </div>

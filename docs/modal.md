@@ -95,7 +95,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <hr>
         </section>
         <footer class="modal-card-foot">
-            <div class="button is-primary is-shadowed">Footer Action</div><div class="button is-static">or</div><div class="button is-text" onclick="closeModal(1)">Close</div>
+            <div class="button is-text">Footer Action</div><div class="button is-text has-text-grey" onclick="closeModal(1)">Close</div>
         </footer>
     </div>
 </div>
@@ -115,7 +115,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <li><a>Forty Six</a></li>
                 </ul>
             </div>
-            <form class="box is-well">
+            <form class="box">
                 <div class="field">
                     <label for="fieldId" class="label">Field example 2</label>
                     <input id="fieldId" class="input" type="text" placeholder="Some input">
@@ -132,7 +132,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
         </section>
         <footer class="modal-card-foot has-text-right">
             <div class="button">Cancel</div>
-            <div class="button is-primary">Primary Action</div>
+            <div class="button is-primary is-shadowed">Primary Action</div>
         </footer>
     </div>
 </div>
@@ -170,7 +170,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <label for="fieldId" class="label">Field example</label>
                     <input id="fieldId" class="input" type="text">
                 </div>
-                <form class="box is-well">
+                <form class="box">
                     <div class="field">
                         <label for="fieldId2" class="label">Field example</label>
                         <input id="fieldId2" class="input" type="text" placeholder="Some input">
