@@ -63,7 +63,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
 
 <div class="box has-background-white-bis is-marginless">
     <div class="box">
-        <div class="box is-well hover-to-popping">Box with depth transition effect ( hover me )</div>
+        <div class="box is-raised hover-to-popping">Box with depth transition effect ( hover me )</div>
     </div>
 </div>
 
