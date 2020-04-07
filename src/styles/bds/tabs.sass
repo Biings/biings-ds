@@ -11,7 +11,7 @@
 .tabs:not(.is-boxed) > li:first-child > a
     padding-left: .75em
 
-.tabs:not(.is-boxed) > ul > li > a:after
+.tabs:not(.is-boxed):not(.is-toggle) > ul > li > a:after
     position: absolute
     right: 50%
     bottom: -($tabs-border-bottom-width)
@@ -43,3 +43,22 @@
     padding: .625em 1.125em .875em
     border-width: 2px
 
+.tabs.is-toggle a
+    padding: .75em 1.125em .875em
+    background-color: $tabs-toggle-link-hover-background-color
+    color: $grey
+
+.tabs.is-toggle li:hover a
+    color: $tabs-toggle-link-active-color
+
+.tabs.is-toggle li.is-active
+    background-color: $tabs-toggle-link-hover-background-color
+
+.tabs.is-toggle li.is-active a
+    border-radius: $tabs-toggle-link-radius
+
+.tabs.is-toggle li:first-child
+    border-radius: $tabs-toggle-link-radius 0 0 $tabs-toggle-link-radius
+
+.tabs.is-toggle li:last-child
+    border-radius: 0 $tabs-toggle-link-radius $tabs-toggle-link-radius 0

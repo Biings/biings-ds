@@ -65,6 +65,36 @@ Hanging Tabs have their active line placed above each item.
 
 <hr class="is-visible is-size-1">
 
+<h2 class="title is-3 is-family-sans-serif">Toggle Tabs</h2>
+
+Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle` with `is-fullwidth` classes.
+
+<br><br>
+
+<div class="box has-background-white-bis is-large is-marginless">
+    <div class="tabs is-toggle is-fullwidth">
+        <ul>
+            <li class="is-active"><a>Insured</a>
+            </li><li><a>Employer</a></li>
+            <li><a>Incapacity</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="tabs is-boxed is-marginless">
+        <ul class="is-borderless">
+            <li><a>Employer</a></li>
+            <li class="is-active"><a>Insured</a></li>
+            <li><a>Incapacity</a></li>
+            <li><a>Certificates</a></li>
+        </ul>
+    </div>
+    <div class="box is-white is-floating">
+        ...
+    </div>
+
+<hr class="is-visible is-size-1">
+
 <h2 class="title is-3 is-family-sans-serif">Boxed Tabs</h2>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
