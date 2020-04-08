@@ -8,7 +8,7 @@
 <h2 class="title is-3 is-family-sans-serif">Basic usage</h2>
 
 <div class="box has-background-white-bis is-large has-text-centered is-marginless">
-    <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
+    <div onclick="openModal('')" class="button is-beefy is-light">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal('')"></div>
@@ -95,7 +95,9 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <hr>
         </section>
         <footer class="modal-card-foot">
-            <div class="button is-text">Footer Action</div><div class="button is-text has-text-grey" onclick="closeModal(1)">Close</div>
+            <div class="button is-dark">Footer Action</div>
+            <div class="button is-static">or</div>
+            <div class="button" onclick="closeModal(1)">Close</div>
         </footer>
     </div>
 </div>
@@ -115,7 +117,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <li><a>Forty Six</a></li>
                 </ul>
             </div>
-            <form class="box">
+            <form class="box has-background-white-bis">
                 <div class="field">
                     <label for="fieldId" class="label">Field example 2</label>
                     <input id="fieldId" class="input" type="text" placeholder="Some input">
@@ -128,11 +130,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="message is-info is-size-7">
                 The Header and Footer can be removed for a slimer design.
             </div>
-            <br>
         </section>
-        <footer class="modal-card-foot has-text-right">
-            <div class="button">Cancel</div>
-            <div class="button is-primary is-shadowed">Primary Action</div>
+        <footer class="modal-card-foot">
+            <div class="button is-text">Save</div>
+            <div class="button is-text has-text-grey">Cancel</div>
         </footer>
     </div>
 </div>
@@ -176,10 +177,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                         <input id="fieldId2" class="input" type="text" placeholder="Some input">
                     </div>
                 </form>
-                <br>
             </section>
             <footer class="modal-card-foot">
-                <div class="button is-fullwidth">Primary Action</div>
+                <div class="button is-text">Primary Action</div>
+                <div class="button is-text">Cancel</div>
             </footer>
         </div>
     </div>

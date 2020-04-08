@@ -1,17 +1,17 @@
 a.dropdown-item:active:not(.is-active)
-    background-color: rgba(mix($primary-dark,$primary,25), 0.1)
+    background-color: rgba(mix($primary-dark,$primary,25), .1)
 
 .dropdown-divider
     height: $hr-height
 
 // Dropdown content appears over the button
-.dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
-    top: 0
-    padding-top: 0
+// .dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
+//     top: 0
+//     padding-top: 0
 
 .dropdown.is-fullwidth,
 .dropdown.is-fullwidth > .dropdown-trigger,
-.dropdown.is-fullwidth  > .dropdown-menu,
+.dropdown.is-fullwidth > .dropdown-menu,
 .dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
     min-width: 100%
 
@@ -21,31 +21,41 @@ a.dropdown-item:active:not(.is-active)
 .dropdown:not(.is-iconless) > .dropdown-trigger > .button
     padding-right: 2.625em
 .dropdown:not(.is-iconless) > .dropdown-trigger > .button.is-text
-    padding-left: .125em
     padding-right: 2.25em
+    padding-left: .125em
 
 
-.dropdown:not(.is-iconless):after
+.dropdown:not(.is-iconless):after,
+.select:not(.is-multiple):not(.is-loading):after
     position: absolute
     top: 45%
     right: 1em
-    margin-top: -.25em
-    width: .5em
+    margin-top: 0
+    width: .75em
     height: .5em
-    border-bottom: 1px solid $input-arrow
-    border-left: 1px solid $input-arrow
+    border: none
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSI4cHgiIHZpZXdCb3g9IjAgMCAxNCA4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIHN0cm9rZT0ibm9uZSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMS42MjI3MzM2NiwwLjM0OTQ4NDg5MiBMNyw1LjcyNjc1MTIzIEwxMi4zNzcyNjYzLDAuMzQ5NDg0ODkyIEMxMi43NDg0ODkxLC0wLjAyMTczNzg4MTcgMTMuMzUwMzYwMSwtMC4wMjE3Mzc4ODE3IDEzLjcyMTU4MjksMC4zNDk0ODQ4OTIgQzE0LjA5MjgwNTcsMC43MjA3MDc2NjcgMTQuMDkyODA1NywxLjMyMjU3ODcgMTMuNzIxNTgyOSwxLjY5MzgwMTQ4IEw3LjY3MjE1ODI5LDcuNzQzMjI2MSBDNy4zMDA5MzU1Miw4LjExNDQ0ODg4IDYuNjk5MDY0NDgsOC4xMTQ0NDg4OCA2LjMyNzg0MTcxLDcuNzQzMjI2MSBMMC4yNzg0MTcwODEsMS42OTM4MDE0OCBDLTAuMDkyODA1NjkzNSwxLjMyMjU3ODcgLTAuMDkyODA1NjkzNSwwLjcyMDcwNzY2NyAwLjI3ODQxNzA4MSwwLjM0OTQ4NDg5MiBDMC42NDk2Mzk4NTUsLTAuMDIxNzM3ODgxNyAxLjI1MTUxMDg5LC0wLjAyMTczNzg4MTcgMS42MjI3MzM2NiwwLjM0OTQ4NDg5MiBaIiBmaWxsPSIjMUEwRTIzIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD48L2c+PC9zdmc+')
+    background-size: 100%
+    background-repeat: no-repeat
     content: ''
-    transition: transform .2s ease
-    transform: rotate(-45deg)
+    transition: opacity .1s linear, transform .15s ease
+    transform: rotate(0)
     pointer-events: none
 
-.dropdown.is-active:not(.is-iconless):after
-    margin-top: 0
-    transform: rotate(135deg)
+.dropdown.is-size-7:after
+    margin-top: -1px
+    background-image: url('data:image/svg+xml;base64,DQo8c3ZnIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjEwcHgiIHZpZXdCb3g9IjAgMCAxNiAxMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBhdGggZD0iTTguMDcxMDY3ODEsNi4zMTM3MDg1IEwxMy4zNzQzNjg3LDEuMDEwNDA3NjQgQzEzLjk2MDE1NTEsMC40MjQ2MjEyMDIgMTQuOTA5OTAyNiwwLjQyNDYyMTIwMiAxNS40OTU2ODksMS4wMTA0MDc2NCBDMTYuMDgxNDc1NSwxLjU5NjE5NDA4IDE2LjA4MTQ3NTUsMi41NDU5NDE1NSAxNS40OTU2ODksMy4xMzE3Mjc5OCBMOS4xMzE3Mjc5OCw5LjQ5NTY4OTAxIEM4LjU0NTk0MTU1LDEwLjA4MTQ3NTUgNy41OTYxOTQwOCwxMC4wODE0NzU1IDcuMDEwNDA3NjQsOS40OTU2ODkwMSBMMC42NDY0NDY2MDksMy4xMzE3Mjc5OCBDMC4wNjA2NjAxNzE4LDIuNTQ1OTQxNTUgMC4wNjA2NjAxNzE4LDEuNTk2MTk0MDggMC42NDY0NDY2MDksMS4wMTA0MDc2NCBDMS4yMzIyMzMwNSwwLjQyNDYyMTIwMiAyLjE4MTk4MDUyLDAuNDI0NjIxMjAyIDIuNzY3NzY2OTUsMS4wMTA0MDc2NCBMOC4wNzEwNjc4MSw2LjMxMzcwODUgWiIgaWQ9IlBhdGgiIGZpbGw9IiMxQTBFMjMiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg==')
 
-.select:not(.is-multiple):not(.is-loading):after
-    border-width: 1px
-    border-radius: 0
+.dropdown:not(:hover):after,
+.select:not(:hover):after
+    opacity: .5
+
+.dropdown.is-active:not(.is-iconless):after
+    margin-top: -.125em
+    transform: rotate(180deg)
+
+.select:not(.is-danger,.is-warning,.is-info,.is-success) select:hover:not(:focus)
+    border-color: transparent
 
 .dropdown.is-active:not(.is-motionless) .dropdown-menu,
 .dropdown.is-hoverable:not(.is-motionless):hover .dropdown-menu
@@ -97,3 +107,4 @@ a.dropdown-item:active:not(.is-active)
 
 .dropdown.has-arrow > .dropdown-menu > div.has-background-info:before
     border-color: $info
+

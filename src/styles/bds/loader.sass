@@ -15,7 +15,7 @@
         border-radius: 50%
         content: ''
 .loader:not(.is-indeterminate)
-    animation: pulsate 1s ease-out infinite !important
+    animation: pulsate .9s ease-out infinite !important
 
 .loader.is-indeterminate
     animation: pulsate-ind 1s ease-in-out infinite alternate !important
@@ -54,5 +54,4 @@
 
 .loader.is-colorful
     &:after
-        border-color: $primary
-        box-shadow: 0 0 .125em rgba(140, 80, 185, 0.3), inset 0 0 .125em rgba(140, 80, 185, 0.3)
+        border-color: $primary-light

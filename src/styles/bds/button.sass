@@ -14,12 +14,12 @@
     border-radius: $radius
 
 .button.is-text
-    text-decoration: none
-    transition: color .1s linear    
-.button.is-text:hover
+    text-decoration: none 
+    transition: color .1s linear
+.button.is-text:hover:not(:active)
     color: $link-hover
-.button.is-text:active
-    color: $link-dark
+.button.is-text.has-text-grey:hover:not(:active)
+    color: lighten($grey,5) !important
 
 .button > .icon
     width: 1.125em
@@ -111,6 +111,9 @@ button.button:active
 
 .button.is-static + .button.is-text
     padding-left: 0
+
+.button.is-text + .button.is-text
+    margin-left: -1em
 
 .button.is-primary.is-light
     background-color: $primary-lighter
