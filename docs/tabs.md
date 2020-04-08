@@ -93,6 +93,34 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
         ...
     </div>
 
+<hr>
+<h3 class="title is-4">Make it move!</h3>
+
+Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<li></li>`.
+
+<br>
+
+<div class="box has-background-white-bis is-large is-marginless">
+    <div class="tabs is-toggle is-fullwidth has-hr">
+        <ul>
+            <li id="js-tab-1" class="is-active"><a onclick="toggleTab(1)">Option A</a></li>
+            <li id="js-tab-2" class=""><a onclick="toggleTab(2)">Option B</a></li>
+            <li id="js-tab-3" class=""><a onclick="toggleTab(3)">Option C</a></li>
+            <hr>
+        </ul>
+    </div>
+</div>
+
+    <div class="tabs is-toggle is-fullwidth has-hr">
+        <ul>
+            <li class="is-active"><a>Option A</a></li>
+            <li><a>Option B</a></li>
+            <li><a>Option C</a></li>
+            
+            <hr> <!-- Don't forget that <hr> -->
+        </ul>
+    </div>
+
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Boxed Tabs</h2>

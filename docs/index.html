@@ -65,6 +65,15 @@
       var modal = document.getElementById("js-modal"+num);
       modal.classList.remove("is-active");
     }
+
+    function toggleTab(num)
+    {
+      document.getElementById("js-tab-1").classList.remove("is-active");
+      document.getElementById("js-tab-2").classList.remove("is-active");
+      document.getElementById("js-tab-3").classList.remove("is-active");
+      var tab = document.getElementById("js-tab-"+num);
+      tab.classList.add("is-active");
+    }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>

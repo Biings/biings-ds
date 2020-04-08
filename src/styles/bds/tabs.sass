@@ -62,3 +62,46 @@
 
 .tabs.is-toggle li:last-child
     border-radius: 0 $tabs-toggle-link-radius $tabs-toggle-link-radius 0
+
+
+/* With movable white HR */
+// Support up to 3 tabs
+
+.tabs.is-toggle.has-hr > ul
+    position: relative
+    border-radius: 9px
+    background-color: var(--color-light)
+.tabs.is-toggle.has-hr > ul > hr
+    position: absolute
+    top: 0
+    z-index: 0
+    visibility: initial !important
+    margin: 0
+    height: 100%
+    border: 3px solid var(--color-light)
+    border-radius: 9px
+    background-color: white
+    transition: left .25s ease-in-out
+
+.tabs.is-toggle.has-hr a
+    z-index: 1
+    border-color: transparent !important
+    background-color: transparent !important
+.tabs.is-toggle.has-hr li.is-active
+    background-color: transparent
+
+.tabs.is-toggle.has-hr li.is-active:nth-child(1) ~ hr
+    left: 0
+.tabs.is-toggle.has-hr li.is-active:nth-child(2) ~ hr
+    left: 50%
+.tabs.is-toggle.has-hr li.is-active:nth-child(2) + li ~ hr
+    left: 33%
+.tabs.is-toggle.has-hr li.is-active:nth-child(3) ~ hr
+    left: 67%
+
+.tabs.is-toggle.has-hr li:nth-child(1) ~ hr
+    width: 100%
+.tabs.is-toggle.has-hr li:nth-child(2) ~ hr
+    width: 50%
+.tabs.is-toggle.has-hr li:nth-child(3) ~ hr
+    width: 33%

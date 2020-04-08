@@ -7,23 +7,19 @@
 <hr class="is-size-4">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-raised has-background-primary-dark hover-to-popping">
-            <div class="box">
-                    <img src="media/bds.png" width="58" class="no-zoom"/>
-                    <hr class="is-size-8">
-                    <div class="title is-4 has-text-white">Foundation</div>
-                    <p class="subtitle is-6 has-text-weight-medium has-text-primary-lighter">Colors, icons, rules, etc</p>
-            </div>
+        <a href="#/color" class="box is-medium is-raised hover-to-bordered has-background-white-bis">
+            <img src="media/bds.png" width="58" class="no-zoom"/>
+            <hr class="is-size-8">
+            <div class="title is-4">Foundation</div>
+            <p class="subtitle is-6 has-text-weight-medium has-text-grey">Colors, icons, rules, etc</p>
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-raised has-background-white-ter hover-to-popping">
-            <div class="box">
-                <img src="media/components.png" width="60" class="no-zoom"/>
-                <hr class="is-size-8">
-                <div class="title is-4">Components</div>
-                <p class="subtitle is-6 has-text-weight-medium has-text-grey">All you need to build your UIs</p>
-            </div>
+        <a href="#/avatar" class="box is-medium is-raised hover-to-bordered has-background-white-bis">
+            <img src="media/components.png" width="60" class="no-zoom"/>
+            <hr class="is-size-8">
+            <div class="title is-4">Components</div>
+            <p class="subtitle is-6 has-text-weight-medium has-text-grey">All you need to build your UIs</p>
         </a>
     </div>
 </div>
@@ -73,8 +69,8 @@
             <div class="title is-3">Want to<u> contribute?</u></div>
             <p class="subtitle is-5 has-text-grey-darker">Onboarding for designers and developers wanting to contribute.</p>
         </div>
-        <div class="column is-4 is-offset-1 has-text-centered is-size-7 has-text-grey-dark">
-            <a href="#/contribute" class="button is-rounded is-dark is-medium is-glowing is-beefy">Start contributing</a>
+        <div class="column is-4 is-offset-1 has-text-centered is-size-7 has-text-grey">
+            <a href="#/contribute" class="button is-rounded is-dark is-outlined">Start contributing</a>
             <hr class="is-thin is-wavy">
             <hr class="is-thin is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
