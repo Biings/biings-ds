@@ -40,6 +40,6 @@
 
 <hr>
 
-<a href="#/checkbox" class="box is-bordered">
+<a href="#/checkbox" class="box is-well has-text-grey">
     For multiple options use &nbsp;→&nbsp; <strong class="has-text-primary">Checkboxes</strong>
 </a>

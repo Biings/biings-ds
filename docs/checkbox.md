@@ -78,6 +78,6 @@ A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
     </label>
 <hr>
 
-<a href="#/radio" class="box is-bordered">
+<a href="#/radio" class="box is-well has-text-grey">
     For mutually exclusive options use &nbsp;→&nbsp; <strong class="has-text-primary">Radio buttons</strong>
 </a>

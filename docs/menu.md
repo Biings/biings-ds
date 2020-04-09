@@ -49,6 +49,6 @@
 
 <hr>
 
-<a href="https://bulma.io/documentation/components/menu/" target="blank" class="box is-bordered">
+<a href="https://bulma.io/documentation/components/menu/" target="blank" class="box is-well has-text-grey">
     Find more possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Menu</strong>
 </a>

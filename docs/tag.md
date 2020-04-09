@@ -49,6 +49,6 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <hr>
 
-<a href="http://bulma.io/documentation/elements/tag/" target="blank" class="box is-bordered">
+<a href="http://bulma.io/documentation/elements/tag/" target="blank" class="box is-well has-text-grey">
     More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Tags</strong></a>
 </a>

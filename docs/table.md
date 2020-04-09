@@ -74,6 +74,6 @@
 
 <hr>
 
-<a href="http://bulma.io/documentation/elements/table/" target="blank" class="box is-bordered">
+<a href="http://bulma.io/documentation/elements/table/" target="blank" class="box is-well has-text-grey">
     More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Table</strong>
 </a>

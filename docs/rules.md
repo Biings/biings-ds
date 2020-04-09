@@ -83,6 +83,6 @@
 
 <hr>
 
-<a href="https://biings.slack.com" target="blank" class="box is-bordered">
+<a href="https://biings.slack.com" target="blank" class="box is-well has-text-grey">
     **Feel something is missing?** 🤔 <br>Start a thread here &nbsp;→&nbsp; <strong class="has-text-primary">biings.slack.com</strong></a>
 </a>

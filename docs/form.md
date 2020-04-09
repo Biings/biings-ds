@@ -215,7 +215,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 <hr>
 <br>
 
-<div class="box is-bordered">
+<div class="box is-well has-text-grey">
     For stand-alone input field use &nbsp;→&nbsp; <a href="#/input"><strong>Input</strong></a>
     <br>
     For simple dropdown lists use &nbsp;→&nbsp; <a href="#/dropdown"><strong>Dropdown</strong></a>

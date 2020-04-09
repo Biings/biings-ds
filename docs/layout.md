@@ -29,7 +29,7 @@ Container is used to center your content horizontally. Alter the max width with 
 </table>
 
 <br>
-<a href="https://bulma.io/documentation/layout/container/" target="blank" class="box is-bordered">
+<a href="https://bulma.io/documentation/layout/container/" target="blank" class="box is-well has-text-grey">
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Container</strong>
 </a>
 
@@ -86,7 +86,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
         <div class="column">Fourth</div>
       </div>
 <br>
-<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-bordered">
+<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-well has-text-grey">
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
 </a>
   

@@ -73,6 +73,6 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 
 <hr>
 
-<a href="https://bulma.io/documentation/components/message/" target="blank" class="box is-bordered">
+<a href="https://bulma.io/documentation/components/message/" target="blank" class="box is-well has-text-grey">
     More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Message</strong>
 </a>
