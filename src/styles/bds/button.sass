@@ -16,6 +16,7 @@
 .button.is-text
     text-decoration: none 
     transition: color .1s linear
+    font-weight: 600
 .button.is-text:hover:not(:active)
     color: $link-hover
 .button.is-text.has-text-grey:hover:not(:active)
@@ -104,7 +105,9 @@ button.button:active
 .button.is-loading.is-light.is-danger:after
     border-color: $danger !important
 
+
 // Button chaining
+
 .button + .button.is-static
     padding-right: .5em
     padding-left: .625em
@@ -113,7 +116,7 @@ button.button:active
     padding-left: 0
 
 .button.is-text + .button.is-text
-    margin-left: -1em
+    margin-left: -.5em
 
 .button.is-primary.is-light
     background-color: $primary-lighter

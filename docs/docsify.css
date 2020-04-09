@@ -378,3 +378,14 @@ img.no-zoom
 {
     background: linear-gradient(30deg, var(--color-claim) -10%, var(--color-yellow-light) 130%);
 }
+
+progress.progress
+{
+    position: relative;
+}
+
+body > .progress
+{
+    height: 2px;
+    border-radius: 0;
+}

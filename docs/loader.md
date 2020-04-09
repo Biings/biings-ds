@@ -77,3 +77,22 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 <div class="box has-background-white-bis is-large is-relative">
     <div class="loader is-indeterminate is-size-3"></div>
 </div>
+
+<hr class="is-size-1 is-visible">
+
+<h2 class="title is-3 is-family-sans-serif">Progress Bar</h2>
+
+A native progress bar can replace a loader.
+
+<hr class="is-small">
+
+<div class="box has-background-white-bis is-large is-marginless">
+    <progress class="progress is-dark is-thin" max="100">25%</progress>
+    <progress class="progress is-success is-small" value="30" max="100">30%</progress>
+    <progress class="progress is-primary is-large" value="60" max="100">60%</progress>
+</div>
+
+    <progress class="progress is-dark is-thin" max="100">25%</progress>
+    <progress class="progress is-success is-small" value="30" max="100">30%</progress>
+    <progress class="progress is-primary is-large" value="60" max="100">60%</progress>
+<br>
