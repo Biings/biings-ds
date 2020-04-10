@@ -26,6 +26,9 @@ form .field
 .label
     font-size: $size-small
 
+.field.is-warning > .label
+    color: mix($claim-lighter,$text,25)
+
 .field > .label
     position: absolute
     top: .25em
@@ -133,7 +136,7 @@ form .field
 // Field with warning
 .field.is-warning > input,
 .field.is-warning > select
-    background-color: mix($white,$claim-lighter,45) !important
+    background-color: mix($white,$claim-lighter,40) !important
 
 /* Icon */
 .control.has-icons-left .icon,

@@ -20,7 +20,7 @@
     <input class="input is-large" type="email" placeholder="Large input (to use very occasionally)">
     <hr class="is-size-8">
     <label for="defaultfield" class="label">With a label</label>
-    <input id="defaultfield" class="input" type="email" placeholder="Placeholder is then used to give examples">
+    <input id="defaultfield" class="input" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
     <hr class="is-size-8">
     <div class="columns is-variable is-2">
         <div class="column is-10"><input class="input is-danger" placeholder="With class is-danger"></div>
