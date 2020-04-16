@@ -63,8 +63,8 @@ form .field
 .field.select > select:active,
 .field > label.checkbox,
 .field > label.radio
-    background-color: transparent !important
     border-color: rgba($black,.125)
+    background-color: transparent !important
 
 .field > input:hover:not(:focus),
 .field > textarea:hover:not(:focus),
@@ -135,15 +135,18 @@ form .field
 
 
 // Required field
-.field.is-required > .label:before
+.field.is-required:before
     position: absolute
-    top: .125rem
+    bottom: 1.25rem
     left: -.25em
-    margin-top: 2px
-    color: $warning
-    text-shadow: 0 0 4px var(--color-claim-lighter)
-    content: '•'
-    font-size: 4em
+    z-index: 10
+    width: 11px
+    height: 11px
+    border-radius: $radius-rounded
+    background-color: $warning
+    box-shadow: 0 0 0 0 rgba($warning,0)
+    content: ''
+    animation: blinking 2s linear infinite
     pointer-events: none
 
 // Field with warning
@@ -163,3 +166,11 @@ form .field
 
 .control.has-icons-right .icon
     margin-right: .25em
+
+@keyframes blinking
+    0%
+        box-shadow: 0 0 0 0 rgba($warning,0)
+    60%
+        box-shadow: 0 0 0 .25rem rgba($warning,.3)
+    100%
+        box-shadow: 0 0 0 .375rem rgba($warning,0);
