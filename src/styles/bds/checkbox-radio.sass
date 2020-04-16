@@ -101,9 +101,9 @@
     width: 2rem
     height: 1.25rem
     border-radius: 2rem !important
-    background: rgba($dark, .25)
+    background-color: rgba($dark, .25)
     box-shadow: none !important
-    transition: none
+    transition: background-color .2s linear
     transform: none
 
 .checkbox.is-toggle > .checkbox-mark:after
@@ -116,15 +116,16 @@
     border-radius: 100%
     background-color: $white-bis
     box-shadow: 0 0 3px rgba($dark, .15)
-    transition: left .2s cubic-bezier(.215, .61, .355, 1)
-    transform: none
+    transition: left .2s cubic-bezier(.215, .61, .355, 1), box-shadow .2s linear
+    transform: none !important
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark
-    background: linear-gradient(90deg, var(--color-primary) 40%, var(--color-purple) 130%)
+    background-color: $primary
 
 .checkbox.is-toggle > input:checked ~ .checkbox-mark:after
     left: 1rem
     background-color: white
+    box-shadow: -.25em 0 .625em $purple
 
 .checkbox.is-toggle.is-large .checkbox-mark
     width: 3rem

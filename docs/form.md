@@ -24,7 +24,7 @@
         <label for="infofield" class="label">The Occasional Blue Field</label>
         <input id="infofield" class="input" type="text" placeholder="Even the input text is blue.">
     </div>
-    <div class="field">
+    <div class="field is-warning">
         <label for="textfield" class="label">Textarea Field</label>
         <textarea id="textfield" rows="2" class="textarea" placeholder="For looong text inputs.."></textarea>
     </div>
@@ -104,7 +104,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 <h2 class="title is-3 is-family-sans-serif">Select field</h2>
 
 <form class="box has-background-white-bis is-large is-marginless">
-    <div class="field select is-required">
+    <div class="field select is-required is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
             <option value="1">Default</option>

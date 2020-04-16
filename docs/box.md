@@ -20,12 +20,12 @@
 
 You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
-<div class="box has-background-white-bis is-large">
+<div class="box has-background-primary is-large">
 
 <div class="box">
     <div class="subtitle has-text-grey-dark is-6"><strong>Box</strong> &nbsp; ( default )</div>
 </div>
-<div class="box is-well has-text-grey">
+<div class="box is-bordered has-text-grey">
     <div class="subtitle has-text-grey-dark is-6"><strong>Bordered</strong></div>
 </div>
 <div class="box is-well has-text-grey">

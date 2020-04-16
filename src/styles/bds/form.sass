@@ -26,9 +26,6 @@ form .field
 .label
     font-size: $size-small
 
-.field.is-warning > .label
-    color: mix($claim-lighter,$text,25)
-
 .field > .label
     position: absolute
     top: .25em
@@ -53,7 +50,7 @@ form .field
 
 .field > input,
 .field > textarea,
-.field > select,
+.field > select
     padding-top: 2.125em
     padding-bottom: .75em
     width: 100%
@@ -62,7 +59,8 @@ form .field
 .field > input,
 .field > textarea,
 .field > select,
-.field.is-warning > select,
+.field.select > select,
+.field.select > select:active,
 .field > label.checkbox,
 .field > label.radio
     background-color: transparent !important
@@ -70,8 +68,8 @@ form .field
 
 .field > input:hover:not(:focus),
 .field > textarea:hover:not(:focus),
-.field > select:hover:not(:focus),
-.field.is-warning > select:hover:not(:focus),
+.field > select:hover,
+.field.select > select:hover,
 .field > label.checkbox:hover:not(:active),
 .field > label.radio:hover:not(:active)
     border-color: rgba($black,.2)
@@ -113,28 +111,44 @@ form .field
     font-weight: 400
     font-style: italic
 
-.field.is-danger > .input
-    border-color: $danger !important
-.field.is-info > .input
-    border-color: $info !important
+.field.is-primary > .input,
+.field.is-primary > select
+    border-color: $primary !important
 
+.field.is-danger > .input,
+.field.is-danger > select
+    border-color: $danger !important
 .field.is-danger > .input
     color: $danger
+
+.field.is-info > .input,
+.field.is-info > select
+    border-color: $info !important
 .field.is-info > .input
     color: $info
+
+.field.is-success > .input,
+.field.is-success > select
+    border-color: $success !important
+.field.is-success > .input
+    color: $success
+
 
 // Required field
 .field.is-required > .label:before
     position: absolute
-    top: .375em
-    right: -2px
+    top: .125rem
+    left: -.25em
+    margin-top: 2px
     color: $warning
-    content: '*'
-    font-size: 1.5em
+    text-shadow: 0 0 4px var(--color-claim-lighter)
+    content: '•'
+    font-size: 4em
     pointer-events: none
 
 // Field with warning
 .field.is-warning > input,
+.field.is-warning > textarea,
 .field.is-warning > select
     background-color: mix($white,$claim-lighter,40) !important
 

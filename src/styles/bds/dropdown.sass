@@ -1,5 +1,5 @@
 a.dropdown-item:active:not(.is-active)
-    background-color: rgba(mix($primary-dark,$primary,25), .1)
+    background-color: $dropdown-item-active-background-color
 
 .dropdown-divider
     height: $hr-height
@@ -59,7 +59,7 @@ a.dropdown-item:active:not(.is-active)
 
 .dropdown.is-active:not(.is-motionless) .dropdown-menu,
 .dropdown.is-hoverable:not(.is-motionless):hover .dropdown-menu
-    animation: dropDown .4s 1
+    animation: dropDown .5s 1
     animation-timing-function: cubic-bezier(.19, 1, .22, 1)
     // animation-timing-function: cubic-bezier(.175, .885, .32, 1.275)
 
