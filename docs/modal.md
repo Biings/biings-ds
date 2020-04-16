@@ -19,7 +19,7 @@
             <p class="has-text-grey has-text-weight-semibold">Use the button on the top right corner to close.</p>
         </div>
     </div>
-    <button onclick="closeModal('')" class="modal-close is-large" aria-label="close"></button>
+    <button onclick="closeModal('')" class="modal-close" aria-label="close"></button>
 </div>
 
     <div class="modal">

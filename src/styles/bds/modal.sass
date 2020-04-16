@@ -1,5 +1,16 @@
+.modal
+    display: flex !important
+
+.modal:not(.is-active)
+    z-index: -100
+    transition: z-index 0
+    transition-delay: .3s
+
+.modal:not(.is-active) > .modal-close
+    display: none
+
 .modal-card
-    box-shadow: 0 1.5px 2.7px -20px $black, 0 5px 8.9px -20px rgba($black, .5), 0 8px 40px -10px rgba($black, .5)
+    box-shadow: 0 .125rem 3px -1.25rem $black, 0 .375rem .5rem -1.125rem rgba($black, .4), 0 1rem 2.5rem -.625rem rgba($black, .4)
 
 .modal-content,
 .modal-card,
@@ -7,17 +18,25 @@
     will-change: opacity
     will-change: transform
 
-.modal.is-active > .modal-content
-    animation: shrinkIn .5s 1
-    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
+.modal > .modal-content,
+.modal > .modal-card,
+.modal > .modal-background
+    opacity: 0
+    transition: opacity .5s, transform .5s
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1)
 
-.modal.is-active > .modal-card
-    animation: dropIn .6s 1
-    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
+.modal > .modal-content,
+.modal > .modal-card
+    transform: scale(.875)
 
+.modal.is-active > .modal-content,
+.modal.is-active > .modal-card,
 .modal.is-active > .modal-background
-    animation: fadeIn .5s 1
-    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
+    opacity: 1
+
+.modal.is-active > .modal-content,
+.modal.is-active > .modal-card
+    transform: scale(1)
 
 .modal.is-pinned > .modal-content,
 .modal.is-pinned > .modal-card
@@ -29,8 +48,8 @@
 
 // Remove scrollbars
 .modal-card-body
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none
+    scrollbar-width: none
 
 // .modal-card-body::-webkit-scrollbar
 //     display: none
@@ -48,8 +67,8 @@
 .modal-card-head > .delete,
 .modal-card-body > .delete
     position: absolute
-    top: 1.5rem
-    right: 1.5rem
+    top: 1.25rem
+    right: 1.25rem
 
 .modal-card-foot
     display: block
@@ -65,60 +84,76 @@
 .modal-card-foot.has-text-right .button:last-child
     margin-left: .5em
 
+
 .modal-close,
 .delete
-    border-radius: $radius-small
-    &:before
-        width: 60%
+    max-width: ($modal-close-dimensions*1.25)
+    max-height: ($modal-close-dimensions*1.25)
+
+.modal-close
+    width: ($modal-close-dimensions*1.25)
+    height: ($modal-close-dimensions*1.25)
+    border-radius: $radius-rounded
+    &:before,
     &:after
-        height: 60%
+        background-color: $dark
+
+.modal-close:hover
+    background-color: rgba($dark,.05)
+    &:before,
+    &:after
+        background-color: $text
 
 .delete
     margin-right: -.25rem
     min-width: 2rem
     min-height: 2rem
-    max-width: 2rem
-    max-height: 2rem
-    width: 2rem
-    height: 2rem
-    background-color: transparent !important
+    width: $modal-close-dimensions
+    height: $modal-close-dimensions
+    border-radius: $radius-small
+    background-color: transparent
     &:before,
     &:after
         background-color: $grey
 
-.modal-close:hover,
 .delete:hover
-    background-color: rgba($dark,.1) !important
-
-.delete:hover
+    background-color: rgba($dark,.05)
     &:before,
     &:after
-        background-color: $dark
+        background-color: $grey-dark
 
-@keyframes shrinkIn
-    0%
-        opacity: .1
-        transform: scale(1.125)
-    100%
-        opacity: 1
-        transform: scale(1)
+// @keyframes shrinkIn
+//     0%
+//         opacity: 0
+//         transform: scale(.875)
+//     100%
+//         opacity: 1
+//         transform: scale(1)
 
-@keyframes fadeIn
-    0%
-        opacity: 0
-    100%
-        opacity: 1
+// @keyframes shrinkOut
+//     0%
+//         opacity: 1
+//         transform: scale(1)
+//     100%
+//         opacity: 0
+//         transform: scale(.875)
 
-@keyframes fadeOut
-    0%
-        opacity: 1
-    100%
-        opacity: 0
+// @keyframes fadeIn
+//     0%
+//         opacity: 0
+//     100%
+//         opacity: 1
 
-@keyframes dropIn
-    from
-        opacity: 0
-        transform: translateY(-2.5em)
-    to
-        opacity: 1
-        transform: translateY(0);
+// @keyframes fadeOut
+//     0%
+//         opacity: 1
+//     100%
+//         opacity: 0
+
+// @keyframes dropIn
+//     from
+//         opacity: 0
+//         transform: translateY(-2.5em)
+//     to
+//         opacity: 1
+//         transform: translateY(0)

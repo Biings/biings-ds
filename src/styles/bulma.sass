@@ -296,7 +296,7 @@ $box-link-active-shadow: !default
 $menu-item-color: $dark !default
 $menu-item-radius: $radius !default
 $menu-item-hover-color: $dark !default
-$menu-item-hover-background-color: rgba(mix($primary-dark,$primary,35), 0.06) !default
+$menu-item-hover-background-color: rgba($primary-dark, 0.04) !default
 $menu-item-active-color: $white !default
 $menu-item-active-background-color: mix($primary,$primary-dark,10) !default
 $menu-list-border-left: 1px solid $border-light !default
@@ -315,13 +315,16 @@ $modal-card-body-padding: 0 2.25rem !default
 $modal-card-title-color: $dark !default
 $modal-card-title-line-height: 1 !default
 $modal-card-title-size: $size-6 !default
+$modal-close-dimensions: 2rem !default
+$modal-close-right: 1rem !default
+$modal-close-top: 1rem !default
 
 $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
 $dropdown-item-hover-background-color: $menu-item-hover-background-color !default
 $dropdown-content-radius: $radius !default
 $dropdown-item-active-color: $primary !default
-$dropdown-item-active-background-color: $dropdown-item-hover-background-color !default
+$dropdown-item-active-background-color: mix($primary,$dropdown-item-hover-background-color,3) !default
 $dropdown-divider-background-color: $hr-background-color !default
 
 // Form elements
