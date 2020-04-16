@@ -7,7 +7,7 @@
 <hr class="is-size-4">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-medium is-raised hover-to-bordered has-background-white-bis">
+        <a href="#/color" class="box is-medium has-background-light hover-to-popping">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-8">
             <div class="title is-4">Foundation</div>
@@ -15,7 +15,7 @@
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-medium is-raised hover-to-bordered has-background-white-bis">
+        <a href="#/avatar" class="box is-medium has-background-light hover-to-popping">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-8">
             <div class="title is-4">Components</div>
