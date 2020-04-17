@@ -7,6 +7,10 @@
 
 <h2 class="title is-3 is-family-sans-serif">Input field</h2>
 
+Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to change the status.
+
+<br>
+
 <form class="box has-background-white-bis is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
         <label for="email" class="label">Input field</label>
@@ -24,7 +28,7 @@
         <label for="infofield" class="label">The Occasional Blue Field</label>
         <input id="infofield" class="input" type="text" placeholder="Even the input text is blue.">
     </div>
-    <div class="field is-warning">
+    <div class="field">
         <label for="textfield" class="label">Textarea Field</label>
         <textarea id="textfield" rows="2" class="textarea" placeholder="For looong text inputs.."></textarea>
     </div>
@@ -52,11 +56,6 @@
             <textarea id="textfield" class="textarea" placeholder="..."></textarea>
         </div>
     </form>
-<br>
-
-?> Add `is-warning` or `is-danger` to the `.field` div to change the status.
-
-!> **Use `has-warning` modifier to invite the user to fill in a field**.
 
 <hr class="is-visible is-size-1">
 <h2 class="title is-3 is-family-sans-serif">Required or Optional</h2>

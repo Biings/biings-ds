@@ -75,14 +75,17 @@ form .field
     border-color: rgba($black,.2)
 
 .field > input,
+.field > input:focus,
 .field > input[readonly],
 .field > textarea,
+.field > textarea:focus,
 .field > textarea[readonly],
 .field > select,
+.field > select:focus,
 .field > select[readonly],
 .field > label.checkbox,
 .field > label.radio
-    box-shadow: 0 .25em .125em rgba($black,.025)
+    box-shadow: 0 .25em .125em rgba($dark,.03) !important
 
 .field.select
     width: 100%

@@ -108,3 +108,13 @@
     width: 50%
 .tabs.is-toggle.has-hr li:nth-child(3) ~ hr
     width: 33%
+
+// Rounded toggle
+.tabs.is-toggle.is-toggle-rounded  li:first-child
+    border-radius: $radius-rounded 0 0 $radius-rounded
+.tabs.is-toggle.is-toggle-rounded  li:last-child
+    border-radius: 0 $radius-rounded $radius-rounded 0
+
+.tabs.is-toggle.is-toggle-rounded.has-hr > ul,
+.tabs.is-toggle.is-toggle-rounded.has-hr > ul > hr
+    border-radius: $radius-rounded

@@ -74,6 +74,6 @@ You can add one or two icons inside the input.
 !> The icon tag should always be put right after the input tag.
 <hr>
 
-<a class="box is-bordered" href="https://bulma.io/documentation/form/input/" target="blank">
+<a class="box is-well has-text-grey" href="https://bulma.io/documentation/form/input/" target="blank">
     More options on &nbsp;→&nbsp; Bulma / <strong class="has-text-primary">Input</strong>
 </a>

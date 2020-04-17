@@ -72,7 +72,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 <br><br>
 
 <div class="box has-background-white-bis is-large is-marginless">
-    <div class="tabs is-toggle is-fullwidth">
+    <div class="tabs is-toggle is-fullwidth is-toggle-rounded">
         <ul>
             <li class="is-active"><a>Insured</a>
             </li><li><a>Employer</a></li>
@@ -109,6 +109,15 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
             <hr>
         </ul>
     </div>
+    <hr>
+    <div class="tabs is-toggle is-fullwidth has-hr is-small is-toggle-rounded">
+        <ul>
+            <li id="js-tab-4" class="is-active"><a onclick="toggleTab(4)">Option A</a></li>
+            <li id="js-tab-5" class=""><a onclick="toggleTab(5)">Option B</a></li>
+            <li id="js-tab-6" class=""><a onclick="toggleTab(6)">Option C</a></li>
+            <hr>
+        </ul>
+    </div>
 </div>
 
     <div class="tabs is-toggle is-fullwidth has-hr">
@@ -118,6 +127,15 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
             <li><a>Option C</a></li>
             
             <hr> <!-- Don't forget that <hr> -->
+        </ul>
+    </div>
+    
+    <div class="tabs is-toggle is-fullwidth has-hr is-small is-toggle-rounded">
+        <ul>
+            <li><a> A </a></li>
+            <li><a> B </a></li>
+            <li><a> C </a></li>
+            <hr>
         </ul>
     </div>
 
