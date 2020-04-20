@@ -85,54 +85,6 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
     </div>
 </div>
 
-    
-<hr class="is-visible is-size-1">
-
-<h2 class="title is-3 is-family-sans-serif">Custom icon</h2>
-
-Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not).
-
-<hr>
-
-<div class="box has-background-white-bis is-large is-marginless">
-
-    <div class="dropdown is-hoverable is-iconless has-arrow">
-        <div class="dropdown-trigger">
-            <div class="button is-light">
-                <span>With custom icon&nbsp;</span>
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-            </div>
-        </div>
-        <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content">
-                <div class="box has-text-grey has-text-centered">
-                    <div class="loader is-inline is-size-3"></div>
-                    <br>
-                    Loading state...
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-    <div class="dropdown is-hoverable is-iconless has-arrow">
-        <div class="dropdown-trigger">
-            <div class="button">
-                <span>With custom icon</span>
-                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-            </div>
-        </div>
-        <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content">
-                <div class="box has-text-grey has-text-centered">
-                    <div class="loader is-inline is-size-3"></div>
-                    <br>
-                    Loading state...
-                </div>
-            </div>
-        </div>
-    </div>
 <hr class="is-visible is-size-1">
 
 <h2 class="title is-3 is-family-sans-serif">Tooltips</h2>
@@ -162,8 +114,8 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                 <div class="dropdown-trigger has-text-centered">
                     <div class="button is-static is-paddingless is-fullwidth">Dropup!</div>
                 </div>
-                <div class="dropdown-menu" style="margin-left: -100%;">
-                    <div class="box is-white is-floating is-size-7">
+                <div class="dropdown-menu">
+                    <div class="box is-white has-background-black is-floating is-size-7 has-text-white">
                         This one has both class <code>is-up</code> and <code>is-centered</code>
                     </div>
                 </div>
@@ -174,7 +126,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                 <div class="dropdown-trigger">
                     <div class="button is-static is-paddingless is-fullwidth has-text-primary">Colored</div>
                 </div>
-                <div class="dropdown-menu" style="margin-left: -100%;">
+                <div class="dropdown-menu">
                     <div class="box is-white is-floating is-size-7 has-background-primary has-text-white">
                         This one contains a div with <strong>has-background-primary</strong>
                     </div>
@@ -189,6 +141,18 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="box is-floating is-size-7 has-background-info has-text-white has-text-right">
                         This <strong>is-right</strong>, <strong>is-up</strong> and contains a div with <strong>has-background-info</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="dropdown is-hoverable is-iconless has-arrow is-centered is-up">
+                <div class="dropdown-trigger">
+                    <svg class="icon has-fill-grey-light"><use xlink:href="media/bds-icons.min.svg#info-bold-g"></use></svg>
+                </div>
+                <div class="dropdown-menu is-size-8" id="dropdown-menu" role="menu">
+                    <div class="box is-small is-raised has-background-blck has-text-whie has-text-centered">
+                        Tooltip 😇
                     </div>
                 </div>
             </div>
@@ -256,6 +220,53 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
+            </div>
+        </div>
+    </div>
+<hr class="is-visible is-size-1">
+
+<h2 class="title is-3 is-family-sans-serif">Custom icon</h2>
+
+Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not).
+
+<hr>
+
+<div class="box has-background-white-bis is-large is-marginless">
+
+    <div class="dropdown is-hoverable is-iconless has-arrow">
+        <div class="dropdown-trigger">
+            <div class="button is-light">
+                <span>With custom icon&nbsp;</span>
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+            </div>
+        </div>
+        <div class="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+                <div class="box has-text-grey has-text-centered">
+                    <div class="loader is-inline is-size-3"></div>
+                    <br>
+                    Loading state...
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <div class="dropdown is-hoverable is-iconless has-arrow">
+        <div class="dropdown-trigger">
+            <div class="button">
+                <span>With custom icon</span>
+                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+            </div>
+        </div>
+        <div class="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+                <div class="box has-text-grey has-text-centered">
+                    <div class="loader is-inline is-size-3"></div>
+                    <br>
+                    Loading state...
+                </div>
             </div>
         </div>
     </div>

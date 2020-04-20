@@ -7,19 +7,19 @@
 <hr class="is-size-4">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-medium has-background-light hover-to-popping">
+        <a href="#/color" class="box is-medium has-background-primary-dark hover-to-popping">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-8">
-            <div class="title is-4">Foundation</div>
-            <p class="subtitle is-6 has-text-weight-medium has-text-grey">Colors, icons, rules, etc</p>
+            <div class="title has-text-white">Foundation</div>
+            <p class="subtitle is-6 has-text-primary-lighter">Colors, icons, rules, etc</p>
         </a>
     </div>
     <div class="column is-half">
         <a href="#/avatar" class="box is-medium has-background-light hover-to-popping">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-8">
-            <div class="title is-4">Components</div>
-            <p class="subtitle is-6 has-text-weight-medium has-text-grey">All you need to build your UIs</p>
+            <div class="title has-text-primary-dark">Components</div>
+            <p class="subtitle is-6 has-text-dark">All you need to build your UIs</p>
         </a>
     </div>
 </div>

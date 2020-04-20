@@ -15,6 +15,9 @@ a.dropdown-item:active:not(.is-active)
 .dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
     min-width: 100%
 
+.dropdown > .dropdown-menu.is-size-8
+    min-width: 8em
+
 .dropdown-trigger > .field > input
     cursor: pointer
 
@@ -71,6 +74,8 @@ a.dropdown-item:active:not(.is-active)
         opacity: 1
         transform: scale(1)
 
+.dropdown.has-arrow > .dropdown-menu > div
+    position: relative
 .dropdown.has-arrow > .dropdown-menu > div:before
     position: absolute
     width: 0
@@ -82,22 +87,22 @@ a.dropdown-item:active:not(.is-active)
     content: ''
 
 .dropdown:not(.is-up) > .dropdown-menu > div:before
-    top: -.25em
+    top: -.5em
     border-bottom: .625em solid $white
 
 .dropdown.is-up.has-arrow > .dropdown-menu > div:before
-    bottom: -.25em
+    bottom: -.5em
     border-top: .625em solid $white
 
 .dropdown.has-arrow:not(.is-right) > .dropdown-menu > div:before
-    left: 1.5em
+    left: 1em
 
 .dropdown.has-arrow.is-centered > .dropdown-menu > div:before
     left: 50%
     margin-left: -.5em
 
 .dropdown.has-arrow.is-right > .dropdown-menu > div:before
-    right: 1.5em
+    right: 1em
 
 .dropdown.has-arrow > .dropdown-menu > div.has-background-dark:before
     border-color: $dark
@@ -107,4 +112,23 @@ a.dropdown-item:active:not(.is-active)
 
 .dropdown.has-arrow > .dropdown-menu > div.has-background-info:before
     border-color: $info
+
+.dropdown.has-arrow > .dropdown-menu > div.has-background-black:before
+    border-color: rgba($black,.92)
+.dropdown.has-arrow > .dropdown-menu > div.has-background-black
+    background-color: rgba($black,.92) !important
+
+.dropdown.has-arrow.is-hoverable.is-right > .dropdown-menu > div,
+.dropdown.has-arrow.is-hoverable.is-left > .dropdown-menu > div,
+.dropdown.has-arrow.is-hoverable.is-centered > .dropdown-menu > div,
+.dropdown.has-arrow.is-hoverable.is-up > .dropdown-menu > div
+    max-width: 18rem
+
+.dropdown.has-arrow.is-hoverable.is-centered > .dropdown-menu
+    right: 50%
+    left: 50%
+    transform-origin: 0
+
+.dropdown.has-arrow.is-hoverable.is-centered > .dropdown-menu > div
+    transform: translate(-51%)
 
