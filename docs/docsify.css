@@ -92,12 +92,12 @@ div.content
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;
-    border-color: #ffba41;
-    background-color: rgba(255, 186, 65,.15);
+    border-color: #fbc254;
+    background-color: rgba(251, 194, 84,.15);
 }
 .markdown-section p.tip::before
 {
-    background-color: #ffba41;
+    background-color: #fbc254;
     font-weight: 700;
     font-family: Averta,Helvetica Neue,Arial,sans-serif;
 }

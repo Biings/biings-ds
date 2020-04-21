@@ -5,10 +5,8 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-marginless">
-    <div class="box">
-        <div class="box is-floating">Boxed content about an entity or subject.</div>
-    </div>
+<div class="box has-background-white-bis is-marginless is-large">
+    <div class="box is-floating is-large">Boxed content about an entity or subject.</div>
 </div>
 
     <div class="box is-floating">
@@ -25,22 +23,28 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 <div class="box">
     <div class="subtitle has-text-grey-dark is-6"><strong>Box</strong> &nbsp; ( default )</div>
 </div>
-<div class="box is-bordered has-text-grey">
+<br>
+<div class="box is-bordered has-text-grey is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Bordered</strong></div>
 </div>
-<div class="box is-well has-text-grey">
+<br>
+<div class="box is-well has-text-grey is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Well</strong></div>
 </div>
-<div class="box is-white">
+<br>
+<div class="box is-white is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>White</strong></div>
 </div>
-<div class="box is-raised">
+<br>
+<div class="box is-raised is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Raised</strong></div>
 </div>
-<div class="box is-floating">
+<br>
+<div class="box is-floating is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Floating</strong></div>
 </div>
-<div class="box is-popping">
+<br>
+<div class="box is-popping is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Popping</strong></div>
 </div>
 </div>
