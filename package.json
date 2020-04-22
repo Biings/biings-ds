@@ -1,6 +1,6 @@
 {
     "name": "biings-ds",
-    "version": "1.40.12",
+    "version": "1.40.13",
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
