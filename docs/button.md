@@ -5,17 +5,14 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h2 class="title is-3 is-family-sans-serif">Defaults</h2>
+<h2 class="title is-3 is-family-sans-serif">Button defaults</h2>
+
+<br>
 
 <table class="table is-fullwidth is-bordered">
-    <thead>
-        <tr>
-            <th colspan="3">Buttons – <code>div</code> or <code>button</code></th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button">Button</div><br><br></td>
+            <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><div class="button">Button</div><br><br></td>
             <td class="has-text-centered"><hr><code>button</code></td>
             <td><hr>For standard controls, like Dropdowns.</td>
         </tr>
@@ -67,14 +64,15 @@
     </tbody>
 </table>
 
+<hr class="is-size-1 is-visible">
+
+<h2 class="title is-3 is-family-sans-serif">Link</h2>
+
+Use a Link instead of a button when navigating or when the action is not primary.
+
 <br>
 
 <table class="table is-bordered">
-    <thead>
-        <tr>
-            <th colspan="2" >Links (<code>a</code>)</th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td class="has-text-centered"><a>Regular</a></td>
@@ -99,7 +97,6 @@
     </tbody>
 </table>
 
-?> Use a Link instead of a button when navigating or when the action is not primary.
 
 <hr class="is-size-1 is-visible">
 
