@@ -176,10 +176,12 @@ a.is-ghost,
     color: inherit
 
 a.is-ghost:hover:not(.is-underlined),
+a:hover > .is-link.is-ghost:not(.is-underlined),
 .is-link.is-ghost:hover:not(.is-underlined)
     color: $primary
 
 a.is-underlined.is-regular:hover,
+a:hover > .is-link.is-underlined.is-regular,
 .is-link.is-underlined.is-regular:hover
     color: $primary
 
@@ -200,7 +202,7 @@ a.is-underlined:before,
     background-color: currentColor
     content: ''
     opacity: .75
-    transition: height .1s ease
+    transition: height .25s cubic-bezier(.22, 1, .36, 1)
 
 a.is-underlined.is-ghost:before,
 .is-link.is-underlined.is-ghost:before
@@ -208,10 +210,12 @@ a.is-underlined.is-ghost:before,
     background-color: transparent
 
 a.is-underlined:hover:before,
+a:hover > .is-link.is-underlined:before,
 .is-link.is-underlined:hover:before,
 a.is-underlined.is-ghost:hover:before,
+a:hover > .is-link.is-underlined.is-ghost:before,
 .is-link.is-underlined.is-ghost:hover:before
     height: .1875em
     background: linear-gradient(to right, $primary 10%, $purple 110%)
     background-color: $primary
-    opacity: .85
+    opacity: .95

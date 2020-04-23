@@ -20,15 +20,15 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
     <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#D1B9E3</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#008A83</span></div>
-    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#00B8AE</span></div>
-    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#4DCDC6</span></div>
-    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#99E3DF</span></div>
+    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#3C8B69</span></div>
+    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#50B98C</span></div>
+    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#85CEAF</span></div>
+    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#E5F5EE</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#CC8B2A</span></div>
-    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#FFAE35</span></div>
-    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FFC672</span></div>
-    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FFDFAE</span></div>
+    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#B16E34</span></div>
+    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#DD8941</span></div>
+    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#E7AC7A</span></div>
+    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FAEDE3</span></div>
 </div>
 
 <hr class="is-visible is-size-1">
@@ -165,5 +165,5 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
     <p class="title is-4 has-text-primary-dark">Slack Theme</p>
     <p class="subtitle is-5">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #2D2236,#2D2236,#8246AF,#FFFFFF,#46285D,#EFECF2,#4DCDC6,#FFA335
+    #241A2E,#2D2236,#8246AF,#FFFFFF,#2D2236,#EFECF2,#50B98C,#AA50B5,#241A2E,#EFECF2
 </div>

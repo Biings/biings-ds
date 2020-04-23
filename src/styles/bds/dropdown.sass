@@ -4,10 +4,8 @@ a.dropdown-item:active:not(.is-active)
 .dropdown-divider
     height: $hr-height
 
-// Dropdown content appears over the button
-// .dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
-//     top: 0
-//     padding-top: 0
+.dropdown > .dropdown-menu.is-size-8
+    min-width: 8em
 
 .dropdown.is-fullwidth,
 .dropdown.is-fullwidth > .dropdown-trigger,
@@ -15,8 +13,24 @@ a.dropdown-item:active:not(.is-active)
 .dropdown:not(.is-hoverable):not(.has-arrow) > .dropdown-menu
     min-width: 100%
 
-.dropdown > .dropdown-menu.is-size-8
-    min-width: 8em
+.dropdown > .dropdown-menu
+    z-index: -1
+    display: block
+    opacity: 0
+    transition: z-index 1s, opacity .75s, transform .75s
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1)
+    transform: translateY(-1em)
+    pointer-events: none
+
+.dropdown.is-up > .dropdown-menu
+    transform: translateY(1em)
+
+.dropdown.is-active .dropdown-menu,
+.dropdown.is-hoverable:hover .dropdown-menu
+    z-index: 20
+    opacity: 1
+    transform: translateY(0em)
+    pointer-events: auto
 
 .dropdown-trigger > .field > input
     cursor: pointer
@@ -26,7 +40,6 @@ a.dropdown-item:active:not(.is-active)
 .dropdown:not(.is-iconless) > .dropdown-trigger > .button.is-text
     padding-right: 2.25em
     padding-left: .125em
-
 
 .dropdown:not(.is-iconless):after,
 .select:not(.is-multiple):not(.is-loading):after
@@ -59,20 +72,6 @@ a.dropdown-item:active:not(.is-active)
 
 .select:not(.field,.is-danger,.is-warning,.is-info,.is-success) select:hover:not(:focus)
     border-color: transparent
-
-.dropdown.is-active:not(.is-motionless) .dropdown-menu,
-.dropdown.is-hoverable:not(.is-motionless):hover .dropdown-menu
-    animation: dropDown .5s 1
-    animation-timing-function: cubic-bezier(.19, 1, .22, 1)
-    // animation-timing-function: cubic-bezier(.175, .885, .32, 1.275)
-
-@keyframes dropDown
-    from
-        opacity: 0
-        transform: scale(.9)
-    to
-        opacity: 1
-        transform: scale(1)
 
 .dropdown.has-arrow > .dropdown-menu > div
     position: relative
@@ -131,4 +130,3 @@ a.dropdown-item:active:not(.is-active)
 
 .dropdown.has-arrow.is-hoverable.is-centered > .dropdown-menu > div
     transform: translate(-51%)
-

@@ -127,7 +127,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 <h2 class="title is-3 is-family-sans-serif">Dropdown Field</h2>
 
 <form class="box has-background-white-bis is-large is-marginless">
-    <div class="dropdown is-hoverable is-fullwidth is-size-4">
+    <div class="dropdown is-hoverable is-fullwidth is-size-5">
         <div class="dropdown-trigger">
             <div class="field">
                 <label for="dropFieldIn" class="label">Read-only Input</label>

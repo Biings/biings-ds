@@ -83,15 +83,15 @@ Use a Link instead of a button when navigating or when the action is not primary
             <td><code>is-ghost</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-underlined is-size-4">Underlined</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-underlined is-size-3">Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-regular is-underlined is-size-5">Regular Underlined</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-regular is-underlined">Regular Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code> <code>is-regular</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-ghost is-underlined is-size-5">Underlined Ghost</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-ghost is-underlined">Underlined Ghost</a></td class="has-text-centered">
             <td><code>is-ghost</code> <code>is-underlined</code></td>
         </tr>
     </tbody>
