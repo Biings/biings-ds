@@ -58,6 +58,7 @@
 .button:hover > .icon.is-dark
     fill: $dark
 
+// Rounded background transition effect
 .button.is-borderless.is-rounded.is-square
     position: relative
     background-color: transparent
@@ -70,10 +71,11 @@
     border-radius: 200px
     box-shadow: 0 0 0 0 transparent
     content: ''
-    transition: box-shadow .25s ease-out
+    transition: box-shadow .2s ease-in
 .button.is-borderless.is-rounded.is-square:hover:before
     background-color: $menu-item-hover-background-color
     box-shadow: 0 0 0 1.125em $menu-item-hover-background-color
+    transition: box-shadow .2s ease-out
 .button.is-borderless.is-rounded.is-square:active:before
     box-shadow: 0 0 0 1.125em rgba($black,.15)
 
@@ -239,4 +241,3 @@ a:hover > .is-link.is-underlined.is-ghost:before,
     background: linear-gradient(to right, $primary 10%, $purple 110%)
     background-color: $primary
     opacity: .95
-
