@@ -5,7 +5,7 @@
     transition: background-color .15s linear, box-shadow .2s linear
 
 .button:hover
-    background-color: rgba($black,.05)
+    background-color: $menu-item-hover-background-color
 
 .button.is-small
     height: 2.1875em
@@ -57,6 +57,25 @@
     fill: $success
 .button:hover > .icon.is-dark
     fill: $dark
+
+.button.is-borderless.is-rounded.is-square
+    position: relative
+    background-color: transparent
+.button.is-borderless.is-rounded.is-square:before
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 1px
+    height: 1px
+    border-radius: 200px
+    box-shadow: 0 0 0 0 transparent
+    content: ''
+    transition: box-shadow .25s ease-out
+.button.is-borderless.is-rounded.is-square:hover:before
+    background-color: $menu-item-hover-background-color
+    box-shadow: 0 0 0 1.125em $menu-item-hover-background-color
+.button.is-borderless.is-rounded.is-square:active:before
+    box-shadow: 0 0 0 1.125em rgba($black,.15)
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
@@ -196,13 +215,14 @@ a.is-underlined:before,
     right: 0
     left: 0
     margin-top: -.1875em
+    max-height: .375rem
     height: 2px
     border-radius: 1px
     background-color: $text
     background-color: currentColor
     content: ''
     opacity: .75
-    transition: height .25s cubic-bezier(.22, 1, .36, 1)
+    transition: height .15s ease
 
 a.is-underlined.is-ghost:before,
 .is-link.is-underlined.is-ghost:before
@@ -219,3 +239,4 @@ a:hover > .is-link.is-underlined.is-ghost:before,
     background: linear-gradient(to right, $primary 10%, $purple 110%)
     background-color: $primary
     opacity: .95
+

@@ -75,24 +75,24 @@ Use a Link instead of a button when navigating or when the action is not primary
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><a>Regular</a></td>
-            <td>Just with <code>a</code></td>
+            <td class="has-text-centered is-size-5"><a>Regular</a></td>
+            <td><code>&lt;a></code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-ghost">Ghost</a></td class="has-text-centered">
+            <td class="has-text-centered is-size-5"><a class="is-ghost">Ghost</a></td class="has-text-centered">
             <td><code>is-ghost</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-underlined is-size-3">Underlined</a></td class="has-text-centered">
+            <td class="has-text-centered is-size-5"><a class="is-underlined">Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-regular is-underlined">Regular Underlined</a></td class="has-text-centered">
-            <td><code>is-underlined</code> <code>is-regular</code></td>
+            <td class="has-text-centered is-size-5"><a class="is-regular is-underlined">Regular Underlined</a></td class="has-text-centered">
+            <td><code>is-underlined</code> + <code>is-regular</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><a class="is-ghost is-underlined">Underlined Ghost</a></td class="has-text-centered">
-            <td><code>is-ghost</code> <code>is-underlined</code></td>
+            <td class="has-text-centered is-size-5"><a class="is-ghost is-underlined">Underlined Ghost</a></td class="has-text-centered">
+            <td><code>is-ghost</code> + <code>is-underlined</code></td>
         </tr>
     </tbody>
 </table>
@@ -184,6 +184,10 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     <div class="button is-success is-square is-shadowed is-rounded">
         <svg class="icon"><use xlink:href="media/bds-icons.min.svg#send-g"></use></svg>
     </div>
+    &nbsp;
+    <div class="button is-borderless is-square is-rounded">
+        <svg class="icon is-size-5"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
+    </div>
 </div>
 
     <div class="button">
@@ -199,6 +203,9 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     <div class="button is-info is-beefy">
         <svg class="icon has-text-fill-white"><use xlink:href="bds.min.svg#icon_name"></use></svg>
         <span>Download</span>
+    </div>
+    <div class="button is-borderless is-square is-rounded">
+        ···
     </div>
 <hr class="is-size-1 is-visible">
 
