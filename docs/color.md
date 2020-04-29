@@ -160,10 +160,12 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
     }
 <hr class="is-size-1 is-visible">
 
-<div class="box is-large is-raised is-floating hover-to-popping">
-    <div class="subtitle is-3"><span class="tag is-small is-primary is-uppercase has-text-weight-semibold">Bonus</span></div>
-    <p class="title is-4 has-text-primary-dark">Slack Theme</p>
-    <p class="subtitle is-5">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
+<div class="box is-large has-background-white-bis is-size-5">
+    <span class="tag is-primary is-glowing">Bonus</span>
+    <hr class="is-thin">
+    <hr class="is-thin">
+    <p class="title is-4 has-text-primary-dark has-text-weight-bolder">Slack Theme</p>
+    <p class="subtitle is-6">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
     #241A2E,#2D2236,#8246AF,#FFFFFF,#2D2236,#EFECF2,#50B98C,#AA50B5,#241A2E,#EFECF2
 </div>

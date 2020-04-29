@@ -67,7 +67,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
 
 <div class="box has-background-white-bis is-marginless">
     <div class="box">
-        <div class="box is-raised hover-to-popping">Box with depth transition effect ( hover me )</div>
+        <div class="box is-floating hover-to-popping">Box with depth transition effect ( hover me )</div>
     </div>
 </div>
 
@@ -107,7 +107,7 @@ Add class `is-expandable` to boxes that can expand inline.<br>Then add the class
 
 <div class="box has-background-white-bis is-marginless ">
     <div class="box">
-        <div id="ebox" class="box is-large is-white hover-to-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
+        <div id="ebox" class="box is-large is-raised hover-to-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
             <span class="title is-4 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
             <div class="expanded-content">
                 <hr class="is-small">

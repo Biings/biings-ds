@@ -42,13 +42,13 @@
 
 .box.is-well,
 .box.hover-to-well:hover
-    background-color: rgba(mix($dark,$primary,40), 0.05)
+    background-color: rgba(mix($dark,$primary,40), .05)
     transition-duration: .3s
 
 .box.is-raised,
 .box.hover-to-raised:hover
-    box-shadow: 0 0.2px 4px -2px rgba($dark, 0.1),0 0.5px 5.1px -2px rgba($dark, 0.065),0 1.4px 5.9px -2px rgba($dark, 0.05),0 4px 8px -2px rgba($dark, 0.035)
     background-color: white
+    box-shadow: 0 .2px 4px -2px rgba($dark, .1),0 .5px 5.1px -2px rgba($dark, .065),0 1.4px 5.9px -2px rgba($dark, .05),0 4px 8px -2px rgba($dark, .035)
 
 .box.has-background-primary-dark.is-raised,
 .box.has-background-dark.is-raised,
@@ -60,14 +60,13 @@
 .box.is-floating,
 .box.hover-to-floating:hover
     background-color: white
-    // box-shadow: 0 1px 2px -10px rgba($dark, .075), 0 2px 6.7px -10px rgba($dark, .09), 0 6px 30px -10px rgba($dark, .19)
-    box-shadow: 0px 1.5rem 3.75rem rgba($primary, 0.06), 0px .25rem .5rem rgba($black, 0.075)
+    box-shadow: 0 .0625rem .125rem -1rem rgba($primary, .04), 0 1.5rem 3.75rem rgba($primary, .06), 0 .25rem .5rem rgba($black, .075)
     transition-duration: .3s
 
 .box.is-popping,
 .box.hover-to-popping:hover
     background-color: white
-    box-shadow: 0 1.5px 2.7px -20px rgba($primary-dark, .9), 0 5px 8.9px -20px rgba($primary-dark, .12), 0 20px 40px -20px rgba($dark, .25)
+    box-shadow: 0 .125rem .1875rem -1.125rem rgba($primary-dark, .9), 0 .25rem .625rem -1.25rem rgba($primary-dark, .12), 0 1.25rem 2.5rem -1.25rem rgba($dark, .25)
     transition-duration: .4s
 
 .box.is-expandable
@@ -79,4 +78,4 @@
 
 .box.is-expandable.is-expanded
     margin-right: -.5rem
-    margin-left: -.5rem;
+    margin-left: -.5rem

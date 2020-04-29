@@ -66,18 +66,21 @@
     position: absolute
     top: 50%
     left: 50%
-    width: 1px
-    height: 1px
-    border-radius: 200px
-    box-shadow: 0 0 0 0 transparent
+    margin-top: -1.125em
+    margin-left: -1.125em
+    width: 2.25em
+    height: 2.25em
+    border-radius: $radius-rounded
+    background-color: transparent
     content: ''
-    transition: box-shadow .2s ease-in
+    transition: transform .2s ease-in, background-color .2s ease-in
+    transform: scale(0)
 .button.is-borderless.is-rounded.is-square:hover:before
     background-color: $menu-item-hover-background-color
-    box-shadow: 0 0 0 1.125em $menu-item-hover-background-color
-    transition: box-shadow .2s ease-out
+    transition: transform .2s ease-out, background-color .2s ease-out
+    transform: scale(1)
 .button.is-borderless.is-rounded.is-square:active:before
-    box-shadow: 0 0 0 1.125em rgba($black,.15)
+    background-color: rgba($black,.125)
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
