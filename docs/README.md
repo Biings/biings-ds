@@ -57,21 +57,20 @@
 
 <div class="subtitle"><strong>2 )</strong> The two files below are enough to start using BDS (fonts must be added seperately).</div>
 
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-raised hover-to-floating has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-raised hover-to-floating has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-well hover-to-bordered has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-well hover-to-bordered has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
 
 <hr class="is-size-3">
 
-<div class="box is-large has-background-white-bis">
-    <div class="columns is-marginless">
-        <div class="column is-7">
+<div class="box is-large has-background-light">
+    <div class="columns is-marginless is-vcentered">
+        <div class="column is-6">
             <div class="title is-3">Want to<u> contribute?</u></div>
             <p class="subtitle is-5 has-text-grey-darker">Onboarding for designers and developers wanting to contribute.</p>
         </div>
-        <div class="column is-4 is-offset-1 has-text-centered is-size-7 has-text-grey">
-            <a href="#/contribute" class="button is-rounded is-dark is-outlined">Start contributing</a>
-            <hr class="is-thin is-wavy">
+        <div class="column is-5 is-offset-1 has-text-centered is-size-7 has-text-grey">
+            <a href="#/contribute" class="button is-rounded is-primary is-outlined">Start contributing</a>
             <hr class="is-thin is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>

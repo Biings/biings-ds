@@ -27,7 +27,7 @@
 - [Menu](menu)
 - [Message](message)
 - [Modal](modal)
-- [Radio button](radio)
+- [Radio](radio)
 - [Skeleton](skeleton)
 - [Table](table)
 - [Tabs](tabs)
