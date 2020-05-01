@@ -41,7 +41,7 @@
 .modal.is-pinned > .modal-content,
 .modal.is-pinned > .modal-card
     position: absolute
-    top: 8%
+    top: 4%
 
 .modal-card-title
     font-weight: $weight-semibold
@@ -55,12 +55,10 @@
 //     display: none
 
 .modal-card-body:first-child
-    padding-top: 1.925rem
     border-top-left-radius: $modal-card-head-radius
     border-top-right-radius: $modal-card-head-radius
 
 .modal-card-body:last-child
-    padding-bottom: 1.925rem
     border-bottom-right-radius: $modal-card-head-radius
     border-bottom-left-radius: $modal-card-head-radius
 
@@ -76,6 +74,10 @@
 .modal-card-foot .button:not(:last-child)
     margin-right: 0
 
+.modal-card-foot .button
+    margin-top: -.25em
+.modal-card-foot .button.is-text
+    margin-top: -.375em
 .modal-card-foot .button.is-text:first-child
     margin-left: -.75em
 .modal-card-foot .button.is-text:last-child
@@ -121,39 +123,3 @@
     &:before,
     &:after
         background-color: $grey-dark
-
-// @keyframes shrinkIn
-//     0%
-//         opacity: 0
-//         transform: scale(.925)
-//     100%
-//         opacity: 1
-//         transform: scale(1)
-
-// @keyframes shrinkOut
-//     0%
-//         opacity: 1
-//         transform: scale(1)
-//     100%
-//         opacity: 0
-//         transform: scale(.925)
-
-// @keyframes fadeIn
-//     0%
-//         opacity: 0
-//     100%
-//         opacity: 1
-
-// @keyframes fadeOut
-//     0%
-//         opacity: 1
-//     100%
-//         opacity: 0
-
-// @keyframes dropIn
-//     from
-//         opacity: 0
-//         transform: translateY(-2.5em)
-//     to
-//         opacity: 1
-//         transform: translateY(0)
