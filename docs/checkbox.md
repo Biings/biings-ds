@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Checkbox</h1>
+<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Checkbox</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-5 is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Checkboxes</span> are used when there is a list of options and the user may select multiple options, including all or none.
 </p>
 <hr class="is-visible is-size-3"><br>

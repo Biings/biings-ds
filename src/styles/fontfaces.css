@@ -122,83 +122,84 @@
     url('fonts/Averta-BlackItalic.eot') format('eot');
 }
 
+/* ———————————————————————————————————————————————————————————————————————————————————— */
 
-/* Merriweather Regular */
+/* Crimson-Pro Regular */
 @font-face
 {
     font-weight: 400;
     font-style: normal;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-300.woff') format('woff'),
-    url('fonts/Merriweather-300.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-400.woff') format('woff'),
+    url('fonts/Crimson-Pro-400.eot') format('eot');
 }
 
-/* Merriweather Regular Italic */
+/* Crimson-Pro Regular Italic */
 @font-face
 {
     font-weight: 400;
     font-style: italic;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-300italic.woff') format('woff'),
-    url('fonts/Merriweather-300italic.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-400i.woff') format('woff'),
+    url('fonts/Crimson-Pro-400i.eot') format('eot');
 }
 
-/* Merriweather Medium */
+/* Crimson-Pro Medium */
 @font-face
 {
     font-weight: 500;
     font-style: normal;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-500.woff') format('woff'),
-    url('fonts/Merriweather-500.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-500.woff') format('woff'),
+    url('fonts/Crimson-Pro-500.eot') format('eot');
 }
 
-/* Merriweather Medium Italic */
+/* Crimson-Pro Medium Italic */
 @font-face
 {
     font-weight: 500;
     font-style: italic;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-500italic.woff') format('woff'),
-    url('fonts/Merriweather-500italic.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-500i.woff') format('woff'),
+    url('fonts/Crimson-Pro-500i.eot') format('eot');
 }
 
-/* Merriweather Black */
+/* Crimson-Pro Black */
 @font-face
 {
     font-weight: 600;
     font-style: normal;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-700.woff') format('woff'),
-    url('fonts/Merriweather-700.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-700.woff') format('woff'),
+    url('fonts/Crimson-Pro-700.eot') format('eot');
 }
 
-/* Merriweather Black Italic */
+/* Crimson-Pro Black Italic */
 @font-face
 {
     font-weight: 600;
     font-style: italic;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-700italic.woff') format('woff'),
-    url('fonts/Merriweather-700italic.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-700i.woff') format('woff'),
+    url('fonts/Crimson-Pro-700i.eot') format('eot');
 }
 
-/* Merriweather UltraBold */
+/* Crimson-Pro UltraBold */
 @font-face
 {
     font-weight: 900;
     font-style: normal;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-900.woff') format('woff'),
-    url('fonts/Merriweather-900.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-900.woff') format('woff'),
+    url('fonts/Crimson-Pro-900.eot') format('eot');
 }
 
-/* Merriweather UltraBold Italic */
+/* Crimson-Pro UltraBold Italic */
 @font-face
 {
     font-weight: 900;
     font-style: italic;
-    font-family: Merriweather;
-    src: url('fonts/Merriweather-900italic.woff') format('woff'),
-    url('fonts/Merriweather-900italic.eot') format('eot');
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-900i.woff') format('woff'),
+    url('fonts/Crimson-Pro-900i.eot') format('eot');
 }

@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Button & Link</h1>
+<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Button & Link</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-5 is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
 <hr class="is-visible is-size-3"><br>

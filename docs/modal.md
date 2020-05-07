@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-1 is-family-secondary">Modal</h1>
+<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Modal</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-5 is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
 <hr class="is-visible is-size-3"><br>

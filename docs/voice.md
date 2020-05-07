@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Voice & Tone</h1>
+<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Voice & Tone</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-5 is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Voice</span> expresses our personality and stays consistent across all of our content and marketing. <span class="has-text-weight-semibold">Tone</span> expresses the mood or feeling of the voice and changes according to the situation.
     Take example from the Do's & Don'ts below when writing your content, success messages or even big fat errors.
 </p>

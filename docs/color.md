@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Colors</h1>
+<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Colors</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-5 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
+<p class="subtitle is-4 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
 <hr class="is-visible is-size-3">
 <br>
 <h2 class="title is-3 is-spaced is-family-sans-serif">Brand</h2>

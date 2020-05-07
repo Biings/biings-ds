@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-1 is-family-secondary">Typography</h1>
+<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Typography</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-5 is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     Use <strong>typography</strong> to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>
 <hr class="is-visible is-size-3"><br>
@@ -9,16 +9,18 @@
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-semibold">Averta</span> as its main font family (with a purchased licence).</li>
-    <li>For important headings use <strong class="is-family-secondary has-text-weight-bold">Merriweather</strong> with modifier <code>is-family-secondary</code></li>
+    <li>For important headings use <strong class="is-family-secondary has-text-weight-semibold is-size-5">Crimson Pro</strong> with modifier <code>is-family-secondary</code></li>
     <li>When a Monospace font is required use <strong class="is-family-monospace has-text-weight-bold">Roboto Mono</strong> with modifier <code>is-family-monospace</code></li>
     <li>For hand-drawn text use <strong class="is-family-hand is-size-4">Caveat</strong> with modifier <code>is-family-hand</code></li>
 </ul>
 
-!> Any text immediatly following a <span class="is-family-secondary">Merriweather</span> header should <span style="text-decoration: underline;">always</span> use <span class="has-text-weight-bold">Averta</span>.
+!> Any text immediatly following a <span class="is-family-secondary">Crimson Pro</span> header should <span style="text-decoration: underline;">always</span> use <span class="has-text-weight-bold">Averta</span>.
 
 <hr class="is-size-1 is-visible">
 <h4 class="title is-3 is-spaced is-family-primary">Font weights</h4>
-<p class="subtitle is-6">Use font weights to emphasize or differentiate content hierarchy.<br>Example: <code>has-text-weight-semibold</code></p>
+
+Use font weights to emphasize or differentiate content hierarchy.  
+Example: `has-text-weight-semibold`
 
 <ul class="list is-size-5">
     <li><span class="has-text-weight-light">300 — Light</span></li>
@@ -31,28 +33,24 @@
 
 <hr class="is-size-1 is-visible">
 <h4 class="title is-3 is-spaced is-family-primary">Scales</h4>
-<p class="subtitle is-6">
-Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). 
-Texts have an extra 7th smaller size. Use the modifier syntax <code>is-[0-6]</code> for titles, and <code>is-size-[0-8]</code> for texts.
-</p>
 
-?> There should be a size difference of <strong>2</strong> between a title and its direct subtitle.
+Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax <code>is-[0-6]</code> for titles, and <code>is-size-[0-8]</code> for texts.
 
 <hr>
 
-<h1 class="title is-0 is-family-secondary">Title Zero</h1><div class="subtitle is-4 has-text-grey">Viewport proportional header</div>
+<h1 class="title is-0 is-family-secondary is-size-1-mobile">Title Zero</h1><div class="subtitle is-4 has-text-grey">Viewport proportional header</div>
 <hr class="is-smaller">
-<h1 class="title is-1 is-family-secondary">Title One</h1><div class="subtitle is-4 has-text-grey">Main page header</div>
+<h1 class="title is-0 is-family-secondary is-size-1-mobile">Title One</h1><div class="subtitle is-4 has-text-grey">Main page header</div>
 <hr class="is-smaller">
 <h2 class="title is-2 is-family-secondary">Title Two</h2><div class="subtitle is-4 has-text-grey">Section title</div>
 <hr class="is-smaller">
 <h3 class="title is-3 is-family-secondary">Title Three</h3><div class="subtitle is-5 has-text-grey">Default title</div>
 <hr class="is-smaller">
-<h4 class="title is-4 is-family-secondary">Title Four</h4><div class="subtitle is-6 has-text-grey">Large paragraph</div>
+<h4 class="title is-4 is-family-secondary">Title Four</h4><div class="subtitle is-6 has-text-grey">Default text size</div>
 <hr class="is-smaller">
-<h5 class="title is-5 is-family-secondary">Title Five</h5><div class="subtitle is-6 has-text-grey">Paragraph</div>
+<h5 class="title is-5 is-family-secondary">Title Five</h5><div class="subtitle is-size-7 has-text-grey">Tiny text size</div>
 <hr class="is-smaller">
-<h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-size-7 has-text-grey">Same size as regular text</div>
+<h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-size-7 has-text-grey">Tiny text size</div>
 
 <hr class="is-size-1 is-visible">
 <h4 class="title is-3 is-spaced is-family-primary">Emphasizers</h4>
