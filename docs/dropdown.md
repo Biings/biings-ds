@@ -227,7 +227,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
 <h2 class="title is-3 is-family-sans-serif">Custom icon</h2>
 
-Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not).
+Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
 
 <hr>
 
@@ -247,6 +247,19 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
                     <br>
                     Loading state...
                 </div>
+            </div>
+        </div>
+    </div>
+    &nbsp;
+    <div class="dropdown is-hoverable is-inverted has-arrow">
+        <div class="dropdown-trigger">
+            <div class="button is-dark">Inverted Dropdown</div>
+        </div>
+        <div class="dropdown-menu" role="menu">
+            <div class="box has-background-dark has-text-white has-text-centered">
+                <div class="loader is-inline is-inverted is-size-3"></div>
+                <br>
+                Loading state...
             </div>
         </div>
     </div>

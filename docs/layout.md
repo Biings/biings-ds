@@ -42,11 +42,11 @@ Add class `is-medium` or `is-large` to fruther increase the vertical space.
 
 <hr class="is-small">
 
-<div class="box has-background-white-bis is-marginless is-relaxed">
-    <div class="section has-background-turquoise-light">
+<div class="box is-medium has-background-white-bis is-marginless is-relaxed">
+    <div class="section has-background-blue-lighter">
         Normal size
     </div>
-    <div class="section is-medium has-background-cyan-lighter">
+    <div class="section is-medium has-background-green-lighter">
         Medium size
     </div>
 </div>
@@ -63,28 +63,44 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 <hr class="is-small">
 
 <div class="box has-background-white-bis is-marginless is-relaxed">
-  <div class="columns has-text-white has-text-centered">
-      <div class="column">
+  <div class="columns is-multiline is-small has-text-white has-text-centered">
+      <div class="column is-4">
         <div class="message has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
       </div>
-      <div class="column">
+      <div class="column is-4">
         <div class="message has-background-purple-light has-text-weight-semibold"><br>Second<br><br></div>
       </div>
-      <div class="column">
+      <div class="column is-4">
         <div class="message has-background-turquoise has-text-weight-semibold"><br>Third<br><br></div>
       </div>
-      <div class="column">
+      <div class="column is-4">
         <div class="message has-background-cyan has-text-weight-semibold"><br>Fourth<br><br></div>
+      </div>
+      <div class="column is-6">
+        <div class="message has-background-blue-light has-text-weight-semibold"><br>Fifth<br><br></div>
+      </div>
+      <div class="column is-3">
+        <div class="message has-background-care-light has-text-weight-semibold"><br>Sixth<br><br></div>
+      </div>
+      <div class="column is-3">
+        <div class="message has-background-yellow-light has-text-weight-semibold"><br>Seventh<br><br></div>
       </div>
     </div>
   </div>
   
-      <div class="columns">
-        <div class="column">First</div>
-        <div class="column">Second</div>
-        <div class="column">Third</div>
-        <div class="column">Fourth</div>
+      <div class="columns is-multiline is-small">
+        <div class="column is-4">First</div>
+        <div class="column is-4">Second</div>
+        <div class="column is-4">Third</div>
+        <div class="column is-4">Fourth</div>
+        <div class="column is-6">Fifth</div>
+        <div class="column is-3">Sixth</div>
+        <div class="column is-3">Seventh</div>
       </div>
+<br>
+
+?> Column gap can be adjusted with modifier `is-gapless`, `is-smaller`, `is-small`, `is-large`.
+
 <br>
 <a href="https://bulma.io/documentation/columns/" target="blank" class="box is-well has-text-grey">
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
@@ -101,14 +117,14 @@ Use **Level items** when you need to vertically center elements on one line.
 <div class="box has-background-white-bis is-marginless is-relaxed">
   <div class="level has-text-white">
     <div class="level-left">
-      <div class="level-item"><div class="message has-background-red has-text-weight-semibold"><br>&nbsp; &nbsp; Item 1 &nbsp; &nbsp;<br><br></div></div>
-      <div class="level-item"><div class="message has-background-red-light has-text-weight-semibold"><br>&nbsp; &nbsp; Item 2 &nbsp; &nbsp;<br><br></div></div>
-      <div class="level-item"><div class="message has-background-red-lighter has-text-weight-semibold"><br>&nbsp; &nbsp; Item 3 &nbsp; &nbsp;<br><br></div></div>
+      <div class="level-item"><div class="message has-background-red has-text-weight-semibold"><br>Item 1<br><br></div></div>
+      <div class="level-item"><div class="message has-background-red-light has-text-weight-semibold"><br>Item 2<br><br></div></div>
+      <div class="level-item"><div class="message has-background-red-lighter has-text-weight-semibold"><br>Item 3<br><br></div></div>
     </div>
     <div class="level-right">
-        <div class="level-item"><div class="message has-background-green-lighter has-text-weight-semibold"><br>&nbsp; &nbsp; Item 4 &nbsp; &nbsp;<br><br></div></div>
-        <div class="level-item"><div class="message has-background-green-light has-text-weight-semibold"><br>&nbsp; &nbsp; Item 5 &nbsp; &nbsp;<br><br></div></div>
-        <div class="level-item"><div class="message has-background-green has-text-weight-semibold"><br>&nbsp; &nbsp; Item 6 &nbsp; &nbsp;<br><br></div></div>
+        <div class="level-item"><div class="message has-background-green-lighter has-text-weight-semibold"><br>Item 4<br><br></div></div>
+        <div class="level-item"><div class="message has-background-green-light has-text-weight-semibold"><br>Item 5<br><br></div></div>
+        <div class="level-item"><div class="message has-background-green has-text-weight-semibold"><br>Item 6<br><br></div></div>
     </div>
   </div>
 </div>

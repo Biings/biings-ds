@@ -10,11 +10,30 @@
     background: none !important
     background-color: transparent !important
 
+.is-radiusless-tl
+    border-top-left-radius: 0 !important
+.is-radiusless-tr
+    border-top-right-radius: 0 !important
+.is-radiusless-bl
+    border-bottom-left-radius: 0 !important
+.is-radiusless-br
+    border-bottom-right-radius: 0 !important
+
 @media print
     .is-hidden-print
         display: none !important
 
 // ADJUSTMENTS TO BULMA :
+
+// Columns
+.columns.is-tiny > .column
+    padding: .125rem
+.columns.is-smaller > .column
+    padding: .25rem
+.columns.is-small > .column
+    padding: .5rem
+.columns.is-large > .column
+    padding: 1rem
 
 // Table
 .table thead td,

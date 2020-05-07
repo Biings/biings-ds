@@ -213,6 +213,56 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr>
 <br>
+<hr class="is-visible is-size-1">
+
+<h2 class="title is-3 is-family-sans-serif">Compact Form</h2>
+
+<form class="box has-background-white-bis is-large is-marginless">
+    <div class="columns is-gapless is-multiline">
+        <div class="column is-6">
+            <div class="field">
+                <label for="compact1" class="label">Compact Field</label>
+                <input id="compact2" class="input is-radiusless-tr is-radiusless-bl is-radiusless-br"></input>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="field">
+                <label for="compact1" class="label">Compact Field</label>
+                <input id="compact2" class="input is-radiusless-tl is-radiusless-bl is-radiusless-br"></input>
+            </div>
+        </div>
+        <div class="column is-12">
+            <div class="field">
+                <label for="compact1" class="label">Compact Field</label>
+                <input id="compact2" class="input is-radiusless"></input>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="field">
+                <label for="compact1" class="label">Compact Field</label>
+                <input id="compact2" class="input is-radiusless"></input>
+            </div>
+        </div>
+        <div class="column is-12">
+            <div class="field">
+                <label for="compact1" class="label">Compact Field</label>
+                <input id="compact2" class="input is-radiusless-tl"></input>
+            </div>
+        </div>
+    </div>
+</form>
+
+    <form class="columns is-gapless is-multiline">
+        <div class="column is-6">
+            <div class="field">
+                <label for="compact1" class="label">Compact Field</label>
+                <input id="compact2" class="input is-radiusless-tl"></textarea>
+            </div>
+        </div>
+        <!-- ETC -->
+    </form>
+<hr>
+<br>
 
 <div class="box is-well has-text-grey">
     For stand-alone input field use &nbsp;→&nbsp; <a href="#/input"><strong>Input</strong></a>

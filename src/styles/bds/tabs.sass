@@ -73,17 +73,17 @@
 .tabs.is-toggle.has-hr > ul
     position: relative
     border-radius: 9px
-    background-color: var(--color-light)
+    background-color: rgba($dark, .075)
 .tabs.is-toggle.has-hr > ul > hr
     position: absolute
     top: 0
     z-index: 0
     visibility: initial !important
-    margin: 0
-    height: 100%
-    border: 3px solid var(--color-light)
-    border-radius: 9px
+    margin: .25em .25em 0
+    height: calc(100% - .5em)
+    border-radius: .5em
     background-color: white
+    box-shadow: 0 .125em .375em rgba($black,.1)
     transition: left .25s ease-in-out
 
 .tabs.is-toggle.has-hr a
@@ -96,11 +96,11 @@
 .tabs.is-toggle.has-hr li.is-active:nth-child(1) ~ hr
     left: 0
 .tabs.is-toggle.has-hr li.is-active:nth-child(2) ~ hr
-    left: 50%
+    left: calc(50% -.125em)
 .tabs.is-toggle.has-hr li.is-active:nth-child(2) + li ~ hr
-    left: 33%
+    left: calc(33% -.125em)
 .tabs.is-toggle.has-hr li.is-active:nth-child(3) ~ hr
-    left: 67%
+    left: calc(66% -.125em)
 
 .tabs.is-toggle.has-hr li:nth-child(1) ~ hr
     width: 100%
