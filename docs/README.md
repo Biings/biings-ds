@@ -15,7 +15,7 @@
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-medium is-well">
+        <a href="#/avatar" class="box is-medium has-background-primary-lighter">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-8">
             <div class="title has-text-primary-dark">Components</div>

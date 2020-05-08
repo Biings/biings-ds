@@ -13,13 +13,13 @@
 <div id="js-modal" class="modal">
     <div class="modal-background" onclick="closeModal('')"></div>
     <div class="modal-content">
-        <div class="box is-white is-large has-text-centered">
+        <div class="box is-white is-large has-text-centered is-floating">
             <div class="title is-spaced is-2">Bravo!</div>
             <div class="subtitle is-6">This <strong>Modal</strong> was open just by adding the class <code>is-active</code> to the modal div.</div>
             <p class="has-text-grey has-text-weight-semibold">Use the button on the top right corner to close.</p>
         </div>
     </div>
-    <button onclick="closeModal('')" class="modal-close" aria-label="close"></button>
+    <button onclick="closeModal('')" class="modal-close is-huge" aria-label="close"></button>
 </div>
 
     <div class="modal">
@@ -53,7 +53,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title">
                 Modal Card Example
             </div>
-            <button onclick="closeModal(1)" class="delete" aria-label="close"></button>
+            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
             <hr>
@@ -105,7 +105,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-background" onclick="closeModal(2)"></div>
     <div class="modal-card">
         <section class="modal-card-body has-text-centered">
-            <button onclick="closeModal(2)" class="delete" aria-label="close"></button>
+            <button onclick="closeModal(2)" class="delete is-huge is-inverted" aria-label="close"></button>
             <svg class="image is-48x48 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
             <hr class="is-size-8">
             <h2 class="title">Modal Card Example</h2>

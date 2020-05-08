@@ -213,6 +213,7 @@ $title-strong-color: inherit !default
 $title-strong-weight: 900 !default
 $title-sub-size: 0.75em !default
 $title-sup-size: 0.75em !default
+$title-line-height: 1 !default
 
 $subtitle-color: $title-color !default
 $subtitle-size: $size-5 !default
@@ -261,7 +262,7 @@ $shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey
 
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default
 
-$dimensions: 16 24 28 32 48 64 96 128 !default
+$dimensions: 24 28 32 48 64 96 128 !default
 
 // Generic
 
@@ -271,7 +272,7 @@ $body-rendering: optimizeLegibility
 $body-family: $family-primary
 $body-color: $text
 $body-weight: $weight-normal
-$body-line-height: 1.5em
+$body-line-height: 1.5
 
 $code-family: $family-code
 $code-padding: 0.1em 0.4em
@@ -303,7 +304,7 @@ $menu-list-border-left: 1px solid $border-light !default
 $menu-list-line-height: inherit !default
 
 $modal-content-width: 35rem !default
-$modal-background-background-color: rgba($grey-dark, 0.6) !default
+$modal-background-background-color: rgba($grey, 0.75) !default
 $modal-card-body-background-color: white !default
 $modal-card-head-background-color: white !default
 $modal-card-head-border-bottom: 2px solid $light !default
@@ -315,9 +316,9 @@ $modal-card-body-padding: 2rem 2.25rem !default
 $modal-card-title-color: $dark !default
 $modal-card-title-line-height: 1 !default
 $modal-card-title-size: $size-6 !default
-$modal-close-dimensions: 2rem !default
-$modal-close-right: 1rem !default
-$modal-close-top: 1rem !default
+$modal-close-dimensions: $size-1 !default
+$modal-close-right: $size-4 !default
+$modal-close-top: $size-4 !default
 $modal-card-spacing: 6% !default
 $modal-content-spacing-mobile: 1% !default
 $modal-content-spacing-tablet: 3% !default
@@ -409,12 +410,8 @@ $card-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.09), 0 0px 0 1px rgba(
 $progress-bar-background-color: $light !default
 $progress-indeterminate-duration: 1.75s !default
 
-// Extended colors (NOT BULMA)
-
-// ———— (NOT BULMA END)
-
 // Import a selection of Bulma modules
-@import "bulma/sass/utilities/animations.sass"
+// @import "bulma/sass/utilities/animations.sass"
 @import "bulma/sass/utilities/mixins.sass"
 @import "bulma/sass/utilities/controls.sass"
 @import "bulma/sass/base/_all.sass"
@@ -441,10 +438,13 @@ $progress-indeterminate-duration: 1.75s !default
 @import "bulma/sass/elements/tag.sass"
 @import "bulma/sass/elements/title.sass"
 @import "bulma/sass/grid/columns.sass"
-@import "bulma/sass/grid/tiles.sass"
+// @import "bulma/sass/grid/tiles.sass"
 // @import "bulma/sass/layout/hero.sass"
 @import "bulma/sass/layout/section.sass"
 
+
 // Extend Bulma BDS Extend (NOT BULMA)
+
 @import "bds/_all.sass"
+
 // ———— (NOT BULMA END)

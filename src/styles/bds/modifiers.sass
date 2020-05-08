@@ -6,6 +6,9 @@
 .is-decorationless
     text-decoration: none !important
 
+.is-borderless
+    border: none !important
+
 .is-backgroundless
     background: none !important
     background-color: transparent !important
@@ -23,17 +26,42 @@
     .is-hidden-print
         display: none !important
 
+
 // ADJUSTMENTS TO BULMA :
 
-// Columns
-.columns.is-tiny > .column
-    padding: .125rem
-.columns.is-smaller > .column
-    padding: .25rem
-.columns.is-small > .column
-    padding: .5rem
-.columns.is-large > .column
-    padding: 1rem
+.delete.is-inverted
+    background-color: bulmaRgba($scheme-invert, 0)
+    &::before,
+    &::after
+        background-color: $grey-dark
+    &:hover,
+    &:focus
+        background-color: bulmaRgba($scheme-invert, 0.075)
+    &:active
+        background-color: bulmaRgba($scheme-invert, 0.125)
+
+.modal-close
+    background-color: bulmaRgba($scheme-main, 0.5)
+    &::before,
+    &::after
+        background-color: $text
+    &:hover,
+    &:focus
+        background-color: bulmaRgba($grey-lighter, 0.75)
+    &:active
+        background-color: bulmaRgba($grey-lighter, 1)
+
+.delete.is-huge
+    height: 2.25rem
+    max-height: 2.25rem
+    max-width: 2.25rem
+    min-height: 2.25rem
+    min-width: 2.25rem
+    width: 2.25rem
+.modal-close
+    max-height: $modal-close-dimensions
+    max-width: $modal-close-dimensions
+
 
 // Table
 .table thead td,

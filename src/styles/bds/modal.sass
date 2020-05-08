@@ -67,6 +67,7 @@
     position: absolute
     top: 1.25rem
     right: 1.25rem
+    border-radius: $radius-small
 
 .modal-card-foot
     display: block
@@ -85,41 +86,3 @@
 
 .modal-card-foot.has-text-right .button:last-child
     margin-left: .5em
-
-
-.modal-close,
-.delete
-    max-width: ($modal-close-dimensions*1.25)
-    max-height: ($modal-close-dimensions*1.25)
-
-.modal-close
-    width: ($modal-close-dimensions*1.25)
-    height: ($modal-close-dimensions*1.25)
-    border-radius: $radius-rounded
-    &:before,
-    &:after
-        background-color: $dark
-
-.modal-close:hover
-    background-color: rgba($dark,.05)
-    &:before,
-    &:after
-        background-color: $text
-
-.delete
-    margin-right: -.25rem
-    min-width: 2rem
-    min-height: 2rem
-    width: $modal-close-dimensions
-    height: $modal-close-dimensions
-    border-radius: $radius-small
-    background-color: transparent
-    &:before,
-    &:after
-        background-color: $grey
-
-.delete:hover
-    background-color: rgba($dark,.05)
-    &:before,
-    &:after
-        background-color: $grey-dark

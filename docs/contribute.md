@@ -1,4 +1,4 @@
-<h1 class="title is-0 is-family-secondary is-size-1-mobile">How to contribute</h1>
+<h1 class="title is-0 is-family-secondary is-size-1-mobile has-text-weight-medium">How to contribute?</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-4 is-family-secondary">
     We welcome all feedback and ideas in order to produce the best possible experience for our users!
