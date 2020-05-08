@@ -1,13 +1,13 @@
 <hr class="is-hidden-desktop is-smaller">
 <h1 class="title is-0 is-size-1-mobile has-text-weight-bolder">Biings Design System</h1>
-<hr>
-<p class="subtitle is-4 is-family-secdary">
-    <span class="has-text-weight-semibold">The single source of truth for building Biings products</span>. BDS is a series of guidelines used for creating unified experience and UI. Avoid design missteps by combining styles and components together.
+<hr class="is-size-5">
+<p class="subtitle is-3 is-family-secondary has-text-dark">
+    <span class="has-text-weight-semibold">The single source of truth for building consistent user experiences at Biings</span>. BDS is a series of assets and guidelines on how to combine styles and components together.
 </p>
 <hr class="is-size-4">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-medium has-background-primary-dark hover-to-popping">
+        <a href="#/color" class="box is-medium is-popping has-background-primary-dark">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-8">
             <div class="title has-text-white">Foundation</div>
@@ -18,8 +18,8 @@
         <a href="#/avatar" class="box is-medium has-background-primary-lighter">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-8">
-            <div class="title has-text-primary-dark">Components</div>
-            <p class="subtitle is-6 has-text-dark">All you need to build your UIs</p>
+            <div class="title has-text-dark">Components</div>
+            <p class="subtitle is-6 has-text-primary-dark">All you need to build your UIs</p>
         </a>
     </div>
 </div>
@@ -46,7 +46,7 @@
     </div>
 </div>
 
-<hr class="is-visible is-size-1 is-wavy">
+<hr class="is-visible is-size-1">
 
 <h2 class="title is-3">Quick start</h2><br>
 
@@ -57,20 +57,20 @@
 
 <div class="subtitle"><strong>2 )</strong> The two files below are enough to start using BDS (fonts must be added seperately).</div>
 
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-well hover-to-bordered has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-well hover-to-bordered has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-bordered has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
 
 
 <hr class="is-size-3">
 
-<div class="box is-large has-background-light">
+<div class="box is-large is-well">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
-            <div class="title is-3">Want to<u> contribute?</u></div>
-            <p class="subtitle is-5 has-text-grey-darker">Onboarding for designers and developers wanting to contribute.</p>
+            <div class="title is-2 is-family-secondary has-text-weight-medium is-spaced">Want to <u>contribute?</u></div>
+            <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-7 has-text-grey">
-            <a href="#/contribute" class="button is-rounded is-primary is-outlined">Start contributing</a>
+            <a href="#/contribute" class="button is-rounded is-dark is-glowing is-beefy">Start contributing</a>
             <hr class="is-thin is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>

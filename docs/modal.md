@@ -11,19 +11,18 @@
     <div onclick="openModal('')" class="button is-beefy is-light">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
-    <div class="modal-background" onclick="closeModal('')"></div>
-    <div class="modal-content">
-        <div class="box is-white is-large has-text-centered is-floating">
-            <div class="title is-spaced is-2">Bravo!</div>
-            <div class="subtitle is-6">This <strong>Modal</strong> was open just by adding the class <code>is-active</code> to the modal div.</div>
-            <p class="has-text-grey has-text-weight-semibold">Use the button on the top right corner to close.</p>
-        </div>
+    <div class="modal-background has-background-white" onclick="closeModal('')"></div>
+    <div class="modal-content has-text-centered">
+        <div class="title is-spaced is-0 is-family-secondary">Nice!</div>
+        <div class="subtitle is-5">This opens just by adding the <code>is-active</code> to the modal div.</div>
+        <hr>
+        <p class="has-text-grey is-italic">Use the button on the top right corner to close.</p>
     </div>
     <button onclick="closeModal('')" class="modal-close is-huge" aria-label="close"></button>
 </div>
 
     <div class="modal">
-        <div class="modal-background"></div>
+        <div class="modal-background has-background-white"></div>
         <div class="modal-content">
             <!-- Any other components. -->
         </div>
@@ -39,7 +38,7 @@
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 
-!> <strong>Button alignement</strong><br>Buttons should be aligned to the right for small modals. Align to the left when the form is longer.
+<br>
 
 <div class="box has-background-white-bis is-large has-text-centered is-marginless">
     <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Modal Card Example 1</div>

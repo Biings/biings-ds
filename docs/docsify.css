@@ -150,7 +150,7 @@ aside.sidebar
     padding-top: 4.75rem;
     width: 210px;
     border-right: none;
-    font-size: 13px;
+    font-size: 10px;
     background-color: #FAF8FC;
 }
 
@@ -196,7 +196,7 @@ body.close .sidebar-toggle
 {
     position: absolute;
     top: 1.5rem;
-    left: 2em;
+    left: 2.25em;
     border: none;
 }
 .docsify-logo > img
@@ -232,15 +232,6 @@ img.no-zoom
 {
     color: white;
     background-color: rgba(91, 52, 120, 0.95);
-}
-
-.hover-to-black
-{
-    transition: color .15s linear;
-}
-.hover-to-black:hover
-{
-    color: #403d4b !important;
 }
 
 /* Code Highlighting */
