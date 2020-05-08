@@ -13,7 +13,7 @@
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white" onclick="closeModal('')"></div>
     <div class="modal-content has-text-centered">
-        <div class="title is-spaced is-0 is-family-secondary">Nice!</div>
+        <div class="title is-spaced is-0 is-size-1-mobile is-family-secondary">Nice!</div>
         <div class="subtitle is-5">This opens just by adding the <code>is-active</code> to the modal div.</div>
         <hr>
         <p class="has-text-grey is-italic">Use the button on the top right corner to close.</p>
