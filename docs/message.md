@@ -29,7 +29,7 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 
 <h2 class="title is-3 is-family-sans-serif">Notification message</h2>
 
-A Message can act as a notification when combined with a Modal. Add `is-noti` and put the message in a <a href="#/modal">simple Modal</a> to create an overlayed notification message.
+A Message can act as a notification when combined with a Modal. Put the message in a <a href="#/modal">simple Modal</a> to create an overlayed notification message.
 
 <br><br>
 
@@ -41,22 +41,22 @@ A Message can act as a notification when combined with a Modal. Add `is-noti` an
 </div>
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
-    <div class="message is-noti">
+    <div class="message">
         Hi there 👋
     </div>
 </div>
 <div id="js-modal9" class="modal" onclick="closeModal('9')">
-    <div class="message is-noti is-success is-size-5">
+    <div class="message is-success is-size-5">
         📦 Saved! 
     </div>
 </div>
 <div id="js-modal4" class="modal" onclick="closeModal('4')">
-    <div class="message is-noti is-danger is-size-7">
+    <div class="message is-danger is-size-7">
         Deleted..
     </div>
 </div>
 <div id="js-modal5" class="modal" onclick="closeModal('5')">
-    <div class="message is-noti is-primary is-medium">
+    <div class="message is-primary is-medium">
         <h1 class="title is-4 has-text-weight-bold">Hurray 🎉</h1>
         You just triggered a noti.
     </div>

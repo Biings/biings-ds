@@ -97,7 +97,11 @@
 
 .button.is-loading:after
     border-color: $grey
-    animation: pulsate .90s linear infinite !important
+    animation: pulsate .9s linear infinite !important
+    
+
+.button.is-loading.is-indeterminate:after
+    animation: pulsate-ind .9s ease-in-out infinite alternate !important
 
 .button.is-loading.is-primary:after,
 .button.is-loading.is-success:after,

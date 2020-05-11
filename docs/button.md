@@ -143,7 +143,7 @@ Use a Link instead of a button when navigating or when the action is not primary
             <td><hr><code>is-square</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-loading">Loading</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-success is-loading is-indeterminate">Loading</div><br><br></td>
             <td><hr><code>is-loading</code></td>
         </tr>
         <tr>

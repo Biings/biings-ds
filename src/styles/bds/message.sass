@@ -3,89 +3,88 @@ $message-body-border-width: 0 !default
 
 .message
     padding: $message-body-padding
-    background-color: $white
-    border-radius: $radius-large
-    font-size: $size-normal
     border-color: rgba($black,.1)
-    
+    border-radius: $radius-large
+    background-color: $white
+    font-size: $size-normal
+
 .message.is-warning
-    color: mix($claim-dark,$warning,60)
-    background-color: rgba($warning,0.075)
     border-color: transparent
+    background-color: rgba($warning,.075)
+    color: mix($claim-dark,$warning,60)
 
 .message.is-info
-    color: $info
-    background-color: rgba($info,0.075)
     border-color: transparent
+    background-color: rgba($info,.075)
+    color: $info
 
 .message.is-success
+    border-color: transparent
+    background-color: rgba($success,.075)
     color: mix($care-dark,$success,30)
-    background-color: rgba($success,0.075)
-    border-color: transparent
-    
+
 .message.is-danger
-    color: $danger
-    background-color: rgba($danger,0.075)
     border-color: transparent
+    background-color: rgba($danger,.075)
+    color: $danger
 
 .message.is-dark
-    background-color: rgba($black,0.075)
     border-color: transparent
+    background-color: rgba($black,.075)
 
 .message.is-primary
-    background-color: rgba(mix($primary,$primary-dark,25),.95)
     border-color: transparent
+    background-color: rgba(mix($primary,$primary-dark,25),.95)
 
 .message.is-primary,
 .message.is-primary > .title
     color: white
 
-// Modal Noti Message
-.message.is-noti
+
+// ——— Modal Noti Message —————————
+
+.modal > .message
     position: absolute
-    bottom: 3.5em
+    bottom: 0
     display: block
     margin: 1.5em 0
     max-width: 30rem
-    border-radius: 1em
-    opacity: 0
-    font-weight: 500
-    transition: opacity .25s linear
-    transition: bottom .5s ease-out
-    transition-delay: 2s
-    user-select: none
     border-width: 1px
     border-style: solid
     border-radius: 1em
     box-shadow: 0 6px 25px -8px rgba($black, .3)
+    font-weight: 500
+    opacity: 0
 
-.message.is-noti.is-success,
-.message.is-noti.is-info,
-.message.is-noti.is-danger,
-.message.is-noti.is-warning
+    user-select: none
+
+.modal > .message.is-success,
+.modal > .message.is-info,
+.modal > .message.is-danger,
+.modal > .message.is-warning
     color: white
 
-.message.is-noti.is-success
+.modal > .message.is-success
     background-color: rgba(mix($care-dark,$success,20),.8)
 
-.message.is-noti.is-info
+.modal > .message.is-info
     background-color: rgba($info,.8)
 
-.message.is-noti.is-warning
+.modal > .message.is-warning
     background-color: rgba(mix($claim-dark,$warning,10),.8)
 
-.message.is-noti.is-danger
+.modal > .message.is-danger
     background-color: rgba($danger,.8)
 
-.modal.is-active > .message.is-noti
+.modal.is-active > .message
     bottom: 0
     left: 1.5em
     opacity: 1
     animation: fadeIn .5s 1
     animation-timing-function: cubic-bezier(.215, .61, .355, 1)
 
-.modal.is-active > .message.is-noti.is-medium,
-.modal.is-active > .message.is-noti.is-large
+.modal.is-active > .message.is-medium,
+.modal.is-active > .message.is-large
     animation: moveIn .5s 1
 
 @keyframes moveIn
@@ -101,4 +100,3 @@ $message-body-border-width: 0 !default
         opacity: 0
     to
         opacity: 1
-

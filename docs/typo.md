@@ -40,7 +40,7 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts 
 
 <h1 class="title is-0 is-family-secondary is-size-1-mobile">Title Zero</h1><div class="subtitle is-4 has-text-grey">Viewport proportional header</div>
 <hr class="is-smaller">
-<h1 class="title is-0 is-family-secondary is-size-1-mobile">Title One</h1><div class="subtitle is-4 has-text-grey">Main page header</div>
+<h1 class="title is-1 is-family-secondary is-size-1-mobile">Title One</h1><div class="subtitle is-4 has-text-grey">Main page header</div>
 <hr class="is-smaller">
 <h2 class="title is-2 is-family-secondary">Title Two</h2><div class="subtitle is-4 has-text-grey">Section title</div>
 <hr class="is-smaller">
