@@ -49,13 +49,13 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-background" onclick="closeModal(1)"></div>
     <div class="modal-card">
         <header class="modal-card-head">
+            <svg class="icon has-fill-primary is-size-5"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             <div class="modal-card-title">
                 Modal Card Example
             </div>
             <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
-            <hr>
             <h2 class="title">Some modal card content</h2>
             <p class="subtitle is-italic is-size-5 has-text-grey">Can handle of lot of content.</p>
             <p>
@@ -142,7 +142,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
-                <div class="modal-card-title">Modal title</div>
+                <svg class="icon has-fill-primary is-size-5"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+                <div class="modal-card-title">
+                    Modal Card Example
+                </div>
                 <button class="delete" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
