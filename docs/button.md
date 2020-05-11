@@ -75,23 +75,23 @@ Use a Link instead of a button when navigating or when the action is not primary
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered is-size-5"><a>Regular</a></td>
+            <td class="has-text-centered"><a>Regular</a></td>
             <td><code>&lt;a></code></td>
         </tr>
         <tr>
-            <td class="has-text-centered is-size-5"><a class="is-ghost">Ghost</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-ghost">Ghost</a></td class="has-text-centered">
             <td><code>is-ghost</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered is-size-5"><a class="is-underlined">Underlined</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-underlined">Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered is-size-5"><a class="is-regular is-underlined">Regular Underlined</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-regular is-underlined">Regular Underlined</a></td class="has-text-centered">
             <td><code>is-underlined</code> + <code>is-regular</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered is-size-5"><a class="is-ghost is-underlined">Underlined Ghost</a></td class="has-text-centered">
+            <td class="has-text-centered"><a class="is-ghost is-underlined">Underlined Ghost</a></td class="has-text-centered">
             <td><code>is-ghost</code> + <code>is-underlined</code></td>
         </tr>
     </tbody>
@@ -207,21 +207,6 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     <div class="button is-borderless is-square is-rounded">
         ···
     </div>
-<hr class="is-size-1 is-visible">
-
-<h2 class="title is-3 is-family-sans-serif">Clicked Effect</h2>
-
-Using the `<button>` tag with the `button` class will add a remanent effect once the button is clicked.
-
-<hr>
-
-<div class="box has-background-white-bis is-marginless is-large">
-    <button class="button is-primary">Click Effect</button><div class="button is-static">or</div><div class="button is-text">No effect</div>
-</div>
-
-    <button class="button">Button</button>
-    <div class="button is-static">or</div>
-    <div class="button is-text">No Click Effect</div>
 <hr class="is-size-1 is-visible">
 
 <h2 class="title is-3 is-family-sans-serif">Button Group</h2>

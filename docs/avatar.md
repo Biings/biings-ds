@@ -42,7 +42,7 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box has-background-white-bis is-medium is-marginless">
-    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle is-5"><strong>Padukone, Deepika</strong></span>
+    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle">Padukone, Deepika</span>
 </div>
 
     <div class="avatar">

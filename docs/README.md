@@ -1,8 +1,8 @@
 <hr class="is-hidden-desktop is-smaller">
 <h1 class="title is-0 is-size-1-mobile has-text-weight-bolder">Biings Design System</h1>
 <hr class="is-size-5">
-<p class="subtitle is-3 is-family-secondary has-text-dark">
-    <span class="has-text-weight-semibold">The single source of truth for building consistent user experiences at Biings</span>. BDS is a series of assets and guidelines on how to combine styles and components together.
+<p class="subtitle is-4 is-family-secondary has-text-dark">
+    <span class="has-text-weight-medium">The single source of truth for building consistent user experiences at Biings</span>. BDS is a series of assets and guidelines on how to combine styles and components together.
 </p>
 <hr class="is-size-4">
 <div class="columns is-multiline">
