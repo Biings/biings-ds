@@ -1,10 +1,8 @@
 <hr class="is-hidden-desktop is-smaller">
-<h1 class="title is-0 is-size-1-mobile has-text-weight-bolder">Biings Design System</h1>
-<hr class="is-size-5">
-<p class="subtitle is-4 is-family-secondary has-text-dark">
-    <strong>The single source of truth for building consistent user experiences at Biings</strong>. BDS is a series of assets and guidelines on how to combine styles and components together.
-</p>
-<hr class="is-size-4">
+<strong class="has-text-grey-light is-size-5 has-text-weight-bold">BDS</strong>
+<hr class="is-thin">
+<h1 class="title is-0 is-size-1-mobile has-text-weight-bolder">Biings <span class="has-text-weight-light">Design System</span></h1>
+<hr class="is-size-1 is-visible">
 <div class="columns is-multiline">
     <div class="column is-half">
         <a href="#/color" class="box is-medium is-popping has-background-primary-dark">
@@ -23,6 +21,11 @@
         </a>
     </div>
 </div>
+<hr>
+
+<p class="subtitle is-4 is-family-secondary has-text-dark">
+    BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
+</p>
 
 <hr>
 
