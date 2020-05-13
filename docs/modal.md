@@ -53,10 +53,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title">
                 Modal Card Example
             </div>
-            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
+            <button onclick="closeModal(1)" class="delete is-huge is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
-            <h2 class="title">Some modal card content</h2>
+            <h2 class="title"><strong>Some modal card content</strong></h2>
             <p class="subtitle is-italic is-size-5 has-text-grey">Can handle of lot of content.</p>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si stante, hoc natura videlicet vult, salvam esse se, quod
@@ -105,9 +105,12 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-card">
         <section class="modal-card-body has-text-centered">
             <button onclick="closeModal(2)" class="delete is-huge is-inverted" aria-label="close"></button>
-            <svg class="image is-48x48 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
-            <hr class="is-size-8">
-            <h2 class="title">Modal Card Example</h2>
+            <div class="modal-card-title">
+                <svg class="icon is-size-2 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
+                <hr class="is-thin is-wavy">
+                <span class="is-size-2">Modal Card Example</span>
+            </div>
+            <hr class="is-thin is-wavy">
             <p class="subtitle is-6 has-text-grey">You could also insert centered tabs to make<br>this modal even more versatile.</p>
             <div class="tabs is-centered is-small">
                 <ul>
@@ -146,7 +149,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 <div class="modal-card-title">
                     Modal Card Example
                 </div>
-                <button class="delete" aria-label="close"></button>
+                <button class="delete is-huge is-inverted" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
                 <hr>
