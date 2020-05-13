@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Layout</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Layout</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-2"><br>
 
-<h2 class="title is-3 is-family-sans-serif">Container</h2>
+<h2 class="title"><strong>Container</strong></h2>
 
 Container is used to center your content horizontally. Alter the max width with the following modifiers:
 <br><br>
@@ -35,7 +35,7 @@ Container is used to center your content horizontally. Alter the max width with 
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Section</h2>
+<h2 class="title"><strong>Section</strong></h2>
 
 Sections are used to handle **vertical spacing** as well as ensuring a minimum horizontal padding from the window. 
 Add class `is-medium` or `is-large` to fruther increase the vertical space.
@@ -56,7 +56,7 @@ Add class `is-medium` or `is-large` to fruther increase the vertical space.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Columns</h2>
+<h2 class="title"><strong>Columns</strong></h2>
 
 Columns are used to structure content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
 
@@ -108,7 +108,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
   
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Level</h2>
+<h2 class="title"><strong>Level</strong></h2>
 
 Use **Level items** when you need to vertically center elements on one line.
 
@@ -143,7 +143,7 @@ Use **Level items** when you need to vertically center elements on one line.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Spacer</h2>
+<h2 class="title"><strong>Spacer</strong></h2>
 
 Use a **Spacer** (or Divider) as a visual help for grouping related content together. It is used to define thematic changes in a layout.
 

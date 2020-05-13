@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Tabs</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Tabs</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
     <span class="has-text-weight-semibold">Tabs</span> are used to quickly navigate between views within the same context.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-2"><br>
 
 <div class="box has-background-white-bis is-marginless is-large">
     <div class="tabs">
@@ -26,7 +26,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Hanging Tabs</h2>
+<h2 class="title"><strong>Hanging Tabs</strong></h2>
 
 Hanging Tabs have their active line placed above each item.
 
@@ -65,7 +65,7 @@ Hanging Tabs have their active line placed above each item.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Toggle Tabs</h2>
+<h2 class="title"><strong>Toggle Tabs</strong></h2>
 
 Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle` with `is-fullwidth` classes.
 
@@ -141,7 +141,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Boxed Tabs</h2>
+<h2 class="title"><strong>Boxed Tabs</strong></h2>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
 

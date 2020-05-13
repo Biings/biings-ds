@@ -1,14 +1,14 @@
-<h6 class="is-uppercase has-text-grey">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Modal</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Modal</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-2"><br>
 
-<h2 class="title is-3 is-family-sans-serif">Basic usage</h2>
+<h2 class="title"><strong>Basic usage</strong></h2>
 
-<div class="box has-background-white-bis is-large has-text-centered is-marginless">
-    <div onclick="openModal('')" class="button is-beefy is-light">Open Modal</div>
+<br><div class="box has-background-white-bis is-large has-text-centered is-marginless">
+    <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white" onclick="closeModal('')"></div>
@@ -34,7 +34,7 @@
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Modal Card</h2>
+<h2 class="title"><strong>Modal Card</strong></h2>
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 

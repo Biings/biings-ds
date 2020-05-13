@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Typography</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Typography</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
     Use <strong>typography</strong> to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-2"><br>
 
-<h4 class="title is-3 is-family-primary">Font family</h4>
+<h4 class="title"><strong>Font family</strong></h4>
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-semibold">Averta</span> as its main font family (with a purchased licence).</li>
@@ -17,7 +17,7 @@
 !> Any text immediatly following a <span class="is-family-secondary">Crimson Pro</span> header should <span style="text-decoration: underline;">always</span> use <span class="has-text-weight-bold">Averta</span>.
 
 <hr class="is-size-1 is-visible">
-<h4 class="title is-3 is-spaced is-family-primary">Font weights</h4>
+<h4 class="title"><strong>Font weights</strong></h4>
 
 Use font weights to emphasize or differentiate content hierarchy.  
 Example: `has-text-weight-semibold`
@@ -32,7 +32,7 @@ Example: `has-text-weight-semibold`
 </ul>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title is-3 is-spaced is-family-primary">Scales</h4>
+<h4 class="title"><strong>Scales</strong></h4>
 
 Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts have an extra 7th smaller size. Use the modifier syntax <code>is-[0-6]</code> for titles, and <code>is-size-[0-8]</code> for texts.
 
@@ -42,7 +42,7 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts 
 <hr class="is-smaller">
 <h1 class="title is-1 is-family-secondary is-size-1-mobile">Title One</h1><div class="subtitle is-4 has-text-grey">Main page header</div>
 <hr class="is-smaller">
-<h2 class="title is-2 is-family-secondary">Title Two</h2><div class="subtitle is-4 has-text-grey">Section title</div>
+<h2 class="title is-2 is-family-secondary">Title Two</h2><div class="subtitle is-5 has-text-grey">Section title</div>
 <hr class="is-smaller">
 <h3 class="title is-3 is-family-secondary">Title Three</h3><div class="subtitle is-5 has-text-grey">Default title</div>
 <hr class="is-smaller">
@@ -53,7 +53,7 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Texts 
 <h6 class="title is-6 is-family-secondary">Title Six</h6><div class="subtitle is-size-7 has-text-grey">Tiny text size</div>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title is-3 is-spaced is-family-primary">Emphasizers</h4>
+<h4 class="title"><strong>Emphasizers</strong></h4>
 <p class="subtitle is-6">
 Use one of the following classes to emphasize words or part of a text.
 </p>

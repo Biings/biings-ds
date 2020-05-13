@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Colors</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Colors</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
+<p class="subtitle is-4 is-size-5-mobile is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. Color should always be used in meaningful ways in order to create patterns and visual cues.</p>
 <hr class="is-visible is-size-3">
 <br>
-<h2 class="title is-3 is-spaced is-family-sans-serif">Brand</h2>
+<h2 class="title is-3"><strong>Brand</strong></h2>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -33,7 +33,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3 is-family-sans-serif">Greyscale</h2>
+<h2 class="title is-3"><strong>Greyscale</strong></h2>
 
 <hr>
 
@@ -55,7 +55,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif">Palette</h2>
+<h2 class="title is-3"><strong>Palette</strong></h2>
 
 <hr>
 
@@ -109,7 +109,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif is-spaced">Color modifiers</h2>
+<h2 class="title is-3"><strong>Color modifiers</strong></h2>
 
 Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
 
@@ -143,7 +143,7 @@ Most elements and components have color variations thanks to modifiers with synt
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3 is-family-sans-serif is-spaced">CSS variables</h2>
+<h2 class="title is-3"><strong>CSS variables</strong></h2>
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
@@ -162,8 +162,7 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
 
 <div class="box is-large has-background-white-bis is-size-5">
     <span class="tag is-primary is-glowing">Bonus</span>
-    <hr class="is-thin">
-    <hr class="is-thin">
+    <hr class="is-thin is-wavy">
     <p class="title is-4 has-text-primary-dark has-text-weight-bolder">Slack Theme</p>
     <p class="subtitle is-6">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     

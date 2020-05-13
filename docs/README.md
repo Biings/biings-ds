@@ -2,7 +2,7 @@
 <h1 class="title is-0 is-size-1-mobile has-text-weight-bolder">Biings Design System</h1>
 <hr class="is-size-5">
 <p class="subtitle is-4 is-family-secondary has-text-dark">
-    <span class="has-text-weight-medium">The single source of truth for building consistent user experiences at Biings</span>. BDS is a series of assets and guidelines on how to combine styles and components together.
+    <strong>The single source of truth for building consistent user experiences at Biings</strong>. BDS is a series of assets and guidelines on how to combine styles and components together.
 </p>
 <hr class="is-size-4">
 <div class="columns is-multiline">
@@ -10,7 +10,7 @@
         <a href="#/color" class="box is-medium is-popping has-background-primary-dark">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-8">
-            <div class="title has-text-white">Foundation</div>
+            <div class="title has-text-white"><strong>Foundation</strong></div>
             <p class="subtitle is-6 has-text-primary-lighter">Colors, icons, rules, etc</p>
         </a>
     </div>
@@ -18,7 +18,7 @@
         <a href="#/avatar" class="box is-medium has-background-primary-lighter">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-8">
-            <div class="title has-text-dark">Components</div>
+            <div class="title has-text-dark"><strong>Components</strong></div>
             <p class="subtitle is-6 has-text-primary-dark">All you need to build your UIs</p>
         </a>
     </div>
@@ -48,14 +48,14 @@
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3">Quick start</h2><br>
+<h2 class="title"><strong>Quick start</strong></h2><br>
 
-<div class="subtitle"><strong>1 )</strong> Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>
+<div class="subtitle is-6"><strong>1 )</strong> Install BDS in your project using the npm package <strong>biings-ds</strong>.</div>
 
     npm install biings-ds
 <hr>
 
-<div class="subtitle"><strong>2 )</strong> The two files below are enough to start using BDS (fonts must be added seperately).</div>
+<div class="subtitle is-6"><strong>2 )</strong> The two files below are enough to start using BDS (fonts must be added seperately).</div>
 
 <a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-bordered has-text-grey-darker" download><span class="is-monospace">**bds.css**</span><br>The only CSS file you'll need to use Biings DS.</a>
 <a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-bordered has-text-grey-darker" download><span class="is-monospace">**bds-icons.svg**</span><br>An SVG sprite - created with svgstore - that includes all Biings DS icons.</a>
@@ -66,8 +66,8 @@
 <div class="box is-large is-well">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
-            <div class="title is-2 is-family-secondary has-text-weight-medium is-spaced">Want to <u>contribute?</u></div>
-            <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
+            <div class="title is-2 is-family-secondary is-spaced">Want to <u>contribute?</u></div>
+            <p class="subtitle">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-7 has-text-grey">
             <a href="#/contribute" class="button is-rounded is-dark is-glowing is-beefy">Start contributing</a>

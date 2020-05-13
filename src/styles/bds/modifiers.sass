@@ -29,6 +29,18 @@
 
 // ADJUSTMENTS TO BULMA :
 
+.help
+    letter-spacing: -.25px
+
+.is-success + .help
+    color: $success
+.is-danger + .help
+    color: $danger
+.is-warning + .help
+    color: $warning
+.is-info + .help
+    color: $info
+
 .delete.is-inverted
     background-color: bulmaRgba($scheme-invert, 0)
     &::before,
