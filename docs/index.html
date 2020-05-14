@@ -46,6 +46,12 @@
       ]
     };
 
+    function makeIndeterminate(checkboxId)
+    {
+        var checkbox = document.getElementById(checkboxId);
+        checkbox.indeterminate = true;
+    }
+
     function toggleExpand(boxId)
     {
       var box = document.getElementById(boxId);

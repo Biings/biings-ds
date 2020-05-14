@@ -36,10 +36,6 @@ label.radio
     background-color: $primary
     box-shadow: inset 0 0 0 $control-border-width $primary !important
 
-// .radio > input:checked ~ .radio-mark
-//     background-color: $primary
-//     box-shadow: inset 0 0 0 $control-border-width $primary !important
-
 .checkbox[disabled] > .checkbox-mark,
 .radio[disabled] > .radio-mark
     background-color: transparent
@@ -68,12 +64,18 @@ label.radio
     transition: transform .1s ease-out
     transform: rotate(40deg) scale(.25)
 
+.checkbox > input:indeterminate + .checkbox-mark
+    background-color: $primary-lighter
+    box-shadow: inset 0 0 0 $control-border-width transparent !important
+
 .checkbox > input:indeterminate + .checkbox-mark:after
-    top: 9px
+    top: 11px
     left: 6px
-    width: 8px
-    height: 0
-    border-width: 0 0 2px 0
+    width: 12px
+    height: 2px
+    border-width: 0
+    border-radius: 4px
+    background-color: $primary
     transform: none
 
 .radio-mark:after
@@ -88,14 +90,16 @@ label.radio
     transition: transform .1s ease-out
     transform: scale(0)
 
+.checkbox > input:checked ~ .checkbox-mark:before,
 .checkbox > input:checked ~ .checkbox-mark:after
+    opacity: 1 !important
     transform: rotate(40deg) scale(1)
 
 .radio > input:checked ~ .radio-mark:after
     transform: scale(1)
 
 
-// TOGGLE
+// —— TOGGLE —————————————————————————————————————————————————————————————————————————————
 
 .checkbox.is-toggle > input
     width: 3.5em
@@ -109,6 +113,20 @@ label.radio
     box-shadow: none !important
     transition: background-color .2s linear
     transform: none
+
+// The check sign when toggled on.
+.checkbox.is-toggle.is-large > .checkbox-mark:before
+    position: absolute
+    top: 7px
+    left: 12px
+    width: 5px
+    height: 11px
+    border: solid white
+    border-width: 0 2px 2px 0
+    content: ''
+    opacity: 0
+    transition: opacity .1s linear
+    transform: rotate(40deg)
 
 .checkbox.is-toggle > .checkbox-mark:after
     top: .25rem
@@ -150,4 +168,3 @@ label.radio
 
 .checkbox.is-toggle.is-large > input:checked ~ .checkbox-mark:after
     left: 25px
-

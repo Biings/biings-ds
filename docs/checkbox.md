@@ -11,7 +11,7 @@
         Check me!
     </label>
     <hr>
-    <label class="checkbox">
+    <label class="checkbox" >
         <input type="checkbox" checked><span class="checkbox-mark"></span>
         I'm already checked.
     </label>
@@ -25,6 +25,11 @@
         <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
         I'm checked but disabled
     </label>
+    <hr>
+    <label class="checkbox" onclick="makeIndeterminate(123)">
+        <input id="123" type="checkbox"><span class="checkbox-mark"></span>
+        Make me indeterminate.. JS only: <code class="is-size-8">checkbox.indeterminate = true;</code>
+    </label> 
 </div>
 
     <label class="checkbox">
