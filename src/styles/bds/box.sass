@@ -71,11 +71,21 @@
 
 .box.is-expandable
     cursor: pointer
-    transition-duration: .15s !important
+    transition-duration: .45s
+    transition-timing-function: cubic-bezier(.39,1.45,.68,1.16)
 
 .box.is-expandable:not(.is-expanded) > .expanded-content
     display: none
 
 .box.is-expandable.is-expanded
-    margin-right: -.5rem
-    margin-left: -.5rem
+    margin-right: -.75em
+    margin-left: -.75em
+    
+.box.is-expandable.is-expanded > .expanded-content
+    animation: fadein .25s ease-in
+
+@keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
