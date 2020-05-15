@@ -70,7 +70,6 @@
     transition-duration: .4s
 
 .box.is-expandable
-    cursor: pointer
     transition: box-shadow .25s ease-out, margin-right .3s cubic-bezier(.25, 1, .5, 1), margin-left .3s cubic-bezier(.25, 1, .5, 1)
 
 .box.is-expandable:not(.is-expanded) > .expanded-content
@@ -81,16 +80,12 @@
     margin-left: -.75em
 
 .box.is-expandable.is-expanded > .expanded-content
-    opacity: 0
-    animation: fadein .3s ease-in
-    animation-delay: .1s
-    animation-fill-mode: forwards
-
+    animation: fadein .4s ease-in
 
 @keyframes fadein
     0%
         opacity: 0
-
+    25%
+        opacity: 0
     100%
         opacity: 1
-

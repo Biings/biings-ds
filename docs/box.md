@@ -101,14 +101,14 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
 
 <h2 class="title is-3"><strong>Expandable box</strong></h2>
 
-Add class `is-expandable` to boxes that can expand inline.<br>Then add the class `is-expanded` to a box that has been expanded.
+Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immidiate child element with class `expanded-content` will be then shown.
 
 <br>
 
 <div class="box has-background-white-bis is-marginless ">
     <div class="box">
         <div id="ebox" class="box is-large is-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
-            <span class="title is-4 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
+            <span class="title is-5 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
             <div class="expanded-content">
                 <hr class="is-small">
                 <div class="subtitle is-5 is-family-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
