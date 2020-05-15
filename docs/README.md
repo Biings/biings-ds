@@ -29,22 +29,16 @@
 
 <hr>
 
-<div class="levels has-text-grey-light">
+<div class="levels">
     <div class="level-left">
         <div class="level-item">
             <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square"
                  alt="biings-ds">
         </div>
-        <div class="level-item">/</div>
+        <div class="level-item has-text-grey-light">&nbsp;•</div>
         <div class="level-item">
-            <img alt="Creative Commons License"
-                 style="border-width:0; height: 18px;"
-                 src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg" />
-        </div>
-        <div class="level-item">/</div>
-        <div class="level-item has-text-dark">
             <a href="https://updates.biings.com/biings-ds"
-               class="is-size-7 is-ghost ">Changelog</a>
+               class="is-size-7 is-ghost has-text-weight-medium">Changelog</a>
         </div>
     </div>
 </div>
@@ -70,7 +64,7 @@
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <div class="title is-2 is-family-secondary is-spaced">Want to <u>contribute?</u></div>
-            <p class="subtitle">Onboarding for designers and developers wanting to contribute.</p>
+            <p class="subtitle is-6">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-7 has-text-grey">
             <a href="#/contribute" class="button is-rounded is-dark is-glowing is-beefy">Start contributing</a>
