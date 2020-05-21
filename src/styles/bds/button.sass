@@ -74,12 +74,15 @@
     content: ''
     transition: transform .2s ease-in, background-color .2s ease-in
     transform: scale(0)
-.button.is-borderless.is-rounded.is-square:hover:before
+.button.is-borderless.is-rounded.is-square:hover:before,
+.button.is-borderless.is-rounded.is-square.is-hovered:before
     background-color: $menu-item-hover-background-color
     transition: transform .2s ease-out, background-color .2s ease-out
     transform: scale(1)
-.button.is-borderless.is-rounded.is-square:active:before
+.button.is-borderless.is-rounded.is-square:active:before,
+.button.is-borderless.is-rounded.is-square.is-active:before
     background-color: rgba($black,.125)
+    transform: scale(1)
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em

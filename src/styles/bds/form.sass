@@ -8,16 +8,6 @@ select,
     min-height: 2.75em
     transition: border-color .1s ease-out, background-color .1s linear
 
-// .input,
-// .textarea,
-// select,
-// .select > select
-//     &:focus,
-//     &.is-focused,
-//     &:active,
-//     &.is-active
-//         background-color: $white
-
 .textarea
     padding-left: calc(.875em - 1px)
 
@@ -82,7 +72,7 @@ form .field
 .field.select > select:hover,
 .field > label.checkbox:hover:not(:active),
 .field > label.radio:hover:not(:active)
-    border-color: rgba($black,.2)
+    border-color: $grey-light
 
 .field > input,
 .field > input:focus,
@@ -190,6 +180,7 @@ form .field
 // Compact form field (in gapless columns)
 .is-gapless > .column > .field
     margin: -1px
-.is-gapless > .column > .field > input:hover,
 .is-gapless > .column > .field > input:focus
+    z-index: 2
+.is-gapless > .column > .field > input:hover
     z-index: 1
