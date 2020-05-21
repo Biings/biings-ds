@@ -9,60 +9,62 @@
 
 <br>
 
-<table class="table is-fullwidth is-bordered">
-    <tbody>
-        <tr>
-            <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><div class="button">Button</div><br><br></td>
-            <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
-            <td><hr>For standard controls, like Dropdowns.</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><hr class="is-smaller"><div class="button is-primary">Primary</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-primary</code></td>
-            <td><hr>For primary actions, like "Save".</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-text</code></td>
-            <td><hr>For secondary actions, like "Cancel".</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-dark">Dark</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-dark</code></td>
-            <td><hr>Dark looking button.</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-primary is-light">Light</div><br><br></td>
-            <td class="has-text-centered"><br><code>is-light<br>(is-[color]) </code></td>
-            <td><br>Light looking button (applicable to any color button).</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-success">Success</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-success</code></td>
-            <td><hr>For success related things, like "Win a price!".</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-info">Info</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-info</code></td>
-            <td><hr>For informational related links, learn "Learn more".</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-warning">Warning</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-warning</code></td>
-            <td><hr>For important actions or links, like "Send a claim".</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-danger">Dangerous</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-danger</code></td>
-            <td><hr>For dangerous actions, like "Delete".</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-static">Static</div><br><br></td>
-            <td class="has-text-centered"><br><code>is-static</code></td>
-            <td><br>A non-interactive button. Typically used between buttons, like for the "or".</td>
-        </tr>
-    </tbody>
-</table>
+<div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+        <tbody>
+            <tr>
+                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><div class="button">Button</div><br><br></td>
+                <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
+                <td><hr>For standard controls, like Dropdowns.</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><hr class="is-smaller"><div class="button is-primary">Primary</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-primary</code></td>
+                <td><hr>For primary actions, like "Save".</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-text</code></td>
+                <td><hr>For secondary actions, like "Cancel".</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-dark">Dark</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-dark</code></td>
+                <td><hr>Dark looking button.</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-primary is-light">Light</div><br><br></td>
+                <td class="has-text-centered"><br><code>is-light<br>(is-[color]) </code></td>
+                <td><br>Light looking button (applicable to any color button).</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-success">Success</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-success</code></td>
+                <td><hr>For success related things, like "Win a price!".</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-info">Info</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-info</code></td>
+                <td><hr>For informational related links, learn "Learn more".</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-warning">Warning</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-warning</code></td>
+                <td><hr>For important actions or links, like "Send a claim".</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-danger">Dangerous</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-danger</code></td>
+                <td><hr>For dangerous actions, like "Delete".</td>
+            </tr>
+            <tr>
+                <td class="has-text-centered"><br><div class="button is-static">Static</div><br><br></td>
+                <td class="has-text-centered"><br><code>is-static</code></td>
+                <td><br>A non-interactive button. Typically used between buttons, like for the "or".</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 <hr class="is-size-1 is-visible">
 
