@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Tabs</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Tabs</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Tabs</span> are used to quickly navigate between views within the same context.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box has-background-white-bis is-marginless is-large">
     <div class="tabs">
@@ -26,7 +26,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><strong>Hanging Tabs</strong></h2>
+<h3 class="title"><strong>Hanging Tabs</strong></h3>
 
 Hanging Tabs have their active line placed above each item.
 
@@ -43,7 +43,7 @@ Hanging Tabs have their active line placed above each item.
                 <a class="dropdown is-hoverable is-iconless has-arrow">
                     <div class="dropdown-trigger">•••</div>
                     <div class="dropdown-menu is-paddingless">
-                        <div class="box is-white is-floating">Hey!<br><span class="is-size-7 has-text-grey">Just to show you can also<br>put sub-menus here 😉</span></div>
+                        <div class="box is-white is-floating">Hey!<div class="subtitle is-6 has-text-grey">Just to show you can also<br>put sub-menus here 😉</div></div>
                     </div>
                 </a>
             </li>
@@ -65,7 +65,7 @@ Hanging Tabs have their active line placed above each item.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><strong>Toggle Tabs</strong></h2>
+<h3 class="title"><strong>Toggle Tabs</strong></h3>
 
 Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle` with `is-fullwidth` classes.
 
@@ -94,7 +94,10 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
     </div>
 
 <hr>
-<h3 class="title is-4">Make it move!</h3>
+
+<hr class="is-visible is-size-1">
+
+<h3 class="title"><strong>Animated toggle tabs</strong></h3>
 
 Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<li></li>`.
 
@@ -141,7 +144,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><strong>Boxed Tabs</strong></h2>
+<h3 class="title"><strong>Boxed Tabs</strong></h3>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
 

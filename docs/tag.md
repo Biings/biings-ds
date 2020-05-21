@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Tag</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Tag</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Tags</span> are used for items that need to be labeled, categorized, or organized using keywords that describe them.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box is-bordered is-medium">
     <span class="tag">Two</span>
     <span class="tag">Tags</span>
 </div>
@@ -17,13 +17,13 @@
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><strong>Size, Shape and Colors</strong></h2>
+<h3 class="title"><strong>Size, Shape and Colors</strong></h3>
 
 The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <br>
 
-<div class="box has-background-white-bis is-large">
+<div class="box is-bordered is-large">
     <span class="tag is-small">Small</span>&nbsp;
     <span class="tag">Normal</span>&nbsp;
     <span class="tag is-medium">Medium</span>&nbsp;
@@ -42,9 +42,9 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
     <span class="tag is-info is-glowing">info glowing</span>&nbsp;
     <span class="tag is-warning is-glowing">warning glowing</span>&nbsp;
     <hr>
-    <span class="tag is-pilot">Pilot</span>&nbsp;
-    <span class="tag is-care">Care</span>&nbsp;
-    <span class="tag is-claim">Claim</span>
+    <span class="tag is-small is-primary is-glowing">Primary/Pilot</span>&nbsp;
+    <span class="tag is-small is-care">Care</span>&nbsp;
+    <span class="tag is-small is-claim">Claim</span>
 </div>
 
 <hr>

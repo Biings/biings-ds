@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Card</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Card</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Card</span> is used to give actionable options to a related grouping of information.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box has-background-white-bis is-large is-marginless">
     <div class="card">
@@ -29,7 +29,7 @@
     </div>
 <br>
 
-?> A Card can have **one**, **two** or **three** action items.
+?> A Card can have<em> regular </em>or<em> text </em>only buttons.
 
 <hr>
 

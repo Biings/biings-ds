@@ -1,22 +1,25 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Modal</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Modal</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
 <hr class="is-visible is-size-2"><br>
 
-<h2 class="title"><strong>Basic usage</strong></h2>
+<h3 class="title"><strong>Basic usage</strong></h3>
 
-<br><div class="box has-background-white-bis is-large has-text-centered is-marginless">
+Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
+
+<br><br>
+<div class="box has-background-white-bis is-large has-text-centered is-marginless">
     <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white" onclick="closeModal('')"></div>
     <div class="modal-content has-text-centered">
-        <div class="title is-spaced is-0 is-size-1-mobile is-family-secondary"><strong>Nice!</strong></div>
+        <div class="title is-spaced is-1 is-size-1-mobile is-family-secondary"><strong>Nice!</strong></div>
         <div class="subtitle is-5 is-size-6-mobile">This opens just by adding the <code>is-active</code> to the modal div.</div>
         <hr>
-        <p class="has-text-grey is-italic">Use the button on the top right corner to close.</p>
+        <span class="tag has-text-grey">Use the button on the top right corner to close.</span>
     </div>
     <button onclick="closeModal('')" class="modal-close is-huge" aria-label="close"></button>
 </div>
@@ -28,13 +31,13 @@
         </div>
         <button class="modal-close is-large" aria-label="close"></button>
     </div>
-!> Don't forget to add `.is-clipped` to the `<html>` tag in order to prevent background scrolling.
+<br>
 
 ?> Use `is-pinned` to prevent the modal from re-centering itself when its content change.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><strong>Modal Card</strong></h2>
+<h3 class="title"><strong>Modal Card</strong></h3>
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 
@@ -49,16 +52,16 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-background" onclick="closeModal(1)"></div>
     <div class="modal-card">
         <header class="modal-card-head">
-            <svg class="icon has-fill-primary is-size-5"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+            <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             <div class="modal-card-title">
                 Modal Card Example
             </div>
             <button onclick="closeModal(1)" class="delete is-huge is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
-            <h2 class="title is-4">Some modal card content</h2>
+            <h4 class="title"><strong>Can handle of lot of content..</strong></h4>
             <p>
-                <strong>Can handle of lot of content!!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si stante, hoc natura videlicet vult, salvam esse se, quod
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si stante, hoc natura videlicet vult, salvam esse se, quod
                 concedimus; Laboro autem non sine causa; Beatus autem esse in maximarum rerum timore nemo potest. Progredientibus autem
                 aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. Duo Reges: constructio interrete. Quis enim redargueret?
                 Ergo ita: non posse honeste vivi, nisi honeste vivatur?
@@ -107,7 +110,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title">
                 <svg class="icon is-size-2 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
                 <hr class="is-thin is-wavy">
-                <span class="is-size-2">Modal Card Example</span>
+                <h2 class="title is-family-secondary">Modal Card Example</h2>
             </div>
             <hr class="is-thin is-wavy">
             <p class="subtitle is-6 has-text-grey">You could also insert centered tabs to make<br>this modal even more versatile.</p>
@@ -128,7 +131,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <input id="fieldId" class="input" type="text" placeholder="Another input">
                 </div>
             </form>
-            <div class="message is-info is-size-7">
+            <div class="message is-info is-size-6">
                 The Header and Footer can be removed for a slimer design.
             </div>
         </section>
@@ -144,7 +147,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
-                <svg class="icon has-fill-primary is-size-5"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+                <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
                 <div class="modal-card-title">
                     Modal Card Example
                 </div>
@@ -169,7 +172,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <section class="modal-card-body has-text-centered">
                 <button class="delete" aria-label="close"></button>
                 <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
-                <h2 class="title">Title</h2>
+                <h3 class="title">Title</h2>
                 <p class="subtitle">A text...</p>
                 <div class="field">
                     <label for="fieldId" class="label">Field example</label>

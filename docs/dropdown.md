@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Dropdown</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Dropdown</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     A <span class="has-text-weight-semibold">dropdown</span> presents either a list of actions or a tooltip with extra contextual information.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box has-background-white-bis is-large is-marginless">
     <div class="dropdown is-hoverable">
@@ -17,7 +17,7 @@
                 <a class="dropdown-item is-active">Without Any</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item">
-                    <span class="is-size-7 has-text-grey">(You can also have stuff here)</span>
+                    <span class="is-size-6 has-text-grey">(You can also have stuff here)</span>
                     <br>Javascript &nbsp;😉</a>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 <a class="dropdown-item is-active">Any</a>
                 <hr class="dropdown-divider">
                 <a class="dropdown-item">
-                    <span class="is-size-7 has-text-grey">Stuff here</span>
+                    <span class="is-size-6 has-text-grey">Stuff here</span>
                     <br>Javascript
                 </a>
             </div>
@@ -54,9 +54,9 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Sizes</strong></h2>
+<h3 class="title"><strong>Sizes</strong></h3>
     
-Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[7-1]` to adjust the size of the arrow.
+Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[1–7]` to adjust the size of the arrow.
 
 <br>
 
@@ -72,14 +72,14 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
             </div>
         </div>
     </div>
-    <div class="dropdown is-hoverable is-size-7 is-pulled-right is-right">
+    <div class="dropdown is-hoverable is-size-6 is-pulled-right is-right">
         <div class="dropdown-trigger">
             <div class="button is-small is-text">Small text drp</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
                 <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-size-7</code> to the dropdown.</a>
+                <a class="dropdown-item"><code>is-size-6</code> to the dropdown.</a>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Tooltips</strong></h2>
+<h3 class="title"><strong>Tooltips</strong></h3>
 
 Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
 
@@ -105,7 +105,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-dark is-paddingless">Tooltip-Style</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-7">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
+                    <div class="box is-white is-floating is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-paddingless is-fullwidth">Dropup!</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white has-background-black is-floating is-size-7 has-text-white">
+                    <div class="box is-white has-background-black is-floating is-size-6 has-text-white">
                         This one has both class <code>is-up</code> and <code>is-centered</code>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-paddingless is-fullwidth has-text-primary">Colored</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-7 has-background-primary has-text-white">
+                    <div class="box is-white is-floating is-size-6 has-background-primary has-text-white">
                         This one contains a div with <strong>has-background-primary</strong>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-paddingless is-fullwidth has-text-info">Right Info</div>
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="box is-floating is-size-7 has-background-info has-text-white has-text-right">
+                    <div class="box is-floating is-size-6 has-background-info has-text-white has-text-right">
                         This <strong>is-right</strong>, <strong>is-up</strong> and contains a div with <strong>has-background-info</strong>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                 <div class="dropdown-trigger">
                     <svg class="icon has-fill-grey-light"><use xlink:href="media/bds-icons.min.svg#info-bold-g"></use></svg>
                 </div>
-                <div class="dropdown-menu is-size-8" id="dropdown-menu" role="menu">
+                <div class="dropdown-menu is-size-6" id="dropdown-menu" role="menu">
                     <div class="box is-small is-raised has-background-blck has-text-whie has-text-centered">
                         Tooltip 😇
                     </div>
@@ -173,7 +173,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Searchable list</strong></h2>
+<h3 class="title"><strong>Searchable list</strong></h3>
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
@@ -225,7 +225,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Custom icon</strong></h2>
+<h3 class="title"><strong>Custom icon</strong></h3>
 
 Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
 
@@ -286,7 +286,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 <a id="selectlist"></a>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Select list</strong></h2>
+<h3 class="title"><strong>Select list</strong></h3>
 
 Create a system default select list just by wrapping it with a `.select` div.
 

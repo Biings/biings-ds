@@ -1,15 +1,17 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Loader</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Loader</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Loaders</span> are used when performing slow computations, notifying users that loading is underway.
+</p>
+<hr class="is-visible is-size-3">
 
 ?> For entire page loading, a <a href="#/skeleton" class="is-underlined">Skeleton</a> screen is probably a better option.
-</p>
-<hr class="is-visible is-size-2">
 
-<h2 class="title"><strong>Sizes</strong></h2>
+<hr class="is-size-4">
 
-Loaders automatically adapt to text size.<br>Use text size modifier classes `is-size-[1-8]` if you want to apply a particular size to the loader.
+<h3 class="title"><strong>Sizes</strong></h3>
+
+Loaders automatically adapt to text size.<br>Use text size modifier classes `is-size-[1-7]` if you want to apply a particular size to the loader.
 
 <br>
 
@@ -29,7 +31,7 @@ element you wish the loader to center itself to.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><strong>Inline</strong></h2>
+<h3 class="title"><strong>Inline</strong></h3>
 
 Add class `is-inline` to remove the auto-centering of the loader.
 
@@ -42,7 +44,7 @@ Add class `is-inline` to remove the auto-centering of the loader.
     <div class="loader is-inline"></div> Loading...
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><strong>Colorful</strong></h2>
+<h3 class="title"><strong>Colorful</strong></h3>
 
 Add class `is-colorful` to give the loader a unique Biings look.
 
@@ -54,7 +56,7 @@ Add class `is-colorful` to give the loader a unique Biings look.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><strong>Inverted</strong></h2>
+<h3 class="title"><strong>Inverted</strong></h3>
 
 Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
@@ -64,11 +66,9 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
     <div class="loader is-inverted is-size-2"></div>
 </div>
 
-is-indeterminate
-
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><strong>Indeterminate</strong></h2>
+<h3 class="title"><strong>Indeterminate</strong></h3>
 
 Add class `is-indeterminate` to express an long or an unknown loading duration.
 
@@ -80,7 +80,7 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><strong>Progress Bar</strong></h2>
+<h3 class="title"><strong>Progress Bar</strong></h3>
 
 A native progress bar can replace a loader.
 

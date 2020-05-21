@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Button & Link</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Button & Link</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
-<h2 class="title is-3"><strong>Button defaults</strong></h2>
+<h3 class="title"><strong>Button defaults</strong></h3>
 
 <br>
 
@@ -13,7 +13,7 @@
     <tbody>
         <tr>
             <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><div class="button">Button</div><br><br></td>
-            <td class="has-text-centered"><hr><code>button</code></td>
+            <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
             <td><hr>For standard controls, like Dropdowns.</td>
         </tr>
         <tr>
@@ -33,8 +33,8 @@
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-light">Light</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-light<br>(is-[color]) </code></td>
-            <td><hr>Light looking button (applicable to any color button).</td>
+            <td class="has-text-centered"><br><code>is-light<br>(is-[color]) </code></td>
+            <td><br>Light looking button (applicable to any color button).</td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-success">Success</div><br><br></td>
@@ -58,15 +58,15 @@
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-static">Static</div><br><br></td>
-            <td class="has-text-centered"><hr><code>is-static</code></td>
-            <td><hr>A non-interactive button. Typically used between buttons, like for the "or".</td>
+            <td class="has-text-centered"><br><code>is-static</code></td>
+            <td><br>A non-interactive button. Typically used between buttons, like for the "or".</td>
         </tr>
     </tbody>
 </table>
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Link</strong></h2>
+<h3 class="title"><strong>Link</strong></h3>
 
 Use a Link instead of a button when navigating or when the action is not primary.
 
@@ -100,7 +100,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Sizes, states and shapes</strong></h2>
+<h3 class="title"><strong>Sizes, states and shapes</strong></h3>
 
 <hr>
 
@@ -150,12 +150,16 @@ Use a Link instead of a button when navigating or when the action is not primary
             <td class="has-text-centered"><br><div class="button is-light" disabled>Disabled</div><br><br></td>
             <td><hr><code>disabled</code> attribute</td>
         </tr>
+        <tr>
+            <td class="has-text-centered has-background-grey-light"><br><div class="button is-inverted is-primary">Inverted</div><br><br></td>
+            <td><hr><code>is-inverted is-primary</code> attribute</td>
+        </tr>
     </tbody>
 </table>
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Icon Button</strong></h2>
+<h3 class="title"><strong>Icon Button</strong></h3>
 
 Buttons can be enhanced by adding an icon or be an icon button.  
 Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
@@ -163,30 +167,39 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
 <br>
 
 <div class="box is-medium has-background-white-bis is-marginless">
-    <div class="button">
-        <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-        <span>Today!</span>
-    </div>
-    &nbsp;
-    <div class="button is-square">
-        <svg class="icon is-light"><use xlink:href="media/bds-icons.min.svg#edit-g"></use></svg>
-    </div>
-    &nbsp;
-    <div class="button is-borderless is-square">
-        <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
-    </div>
-    &nbsp;
-    <div class="button is-info">
-        <svg class="icon"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
-        <span>Download</span>
-    </div>
-    &nbsp;
-    <div class="button is-success is-square is-shadowed is-rounded">
-        <svg class="icon"><use xlink:href="media/bds-icons.min.svg#send-g"></use></svg>
-    </div>
-    &nbsp;
-    <div class="button is-borderless is-square is-rounded">
-        <svg class="icon is-size-5"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
+    <div class="level">
+        <div class="level-item">
+            <div class="button">
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+                <span>Today!</span>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="button is-square">
+                <svg class="icon is-light"><use xlink:href="media/bds-icons.min.svg#edit-g"></use></svg>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="button is-borderless is-square">
+                <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="button is-info">
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
+                <span>Download</span>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="button is-success is-square is-shadowed is-rounded">
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#send-g"></use></svg>
+            </div>
+        </div>
+        <div class="level-item">
+            <div class="button is-borderless is-square is-rounded">
+                <svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -209,7 +222,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Button Group</strong></h2>
+<h3 class="title"><strong>Button Group</strong></h3>
 
 Buttons can be grouped together.
 

@@ -1,14 +1,16 @@
 .tag:not(body)
     min-width: 1.875em
     height: 1.875em
-    font-weight: $weight-semibold
+    font-weight: $weight-medium
+    line-height: 1.25
 
 .tag:not(body)
     padding-right: .625em
     padding-left: .625em
 
 .tag.is-small
-    font-size: $size-8
+    font-weight: $weight-semibold
+    font-size: $size-7
 
 .tag.is-glowing.is-primary
     box-shadow: 0 .25em 1em -.25em rgba($primary,.75)
@@ -19,20 +21,12 @@
 .tag.is-glowing.is-danger
     box-shadow: 0 .25em 1em -.25em rgba($danger,.75)
 .tag.is-glowing.is-warning
-    box-shadow: 0 .25em 1em -.25em rgba(mix($care-dark,$warning,20),.7)
-
-.tag.is-pilot,
-.tag.is-care,
-.tag.is-claim
-    color: white
-    font-family: $family-secondary
-    font-weight: 900
-.tag.is-pilot
-    background-color: mix($purple,$primary,20)
-    box-shadow: 0 .25em 1em -.25em rgba(mix($purple,$primary,20),.8)
+    box-shadow: 0 .25em 1em -.25em rgba($warning,.7)
 .tag.is-care
-    background-color: $care
+    background-color: mix($care-dark,$care,10)
     box-shadow: 0 .25em 1em -.25em rgba($care,.8)
+    color: white
 .tag.is-claim
-    background-color: $claim
-    box-shadow: 0 .25em 1em -.25em rgba($claim-light,.8)
+    background-color: mix($orange,$claim,15)
+    box-shadow: 0 .25em 1em -.25em rgba($claim,.8)
+    color: white

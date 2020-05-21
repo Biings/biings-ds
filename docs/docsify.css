@@ -16,10 +16,11 @@ pre
 }
 pre code
 {
-    font-size: .875em !important;
+    font-size: .875rem !important;
 }
 code .tag
 {
+    font-size: .875rem !important;
     background-color: transparent;
 }
 svg.image

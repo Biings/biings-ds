@@ -6,21 +6,19 @@
 .is-family-secondary
     letter-spacing: -.25px
 
-.is-size-8
-    letter-spacing: .25px
-    font-size: $size-8
-
-.is-uppercase.is-7
-    font-size: .75rem
-
 /* Titles */
-.title.is-0
-    font-size: 4.9vw
-
-@media (min-width: 1500px)
-    .title.is-0,
-    .is-size-0
-        font-size: 4.75rem
+h1.title
+    font-size: $size-1
+h2.title
+    font-size: $size-2
+h3.title
+    font-size: $size-3
+h4.title
+    font-size: $size-4
+h5.title
+    font-size: $size-5
+h6.title
+    font-size: $size-6
 
 .title
     letter-spacing: -1px
@@ -50,7 +48,7 @@ u
 
 em
     border-radius: 1em .25em 1em .25em
-    background-image: linear-gradient(90deg, rgba(196, 133, 203, .1), rgba(196, 133, 203, .5) 40%,rgba(196, 133, 203, .35) 85%, rgba(196, 133, 203, .15))
+    background-image: linear-gradient(90deg, rgba($yellow, .1), rgba($yellow, .5) 40%,rgba($yellow, .35) 85%, rgba($yellow, .15))
     font-style: normal
 
 em.is-primary

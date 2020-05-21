@@ -1,12 +1,12 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Form</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Form</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Forms</span> are used for submitting data. Forms tend to become hard to navigate, use visually consistant fields to help users understand where to input text or select options.
 </p>
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
-<hr class="is-visible is-size-2"><br>
+<p class="subtitle is-4 is-family-secondary">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
+<hr class="is-visible is-size-2">
 
-<h2 class="title is-3"><strong>Input field</strong></h2>
+<h3 class="title"><strong>Input field</strong></h3>
 
 Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to change the status.
 
@@ -57,16 +57,17 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
             <textarea id="textfield" class="textarea" placeholder="..."></textarea>
         </div>
     </form>
-
 <hr class="is-visible is-size-1">
-<h2 class="title is-3"><strong>Required or Optional</strong></h2>
+<h3 class="title"><strong>Required or Optional</strong></h3>
 
-In most cases it is better to indicate the optional fields rather than the required ones. Add a `span` inside the label saying "Optional" is the way to go. But you can also add the class `is-required` to the field you wish to display more strongly.
+In most cases it is better to indicate the optional fields rather than the required ones. Add a `span` inside the label saying "Optional" is the way to go.
 
-<hr class="is-size-8">
+<br>You can also add the class `is-required` to the field you wish to display more strongly.
 
-<div class="box has-background-white-bis is-large is-marginless">
-    <form class="columns is-variable is-4">
+<hr>
+
+<div class="box has-background-white-bis is-medium is-marginless">
+    <form class="columns">
         <div class="column is-4">
             <div class="field">
                 <label for="textfieldOp" class="label">Something <span>– optional</span></label>
@@ -101,7 +102,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
     </div>
 <hr class="is-visible is-size-1">
-<h2 class="title is-3"><strong>Select field</strong></h2>
+<h3 class="title"><strong>Select field</strong></h3>
 
 <form class="box has-background-white-bis is-large is-marginless">
     <div class="field select is-required is-warning">
@@ -125,7 +126,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Dropdown Field</strong></h2>
+<h3 class="title"><strong>Dropdown Field</strong></h3>
 
 <form class="box has-background-white-bis is-large is-marginless">
     <div class="dropdown is-hoverable is-fullwidth is-size-5">
@@ -162,7 +163,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Checkbox / Radio field</strong></h2>
+<h3 class="title"><strong>Checkbox / Radio field</strong></h3>
 
 <form class="box has-background-white-bis is-large is-marginless">
     <div class="field">
@@ -212,11 +213,9 @@ In most cases it is better to indicate the optional fields rather than the requi
             Choice One
         </label>
     </div>
-<hr>
-<br>
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Compact Form</strong></h2>
+<h3 class="title"><strong>Compact Form</strong></h3>
 
 <form class="box has-background-white-bis is-large is-marginless">
     <div class="columns is-gapless is-multiline">

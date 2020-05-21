@@ -1,11 +1,15 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Avatar</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Avatar</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Avatar</span> is used to display a picture, typically next to a person's name.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-medium is-marginless">
+<h3 class="title"><strong>Default</strong></h3>
+
+Avatar's default background is transparent. Set it manually to achieve the below look.
+
+<br><div class="box has-background-white-bis is-medium is-marginless">
     <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
 </div>
 
@@ -16,26 +20,26 @@
     <span>John Doe</span>
 <br>
 
-?> For flexibility purpose the background defaults to "transparent" and should be set manually.
+?> 
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Sizes</strong></h2>
+<h3 class="title"><strong>Sizes</strong></h3>
 
 In addition to the default size, use classes `is-small`, `is-medium`, `is-large` and `is-huge` to adjust the size of an avatar.
 <hr class="is-small">
 <div class="box is-medium has-background-white-bis">
     <div class="level">
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-primary">S</div></div><span class="is-size-7">Small</span></div>
-        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary">M</div></div><span class="is-size-6">Medium</span></div>
-        <div class="level-item"><div class="avatar is-large"><div class="has-background-primary">L</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div class="has-background-primary">H</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-primary-light">S</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-light">M</div></div><span class="is-size-6">Medium</span></div>
+        <div class="level-item"><div class="avatar is-large"><div class="has-background-primary-light">L</div></div><span class="is-size-5">Large</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div class="has-background-primary-light">H</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>Photo Avatar</strong></h2>
+<h3 class="title"><strong>Photo Avatar</strong></h3>
 
 Avatars can nest an image to act as a person's photo.
 
@@ -51,7 +55,7 @@ Avatars can nest an image to act as a person's photo.
     <span class="subtitle is-5">Padukone, Deepika</span>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Status</strong></h2>
+<h3 class="title"><strong>Status</strong></h3>
 
 Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-dark">dark</span> and white.
 

@@ -1,29 +1,26 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Input</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Input</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Input fields</span> enable users to provide information.
 </p>
+<hr class="is-visible is-size-3">
 
 ?> **Building a big fat form?**<br>Use <a href="#/form" class="is-underlined">Form fields</a> for better readability.
 
-<hr class="is-visible is-size-2"><br>
+<hr class="is-size-4">
 
-<h2 class="title is-3"><strong>Input field variations</strong></h2>
+<h3 class="title"><strong>Input field variations</strong></h3>
 
-<br>
-
-<form class="box is-large has-background-white-bis is-marginless" spellcheck="false">
+<br><form class="box is-large has-background-white-bis is-marginless" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
-    <hr class="is-size-8">
+    <hr class="is-size-7">
     <input class="input" type="tel" placeholder="Default and loading input">
-    <hr class="is-size-8">
+    <hr class="is-size-7">
     <input class="input is-medium" type="email" placeholder="Medium and danger input">
-    <hr class="is-size-8">
-    <input class="input is-large" type="email" placeholder="Large input (to use very occasionally)">
-    <hr class="is-size-8">
+    <hr class="is-size-7">
     <label for="defaultfield" class="label">With a label</label>
     <input id="defaultfield" class="input" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
-    <hr class="is-size-8">
+    <hr class="is-size-7">
     <div class="columns is-variable is-2">
         <div class="column is-10">
             <input class="input is-danger" placeholder="With class is-danger">
@@ -46,7 +43,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title is-3"><strong>With Icons</strong></h2>
+<h3 class="title"><strong>With Icons</strong></h3>
 
 You can add one or two icons inside the input.
 

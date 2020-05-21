@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Box</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Box</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Box</span> is a visual motif used to create groupings of content related to a same entity or subject as well as focus through depth.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box has-background-white-bis is-marginless is-large">
     <div class="box is-floating is-large">Boxed content about an entity or subject.</div>
@@ -14,9 +14,11 @@
     </div>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Box depths</strong></h2>
+<h3 class="title"><strong>Box depths</strong></h3>
 
-You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
+You can alter or bring focus to a box by adding a `is-[type]` class.
+
+<br><br>
 
 <div class="box has-background-white-bis is-large">
 
@@ -51,7 +53,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.<br><br>
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Depth transition</strong></h2>
+<h3 class="title"><strong>Depth transition</strong></h3>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -76,7 +78,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Sizes</strong></h2>
+<h3 class="title"><strong>Sizes</strong></h3>
 
 You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` or `is-larger` to the box.
 
@@ -84,8 +86,8 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
 
 <div class="box has-background-white-bis is-marginless">
     <div class="level">
-        <div class="level-item"><div class="box is-raised is-small">Small</div></div>
-        <div class="level-item"><div class="box is-raised has-text-grey">Normal</div></div>
+        <div class="level-item"><div class="box is-raised is-small is-size-6">Small</div></div>
+        <div class="level-item"><div class="box is-raised ">Normal</div></div>
         <div class="level-item"><div class="box is-raised is-medium">Medium</div></div>
         <div class="level-item"><div class="box is-raised is-large">Large</div></div>
         <div class="level-item"><div class="box is-raised is-larger">Larger!</div></div>
@@ -99,19 +101,19 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
     <div class="box is-larger">Larger!</div>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Expandable box</strong></h2>
+<h3 class="title"><strong>Expandable box</strong></h3>
 
 Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immidiate child element with class `expanded-content` will be then shown.
 
-<br>
+<br><br>
 
 <div class="box has-background-white-bis is-marginless ">
     <div class="box">
         <div id="ebox" class="box is-large is-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
-            <span class="title is-5 has-text-grey-darker">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
+            <span class="title is-4 has-text-grey-darker is-spaced">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
             <div class="expanded-content">
-                <hr class="is-small">
-                <div class="subtitle is-5 is-family-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
+                <br>
+                <div class="subtitle is-4 is-family-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
             </div>
         </div>
     </div>

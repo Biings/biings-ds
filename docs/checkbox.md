@@ -1,11 +1,15 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Checkbox</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Checkbox</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Checkboxes</span> are used when there is a list of options and the user may select multiple options, including all or none.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-marginless is-large">
+<h3 class="title"><strong>Standard states</strong></h3>
+
+The checkbox label should always toggle the checkbox when clicked! Make sure the label's text is a direct child of `.checkbox`
+
+<br><div class="box has-background-white-bis is-marginless is-large">
     <label class="checkbox">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Check me!
@@ -28,7 +32,7 @@
     <hr>
     <label class="checkbox" onclick="makeIndeterminate(123)">
         <input id="123" type="checkbox"><span class="checkbox-mark"></span>
-        Make me indeterminate.. JS only: <code class="is-size-8">checkbox.indeterminate = true;</code>
+        Make me indeterminate.. JS only: <code class="is-size-7">checkbox.indeterminate = true;</code>
     </label> 
 </div>
 
@@ -51,13 +55,9 @@
         <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
         I'm checked but disabled
     </label>
-<br>
-
-?> **A checkbox's label should always toggle the checkbox when clicked!**<br>Make sure the label's text is a direct child of `.checkbox`
-
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Toggle</strong></h2>
+<h3 class="title"><strong>Toggle</strong></h3>
 
 A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
 

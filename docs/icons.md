@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Foundation</h6><h1 class="title is-0 is-family-secondary is-size-1-mobile">Iconography</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium">Foundation</h6><h1 class="title is-family-secondary">Iconography</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-size-5-mobile is-family-secondary">
+<p class="subtitle is-4 is-family-secondary">
     <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-3"><br>
 
-<h2 class="title is-3"><strong>How to use</strong></h2>
+<h3 class="title"><strong>How to use</strong></h3>
 
 BDS iconography is available as an SVG sprite to include in your HTML page.<br>
 To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
@@ -15,7 +15,7 @@ To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
     <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Icons</strong></h2>
+<h3 class="title"><strong>Icons</strong></h3>
 
 Icons are mostly used to provide a visual accompaniment to other UI components.<br>
 They should **not be less than 32 pixels** (width and height).
@@ -24,7 +24,7 @@ They should **not be less than 32 pixels** (width and height).
 
 <br>
 
-<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
+<div class="columns is-multiline is-large is-mobile is-size-6 has-text-centered has-text-grey">
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#12-back"></use></svg></div>12-back</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident"></use></svg></div>accident</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident-pro"></use></svg></div>accident-pro</div>
@@ -110,14 +110,14 @@ They should **not be less than 32 pixels** (width and height).
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Glyphs</strong></h2>
+<h3 class="title"><strong>Glyphs</strong></h3>
 
 Glyphs are mostly used to be part of an actionable component (like a button or dropdown).
 <br>They should **not exceed 28 pixels** (width and height).
 
 <br><br>
 
-<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
+<div class="columns is-multiline is-mobile is-size-6 has-text-centered has-text-grey is-medium">
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident-g"></use></svg></div>accident-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#accident-pro-g"></use></svg></div>accident-pro-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#add-g"></use></svg></div>add-g</div>
@@ -217,13 +217,13 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title is-3"><strong>Logos</strong></h2>
+<h3 class="title"><strong>Logos</strong></h3>
 
 Logo icons should **not be less than 16px** (width and height).
 
 <br><br>
 
-<div class="columns is-multiline is-mobile is-size-7 has-text-centered has-text-grey">
+<div class="columns is-multiline is-mobile is-size-6 has-text-centered has-text-grey is-large">
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-care"><use xlink:href="media/bds-icons.min.svg#biings-care"></use></svg></div>biings-care</div>
