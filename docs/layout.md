@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Layout</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Layout</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
 <hr class="is-visible is-size-3"><br>
@@ -9,7 +9,7 @@
 
 Container is used to center your content horizontally. Alter the max width with the following modifiers:
 <br><br>
-<table class="table is-bordered">
+<table class="table is-bordered is-hoverable">
   <tr>
       <td class="is-narrow"><code>container</code></td>
       <td>Max <strong>1248px</strong>, with breakpoints</td>
@@ -38,15 +38,15 @@ Container is used to center your content horizontally. Alter the max width with 
 <h3 class="title"><strong>Section</strong></h3>
 
 Sections are used to handle **vertical spacing** as well as ensuring a minimum horizontal padding from the window. 
-Add class `is-medium` or `is-large` to fruther increase the vertical space.
+Add class `is-medium` or `is-large` to further increase the vertical space.
 
 <hr class="is-small">
 
-<div class="box is-medium has-background-white-bis is-marginless is-relaxed">
+<div class="box is-medium has-background-light is-marginless is-medium">
     <div class="section has-background-blue-lighter">
         Normal size
     </div>
-    <div class="section is-medium has-background-green-lighter">
+    <div class="section is-medium has-background-turquoise-lighter">
         Medium size
     </div>
 </div>
@@ -62,7 +62,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 
 <hr class="is-small">
 
-<div class="box has-background-white-bis is-marginless is-relaxed">
+<div class="box has-background-light is-marginless is-medium">
   <div class="columns is-multiline is-small has-text-white has-text-centered">
       <div class="column is-4">
         <div class="message has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
@@ -114,7 +114,7 @@ Use **Level items** when you need to vertically center elements on one line.
 
 <hr class="is-small">
 
-<div class="box has-background-white-bis is-marginless is-relaxed">
+<div class="box has-background-light is-marginless is-medium">
   <div class="level has-text-white">
     <div class="level-left">
       <div class="level-item"><div class="message has-background-red has-text-weight-semibold"><br>Item 1<br><br></div></div>
@@ -157,7 +157,7 @@ Use a **Spacer** (or Divider) as a visual help for grouping related content toge
 
 <hr>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-light is-large is-marginless">
     <hr class="is-visible">
     <br>
     <hr class="is-visible is-soft">

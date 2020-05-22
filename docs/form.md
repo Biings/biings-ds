@@ -1,9 +1,9 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Form</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Form</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Forms</span> are used for submitting data. Forms tend to become hard to navigate, use visually consistant fields to help users understand where to input text or select options.
 </p>
-<p class="subtitle is-4 is-family-secondary">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
+<p class="subtitle is-size-4-tablet is-family-secondary">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
 <hr class="is-visible is-size-2">
 
 <h3 class="title"><strong>Input field</strong></h3>
@@ -12,7 +12,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
 
 <br>
 
-<form class="box has-background-white-bis is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
+<form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
@@ -66,7 +66,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <hr>
 
-<div class="box has-background-white-bis is-medium is-marginless">
+<div class="box has-background-light is-radiusless-bl is-radiusless-br is-medium is-marginless">
     <form class="columns">
         <div class="column is-4">
             <div class="field">
@@ -102,9 +102,10 @@ In most cases it is better to indicate the optional fields rather than the requi
         <input id="textfieldRe" class="input" placeholder="Very important stuff"></textarea>
     </div>
 <hr class="is-visible is-size-1">
+
 <h3 class="title"><strong>Select field</strong></h3>
 
-<form class="box has-background-white-bis is-large is-marginless">
+<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="field select is-required is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
@@ -128,7 +129,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Dropdown Field</strong></h3>
 
-<form class="box has-background-white-bis is-large is-marginless">
+<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="dropdown is-hoverable is-fullwidth is-size-5">
         <div class="dropdown-trigger">
             <div class="field">
@@ -165,7 +166,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Checkbox / Radio field</strong></h3>
 
-<form class="box has-background-white-bis is-large is-marginless">
+<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="field">
         <label class="checkbox">
             <input type="checkbox"><span class="checkbox-mark"></span>
@@ -217,7 +218,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Compact Form</strong></h3>
 
-<form class="box has-background-white-bis is-large is-marginless">
+<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="columns is-gapless is-multiline">
         <div class="column is-6">
             <div class="field">
@@ -264,8 +265,9 @@ In most cases it is better to indicate the optional fields rather than the requi
 <hr>
 <br>
 
-<div class="box is-well has-text-grey">
+<div class="box is-well has-text-grey-dark">
     For stand-alone input field use &nbsp;→&nbsp; <a href="#/input"><strong>Input</strong></a>
-    <br>
+    <hr class="is-thin">
+    <hr class="is-thin">
     For simple dropdown lists use &nbsp;→&nbsp; <a href="#/dropdown"><strong>Dropdown</strong></a>
 </div>

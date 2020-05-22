@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Dropdown</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Dropdown</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     A <span class="has-text-weight-semibold">dropdown</span> presents either a list of actions or a tooltip with extra contextual information.
 </p>
 <hr class="is-visible is-size-3"><br>
@@ -342,6 +342,6 @@ Create a system default select list just by wrapping it with a `.select` div.
 
 <hr>
 
-<div class="box is-well has-text-grey">
+<div class="box is-well has-text-grey-dark">
     More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/">Bulma / <strong>Select</strong></a>
 </div>

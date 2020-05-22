@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Input</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Input</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Input fields</span> enable users to provide information.
 </p>
 <hr class="is-visible is-size-3">
@@ -11,7 +11,7 @@
 
 <h3 class="title"><strong>Input field variations</strong></h3>
 
-<br><form class="box is-large has-background-white-bis is-marginless" spellcheck="false">
+<br><form class="box is-large has-background-white-bis is-marginless is-radiusless-bl is-radiusless-br" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-7">
     <input class="input" type="tel" placeholder="Default and loading input">
@@ -49,7 +49,7 @@ You can add one or two icons inside the input.
 
 <hr>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
     <div class="columns is-variable is-5">
         <div class="column is-6">
             <p class="control has-icons-left">
@@ -80,6 +80,6 @@ You can add one or two icons inside the input.
 !> The icon tag should always be put right after the input tag.
 <hr>
 
-<a class="box is-well has-text-grey" href="https://bulma.io/documentation/form/input/" target="blank">
-    More options on &nbsp;→&nbsp; Bulma / <strong class="has-text-primary">Input</strong>
+<a class="box is-well has-text-grey-dark" href="https://bulma.io/documentation/form/input/" target="blank">
+    More options on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Input</strong>
 </a>

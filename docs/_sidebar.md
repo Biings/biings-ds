@@ -4,12 +4,13 @@
 
 - <span class="subtitle is-size-7 has-text-grey has-text-weight-medium is-uppercase">Foundation</span>
 <div class="menu is-small"><ul class="menu-list">
-- [Colors](color)
-- [Iconography](icons)
 - [Layout](layout)
-<!-- - [Rules](rules) -->
 - [Typography](typo)
 - [Voice & Tone](voice)
+- [Colors](color)
+- [Iconography](icons)
+<!-- - [Rules](rules) -->
+- [Modifiers](modifiers)
 </ul></div>
   
 - <span class="subtitle is-size-7 has-text-grey has-text-weight-medium is-uppercase">Components</span>

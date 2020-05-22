@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Modal</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Modal</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
 <hr class="is-visible is-size-2"><br>
@@ -10,8 +10,8 @@
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
 <br><br>
-<div class="box has-background-white-bis is-large has-text-centered is-marginless">
-    <div onclick="openModal('')" class="button is-beefy">Open Modal</div>
+<div class="box has-background-light is-large has-text-centered is-marginless is-radiusless-bl is-radiusless-br">
+    <div onclick="openModal('')" class="button is-beefy is-dark is-outlined">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white" onclick="closeModal('')"></div>
@@ -43,10 +43,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 
 <br>
 
-<div class="box has-background-white-bis is-large has-text-centered is-marginless">
-    <div onclick="openModal(1)" class="button is-beefy is-dark is-glowing">Modal Card Example 1</div>
-    &nbsp; 
-    <div onclick="openModal(2)" class="button is-beefy is-primary is-glowing">Modal Card Example 2</div>
+<div class="box has-background-light is-large has-text-centered is-marginless is-radiusless-bl is-radiusless-br">
+    <div onclick="openModal(1)" class="button is-dark is-shadowed">Modal Card Example 1</div>
+    &nbsp; &nbsp; 
+    <div onclick="openModal(2)" class="button is-primary is-shadowed">Modal Card Example 2</div>
 </div>
 <div id="js-modal1" class="modal">
     <div class="modal-background" onclick="closeModal(1)"></div>

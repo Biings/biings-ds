@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Loader</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Loader</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Loaders</span> are used when performing slow computations, notifying users that loading is underway.
 </p>
 <hr class="is-visible is-size-3">
@@ -15,7 +15,7 @@ Loaders automatically adapt to text size.<br>Use text size modifier classes `is-
 
 <br>
 
-<div class="box has-background-white-bis is-larger is-marginless">
+<div class="box has-background-light is-larger is-marginless is-radiusless-bl is-radiusless-br">
     <div class="level">
         <div class="level-item is-relative"><div class="loader"></div></div>
         <div class="level-item is-relative"><div class="loader is-size-3"></div></div>
@@ -37,7 +37,7 @@ Add class `is-inline` to remove the auto-centering of the loader.
 
 <br>
 
-<div class="box has-background-white-bis is-medium is-relative has-text-grey is-italic is-marginless">
+<div class="box has-background-light is-medium is-relative has-text-grey is-italic is-marginless is-radiusless-bl is-radiusless-br">
     <div class="loader is-inline"></div> Loading...
 </div>
 
@@ -50,7 +50,7 @@ Add class `is-colorful` to give the loader a unique Biings look.
 
 <br>
 
-<div class="box has-background-white-bis is-large is-relative">
+<div class="box has-background-light is-large is-relative">
     <div class="loader is-colorful is-size-2"></div>
 </div>
 
@@ -74,7 +74,7 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 
 <hr class="is-small">
 
-<div class="box has-background-white-bis is-large is-relative">
+<div class="box has-background-light is-large is-relative">
     <div class="loader is-indeterminate is-size-3"></div>
 </div>
 
@@ -86,7 +86,7 @@ A native progress bar can replace a loader.
 
 <hr class="is-small">
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-light is-large is-marginless is-radiusless-bl is-radiusless-br">
     <progress class="progress is-dark is-thin" max="100">25%</progress>
     <progress class="progress is-success is-small" value="30" max="100">30%</progress>
     <progress class="progress is-primary is-large" value="60" max="100">60%</progress>

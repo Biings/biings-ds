@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Message</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Message</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Message</span> allows to communicate information to the user. Messages can act as notifications or other kinds of alert messages.
 </p>
 <hr class="is-visible is-size-2"><br>
@@ -11,7 +11,7 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 
 <br><br>
 
-<div class="box is-medium has-background-white-bis is-marginless">
+<div class="box is-large has-background-light is-marginless is-radiusless-bl is-radiusless-br">
     <div class="message">Default Message.</div>
     <br>
     <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>
@@ -33,11 +33,11 @@ A Message can act as a notification when combined with a Modal. Put the message 
 
 <br><br>
 
-<div class="box has-background-white-bis is-medium is-marginless has-text-centered">
-    <div class="button is-rounded" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
-    <div class="button is-success is-rounded" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
-    <div class="button is-danger is-rounded" onclick="openModal('4')">Small Noti</div>&nbsp; &nbsp;
-    <div class="button is-primary is-shadowed is-rounded" onclick="openModal('5')">Medium Noti</div>
+<div class="box has-background-light is-large is-marginless has-text-centered is-radiusless-bl is-radiusless-br">
+    <div class="button is-white is-shadowed" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
+    <div class="button is-success is-shadowed" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
+    <div class="button is-danger is-shadowed" onclick="openModal('4')">Small Noti</div>&nbsp; &nbsp;
+    <div class="button is-primary is-shadowed" onclick="openModal('5')">Medium Noti</div>
 </div>
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
@@ -72,7 +72,3 @@ A Message can act as a notification when combined with a Modal. Put the message 
 ?> Small and normal-sized notifactions don't have the moving in animation.
 
 <hr>
-
-<a href="https://bulma.io/documentation/components/message/" target="blank" class="box is-well has-text-grey">
-    More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Message</strong>
-</a>

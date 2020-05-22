@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Button & Link</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Button & Link</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
 <hr class="is-visible is-size-3"><br>
@@ -153,8 +153,8 @@ Use a Link instead of a button when navigating or when the action is not primary
             <td><hr><code>disabled</code> attribute</td>
         </tr>
         <tr>
-            <td class="has-text-centered has-background-grey-light"><br><div class="button is-inverted is-primary">Inverted</div><br><br></td>
-            <td><hr><code>is-inverted is-primary</code> attribute</td>
+            <td class="has-text-centered has-background-black-ter"><br><div class="button is-inverted is-outlined is-primary">Inverted</div><br><br></td>
+            <td><hr><code>is-inverted is-primary is-outlined</code> attribute</td>
         </tr>
     </tbody>
 </table>

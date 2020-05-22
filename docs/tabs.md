@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Tabs</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Tabs</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Tabs</span> are used to quickly navigate between views within the same context.
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-marginless is-large">
+<div class="box has-background-light is-marginless is-large is-radiusless-bl is-radiusless-br">
     <div class="tabs">
         <ul>
             <li><a>Pilot</a></li>
@@ -32,7 +32,7 @@ Hanging Tabs have their active line placed above each item.
 
 <br>
 
-<div class="box has-background-white-bis is-marginless is-medium" style="padding-top: 0;">
+<div class="box has-background-light is-marginless is-medium is-radiusless-bl is-radiusless-br" style="padding-top: 0;">
     <div class="tabs is-hanging">
         <ul class="is-borderless">
             <li><a>These</a></li>
@@ -71,7 +71,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 
 <br><br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
     <div class="tabs is-toggle is-fullwidth is-toggle-rounded">
         <ul>
             <li class="is-active"><a>Insured</a>
@@ -103,7 +103,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
     <div class="tabs is-toggle is-fullwidth has-hr">
         <ul>
             <li id="js-tab-1" class="is-active"><a onclick="toggleTab(1)">Option A</a></li>
@@ -150,7 +150,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
 
 <br><br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
     <div class="tabs is-boxed is-marginless is-centered">
         <ul class="is-borderless">
             <li class="is-active"><a>Insured</a>

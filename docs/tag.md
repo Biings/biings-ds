@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Tag</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Tag</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Tags</span> are used for items that need to be labeled, categorized, or organized using keywords that describe them.
 </p>
 <hr class="is-visible is-size-3"><br>
@@ -49,6 +49,6 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <hr>
 
-<a href="http://bulma.io/documentation/elements/tag/" target="blank" class="box is-well has-text-grey">
+<a href="http://bulma.io/documentation/elements/tag/" target="blank" class="box is-well has-text-grey-dark">
     More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Tags</strong></a>
 </a>

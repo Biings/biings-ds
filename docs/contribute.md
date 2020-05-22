@@ -1,6 +1,6 @@
-<h1 class="title is-family-secondary has-text-weight-medium">How to contribute?</h1>
+<h1 class="title is-family-secondary is-size-2-mobile">How to contribute?</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     We welcome all feedback and ideas in order to produce the best possible experience for our users!
 </p>
 
@@ -17,23 +17,23 @@
 <br>
 <div class="has-text-weight-semibold">3 )&nbsp; Build it!</div>
 <br>
-<pre data-lang="bash">npm run build</pre>
+<pre data-lang="bash"><code>npm run build</code></pre>
 <br>
 <p>You can also build a specific part by calling the command directly:</p><br>
-<pre data-lang="bash">npm run styles</pre>
+<pre data-lang="bash"><code>npm run styles</code></pre>
 <br>
-<pre data-lang="bash">npm run icons</pre>
+<pre data-lang="bash"><code>npm run icons</code></pre>
 
 <br>
 <p class="has-text-weight-semibold">4 )&nbsp; Commit your code – Push! – and tag a new version</p>
 <br>
-<pre data-lang="bash">npm version x.x.x</pre>
+<pre data-lang="bash"><code>npm version x.x.x</code></pre>
 
 <br>
 <p class="has-text-weight-semibold">5 )&nbsp; Make it available</p>
 <br>
-<pre data-lang="bash">npm login // you need an NPM account first</pre>
+<pre data-lang="bash"><code>npm login // you need an NPM account first</code></pre>
 <br>
-<pre data-lang="bash">npm publish</pre>
+<pre data-lang="bash"><code>npm publish</code></pre>
 <br>
 <p class="has-text-weight-semibold">5 )&nbsp; Done. You can now tell everyone to "`npm update biings-ds`" 😇</p>

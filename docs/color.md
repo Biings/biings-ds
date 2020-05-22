@@ -1,6 +1,6 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Foundation</h6><h1 class="title is-family-secondary">Colors</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Foundation</h6><h1 class="title is-family-secondary is-size-2-mobile">Colors</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
+<p class="subtitle is-size-4-tablet is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
 <hr class="is-visible is-size-3">
 <br>
 <h3 class="title"><strong>Brand</strong></h3>
@@ -106,41 +106,6 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-blue-lighter"><br><br></div><strong>blue-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CEE5F6</span></div>
 </div>
 
-
-<hr class="is-size-1 is-visible">
-
-<h3 class="title"><strong>Color modifiers</strong></h3>
-
-Most elements and components have color variations thanks to modifiers with syntax <code>.is-[color]</code> (ex: <code>is-primary</code>, <code>is-dark</code>).
-
-<hr>
-
-<table class="table">
-<thead>
-    <tr><th>Target</th>
-    <th>Class pattern</th></tr>
-</thead>
-<tbody>
-    <tr><td>Background</td><td><code>has-background-[color]</code></td></tr>
-    <tr><td>Text</td><td><code>has-text-[color]</code></td></tr>
-    <tr><td>Icon</td><td><code>has-fill-[color]</code></td></tr>
-</tbody>
-</table>
-
-<strong>Blurred Background</strong><br>
-<p>You can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.</p>
-<br>
-<div class="box is-relative is-well is-bordered is-size-3 has-text-grey has-text-centered">
-    🖱
-    <hr class="is-thin is-wavy">
-    <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
-    <hr class="is-thin">
-    <span class="has-text-grey is-size-7">This is made just to demo the effect.</span>
-    <div class="has-background-blur has-background-white" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;" onmouseout="this.className='has-background-blur has-background-white'" onMouseOver="this.className=''"></div>
-</div>
-
-!> Blurred backgrounds are not visible IE and Firefox and fallback to the background-color.
-
 <hr class="is-size-1 is-visible">
 
 <h3 class="title"><strong>CSS variables</strong></h3>
@@ -160,11 +125,29 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
     }
 <hr class="is-size-1 is-visible">
 
-<div class="box is-large has-background-white-bis is-size-5">
+<h3 class="title"><strong>Blurred Background</strong></h3>
+
+Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
+
+<br><div class="box is-bordered is-small has-text-grey has-text-centered">
+    <div class="box is-relative is-marginless is-size-2">
+        🖱
+        <hr class="is-thin is-wavy">
+        <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
+        <div class="has-text-grey is-size-7">This is made just to demo the effect.</div>
+        <div class="has-background-blur has-background-white" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;" onmouseout="this.className='has-background-blur has-background-white'" onMouseOver="this.className=''"></div>
+    </div>    
+</div>
+
+!> Blurred backgrounds are not visible IE and Firefox and fallback to the background-color.
+
+<hr class="is-size-2">
+
+<div class="box is-larger is-bordered has-background-white-bis is-size-5">
     <span class="tag is-primary is-glowing is-small">Bonus</span>
     <hr class="is-thin is-wavy">
-    <p class="title is-4 has-text-primary-dark has-text-weight-bolder">Slack Theme</p>
-    <p class="subtitle is-6">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
+    <h3 class="title is-3 has-text-primary-dark has-text-weight-bolder is-spaced">Slack Theme 🎨</h3>
+    <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
     #241A2E,#2D2236,#8246AF,#FFFFFF,#2D2236,#EFECF2,#50B98C,#AA50B5,#241A2E,#EFECF2
 </div>

@@ -1,15 +1,15 @@
-<hr class="is-hidden-desktop is-smaller">
+<hr class="is-hidden-tablet is-size-7">
 <strong class="has-text-grey-light is-size-4 has-text-weight-bold">BDS</strong>
 <hr class="is-thin">
-<h1 class="title is-size-1-mobile has-text-weight-bolder">Biings <span class="has-text-weight-light">Design System</span></h1>
+<h1 class="title is-size-2-mobile has-text-weight-bolder">Biings <span class="has-text-weight-light">Design System</span></h1>
 <hr class="is-size-2 is-visible">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/color" class="box is-medium is-popping has-background-primary-dark">
+        <a href="#/layout" class="box is-medium is-popping has-background-primary-dark">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
             <div class="title has-text-white"><strong>Foundation</strong></div>
-            <p class="subtitle is-6 has-text-primary-lighter">Colors, icons, rules, etc</p>
+            <p class="subtitle is-6 has-text-primary-lighter">Layout, Typography, Color, etc</p>
         </a>
     </div>
     <div class="column is-half">
@@ -23,13 +23,13 @@
 </div>
 <hr>
 
-<p class="subtitle is-3 is-family-secondary has-text-dark">
+<p class="subtitle is-3 is-size-4-mobile is-family-secondary has-text-dark">
     BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
 </p>
 
 <hr>
 
-<div class="levels">
+<div class="level is-mobile">
     <div class="level-left">
         <div class="level-item">
             <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square"
@@ -38,7 +38,7 @@
         <div class="level-item has-text-grey-light">&nbsp;•</div>
         <div class="level-item">
             <a href="https://updates.biings.com/biings-ds"
-               class="is-size-6 is-ghost has-text-weight-medium">Changelog</a>
+               class="is-size-6 has-text-weight-medium">Changelog</a>
         </div>
     </div>
 </div>
@@ -67,7 +67,7 @@
             <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-6 has-text-grey">
-            <a href="#/contribute" class="button is-rounded is-dark is-glowing is-beefy">Start contributing</a>
+            <a href="#/contribute" class="button is-rounded is-dark is-shadowed is-beefy">Start contributing</a>
             <hr class="is-thin is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>

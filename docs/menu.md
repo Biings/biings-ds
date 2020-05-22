@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Menu</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Menu</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Menu</span> presents a list of links and should be used for content navigation.
 </p>
 <hr class="is-visible is-size-2">
 
-<div class="box is-large has-background-white-bis is-marginless">
+<div class="box is-large has-background-light is-marginless is-radiusless-bl is-radiusless-br">
     <div class="menu">
         <ul class="menu-list">
             <li><a>Biodata</a></li>
@@ -49,6 +49,6 @@
 
 <hr>
 
-<a href="https://bulma.io/documentation/components/menu/" target="blank" class="box is-well has-text-grey">
+<a href="https://bulma.io/documentation/components/menu/" target="blank" class="box is-well has-text-grey-dark">
     Find more possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Menu</strong>
 </a>

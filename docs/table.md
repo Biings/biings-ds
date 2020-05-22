@@ -1,11 +1,11 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium">Component</h6><h1 class="title is-family-secondary">Table</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Table</h1>
 <hr class="is-visible is-size-3">
-<p class="subtitle is-4 is-family-secondary">
+<p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Table</span> presents data sets in an easily scannable and comparable way.
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
     <table class="table is-striped is-hoverable">
         <thead>
             <tr>
@@ -74,6 +74,6 @@
 
 <hr>
 
-<a href="http://bulma.io/documentation/elements/table/" target="blank" class="box is-well has-text-grey">
+<a href="http://bulma.io/documentation/elements/table/" target="blank" class="box is-well has-text-grey-dark">
     More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Table</strong>
 </a>
