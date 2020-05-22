@@ -1,4 +1,5 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Foundation</h6><h1 class="title is-family-secondary is-size-2-mobile">Colors</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
+<h1 class="title is-family-secondary is-size-2-mobile">Colors</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-size-4-tablet is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
 <hr class="is-visible is-size-3">

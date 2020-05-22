@@ -1,4 +1,5 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Form</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
+<h1 class="title is-family-secondary is-size-2-mobile">Form</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Forms</span> are used for submitting data. Forms tend to become hard to navigate, use visually consistant fields to help users understand where to input text or select options.
@@ -66,7 +67,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <hr>
 
-<div class="box has-background-light is-radiusless-bl is-radiusless-br is-medium is-marginless">
+<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-medium is-marginless">
     <form class="columns">
         <div class="column is-4">
             <div class="field">
@@ -105,7 +106,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Select field</strong></h3>
 
-<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="field select is-required is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
@@ -129,7 +130,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Dropdown Field</strong></h3>
 
-<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="dropdown is-hoverable is-fullwidth is-size-5">
         <div class="dropdown-trigger">
             <div class="field">
@@ -166,7 +167,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Checkbox / Radio field</strong></h3>
 
-<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="field">
         <label class="checkbox">
             <input type="checkbox"><span class="checkbox-mark"></span>
@@ -218,7 +219,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title"><strong>Compact Form</strong></h3>
 
-<br><form class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="columns is-gapless is-multiline">
         <div class="column is-6">
             <div class="field">

@@ -1,11 +1,12 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Dropdown</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
+<h1 class="title is-family-secondary is-size-2-mobile">Dropdown</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     A <span class="has-text-weight-semibold">dropdown</span> presents either a list of actions or a tooltip with extra contextual information.
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button">Hover me</div>
@@ -60,7 +61,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <br>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-light is-large is-marginless">
     <div class="dropdown is-hoverable is-size-5">
         <div class="dropdown-trigger">
             <div class="button is-medium">Medium button dropdown</div>
@@ -74,7 +75,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
     </div>
     <div class="dropdown is-hoverable is-size-6 is-pulled-right is-right">
         <div class="dropdown-trigger">
-            <div class="button is-small is-text">Small text drp</div>
+            <div class="button is-small is-inverted is-dark">Small text drp</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -97,7 +98,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
 
 <hr>
 
-<div class="box has-background-white-bis is-medium is-marginless">
+<div class="box has-background-light is-large is-radiusless-bl is-radiusless-br is-marginless">
     <div class="level">
         <div class="level-item">
             <div class="dropdown is-iconless is-hoverable has-arrow">
@@ -179,10 +180,10 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
 <hr>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-light">Choose a value</div>
+            <div class="button is-light has-background-grey-lighter">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -231,11 +232,11 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 <hr>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
 
     <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
-            <div class="button is-light">
+            <div class="button is-light has-background-grey-lighter">
                 <span>With custom icon&nbsp;</span>
                 <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             </div>
@@ -292,7 +293,7 @@ Create a system default select list just by wrapping it with a `.select` div.
 
 <hr>
 
-<div class="box has-background-white-bis is-large is-marginless">
+<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="select is-small is-danger">
         <select>
             <option value="">Small</option>

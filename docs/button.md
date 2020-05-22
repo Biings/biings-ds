@@ -1,4 +1,5 @@
-<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-7-mobile">Component</h6><h1 class="title is-family-secondary is-size-2-mobile">Button & Link</h1>
+<h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
+<h1 class="title is-family-secondary is-size-2-mobile">Button & Link</h1>
 <hr class="is-visible is-size-3">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
@@ -168,7 +169,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
 
 <br>
 
-<div class="box is-medium has-background-white-bis is-marginless">
+<div class="box is-large has-background-light is-radiusless-bl is-radiusless-br is-marginless">
     <div class="level">
         <div class="level-item">
             <div class="button">
@@ -230,7 +231,7 @@ Buttons can be grouped together.
 
 <hr>
 
-<div class="box has-background-white-bis is-marginless is-large">
+<div class="box has-background-light is-radiusless-bl is-radiusless-br is-marginless is-large">
     <div class="field has-addons">
         <p class="control">
             <a class="button">Red</a>
