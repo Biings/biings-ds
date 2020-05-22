@@ -9,17 +9,8 @@
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <th rowspan="2" style="width: 5rem;">Spacing</th>
-            <td style="width: 14rem;"><code>is-marginless</code></td>
-            <td>Removes any <strong>margin</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-paddingless</code></td>
-            <td>Removes any <strong>padding</strong></td>
-        </tr>
-        <tr>
-            <th rowspan="5">Position</th>
-            <td><code>is-relative</code></td>
+            <th rowspan="5" style="width: 5rem;">Position</th>
+            <td style="width: 14rem;"><code>is-relative</code></td>
             <td>Applies <code>position: relative</code> to the element</td>
         </tr>
         <tr>
@@ -37,6 +28,15 @@
         <tr>
             <td><code>is-pulled-right</code></td>
             <td>Moves an element to the right</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Spacing</th>
+            <td><code>is-marginless</code></td>
+            <td>Removes any <strong>margin</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-paddingless</code></td>
+            <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
             <th rowspan="5">Radius</th>
