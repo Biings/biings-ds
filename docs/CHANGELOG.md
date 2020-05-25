@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=biings-ds&style=flat-square" alt="biings-ds">
+<h6 class="has-text-grey has-text-weight-medium is-size-5 is-size-6-mobile">Biings-DS</h6>
 <hr class="is-thin is-wavy">
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-3"><br>
