@@ -30,7 +30,7 @@
     </div>
 <br>
 
-?> A Card can have<em> regular </em>or<em> text </em>only buttons.
+?> A Card can have <u>regular</u> or <u>text</u> only buttons.
 
 <hr>
 

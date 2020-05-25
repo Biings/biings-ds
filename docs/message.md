@@ -8,7 +8,7 @@
 
 <h3 class="title"><strong>Default colors and sizes</strong></h3>
 
-Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, `is-danger`, `is-dark` as well as size modifiers `is-size-[0-7]`.
+Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, `is-danger`, `is-dark` as well as size modifiers `is-size-[1-7]`.
 
 <br><br>
 

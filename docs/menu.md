@@ -46,7 +46,7 @@
     </div>
 <br>
 
-?> Modifiers like `is-size-7` are supported.
+?> Modifiers like `is-small` or `is-size-7` are supported.
 
 <hr>
 

@@ -15,23 +15,6 @@
     <li>For hand-drawn text use <strong class="is-family-hand is-size-4">Caveat</strong> with modifier <code>is-family-hand</code></li>
 </ul>
 
-!> Any text immediatly following a <span class="is-family-secondary">Crimson Pro</span> header should <span style="text-decoration: underline;">always</span> use <span class="has-text-weight-bold">Averta</span>.
-
-<hr class="is-size-1 is-visible">
-<h3 class="title"><strong>Font weights</strong></h3>
-
-Use font weights to emphasize or differentiate content hierarchy.  
-Example: `has-text-weight-semibold`
-
-<ul class="list is-size-5">
-    <li><span class="has-text-weight-light">300 — Light</span></li>
-    <li><span class="has-text-weight-normal">400 — Normal / <span class="is-family-secondary">Light Serif</span></span></li>
-    <li><span class="has-text-weight-medium">500 — Medium / <span class="is-family-secondary">Medium Serif</span></span></li>
-    <li><span class="has-text-weight-semibold">600 — Semibold / <span class="is-family-secondary">Semibold Serif</span></span></li>
-    <li><span class="has-text-weight-bold">800 — Bold</span></li>
-    <li><span class="has-text-weight-bolder">900 — Bolder / <span class="is-family-secondary">Bolder Serif</span></span></li>
-</ul>
-
 <hr class="is-size-1 is-visible">
 <h3 class="title"><strong>Scales</strong></h3>
 
@@ -54,6 +37,21 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Use th
 </div>
 
 ?> Texts have an extra 7th size for use in special commponents.
+
+<hr class="is-size-1 is-visible">
+<h3 class="title"><strong>Font weights</strong></h3>
+
+Use font weights to emphasize or differentiate content hierarchy.  
+Example: `has-text-weight-semibold`
+
+<ul class="list is-size-5">
+    <li><span class="has-text-weight-light">300 — Light</span></li>
+    <li><span class="has-text-weight-normal">400 — Normal / <span class="is-family-secondary">Light Serif</span></span></li>
+    <li><span class="has-text-weight-medium">500 — Medium / <span class="is-family-secondary">Medium Serif</span></span></li>
+    <li><span class="has-text-weight-semibold">600 — Semibold / <span class="is-family-secondary">Semibold Serif</span></span></li>
+    <li><span class="has-text-weight-bold">800 — Bold</span></li>
+    <li><span class="has-text-weight-bolder">900 — Bolder / <span class="is-family-secondary">Bolder Serif</span></span></li>
+</ul>
 
 <hr class="is-size-1 is-visible">
 <h3 class="title"><strong>Emphasizers</strong></h3>
