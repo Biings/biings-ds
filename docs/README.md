@@ -32,13 +32,12 @@
 <div class="level is-mobile">
     <div class="level-left">
         <div class="level-item">
-            <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square"
-                 alt="biings-ds">
+            <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
         </div>
         <div class="level-item has-text-grey-light">&nbsp;•</div>
         <div class="level-item">
-            <a href="https://updates.biings.com/biings-ds"
-               class="is-size-6 has-text-weight-medium">Changelog</a>
+            <a href="#/CHANGELOG"
+               class="is-size-6 has-text-weight-medium">Release Notes</a>
         </div>
     </div>
 </div>
