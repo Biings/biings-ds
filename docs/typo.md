@@ -42,7 +42,7 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Use th
 <h3 class="title"><strong>Font weights</strong></h3>
 
 Use font weights to emphasize or differentiate content hierarchy.  
-Example: `has-text-weight-semibold`
+<i>Example:</i> `has-text-weight-semibold`
 
 <ul class="list is-size-5">
     <li><span class="has-text-weight-light">300 — Light</span></li>
@@ -83,20 +83,6 @@ Use one of the following classes to emphasize words or part of a text.
     
     Let's <em>highlight this in yellow</em>..
     Or <em class="is-primary">some of that in purple</em>.
-<hr class="is-small">
-
-<div class="box is-medium has-background-light is-marginless is-size-4 is-family-secondary is-radiusless-bl is-radiusless-br">
-    <p class="is-capitalized">this is capitalized</p>
-</div>
-
-    <p class="is-capitalized">this is capitalized</p>
-<hr class="is-small">
-
-<div class="box is-medium has-background-light is-marginless is-size-5 is-radiusless-bl is-radiusless-br">
-    <p class="is-italic">Lorem ipsum dolor sit amet.<p>
-</div>
-
-    <p class="is-italic">Lorem ipsum dolor sit amet.<p>
 <hr><br>
 
 <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank" class="box is-well has-text-grey-dark">

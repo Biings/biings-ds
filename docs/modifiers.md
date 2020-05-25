@@ -98,13 +98,37 @@
             </td>
         </tr>
         <tr>
-            <th rowspan="2">Text</th>
-            <td><code>is-unselectable</code></td>
-            <td>Prevents the text from being <strong>selectable</strong></td>
+            <th rowspan="8">Text</th>
+            <td><code>has-text-centered</code></td>
+            <td>Makes the text <strong>centered</strong></td>
         </tr>
         <tr>
-            <td><code>has-text-weight-[W]</code></td>
-            <td>Changes text weight to <code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code>.</td>
+            <td><code>has-text-[left|right]</code></td>
+            <td>Makes the text <strong>aligned</strong> to the <code>left</code> or <code>right</code></td>
+        </tr>
+        <tr>
+            <td><code>has-text-weight-[w]</code></td>
+            <td>Changes text <strong>weight</strong> to <code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code>.</td>
+        </tr>
+        <tr>
+            <td><code>is-capitalized</code></td>
+            <td>Transforms the first character of each word to <strong>uppercase</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-lowercase</code></td>
+            <td>Transforms all characters to <strong>lowercase</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-uppercase</code></td>
+            <td>Transforms all characters to <strong>uppercase</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-italic</code></td>
+            <td>Transforms all characters to <strong>italic</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-unselectable</code></td>
+            <td>Prevents the text from being <strong>selectable</strong></td>
         </tr>
         <tr>
             <th rowspan="3">Color</th>
