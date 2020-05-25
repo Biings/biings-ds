@@ -122,7 +122,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <li><a>Forty Six</a></li>
                 </ul>
             </div>
-            <form class="box has-background-white-bis">
+            <form class="box is-small">
                 <div class="field">
                     <label for="fieldId" class="label">Field example 2</label>
                     <input id="fieldId" class="input" type="text" placeholder="Some input">
@@ -131,15 +131,15 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <label for="fieldId" class="label">Field example 2</label>
                     <input id="fieldId" class="input" type="text" placeholder="Another input">
                 </div>
+                <div class="message is-info is-size-6">
+                    The Header and Footer can be removed for a slimer design.
+                </div>
             </form>
-            <div class="message is-info is-size-6">
-                The Header and Footer can be removed for a slimer design.
+            <div class="has-text-left">
+                <div class="button is-text is-smll">Save</div>
+                <div class="button is-text is-smal has-text-grey">Cancel</div>
             </div>
         </section>
-        <footer class="modal-card-foot">
-            <div class="button is-text">Save</div>
-            <div class="button is-text has-text-grey">Cancel</div>
-        </footer>
     </div>
 </div>
 
@@ -179,17 +179,15 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <label for="fieldId" class="label">Field example</label>
                     <input id="fieldId" class="input" type="text">
                 </div>
-                <form class="box">
+                <form class="box is-small">
                     <div class="field">
                         <label for="fieldId2" class="label">Field example</label>
                         <input id="fieldId2" class="input" type="text" placeholder="Some input">
                     </div>
                 </form>
-            </section>
-            <footer class="modal-card-foot">
                 <div class="button is-text">Primary Action</div>
                 <div class="button is-text">Cancel</div>
-            </footer>
+            </section>
         </div>
     </div>
 <br>
