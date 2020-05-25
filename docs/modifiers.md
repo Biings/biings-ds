@@ -9,25 +9,54 @@
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <th rowspan="5" style="width: 5rem;">Position</th>
-            <td style="width: 14rem;"><code>is-relative</code></td>
-            <td>Applies <code>position: relative</code> to the element</td>
+            <th rowspan="3">Color</th>
+            <td><code>has-text-[color]</code></td>
+            <td>Changes the color of the <strong>text</strong>, <i>uses BDS color names</i></td>
         </tr>
         <tr>
-            <td><code>is-overlay</code></td>
-            <td>Completely covers the first positioned parent</td>
+            <td><code>has-background-[color]</code></td>
+            <td>Changes the <strong>background</strong> color</td>
         </tr>
         <tr>
-            <td><code>is-clearfix</code></td>
-            <td>Fixes an element's floating children</td>
+            <td><code>has-fill-[color]</code></td>
+            <td>Changes the fill color of an <strong>SVG</strong></td>
         </tr>
         <tr>
-            <td><code>is-pulled-left</code></td>
-            <td>Moves an element to the left</td>
+            <th rowspan="9">Text</th>
+            <td><code>is-size-[1–7]</code></td>
+            <td>Changes the text <strong>size</strong> – default is <code>5</code></td>
         </tr>
         <tr>
-            <td><code>is-pulled-right</code></td>
-            <td>Moves an element to the right</td>
+            <td><code>has-text-centered</code></td>
+            <td>Makes the text <strong>centered</strong></td>
+        </tr>
+        <tr>
+            <td><code>has-text-[left|right]</code></td>
+            <td>Makes the text <strong>aligned</strong> to the <code>left</code> or <code>right</code></td>
+        </tr>
+        <tr>
+            <td><code>has-text-weight-[w]</code></td>
+            <td>Changes text <strong>weight</strong> to <code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code>.</td>
+        </tr>
+        <tr>
+            <td><code>is-capitalized</code></td>
+            <td>Transforms the first character of each word to <strong>uppercase</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-lowercase</code></td>
+            <td>Transforms all characters to <strong>lowercase</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-uppercase</code></td>
+            <td>Transforms all characters to <strong>uppercase</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-italic</code></td>
+            <td>Transforms all characters to <strong>italic</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-unselectable</code></td>
+            <td>Prevents the text from being <strong>selectable</strong></td>
         </tr>
         <tr>
             <th rowspan="2">Spacing</th>
@@ -98,50 +127,25 @@
             </td>
         </tr>
         <tr>
-            <th rowspan="8">Text</th>
-            <td><code>has-text-centered</code></td>
-            <td>Makes the text <strong>centered</strong></td>
+            <th rowspan="5" style="width: 5rem;">Position</th>
+            <td style="width: 14rem;"><code>is-relative</code></td>
+            <td>Applies <code>position: relative</code> to the element</td>
         </tr>
         <tr>
-            <td><code>has-text-[left|right]</code></td>
-            <td>Makes the text <strong>aligned</strong> to the <code>left</code> or <code>right</code></td>
+            <td><code>is-overlay</code></td>
+            <td>Completely covers the first positioned parent</td>
         </tr>
         <tr>
-            <td><code>has-text-weight-[w]</code></td>
-            <td>Changes text <strong>weight</strong> to <code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code>.</td>
+            <td><code>is-clearfix</code></td>
+            <td>Fixes an element's floating children</td>
         </tr>
         <tr>
-            <td><code>is-capitalized</code></td>
-            <td>Transforms the first character of each word to <strong>uppercase</strong></td>
+            <td><code>is-pulled-left</code></td>
+            <td>Moves an element to the left</td>
         </tr>
         <tr>
-            <td><code>is-lowercase</code></td>
-            <td>Transforms all characters to <strong>lowercase</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-uppercase</code></td>
-            <td>Transforms all characters to <strong>uppercase</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-italic</code></td>
-            <td>Transforms all characters to <strong>italic</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-unselectable</code></td>
-            <td>Prevents the text from being <strong>selectable</strong></td>
-        </tr>
-        <tr>
-            <th rowspan="3">Color</th>
-            <td><code>has-text-[color]</code></td>
-            <td>Changes the color of the <strong>text</strong>, <i>uses BDS color names</i></td>
-        </tr>
-        <tr>
-            <td><code>has-background-[color]</code></td>
-            <td>Changes the <strong>background</strong> color</td>
-        </tr>
-        <tr>
-            <td><code>has-fill-[color]</code></td>
-            <td>Changes the fill color of an <strong>SVG</strong></td>
+            <td><code>is-pulled-right</code></td>
+            <td>Moves an element to the right</td>
         </tr>
     </tbody>
 </table>

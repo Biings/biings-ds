@@ -9,16 +9,16 @@
 <h3 class="title"><strong>Font family</strong></h3>
 
 <ul class="list">
-    <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-semibold">Averta</span> as its main font family (with a purchased licence).</li>
-    <li>For important headings use <strong class="is-family-secondary has-text-weight-semibold is-size-5">Crimson Pro</strong> with modifier <code>is-family-secondary</code></li>
-    <li>When a Monospace font is required use <strong class="is-family-monospace has-text-weight-bold">Roboto Mono</strong> with modifier <code>is-family-monospace</code></li>
-    <li>For hand-drawn text use <strong class="is-family-hand is-size-4">Caveat</strong> with modifier <code>is-family-hand</code></li>
+    <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its main font family (with a purchased licence).</li>
+    <li>For important headings use <span class="is-family-secondary">Crimson Pro</span> with modifier <code>is-family-secondary</code></li>
+    <li>When a Monospace font is required use <span class="is-family-monospace">Roboto Mono</span> with modifier <code>is-family-monospace</code></li>
+    <li>For hand-drawn text use <span class="is-family-hand">Caveat</span> with modifier <code>is-family-hand</code></li>
 </ul>
 
 <hr class="is-size-1 is-visible">
 <h3 class="title"><strong>Scales</strong></h3>
 
-Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Use the modifier syntax <code>is-[1-6]</code> for titles, and <code>is-size-[1-7]</code> for texts.
+Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Headers tags (`h1` to `h6`) with class `title` will be sized automatically.
 
 <hr>
 
@@ -36,7 +36,9 @@ Titles and subtitles have sizes ranging from 1 (biggest) to 6 (smallest). Use th
     <h6 class="title is-6">H6 Title</h6><div class="subtitle is-size-7 has-text-grey">Tiny text size</div>
 </div>
 
-?> Texts have an extra 7th size for use in special commponents.
+<br>
+
+?> Texts have an extra 7th size for use in special components.
 
 <hr class="is-size-1 is-visible">
 <h3 class="title"><strong>Font weights</strong></h3>
