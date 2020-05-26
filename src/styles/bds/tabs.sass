@@ -115,6 +115,11 @@
 .tabs.is-toggle.is-toggle-rounded  li:last-child
     border-radius: 0 $radius-rounded $radius-rounded 0
 
+.tabs.is-toggle.is-toggle-rounded li:first-child > a
+    border-radius: 2em $tabs-toggle-link-radius $tabs-toggle-link-radius 2em
+.tabs.is-toggle.is-toggle-rounded li:last-child > a
+    border-radius: $tabs-toggle-link-radius 2em 2em $tabs-toggle-link-radius
+
 .tabs.is-toggle.is-toggle-rounded.has-hr > ul,
 .tabs.is-toggle.is-toggle-rounded.has-hr > ul > hr
     border-radius: $radius-rounded
