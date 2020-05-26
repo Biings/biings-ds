@@ -22,12 +22,10 @@ Add class `has-skeleton` to any empty component to show its skeleton.
 <hr class="is-small">
 
 <div class="box has-background-white-bis is-medium is-marginless is-radiusless-bl is-radiusless-br">
-    <div class="avatar"><div class="has-skeleton"></div></div><br><br>
     <div class="box has-skeleton"></div>
-    <div class="message has-skeleton"></div>
-    <br>
-    <div class="message has-skeleton"></div>
-    <br>
+    <div class="box has-skeleton"></div>
+    <div class="box has-skeleton"></div>
+    <div class="avatar"><div class="has-skeleton"></div></div><br><br>
     <div class="box message has-skeleton is-danger is-size-6">
         The skeleton is visible <strong>only if the content is empty</strong>.
     </div>
@@ -35,8 +33,8 @@ Add class `has-skeleton` to any empty component to show its skeleton.
 
     <div class="avatar"><div class="has-skeleton"></div></div>
     <div class="box has-skeleton"></div>
-    <div class="message has-skeleton"></div>
-    <div class="message has-skeleton"></div>
+    <div class="box has-skeleton"></div>
+    <div class="box has-skeleton"></div>
     <div class="message has-skeleton">
         The skeleton is visible only if the content is empty.
     </div>

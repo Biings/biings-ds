@@ -1,22 +1,19 @@
 .has-skeleton:empty
     min-height: 1.5em
     background-color: rgba(200, 195, 207, .2)
-    background-image: linear-gradient(100deg, rgba(223, 219, 229, 0) 0px, rgba(223, 219, 229, .7) 20%, rgba(223, 219, 229, 0) 40%)
-    background-size: 200%
+    background-image: linear-gradient(100deg, rgba($grey-lighter, 0) 0px, rgba($grey-lighter, .7) 20%, rgba($grey-lighter, 0) 40%)
+    background-size: 60rem
     content: ''
-    animation: skeleton-shine 1.8s infinite linear
+    animation: skeleton-shine 1.5s infinite linear
 
-.has-skeleton:empty:first-child
-    background-color: rgba(200, 195, 207, .2)
+.has-skeleton:nth-child(2)
+    animation-duration: 2s
 
-.has-skeleton.is-odd
-    width: 50%
-
-.avatar > .has-skeleton
-    background-image: linear-gradient(100deg, rgba(223, 219, 229, 0) 0px, rgba(223, 219, 229, .7) 30%, rgba(223, 219, 229, 0) 70%)
+.has-skeleton:nth-child(3)
+    animation-duration: 2.5s
 
 @keyframes skeleton-shine
     0%
-        background-position: 100%
+        background-position: -30rem
     100%
-        background-position: -100%
+        background-position: 30rem
