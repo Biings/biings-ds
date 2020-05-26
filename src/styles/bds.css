@@ -6,5 +6,5 @@
     █▄▄█ ▄█▄ ▄█▄ ░█──▀█ ░█▄▄█ ░█▄▄▄█ 
 */
 
-@import 'fontfaces.css';
-@import 'bulma-bds.css';
+@import 'bds_fontfaces.css';
+@import 'bds_temporary.css';
