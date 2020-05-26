@@ -286,14 +286,14 @@ $strong-weight: $weight-semibold !default
 
 $box-color: $text
 $box-background-color: transparent
-$box-radius: 0.5em
+$box-radius: .5em
 $box-shadow: none
 $box-padding: 1.25rem 1.375rem
 $box-link-hover-shadow: !default
 $box-link-active-shadow: !default
 
 $menu-item-color: $dark !default
-$menu-item-radius: $radius !default
+$menu-item-radius: $box-radius !default
 $menu-item-hover-color: $dark !default
 $menu-item-hover-background-color: $border-hover !default
 $menu-item-active-color: $white !default
@@ -307,8 +307,8 @@ $modal-card-body-background-color: white !default
 $modal-card-head-background-color: white !default
 $modal-card-head-border-bottom: none !default
 $modal-card-foot-border-top: 2px solid $light !default
-$modal-card-head-radius: 0.5rem !default
-$modal-card-foot-radius: 0.5rem !default
+$modal-card-head-radius: $box-radius !default
+$modal-card-foot-radius: $box-radius !default
 $modal-card-head-padding: 1.75rem 2.25rem !default
 $modal-card-body-padding: 2rem 2.25rem !default
 $modal-card-title-color: $dark !default
@@ -324,7 +324,7 @@ $modal-content-spacing-tablet: 3% !default
 $dropdown-item-color: $text !default
 $dropdown-content-shadow: 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
 $dropdown-item-hover-background-color: $menu-item-hover-background-color !default
-$dropdown-content-radius: $radius !default
+$dropdown-content-radius: $box-radius !default
 $dropdown-item-active-color: $primary !default
 $dropdown-item-active-background-color: mix($primary,$dropdown-item-hover-background-color,3) !default
 $dropdown-divider-background-color: $hr-background-color !default
@@ -402,7 +402,7 @@ $tabs-toggle-link-active-color: $text !default
 $card-content-padding: 1.5em 2.25em 1.625em !default
 $card-footer-border-top: none !default
 $card-footer-padding: 0.5em 2.25em 1.375em !default
-$card-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.09), 0 0px 0 1px rgba($scheme-invert, 0.035) !default
+$card-shadow: 0 0.25em .5em -0.125em rgba($scheme-invert, 0.075), 0 0px 0 2px rgba($scheme-invert, 0.02) !default
 
 // Progress bar
 $progress-bar-background-color: $light !default

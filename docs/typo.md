@@ -58,7 +58,7 @@ Use font weights to emphasize or differentiate content hierarchy.
 <hr class="is-size-1 is-visible">
 <h3 class="title"><strong>Emphasizers</strong></h3>
 
-Use one of the following classes to emphasize words or part of a text.
+Use one of the following tags to emphasize words or part of a text.
 
 
 <hr class="is-small">

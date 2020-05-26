@@ -22,21 +22,25 @@
             <td>Changes the fill color of an <strong>SVG</strong></td>
         </tr>
         <tr>
-            <th rowspan="9">Text</th>
-            <td><code>is-size-[1–7]</code></td>
-            <td>Changes the text <strong>size</strong> – default is <code>5</code></td>
+            <th rowspan="10">Text</th>
+            <td><code>is-size-[1 to 7]</code></td>
+            <td>Changes the <strong>text size</strong> – default is <code>5</code></td>
+        </tr>
+        <tr>
+            <td><code>has-text-left</code></td>
+            <td>Makes the text <strong>align to the left</strong></td>
+        </tr>
+        <tr>
+            <td><code>has-text-right</code></td>
+            <td>Makes the text <strong>align to the right</strong></td>
         </tr>
         <tr>
             <td><code>has-text-centered</code></td>
             <td>Makes the text <strong>centered</strong></td>
         </tr>
         <tr>
-            <td><code>has-text-[left|right]</code></td>
-            <td>Makes the text <strong>aligned</strong> to the <code>left</code> or <code>right</code></td>
-        </tr>
-        <tr>
             <td><code>has-text-weight-[w]</code></td>
-            <td>Changes text <strong>weight</strong> to <code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code>.</td>
+            <td>Changes text <strong>weight</strong> to:<br><code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code></td>
         </tr>
         <tr>
             <td><code>is-capitalized</code></td>
