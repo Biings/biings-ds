@@ -1,16 +1,16 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Input</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Input fields</span> enable users to provide information.
 </p>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 
 ?> **Building a big fat form?**<br>Use <a href="#/form" class="is-underlined">Form fields</a> for better readability.
 
 <hr class="is-size-4">
 
-<h3 class="title"><strong>Input field variations</strong></h3>
+<h4 class="title"><strong>Input field variations</strong></h4>
 
 <br><form class="box is-large has-background-white-bis is-marginless is-radiusless-bl is-radiusless-br" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
@@ -44,7 +44,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>With Icons</strong></h3>
+<h4 class="title"><strong>With Icons</strong></h4>
 
 You can add one or two icons inside the input.
 

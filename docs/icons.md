@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Iconography</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-4"><br>
 
-<h3 class="title"><strong>How to use</strong></h3>
+<h4 class="title"><strong>How to use</strong></h4>
 
 BDS iconography is available as an SVG sprite to include in your HTML page.<br>
 To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
@@ -16,7 +16,7 @@ To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
     <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Icons</strong></h3>
+<h4 class="title"><strong>Icons</strong></h4>
 
 Icons are mostly used to provide a visual accompaniment to other UI components.<br>
 They should **not be less than 32 pixels** (width and height).
@@ -108,7 +108,7 @@ They should **not be less than 32 pixels** (width and height).
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Glyphs</strong></h3>
+<h4 class="title"><strong>Glyphs</strong></h4>
 
 Glyphs are mostly used to be part of an actionable component (like a button or dropdown).
 <br>They should **not exceed 28 pixels** (width and height).
@@ -213,7 +213,7 @@ Glyphs are mostly used to be part of an actionable component (like a button or d
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Logos</strong></h3>
+<h4 class="title"><strong>Logos</strong></h4>
 
 Logo icons should **not be less than 16px** (width and height).
 

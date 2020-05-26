@@ -59,7 +59,7 @@ form .field
 .field > input,
 .field > textarea,
 .field > select,
-.field.select > select,
+.field.select > select:not(:focus),
 .field.select > select:active,
 .field > label.checkbox,
 .field > label.radio
@@ -68,8 +68,8 @@ form .field
 
 .field > input:hover:not(:focus),
 .field > textarea:hover:not(:focus),
-.field > select:hover,
-.field.select > select:hover,
+.field > select:hover:not(:active),
+.field.select > select:hover:not(:active),
 .field > label.checkbox:hover:not(:active),
 .field > label.radio:hover:not(:active)
     border-color: $grey-light
@@ -180,7 +180,9 @@ form .field
 // Compact form field (in gapless columns)
 .is-gapless > .column > .field
     margin: -1px
-.is-gapless > .column > .field > input:focus
+.is-gapless > .column > .field > input:focus,
+.is-gapless > .column > .field > select:focus
     z-index: 2
-.is-gapless > .column > .field > input:hover
+.is-gapless > .column > .field > input:hover,
+.is-gapless > .column > .field > select:hover
     z-index: 1

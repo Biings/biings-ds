@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Button & Link</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-4"><br>
 
-<h3 class="title"><strong>Button defaults</strong></h3>
+<h4 class="title"><strong>Button defaults</strong></h4>
 
 <br>
 
@@ -69,7 +69,7 @@
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Link</strong></h3>
+<h4 class="title"><strong>Link</strong></h4>
 
 Use a Link instead of a button when navigating or when the action is not primary.
 
@@ -103,7 +103,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Sizes, states and shapes</strong></h3>
+<h4 class="title"><strong>Sizes, states and shapes</strong></h4>
 
 <hr>
 
@@ -162,7 +162,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Icon Button</strong></h3>
+<h4 class="title"><strong>Icon Button</strong></h4>
 
 Buttons can be enhanced by adding an icon or be an icon button.  
 Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
@@ -225,7 +225,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Button Group</strong></h3>
+<h4 class="title"><strong>Button Group</strong></h4>
 
 Buttons can be grouped together.
 

@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Menu</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Menu</span> presents a list of links and should be used for content navigation.
 </p>
-<hr class="is-visible is-size-2">
+<hr class="is-visible is-size-3">
 
 <div class="box is-large has-background-light is-marginless is-radiusless-bl is-radiusless-br">
     <div class="menu">

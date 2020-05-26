@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Dropdown</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     A <span class="has-text-weight-semibold">dropdown</span> presents either a list of actions or a tooltip with extra contextual information.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-4"><br>
 
 <div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="dropdown is-hoverable">
@@ -55,7 +55,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Sizes</strong></h3>
+<h4 class="title"><strong>Sizes</strong></h4>
     
 Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[1–7]` to adjust the size of the arrow.
 
@@ -88,7 +88,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Tooltips</strong></h3>
+<h4 class="title"><strong>Tooltips</strong></h4>
 
 Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
 
@@ -174,7 +174,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Searchable list</strong></h3>
+<h4 class="title"><strong>Searchable list</strong></h4>
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
@@ -226,7 +226,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Custom icon</strong></h3>
+<h4 class="title"><strong>Custom icon</strong></h4>
 
 Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
 
@@ -287,7 +287,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 <a id="selectlist"></a>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Select list</strong></h3>
+<h4 class="title"><strong>Select list</strong></h4>
 
 Create a system default select list just by wrapping it with a `.select` div.
 

@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Modal</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
-<hr class="is-visible is-size-2"><br>
+<hr class="is-visible is-size-4"><br>
 
-<h3 class="title"><strong>Basic usage</strong></h3>
+<h4 class="title"><strong>Basic usage</strong></h4>
 
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
@@ -38,7 +38,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Modal Card</strong></h3>
+<h4 class="title"><strong>Modal Card</strong></h4>
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 
@@ -57,7 +57,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title">
                 Modal Card Example
             </div>
-            <button onclick="closeModal(1)" class="delete is-huge is-inverted" aria-label="close"></button>
+            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
             <h4 class="title"><strong>Can handle of lot of content..</strong></h4>
@@ -107,11 +107,11 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-background" onclick="closeModal(2)"></div>
     <div class="modal-card">
         <section class="modal-card-body has-text-centered">
-            <button onclick="closeModal(2)" class="delete is-huge is-inverted" aria-label="close"></button>
+            <button onclick="closeModal(2)" class="delete is-large is-inverted" aria-label="close"></button>
             <div class="modal-card-title">
-                <svg class="icon is-size-2 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
+                <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
                 <hr class="is-thin is-wavy">
-                <h2 class="title is-family-secondary">Modal Card Example</h2>
+                <h3 class="title is-family-secondary">Modal Card Example</h3>
             </div>
             <hr class="is-thin is-wavy">
             <p class="subtitle is-6 has-text-grey">You could also insert centered tabs to make<br>this modal even more versatile.</p>
@@ -122,7 +122,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <li><a>Forty Six</a></li>
                 </ul>
             </div>
-            <form class="box is-small">
+            <form>
                 <div class="field">
                     <label for="fieldId" class="label">Field example 2</label>
                     <input id="fieldId" class="input" type="text" placeholder="Some input">
@@ -131,15 +131,12 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     <label for="fieldId" class="label">Field example 2</label>
                     <input id="fieldId" class="input" type="text" placeholder="Another input">
                 </div>
-                <div class="message is-info is-size-6">
-                    The Header and Footer can be removed for a slimer design.
-                </div>
             </form>
-            <div class="has-text-left">
-                <div class="button is-text is-smll">Save</div>
-                <div class="button is-text is-smal has-text-grey">Cancel</div>
-            </div>
         </section>
+        <footer class="modal-card-foot is-borderless">
+            <div class="button is-text is-small">Save</div>
+            <div class="button is-text is-small has-text-grey">Cancel</div>
+        </footer>
     </div>
 </div>
 
@@ -173,7 +170,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <section class="modal-card-body has-text-centered">
                 <button class="delete" aria-label="close"></button>
                 <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
-                <h3 class="title">Title</h2>
+                <h3 class="title">Title</h3>
                 <p class="subtitle">A text...</p>
                 <div class="field">
                     <label for="fieldId" class="label">Field example</label>

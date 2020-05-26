@@ -1,13 +1,13 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Form</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Forms</span> are used for submitting data. Forms tend to become hard to navigate, use visually consistant fields to help users understand where to input text or select options.
 </p>
 <p class="subtitle is-size-4-tablet is-family-secondary">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
-<hr class="is-visible is-size-2">
+<hr class="is-visible is-size-4"><br>
 
-<h3 class="title"><strong>Input field</strong></h3>
+<h4 class="title"><strong>Input field</strong></h4>
 
 Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to change the status.
 
@@ -59,7 +59,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
         </div>
     </form>
 <hr class="is-visible is-size-1">
-<h3 class="title"><strong>Required or Optional</strong></h3>
+<h4 class="title"><strong>Required or Optional</strong></h4>
 
 In most cases it is better to indicate the optional fields rather than the required ones. Add a `span` inside the label saying "Optional" is the way to go.
 
@@ -104,7 +104,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Select field</strong></h3>
+<h4 class="title"><strong>Select field</strong></h4>
 
 <br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="field select is-required is-warning">
@@ -128,7 +128,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Dropdown Field</strong></h3>
+<h4 class="title"><strong>Dropdown Field</strong></h4>
 
 <br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="dropdown is-hoverable is-fullwidth is-size-5">
@@ -165,7 +165,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Checkbox / Radio field</strong></h3>
+<h4 class="title"><strong>Checkbox / Radio field</strong></h4>
 
 <br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="field">
@@ -217,7 +217,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Compact Form</strong></h3>
+<h4 class="title"><strong>Compact Form</strong></h4>
 
 <br><form class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
     <div class="columns is-gapless is-multiline">
@@ -240,9 +240,13 @@ In most cases it is better to indicate the optional fields rather than the requi
             </div>
         </div>
         <div class="column is-6">
-            <div class="field">
+            <div class="field select">
                 <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input is-radiusless"></input>
+                <select id="compact1" class="is-radiusless">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
             </div>
         </div>
         <div class="column is-12">

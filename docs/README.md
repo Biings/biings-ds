@@ -23,7 +23,7 @@
 </div>
 <hr>
 
-<p class="subtitle is-3 is-size-4-mobile is-family-secondary has-text-dark">
+<p class="subtitle is-family-secondary has-text-dark">
     BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
 </p>
 
@@ -44,7 +44,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title"><strong>Quick start</strong></h3><br>
+<h4 class="title"><strong>Quick start</strong></h4><br>
 
 <strong>1 )</strong> Install BDS in your project using the npm package <strong>biings-ds</strong>.<br><br>
 

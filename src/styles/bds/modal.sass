@@ -61,7 +61,9 @@
     font-family: $family-secondary
 
 .modal-card-head > .delete,
-.modal-card-body > .delete
+.modal-card-body > .delete,
+.modal-card-head > .modal-close,
+.modal-card-body > .modal-close
     border-radius: $radius-small
 
 .modal-card-head > .delete
@@ -92,9 +94,8 @@
     border-bottom-right-radius: $modal-card-head-radius
     border-bottom-left-radius: $modal-card-head-radius
 
-.modal-card-foot
-    display: block
-    background-color: $white-bis
+.modal-card-foot.is-borderless
+    padding-top: 0
 
 .modal-card-foot .button:not(:last-child)
     margin-right: 0

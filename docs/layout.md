@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Layout</h1>
-<hr class="is-visible is-size-3">
+<hr class="is-visible is-size-4">
 <p class="subtitle is-size-4-tablet is-family-secondary">
     <span class="has-text-weight-semibold">Layout</span> is the page structure in which content and components live.
 </p>
-<hr class="is-visible is-size-3"><br>
+<hr class="is-visible is-size-4"><br>
 
-<h3 class="title"><strong>Container</strong></h3>
+<h4 class="title"><strong>Container</strong></h4>
 
 Container is used to center your content horizontally. Alter the max width with the following modifiers:
 <br><br>
@@ -36,7 +36,7 @@ Container is used to center your content horizontally. Alter the max width with 
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Section</strong></h3>
+<h4 class="title"><strong>Section</strong></h4>
 
 Sections are used to handle **vertical spacing** as well as ensuring a minimum horizontal padding from the window. 
 Add class `is-medium` or `is-large` to further increase the vertical space.
@@ -57,7 +57,7 @@ Add class `is-medium` or `is-large` to further increase the vertical space.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Columns</strong></h3>
+<h4 class="title"><strong>Columns</strong></h4>
 
 Columns are used to structure content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
 
@@ -109,7 +109,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
   
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Level</strong></h3>
+<h4 class="title"><strong>Level</strong></h4>
 
 Use **Level items** when you need to vertically center elements on one line.
 
@@ -144,7 +144,7 @@ Use **Level items** when you need to vertically center elements on one line.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title"><strong>Spacer</strong></h3>
+<h4 class="title"><strong>Spacer</strong></h4>
 
 Use a **Spacer** (or Divider) as a visual help for grouping related content together. It is used to define thematic changes in a layout.
 
