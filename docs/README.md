@@ -1,14 +1,14 @@
 <hr class="is-hidden-tablet is-size-7">
 <strong class="has-text-grey-light is-size-4 has-text-weight-bold">BDS</strong>
 <hr class="is-thin">
-<h1 class="title is-size-2-mobile has-text-weight-bolder">Biings <span class="has-text-weight-light">Design System</span></h1>
+<h1 class="title is-size-3-mobile has-text-weight-bolder">Biings <span class="has-text-weight-light">Design System</span></h1>
 <hr class="is-size-2 is-visible">
 <div class="columns is-multiline">
     <div class="column is-half">
         <a href="#/layout" class="box is-medium is-popping has-background-primary-dark">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
-            <div class="title has-text-white"><strong>Foundation</strong></div>
+            <h4 class="title has-text-white"><strong>Foundation</strong></h4>
             <p class="subtitle is-6 has-text-primary-lighter">Layout, Typography, Color, etc</p>
         </a>
     </div>
@@ -16,7 +16,7 @@
         <a href="#/avatar" class="box is-medium has-background-primary-lighter">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-7">
-            <div class="title has-text-dark"><strong>Components</strong></div>
+            <h4 class="title has-text-dark"><strong>Components</strong></h4>
             <p class="subtitle is-6 has-text-primary-dark">All you need to build your UIs</p>
         </a>
     </div>
