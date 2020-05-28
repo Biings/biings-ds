@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<div class="box is-well is-radiusless-b is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button">Hover me</div>
@@ -61,15 +61,16 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <br>
 
-<div class="box has-background-light is-large is-marginless">
+<div class="box is-well is-large is-marginless">
     <div class="dropdown is-hoverable is-size-5">
         <div class="dropdown-trigger">
             <div class="button is-medium">Medium button dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-size-5</code> to the dropdown.</a>
+                <a class="dropdown-item">Just add class</a>
+                <a class="dropdown-item">class <code class="is-size-7">is-size-5</code></a>
+                <a class="dropdown-item">to the dropdown.</a>
             </div>
         </div>
     </div>
@@ -79,8 +80,11 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-size-7</code> to the dropdown.</a>
+                <a class="dropdown-item">Just add class</a>
+                <a class="dropdown-item">class <code class="is-size-7">is-size-7</code></a>
+                <a class="dropdown-item">to the dropdown</a>
+                <a class="dropdown-item">and class <code class="is-size-7">is-small</code></a>
+                <a class="dropdown-item">to the button.</a>
             </div>
         </div>
     </div>
@@ -98,7 +102,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
 
 <hr>
 
-<div class="box has-background-light is-large is-radiusless-bl is-radiusless-br is-marginless">
+<div class="box is-well is-large is-radiusless-b is-marginless">
     <div class="level">
         <div class="level-item">
             <div class="dropdown is-iconless is-hoverable has-arrow">
@@ -180,16 +184,17 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
 <hr>
 
-<div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<div class="box is-well is-radiusless-b is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button is-light has-background-grey-lighter">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <div class="box is-small is-marginless">
+                <div class="dropdown-item is-paddingless">
                     <input class="input is-small has-background-white" type="text" placeholder="Search the list">
                 </div>
+                <hr class="is-thin is-wavy">
                 <a class="dropdown-item">Show</a>
                 <a class="dropdown-item">results</a>
                 <a class="dropdown-item">here.</a>
@@ -230,7 +235,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 <hr>
 
-<div class="box has-background-light is-radiusless-bl is-radiusless-br is-large is-marginless">
+<div class="box is-well is-radiusless-b is-large is-marginless">
 
     <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
@@ -291,7 +296,7 @@ Create a system default select list just by wrapping it with a `.select` div.
 
 <hr>
 
-<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-large is-marginless">
+<div class="box is-well is-radiusless-b is-large is-marginless">
     <div class="select is-small is-danger">
         <select>
             <option value="">Small</option>

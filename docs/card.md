@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-larger is-marginless">
+<div class="box is-well is-radiusless-b is-larger is-marginless">
     <div class="card">
         <div class="card-content">
             <h3 class="title is-family-secondary">A Card is like a Box,<br>but with action buttons.</h3>

@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box has-background-light is-marginless is-large is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-marginless is-large is-radiusless-b">
     <div class="tabs is-fullwidth">
         <ul>
             <li><a>Pilot</a></li>
@@ -33,7 +33,7 @@ Hanging Tabs have their active line placed above each item.
 
 <br>
 
-<div class="box has-background-light is-marginless is-medium is-radiusless-bl is-radiusless-br" style="padding-top: 0;">
+<div class="box is-well is-marginless is-medium is-radiusless-b" style="padding-top: 0;">
     <div class="tabs is-hanging">
         <ul class="is-borderless">
             <li><a>These</a></li>
@@ -72,7 +72,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 
 <br><br>
 
-<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth is-toggle-rounded">
         <ul>
             <li class="is-active"><a>Insured</a>
@@ -104,7 +104,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <br>
 
-<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth has-hr">
         <ul>
             <li id="js-tab-1" class="is-active"><a onclick="toggleTab(1)">Option A</a></li>
@@ -151,7 +151,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
 
 <br><br>
 
-<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="tabs is-boxed is-marginless is-centered">
         <ul class="is-borderless">
             <li class="is-active"><a>Insured</a>

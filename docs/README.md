@@ -13,7 +13,7 @@
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-medium has-background-primary-lighter">
+        <a href="#/avatar" class="box is-medium has-background-purple-lighter is-raised hover-to-floating">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-dark is-family-primary"><strong>Components</strong></h4>

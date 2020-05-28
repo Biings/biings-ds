@@ -1,5 +1,10 @@
-.dropdown-item:active:not(.is-active)
-    background-color: $dropdown-item-active-background-color
+.dropdown-content
+    padding-right: $dropdown-content-padding-top
+    padding-left: $dropdown-content-padding-top
+
+.dropdown-item
+    padding-left: .75rem
+    border-radius: $radius-small
 
 .dropdown-divider
     height: $hr-height
@@ -44,7 +49,7 @@
 .dropdown:not(.is-iconless):after,
 .select:not(.is-multiple):not(.is-loading):after
     position: absolute
-    top: 33%
+    top: 32%
     right: .875em
     margin-top: 0
     width: 1em

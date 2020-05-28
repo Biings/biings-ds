@@ -11,7 +11,7 @@
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
 <br><br>
-<div class="box has-background-light is-large has-text-centered is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large has-text-centered is-marginless is-radiusless-b">
     <div onclick="openModal('')" class="button is-beefy is-dark is-outlined">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
@@ -24,6 +24,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
     </div>
     <button onclick="closeModal('')" class="modal-close is-huge" aria-label="close"></button>
 </div>
+<hr class="is-thin is-visible">
 
     <div class="modal">
         <div class="modal-background has-background-white"></div>
@@ -44,11 +45,12 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 
 <br>
 
-<div class="box has-background-light is-large has-text-centered is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large has-text-centered is-marginless is-radiusless-b">
     <div onclick="openModal(1)" class="button is-dark is-shadowed">Modal Card Example 1</div>
     &nbsp; &nbsp; 
     <div onclick="openModal(2)" class="button is-primary is-shadowed">Modal Card Example 2</div>
 </div>
+<hr class="is-thin is-visible">
 <div id="js-modal1" class="modal">
     <div class="modal-background" onclick="closeModal(1)"></div>
     <div class="modal-card">

@@ -12,7 +12,7 @@
 A correct balance between typography, font size and line length contributes to make our writings easy to read. 
 Try to write a maximum of <u class="has-text-weight-semibold">100 characters</u> per line in order to maximise legibility.
 
-<hr class="is-size-1 is-visible">
+<hr class="is-size-3">
 
 
 <h4 class="title is-family-primary"><strong>Write "the way you speak"</strong></h4>
@@ -42,7 +42,7 @@ Try to write a maximum of <u class="has-text-weight-semibold">100 characters</u>
     </table>
 </div>
 
-<hr class="is-size-1 is-visible">
+<hr class="is-size-3">
 
 <h4 class="title is-family-primary"><strong>Use simple tense.</strong></h4>
 <hr class="is-size-7">
@@ -67,7 +67,7 @@ Try to write a maximum of <u class="has-text-weight-semibold">100 characters</u>
     </table>
 </div>
 
-<hr class="is-size-1 is-visible">
+<hr class="is-size-3">
 
 <h4 class="title is-family-primary"><strong>Use active voice!</strong></h4>
 <hr class="is-size-7">

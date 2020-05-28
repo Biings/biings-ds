@@ -12,7 +12,7 @@
 
 <h4 class="title is-family-primary"><strong>Input field variations</strong></h4>
 
-<br><form class="box is-large has-background-white-bis is-marginless is-radiusless-bl is-radiusless-br" spellcheck="false">
+<br><form class="box is-well is-large is-marginless is-radiusless-b" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-7">
     <input class="input" type="tel" placeholder="Default and loading input">
@@ -30,6 +30,7 @@
         <div class="column is-2"><div class="button is-danger is-beefy is-fullwidth">Submit</div></div>
     </div>
 </form>
+<hr class="is-thin is-visible">
 
     <input class="input is-small" type="text" placeholder="..">
     <input class="input" type="text">
@@ -50,7 +51,7 @@ You can add one or two icons inside the input.
 
 <hr>
 
-<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="columns is-variable is-5">
         <div class="column is-6">
             <p class="control has-icons-left">

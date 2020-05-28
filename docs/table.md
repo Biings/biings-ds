@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <table class="table is-striped is-hoverable">
         <thead>
             <tr>

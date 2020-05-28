@@ -10,7 +10,7 @@
 
 The checkbox label should always toggle the checkbox when clicked! Make sure the label's text is a direct child of `.checkbox`
 
-<br><div class="box has-background-light is-radiusless-bl is-radiusless-br is-marginless is-large">
+<br><div class="box is-well is-radiusless-b is-marginless is-large">
     <label class="checkbox">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Check me!
@@ -62,7 +62,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
 
 A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
 
-<div class="box has-background-light is-radiusless-bl is-radiusless-br is-marginless is-large">
+<div class="box is-well is-radiusless-b is-marginless is-large">
     <label class="checkbox is-toggle">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle (but I'm still a checkbox)

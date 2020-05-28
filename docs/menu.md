@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3">
 
-<div class="box is-large has-background-light is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="menu">
         <ul class="menu-list">
             <li><a>Biodata</a></li>

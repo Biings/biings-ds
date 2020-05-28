@@ -26,7 +26,7 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 
 <hr>
 
-<div class="box is-bordered is-larger">
+<div class="box is-well is-larger">
     <h1 class="title is-1 is-family-secondary">Header 1</h1><div class="subtitle has-text-grey">Hero title size</div>
     <hr>
     <h2 class="title is-2 is-family-secondary">Header 2</h2><div class="subtitle is-5 has-text-grey">Larger title size</div>
@@ -63,7 +63,7 @@ Use one of the following tags to emphasize words or part of a text.
 
 <hr class="is-small">
 
-<div class="box is-medium has-background-light is-marginless is-size-3 is-family-hand is-radiusless-bl is-radiusless-br">
+<div class="box is-well is-medium is-marginless is-size-3 is-family-hand is-radiusless-b">
     Let's <u>underline that!</u>
 </div>
 
@@ -72,16 +72,17 @@ Use one of the following tags to emphasize words or part of a text.
 
 <div class="level is-marginless is-size-4 is-family-secondary">
     <div class="level-item is-marginless">
-        <div class="box has-background-light is-large is-radiusless-tr is-radiusless-bl is-radiusless-br">
+        <div class="box is-well is-large is-radiusless-tr is-radiusless-b">
             Let's<em> highlight this part </em>..
         </div>
     </div>
     <div class="level-item is-large is-marginless">
-        <div class="box is-large has-background-black-ter has-text-white is-radiusless-tl is-radiusless-bl is-radiusless-br">
+        <div class="box is-large has-background-black-ter has-text-white is-radiusless-tl is-radiusless-b">
             Or <em class="is-primary">that on a dark background</em>.
         </div>
     </div>
 </div>
+<hr class="is-thin is-visible">
     
     Let's <em>highlight this in yellow</em>..
     Or <em class="is-primary">some of that in purple</em>.

@@ -10,10 +10,10 @@
 
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
-<br><div class="box has-background-light is-medium is-marginless is-radiusless-bl is-radiusless-br">
+<br><div class="box is-well is-medium is-marginless is-radiusless-b">
     <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
 </div>
-
+<hr class="is-thin is-visible">
 
     <div class="avatar">
         <div class="has-background-grey-light">JD</div>
@@ -29,7 +29,7 @@ Avatar's default background is transparent. Set it manually to achieve the below
 
 In addition to the default size, use classes `is-small`, `is-medium`, `is-large` and `is-huge` to adjust the size of an avatar.
 <hr class="is-small">
-<div class="box is-large has-background-light">
+<div class="box is-well is-large">
     <div class="level">
         <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-primary-light">S</div></div><span class="is-size-7">Small</span></div>
         <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-light">M</div></div><span class="is-size-6">Medium</span></div>
@@ -46,7 +46,7 @@ Avatars can nest an image to act as a person's photo.
 
 <hr class="is-small">
 
-<div class="box has-background-light is-medium is-marginless">
+<div class="box is-well is-medium is-marginless is-radiusless-b">
     <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle">Padukone, Deepika</span>
 </div>
 
@@ -62,7 +62,7 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
 
 <hr class="is-small">
 
-<div class="box is-large has-background-light is-marginless">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="avatar is-status-turquoise is-huge"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
     <span class="subtitle is-4 has-text-turquoise-dark"><strong>Aamir</strong> is online, or..</span>
     <hr>

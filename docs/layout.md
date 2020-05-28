@@ -43,7 +43,7 @@ Add class `is-medium` or `is-large` to further increase the vertical space.
 
 <hr class="is-small">
 
-<div class="box is-medium has-background-light is-marginless is-medium">
+<div class="box is-well is-medium is-marginless is-medium is-radiusless-b">
     <div class="section has-background-blue-lighter">
         Normal size
     </div>
@@ -63,7 +63,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 
 <hr class="is-small">
 
-<div class="box has-background-light is-marginless is-medium">
+<div class="box is-well is-marginless is-medium is-radiusless-b">
   <div class="columns is-multiline is-small has-text-white has-text-centered">
       <div class="column is-4">
         <div class="message has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
@@ -115,7 +115,7 @@ Use **Level items** when you need to vertically center elements on one line.
 
 <hr class="is-small">
 
-<div class="box has-background-light is-marginless is-medium">
+<div class="box is-well is-marginless is-medium is-radiusless-b">
   <div class="level has-text-white">
     <div class="level-left">
       <div class="level-item"><div class="message has-background-red has-text-weight-semibold"><br>Item 1<br><br></div></div>
@@ -158,7 +158,7 @@ Use a **Spacer** (or Divider) as a visual help for grouping related content toge
 
 <hr>
 
-<div class="box has-background-light is-large is-marginless">
+<div class="box is-well is-large is-marginless is-radiusless-b">
     <hr class="is-visible">
     <br>
     <hr class="is-visible is-soft">

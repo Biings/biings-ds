@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-marginless is-large">
+<div class="box is-well is-radiusless-b is-marginless is-large">
     <div class="box is-floating is-large">Boxed content about an entity or subject.</div>
 </div>
 
@@ -21,7 +21,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.
 
 <br><br>
 
-<div class="box has-background-white-bis is-large">
+<div class="box is-well is-large">
 
 <div class="box">
     <div class="subtitle has-text-grey-dark is-6"><strong>Box</strong> &nbsp; ( default )</div>
@@ -68,7 +68,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     <li><code>hover-to-popping</code></li>
 </ul>
 
-<div class="box is-large has-background-white-bis is-radiusless-bl is-radiusless-br is-marginless">
+<div class="box is-large has-background-white-bis is-radiusless-b is-marginless">
     <div class="box is-raised hover-to-popping">Box with depth transition effect ( hover me )</div>
     <hr>
     <div class="box is-paddingless is-floating">
@@ -92,7 +92,7 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
 
 <br>
 
-<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-marginless">
+<div class="box is-well is-radiusless-b is-marginless">
     <div class="level">
         <div class="level-item"><div class="box is-raised is-small is-size-6">Small</div></div>
         <div class="level-item"><div class="box is-raised ">Normal</div></div>
@@ -115,7 +115,7 @@ Use class `is-expandable` for boxes that can expand inline. Add the class `is-ex
 
 <br><br>
 
-<div class="box has-background-white-bis is-radiusless-bl is-radiusless-br is-marginless ">
+<div class="box is-well is-radiusless-b is-marginless ">
     <div class="box">
         <div id="ebox" class="box is-large is-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
             <span class="title is-4 has-text-grey-darker is-spaced">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>

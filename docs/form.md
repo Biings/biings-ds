@@ -13,7 +13,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
 
 <br>
 
-<form class="box has-background-white-bis   is-large is-marginless" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
+<form class="box is-well is-large is-marginless is-radiusless-b" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
@@ -67,7 +67,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <hr>
 
-<div class="box has-background-white-bis   is-medium is-marginless">
+<div class="box is-well is-medium is-marginless is-radiusless-b">
     <form class="columns">
         <div class="column is-4">
             <div class="field">
@@ -106,7 +106,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h4 class="title is-family-primary"><strong>Select field</strong></h4>
 
-<br><form class="box has-background-white-bis is-large is-marginless">
+<br><form class="box is-well is-radiusless-b is-large is-marginless">
     <div class="field select is-required is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
@@ -117,6 +117,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </select>
     </div>
 </form>
+<hr class="is-thin is-visible">
 
     <div class="field select">
         <label for="selectId" class="label">Select list</label>
@@ -130,7 +131,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h4 class="title is-family-primary"><strong>Dropdown Field</strong></h4>
 
-<br><form class="box has-background-white-bis is-large is-marginless">
+<br><form class="box is-well is-large is-marginless is-radiusless-b">
     <div class="dropdown is-hoverable is-fullwidth is-iconless">
         <div class="dropdown-trigger">
             <div class="field select">
@@ -148,6 +149,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
     </div>
 </form>
+<hr class="is-visible is-thin">
 
     <div class="dropdown is-fullwidth is-iconless">
         <div class="dropdown-trigger">
@@ -167,7 +169,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h4 class="title is-family-primary"><strong>Checkbox / Radio field</strong></h4>
 
-<br><form class="box has-background-white-bis   is-large is-marginless">
+<br><form class="box is-well is-large is-marginless is-radiusless-b">
     <div class="field">
         <label class="checkbox">
             <input type="checkbox"><span class="checkbox-mark"></span>
@@ -201,6 +203,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
     </div>
 </form>
+<hr class="is-thin is-visible">
 
     <div class="field">
         <label class="checkbox">
@@ -219,7 +222,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h4 class="title is-family-primary"><strong>Compact Form</strong></h4>
 
-<br><form class="box has-background-white-bis   is-large is-marginless">
+<br><form class="box is-well is-large is-marginless is-radiusless-b">
     <div class="columns is-gapless is-multiline">
         <div class="column is-6">
             <div class="field">
@@ -267,6 +270,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
     </div>
 </form>
+<hr class="is-thin is-visible">
 
     <form class="columns is-gapless is-multiline">
         <div class="column is-6">
