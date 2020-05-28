@@ -14,6 +14,7 @@
     <li>Serif Title is now the default</li>
     <li>Support for compact form fields</li>
     <li>New indeterminate checkbox style</li>
+    <li>New indeterminate progressbar style</li>
     <li>New <a href="#/modifiers" class="is-underlined">Modifier doc page</a></li>
     <li>Removed Title size <code>0</code> and <code>8</code> 😵</li>
     <li>Removed variable columns sizes</li>
