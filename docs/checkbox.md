@@ -31,11 +31,17 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         I'm checked but disabled
     </label>
     <hr>
+    <label class="checkbox is-right is-block">
+        I'm right aligned →
+        <input type="checkbox"><span class="checkbox-mark"></span>
+    </label>
+    <hr class="is-visible is-size-4">
     <label class="checkbox" onclick="makeIndeterminate(123)">
         <input id="123" type="checkbox"><span class="checkbox-mark"></span>
         Make me indeterminate.. JS only: <code class="is-size-7">checkbox.indeterminate = true;</code>
-    </label> 
+    </label>
 </div>
+<hr class="is-thin is-visible">
 
     <label class="checkbox">
         <input type="checkbox"><span class="checkbox-mark"></span>
@@ -56,6 +62,11 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
         I'm checked but disabled
     </label>
+
+    <label class="checkbox is-right is-block">
+        I'm right aligned →
+        <input type="checkbox"><span class="checkbox-mark"></span>
+    </label>
 <hr class="is-size-1 is-visible">
 
 <h4 class="title is-family-primary"><strong>Toggle</strong></h4>
@@ -67,7 +78,7 @@ A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle (but I'm still a checkbox)
     </label>
-    <hr class="is-visible is-size-3">
+    <hr class="is-visible">
     <label class="checkbox is-toggle is-large">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I can be larger!

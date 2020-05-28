@@ -13,7 +13,7 @@
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">With class <code>is-hoverable</code></a>
+                <a class="dropdown-item">With class <code class="is-size-7">is-hoverable</code></a>
                 <a class="dropdown-item">It Works</a>
                 <a class="dropdown-item is-active">Without Any</a>
                 <div class="dropdown-divider"></div>
@@ -29,7 +29,7 @@
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
-                <a class="dropdown-item">Add class <code>is-active</code></a>
+                <a class="dropdown-item">Add class <code class="is-size-7">is-active</code></a>
                 <a class="dropdown-item">top open the dropdown</a>
             </div>
         </div>
@@ -110,7 +110,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-dark is-paddingless">Tooltip-Style</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
+                    <div class="box is-white is-floating is-size-6">This is actually a <code class="is-size-7">box</code> put inside the <code class="is-size-7">dropdown-menu</code> :)</div>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                 </div>
                 <div class="dropdown-menu">
                     <div class="box is-white has-background-black is-floating is-size-6 has-text-white">
-                        This one has both class <code>is-up</code> and <code>is-centered</code>
+                        This one has both class <code class="is-size-7">is-up</code> and <code class="is-size-7">is-centered</code>
                     </div>
                 </div>
             </div>
@@ -187,12 +187,12 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 <div class="box is-well is-radiusless-b is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-light has-background-grey-lighter">Choose a value</div>
+            <div class="button is-light">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
                 <div class="dropdown-item is-paddingless">
-                    <input class="input is-small has-background-white" type="text" placeholder="Search the list">
+                    <input class="input is-small" type="text" placeholder="Search the list">
                 </div>
                 <hr class="is-thin is-wavy">
                 <a class="dropdown-item">Show</a>
@@ -216,11 +216,10 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
-                <div class="box is-small">
-                    <input class="input is-small has-background-white" 
-                           type="text"
-                           placeholder="Search the list">
+                <div class="dropdown-item is-paddingless">
+                    <input class="input is-small" type="text">
                 </div>
+                <hr class="is-thin is-wavy">
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
@@ -239,7 +238,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
     <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
-            <div class="button is-light has-background-grey-lighter">
+            <div class="button is-light">
                 <span>With custom icon&nbsp;</span>
                 <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             </div>

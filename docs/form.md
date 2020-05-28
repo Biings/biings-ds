@@ -170,13 +170,23 @@ In most cases it is better to indicate the optional fields rather than the requi
 <h4 class="title is-family-primary"><strong>Checkbox / Radio field</strong></h4>
 
 <br><form class="box is-well is-large is-marginless is-radiusless-b">
-    <div class="field">
-        <label class="checkbox">
-            <input type="checkbox"><span class="checkbox-mark"></span>
-            Check me!
-        </label>
-    </div>
-    <div class="columns">
+    <div class="columns is-multiline is-small">
+        <div class="column is-6">
+            <div class="field">
+                <label class="checkbox">
+                    <input type="checkbox"><span class="checkbox-mark"></span>
+                    Check me!
+                </label>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="field">
+                <label class="checkbox is-toggle is-right">
+                    Toggle me!
+                    <input type="checkbox"><span class="checkbox-mark"></span>
+                </label>
+            </div>
+        </div>
         <div class="column is-one-third">
             <div class="field">
                 <label class="radio">
@@ -209,6 +219,13 @@ In most cases it is better to indicate the optional fields rather than the requi
         <label class="checkbox">
             <input type="checkbox"><span class="checkbox-mark"></span>
             Check me!
+        </label>
+    </div>
+    <!-- Right aligned toggle -->
+    <div class="field">
+        <label class="checkbox is-toggle">
+            Toggle Me.
+            <input type="checkbox"><span class="checkbox-mark"></span>
         </label>
     </div>
     <!-- Radio option -->
