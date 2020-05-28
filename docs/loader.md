@@ -87,7 +87,7 @@ A native progress bar can replace a loader.
 
 <hr class="is-small">
 
-<div class="box has-background-light is-large is-marginless is-radiusless-bl is-radiusless-br">
+<div class="box has-background-white-bis is-large is-marginless is-radiusless-bl is-radiusless-br">
     <progress class="progress is-primary" value="30" max="100">25%</progress>
     <progress class="progress is-info is-small" value="45" max="100">30%</progress>
     <progress class="progress is-dark is-thin" value="70" max="100">60%</progress>
