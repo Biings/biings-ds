@@ -22,7 +22,7 @@
 
 @keyframes pulsate
     0%
-        opacity: 0.15
+        opacity: .15
         transform: scale(0)
     70%
         opacity: 1
@@ -33,7 +33,7 @@
 @keyframes pulsate-ind
     0%
         opacity: .35
-        transform: scale(0.45)
+        transform: scale(.45)
     100%
         opacity: 1
         transform: scale(1)
@@ -55,3 +55,27 @@
 .loader.is-colorful
     &:after
         border-color: $primary-light
+
+.progress:indeterminate
+    background-image: repeating-linear-gradient(45deg, $grey, $grey 10px, mix($grey-dark,$grey,70) 10px, mix($grey-dark,$grey,70) 20px)
+    animation: progressing .25s linear infinite
+    animation-direction: reverse
+.progress.is-dark:indeterminate
+    background-image: repeating-linear-gradient(45deg, $primary-dark, $primary-dark 10px, mix($black,$dark,10) 10px, mix($black,$dark,10) 20px)
+.progress.is-primary:indeterminate
+    background-image: repeating-linear-gradient(45deg, $primary, $primary 10px, mix($primary-dark,$primary,65) 10px, mix($primary-dark,$primary,65) 20px)
+.progress.is-success:indeterminate
+    background-image: repeating-linear-gradient(45deg, $success, $success 10px, $turquoise-dark 10px, $turquoise-dark 20px)
+.progress.is-info:indeterminate
+    background-image: repeating-linear-gradient(45deg, $info, $info 10px, mix($info,$blue-light,10) 10px, mix($info,$blue-light,10) 20px)
+.progress.is-warning:indeterminate
+    background-image: repeating-linear-gradient(45deg, $warning, $warning 10px, mix($warning,$yellow-light,30) 10px, mix($warning,$yellow-light,30) 20px)
+
+.progress.is-large
+    height: $size-3
+
+@keyframes progressing
+    0%
+        background-position-x: 0
+    100%
+        background-position-x: -28px;
