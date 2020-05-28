@@ -58,7 +58,7 @@
 
 .progress:indeterminate
     background-image: repeating-linear-gradient(45deg, $grey, $grey 10px, mix($grey-dark,$grey,70) 10px, mix($grey-dark,$grey,70) 20px)
-    animation: progressing .25s linear infinite
+    animation: progressing .35s linear infinite
     animation-direction: reverse
 .progress.is-dark:indeterminate
     background-image: repeating-linear-gradient(45deg, $primary-dark, $primary-dark 10px, mix($black,$dark,10) 10px, mix($black,$dark,10) 20px)
@@ -70,9 +70,6 @@
     background-image: repeating-linear-gradient(45deg, $info, $info 10px, mix($info,$blue-light,10) 10px, mix($info,$blue-light,10) 20px)
 .progress.is-warning:indeterminate
     background-image: repeating-linear-gradient(45deg, $warning, $warning 10px, mix($warning,$yellow-light,30) 10px, mix($warning,$yellow-light,30) 20px)
-
-.progress.is-large
-    height: $size-3
 
 @keyframes progressing
     0%
