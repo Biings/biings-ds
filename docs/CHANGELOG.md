@@ -5,12 +5,13 @@
 
 <span class="subtitle is-6 has-text-info">May 25, 2020</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.41</h4>
+<h4 class="title is-family-primary">Version 1.41</h4>
 
 <ul class="list">
     <li>New <strong>Crimson Pro</strong> serif font (replacing Merriweather) 🎊</li>
-    <li><strong>Harmonized default Title sizes</strong>, weight, line height and letter spacing</li>
+    <li><strong>Harmonized default text sizes</strong>, weight, line height and letter spacing</li>
     <li><strong>New icons</strong>: <i>arrow, policy, policy-umbrella, umbrella-g</i></li>
+    <li>Serif Title is now the default</li>
     <li>Support for compact form fields</li>
     <li>New indeterminate checkbox style</li>
     <li>New <a href="#/modifiers" class="is-underlined">Modifier doc page</a></li>
@@ -24,7 +25,7 @@
 
 <span class="subtitle is-6 has-text-info">April 24, 2020</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.40</h4>
+<h4 class="title is-family-primary">Version 1.40</h4>
 
 <ul class="list">
     <li><strong>Updated colors</strong> for Care and Claim product!</li>
@@ -44,7 +45,7 @@
 
 <span class="subtitle is-6 has-text-info">March 31, 2020</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.39</h4>
+<h4 class="title is-family-primary">Version 1.39</h4>
 
 <ul class="list">
     <li><strong>New Icons/Glyphs</strong>: location, eye-hide-g, eye-g, bell-bold-g, reload-g, card-g, group-g, job_assignment-g, knowledge, manager-g, badge, shield-star-g, gift-g</li>
@@ -59,7 +60,7 @@
 
 <span class="subtitle is-6 has-text-info">March 31, 2020</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.38</h4>
+<h4 class="title is-family-primary">Version 1.38</h4>
 
 <ul class="list">
     <li>New <strong>Dropdow Field</strong> support</li>
@@ -76,7 +77,7 @@
 
 <span class="subtitle is-6 has-text-info">February 19, 2020</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.37</h4>
+<h4 class="title is-family-primary">Version 1.37</h4>
 
 <ul class="list">
     <li><strong>New Icons</strong>: <i>workflow, percent, calendar-warn, timelines, timeline-actor, overload, lines, bars, 12-back</i></li>
@@ -93,7 +94,7 @@
 
 <span class="subtitle is-6 has-text-info">January 9, 2020</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.36</h4>
+<h4 class="title is-family-primary">Version 1.36</h4>
 
 <ul class="list">
     <li>New <strong>colorful Tooltips</strong> (primary, dark, info)</li>
@@ -110,7 +111,7 @@
 
 <span class="subtitle is-6 has-text-info">December 19, 2019</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.35</h4>
+<h4 class="title is-family-primary">Version 1.35</h4>
 
 <ul class="list">
     <li>New <strong>Dropdown Tooltips</strong> instructions</li>
@@ -125,7 +126,7 @@
 
 <span class="subtitle is-6 has-text-info">July 24, 2018</span>
 <hr class="is-thin is-wavy">
-<h4 class="title">Version 1.0</h4>
+<h4 class="title is-family-primary">Version 1.0</h4>
 
 Introducing <strong>Biings Design Sytem</strong> (aka BDS), an open-source design framework based on <u>Bulma CSS</u>.
 

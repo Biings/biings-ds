@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Contribute</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">How to start?</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     We welcome all feedback and ideas in order to produce the best possible experience for our users!
 </p>
 

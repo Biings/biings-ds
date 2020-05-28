@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Typography</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     Use <strong>typography</strong> to create clear hierarchies to guide users through the product and experience. It is the core structure of any well designed interface.
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<h4 class="title"><strong>Font family</strong></h4>
+<h4 class="title is-family-primary"><strong>Font family</strong></h4>
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its main font family (with a purchased licence).</li>
@@ -16,7 +16,7 @@
 </ul>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title"><strong>Scales</strong></h4>
+<h4 class="title is-family-primary"><strong>Scales</strong></h4>
 
 All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should use sizes 1, 2 or 3 ; texts should use sizes 4, 5 or 6. An extra <u>7th size</u> can be used in special components.
 
@@ -41,7 +41,7 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 </div>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title"><strong>Font weights</strong></h4>
+<h4 class="title is-family-primary"><strong>Font weights</strong></h4>
 
 Use font weights to emphasize or differentiate content hierarchy.  
 <i>Example:</i> `has-text-weight-semibold`
@@ -56,7 +56,7 @@ Use font weights to emphasize or differentiate content hierarchy.
 </ul>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title"><strong>Emphasizers</strong></h4>
+<h4 class="title is-family-primary"><strong>Emphasizers</strong></h4>
 
 Use one of the following tags to emphasize words or part of a text.
 

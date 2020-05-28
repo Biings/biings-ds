@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Modal</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<h4 class="title"><strong>Basic usage</strong></h4>
+<h4 class="title is-family-primary"><strong>Basic usage</strong></h4>
 
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
@@ -38,7 +38,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Modal Card</strong></h4>
+<h4 class="title is-family-primary"><strong>Modal Card</strong></h4>
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 
@@ -60,7 +60,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
-            <h4 class="title"><strong>Can handle of lot of content..</strong></h4>
+            <h4 class="title is-family-primary"><strong>Can handle of lot of content..</strong></h4>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si stante, hoc natura videlicet vult, salvam esse se, quod
                 concedimus; Laboro autem non sine causa; Beatus autem esse in maximarum rerum timore nemo potest. Progredientibus autem

@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Modifiers</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     Use <strong>Modifier</strong> classes on almost any element in order to alter its style.
 </p>
 <hr class="is-visible is-size-4"><br>
@@ -72,9 +72,25 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="5">Radius</th>
+            <th rowspan="9">Radius</th>
             <td><code>is-radiusless</code></td>
             <td>Removes any <strong>radius</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-radiusless-t</code></td>
+            <td>Removes both <strong>top radius</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-radiusless-l</code></td>
+            <td>Removes both <strong>left radius</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-radiusless-r</code></td>
+            <td>Removes both <strong>right radius</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-radiusless-b</code></td>
+            <td>Removes both <strong>bottom radius</strong></td>
         </tr>
         <tr>
             <td><code>is-radiusless-tl</code></td>

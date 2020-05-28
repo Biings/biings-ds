@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Checkbox</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Checkboxes</span> are used when there is a list of options and the user may select multiple options, including all or none.
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<h4 class="title"><strong>Standard states</strong></h4>
+<h4 class="title is-family-primary"><strong>Standard states</strong></h4>
 
 The checkbox label should always toggle the checkbox when clicked! Make sure the label's text is a direct child of `.checkbox`
 
@@ -58,7 +58,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
     </label>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Toggle</strong></h4>
+<h4 class="title is-family-primary"><strong>Toggle</strong></h4>
 
 A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
 

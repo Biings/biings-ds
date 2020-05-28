@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Dropdown</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     A <span class="has-text-weight-semibold">dropdown</span> presents either a list of actions or a tooltip with extra contextual information.
 </p>
 <hr class="is-visible is-size-4"><br>
@@ -55,7 +55,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Sizes</strong></h4>
+<h4 class="title is-family-primary"><strong>Sizes</strong></h4>
     
 Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[1–7]` to adjust the size of the arrow.
 
@@ -73,14 +73,14 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
             </div>
         </div>
     </div>
-    <div class="dropdown is-hoverable is-size-6 is-pulled-right is-right">
+    <div class="dropdown is-hoverable is-size-7 is-pulled-right is-right">
         <div class="dropdown-trigger">
             <div class="button is-small is-inverted is-dark">Small text drp</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
                 <a class="dropdown-item">Just add the class</a>
-                <a class="dropdown-item"><code>is-size-6</code> to the dropdown.</a>
+                <a class="dropdown-item"><code>is-size-7</code> to the dropdown.</a>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Tooltips</strong></h4>
+<h4 class="title is-family-primary"><strong>Tooltips</strong></h4>
 
 Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
 
@@ -174,7 +174,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     </div>
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Searchable list</strong></h4>
+<h4 class="title is-family-primary"><strong>Searchable list</strong></h4>
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
@@ -187,10 +187,9 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <div class="dropdown-item">
-                    <input class="input is-small is-borderless is-paddingless has-background-white" type="text" placeholder="Search the list">
+                <div class="box is-small is-marginless">
+                    <input class="input is-small has-background-white" type="text" placeholder="Search the list">
                 </div>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item">Show</a>
                 <a class="dropdown-item">results</a>
                 <a class="dropdown-item">here.</a>
@@ -212,12 +211,11 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
-                <div class="dropdown-item">
-                    <input class="input is-small is-borderless is-paddingless has-background-white" 
+                <div class="box is-small">
+                    <input class="input is-small has-background-white" 
                            type="text"
                            placeholder="Search the list">
                 </div>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
@@ -226,7 +224,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
     </div>
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Custom icon</strong></h4>
+<h4 class="title is-family-primary"><strong>Custom icon</strong></h4>
 
 Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
 
@@ -287,7 +285,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 <a id="selectlist"></a>
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Select list</strong></h4>
+<h4 class="title is-family-primary"><strong>Select list</strong></h4>
 
 Create a system default select list just by wrapping it with a `.select` div.
 
@@ -314,15 +312,6 @@ Create a system default select list just by wrapping it with a `.select` div.
         <select>
             <option value="">Medium</option>
             <option value="">Warning</option>
-            <option value="">Select</option>
-            <option value="">List</option>
-        </select>
-    </div>
-    &nbsp; &nbsp;
-    <div class="select is-large is-info">
-        <select>
-            <option value="">Large</option>
-            <option value="">Info</option>
             <option value="">Select</option>
             <option value="">List</option>
         </select>

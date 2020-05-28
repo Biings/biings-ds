@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Table</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Table</span> presents data sets in an easily scannable and comparable way.
 </p>
 <hr class="is-visible is-size-4"><br>

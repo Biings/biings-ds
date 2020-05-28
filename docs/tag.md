@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Tag</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Tags</span> are used for items that need to be labeled, categorized, or organized using keywords that describe them.
 </p>
 <hr class="is-visible is-size-4"><br>
@@ -18,7 +18,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Size, Shape and Colors</strong></h4>
+<h4 class="title is-family-primary"><strong>Size, Shape and Colors</strong></h4>
 
 The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 

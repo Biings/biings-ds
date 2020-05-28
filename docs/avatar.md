@@ -1,12 +1,12 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Avatar</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Avatar</span> is used to display a picture, typically next to a person's name.
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<h4 class="title"><strong>Default</strong></h4>
+<h4 class="title is-family-primary"><strong>Default</strong></h4>
 
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
@@ -25,7 +25,7 @@ Avatar's default background is transparent. Set it manually to achieve the below
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Sizes</strong></h4>
+<h4 class="title is-family-primary"><strong>Sizes</strong></h4>
 
 In addition to the default size, use classes `is-small`, `is-medium`, `is-large` and `is-huge` to adjust the size of an avatar.
 <hr class="is-small">
@@ -40,7 +40,7 @@ In addition to the default size, use classes `is-small`, `is-medium`, `is-large`
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Photo Avatar</strong></h4>
+<h4 class="title is-family-primary"><strong>Photo Avatar</strong></h4>
 
 Avatars can nest an image to act as a person's photo.
 
@@ -56,7 +56,7 @@ Avatars can nest an image to act as a person's photo.
     <span class="subtitle is-5">Padukone, Deepika</span>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Status</strong></h4>
+<h4 class="title is-family-primary"><strong>Status</strong></h4>
 
 Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-dark">dark</span> and white.
 

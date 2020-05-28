@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Input</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Input fields</span> enable users to provide information.
 </p>
 <hr class="is-visible is-size-4">
@@ -10,7 +10,7 @@
 
 <hr class="is-size-4">
 
-<h4 class="title"><strong>Input field variations</strong></h4>
+<h4 class="title is-family-primary"><strong>Input field variations</strong></h4>
 
 <br><form class="box is-large has-background-white-bis is-marginless is-radiusless-bl is-radiusless-br" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
@@ -44,7 +44,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>With Icons</strong></h4>
+<h4 class="title is-family-primary"><strong>With Icons</strong></h4>
 
 You can add one or two icons inside the input.
 

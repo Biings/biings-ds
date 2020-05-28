@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Colors</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
+<p class="subtitle is-family-secondary has-text-dark"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
 <hr class="is-visible is-size-3">
 <br>
-<h4 class="title"><strong>Brand</strong></h4>
+<h4 class="title is-family-primary"><strong>Brand</strong></h4>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -34,7 +34,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title"><strong>Greyscale</strong></h4>
+<h4 class="title is-family-primary"><strong>Greyscale</strong></h4>
 
 <hr>
 
@@ -56,7 +56,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Palette</strong></h4>
+<h4 class="title is-family-primary"><strong>Palette</strong></h4>
 
 <hr>
 
@@ -109,7 +109,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>CSS variables</strong></h4>
+<h4 class="title is-family-primary"><strong>CSS variables</strong></h4>
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
@@ -126,7 +126,7 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
     }
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Blurred Background</strong></h4>
+<h4 class="title is-family-primary"><strong>Blurred Background</strong></h4>
 
 Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
 

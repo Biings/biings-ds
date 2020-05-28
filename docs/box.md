@@ -1,7 +1,7 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Box</h1>
 <hr class="is-visible is-size-4">
-<p class="subtitle is-size-4-tablet is-family-secondary">
+<p class="subtitle is-family-secondary has-text-dark">
     <span class="has-text-weight-semibold">Box</span> is a visual motif used to create groupings of content related to a same entity or subject as well as focus through depth.
 </p>
 <hr class="is-visible is-size-4"><br>
@@ -15,7 +15,7 @@
     </div>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Box depths</strong></h4>
+<h4 class="title is-family-primary"><strong>Box depths</strong></h4>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.
 
@@ -54,7 +54,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Depth transition</strong></h4>
+<h4 class="title is-family-primary"><strong>Depth transition</strong></h4>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -86,7 +86,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Sizes</strong></h4>
+<h4 class="title is-family-primary"><strong>Sizes</strong></h4>
 
 You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` or `is-larger` to the box.
 
@@ -109,7 +109,7 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
     <div class="box is-larger">Larger!</div>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title"><strong>Expandable box</strong></h4>
+<h4 class="title is-family-primary"><strong>Expandable box</strong></h4>
 
 Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immidiate child element with class `expanded-content` will be then shown.
 
