@@ -144,10 +144,10 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
 
 <hr class="is-size-2">
 
-<div class="box is-larger is-bordered has-background-white-bis is-size-5">
+<div class="box is-medium is-bordered has-background-white-bis is-size-5">
     <span class="tag is-primary is-glowing is-small">Bonus</span>
     <hr class="is-thin is-wavy">
-    <h3 class="title is-3 has-text-primary-dark has-text-weight-bolder is-spaced">Slack Theme 🎨</h3>
+    <h4 class="title has-text-primary-dark has-text-weight-bolder is-family-primary is-spaced">Slack Theme 🎨</h4>
     <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
     #241A2E,#2D2236,#8246AF,#FFFFFF,#2D2236,#EFECF2,#50B98C,#AA50B5,#241A2E,#EFECF2

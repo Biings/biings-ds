@@ -13,8 +13,10 @@
     border-radius: $modal-card-head-radius
     box-shadow: 0 .125rem 3px -1.25rem $black, 0 .375rem .5rem -1.125rem rgba($black, .4), 0 1rem 2.5rem -.625rem rgba($black, .4)
 
-.modal-card-head + .modal-card-body
-    padding-top: .5rem
+.modal-card-head:not(.is-borderless) + .modal-card-body,
+.modal-card-foot:not(.is-borderless)
+    z-index: 0
+    box-shadow: 0 -42px 0 -40px $hr-background-color
 
 .modal-content,
 .modal-card,
@@ -47,19 +49,20 @@
     position: absolute
     top: 4%
 
-
 .modal-card-head > .icon
     position: relative
-    left: -.125em
-    margin-right: -1.125em
+    left: -1px
 
 .modal-card-title
-    padding: 0 .5rem
     max-width: 100%
     text-align: center
     letter-spacing: -1px
     font-weight: $weight-medium
     font-family: $family-secondary
+
+.icon + .modal-card-title
+    margin-left: .5rem
+    text-align: left
 
 .modal-card-head > .delete,
 .modal-card-body > .delete,
@@ -68,8 +71,9 @@
     border-radius: $radius-small
 
 .modal-card-head > .delete
-    position: relative
-    right: -.625em
+    position: absolute
+    top: 1.5rem
+    right: 1.875rem
     margin-left: -2.125em
     font-size: inherit
 
@@ -98,17 +102,17 @@
 .modal-card-foot.is-borderless
     padding-top: 0
 
-.modal-card-foot .button:not(:last-child)
+.modal-card-foot > .button:not(:last-child)
     margin-right: 0
 
-.modal-card-foot .button
+.modal-card-foot > .button
     margin-top: -.25em
-.modal-card-foot .button.is-text
+.modal-card-foot > .button.is-text
     margin-top: -.375em
-.modal-card-foot .button.is-text:first-child
-    margin-left: -.75em
-.modal-card-foot .button.is-text:last-child
-    margin-right: -.75em
+.modal-card-foot > .button.is-text:first-child
+    margin-left: -1em
+.modal-card-foot > .button.is-text:last-child
+    margin-right: -1em
 
 .modal-card-foot.has-text-right .button:last-child
     margin-left: .5em
