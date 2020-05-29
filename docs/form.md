@@ -30,9 +30,9 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
         <label for="infofield" class="label">The Occasional Blue Field</label>
         <input id="infofield" class="input" type="text" placeholder="Even the input text is blue.">
     </div>
-    <div class="field">
+    <div class="field is-required">
         <label for="textfield" class="label">Textarea Field</label>
-        <textarea id="textfield" rows="2" class="textarea" placeholder="For looong text inputs.."></textarea>
+        <textarea id="textfield" rows="2" class="textarea" placeholder="This one is also required"></textarea>
     </div>
 </form>
 
@@ -53,7 +53,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
             <label for="warnfield" class="label">The Occasional Blue Field</label>
             <input id="warnfield" class="input" type="text" placeholder="Even the input text is blue.">
         </div>
-        <div class="field">
+        <div class="field is-required">
             <label for="textfield" class="label">Textarea</label>
             <textarea id="textfield" class="textarea" placeholder="..."></textarea>
         </div>
@@ -107,10 +107,10 @@ In most cases it is better to indicate the optional fields rather than the requi
 <h4 class="title is-family-primary"><strong>Select field</strong></h4>
 
 <br><form class="box is-well is-radiusless-b is-large is-marginless">
-    <div class="field select is-required is-warning">
+    <div class="field select is-warning">
         <label for="selectId" class="label">Select list</label>
         <select id="selectId">
-            <option value="1">Default</option>
+            <option value="1">Please choose!</option>
             <option value="2">System</option>
             <option value="3">Select</option>
             <option value="4">List</option>
@@ -175,15 +175,15 @@ In most cases it is better to indicate the optional fields rather than the requi
             <div class="field">
                 <label class="checkbox">
                     <input type="checkbox"><span class="checkbox-mark"></span>
-                    Check me!
+                    <span>Check me</span>
                 </label>
             </div>
         </div>
         <div class="column is-6">
             <div class="field">
                 <label class="checkbox is-toggle is-right">
-                    Toggle me!
                     <input type="checkbox"><span class="checkbox-mark"></span>
+                    <span>Toggle me</span>
                 </label>
             </div>
         </div>
@@ -191,7 +191,7 @@ In most cases it is better to indicate the optional fields rather than the requi
             <div class="field">
                 <label class="radio">
                     <input type="radio" name="answer"><span class="radio-mark"></span>
-                    Choice One
+                    <span>Choice One</span>
                 </label>
             </div>
         </div>
@@ -199,7 +199,7 @@ In most cases it is better to indicate the optional fields rather than the requi
             <div class="field">
                 <label class="radio">
                     <input type="radio" name="answer"><span class="radio-mark"></span>
-                    Choice Two
+                    <span>Choice Two</span>
                 </label>
             </div>
         </div>
@@ -207,7 +207,7 @@ In most cases it is better to indicate the optional fields rather than the requi
             <div class="field">
                 <label class="radio">
                     <input type="radio" name="answer"><span class="radio-mark"></span>
-                    Choice Three
+                    <span>Choice Three</span>
                 </label>
             </div>
         </div>
@@ -218,7 +218,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     <div class="field">
         <label class="checkbox">
             <input type="checkbox"><span class="checkbox-mark"></span>
-            Check me!
+            <span>Check me!</span>
         </label>
     </div>
     <!-- Right aligned toggle -->
@@ -232,7 +232,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     <div class="field">
         <label class="radio">
             <input type="radio" name="answer"><span class="radio-mark"></span>
-            Choice One
+            <span>Choice One</span>
         </label>
     </div>
 <hr class="is-visible is-size-1">
@@ -259,30 +259,54 @@ In most cases it is better to indicate the optional fields rather than the requi
                 <input id="compact2" class="input"></input>
             </div>
         </div>
-        <div class="column is-6">
-            <div class="field select">
-                <label for="compact1" class="label">Compact Field</label>
-                <select id="compact1">
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                </select>
+        <div class="column is-4">
+            <div class="field">
+                <label class="radio">
+                    <input type="radio" name="compact-radio"><span class="radio-mark"></span>
+                    <span>Toggle me</span>
+                </label>
             </div>
         </div>
-        <div class="column is-6">
-            <div class="field select">
-                <label for="compact1" class="label">Compact Field</label>
-                <select id="compact1">
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                </select>
+        <div class="column is-4">
+            <div class="field">
+                <label class="radio">
+                    <input type="radio" name="compact-radio"><span class="radio-mark"></span>
+                    <span>Check me</span>
+                </label>
+            </div>
+        </div>
+        <div class="column is-4">
+            <div class="field">
+                <label class="radio">
+                    <input type="radio" name="compact-radio"><span class="radio-mark"></span>
+                    <span>Click me</span>
+                </label>
             </div>
         </div>
         <div class="column is-12">
             <div class="field">
                 <label for="compact1" class="label">Compact Field</label>
                 <input id="compact2" class="input "></input>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="field select">
+                <label for="compact1" class="label">Compact Field</label>
+                <select id="compact1">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="field select">
+                <label for="compact1" class="label">Compact Field</label>
+                <select id="compact1">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
             </div>
         </div>
     </div>

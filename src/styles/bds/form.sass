@@ -5,12 +5,12 @@ select,
 .select > select,
 .field > .checkbox,
 .field > .radio
-    min-height: 2.75em
-    transition: border-color .1s ease-out, background-color .25s linear
+    min-height: 4em
+    transition: border-color .1s ease-out, color .1s linear, background-color .25s linear
 
 .input:not(:focus),
 .textarea:not(:focus)
-    transition: border-color .1s ease-out, background-color .01s linear
+    transition: border-color .1s ease-out, color .1s linear, background-color .01s linear
 .input:focus,
 .textarea:focus
     background-color: $white
@@ -106,20 +106,26 @@ form .field
 .field > .radio
     padding: 1.5em 1.125em
     width: 100%
+    color: $label-color
     @extend %input
+
+.field > .checkbox > input:checked ~ span,
+.field > .radio > input:checked ~ span
+    color: $grey-darker
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
-    top: .75em
-    left: .875em
+    top: 1em
+    left: 1em
 
-.field > .checkbox.is-right > .checkbox-mark,
-.field > .radio.is-right > .radio-mark
-    top: .75em
-    right: .875em
+.field > .checkbox.is-right > .checkbox-mark
+    right: 1em
     left: initial
 
-.field > label > span
+.field > .checkbox.is-right > input
+    width: 1px
+
+.field > .label > span
     color: $grey
     font-weight: 400
     font-style: italic
@@ -194,41 +200,38 @@ form .field
     margin: 0 -2px -2px 0
 .is-gapless > .column .field,
 .is-gapless > .column .field > input,
-.is-gapless > .column .field > select
+.is-gapless > .column .field > select,
+.is-gapless > .column .field > label
     border-radius: 0
 .is-gapless > .column .field > input:focus,
-.is-gapless > .column .field > select:focus
+.is-gapless > .column .field > select:focus,
+.is-gapless > .column .field > label:active
     z-index: 2
 .is-gapless > .column .field > input:hover,
-.is-gapless > .column .field > select:hover
+.is-gapless > .column .field > select:hover,
+.is-gapless > .column .field > label:hover
     z-index: 1
 
 .is-gapless > .column:first-child .field,
-.is-gapless > .column:first-child .field > input,
-.is-gapless > .column:first-child .field > select
+.is-gapless > .column:first-child .field > *
     border-top-left-radius: $control-radius
 
 .is-gapless > .is-12:first-child .field,
-.is-gapless > .is-12:first-child .field > input,
-.is-gapless > .is-12:first-child .field > select
+.is-gapless > .is-12:first-child .field > *
     border-top-right-radius: $control-radius
 
 .is-gapless > .is-6:first-child + .is-6 .field,
-.is-gapless > .is-6:first-child + .is-6 .field > input,
-.is-gapless > .is-6:first-child + .is-6 .field > select
+.is-gapless > .is-6:first-child + .is-6 .field > *
     border-top-right-radius: $control-radius
 
 .is-gapless > .column:last-child .field,
-.is-gapless > .column:last-child .field > input,
-.is-gapless > .column:last-child .field > select
+.is-gapless > .column:last-child .field > *
     border-bottom-right-radius: $control-radius
 
 .is-gapless > .is-12:last-child .field,
-.is-gapless > .is-12:last-child .field > input,
-.is-gapless > .is-12:last-child .field > select
+.is-gapless > .is-12:last-child .field > *
     border-bottom-left-radius: $control-radius
 
 .is-gapless > .is-6:nth-last-child(2) .field,
-.is-gapless > .is-6:nth-last-child(2) .field > input,
-.is-gapless > .is-6:nth-last-child(2) .field > select
+.is-gapless > .is-6:nth-last-child(2) .field > *
     border-bottom-left-radius: $control-radius

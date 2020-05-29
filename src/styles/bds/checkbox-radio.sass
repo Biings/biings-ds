@@ -1,8 +1,10 @@
 /* Checkbox & Radio */
 label.checkbox,
 label.radio
-    font-size: $size-5
-    line-height: 1.5
+    color: $grey-darker
+    font-weight: $label-weight
+    font-size: $size-6 !important
+    line-height: 1.75
     transition: color .1s linear
     user-select: none
 
@@ -106,10 +108,8 @@ label.radio
 
 // —— TOGGLE —————————————————————————————————————————————————————————————————————————————
 
-.checkbox.is-toggle
-    line-height: 1.4
 .checkbox.is-toggle.is-large
-    line-height: 1.9
+    line-height: 2
 
 .checkbox.is-toggle > input
     width: 3.5em
@@ -165,7 +165,7 @@ label.radio
 
 .checkbox.is-toggle.is-large > input
     margin-top: .9375em
-    width: 3.25rem
+    width: 3.5rem
 
 .checkbox.is-toggle.is-large > .checkbox-mark:after
     top: 5px
