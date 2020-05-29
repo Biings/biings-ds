@@ -97,39 +97,8 @@
 .button.is-small.is-square
     width: 2.1875em
 
-// Loading state
-.button.is-loading
-    color: transparent !important
-
-.button.is-loading:after
-    border-color: $grey
-    animation: pulsate .9s linear infinite !important
-
-.button.is-loading.is-indeterminate:after
-    animation: pulsate-ind .9s ease-in-out infinite alternate !important
-
-.button.is-loading.is-primary:after,
-.button.is-loading.is-success:after,
-.button.is-loading.is-info:after,
-.button.is-loading.is-warning:after,
-.button.is-loading.is-danger:after,
-.button.is-loading.is-dark:after
-    border-color: rgba(255,255,255,.65) !important
-
-.button.is-loading.is-light:after
-    border-color: $grey-dark !important
-
-.button.is-loading.is-light.is-primary:after
-    border-color: $primary !important
-
-.button.is-loading.is-light.is-success:after
-    border-color: $success !important
-
-.button.is-loading.is-light.is-info:after
-    border-color: $info !important
-
-.button.is-loading.is-light.is-danger:after
-    border-color: $danger !important
+// Button loading state
+// See loader.saas
 
 
 // Button chaining

@@ -54,7 +54,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 <div id="js-modal1" class="modal">
     <div class="modal-background" onclick="closeModal(1)"></div>
     <div class="modal-card">
-        <header class="modal-card-head">
+        <header class="modal-card-head has-border">
             <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             <div class="modal-card-title">
                 Modal Card Example
@@ -98,7 +98,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             </p>
             <hr>
         </section>
-        <footer class="modal-card-foot">
+        <footer class="modal-card-foot has-border">
             <div class="button is-dark">Footer Action</div>
             <div class="button is-static">or</div>
             <a class="button is-text" onclick="closeModal(1)"><span class="is-link is-underlined">Close</span></a>

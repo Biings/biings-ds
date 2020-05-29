@@ -13,10 +13,14 @@
     border-radius: $modal-card-head-radius
     box-shadow: 0 .125rem 3px -1.25rem $black, 0 .375rem .5rem -1.125rem rgba($black, .4), 0 1rem 2.5rem -.625rem rgba($black, .4)
 
-.modal-card-head:not(.is-borderless) + .modal-card-body,
-.modal-card-foot:not(.is-borderless)
+.modal-card-head.has-border + .modal-card-body,
+.modal-card-foot.has-border
     z-index: 0
     box-shadow: 0 -42px 0 -40px $hr-background-color
+
+.modal-card-head:not(.has-border) + .modal-card-body,
+.modal-card-foot:not(.has-border)
+    padding-top: .25rem
 
 .modal-content,
 .modal-card,
@@ -98,9 +102,6 @@
 .modal-card-body:last-child
     border-bottom-right-radius: $modal-card-head-radius
     border-bottom-left-radius: $modal-card-head-radius
-
-.modal-card-foot.is-borderless
-    padding-top: 0
 
 .modal-card-foot > .button:not(:last-child)
     margin-right: 0

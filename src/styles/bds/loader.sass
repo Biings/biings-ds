@@ -56,6 +56,51 @@
     &:after
         border-color: $primary-light
 
+// Component Loading state
+.button.is-loading
+    color: transparent !important
+
+.control.is-loading:after
+    top: .875em
+    right: 1em
+
+.button.is-loading:after,
+.control.is-loading:after
+    border-color: $grey
+    animation: pulsate .9s linear infinite !important
+
+.button.is-loading.is-indeterminate:after,
+.control.is-loading.is-indeterminate:after
+    animation: pulsate-ind .9s ease-in-out infinite alternate !important
+
+.button.is-loading.is-primary:after,
+.button.is-loading.is-success:after,
+.button.is-loading.is-info:after,
+.button.is-loading.is-warning:after,
+.button.is-loading.is-danger:after,
+.button.is-loading.is-dark:after
+    border-color: rgba(255,255,255,.65) !important
+.button.is-loading.is-light:after
+    border-color: $grey-dark !important
+.button.is-loading.is-light.is-primary:after,
+.is-loading.is-primary:after
+    border-color: $primary !important
+.button.is-loading.is-light.is-success:after,
+.is-loading.is-success:after
+    border-color: $success !important
+.button.is-loading.is-light.is-info:after,
+.is-loading.is-info:after
+    border-color: $info !important
+.button.is-loading.is-light.is-danger:after,
+.is-loading.is-danger:after
+    border-color: $danger !important
+.button.is-loading.is-light.is-warning:after,
+.is-loading.is-warning:after
+    border-color: $warning !important
+
+
+// Progress bar
+
 .progress:indeterminate
     background-image: repeating-linear-gradient(45deg, $grey, $grey 10px, mix($grey-dark,$grey,70) 10px, mix($grey-dark,$grey,70) 20px)
     animation: progressing .35s linear infinite
@@ -75,4 +120,4 @@
     0%
         background-position-x: 0
     100%
-        background-position-x: -28px;
+        background-position-x: -28px

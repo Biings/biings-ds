@@ -38,13 +38,15 @@
 
 // ADJUSTMENTS TO BULMA :
 
-.is-success + .help
+.help
+    padding-left: .125rem
+.is-success ~ .help
     color: $success
-.is-danger + .help
+.is-danger ~ .help
     color: $danger
-.is-warning + .help
+.is-warning ~ .help
     color: $warning
-.is-info + .help
+.is-info ~ .help
     color: $info
 
 .delete.is-inverted

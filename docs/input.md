@@ -15,7 +15,9 @@
 <br><form class="box is-well is-large is-marginless is-radiusless-b" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-7">
-    <input class="input" type="tel" placeholder="Default and loading input">
+    <div class="control is-loading is-primary">
+        <input class="input" type="tel" placeholder="Default and loading . .">
+    </div>
     <hr class="is-size-7">
     <input class="input is-medium" type="email" placeholder="Medium and danger input">
     <hr class="is-size-7">
@@ -33,7 +35,9 @@
 <hr class="is-thin is-visible">
 
     <input class="input is-small" type="text" placeholder="..">
-    <input class="input" type="text">
+    <div class="control is-loading">
+        <input class="input" type="text" placeholder="Loading..">
+    </div>
     <input class="input is-medium is-danger" type="text">
     <!-- With Label -->
     <label for="inputId" class="label">Label</label>
