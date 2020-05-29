@@ -5,7 +5,6 @@ select,
 .select > select,
 .field > .checkbox,
 .field > .radio
-    min-height: 4em
     transition: border-color .1s ease-out, color .1s linear, background-color .25s linear
 
 .input:not(:focus),
@@ -57,20 +56,21 @@ form .field
 
 .field > input,
 .field > textarea,
+.field.select > select,
+.field.select > select:active,
+.field > label.checkbox,
+.field > label.radio
+    min-height: 4em
+    border-color: rgba($black,.125)
+    background-color: transparent !important
+
+.field > input,
+.field > textarea,
 .field > select
     padding-top: 2.125em
     padding-bottom: .75em
     width: 100%
     height: auto
-
-.field > input,
-.field > textarea,
-.field.select > select,
-.field.select > select:active,
-.field > label.checkbox,
-.field > label.radio
-    border-color: rgba($black,.125)
-    background-color: transparent !important
 
 .field > input:hover:not(:focus),
 .field > textarea:hover:not(:focus),
@@ -217,11 +217,9 @@ form .field
     border-top-left-radius: $control-radius
 
 .is-gapless > .is-12:first-child .field,
-.is-gapless > .is-12:first-child .field > *
-    border-top-right-radius: $control-radius
-
-.is-gapless > .is-6:first-child + .is-6 .field,
-.is-gapless > .is-6:first-child + .is-6 .field > *
+.is-gapless > .is-12:first-child .field > *,
+.is-gapless > .column:not(.is-12):first-child + .column .field,
+.is-gapless > .column:not(.is-12):first-child + .column .field > *
     border-top-right-radius: $control-radius
 
 .is-gapless > .column:last-child .field,
@@ -229,9 +227,9 @@ form .field
     border-bottom-right-radius: $control-radius
 
 .is-gapless > .is-12:last-child .field,
-.is-gapless > .is-12:last-child .field > *
-    border-bottom-left-radius: $control-radius
-
-.is-gapless > .is-6:nth-last-child(2) .field,
-.is-gapless > .is-6:nth-last-child(2) .field > *
+.is-gapless > .is-12:last-child .field > *,
+.is-gapless > .column:not(.is-12):nth-last-child(2) .field,
+.is-gapless > .column:not(.is-12):nth-last-child(2) .field > *,
+.is-gapless > .is-12 + .column:last-child .field,
+.is-gapless > .is-12 + .column:last-child .field > *
     border-bottom-left-radius: $control-radius

@@ -239,15 +239,17 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h4 class="title is-family-primary"><strong>Compact Form</strong></h4>
 
+Group similar field together by adding `is-gapless` to the wrapping `columns` container.
+
 <br><form class="box is-well is-large is-marginless is-radiusless-b">
     <div class="columns is-gapless is-multiline">
-        <div class="column is-6">
+        <div class="column is-3">
             <div class="field">
                 <label for="compact1" class="label">Compact Field</label>
                 <input id="compact2" class="input   "></input>
             </div>
         </div>
-        <div class="column is-6">
+        <div class="column is-9">
             <div class="field">
                 <label for="compact1" class="label">Compact Field</label>
                 <input id="compact2" class="input"></input>
@@ -255,15 +257,17 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
         <div class="column is-12">
             <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input"></input>
+                <label class="checkbox is-toggle is-right">
+                    <input type="checkbox"><span class="checkbox-mark"></span>
+                    <span>Toggle me</span>
+                </label>
             </div>
         </div>
         <div class="column is-4">
             <div class="field">
                 <label class="radio">
                     <input type="radio" name="compact-radio"><span class="radio-mark"></span>
-                    <span>Toggle me</span>
+                    <span>Choose me</span>
                 </label>
             </div>
         </div>
@@ -285,7 +289,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
         <div class="column is-12">
             <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
+                <label for="compact1" class="label">Twelve Field</label>
                 <input id="compact2" class="input "></input>
             </div>
         </div>
@@ -293,9 +297,9 @@ In most cases it is better to indicate the optional fields rather than the requi
             <div class="field select">
                 <label for="compact1" class="label">Compact Field</label>
                 <select id="compact1">
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
+                    <option value="1">Choice 1</option>
+                    <option value="2">Choice 2</option>
+                    <option value="3">Choice 3</option>
                 </select>
             </div>
         </div>
@@ -303,9 +307,9 @@ In most cases it is better to indicate the optional fields rather than the requi
             <div class="field select">
                 <label for="compact1" class="label">Compact Field</label>
                 <select id="compact1">
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
+                    <option value="1">Option A</option>
+                    <option value="2">Option B</option>
+                    <option value="3">Option C</option>
                 </select>
             </div>
         </div>
