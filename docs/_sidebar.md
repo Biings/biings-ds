@@ -18,7 +18,6 @@
 - [Avatar](avatar)
 - [Box](box)
 - [Button / Link](button)
-- [Card](card)
 - [Checkbox](checkbox)
 - [Dropdown](dropdown)
 <!-- - [Illustration](illustration) -->
