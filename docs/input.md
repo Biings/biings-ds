@@ -64,11 +64,11 @@ You can add one or two icons inside the input.
             </p>
         </div>
         <div class="column is-6">
-            <p class="control has-icons-left has-icons-right">
+            <div class="control has-icons-left has-icons-right">
                 <input class="input is-rounded" type="tel" placeholder="Input with 2 icons">
                 <svg class="icon is-left"><use xlink:href="media/bds-icons.min.svg#search-g"></use></svg>
-                <svg class="icon is-right has-fill-grey-light"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
-            </p>
+                <svg class="icon is-right has-fill-grey"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
+            </div>
         </div>
     </div>
 </div>

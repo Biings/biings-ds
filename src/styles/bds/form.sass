@@ -115,8 +115,11 @@ form .field
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
-    top: 1em
+    top: calc( 1em + 1px )
     left: 1em
+
+.field > .checkbox.is-toggle > .checkbox-mark
+    top: 1em
 
 .field > .checkbox.is-right > .checkbox-mark
     right: 1em

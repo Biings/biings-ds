@@ -20,7 +20,6 @@
 - [Button / Link](button)
 - [Checkbox](checkbox)
 - [Dropdown](dropdown)
-<!-- - [Illustration](illustration) -->
 - [Form](form)
 - [Input](input)
 - [Loader](loader)
