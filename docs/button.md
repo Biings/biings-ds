@@ -237,7 +237,7 @@ Buttons can be grouped together.
             <a class="button">Red</a>
         </p>
         <p class="control">
-            <a class="button is-active">Purple</a>
+            <a class="button">Purple</a>
         </p>
         <p class="control">
             <a class="button">None</a>
@@ -250,7 +250,7 @@ Buttons can be grouped together.
             <a class="button">Red</a>
         </p>
         <p class="control">
-            <a class="button is-active">Purple</a>
+            <a class="button">Purple</a>
         </p>
         <p class="control">
             <a class="button">None</a>

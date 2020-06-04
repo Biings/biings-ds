@@ -4,9 +4,9 @@
 
 - <span class="subtitle is-size-7 has-text-grey has-text-weight-medium is-uppercase">Foundation</span>
 <div class="menu is-small"><ul class="menu-list">
+- [Content](content)
 - [Layout](layout)
 - [Typography](typo)
-- [Voice & Tone](voice)
 - [Colors](color)
 - [Iconography](icons)
 <!-- - [Rules](rules) -->

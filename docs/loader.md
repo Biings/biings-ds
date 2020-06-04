@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4">
 
-?> For entire page loading, a <a href="#/skeleton" class="is-underlined">Skeleton</a> screen is probably a better option.
+?> **Loading an entire page?**<br>A <a href="#/skeleton" class="is-underlined">Skeleton</a> screen might be a better option.
 
 <hr class="is-size-4">
 

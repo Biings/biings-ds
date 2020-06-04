@@ -19,18 +19,17 @@
         <input class="input" type="tel" placeholder="Default and loading . .">
     </div>
     <hr class="is-size-7">
-    <input class="input is-medium" type="email" placeholder="Medium and danger input">
+    <input class="input is-medium" type="email" placeholder="Medium and readonly input" readonly>
+    <hr class="is-size-7">
+    <input class="input is-danger" placeholder="With class is-danger">
+    <p class="help">A clear error message</p>
     <hr class="is-size-7">
     <label for="defaultfield" class="label">With a label</label>
-    <input id="defaultfield" class="input" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
-    <hr class="is-size-7">
-    <div class="columns is-variable is-2">
-        <div class="column is-10">
-            <input class="input is-danger" placeholder="With class is-danger">
-            <p class="help">A clear error message</p>
-        </div>
-        <div class="column is-2"><div class="button is-danger is-beefy is-fullwidth">Submit</div></div>
+    <div class="control has-icons-right">
+        <input id="defaultfield" class="input" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
+        <svg class="icon is-right has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-g"></use></svg>
     </div>
+    <p class="help has-text-success-dark">Saved.</p>
 </form>
 <hr class="is-thin is-visible">
 

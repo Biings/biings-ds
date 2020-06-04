@@ -5,11 +5,11 @@
 <hr class="is-size-2 is-visible">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/layout" class="box is-medium is-popping has-background-primary-dark">
+        <a href="#/content" class="box is-medium is-popping has-background-primary-dark">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-white is-family-primary"><strong>Foundation</strong></h4>
-            <p class="subtitle is-6 has-text-primary-lighter">Layout, Typography, Color, etc</p>
+            <p class="subtitle is-6 has-text-primary-lighter">Content, Layout, Color, etc</p>
         </a>
     </div>
     <div class="column is-half">
