@@ -83,7 +83,18 @@
     --color-dark: #{$dark};
 
     --color-info: #{$info};
+    --color-info-dark: #{$info-dark};
+    --color-info-lighter: #{$info-lighter};
+
     --color-success: #{$success};
+    --color-success-dark: #{$success-dark};
+    --color-success-lighter: #{$success-lighter};
+
     --color-warning: #{$warning};
+    --color-warning-dark: #{$warning-dark};
+    --color-warning-lighter: #{$warning-lighter};
+
     --color-danger: #{$danger};
+    --color-danger-dark: #{$danger-dark};
+    --color-danger-lighter: #{$danger-lighter};
 }

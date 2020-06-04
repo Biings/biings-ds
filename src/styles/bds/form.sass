@@ -10,9 +10,13 @@ select,
 .input:not(:focus),
 .textarea:not(:focus)
     transition: border-color .1s ease-out, color .1s linear, background-color .01s linear
-.input:focus,
-.textarea:focus
+.input:focus:not([readonly]),
+.textarea:focus:not([readonly])
     background-color: $white
+
+.input:focus[readonly],
+.textarea:focus[readonly]
+    border-color: $border-hover
 
 .textarea
     padding-left: calc(.875em - 1px)

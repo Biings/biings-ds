@@ -33,7 +33,7 @@ $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
 $light          : $white-ter !default
 $dark           : mix(black, $primary, 50) !default
 
-// Special colors (NOT BULMA)
+// Special colors (NOT BULMA) —————————————————————
 $primary-lighter: mix(white, $primary, 85) !default
 
 $pilot          : $primary !default
@@ -87,13 +87,28 @@ $pink           : #E26EA5 !default
 $pink-dark      : mix(black, $pink, 25) !default
 $pink-light     : mix(white, $pink, 30) !default
 $pink-lighter   : mix(white, $pink, 80) !default
-// ———— (NOT BULMA END)
+
+// ———— (NOT BULMA END) ————————————————————————————
 
 $info           : mix($primary, $blue, 25) !default
 $success        : mix($turquoise-dark, $care, 25) !default
 $warning        : mix($claim, $yellow, 15) !default
 $danger         : $red !default
 
+// Additional colors (NOT BULMA) ————————————————————
+$info-dark      : mix(black, $info, 15) !default
+$info-lighter   : mix(white, $info, 80) !default
+
+$success-dark      : mix(black, $success, 12) !default
+$success-lighter   : mix(white, $success, 80) !default
+
+$warning-dark      : mix(black, $warning, 15) !default
+$warning-lighter   : mix(white, $warning, 80) !default
+
+$danger-dark      : mix(black, $danger, 15) !default
+$danger-lighter   : mix(white, $danger, 80) !default
+// ———— (NOT BULMA END) ————————————————————————————
+    
 // Invert colors
 
 $orange-invert: findColorInvert($orange) !default
@@ -286,14 +301,14 @@ $strong-weight: $weight-semibold !default
 
 $box-color: $text
 $box-background-color: transparent
-$box-radius: .625em
+$box-radius: .75em
 $box-shadow: none
 $box-padding: 1.25rem 1.375rem
 $box-link-hover-shadow: !default
 $box-link-active-shadow: !default
 
 $menu-item-color: $dark !default
-$menu-item-radius: $box-radius !default
+$menu-item-radius: $radius !default
 $menu-item-hover-color: $dark !default
 $menu-item-hover-background-color: $code-background !default
 $menu-item-active-color: $white !default
@@ -326,7 +341,7 @@ $dropdown-content-padding-top: 0.5rem !default
 $dropdown-content-padding-bottom: $dropdown-content-padding-top !default
 $dropdown-content-shadow: 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
 $dropdown-item-hover-background-color: $code-background !default
-$dropdown-content-radius: $box-radius !default
+$dropdown-content-radius: $radius !default
 $dropdown-item-active-color: $primary !default
 $dropdown-item-active-background-color: $dropdown-item-hover-background-color !default
 $dropdown-divider-background-color: $hr-background-color !default
