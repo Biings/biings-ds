@@ -45,9 +45,13 @@ form .field
     padding-right: $control-padding-horizontal
     padding-bottom: $control-padding-vertical
     padding-left: $control-padding-horizontal
-    color: $label-color
     transition: color .1s linear
     pointer-events: none
+
+.field:hover > .label,
+.field:hover > .checkbox,
+.field:hover > .radio
+    color: mix($grey-dark,$grey,15)
 
 .field:not(.select) > .label
     cursor: text
