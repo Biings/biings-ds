@@ -10,7 +10,7 @@
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its main font family (with a purchased licence).</li>
-    <li>For important headings use <span class="is-family-secondary">Crimson Pro</span> with modifier <code>is-family-secondary</code></li>
+    <li>For important headings use <span class="is-family-secondary is-size-5">Crimson Pro</span> with modifier <code>is-family-secondary</code></li>
     <li>When a Monospace font is required use <span class="is-family-monospace">Roboto Mono</span> with modifier <code>is-family-monospace</code></li>
     <li>For hand-drawn text use <span class="is-family-hand">Caveat</span> with modifier <code>is-family-hand</code></li>
 </ul>
@@ -48,11 +48,11 @@ Use font weights to emphasize or differentiate content hierarchy.
 
 <ul class="list is-size-5">
     <li><span class="has-text-weight-light">300 — Light</span></li>
-    <li><span class="has-text-weight-normal">400 — Normal / <span class="is-family-secondary">Light Serif</span></span></li>
-    <li><span class="has-text-weight-medium">500 — Medium / <span class="is-family-secondary">Medium Serif</span></span></li>
-    <li><span class="has-text-weight-semibold">600 — Semibold / <span class="is-family-secondary">Semibold Serif</span></span></li>
+    <li><span class="has-text-weight-normal">400 — Normal / <span class="is-family-secondary is-size-5">Light Serif</span></span></li>
+    <li><span class="has-text-weight-medium">500 — Medium / <span class="is-family-secondary is-size-5">Medium Serif</span></span></li>
+    <li><span class="has-text-weight-semibold">600 — Semibold / <span class="is-family-secondary is-size-5">Semibold Serif</span></span></li>
     <li><span class="has-text-weight-bold">800 — Bold</span></li>
-    <li><span class="has-text-weight-bolder">900 — Bolder / <span class="is-family-secondary">Bolder Serif</span></span></li>
+    <li><span class="has-text-weight-bolder">900 — Bolder / <span class="is-family-secondary is-size-5">Bolder Serif</span></span></li>
 </ul>
 
 <hr class="is-size-1 is-visible">

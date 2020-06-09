@@ -64,3 +64,11 @@ em
 em.is-primary
     background-image: linear-gradient(90deg, rgba(140, 80, 185, .25), rgba(91, 37, 133, .7) 30%,rgba(140, 80, 185, .5) 95%, rgba(140, 80, 185, .2))
 
+// Force-adjust font-size for serif type below size-4
+.title.is-5:not(.is-family-primary),
+.is-family-secondary.is-size-5
+    font-size: $size-5 + .125rem !important
+.title.is-6:not(.is-family-primary),
+.is-family-secondary.is-size-6,
+.is-family-secondary.is-size-7
+    font-size: $size-6 + .125rem !important
