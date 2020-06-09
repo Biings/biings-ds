@@ -24,7 +24,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
     </div>
     <button onclick="closeModal('')" class="modal-close is-huge" aria-label="close"></button>
 </div>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <div class="modal">
         <div class="modal-background has-background-white"></div>
@@ -50,7 +50,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     &nbsp; &nbsp; 
     <div onclick="openModal(2)" class="button is-primary is-shadowed">Modal Card Example 2</div>
 </div>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 <div id="js-modal1" class="modal">
     <div class="modal-background" onclick="closeModal(1)"></div>
     <div class="modal-card">
@@ -112,10 +112,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <button onclick="closeModal(2)" class="delete is-large is-inverted" aria-label="close"></button>
             <div class="modal-card-title">
                 <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
-                <hr class="is-thin is-wavy">
+                <hr class="is-marginless is-wavy">
                 <h3 class="title is-family-secondary">Modal Card Example</h3>
             </div>
-            <hr class="is-thin is-wavy">
+            <hr class="is-marginless is-wavy">
             <p class="subtitle is-6 has-text-grey">You could also insert centered tabs to make<br>this modal even more versatile.</p>
             <div class="tabs is-centered is-small">
                 <ul>

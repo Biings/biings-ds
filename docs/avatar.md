@@ -13,7 +13,7 @@ Avatar's default background is transparent. Set it manually to achieve the below
 <br><div class="box is-well is-medium is-marginless is-radiusless-b">
     <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
 </div>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <div class="avatar">
         <div class="has-background-grey-light">JD</div>

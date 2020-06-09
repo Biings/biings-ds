@@ -82,7 +82,7 @@ Use one of the following tags to emphasize words or part of a text.
         </div>
     </div>
 </div>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
     
     Let's <em>highlight this in yellow</em>..
     Or <em class="is-primary">some of that in purple</em>.

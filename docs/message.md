@@ -40,7 +40,7 @@ A Message can act as a notification when combined with a Modal. Put the message 
     <div class="button is-danger is-shadowed" onclick="openModal('4')">Small Noti</div>&nbsp; &nbsp;
     <div class="button is-primary is-shadowed" onclick="openModal('5')">Medium Noti</div>
 </div>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
 <div id="js-modal3" class="modal" onclick="closeModal('3')">
     <div class="message">

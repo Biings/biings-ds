@@ -133,7 +133,7 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
 <br><div class="box is-bordered is-small has-text-grey has-text-centered">
     <div class="box is-relative is-marginless is-size-2">
         🖱
-        <hr class="is-thin is-wavy">
+        <hr class="is-marginless is-wavy">
         <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
         <div class="has-text-grey is-size-7">This is made just to demo the effect.</div>
         <div class="has-background-blur has-background-white" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;" onmouseout="this.className='has-background-blur has-background-white'" onMouseOver="this.className=''"></div>
@@ -146,7 +146,7 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
 
 <div class="box is-medium is-bordered has-background-white-bis is-size-5">
     <span class="tag is-primary is-glowing is-small">Bonus</span>
-    <hr class="is-thin is-wavy">
+    <hr class="is-marginless is-wavy">
     <h4 class="title has-text-primary-dark has-text-weight-bolder is-family-primary is-spaced">Slack Theme 🎨</h4>
     <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     

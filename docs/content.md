@@ -15,8 +15,8 @@ Try to remove any unnecessary words or phrase.
     <table class="table is-fullwidth is-brdered is-marginless">
         <thead>
             <tr>
-                <th width="300"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
-                <th><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
+                <th width="40%"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
@@ -41,8 +41,8 @@ Content should not feel complex or distant. Rather, it should be like a conversa
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th width="300"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
-                <th><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
+                <th width="40%"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
@@ -70,8 +70,8 @@ Content should not feel complex or distant. Rather, it should be like a conversa
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th width="300"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
-                <th><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
+                <th width="40%"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
@@ -98,8 +98,8 @@ Use an active voice for most of your content, especially when it involves a huma
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th width="300"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
-                <th><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
+                <th width="40%"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
@@ -118,8 +118,8 @@ Use an active voice for most of your content, especially when it involves a huma
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th width="300"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
-                <th><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
+                <th width="40%"><svg class="icon is-size-4 has-fill-danger" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>

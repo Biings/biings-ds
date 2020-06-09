@@ -144,17 +144,15 @@ Use **Level items** when you need to vertically center elements on one line.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Spacer</strong></h4>
+<h4 class="title is-family-primary"><strong>HR / Spacer</strong></h4>
 
-Use a **Spacer** (or Divider) as a visual help for grouping related content together. It is used to define thematic changes in a layout.
+Use a **Spacer** (or horizontal rule) as a visual help to seperate groups of elements from each other. Use it to define thematic changes in a layout.
 
-<br>
-
-?> By default a spacer uses negative space to create a seperation. Use the `is-visible` class to show a line division.
+<br>By default negative space is used to create a seperation. Use the `is-visible` class to show a line division.
 
 <br>
 
-?> Increase or decrease the size of a spacer using the text size classes, ex : `is-size-1`, `is-size-7`, etc. Use class `is-thin` to completly remove the space surrounding the spacer.
+?> Increase or decrease the size of a spacer using the text size classes, ex : `is-size-1`, `is-size-7`, etc. Use class `is-marginless` to completly remove the space surrounding the spacer.
 
 <hr>
 

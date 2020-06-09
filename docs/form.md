@@ -117,7 +117,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </select>
     </div>
 </form>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <div class="field select">
         <label for="selectId" class="label">Select list</label>
@@ -149,7 +149,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
     </div>
 </form>
-<hr class="is-visible is-thin">
+<hr class="is-visible is-marginless">
 
     <div class="dropdown is-fullwidth is-iconless">
         <div class="dropdown-trigger">
@@ -213,7 +213,7 @@ In most cases it is better to indicate the optional fields rather than the requi
         </div>
     </div>
 </form>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <div class="field">
         <label class="checkbox">
@@ -315,7 +315,7 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
         </div>
     </div>
 </form>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <form class="columns is-gapless is-multiline">
         <div class="column is-6">
@@ -331,7 +331,7 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
 
 <div class="box is-well has-text-grey-dark">
     For stand-alone input field use &nbsp;→&nbsp; <a href="#/input"><strong>Input</strong></a>
-    <hr class="is-thin">
-    <hr class="is-thin">
+    <hr class="is-marginless">
+    <hr class="is-marginless">
     For simple dropdown lists use &nbsp;→&nbsp; <a href="#/dropdown"><strong>Dropdown</strong></a>
 </div>

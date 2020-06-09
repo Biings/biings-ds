@@ -1,10 +1,10 @@
 <h6 class="has-text-grey has-text-weight-medium is-size-5 is-size-6-mobile">Biings-DS</h6>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-4"><br>
 
 <span class="subtitle is-6 has-text-info">May 25, 2020</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.41</h4>
 
 <ul class="list">
@@ -25,7 +25,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">April 24, 2020</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.40</h4>
 
 <ul class="list">
@@ -45,7 +45,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">March 31, 2020</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.39</h4>
 
 <ul class="list">
@@ -60,7 +60,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">March 31, 2020</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.38</h4>
 
 <ul class="list">
@@ -77,7 +77,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">February 19, 2020</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.37</h4>
 
 <ul class="list">
@@ -94,7 +94,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">January 9, 2020</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.36</h4>
 
 <ul class="list">
@@ -111,7 +111,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">December 19, 2019</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.35</h4>
 
 <ul class="list">
@@ -126,7 +126,7 @@
 <hr class="is-size-2 is-visible">
 
 <span class="subtitle is-6 has-text-info">July 24, 2018</span>
-<hr class="is-thin is-wavy">
+<hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.0</h4>
 
 Introducing <strong>Biings Design Sytem</strong> (aka BDS), an open-source design framework based on <u>Bulma CSS</u>.

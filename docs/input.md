@@ -27,11 +27,11 @@
     <label for="defaultfield" class="label">With a label</label>
     <div class="control has-icons-right">
         <input id="defaultfield" class="input" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
-        <svg class="icon is-right has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-g"></use></svg>
+        <svg class="icon is-right has-fill-success-light"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
     </div>
     <p class="help has-text-success-dark">Saved.</p>
 </form>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <input class="input is-small" type="text" placeholder="..">
     <div class="control is-loading">

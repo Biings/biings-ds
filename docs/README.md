@@ -1,6 +1,6 @@
 <hr class="is-hidden-tablet is-size-7">
 <strong class="has-text-grey-light is-size-4 has-text-weight-bold">BDS</strong>
-<hr class="is-thin">
+<hr class="is-marginless">
 <h1 class="title is-size-3-mobile has-text-weight-bolder is-family-primary">Biings <span class="has-text-weight-light">Design System</span></h1>
 <hr class="is-size-2 is-visible">
 <div class="columns is-multiline">
@@ -67,7 +67,7 @@
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-6 has-text-grey">
             <a href="#/contribute" class="button is-rounded is-dark is-shadowed is-beefy">Start contributing</a>
-            <hr class="is-thin is-wavy">
+            <hr class="is-marginless is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>
     </div>

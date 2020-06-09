@@ -41,7 +41,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         Make me indeterminate.. JS only: <code class="is-size-7">checkbox.indeterminate = true;</code>
     </label>
 </div>
-<hr class="is-thin is-visible">
+<hr class="is-marginless is-visible">
 
     <label class="checkbox">
         <input type="checkbox"><span class="checkbox-mark"></span>

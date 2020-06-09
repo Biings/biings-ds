@@ -194,7 +194,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 <div class="dropdown-item is-paddingless">
                     <input class="input is-small" type="text" placeholder="Search the list">
                 </div>
-                <hr class="is-thin is-wavy">
+                <hr class="is-marginless is-wavy">
                 <a class="dropdown-item">Show</a>
                 <a class="dropdown-item">results</a>
                 <a class="dropdown-item">here.</a>
@@ -219,7 +219,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 <div class="dropdown-item is-paddingless">
                     <input class="input is-small" type="text">
                 </div>
-                <hr class="is-thin is-wavy">
+                <hr class="is-marginless is-wavy">
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
