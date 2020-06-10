@@ -109,7 +109,11 @@
             <td>Removes <strong>bottom right radius</strong></td>
         </tr>
         <tr>
-            <th rowspan="9">Visibility</th>
+            <th rowspan="10">Visibility</th>
+            <td><code>is-ephemeral</code> <span class="tag is-small is-danger is-glowing">New</span></td>
+            <td>Fades out an element <strong>after 3 seconds</strong></td>
+        </tr>
+        <tr>
             <td><code>is-shadowless</code></td>
             <td>Removes any <strong>shadow</strong></td>
         </tr>

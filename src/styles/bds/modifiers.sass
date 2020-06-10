@@ -13,6 +13,27 @@
     background: none !important
     background-color: transparent !important
 
+
+.is-ephemeral
+    max-height: 0
+    opacity: 0
+    overflow-y: hidden
+    animation: vanish 4s linear 1
+
+@keyframes vanish
+    0%
+        max-height: 100%
+        opacity: 1
+    75%
+        max-height: 100%
+        opacity: 1
+    99%
+        max-height: 100%
+        opacity: 0
+    100%
+        max-height: 0
+        opacity: 0
+
 // Radius removers
 .is-radiusless-tl,
 .is-radiusless-l,
@@ -56,31 +77,31 @@
         background-color: $grey-dark
     &:hover,
     &:focus
-        background-color: bulmaRgba($scheme-invert, 0.075)
+        background-color: bulmaRgba($scheme-invert, .075)
     &:active
-        background-color: bulmaRgba($scheme-invert, 0.125)
+        background-color: bulmaRgba($scheme-invert, .125)
 
 .modal-close
-    background-color: bulmaRgba($scheme-main, 0.5)
+    background-color: bulmaRgba($scheme-main, .5)
     &::before,
     &::after
         background-color: $text
     &:hover,
     &:focus
-        background-color: bulmaRgba($grey-lighter, 0.75)
+        background-color: bulmaRgba($grey-lighter, .75)
     &:active
         background-color: bulmaRgba($grey-lighter, 1)
 
 .delete.is-huge
-    height: 2.25rem
-    max-height: 2.25rem
-    max-width: 2.25rem
-    min-height: 2.25rem
     min-width: 2.25rem
+    min-height: 2.25rem
+    max-width: 2.25rem
+    max-height: 2.25rem
     width: 2.25rem
+    height: 2.25rem
 .modal-close
-    max-height: $modal-close-dimensions
     max-width: $modal-close-dimensions
+    max-height: $modal-close-dimensions
 
 
 // Table
@@ -493,7 +514,7 @@ pre
     color: $danger-dark !important
 .has-text-danger-lighter
     color: $danger-lighter !important
-    
+
 .has-fill-success
     fill: $success !important
 .has-fill-success-light
