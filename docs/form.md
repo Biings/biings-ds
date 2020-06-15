@@ -250,7 +250,7 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
             </div>
         </div>
         <div class="column is-9">
-            <div class="field">
+            <div class="field is-warning is-required">
                 <label for="compact1" class="label">Compact Field</label>
                 <input id="compact2" class="input"></input>
             </div>
@@ -289,8 +289,8 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
         </div>
         <div class="column is-12">
             <div class="field">
-                <label for="compact1" class="label">Twelve Field</label>
-                <input id="compact2" class="input "></input>
+                <label for="compact1" class="label">Twelve Textarea</label>
+                <textarea id="compact2" class="textarea" rows="2"></textarea>
             </div>
         </div>
         <div class="column is-6">

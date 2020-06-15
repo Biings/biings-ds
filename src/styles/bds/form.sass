@@ -48,9 +48,7 @@ form .field
     transition: color .1s linear
     pointer-events: none
 
-.field:hover > .label,
-.field:hover > .checkbox,
-.field:hover > .radio
+.field:hover > .label
     color: mix($grey-dark,$grey,15)
 
 .field:not(.select) > .label
@@ -59,7 +57,8 @@ form .field
     cursor: pointer
 
 .field:focus-within > .label,
-.field > .input:focus + .label
+.field > .input:focus + .label,
+.field.is-warning.is-required > .label
     color: $text
 
 .field > input,
@@ -114,7 +113,6 @@ form .field
 .field > .radio
     padding: 1.5em 1.125em
     width: 100%
-    color: $label-color
     @extend %input
 
 .field > .checkbox > input:checked ~ span,
@@ -212,14 +210,17 @@ label.label > span
     margin: 0 -2px -2px 0
 .is-gapless > .column .field,
 .is-gapless > .column .field > input,
+.is-gapless > .column .field > textarea,
 .is-gapless > .column .field > select,
 .is-gapless > .column .field > label
     border-radius: 0
 .is-gapless > .column .field > input:focus,
+.is-gapless > .column .field > textarea:focus,
 .is-gapless > .column .field > select:focus,
 .is-gapless > .column .field > label:active
     z-index: 2
 .is-gapless > .column .field > input:hover,
+.is-gapless > .column .field > textarea:hover,
 .is-gapless > .column .field > select:hover,
 .is-gapless > .column .field > label:hover
     z-index: 1
