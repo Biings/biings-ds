@@ -124,6 +124,37 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
     {
         background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
     }
+
+<hr class="is-size-1 is-visible">
+
+<h4 class="title is-family-primary"><strong>Special Backgrounds</strong></h4>
+
+Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown menu)
+
+<hr>
+
+<div class="columns is-multiline is-vcentered is-large">
+    <div class="column is-5">
+        <div class="box is-large has-background-primary-gradient">&nbsp;</div>
+    </div>
+    <div class="column is-7">
+        <code>has-background-primary-gradient</code>
+    </div>
+    <div class="column is-5">
+        <div class="box is-large has-background-care-gradient">&nbsp;
+        </div>
+    </div>
+    <div class="column is-7">
+        <code>has-background-care-gradient</code>
+    </div>
+    <div class="column is-5">
+        <div class="box is-large has-background-claim-gradient">&nbsp;</div>
+    </div>
+    <div class="column is-7">
+        <code>has-background-claim-gradient</code>
+    </div>
+</div>
+
 <hr class="is-size-1 is-visible">
 
 <h4 class="title is-family-primary"><strong>Blurred Background</strong></h4>

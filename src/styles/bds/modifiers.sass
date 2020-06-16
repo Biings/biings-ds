@@ -13,7 +13,6 @@
     background: none !important
     background-color: transparent !important
 
-
 .is-ephemeral
     max-height: 0
     opacity: 0
@@ -33,6 +32,21 @@
     100%
         max-height: 0
         opacity: 0
+
+// Dimmer modifiers
+
+.has-background-white.is-dimmed
+    background-color: rgba($white,.15) !important;
+
+.has-background-dark.is-dimmed
+    background-color: rgba($dark,.25) !important;
+
+.has-text-white.is-dimmed
+    color: rgba($white,.55) !important;
+
+.has-text-black-ter.is-dimmed
+    color: rgba($black-ter,.5) !important;
+
 
 // Radius removers
 .is-radiusless-tl,
@@ -122,6 +136,17 @@
 // Code
 pre
     border-left: .375em solid rgba($primary-dark, .08)
+
+// SPECIAL BACKGROUNDS
+.has-background-primary-gradient
+    background: linear-gradient(-20deg, mix($purple-dark,$primary-dark,65) 0%, $primary 85%)
+
+.has-background-care-gradient
+    background: linear-gradient(-20deg, $turquoise-dark -10%, $care 85%)
+
+.has-background-claim-gradient
+    background: linear-gradient(-20deg, $orange-dark -10%, mix($yellow,$claim,20) 70%)
+
 
 // BLURED BACKGROUND
 @supports(-webkit-backdrop-filter: blur())

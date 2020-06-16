@@ -9,7 +9,7 @@
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <th rowspan="3">Color</th>
+            <th rowspan="4">Color</th>
             <td><code>has-text-[color]</code></td>
             <td>Changes the color of the <strong>text</strong>, <i>uses BDS color names</i></td>
         </tr>
@@ -20,6 +20,10 @@
         <tr>
             <td><code>has-fill-[color]</code></td>
             <td>Changes the fill color of an <strong>SVG</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-dimmed</code> <span class="tag is-small is-danger is-glowing">New</span></td>
+            <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
             <th rowspan="10">Text</th>
