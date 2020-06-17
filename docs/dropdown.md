@@ -120,8 +120,8 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-paddingless is-fullwidth">Dropup!</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white has-background-black is-floating is-size-6 has-text-white">
-                        This one has both class <code class="is-size-7">is-up</code> and <code class="is-size-7">is-centered</code>
+                    <div class="box is-white has-background-primary-gradient is-floating is-size-6 has-text-white">
+                        This one has both class <code class="is-size-7 has-text-white">is-up</code> and <code class="is-size-7 has-text-white">is-centered</code>
                     </div>
                 </div>
             </div>
@@ -129,10 +129,10 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
         <div class="level-item">
             <div class="dropdown is-hoverable is-iconless is-centered has-arrow">
                 <div class="dropdown-trigger">
-                    <div class="button is-static is-paddingless is-fullwidth has-text-primary">Colored</div>
+                    <div class="button is-static is-paddingless is-fullwidth has-text-success">Colored</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-6 has-background-primary has-text-white">
+                    <div class="box is-white is-floating is-size-6 has-background-care-gradient has-text-white">
                         This one contains a div with <strong>has-background-primary</strong>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <svg class="icon has-fill-grey-light"><use xlink:href="media/bds-icons.min.svg#info-bold-g"></use></svg>
                 </div>
                 <div class="dropdown-menu is-size-6" id="dropdown-menu" role="menu">
-                    <div class="box is-small is-raised has-background-blck has-text-whie has-text-centered">
+                    <div class="box is-small is-raised has-background-black has-text-white has-text-centered">
                         Tooltip 😇
                     </div>
                 </div>
@@ -185,14 +185,14 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 <hr>
 
 <div class="box is-well is-radiusless-b is-large is-marginless">
-    <div class="dropdown is-hoverable">
+    <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
             <div class="button is-light">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
-            <div class="dropdown-content">
+            <div class="dropdown-content has-background-primary-gradient">
                 <div class="dropdown-item is-paddingless">
-                    <input class="input is-small" type="text" placeholder="Search the list">
+                    <input class="input is-small has-text-white-bis has-background-white is-dimmed" type="text" placeholder="Search the list">
                 </div>
                 <hr class="is-marginless is-wavy">
                 <a class="dropdown-item">Show</a>
@@ -254,16 +254,39 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
         </div>
     </div>
     &nbsp;
-    <div class="dropdown is-hoverable is-inverted has-arrow">
+    <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
             <div class="button is-dark">Inverted Dropdown</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content has-background-primary-gradient">
-                <div class="box has-text-white has-text-centered">
-                    <div class="loader is-inline is-inverted is-size-3"></div>
-                    <br>
-                    Loading state...
+            <div class="box is-size-7 has-background-primary-gradient">
+                <div class="columns is-smaller is-multiline has-text-weight-medium">
+                    <div class="column is-6">
+                        <a class="dropdown-item has-text-centered has-background-white is-dimmed">
+                            <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
+                            <br>
+                            Hey
+                        </a>
+                    </div>
+                    <div class="column is-6">
+                        <a class="dropdown-item has-text-centered has-background-white is-dimmed">
+                            <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
+                            <br>
+                            Hey
+                        </a>
+                    </div>
+                    <div class="column is-12">
+                        <a class="dropdown-item">
+                            <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
+                            Approve
+                        </a>
+                    </div>
+                    <div class="column is-12">
+                        <a class="dropdown-item">
+                            <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
+                            Trash
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

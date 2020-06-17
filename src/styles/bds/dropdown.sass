@@ -4,9 +4,20 @@
 
 .dropdown-item,
 a.dropdown-item
-    padding-left: .75rem
     padding-right: .75rem
+    padding-left: .75rem
     border-radius: $radius-small
+
+a.dropdown-item
+    transition: none !important
+
+a.dropdown-item > .icon
+    margin-top: .25em
+    margin-bottom: .25em
+    font-size: 1.25em
+a.dropdown-item:not(.has-text-centered) > .icon
+    margin-left:  -.25em
+    margin-right: .25em
 
 .dropdown-divider
     height: $hr-height
@@ -72,13 +83,28 @@ a.dropdown-item
 .select:not(.is-multiple):not(.is-loading).is-small:after
     margin-top: -1px
 
+.dropdown:not(.is-iconless).is-size-7:after
+    margin-top: -2px
+    background-image: url('data:image/svg+xml;base64,DQo8c3ZnIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjEwcHgiIHZpZXdCb3g9IjAgMCAxNiAxMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBhdGggZD0iTTguMDcxMDY3ODEsNi4zMTM3MDg1IEwxMy4zNzQzNjg3LDEuMDEwNDA3NjQgQzEzLjk2MDE1NTEsMC40MjQ2MjEyMDIgMTQuOTA5OTAyNiwwLjQyNDYyMTIwMiAxNS40OTU2ODksMS4wMTA0MDc2NCBDMTYuMDgxNDc1NSwxLjU5NjE5NDA4IDE2LjA4MTQ3NTUsMi41NDU5NDE1NSAxNS40OTU2ODksMy4xMzE3Mjc5OCBMOS4xMzE3Mjc5OCw5LjQ5NTY4OTAxIEM4LjU0NTk0MTU1LDEwLjA4MTQ3NTUgNy41OTYxOTQwOCwxMC4wODE0NzU1IDcuMDEwNDA3NjQsOS40OTU2ODkwMSBMMC42NDY0NDY2MDksMy4xMzE3Mjc5OCBDMC4wNjA2NjAxNzE4LDIuNTQ1OTQxNTUgMC4wNjA2NjAxNzE4LDEuNTk2MTk0MDggMC42NDY0NDY2MDksMS4wMTA0MDc2NCBDMS4yMzIyMzMwNSwwLjQyNDYyMTIwMiAyLjE4MTk4MDUyLDAuNDI0NjIxMjAyIDIuNzY3NzY2OTUsMS4wMTA0MDc2NCBMOC4wNzEwNjc4MSw2LjMxMzcwODUgWiIgaWQ9IlBhdGgiIGZpbGw9IiMxQTBFMjMiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg==')
+
+
+// Inverted
+.dropdown.is-inverted .dropdown-content
+    box-shadow: 0 0 5px 0 rgba($black,.2),0 4px 6px -8px rgba($black,.5),0 6px 30px -8px rgba($black,.6)
+
+.dropdown.is-inverted .dropdown-item
+    color: $white
+
+.dropdown.is-inverted button.dropdown-item
+    background-color: $dropdown-item-hover-background-color
+
+.dropdown.is-inverted a.dropdown-item:hover
+    background-color: rgba($black,.1) !important
+
 .dropdown:not(.is-iconless).is-inverted:after,
 .select:not(.is-loading).is-inverted
     background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMS42MjMuMzVMNyA1LjcyNiAxMi4zNzcuMzQ5YS45NS45NSAwIDAxMS4zNDUgMS4zNDVsLTYuMDUgNi4wNWEuOTUuOTUgMCAwMS0xLjM0NCAwbC02LjA1LTYuMDVBLjk1Ljk1IDAgMDExLjYyMy4zNDl6IiBmaWxsPSIjRDFCOUUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=')
 
-.dropdown:not(.is-iconless).is-size-7:after
-    margin-top: -2px
-    background-image: url('data:image/svg+xml;base64,DQo8c3ZnIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjEwcHgiIHZpZXdCb3g9IjAgMCAxNiAxMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPHBhdGggZD0iTTguMDcxMDY3ODEsNi4zMTM3MDg1IEwxMy4zNzQzNjg3LDEuMDEwNDA3NjQgQzEzLjk2MDE1NTEsMC40MjQ2MjEyMDIgMTQuOTA5OTAyNiwwLjQyNDYyMTIwMiAxNS40OTU2ODksMS4wMTA0MDc2NCBDMTYuMDgxNDc1NSwxLjU5NjE5NDA4IDE2LjA4MTQ3NTUsMi41NDU5NDE1NSAxNS40OTU2ODksMy4xMzE3Mjc5OCBMOS4xMzE3Mjc5OCw5LjQ5NTY4OTAxIEM4LjU0NTk0MTU1LDEwLjA4MTQ3NTUgNy41OTYxOTQwOCwxMC4wODE0NzU1IDcuMDEwNDA3NjQsOS40OTU2ODkwMSBMMC42NDY0NDY2MDksMy4xMzE3Mjc5OCBDMC4wNjA2NjAxNzE4LDIuNTQ1OTQxNTUgMC4wNjA2NjAxNzE4LDEuNTk2MTk0MDggMC42NDY0NDY2MDksMS4wMTA0MDc2NCBDMS4yMzIyMzMwNSwwLjQyNDYyMTIwMiAyLjE4MTk4MDUyLDAuNDI0NjIxMjAyIDIuNzY3NzY2OTUsMS4wMTA0MDc2NCBMOC4wNzEwNjc4MSw2LjMxMzcwODUgWiIgaWQ9IlBhdGgiIGZpbGw9IiMxQTBFMjMiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPg0KICAgIDwvZz4NCjwvc3ZnPg==')
 
 .dropdown:not(:hover):after,
 .select:not(:hover):after

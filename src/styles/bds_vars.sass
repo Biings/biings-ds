@@ -1,3 +1,5 @@
+// BULMA VARS
+    
 // Import Bulma modules
 @import "bulma/sass/utilities/functions.sass"
 
@@ -35,6 +37,8 @@ $dark           : mix(black, $primary, 50) !default
 
 // Special colors (NOT BULMA) —————————————————————
 $primary-lighter: mix(white, $primary, 85) !default
+
+$primary-gradient: linear-gradient(45deg,$primary 50%, $purple 180%) !default
 
 $pilot          : $primary !default
 $pilot-dark     : mix(black, $pilot, 25) !default
@@ -340,7 +344,7 @@ $dropdown-item-color: $text !default
 $dropdown-content-padding-top: 0.5rem !default
 $dropdown-content-padding-bottom: $dropdown-content-padding-top !default
 $dropdown-content-shadow: 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
-$dropdown-item-hover-background-color: $code-background !default
+$dropdown-item-hover-background-color: rgba($grey-lighter,.25) !default
 $dropdown-content-radius: $radius !default
 $dropdown-item-active-color: $primary !default
 $dropdown-item-active-background-color: $dropdown-item-hover-background-color !default
