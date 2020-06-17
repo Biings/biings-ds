@@ -13,6 +13,12 @@
 .button:not(.is-rounded).is-small
     border-radius: $radius
 
+.button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined)
+    background: linear-gradient(45deg,$primary 50%, $purple 180%)
+
+.button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined):hover
+    background: linear-gradient(45deg,$primary 75%, $purple 180%)
+
 .button.is-text
     text-decoration: none
     transition: color .1s linear

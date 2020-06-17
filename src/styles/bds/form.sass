@@ -21,6 +21,23 @@ select,
 .textarea
     padding-left: calc(.875em - 1px)
 
+// Caret color
+.input,
+.textarea
+    caret-color: $primary
+.is-success,
+.is-success > .input,
+.is-success > .textarea
+    caret-color: $success
+.is-info,
+.is-info > .input,
+.is-info > .textarea
+    caret-color: $info
+.is-danger,
+.is-danger > .input,
+.is-danger > .textarea
+    caret-color: $danger
+
 .field
     position: relative
 
@@ -141,27 +158,24 @@ label.label > span
     font-style: italic
 
 .field.is-primary > .input,
+.field.is-primary > .textarea,
 .field.is-primary > select
     border-color: $primary !important
 
 .field.is-danger > .input,
+.field.is-danger > .textarea,
 .field.is-danger > select
     border-color: $danger !important
-.field.is-danger > .input
-    color: $danger
 
 .field.is-info > .input,
+.field.is-info > .textarea,
 .field.is-info > select
     border-color: $info !important
-.field.is-info > .input
-    color: $info
 
 .field.is-success > .input,
+.field.is-success > .textarea,
 .field.is-success > select
     border-color: $success !important
-.field.is-success > .input
-    color: $success
-
 
 // Required field
 .field.is-required:before

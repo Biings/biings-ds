@@ -5,19 +5,19 @@
 <hr class="is-size-2 is-visible">
 <div class="columns is-multiline">
     <div class="column is-half">
-        <a href="#/content" class="box is-medium is-popping has-background-primary-dark">
+        <a href="#/content" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
-            <h4 class="title has-text-white is-family-primary"><strong>Foundation</strong></h4>
-            <p class="subtitle is-6 has-text-primary-lighter">Content, Layout, Color, etc</p>
+            <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Foundation</h4>
+            <p class="subtitle is-5 has-text-purple-light has-text-weight-medium">Content, Layout, Color, etc</p>
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-medium has-background-purple-lighter is-raised hover-to-floating">
+        <a href="#/avatar" class="box is-medium has-background-care-gradient is-raised is-floating hover-to-popping">
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-7">
-            <h4 class="title has-text-dark is-family-primary"><strong>Components</strong></h4>
-            <p class="subtitle is-6 has-text-primary-dark">All you need to build your UIs</p>
+            <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Components</h4>
+            <p class="subtitle is-5 has-text-care-light has-text-weight-medium">All you need to build your UIs</p>
         </a>
     </div>
 </div>
@@ -66,7 +66,7 @@
             <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-6 has-text-grey">
-            <a href="#/contribute" class="button is-rounded is-dark is-shadowed is-beefy">Start contributing</a>
+            <a href="#/contribute" class="button is-rounded is-dark is-glowing is-beefy">Start contributing</a>
             <hr class="is-marginless is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>
