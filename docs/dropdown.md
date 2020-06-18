@@ -259,35 +259,33 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
             <div class="button is-dark">Inverted Dropdown</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="box is-size-7 has-background-primary-gradient">
-                <div class="columns is-smaller is-multiline has-text-weight-medium">
-                    <div class="column is-6">
-                        <a class="dropdown-item has-text-centered has-background-white is-dimmed">
-                            <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
-                            <br>
-                            Hey
-                        </a>
-                    </div>
-                    <div class="column is-6">
-                        <a class="dropdown-item has-text-centered has-background-white is-dimmed">
-                            <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
-                            <br>
-                            Hey
-                        </a>
-                    </div>
-                    <div class="column is-12">
-                        <a class="dropdown-item">
-                            <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
-                            Approve
-                        </a>
-                    </div>
-                    <div class="column is-12">
-                        <a class="dropdown-item">
-                            <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
-                            Trash
-                        </a>
+            <div class="box is-small is-size-7 has-background-primary-gradient">
+                <div class="box is-small is-marginless">
+                    <div class="columns is-smaller is-multiline has-text-weight-medium">
+                        <div class="column is-6">
+                            <a class="dropdown-item has-text-centered has-background-white is-dimmed">
+                                <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
+                                <br>
+                                Stop
+                            </a>
+                        </div>
+                        <div class="column is-6">
+                            <a class="dropdown-item has-text-centered has-background-white is-dimmed">
+                                <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
+                                <br>
+                                Reload
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <a class="dropdown-item">
+                    <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
+                    Approve
+                </a>
+                <a class="dropdown-item">
+                    <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
+                    Trash
+                </a>
             </div>
         </div>
     </div>

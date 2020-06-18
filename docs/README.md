@@ -9,7 +9,7 @@
             <img src="media/bds.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Foundation</h4>
-            <p class="subtitle is-5 has-text-purple-light has-text-weight-medium">Content, Layout, Color, etc</p>
+            <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">Content, Layout, Color, etc</p>
         </a>
     </div>
     <div class="column is-half">
@@ -17,7 +17,7 @@
             <img src="media/components.png" width="60" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Components</h4>
-            <p class="subtitle is-5 has-text-care-light has-text-weight-medium">All you need to build your UIs</p>
+            <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">All you need to build your UIs</p>
         </a>
     </div>
 </div>
