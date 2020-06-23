@@ -16,8 +16,8 @@ a.dropdown-item > .icon
     margin-bottom: .25em
     font-size: 1.25em
 a.dropdown-item:not(.has-text-centered) > .icon
-    margin-left:  -.25em
     margin-right: .25em
+    margin-left: -.25em
 
 .dropdown-divider
     height: $hr-height
@@ -36,18 +36,22 @@ a.dropdown-item:not(.has-text-centered) > .icon
     z-index: -1
     display: block
     opacity: 0
-    transition: z-index 1s linear, opacity .9s cubic-bezier(.19, 1, .22, 1), transform .9s cubic-bezier(.19, 1, .22, 1)
-    transform: translateY(-1em)
+    transition: z-index .4s linear, opacity .25s cubic-bezier(.34, 1.56, .64, 1), transform .25s cubic-bezier(.34, 1.56, .64, 1)
+    transform: scale(.9)
     pointer-events: none
 
-.dropdown.is-up > .dropdown-menu
-    transform: translateY(1em)
+.dropdown.has-arrow > .dropdown-menu
+    transition: z-index .85s linear, opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1)
+    transform: translateY(-1em)
 
+.dropdown.has-arrow.is-up > .dropdown-menu
+    transform: translateY(1em)
+    
 .dropdown.is-active .dropdown-menu,
 .dropdown.is-hoverable:hover .dropdown-menu
     z-index: 20
     opacity: 1
-    transform: translateY(0em)
+    transform: translateY(0em) scale(1)
     pointer-events: auto
 
 .dropdown-trigger > .field > input

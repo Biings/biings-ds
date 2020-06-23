@@ -11,7 +11,7 @@
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
 <br><div class="box is-well is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><div class="has-background-grey-light">JD</div></div><span class="subtitle is-5">John Doe</span>
+    <div class="avatar"><div class="has-background-care-gradient-light">JD</div></div><span class="subtitle is-5">John Doe</span>
 </div>
 <hr class="is-marginless is-visible">
 
@@ -31,10 +31,10 @@ In addition to the default size, use classes `is-small`, `is-medium`, `is-large`
 <hr class="is-small">
 <div class="box is-well is-large">
     <div class="level">
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-primary-light">S</div></div><span class="is-size-7">Small</span></div>
-        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-light">M</div></div><span class="is-size-6">Medium</span></div>
-        <div class="level-item"><div class="avatar is-large"><div class="has-background-primary-light">L</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div class="has-background-primary-light">H</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-red-lighter">S</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-lighter">M</div></div><span class="is-size-6">Medium</span></div>
+        <div class="level-item"><div class="avatar is-large"><div class="has-background-care-lighter">L</div></div><span class="is-size-5">Large</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div class="has-background-claim-lighter">H</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
