@@ -133,12 +133,12 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
 
 <hr>
 
-<div class="columns is-large has-text-centered is-multiline is-vcentered">
+<div class="columns is-small has-text-centered is-multiline is-vcentered">
     <div class="column is-6">
-        <div class="box is-large has-background-primary-gradient">&nbsp;</div>
+        <br><div class="box is-large has-background-primary-gradient">&nbsp;</div>
     </div>
     <div class="column is-6">
-        <div class="box is-large has-background-primary-gradient-light">&nbsp;</div>
+        <br><div class="box is-large has-background-primary-gradient-light">&nbsp;</div>
     </div>
     <div class="column is-6">
         <code>has-background-primary-gradient</code>
@@ -147,11 +147,11 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
         <code>has-background-primary-gradient-light</code>
     </div>
     <div class="column is-6">
-        <div class="box is-large has-background-care-gradient">&nbsp;
+        <br><div class="box is-large has-background-care-gradient">&nbsp;
         </div>
     </div>
     <div class="column is-6">
-        <div class="box is-large has-background-care-gradient-light">&nbsp;
+        <br><div class="box is-large has-background-care-gradient-light">&nbsp;
         </div>
     </div>
     <div class="column is-6">
@@ -161,16 +161,22 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
         <code>has-background-care-gradient-light</code>
     </div>
     <div class="column is-6">
-        <div class="box is-large has-background-claim-gradient">&nbsp;</div>
+        <br><div class="box is-large has-background-claim-gradient">&nbsp;</div>
     </div>
     <div class="column is-6">
-        <div class="box is-large has-background-claim-gradient-light">&nbsp;</div>
+        <br><div class="box is-large has-background-claim-gradient-light">&nbsp;</div>
     </div>
     <div class="column is-6">
         <code>has-background-claim-gradient</code>
     </div>
     <div class="column is-6">
         <code>has-background-claim-gradient-light</code>
+    </div>
+    <div class="column is-12">
+        <br><div class="box is-large has-background-info-gradient">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-info-gradient</code>
     </div>
 </div>
 

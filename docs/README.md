@@ -59,14 +59,14 @@
 
 <hr class="is-size-3">
 
-<div class="box is-large is-well">
+<div class="box is-popping is-large has-background-info-gradient">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <div class="title is-2 is-family-secondary is-spaced">Want to <u>contribute?</u></div>
-            <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
+            <p class="subtitle is-5 has-text-dark">Onboarding for designers and developers wanting to contribute.</p>
         </div>
-        <div class="column is-5 is-offset-1 has-text-centered is-size-6 has-text-grey">
-            <a href="#/contribute" class="button is-rounded is-dark is-glowing is-beefy">Start contributing</a>
+        <div class="column is-5 is-offset-1 has-text-centered is-size-6 has-text-info-dark">
+            <a href="#/contribute" class="button is-rounded is-info is-glowing is-beefy">Start contributing</a>
             <hr class="is-marginless is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>

@@ -6,7 +6,9 @@
 </p>
 <hr class="is-visible is-size-4">
 
-?> **Building a big fat form?**<br>Use <a href="#/form" class="is-underlined">Form fields</a> for better readability.
+<div class="message is-info">
+    <strong>Building a big fat form?</strong><br>Use <a href="#/form" class="is-underlined">Form fields</a> for better readability.
+</div>
 
 <hr class="is-size-4">
 
@@ -85,6 +87,6 @@ You can add one or two icons inside the input.
 !> The icon tag should always be put right after the input tag.
 <hr>
 
-<a class="box is-well has-text-grey-dark" href="https://bulma.io/documentation/form/input/" target="blank">
+<a class="message is-block is-info" href="https://bulma.io/documentation/form/input/" target="blank">
     More options on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Input</strong>
 </a>

@@ -314,7 +314,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 <h4 class="title is-family-primary"><strong>Select list</strong></h4>
 
-Create a system default select list just by wrapping it with a `.select` div.
+Create a system default select list just by wrapping it with a `.select` div. Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 
 <hr>
 
@@ -355,10 +355,8 @@ Create a system default select list just by wrapping it with a `.select` div.
     </div>
 <br>
 
-?> Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
+<hr><br>
 
-<hr>
-
-<div class="box is-well has-text-grey-dark">
+<div class="message is-block is-info">
     More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/">Bulma / <strong>Select</strong></a>
 </div>
