@@ -71,7 +71,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
 
 <h4 class="title is-family-primary"><strong>Toggle</strong></h4>
 
-A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
+A checkbox can become a toggle button. Just add `is-toggle`. Toggle values should be saved immediately upon switching.<br><br>
 
 <div class="box is-well is-radiusless-b is-marginless is-large">
     <label class="checkbox is-toggle">
@@ -95,6 +95,6 @@ A checkbox can become a toggle button. Just add `is-toggle`.<br><br>
     </label>
 <hr>
 
-<a href="#/radio" class="box is-well has-text-grey-dark">
+<a href="#/radio" class="message is-info is-block">
     For mutually exclusive options use &nbsp;→&nbsp; <strong class="has-text-primary">Radio buttons</strong>
 </a>

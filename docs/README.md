@@ -1,8 +1,15 @@
 <hr class="is-hidden-tablet is-size-7">
-<strong class="has-text-grey-light is-size-4 has-text-weight-bold">BDS</strong>
+<span class="is-relative has-background-white has-text-black is-size-3 is-size-4-mobile has-text-weight-bold">
+    <div class="has-background-primary-gradient is-mask is-overlay"></div>
+    BDS
+</span>
 <hr class="is-marginless">
 <h1 class="title is-size-3-mobile has-text-weight-bolder is-family-primary">Biings <span class="has-text-weight-light">Design System</span></h1>
 <hr class="is-size-2 is-visible">
+<p class="subtitle is-3 is-size-4-mobile is-family-secondary has-text-dark">
+    BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
+</p>
+<hr>
 <div class="columns is-multiline">
     <div class="column is-half">
         <a href="#/content" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
@@ -21,11 +28,6 @@
         </a>
     </div>
 </div>
-<hr>
-
-<p class="subtitle is-family-secondary has-text-dark">
-    BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
-</p>
 
 <hr>
 

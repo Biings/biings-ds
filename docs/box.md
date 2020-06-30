@@ -117,7 +117,8 @@ Use class `is-expandable` for boxes that can expand inline. Add the class `is-ex
 
 <div class="box is-well is-radiusless-b is-marginless ">
     <div class="box">
-        <div id="ebox" class="box is-large is-floating is-expandable is-unselectable" onclick="toggleExpand('ebox')">
+        <div id="ebox" class="box is-large is-floating is-expandable is-unselectable is-relative" onclick="toggleExpand('ebox')">
+            <div class="box is-overlay is-mask has-background-care-gradient"></div>
             <span class="title is-4 has-text-grey-darker is-spaced">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
             <div class="expanded-content">
                 <br>

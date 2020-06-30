@@ -1,5 +1,5 @@
-<h6 class="has-text-grey has-text-weight-medium is-size-5 is-size-6-mobile">Biings-DS</h6>
-<hr class="is-marginless is-wavy">
+<h6 class="has-text-grey-light has-text-weight-bold is-size-5 is-size-6-mobile">Biings-DS</h6>
+<hr class="is-marginless">
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-4"><br>
 
@@ -131,6 +131,6 @@
 
 Introducing <strong>Biings Design Sytem</strong> (aka BDS), an open-source design framework based on <u>Bulma CSS</u>.
 
-<br>
+<hr>
 
-<div class="message has-background-white-bis is-italic">Since this Changelog was started after many revisions of Biings-DS, release notes prior to version 1.22 (June 28, 2019) never existed.</div>
+<div class="message is-info has-background-info-gradient is-italic">Since this Changelog was started after many revisions of Biings-DS, release notes prior to version 1.22 (June 28, 2019) never existed.</div>

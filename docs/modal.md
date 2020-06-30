@@ -46,9 +46,9 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 <br>
 
 <div class="box is-well is-large has-text-centered is-marginless is-radiusless-b">
-    <div onclick="openModal(1)" class="button is-dark is-shadowed">Modal Card Example 1</div>
+    <div onclick="openModal(1)" class="button is-dark is-shadowed is-rounded">Modal Card 1</div>
     &nbsp; &nbsp; 
-    <div onclick="openModal(2)" class="button is-primary is-shadowed">Modal Card Example 2</div>
+    <div onclick="openModal(2)" class="button is-primary is-shadowed is-rounded">Modal Card 2</div>
 </div>
 <hr class="is-marginless is-visible">
 <div id="js-modal1" class="modal">
