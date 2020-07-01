@@ -1,5 +1,5 @@
 <hr class="is-hidden-tablet is-size-7">
-<span class="is-relative has-background-white has-text-black is-size-3 is-size-4-mobile has-text-weight-bold">
+<span class="is-relative has-background-white has-text-black is-size-4 is-size-5-mobile has-text-weight-bold">
     <div class="has-background-primary-gradient is-mask is-overlay"></div>
     BDS
 </span>
