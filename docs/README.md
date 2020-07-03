@@ -59,7 +59,7 @@
 <a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box has-background-light" download>→ <strong class="is-monospace">bds-icons.svg</strong><br><i class="has-text-grey-dark">An SVG sprite that includes all Biings DS icons.</i></a>
 
 <hr>
-<strong>3 )&nbsp;</strong> Read the doc, and enjoy BDS. ✌️
+<strong>3 )&nbsp;</strong> Read the doc, enjoy BDS. ✌️
 
 <hr class="is-size-1 is-visible">
 
