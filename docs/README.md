@@ -20,8 +20,8 @@
         </a>
     </div>
     <div class="column is-half">
-        <a href="#/avatar" class="box is-medium has-background-care-gradient is-raised is-floating hover-to-popping">
-            <img src="media/components.png" width="60" class="no-zoom"/>
+        <a href="#/avatar" class="box is-medium has-background-dark is-raised is-floating hover-to-popping">
+            <img src="media/components.png" width="55" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Components</h4>
             <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">All you need to build your UIs</p>

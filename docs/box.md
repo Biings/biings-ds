@@ -117,12 +117,13 @@ Use class `is-expandable` for boxes that can expand inline. Add the class `is-ex
 
 <div class="box is-well is-radiusless-b is-marginless ">
     <div class="box">
-        <div id="ebox" class="box is-large is-floating is-expandable is-unselectable is-relative" onclick="toggleExpand('ebox')">
-            <div class="box is-overlay is-mask has-background-care-gradient"></div>
-            <span class="title is-4 has-text-grey-darker is-spaced">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
+        <div id="ebox" class="box is-large has-background-black-ter is-floating is-expandable is-unselectable is-relative" onclick="toggleExpand('ebox')">
+            <span class="title is-3 has-text-white is-spaced has-text-weight-bold">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
             <div class="expanded-content">
-                <br>
-                <div class="subtitle is-4 is-family-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
+                <hr class="is-visible is-size-3 is-size-4-mobile has-background-primary-claim-gradient">
+                <div class="subtitle has-text-white is-4 is-family-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
+                <hr class="is-size-5">
+                <hr class="is-visible is-marginless has-background-primary-care-gradient">
             </div>
         </div>
     </div>
