@@ -66,24 +66,24 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 <div class="box is-well is-marginless is-medium is-radiusless-b">
   <div class="columns is-multiline is-small has-text-white has-text-centered">
       <div class="column is-4">
-        <div class="message has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
+        <div class="message is-twisted has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
       </div>
       <div class="column is-4">
-        <div class="message has-background-purple-light has-text-weight-semibold"><br>Second<br><br></div>
+        <div class="message is-twisted-bis has-background-purple-light has-text-weight-semibold"><br>Second<br><br></div>
       </div>
       <div class="column is-4">
-        <div class="message has-background-turquoise has-text-weight-semibold"><br>Third<br><br></div>
+        <div class="message is-twisted-ter has-background-turquoise has-text-weight-semibold"><br>Third<br><br></div>
       </div>
       <div class="column is-4">
-        <div class="message has-background-cyan has-text-weight-semibold"><br>Fourth<br><br></div>
+        <div class="message is-twisted-quater has-background-cyan has-text-weight-semibold"><br>Fourth<br><br></div>
       </div>
-      <div class="column is-6">
+      <div class="column is-6 is-twisted">
         <div class="message has-background-blue-light has-text-weight-semibold"><br>Fifth<br><br></div>
       </div>
-      <div class="column is-3">
+      <div class="column is-3 is-twisted">
         <div class="message has-background-care-light has-text-weight-semibold"><br>Sixth<br><br></div>
       </div>
-      <div class="column is-3">
+      <div class="column is-3 is-twisted-bis">
         <div class="message has-background-yellow-light has-text-weight-semibold"><br>Seventh<br><br></div>
       </div>
     </div>

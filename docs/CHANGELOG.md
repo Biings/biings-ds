@@ -3,6 +3,27 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-4"><br>
 
+<span class="subtitle is-6 has-text-info">July 6, 2020</span>
+<hr class="is-marginless is-wavy">
+<h4 class="title is-family-primary">Version 1.42</h4>
+
+<ul class="list">
+    <li><strong>New icons</strong>: <i>screen-bell, screen-g, person-g, phone-bell</i> + various icon refinements</li>
+    <li><strong>New modifiers</strong>: <code>is-ephemeral</code>, <code>is-dimmed</code>, <code>is-mask</code>, <code>is-twisted</code></li>
+    <li>New <i>Loader</i> abilities and colors with support for adjacent in-line loaders</li>
+    <li>Added support for <code>is-loading</code> input</li>
+    <li>Added more color modifiers and new special background gradients</li>
+    <li>Added support for inverted <i>Dropdown</i></li>
+    <li>Font size adjustments</li>
+    <li>Removed <code>is-thin</code> modifier for <i>HR</i> (→ use <code>is-marginless</code> instead)</li>
+    <li>Bye bye <i>Cards</i> ☠️ (→ use <i>Boxes</i> instead)</li>
+    <li>Many refinements accross <i>Form</i>, <i>Checkbox</i>, <i>Radio</i>, <i>Avatar</i>, <i>Dropdown</i> components</li>
+    <li>Various Documentation reorganisation and renaming</li>
+</ul>
+
+<hr class="is-size-2 is-visible">
+
+
 <span class="subtitle is-6 has-text-info">May 25, 2020</span>
 <hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.41</h4>

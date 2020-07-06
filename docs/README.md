@@ -27,16 +27,16 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/content" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
-            <img src="media/bds.png" width="58" class="no-zoom"/>
+        <a href="#/content" class="box is-medium has-background-primary-dark is-raised hover-to-popping">
+            <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Foundation</h4>
             <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">Content, Layout, Color, etc</p>
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium has-background-dark is-raised is-floating hover-to-popping">
-            <img src="media/components.png" width="55" class="no-zoom"/>
+        <a href="#/avatar" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
+            <img src="media/components.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
             <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Components</h4>
             <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">All you need to build your UIs</p>
@@ -63,7 +63,7 @@
 
 <hr class="is-size-2">
 
-<div class="box is-floating is-large has-background-info-gradient is-twisted">
+<div class="box is-floating is-large has-background-info-gradient">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <div class="title is-2 is-family-secondary is-spaced">Want to <u>contribute?</u></div>

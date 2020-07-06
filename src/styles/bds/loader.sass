@@ -15,16 +15,16 @@
         border-radius: 50%
         content: ''
 .loader:not(.is-indeterminate)
-    animation: pulsate .9s ease-out infinite !important
+    animation: pulsate 1s ease-out infinite !important
 
 .loader.is-indeterminate
-    animation: pulsate-ind .9s ease-in-out infinite alternate !important
+    animation: pulsate-ind 1s ease-in-out infinite alternate !important
 
 @keyframes pulsate
     0%
-        opacity: .15
+        opacity: 0
         transform: scale(0)
-    70%
+    60%
         opacity: 1
     100%
         opacity: 0
@@ -32,7 +32,7 @@
 
 @keyframes pulsate-ind
     0%
-        opacity: .35
+        opacity: .25
         transform: scale(.45)
     100%
         opacity: 1
@@ -43,18 +43,35 @@
     top: calc(50% - .5em)
     left: calc(50% - .5em)
 
+// Inline usage
+
 .loader.is-inline
     display: inline-block !important
-    margin: 0 .25em .125em
+    margin: 0 .25em
     vertical-align: middle
+
+.loader.is-inline + .loader.is-inline
+    margin-left: 0
+    animation-delay: .15s !important
+.loader.is-inline + .loader.is-inline + .loader.is-inline
+    margin-left: 0
+    animation-delay: .3s !important
 
 .loader.is-inverted
     &:after
         border-color: rgba(255,255,255,.6)
 
-.loader.is-colorful
+.loader.is-primary
     &:after
-        border-color: $primary-light
+        border-color: $primary
+
+.loader.is-care
+    &:after
+        border-color: $care
+
+.loader.is-claim
+    &:after
+        border-color: $claim
 
 // Component Loading state
 .button.is-loading

@@ -41,20 +41,35 @@ Add class `is-inline` to remove the auto-centering of the loader.
 <br>
 
 <div class="box is-well is-medium is-relative has-text-grey is-italic is-marginless is-radiusless-b">
-    <div class="loader is-inline"></div> Loading...
+    <div class="columns is-vcentered is-centered">
+        <div class="column is-4"><div class="loader is-inline"></div> Loading...</div>
+        <div class="column is-4">
+            <div class="loader is-inline is-size-7"></div><div class="loader is-inline is-size-7"></div><div class="loader is-inline is-size-7"></div>
+        </div>
+        <div class="column is-3">
+            <div class="button is-rounded is-primary is-fullwidth"><div class="loader is-inline is-inverted is-size-7"></div><div class="loader is-inline is-inverted is-size-7"></div></div>
+        </div>
+    </div>
 </div>
 
     <div class="loader is-inline"></div> Loading...
+    <div class="loader is-inline"></div><div class="loader is-inline"></div><div class="loader is-inline"></div>
+    <div class="button">
+        <div class="loader is-inline is-size-7"></div>
+        <div class="loader is-inline is-size-7"></div>
+    </div>
 <hr class="is-size-1 is-visible">
 
 <h4 class="title is-family-primary"><strong>Colorful</strong></h4>
 
-Add class `is-colorful` to give the loader a unique Biings look.
+Add class `is-primary`, `is-care` or `is-claim` to give the loader a unique Biings look.
 
 <br>
 
-<div class="box is-well is-large is-relative">
-    <div class="loader is-colorful is-size-2"></div>
+<div class="box is-well is-large is-relative has-text-centered">
+    <div class="loader is-primary is-inline is-size-3"></div>
+    <div class="loader is-care is-inline is-size-3"></div>
+    <div class="loader is-claim is-inline is-size-3"></div>
 </div>
 
 <hr class="is-size-1 is-visible">

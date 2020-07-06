@@ -180,7 +180,7 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <td><code>is-twisted[-bis,-ter]</code> <span class="tag is-small is-danger is-glowing">New</span></td>
+            <td><code>is-twisted[-bis,-ter,-quater]</code> <span class="tag is-small is-danger is-glowing">New</span></td>
             <td>Slightly twist/rotate an element, like if it was thrown on the page.</td>
         </tr>
     </tbody>
