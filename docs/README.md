@@ -4,7 +4,7 @@
     BDS
 </span>
 <hr class="is-marginless">
-<h1 class="title is-size-3-mobile has-text-weight-bolder is-family-primary">Biings <span class="has-text-weight-light">Design System</span></h1>
+<h1 class="title is-size-2-mobile has-text-weight-bolder is-family-primary">Biings <span class="has-text-weight-light">Design System</span></h1>
 <hr class="is-size-2 is-visible has-background-info-gradient">
 <p class="subtitle is-3 is-size-4-mobile is-family-secondary has-text-dark">
     BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
@@ -61,9 +61,9 @@
 <hr>
 <strong>3 )&nbsp;</strong> Read the doc, enjoy BDS. ✌️
 
-<hr class="is-size-1 is-visible">
+<hr class="is-size-2">
 
-<div class="box is-popping is-large has-background-info-gradient">
+<div class="box is-floating is-large has-background-info-gradient is-twisted">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <div class="title is-2 is-family-secondary is-spaced">Want to <u>contribute?</u></div>
