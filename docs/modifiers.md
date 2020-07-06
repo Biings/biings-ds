@@ -159,7 +159,7 @@
             </td>
         </tr>
         <tr>
-            <th rowspan="6" style="width: 5rem;">Position</th>
+            <th rowspan="7" style="width: 5rem;">Position</th>
             <td style="width: 14rem;"><code>is-relative</code></td>
             <td>Applies <code>position: relative</code> to the element</td>
         </tr>
@@ -181,7 +181,11 @@
         </tr>
         <tr>
             <td><code>is-twisted[-bis,-ter,-quater]</code> <span class="tag is-small is-danger is-glowing">New</span></td>
-            <td>Slightly twist/rotate an element, like if it was thrown on the page.</td>
+            <td>Slightly twist/rotate an element<br>(like if it was thrown on the page)</td>
+        </tr>
+        <tr>
+            <td><code>is-twisted-odd[-bis]</code> <span class="tag is-small is-danger is-glowing">New</span></td>
+            <td>Boldly twist/rotate an element</td>
         </tr>
     </tbody>
 </table>

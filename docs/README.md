@@ -63,7 +63,7 @@
 
 <hr class="is-size-2">
 
-<div class="box is-floating is-large has-background-info-gradient">
+<div class="box is-bordered is-large has-background-info-gradient">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <div class="title is-2 is-family-secondary is-spaced">Want to <u>contribute?</u></div>

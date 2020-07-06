@@ -66,8 +66,9 @@ label.radio
     border: solid white
     border-width: 0 2px 2px 0
     content: ''
-    transition: transform .1s ease-out
-    transform: rotate(40deg) scale(.25)
+    opacity: 0
+    transition: transform .1s ease-out, opacity .1s ease-in
+    transform: rotate(40deg) scale(2.25)
 
 .checkbox > input:indeterminate + .checkbox-mark
     background-color: $primary-lighter
@@ -81,6 +82,7 @@ label.radio
     border-width: 0
     border-radius: 4px
     background-color: $primary
+    opacity: 1
     transform: none
 
 .radio-mark:after
@@ -146,6 +148,7 @@ label.radio
     border-radius: 100%
     background-color: $white-bis
     box-shadow: 0 0 3px rgba($dark, .15)
+    opacity: 1
     transition: left .2s cubic-bezier(.215, .61, .355, 1), box-shadow .2s linear
     transform: none !important
 
