@@ -1,5 +1,6 @@
 - <a href="/" class="docsify-logo">
 ![](media/biings-ds-logo.svg ':no-zoom')
+![](media/biings-ds-logo-bw.svg ':no-zoom')
 </a>
 
 - <span class="subtitle is-size-7 has-text-grey has-text-weight-medium is-uppercase">Foundation</span>

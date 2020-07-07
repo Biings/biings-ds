@@ -3,7 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: #FFFFFF;
+    background-color: #FAF8FC;
 }
 
 .box + pre
@@ -69,6 +69,7 @@ section.cover .cover-main
 section.content
 {
     left: 210px;
+    padding-top: 45px;
 }
 div.content
 {
@@ -79,7 +80,7 @@ div.content
 .markdown-section
 {
     padding: 0 30px 40px;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .markdown-section p.tip
@@ -140,11 +141,10 @@ div.content
 
 aside.sidebar
 {
-    padding-top: 4.75rem;
+    padding-top: 1.5rem;
     width: 210px;
     border-right: none;
     font-size: 10px;
-    background-color: #FAF8FC;
 }
 
 
@@ -175,7 +175,7 @@ body.close .sidebar-toggle
 {
     .markdown-section
     {
-        margin: 0 5%;
+        margin: 0 8% 0 4%;
     }
 }
 @media screen and (min-width: 769px)
@@ -187,15 +187,22 @@ body.close .sidebar-toggle
 }
 .docsify-logo
 {
-    position: absolute;
-    top: 1.5rem;
-    left: 2.25em;
+    position: relative;
     border: none;
+    height: 3rem;
 }
 .docsify-logo > img
 {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 110px;
     height: 30px;
+}
+.docsify-logo:not(:hover) > img:first-child,
+.docsify-logo:hover > img:last-child
+{
+    opacity: 0;
 }
 img.no-zoom
 {
