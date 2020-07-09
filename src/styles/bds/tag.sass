@@ -8,9 +8,18 @@
     padding-right: .625em
     padding-left: .625em
 
-.tag.is-small
-    font-weight: $weight-semibold
+span.tag + .tag
+    margin-left: .125em
+
+.tag.is-small,
+.tag.is-tiny
     font-size: $size-7
+    border-radius: $radius-small
+
+.tag.is-tiny
+    padding-right: .5em
+    padding-left: .5em
+    height: 1.625em
 
 .tag.is-glowing.is-primary
     box-shadow: 0 .25em 1em -.25em rgba($primary,.75)
