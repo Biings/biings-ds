@@ -2,9 +2,6 @@ html,
 body
     letter-spacing: -.15px
 
-.is-family-secondary
-    letter-spacing: -.25px
-
 /* Hand-drawn Font family */
 .is-family-hand
     font-size: 1.25em
@@ -24,24 +21,45 @@ h5.title
 h6.title
     font-size: $size-6
 
-.title
-    letter-spacing: -1px
-.title.is-4,
-.title.is-5,
-h4.title,
-h5.title
-    letter-spacing: -.75px
-.title.is-6,
-h6.title
-    letter-spacing: -.25px
+// Force/Adjust Crimson Font size
+h3.title:not(.is-family-primary),
+.is-3.title:not(.is-family-primary),
+.is-3.subtitle.is-family-secondary,
+.is-size-3.is-family-secondary
+    font-size: calc(#{$size-3}+1px) !important
+h4.title:not(.is-family-primary),
+.is-4.title:not(.is-family-primary),
+.is-4.subtitle.is-family-secondary,
+.subtitle.is-family-secondary,
+.is-size-4.is-family-secondary
+    font-size: calc(#{$size-4}+2px) !important
+h5.title:not(.is-family-primary),
+.is-5.title:not(.is-family-primary),
+.is-5.subtitle.is-family-secondary,
+.is-size-5.is-family-secondary
+    font-size: calc(#{$size-5}+2px) !important
+h6.title:not(.is-family-primary),
+.is-6.title:not(.is-family-primary),
+.is-6.subtitle.is-family-secondary,
+.is-size-6.is-family-secondary
+    font-size: calc(#{$size-6}+2px) !important
+.is-size-7.is-family-secondary
+    font-size: calc(#{$size-7}+2px) !important
 
-.title.is-family-secondary
-    letter-spacing: -1px
+.title,
+.subtitle
+    letter-spacing: -.025em
+
 .title.is-1.is-family-secondary,
+.subtitle.is-1.is-family-secondary,
+.is-size-1.is-family-secondary,
 .title.is-2.is-family-secondary,
-h1.title.is-family-secondary,
-h2.title.is-family-secondary
-    letter-spacing: -2px
+.subtitle.is-2.is-family-secondary,
+.is-size-2.is-family-secondary,
+.title.is-3.is-family-secondary,
+.subtitle.is-3.is-family-secondary,
+.is-size-3.is-family-secondary
+    letter-spacing: -.03125em
 
 .has-text-weight-bolder
     font-weight: 900 !important
@@ -63,12 +81,3 @@ em
 
 em.is-primary
     background-image: linear-gradient(90deg, rgba(140, 80, 185, .25), rgba(91, 37, 133, .7) 30%,rgba(140, 80, 185, .5) 95%, rgba(140, 80, 185, .2))
-
-// Force-adjust font-size for serif type below size-4
-.title.is-5:not(.is-family-primary),
-.is-family-secondary.is-size-5
-    font-size: $size-5 + .125rem !important
-.title.is-6:not(.is-family-primary),
-.is-family-secondary.is-size-6,
-.is-family-secondary.is-size-7
-    font-size: $size-6 + .125rem !important
