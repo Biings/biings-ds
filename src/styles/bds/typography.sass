@@ -1,6 +1,6 @@
 html,
 body
-    letter-spacing: -.15px
+    letter-spacing: -.0125em
 
 /* Hand-drawn Font family */
 .is-family-hand
@@ -22,17 +22,27 @@ h6.title
     font-size: $size-6
 
 // Force/Adjust Crimson Font size
+h1.title:not(.is-family-primary),
+.is-1.title:not(.is-family-primary),
+.is-1.subtitle.is-family-secondary,
+.is-size-1.is-family-secondary
+    font-size: calc(#{$size-1}+10px) !important
+h2.title:not(.is-family-primary),
+.is-2.title:not(.is-family-primary),
+.is-2.subtitle.is-family-secondary,
+.is-size-2.is-family-secondary
+    font-size: calc(#{$size-2}+8px) !important
 h3.title:not(.is-family-primary),
 .is-3.title:not(.is-family-primary),
 .is-3.subtitle.is-family-secondary,
 .is-size-3.is-family-secondary
-    font-size: calc(#{$size-3}+1px) !important
+    font-size: calc(#{$size-3}+5px) !important
 h4.title:not(.is-family-primary),
 .is-4.title:not(.is-family-primary),
 .is-4.subtitle.is-family-secondary,
 .subtitle.is-family-secondary,
 .is-size-4.is-family-secondary
-    font-size: calc(#{$size-4}+2px) !important
+    font-size: calc(#{$size-4}+3px) !important
 h5.title:not(.is-family-primary),
 .is-5.title:not(.is-family-primary),
 .is-5.subtitle.is-family-secondary,
@@ -48,7 +58,7 @@ h6.title:not(.is-family-primary),
 
 .title,
 .subtitle
-    letter-spacing: -.025em
+    letter-spacing: -.0225em
 
 .title.is-1.is-family-secondary,
 .subtitle.is-1.is-family-secondary,
