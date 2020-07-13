@@ -9,10 +9,12 @@
 <div class="box is-well is-medium is-marginless is-radiusless-b">
     <span class="tag">Two</span>
     <span class="tag">Tags</span>
+    <span class="tag is-shaked">Shaking</span>
 </div>
 
     <span class="tag">Two</span>
     <span class="tag">Tags</span>
+    <span class="tag is-shaked">Shaking</span>
 <br>
 
 

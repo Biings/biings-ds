@@ -198,8 +198,8 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
 
 Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
 
-<br><div class="box is-bordered is-small has-text-grey has-text-centered">
-    <div class="box is-relative is-marginless is-size-2">
+<br><div class="box is-bordered is-paddingless is-small has-text-grey has-text-centered is-relative">
+    <div class="box is-size-2 is-marginless">
         🖱
         <hr class="is-marginless is-wavy">
         <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
@@ -212,11 +212,13 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
 
 <hr class="is-size-2">
 
-<div class="box is-medium is-bordered has-background-white-bis is-size-5">
+<div class="box is-paddingless is-size-5 has-background-info-gradient">
+<div class="box is-bordered is-large">
     <span class="tag is-primary is-glowing is-small">Bonus</span>
     <hr class="is-marginless is-wavy">
-    <h4 class="title has-text-primary-dark has-text-weight-bolder is-family-primary is-spaced">Slack Theme 🎨</h4>
+    <h3 class="title has-text-weight-bolder is-family-primary is-spaced">Slack Theme 🎨</h3>
     <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #241A2E,#2D2236,#8246AF,#FFFFFF,#2D2236,#EFECF2,#50B98C,#AA50B5,#241A2E,#EFECF2
+    #1A0E23,#2D2236,#5B3478,#FFFFFF,#241A2E,#DFDBE3,#50B98C,#8C50B9,#1A0E23,#D1B9E3
+</div>
 </div>

@@ -22,7 +22,7 @@
             <td>Changes the fill color of an <strong>SVG</strong></td>
         </tr>
         <tr>
-            <td><code>is-dimmed</code> <span class="tag is-small is-danger is-glowing">New</span></td>
+            <td><code>is-dimmed</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
@@ -113,12 +113,8 @@
             <td>Removes <strong>bottom right radius</strong></td>
         </tr>
         <tr>
-            <th rowspan="11">Visibility</th>
-            <td><code>is-ephemeral</code> <span class="tag is-small is-danger is-glowing">New</span></td>
-            <td>Fades out an element <strong>after 3 seconds</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-mask</code> <span class="tag is-small is-danger is-glowing">New</span></td>
+            <th rowspan="10">Visibility</th>
+            <td><code>is-mask</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
             <td>Makes the element act as a <strong>mask applied to its relative siblings</strong>.</td>
         </tr>
         <tr>
@@ -159,7 +155,7 @@
             </td>
         </tr>
         <tr>
-            <th rowspan="7" style="width: 5rem;">Position</th>
+            <th rowspan="5" style="width: 5rem;">Position</th>
             <td style="width: 14rem;"><code>is-relative</code></td>
             <td>Applies <code>position: relative</code> to the element</td>
         </tr>
@@ -180,12 +176,21 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <td><code>is-twisted[-bis,-ter,-quater]</code> <span class="tag is-small is-danger is-glowing">New</span></td>
-            <td>Slightly twist/rotate an element<br>(like if it was thrown on the page)</td>
+            <th rowspan="7" style="width: 5rem;">FX<br><span class="tag is-tiny is-danger is-glowing">New</span></th>
+            <td><code>is-ephemeral</code> </td>
+            <td><strong>Fades out</strong> an element <u>after 3 seconds</u></td>
         </tr>
         <tr>
-            <td><code>is-twisted-odd[-bis]</code> <span class="tag is-small is-danger is-glowing">New</span></td>
-            <td>Boldly twist/rotate an element</td>
+            <td><code>is-shaked</code></td>
+            <td><strong>Shakes</strong> an element for 1.5 seconds</td>
+        </tr>
+        <tr>
+            <td><code>is-twisted[-bis,-ter,-quater]</code></td>
+            <td>Slightly <strong>twist/rotate</strong> an element<br>(like if it was thrown on the page)</td>
+        </tr>
+        <tr>
+            <td><code>is-twisted-odd[-bis]</code></td>
+            <td><u>Boldly</u> <strong>twist/rotate</strong> an element</td>
         </tr>
     </tbody>
 </table>

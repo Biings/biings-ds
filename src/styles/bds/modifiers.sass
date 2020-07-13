@@ -13,6 +13,10 @@
     background: none !important
     background-color: transparent !important
 
+@media print
+    .is-hidden-print
+        display: none !important
+
 .is-ephemeral
     max-height: 0
     opacity: 0
@@ -83,10 +87,38 @@
     transform: rotate(-4deg)
 .is-twisted-odd-bis
     transform: rotate(3deg)
+.is-twisted,
+.is-twisted-bis,
+.is-twisted-ter,
+.is-twisted-quater,
+.is-twisted-odd,
+.is-twisted-odd-bis
+    transition: transform .1s ease-in-out
 
-@media print
-    .is-hidden-print
-        display: none !important
+// Animation modifier
+.is-shaked
+    animation: shake 1s ease-in-out
+    transform-origin:center center
+
+@keyframes shake
+    0%
+        transform: rotate(0deg)
+    12.5%
+        transform: rotate(10deg)
+    25%
+        transform: rotate(-10deg)
+    37.5%
+        transform: rotate(10deg)
+    50%
+        transform: rotate(-10deg)
+    62.5%
+        transform: rotate(10deg)
+    75%
+        transform: rotate(-10deg)
+    87.5%
+        transform: rotate(10deg)
+    100%
+        transform: rotate(0deg)
 
 
 // ADJUSTMENTS TO BULMA :
@@ -157,25 +189,25 @@ pre
 
 // SPECIAL BACKGROUNDS
 .has-background-primary-gradient
-    background: linear-gradient(-45deg, mix($primary-dark,$primary,60) 0%, $purple 150%)
+    background: linear-gradient(-45deg, $purple 0%, mix($primary-dark,$primary,50) 100%)
 
 .has-background-primary-gradient-light
-    background: linear-gradient(-30deg, $primary-light -300%, $purple-lighter 80%)
+    background: linear-gradient(-30deg, $purple-lighter 20%, $primary-light 300%)
 
 .has-background-care-gradient
-    background: linear-gradient(-45deg, mix($care-dark,$care,15) 30%, $turquoise-light 175%)
+    background: linear-gradient(-45deg, $turquoise -15%, $care 95%)
 
 .has-background-care-gradient-light
-    background: linear-gradient(-30deg, $care-light -300%, $care-lighter 90%)
+    background: linear-gradient(-30deg, $turquoise-lighter 0%, $care-light 300%)
 
 .has-background-primary-care-gradient
-    background: linear-gradient(-45deg, $care -10%, $purple 100%)
+    background: linear-gradient(-45deg, $care -5%, mix($purple,$primary,25) 95%)
 
 .has-background-claim-gradient
-    background: linear-gradient(-45deg, mix($yellow,$claim,15) 25%, $orange-light 150%)
+    background: linear-gradient(-45deg, $orange-light 5%, mix($yellow,$claim,15) 100%)
 
 .has-background-claim-gradient-light
-    background: linear-gradient(-30deg, $claim-light -300%, $claim-lighter 90%)
+    background: linear-gradient(-30deg, $orange-lighter 0%, $claim-light 300%)
 
 .has-background-primary-claim-gradient
     background: linear-gradient(-45deg, $claim -10%, $purple 100%)
