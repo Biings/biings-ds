@@ -51,12 +51,13 @@ form .field
     background-color: white
 
 .label
-    font-size: $size-6
+    text-transform: uppercase
+    font-size: $size-7
 
 .field > .label
     position: absolute
-    top: .25em
-    left: .25em
+    top: .5em
+    left: .375em
     z-index: 3
     padding-top: $control-padding-vertical
     padding-right: $control-padding-horizontal
@@ -65,8 +66,9 @@ form .field
     transition: color .1s linear
     pointer-events: none
 
-.field:hover > .label
-    color: mix($grey-dark,$grey,15)
+.field:hover > .label,
+.field.is-warning > .label
+    color: $grey
 
 .field:not(.select) > .label
     cursor: text
@@ -75,8 +77,8 @@ form .field
 
 .field:focus-within > .label,
 .field > .input:focus + .label,
-.field.is-warning.is-required > .label
-    color: $text
+.field.is-warning.is-required:focus-within > .label
+    color: $grey-darker
 
 .field > input,
 .field > textarea,

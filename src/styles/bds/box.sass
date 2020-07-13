@@ -21,11 +21,11 @@
 
 .box.is-bordered,
 .box.hover-to-bordered:hover
-    box-shadow: inset 0 0 0 2px $tabs-border-bottom-color
+    box-shadow: 0 0 0 2px $tabs-border-bottom-color
 
 .box.is-bordered.is-link,
 .box.hover-to-bordered.is-link:hover
-    box-shadow: inset 0 0 0 2px $primary-light
+    box-shadow: 0 0 0 2px $primary-light
     cursor: pointer
 
 .box.is-bordered.hover-to-box:hover,
@@ -70,6 +70,11 @@
     box-shadow: 0 .125rem .1875rem -1.125rem rgba($primary-dark, .9), 0 .25rem .625rem -1.25rem rgba($primary-dark, .12), 0 1.25rem 2.5rem -1.25rem rgba($dark, .25)
     transition-duration: .4s
 
+.box.is-paddingless > .box.is-bordered,
+.box.is-paddingless > .box.hover-to-bordered
+    box-shadow: inset 0 0 0 2px $tabs-border-bottom-color
+
+// Expandable Box
 .box.is-expandable
     transition: box-shadow .25s ease-out, margin-right .3s cubic-bezier(.25, 1, .5, 1), margin-left .3s cubic-bezier(.25, 1, .5, 1)
 
@@ -90,3 +95,4 @@
         opacity: 0
     100%
         opacity: 1
+
