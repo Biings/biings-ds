@@ -52,6 +52,7 @@ form .field
 
 .label
     text-transform: uppercase
+    letter-spacing: .25px
     font-size: $size-7
 
 .field > .label
@@ -68,7 +69,7 @@ form .field
 
 .field:hover > .label,
 .field.is-warning > .label
-    color: $grey
+    color: mix($black,$grey,5)
 
 .field:not(.select) > .label
     cursor: text
@@ -76,9 +77,8 @@ form .field
     cursor: pointer
 
 .field:focus-within > .label,
-.field > .input:focus + .label,
-.field.is-warning.is-required:focus-within > .label
-    color: $grey-darker
+.field > .input:focus + .label
+    color: $primary
 
 .field > input,
 .field > textarea,
@@ -155,9 +155,9 @@ form .field
 
 .field > .label > span,
 label.label > span
-    color: $grey
-    font-weight: 400
-    font-style: italic
+    color: $label-color
+    text-transform: none
+    font-weight: $weight-normal
 
 .field.is-primary > .input,
 .field.is-primary > .textarea,

@@ -33,15 +33,15 @@ a.dropdown-item:not(.has-text-centered) > .icon
     min-width: 100%
 
 .dropdown > .dropdown-menu
-    z-index: -1
+    z-index: -5
     display: block
     opacity: 0
-    transition: z-index .4s linear, opacity .25s cubic-bezier(.34, 1.56, .64, 1), transform .25s cubic-bezier(.34, 1.56, .64, 1)
+    transition: z-index .3s linear, opacity .25s cubic-bezier(.34, 1.56, .64, 1), transform .25s cubic-bezier(.34, 1.56, .64, 1)
     transform: scale(.9)
     pointer-events: none
 
 .dropdown.has-arrow > .dropdown-menu
-    transition: z-index .85s linear, opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1)
+    transition: z-index .8s linear, opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1)
     transform: translateY(-1em)
 
 .dropdown.has-arrow.is-up > .dropdown-menu
@@ -51,8 +51,13 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown.is-hoverable:hover .dropdown-menu
     z-index: 20
     opacity: 1
+    transition: z-index 0s, opacity .25s cubic-bezier(.34, 1.56, .64, 1), transform .25s cubic-bezier(.34, 1.56, .64, 1)
     transform: translateY(0em) scale(1)
     pointer-events: auto
+
+.dropdown.has-arrow.is-active .dropdown-menu,
+.dropdown.has-arrow.is-hoverable:hover .dropdown-menu
+    transition: z-index 0s, opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1)
 
 .dropdown-trigger > .field > input
     cursor: pointer
