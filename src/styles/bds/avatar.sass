@@ -14,7 +14,7 @@
     color: $dark
     vertical-align: middle
     text-align: center
-    font-weight: 600
+    font-weight: $weight-medium
     font-size: 1.25rem
 
 .avatar > img
@@ -23,37 +23,59 @@
     height: 100%
     border-radius: 50%
 
+.avatar.is-tiny,
+.avatar.is-tiny > div
+    width: 1.625rem
+    height: 1.625rem
+    font-weight: 800
+    font-size: .6875rem
+
+.avatar.is-mini,
+.avatar.is-mini > div
+    width: 1.75rem
+    height: 1.75rem
+    font-weight: $weight-semibold
+    font-size: .75rem
+
 .avatar.is-small,
 .avatar.is-small > div
     width: 2rem
     height: 2rem
-    font-weight: 700
+    font-weight: $weight-semibold
     font-size: .75rem
 
 .avatar.is-medium,
 .avatar.is-medium > div
     width: 4rem
     height: 4rem
-    font-size: 1.5rem
+    font-weight: $weight-medium
+    font-size: 1.375rem
 
 .avatar.is-large,
 .avatar.is-large > div
     width: 5rem
     height: 5rem
+    font-weight: $weight-normal
     font-size: 1.9rem
 
 .avatar.is-huge,
 .avatar.is-huge > div
     width: 7rem
     height: 7rem
-    font-weight: 500
-    font-size: 3.25rem
+    font-weight: $weight-normal
+    font-size: 2.25rem
 
 .avatar + span
-    margin-left: .875rem
+    margin-left: .75rem
+
+.avatar.is-tiny + span
+    margin-left: .25rem
+
+.avatar.is-mini + span
+    margin-left: .5rem
 
 .avatar.is-small + span
-    margin-left: .75rem
+    margin-left: .625rem
 
 .avatar.is-large + span
     margin-left: 1.25rem
