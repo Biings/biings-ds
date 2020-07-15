@@ -8,4 +8,29 @@
 
 .menu-list a
     font-weight: $weight-medium
-    transition: all .1s ease-out !important
+    transition: all .05s ease-out !important
+
+.menu-list a > .icon
+    margin-bottom: .1875em
+
+.menu-list a:not(.has-text-centered) > .icon
+    margin-right: .25em
+
+// Inverted Menu
+.menu.is-inverted .menu-list a
+    color: $white
+
+.menu.is-inverted .menu-list a.is-active
+    background-color: rgba($white,.1)
+
+.menu.is-inverted .menu-list a:hover
+    background-color: rgba($black,.125)
+
+.menu.is-small .menu-label
+    font-size: $size-7
+
+.menu.is-inverted .menu-label
+    color: rgba($white,.4)
+
+.menu.is-inverted .menu-list li ul
+    border-left: 2px solid rgba($white,.1)

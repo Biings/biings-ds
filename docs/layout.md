@@ -152,7 +152,7 @@ Use a **Spacer** (or horizontal rule) as a visual help to seperate groups of ele
 
 <br>
 
-?> Increase or decrease the size of a spacer using the text size classes, ex : `is-size-1`, `is-size-7`, etc. Use class `is-marginless` to completly remove the space surrounding the spacer.
+?> Use <a href="#/modifiers" class="is-underlined">Spacing modifiers</a> to alter the HR margins.
 
 <hr>
 

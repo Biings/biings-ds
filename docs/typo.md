@@ -70,13 +70,13 @@ Use one of the following tags to emphasize words or part of a text.
     Let's <u>underline that!</u>
 <hr class="is-small">
 
-<div class="level is-marginless is-size-4 is-family-secondary">
-    <div class="level-item is-marginless">
+<div class="columns is-gapless is-marginless is-size-4 is-family-secondary">
+    <div class="column is-6">
         <div class="box is-well is-large is-radiusless-tr is-radiusless-b">
             Let's<em> highlight this part </em>..
         </div>
     </div>
-    <div class="level-item is-large is-marginless">
+    <div class="column is-6">
         <div class="box is-large has-background-black-ter has-text-white is-radiusless-tl is-radiusless-b">
             Or <em class="is-primary">that on a dark background</em>.
         </div>

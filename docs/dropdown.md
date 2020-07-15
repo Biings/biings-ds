@@ -256,36 +256,80 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
     &nbsp;
     <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
-            <div class="button is-dark">Inverted Dropdown</div>
+            <div class="button is-primary is-light">Inverted Dropdown</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="box is-small is-size-7 has-background-primary-gradient">
-                <div class="box is-small is-marginless">
-                    <div class="columns is-smaller is-multiline has-text-weight-medium">
-                        <div class="column is-6">
-                            <a class="dropdown-item has-text-centered has-background-white is-dimmed">
-                                <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
-                                <br>
-                                Stop
+            <div class="dropdown-content box is-small is-size-7 has-background-primary-gradient">
+                <div class="menu is-small is-inverted">
+                    <ul class="menu-list">
+                        <li class="box is-small">
+                            <div class="columns is-smaller">
+                                <div class="column is-6">
+                                    <a class="is-active has-text-centered">
+                                        <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
+                                        <br>
+                                        ReStop
+                                    </a>
+                                </div>
+                                <div class="column is-6">
+                                    <a class="is-active has-text-centered">
+                                        <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
+                                        <br>
+                                        Reload
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="menu-label">Other actions</p>
+                    <ul class="menu-list">
+                        <li>
+                            <a>
+                                <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
+                                Check
                             </a>
-                        </div>
-                        <div class="column is-6">
-                            <a class="dropdown-item has-text-centered has-background-white is-dimmed">
-                                <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
-                                <br>
-                                Reload
+                        </li>
+                        <li>
+                            <a>
+                                <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#cloud-off-bold-g"></use></svg>
+                                Disconnect
                             </a>
-                        </div>
-                    </div>
+                        </li>
+                        <li>
+                            <a>
+                                <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
+                                Trash
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <a class="dropdown-item">
-                    <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
-                    Approve
-                </a>
-                <a class="dropdown-item">
-                    <svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
-                    Trash
-                </a>
+            </div>
+        </div>
+    </div>
+    &nbsp;
+    <div class="dropdown is-hoverable is-inverted">
+        <div class="dropdown-trigger">
+            <div class="button is-dark">Dropdown Menu</div>
+        </div>
+        <div class="dropdown-menu" role="menu">
+            <div class="dropdown-content box is-small is-size-7 has-background-dark">
+                <div class="menu is-small is-inverted">
+                    <ul class="menu-list">
+                        <li><a>Biodata</a></li>
+                        <li><a>Timelines</a></li>
+                        <li class="is-active"><a>Follow-ups</a></li>
+                    </ul>
+                    <p class="menu-label">Coverages</p>
+                    <ul class="menu-list">
+                        <li>
+                            <ul>
+                                <li><a>Illness</a></li>
+                                <li><a>Pro</a></li>
+                                <li><a>Other</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

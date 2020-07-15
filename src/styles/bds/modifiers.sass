@@ -13,6 +13,9 @@
     background: none !important
     background-color: transparent !important
 
+.has-pointer
+    cursor: pointer !important
+
 @media print
     .is-hidden-print
         display: none !important
@@ -43,7 +46,7 @@
 // Dimmer modifiers
 
 .has-background-white.is-dimmed
-    background-color: rgba($white,.15) !important;
+    background-color: rgba($white,.4) !important;
 
 .has-background-dark.is-dimmed
     background-color: rgba($dark,.25) !important;
@@ -169,6 +172,8 @@
 
 
 // Table
+.table thead th
+    text-align: left
 .table thead td,
 .table thead th
     padding: .625em .875em

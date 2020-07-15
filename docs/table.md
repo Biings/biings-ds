@@ -10,10 +10,10 @@
     <table class="table is-striped is-hoverable">
         <thead>
             <tr>
-                <th>First column</th>
-                <th>Second column</th>
-                <th>Third column</th>
-                <th>Fourth column</th>
+                <th align>First column</th>
+                <th align>Second column</th>
+                <th align>Third column</th>
+                <th align>Fourth column</th>
             </tr>
         </thead>
         <tbody>

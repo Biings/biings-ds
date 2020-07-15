@@ -51,14 +51,13 @@ form .field
     background-color: white
 
 .label
-    text-transform: uppercase
-    letter-spacing: 0
-    font-size: $size-7
+    letter-spacing: $menu-label-letter-spacing
+    font-size: $menu-label-font-size
 
 .field > .label
     position: absolute
-    top: .5em
-    left: .375em
+    top: .375em
+    left: calc(.25em + 1px)
     z-index: 3
     padding-top: $control-padding-vertical
     padding-right: $control-padding-horizontal
@@ -132,6 +131,7 @@ form .field
 .field > .radio
     padding: 1.5em 1.125em
     width: 100%
+    color: $label-color
     @extend %input
 
 .field > .checkbox > input:checked ~ span,

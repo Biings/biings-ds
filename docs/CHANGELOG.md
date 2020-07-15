@@ -3,6 +3,22 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-4"><br>
 
+<span class="subtitle is-6 has-text-info">July 15, 2020</span>
+<hr class="is-marginless is-wavy">
+<h4 class="title is-family-primary">Version 1.43</h4>
+
+<ul class="list">
+    <li><strong>New icons</strong>: <i>cloud-off-g, cloud-off-bold-g</i> and other icon refinements</li>
+    <li>Updated to <strong>Bulma 0.9.0</strong></li>
+    <li>Updated font sizes 1, 3 and 4</li>
+    <li>Added support for inverted Menus</li>
+    <li>Added Tag size <code>is-tiny</code></li>
+    <li>New modifier <span class="tag is-paddingless is-shaked"><code>is-shaked</code></span></li>
+    <li>Various adjustments and fixes to <i>Form labels, Modal, Modifiers</i> and Serif font sizes</li>
+</ul>
+
+<hr class="is-size-2 is-visible">
+
 <span class="subtitle is-6 has-text-info">July 6, 2020</span>
 <hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.42</h4>

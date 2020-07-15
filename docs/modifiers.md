@@ -67,7 +67,15 @@
             <td>Prevents the text from being <strong>selectable</strong></td>
         </tr>
         <tr>
-            <th rowspan="2">Spacing</th>
+            <th rowspan="4">Spacing</th>
+            <td><code>m[t,b,l,r]-[0–6]</code></td>
+            <td>Adds <strong>margin</strong> – size 0 to 6 – on a specific side (ex: <code>mt-3</code>)</td>
+        </tr>
+        <tr>
+            <td><code>p[t,b,l,r]-[0–6]</code></td>
+            <td>Adds <strong>padding</strong> – size 0 to 6 – on a specific side (ex: <code>pr-5</code>)</td>
+        </tr>
+        <tr>
             <td><code>is-marginless</code></td>
             <td>Removes any <strong>margin</strong></td>
         </tr>
@@ -113,7 +121,7 @@
             <td>Removes <strong>bottom right radius</strong></td>
         </tr>
         <tr>
-            <th rowspan="10">Visibility</th>
+            <th rowspan="11">Visibility</th>
             <td><code>is-mask</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
             <td>Makes the element act as a <strong>mask applied to its relative siblings</strong>.</td>
         </tr>
@@ -151,8 +159,11 @@
         </tr>
         <tr>
             <td><code>is-sr-only</code></td>
-            <td>Hide elements <strong>visually</strong> but keep the element available to be announced by a <strong>screen reader</strong>
-            </td>
+            <td>Hide elements <strong>visually</strong> but keep the element available to be announced by a <strong>screen reader</strong></td>
+        </tr>
+        <tr>
+            <td><code>has-pointer</code></td>
+            <td>Forces the cursor to be a Pointer</td>
         </tr>
         <tr>
             <th rowspan="5" style="width: 5rem;">Position</th>

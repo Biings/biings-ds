@@ -6,32 +6,70 @@
 </p>
 <hr class="is-visible is-size-3">
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
-    <div class="menu">
-        <ul class="menu-list">
-            <li><a>Biodata</a></li>
-            <li><a>Timelines</a></li>
-            <li><a class="is-active">Active item</a></li>
-            <li><a>Claim reports</a></li>
-        </ul>
-        <p class="menu-label">Coverages:</p>
-        <ul class="menu-list">
-            <li>
-                <ul>
-                    <li><a>Illness</a></li>
-                    <li><a>Pro</a></li>
-                    <li><a>Other</a></li>
-                </ul>
-            </li>
-        </ul>
+<div class="box is-well is-medium is-marginless is-radiusless-b">
+    <div class="columns is-marginless">
+        <div class="column is-6">
+            <div class="box is-small is-size-7 is-marginless">
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a>Pilot</a></li>
+                        <li><a>Timelines</a></li>
+                        <li><a class="is-active">Active item</a></li>
+                        <li><a><svg class="icon has-fill-dark"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg> Claim Center</a></li>
+                    </ul>
+                    <p class="menu-label">Coverages:</p>
+                    <ul class="menu-list">
+                        <li>
+                            <ul>
+                                <li><a>Holidays</a></li>
+                                <li><a>Professional Illness</a></li>
+                                <li><a>Special</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="has-text-centered">
+                <span class="is-family-monospace has-text-grey is-size-6">.menu</span>
+            </p>
+        </div>
+        <div class="column is-6 ">
+            <div class="box has-background-dark is-size-7">
+                <div class="menu is-small is-inverted">
+                    <ul class="menu-list">
+                        <li><a>Pilot</a></li>
+                        <li><a>Timelines</a></li>
+                        <li><a class="is-active">Active item</a></li>
+                        <li><a><svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg>Claim Center</a></li>
+                    </ul>
+                    <p class="menu-label">Coverages:</p>
+                    <ul class="menu-list">
+                        <li>
+                            <ul>
+                                <li><a>Holidays</a></li>
+                                <li><a>Professional Illness</a></li>
+                                <li><a>Special</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="has-text-centered">
+                <span class="is-family-monospace has-text-grey is-size-6">.menu</span>
+                <code>.is-small</code>
+                <code>.is-inverted</code>
+            </p>
+        </div>
     </div>
+    
 </div>
+<hr class="is-visible is-marginless">
 
     <div class="menu">
         <ul class="menu-list">
             <li><a>Biodata</a></li>
-            <li><a>Timelines</a></li>
-            <li class="is-active"><a>Follow-ups</a></li>
+            <li><a class="is-active">Timelines</a></li>
+            <li><a><icon class="icon"/>Claim Center</a></li>
         </ul>
         <p class="menu-label">Coverages</p>
         <ul class="menu-list">
@@ -46,7 +84,6 @@
     </div>
 <br>
 
-?> Modifiers like `is-small` or `is-size-7` are supported.
 
 <hr>
 

@@ -13,8 +13,7 @@ a.dropdown-item
 
 a.dropdown-item > .icon
     margin-top: .125em
-    margin-bottom: .25em
-    font-size: 1.25em
+    margin-bottom: .125em
 a.dropdown-item:not(.has-text-centered) > .icon
     margin-right: .25em
     margin-left: -.25em
@@ -46,7 +45,7 @@ a.dropdown-item:not(.has-text-centered) > .icon
 
 .dropdown.has-arrow.is-up > .dropdown-menu
     transform: translateY(1em)
-    
+
 .dropdown.is-active .dropdown-menu,
 .dropdown.is-hoverable:hover .dropdown-menu
     z-index: 20
@@ -100,15 +99,6 @@ a.dropdown-item:not(.has-text-centered) > .icon
 // Inverted
 .dropdown.is-inverted .dropdown-content
     box-shadow: 0 0 5px 0 rgba($black,.2),0 4px 6px -8px rgba($black,.5),0 6px 30px -8px rgba($black,.6)
-
-.dropdown.is-inverted .dropdown-item
-    color: $white
-
-.dropdown.is-inverted button.dropdown-item
-    background-color: $dropdown-item-hover-background-color
-
-.dropdown.is-inverted .dropdown-item:hover
-    background-color: rgba($black,.1) !important
 
 .dropdown:not(.is-iconless).is-inverted:after,
 .select:not(.is-loading).is-inverted
