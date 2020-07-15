@@ -13,7 +13,7 @@
     <li>Updated font sizes 1, 3 and 4</li>
     <li>Added support for inverted Menus</li>
     <li>Added Tag size <code>is-tiny</code></li>
-    <li>New modifier <span class="tag is-paddingless is-shaked"><code>is-shaked</code></span> and <code>is-twisted</code></li>
+    <li>New modifier <span class="tag is-paddingless is-shaked"><code>is-shaked</code></span></li>
     <li>Various adjustments and fixes to <i>Form labels, Modal, Modifiers</i> and Serif font sizes</li>
 </ul>
 
