@@ -21,8 +21,6 @@ Avatar's default background is transparent. Set it manually to achieve the below
     <span>John Doe</span>
 <br>
 
-?> 
-
 <hr class="is-size-1 is-visible">
 
 <h4 class="title is-family-primary"><strong>Sizes</strong></h4>

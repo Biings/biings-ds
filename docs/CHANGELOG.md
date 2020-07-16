@@ -8,7 +8,7 @@
 <h4 class="title is-family-primary">Version 1.43</h4>
 
 <ul class="list">
-    <li><strong>New icons</strong>: <i>cloud-off-g, cloud-off-bold-g</i> and other icon refinements</li>
+    <li><strong>New icons</strong>: <i>cloud-off-g, cloud-off-bold-g, filter-g</i> and other icon refinements</li>
     <li>Updated to <strong>Bulma 0.9.0</strong></li>
     <li>Updated font sizes 1, 3 and 4</li>
     <li>Added support for inverted Menus</li>
