@@ -19,7 +19,7 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#5B3478</span></div>
     <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary / pilot</strong><br><span class="has-text-grey-dark is-family-monospace">#8C50B9</span></div>
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
-    <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#D1B9E3</span></div>
+    <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#EEE5F5</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#3C8B69</span></div>
     <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#50B98C</span></div>
