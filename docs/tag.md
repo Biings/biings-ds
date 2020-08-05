@@ -27,7 +27,7 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 <br>
 
 <div class="box is-well is-large">
-    <span class="tag is-tiny">Small</span>
+    <span class="tag is-tiny">Tiny</span>
     <span class="tag is-small">Small</span>
     <span class="tag">Normal</span>
     <span class="tag is-medium">Medium</span>

@@ -29,12 +29,12 @@ In addition to the default size, use classes `is-[tiny,mini,small,medium,large,h
 <hr class="is-small">
 <div class="box is-well">
     <div class="level">
-        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-light">T</div></div><span class="is-size-7">Tiny</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">M</div></div><span class="is-size-7">Mini</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise-lighter">S</div></div><span class="is-size-7">Small</span></div>
-        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-lighter">M</div></div><span class="is-size-6">Medium</span></div>
-        <div class="level-item"><div class="avatar is-large"><div class="has-background-care-lighter">L</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div class="has-background-claim-lighter">H</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-light">TY</div></div><span class="is-size-7">Tiny</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">MI</div></div><span class="is-size-7">Mini</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise-lighter">SL</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
+        <div class="level-item"><div class="avatar is-large"><div class="has-background-care-lighter">LA</div></div><span class="is-size-5">Large</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div class="has-background-claim-lighter">HU</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
