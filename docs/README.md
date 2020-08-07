@@ -64,8 +64,7 @@
 
 <hr class="is-size-2">
 
-<div class="box has-background-info-gradient is-paddingless">
-    <div class="box is-bordered is-large">
+<div class="box has-background-info-gradient is-large is-popping">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <h3 class="title is-family-secondary is-spaced">Want to <u>contribute?</u></h3>
@@ -77,7 +76,6 @@
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>
     </div>
-</div>
 </div>
 
 <br>
