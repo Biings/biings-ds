@@ -31,6 +31,10 @@
             <div class="dropdown-content">
                 <a class="dropdown-item">Add class <code class="is-size-7">is-active</code></a>
                 <a class="dropdown-item">top open the dropdown</a>
+                <a class="dropdown-item">
+                    <svg class="icon"><use xlink:href="media/bds-icons.min.svg#info-bold-g"></use></svg>
+                    It supports icons too!
+                </a>
             </div>
         </div>
     </div>
