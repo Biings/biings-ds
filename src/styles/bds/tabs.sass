@@ -16,7 +16,8 @@
     right: 50%
     bottom: -($tabs-border-bottom-width)
     left: 50%
-    height: 2px
+    height: $tabs-border-bottom-width
+    border-radius: $tabs-border-bottom-width*2
     background-color: $primary
     content: ''
     transition: left .15s ease, right .15s ease
@@ -25,8 +26,8 @@
     right: 25%
     left: 25%
 .tabs.is-fullwidth:not(.is-boxed) > ul > li.is-active > a:after
-    right: 0%
-    left: 0%
+    right: 0
+    left: 0
 
 .tabs.is-hanging > ul
     border-top-width: $tabs-border-bottom-width
