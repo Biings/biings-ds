@@ -69,7 +69,7 @@ label.radio
     content: ''
     opacity: 0
     transition: transform .1s ease-out, opacity .1s ease-in
-    transform: rotate(40deg) scale(2.25)
+    transform: rotate(40deg) scale(.25)
 
 .checkbox > input:indeterminate + .checkbox-mark
     background-color: $primary-lighter
@@ -105,6 +105,28 @@ label.radio
 
 .radio > input:checked ~ .radio-mark:after
     transform: scale(1)
+
+// —— SMALL CHECKBOX —————————————————————————————————————————————————————————————————————
+label.checkbox.is-small
+    line-height: 1.375
+
+.checkbox.is-small > input
+    width: 1.5rem
+
+.checkbox.is-small > .checkbox-mark
+    width: 1.125rem
+    height: 1.125rem
+    border-radius: .25rem
+
+.checkbox.is-small > .checkbox-mark:after
+    top: 3px
+    left: 7px
+    width: 5px
+    height: 10px
+    transform: rotate(40deg) scale(.8)
+
+.checkbox.is-small > input:checked ~ .checkbox-mark:after
+    transform: rotate(40deg) scale(1)
 
 
 // —— TOGGLE —————————————————————————————————————————————————————————————————————————————

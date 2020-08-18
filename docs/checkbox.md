@@ -69,6 +69,27 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
     </label>
 <hr class="is-size-1 is-visible">
 
+<h4 class="title is-family-primary"><strong>Small size</strong></h4>
+
+For UI controls, a smaller checkbox (`.is-small`) is recommended.
+
+<br><div class="box is-well px-5">
+    <label class="checkbox is-small">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        Small
+    </label><br>
+    <label class="checkbox is-small">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        Control
+    </label><br>
+    <label class="checkbox is-small">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        Checkbox
+    </label>
+</div>
+
+<hr class="is-size-1 is-visible">
+
 <h4 class="title is-family-primary"><strong>Toggle</strong></h4>
 
 A checkbox can become a toggle button. Just add `is-toggle`. Toggle values should be saved immediately upon switching.<br><br>
