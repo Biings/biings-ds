@@ -55,11 +55,14 @@
         "grunt-contrib-requirejs": "~0.4.4",
         "grunt-svgmin": "^6.0.0",
         "grunt-svgstore": "^2.0.0",
-        "node-sass": "^4.9.0",
+        "node-sass": "^4.14.1",
         "postcss": "^6.0.22",
-        "postcss-cli": "^5.0.0",
+        "postcss-cli": "^7.1.1",
         "postcss-import": "^11.1.0",
         "postcss-preset-env": "^5.1.0"
     },
-    "dependencies": {}
+    "dependencies": {
+        "browserslist": "^4.14.0",
+        "caniuse-lite": "^1.0.30001115"
+    }
 }
