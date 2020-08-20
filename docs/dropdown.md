@@ -31,8 +31,8 @@
             <div class="dropdown-content">
                 <a class="dropdown-item">Add class <code class="is-size-7">is-active</code></a>
                 <a class="dropdown-item">top open the dropdown</a>
-                <a class="dropdown-item">
-                    <svg class="icon"><use xlink:href="media/bds-icons.min.svg#info-bold-g"></use></svg>
+                <a class="dropdown-item has-text-danger has-color-onhover">
+                    <svg class="icon has-fill-red"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg>
                     It supports icons too!
                 </a>
             </div>
@@ -53,6 +53,10 @@
                 <a class="dropdown-item">
                     <span class="is-size-6 has-text-grey">Stuff here</span>
                     <br>Javascript
+                </a>
+                <a class="dropdown-item has-text-danger has-color-onhover">
+                    <icon/>>
+                    It supports icons too!
                 </a>
             </div>
         </div>

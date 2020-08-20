@@ -9,12 +9,12 @@
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <th rowspan="4">Color</th>
+            <th rowspan="7">Color</th>
             <td><code>has-text-[color]</code></td>
             <td>Changes the color of the <strong>text</strong>, <i>uses BDS color names</i></td>
         </tr>
         <tr>
-            <td><code>has-background-[color]</code></td>
+            <td style="width: 230px;"><code>has-background-[color]</code></td>
             <td>Changes the <strong>background</strong> color</td>
         </tr>
         <tr>
@@ -22,7 +22,19 @@
             <td>Changes the fill color of an <strong>SVG</strong></td>
         </tr>
         <tr>
-            <td><code>is-dimmed</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
+            <td><code>has-color-onhover</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
+            <td>Applies text color modifiers <strong class="has-text-primary has-color-onhover">only on hover</strong></td>
+        </tr>
+        <tr>
+            <td><code>has-background-onhover</code></td>
+            <td>Applies background modifiers <strong class="has-background-primary-gradient-light has-background-onhover">only on hover</strong></td>
+        </tr>
+        <tr>
+            <td><code>has-fill-onhover</code></td>
+            <td>Applies fill color modifiers <strong>only on hover</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-dimmed</code></td>
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
@@ -68,12 +80,12 @@
         </tr>
         <tr>
             <th rowspan="4">Spacing</th>
-            <td><code>m[t,b,l,r]-[0–6]</code></td>
-            <td>Adds <strong>margin</strong> – size 0 to 6 – on a specific side (ex: <code>mt-3</code>)</td>
+            <td><code>m[t,b,l,r,x,y]-[0–6]</code></td>
+            <td>Adds <strong>margin</strong>, size 0 to 6, on a specific side (ex: <code>mt-3</code>)</td>
         </tr>
         <tr>
-            <td><code>p[t,b,l,r]-[0–6]</code></td>
-            <td>Adds <strong>padding</strong> – size 0 to 6 – on a specific side (ex: <code>pr-5</code>)</td>
+            <td><code>p[t,b,l,r,x,y]-[0–6]</code></td>
+            <td>Adds <strong>padding</strong>, size 0 to 6, on a specific side (ex: <code>px-5</code> = <code>pl-5 pr-5</code>)</td>
         </tr>
         <tr>
             <td><code>is-marginless</code></td>
@@ -84,25 +96,13 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="9">Radius</th>
+            <th rowspan="6">Radius</th>
             <td><code>is-radiusless</code></td>
             <td>Removes any <strong>radius</strong></td>
         </tr>
         <tr>
-            <td><code>is-radiusless-t</code></td>
-            <td>Removes both <strong>top radius</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-radiusless-l</code></td>
-            <td>Removes both <strong>left radius</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-radiusless-r</code></td>
-            <td>Removes both <strong>right radius</strong></td>
-        </tr>
-        <tr>
-            <td><code>is-radiusless-b</code></td>
-            <td>Removes both <strong>bottom radius</strong></td>
+            <td><code>is-radiusless-[l,r,t,b]</code></td>
+            <td>Removes <strong>both radius</strong> on the left, right, top or bottom side</td>
         </tr>
         <tr>
             <td><code>is-radiusless-tl</code></td>
