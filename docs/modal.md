@@ -17,10 +17,12 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white" onclick="closeModal('')"></div>
     <div class="modal-content has-text-centered">
-        <div class="title is-spaced is-1 is-size-1-mobile is-family-secondary"><strong>Nice!</strong></div>
-        <div class="subtitle is-5 is-size-6-mobile">This opens just by adding the <code>is-active</code> to the modal div.</div>
-        <hr>
-        <span class="tag has-text-grey">Use the button on the top right corner to close.</span>
+        <div>
+            <div class="title is-spaced is-1 is-size-1-mobile is-family-secondary"><strong>Nice!</strong></div>
+            <div class="subtitle is-5 is-size-6-mobile">This opens just by adding the <code>is-active</code> to the modal div.</div>
+            <hr>
+            <span class="tag has-text-grey">Use the button on the top right corner to close.</span>
+        </div>
     </div>
     <button onclick="closeModal('')" class="modal-close is-huge" aria-label="close"></button>
 </div>

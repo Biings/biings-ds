@@ -166,9 +166,13 @@
             <td>Forces the cursor to be a Pointer</td>
         </tr>
         <tr>
-            <th rowspan="5" style="width: 5rem;">Position</th>
+            <th rowspan="6" style="width: 5rem;">Position</th>
             <td style="width: 14rem;"><code>is-relative</code></td>
             <td>Applies <code>position: relative</code> to the element</td>
+        </tr>
+        <tr>
+            <td><code>is-sticky</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
+            <td>Applies a <strong>fixed position when scrolled</strong> outside of the viewport</td>
         </tr>
         <tr>
             <td><code>is-overlay</code></td>

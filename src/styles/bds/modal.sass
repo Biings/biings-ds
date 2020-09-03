@@ -23,28 +23,34 @@
     padding-top: .25rem
 
 .modal-content,
+.modal-content > div:only-child,
 .modal-card,
 .modal-background
     will-change: opacity
     will-change: transform
 
-.modal > .modal-content,
-.modal > .modal-card,
-.modal > .modal-background
-    opacity: 0
+.modal-content,
+.modal-content > div:only-child,
+.modal-card,
+.modal-background
     transition: opacity .5s, transform .5s
     transition-timing-function: cubic-bezier(.19, 1, .22, 1)
 
-.modal > .modal-content,
-.modal > .modal-card
-    transform: scale(.8)
+.modal-content,
+.modal-card,
+.modal-background
+    opacity: 0
 
 .modal.is-active > .modal-content,
 .modal.is-active > .modal-card,
 .modal.is-active > .modal-background
     opacity: 1
 
-.modal.is-active > .modal-content,
+.modal > .modal-content > div:only-child,
+.modal > .modal-card
+    transform: scale(.8)
+
+.modal.is-active > .modal-content > div:only-child,
 .modal.is-active > .modal-card
     transform: scale(1)
 

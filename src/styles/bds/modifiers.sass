@@ -21,13 +21,17 @@
         display: none !important
 
 .is-ephemeral
+    overflow-y: hidden
     max-height: 0
     opacity: 0
-    overflow-y: hidden
     animation: vanish 4s linear 1
 
 .is-mask
     mix-blend-mode: screen
+
+.is-sticky
+    position: -webkit-sticky
+    position:         sticky
 
 @keyframes vanish
     0%
@@ -43,19 +47,18 @@
         max-height: 0
         opacity: 0
 
-// Dimmer modifiers
-
+// Dimmers
 .has-background-white.is-dimmed
-    background-color: rgba($white,.4) !important;
+    background-color: rgba($white,.4) !important
 
 .has-background-dark.is-dimmed
-    background-color: rgba($dark,.25) !important;
+    background-color: rgba($dark,.25) !important
 
 .has-text-white.is-dimmed
-    color: rgba($white,.55) !important;
+    color: rgba($white,.55) !important
 
 .has-text-black-ter.is-dimmed
-    color: rgba($black-ter,.5) !important;
+    color: rgba($black-ter,.5) !important
 
 
 // Radius removers
@@ -100,8 +103,8 @@
 
 // Animation modifier
 .is-shaked
+    transform-origin: center center
     animation: shake 1s ease-in-out
-    transform-origin:center center
 
 @keyframes shake
     0%
@@ -187,14 +190,14 @@ pre
 
 // ON HOVER COLORING CLASSES
 .has-background-onhover:not(:hover)
-    background-color: currentColor !important;
-    background: none !important;
+    background: none !important
+    background-color: currentColor !important
 
 .has-color-onhover:not(:hover)
-    color: currentColor !important;
+    color: currentColor !important
 
 .has-fill-onhover:not(:hover)
-    fill: currentColor !important;
+    fill: currentColor !important
 
 // SPECIAL BACKGROUNDS
 .has-background-primary-gradient
