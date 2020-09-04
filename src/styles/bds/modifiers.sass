@@ -191,7 +191,7 @@ pre
 // ON HOVER COLORING CLASSES
 .has-background-onhover:not(:hover)
     background: none !important
-    background-color: currentColor !important
+    background-color: transparent !important
 
 .has-color-onhover:not(:hover)
     color: currentColor !important
@@ -201,25 +201,25 @@ pre
 
 // SPECIAL BACKGROUNDS
 .has-background-primary-gradient
-    background: linear-gradient(-45deg, $purple 0%, mix($primary-dark,$primary,50) 100%)
+    background: linear-gradient(-45deg, mix($primary-dark,$primary,50) 0%, $purple 110%)
 
 .has-background-primary-gradient-light
-    background: linear-gradient(-30deg, $purple-lighter 20%, $primary-light 300%)
+    background: linear-gradient(150deg, $purple-lighter 20%, $primary-light 300%)
 
 .has-background-care-gradient
-    background: linear-gradient(-45deg, $turquoise -15%, $care 95%)
+    background: linear-gradient(-45deg, $care -15%, $turquoise 95%)
 
 .has-background-care-gradient-light
-    background: linear-gradient(-30deg, $turquoise-lighter 0%, $care-light 300%)
+    background: linear-gradient(150deg, $turquoise-lighter 0%, $care-light 300%)
 
 .has-background-primary-care-gradient
     background: linear-gradient(-45deg, $care -5%, mix($purple,$primary,25) 95%)
 
 .has-background-claim-gradient
-    background: linear-gradient(-45deg, $orange-light 5%, mix($yellow,$claim,15) 100%)
+    background: linear-gradient(-45deg, mix($yellow,$claim,15) 5%, $orange-light 100%)
 
 .has-background-claim-gradient-light
-    background: linear-gradient(-30deg, $orange-lighter 0%, $claim-light 300%)
+    background: linear-gradient(150deg, $orange-lighter 0%, $claim-light 300%)
 
 .has-background-primary-claim-gradient
     background: linear-gradient(-45deg, $claim -10%, $purple 100%)
@@ -245,17 +245,17 @@ pre
 
 @supports(-webkit-backdrop-filter: blur())
     .has-background-blur.has-background-dark
-        background-color: rgba($dark,.6) !important
+        background-color: rgba($dark,.7) !important
 @supports(backdrop-filter: blur())
     .has-background-blur.has-background-dark
-        background-color: rgba($dark,.6) !important
+        background-color: rgba($dark,.7) !important
 
 @supports(-webkit-backdrop-filter: blur())
     .has-background-blur.has-background-black-bis
-        background-color: rgba($black-bis,.7) !important
+        background-color: rgba($black-bis,.8) !important
 @supports(backdrop-filter: blur())
     .has-background-blur.has-background-black-bis
-        background-color: rgba($black-bis,.7) !important
+        background-color: rgba($black-bis,.8) !important
 
 // COLOR CLASSES
 .has-background-primary-dark

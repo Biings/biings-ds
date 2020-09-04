@@ -34,7 +34,7 @@
 .modal-card,
 .modal-background
     transition: opacity .5s, transform .5s
-    transition-timing-function: cubic-bezier(.19, 1, .22, 1)
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1) !important
 
 .modal-content,
 .modal-card,
@@ -46,13 +46,15 @@
 .modal.is-active > .modal-background
     opacity: 1
 
-.modal > .modal-content > div:only-child,
 .modal > .modal-card
-    transform: scale(.8)
+    transform: translateY(-6%)
 
-.modal.is-active > .modal-content > div:only-child,
-.modal.is-active > .modal-card
-    transform: scale(1)
+.modal > .modal-content > div:only-child
+    transform: translateY(20%)
+
+.modal.is-active > .modal-card,
+.modal.is-active > .modal-content > div:only-child
+    transform: translateY(0)
 
 .modal.is-pinned > .modal-content,
 .modal.is-pinned > .modal-card
