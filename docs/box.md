@@ -68,11 +68,11 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     <li><code>hover-to-popping</code></li>
 </ul>
 
-<div class="box is-large has-background-white-bis is-radiusless-b is-marginless">
-    <div class="box is-raised hover-to-popping">Box with depth transition effect ( hover me )</div>
+<div class="box is-large is-white is-radiusless-b is-marginless">
+    <div class="box is-raised hover-to-floating">Box with depth transition effect ( hover me )</div>
     <hr>
-    <div class="box is-paddingless is-floating">
-        <div class="box is-marginless is-link hover-to-bordered">Link Box use case</div>
+    <div class="box is-paddingless is-raised">
+        <div class="box is-marginless hover-to-bordered">Link Box use case</div>
     </div>
 </div>
 
@@ -80,7 +80,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
         <!-- Box content -->
     </div>
     <div class="box is-floating is-paddingless">
-        <div class="box is-link hover-to-bordered is-marginless">
+        <div class="box hover-to-bordered is-marginless">
             <!-- Link content -->
         </div>
     </div>
