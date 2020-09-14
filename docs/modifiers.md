@@ -122,7 +122,7 @@
         </tr>
         <tr>
             <th rowspan="11">Visibility</th>
-            <td><code>is-mask</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
+            <td><code>is-mask</code></td>
             <td>Makes the element act as a <strong>mask applied to its relative siblings</strong>.</td>
         </tr>
         <tr>
@@ -191,7 +191,7 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <th rowspan="7" style="width: 5rem;">FX<br><span class="tag is-tiny is-danger is-glowing">New</span></th>
+            <th rowspan="7" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
             <td><strong>Fades out</strong> an element <u>after 3 seconds</u></td>
         </tr>

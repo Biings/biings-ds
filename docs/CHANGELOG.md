@@ -3,6 +3,20 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-4"><br>
 
+<span class="subtitle is-6 has-text-info">September 14, 2020</span>
+<hr class="is-marginless is-wavy">
+<h4 class="title is-family-primary">Version 1.44</h4>
+
+<ul class="list">
+    <li><strong>30 new icons</strong> and refinements:<br><i>action-g, action-new-g, arrow-up-g, arrow-down-g, calendar-g, action-new-g, chair-new-g, business-hq-g, cloud-g, list-g, person-assign-g, exchange-g, money-reception, warning-bold-g, spark-g, spark-big-g, keyboard-g, adminland, adminland-g, columns-g, cross-bold-g, minus, sort-g, document-new-g, duplicate-g, plus-g, link-g, person-new-g, dots-vert-g, at-g</i></li>
+    <li>New small-sized checkbox</li>
+    <li>New <code>on-hover</code> and <code>is-sticky</code> modifiers</li>
+    <li>Single-pixel border width for Buttons and HRs</li>
+    <li>Style adjustments to <i>Avatars, Boxes, Modals, Tables, Menu, and Dropdowns</i></li>
+</ul>
+
+<hr class="is-size-2 is-visible">
+
 <span class="subtitle is-6 has-text-info">July 15, 2020</span>
 <hr class="is-marginless is-wavy">
 <h4 class="title is-family-primary">Version 1.43</h4>
