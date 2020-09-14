@@ -31,7 +31,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.
     <div class="subtitle has-text-grey-dark is-6"><strong>Bordered</strong></div>
 </div>
 <br>
-<div class="box is-well is-link has-text-grey is-medium">
+<div class="box is-well has-text-grey is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Well</strong></div>
 </div>
 <br>
@@ -71,17 +71,17 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
 <div class="box is-large is-white is-radiusless-b is-marginless">
     <div class="box is-raised hover-to-floating">Box with depth transition effect ( hover me )</div>
     <hr>
-    <div class="box is-paddingless is-raised">
-        <div class="box is-marginless hover-to-bordered">Link Box use case</div>
+    <div class="box is-paddingless hover-to-bordered is-link">
+        <div class="box is-marginless is-floating">Link Box use case</div>
     </div>
 </div>
 
     <div class="box is-raised hover-to-popping">
         <!-- Box content -->
     </div>
-    <div class="box is-floating is-paddingless">
-        <div class="box hover-to-bordered is-marginless">
-            <!-- Link content -->
+    <div class="box is-paddingless hover-to-bordered is-link">
+        <div class="box is-marginless is-floating">
+            <!-- Link box content -->
         </div>
     </div>
 <hr class="is-size-1 is-visible">

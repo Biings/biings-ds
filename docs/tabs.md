@@ -148,7 +148,7 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
 
 <div class="box is-well is-large is-marginless is-radiusless-b">
     <div class="tabs is-boxed is-marginless is-centered">
-        <ul>
+        <ul class="is-borderless">
             <li class="is-active"><a>Insured</a>
             </li><li><a>Employer</a></li>
             <li><a>Incapacity</a></li>
