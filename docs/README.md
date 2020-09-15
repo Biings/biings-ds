@@ -64,7 +64,7 @@
 
 <hr class="is-size-2">
 
-<div class="box has-background-info-gradient is-large is-popping">
+<div class="box has-background-info-gradient is-large is-floating">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <h3 class="title is-family-secondary is-spaced">Want to <u>contribute?</u></h3>

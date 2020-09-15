@@ -63,7 +63,7 @@ Use one of the following tags to emphasize words or part of a text.
 
 <hr class="is-small">
 
-<div class="box is-well is-medium is-marginless is-size-3 is-family-hand is-radiusless-b">
+<div class="box is-raised is-medium is-marginless is-size-3 is-family-hand is-radiusless-b">
     Let's <u>underline that!</u>
 </div>
 
@@ -72,12 +72,12 @@ Use one of the following tags to emphasize words or part of a text.
 
 <div class="columns is-gapless is-marginless is-size-4 is-family-secondary">
     <div class="column is-6">
-        <div class="box is-well is-large is-radiusless-tr is-radiusless-b">
+        <div class="box is-raised is-large is-radiusless-tr is-radiusless-b">
             Let's<em> highlight this part </em>..
         </div>
     </div>
     <div class="column is-6">
-        <div class="box is-large has-background-black-ter has-text-white is-radiusless-tl is-radiusless-b">
+        <div class="box is-large is-raised has-background-black-ter has-text-white is-radiusless-tl is-radiusless-b">
             Or <em class="is-primary">that on a dark background</em>.
         </div>
     </div>
@@ -88,6 +88,6 @@ Use one of the following tags to emphasize words or part of a text.
     Or <em class="is-primary">some of that in purple</em>.
 <hr><br>
 
-<a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank" class="box is-well has-text-grey-dark">
-    More information on &nbsp;→&nbsp; <span class="is-link has-text-primary">Bulma / <strong>Typography helpers</strong></span>
+<a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank" class="message is-info is-block">
+    More information on &nbsp;→&nbsp; <span class="is-link is-underlined">Bulma / <strong>Typography helpers</strong></span>
 </a>

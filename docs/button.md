@@ -169,7 +169,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
 
 <br>
 
-<div class="box is-well is-large is-radiusless-b is-marginless">
+<div class="box is-raised is-large is-radiusless-b is-marginless">
     <div class="level">
         <div class="level-item">
             <div class="button">
@@ -231,7 +231,7 @@ Buttons can be grouped together.
 
 <hr>
 
-<div class="box is-well is-radiusless-b is-marginless is-large">
+<div class="box is-raised is-radiusless-b is-marginless is-large">
     <div class="field has-addons">
         <p class="control">
             <a class="button">Red</a>

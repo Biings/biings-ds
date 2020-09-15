@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <table class="table is-striped is-hoverable">
         <thead>
             <tr>
@@ -75,6 +75,6 @@
 
 <hr>
 
-<a href="http://bulma.io/documentation/elements/table/" target="blank" class="box is-well has-text-grey-dark">
-    More variations on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Table</strong>
+<a href="http://bulma.io/documentation/elements/table/" target="blank" class="message is-info is-block">
+    More variations on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Table</strong>
 </a>

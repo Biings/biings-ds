@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box is-well is-large is-medium is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-medium is-marginless is-radiusless-b">
     <div class="has-skeleton"></div>
 </div>
 
@@ -21,7 +21,7 @@ Add class `has-skeleton` to any empty component to show its skeleton.
 
 <hr class="is-small">
 
-<div class="box is-well is-medium is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="box has-skeleton"></div>
     <div class="box has-skeleton"></div>
     <div class="box has-skeleton"></div>

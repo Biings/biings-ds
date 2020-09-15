@@ -26,7 +26,7 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <br>
 
-<div class="box is-well is-large">
+<div class="box is-raised is-large">
     <span class="tag is-tiny">Tiny</span>
     <span class="tag is-small">Small</span>
     <span class="tag">Normal</span>
@@ -54,5 +54,5 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 <hr>
 
 <a href="http://bulma.io/documentation/elements/tag/" target="blank" class="message is-info is-block">
-    More variations on &nbsp;→&nbsp; <strong>Bulma / Tags</strong></a>
+    More variations on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Tags</strong></a>
 </a>

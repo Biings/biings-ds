@@ -7,7 +7,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box is-well is-marginless is-large is-radiusless-b">
+<div class="box is-raised is-marginless is-large is-radiusless-b">
     <label class="radio">
         <input type="radio" name="answer"><span class="radio-mark"></span>
         Yes
@@ -43,5 +43,5 @@
 <hr>
 
 <a href="#/checkbox" class="message is-info is-block">
-    For multiple options use &nbsp;→&nbsp; <strong class="has-text-primary">Checkboxes</strong>
+    For multiple options use &nbsp;→&nbsp; <strong class="is-link is-underlined">Checkboxes</strong>
 </a>

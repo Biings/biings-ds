@@ -18,8 +18,8 @@ Loaders automatically adapt to text size.<br>Use text size modifier classes `is-
 
 <br>
 
-<div class="box is-well is-larger is-marginless is-radiusless-b">
-    <div class="level">
+<div class="box is-raised is-larger is-marginless is-radiusless-b">
+    <div class="level mt-5 mb-6">
         <div class="level-item is-relative"><div class="loader"></div></div>
         <div class="level-item is-relative"><div class="loader is-size-3"></div></div>
         <div class="level-item is-relative"><div class="loader is-size-1"></div></div>
@@ -40,7 +40,7 @@ Add class `is-inline` to remove the auto-centering of the loader.
 
 <br>
 
-<div class="box is-well is-medium is-relative has-text-grey is-italic is-marginless is-radiusless-b">
+<div class="box is-raised is-medium is-relative has-text-grey is-italic is-marginless is-radiusless-b">
     <div class="columns is-vcentered is-centered">
         <div class="column is-4"><div class="loader is-inline"></div> Loading...</div>
         <div class="column is-4">
@@ -66,7 +66,7 @@ Add class `is-primary`, `is-care` or `is-claim` to give the loader a unique Biin
 
 <br>
 
-<div class="box is-well is-large is-relative has-text-centered">
+<div class="box is-raised is-large is-relative has-text-centered">
     <div class="loader is-primary is-inline is-size-3"></div>
     <div class="loader is-care is-inline is-size-3"></div>
     <div class="loader is-claim is-inline is-size-3"></div>
@@ -92,7 +92,7 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 
 <hr class="is-small">
 
-<div class="box is-well is-large is-relative">
+<div class="box is-raised is-large is-relative">
     <div class="loader is-indeterminate is-size-3"></div>
 </div>
 
@@ -104,7 +104,7 @@ A native progress bar can replace a loader.
 
 <hr class="is-small">
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <progress class="progress is-primary" value="30" max="100">25%</progress>
     <progress class="progress is-info is-small" value="45" max="100">30%</progress>
     <progress class="progress is-dark is-thin" value="70" max="100">60%</progress>

@@ -12,7 +12,7 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 
 <br><br>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="message">Default Message.</div>
     <br>
     <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>
@@ -34,7 +34,7 @@ A Message can act as a notification when combined with a Modal. Put the message 
 
 <br><br>
 
-<div class="box is-well is-large is-marginless has-text-centered is-radiusless-b">
+<div class="box is-raised is-large is-marginless has-text-centered is-radiusless-b">
     <div class="button is-white is-shadowed" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
     <div class="button is-success is-shadowed" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
     <div class="button is-danger is-shadowed" onclick="openModal('4')">Small Noti</div>&nbsp; &nbsp;

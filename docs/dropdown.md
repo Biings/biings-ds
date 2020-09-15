@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box is-well is-radiusless-b is-large is-marginless">
+<div class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button">Hover me</div>
@@ -69,7 +69,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <br>
 
-<div class="box is-well is-large is-marginless">
+<div class="box is-raised is-large is-marginless">
     <div class="dropdown is-hoverable is-size-5">
         <div class="dropdown-trigger">
             <div class="button is-medium">Medium button dropdown</div>
@@ -110,7 +110,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
 
 <hr>
 
-<div class="box is-well is-large is-radiusless-b is-marginless">
+<div class="box is-raised is-large is-radiusless-b is-marginless">
     <div class="level">
         <div class="level-item">
             <div class="dropdown is-iconless is-hoverable has-arrow">
@@ -192,7 +192,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 
 <hr>
 
-<div class="box is-well is-radiusless-b is-large is-marginless">
+<div class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
             <div class="button is-light">Choose a value</div>
@@ -242,7 +242,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 <hr>
 
-<div class="box is-well is-radiusless-b is-large is-marginless">
+<div class="box is-raised is-radiusless-b is-large is-marginless">
 
     <div class="dropdown is-hoverable is-iconless has-arrow">
         <div class="dropdown-trigger">
@@ -370,7 +370,7 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
 
 <hr>
 
-<div class="box is-well is-radiusless-b is-large is-marginless">
+<div class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="select is-small is-danger">
         <select>
             <option value="">Small</option>
@@ -410,5 +410,5 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
 <hr><br>
 
 <div class="message is-block is-info">
-    More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/">Bulma / <strong>Select</strong></a>
+    More possibilities on &nbsp;→&nbsp; <a href="https://bulma.io/documentation/components/dropdown/" class="is-underlined" target="blank">Bulma / <strong>Dropdown</strong></a> &nbsp;and&nbsp; <a href="https://bulma.io/documentation/form/select/" class="is-underlined">Bulma / <strong>Select</strong></a>
 </div>

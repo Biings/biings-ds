@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-4"><br>
 
-<div class="box is-well is-marginless is-large is-radiusless-b">
+<div class="box is-raised is-marginless is-large is-radiusless-b">
     <div class="tabs is-fullwidth">
         <ul>
             <li><a>Pilot</a></li>
@@ -33,7 +33,7 @@ Hanging Tabs have their active line placed above each item.
 
 <br>
 
-<div class="box is-well is-marginless is-medium is-radiusless-b" style="padding-top: 0;">
+<div class="box is-raised is-marginless is-radiusless-b" style="padding-top: 0;">
     <div class="tabs is-hanging">
         <ul class="is-borderless">
             <li><a>These</a></li>
@@ -68,12 +68,28 @@ Hanging Tabs have their active line placed above each item.
 
 <h4 class="title is-family-primary"><strong>Toggle Tabs</strong></h4>
 
-Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle` with `is-fullwidth` classes.
+Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle`, `is-fullwidth`, `is-toggle-rounded` and `is-transparent` classes.
 
 <br><br>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
+    <div class="tabs is-toggle is-fullwidth">
+        <ul>
+            </li><li><a>Employer</a></li>
+            <li class="is-active"><a>Insured</a>
+            <li><a>Incapacity</a></li>
+        </ul>
+    </div>
+    <hr>
     <div class="tabs is-toggle is-fullwidth is-toggle-rounded">
+        <ul>
+            <li class="is-active"><a>Insured</a>
+            </li><li><a>Employer</a></li>
+            <li><a>Incapacity</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="tabs is-toggle is-transparent">
         <ul>
             <li class="is-active"><a>Insured</a>
             </li><li><a>Employer</a></li>
@@ -99,7 +115,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <br>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth has-hr">
         <ul>
             <li id="js-tab-1" class="is-active"><a onclick="toggleTab(1)">Option A</a></li>

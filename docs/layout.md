@@ -43,7 +43,7 @@ Add class `is-medium` or `is-large` to further increase the vertical space.
 
 <hr class="is-small">
 
-<div class="box is-well is-medium is-marginless is-medium is-radiusless-b">
+<div class="box is-raised is-medium is-marginless is-medium is-radiusless-b">
     <div class="section has-background-blue-lighter">
         Normal size
     </div>
@@ -63,7 +63,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 
 <hr class="is-small">
 
-<div class="box is-well is-marginless is-medium is-radiusless-b">
+<div class="box is-raised is-marginless is-medium is-radiusless-b">
   <div class="columns is-multiline is-small has-text-white has-text-centered">
       <div class="column is-4">
         <div class="message is-twisted has-background-orange-light has-text-weight-semibold"><br>First<br><br></div>
@@ -103,7 +103,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 ?> Column gap can be adjusted with modifier `is-gapless`, `is-smaller`, `is-small`, `is-large`.
 
 <br>
-<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-well has-text-grey">
+<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-raised has-text-grey">
     More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
 </a>
   
@@ -115,7 +115,7 @@ Use **Level items** when you need to vertically center elements on one line.
 
 <hr class="is-small">
 
-<div class="box is-well is-marginless is-medium is-radiusless-b">
+<div class="box is-raised is-marginless is-medium is-radiusless-b">
   <div class="level has-text-white">
     <div class="level-left">
       <div class="level-item"><div class="message has-background-red has-text-weight-semibold"><br>Item 1<br><br></div></div>
@@ -156,7 +156,7 @@ Use a **Spacer** (or horizontal rule) as a visual help to seperate groups of ele
 
 <hr>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <hr class="is-visible">
     <br>
     <hr class="is-visible is-soft">

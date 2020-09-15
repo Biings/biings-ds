@@ -14,7 +14,7 @@
 
 <h4 class="title is-family-primary"><strong>Input field variations</strong></h4>
 
-<br><form class="box is-well is-large is-marginless is-radiusless-b" spellcheck="false">
+<br><form class="box is-raised is-large is-marginless is-radiusless-b" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-7">
     <div class="control is-loading is-primary">
@@ -56,7 +56,7 @@ You can add one or two icons inside the input.
 
 <hr>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="columns is-variable is-5">
         <div class="column is-6">
             <p class="control has-icons-left">
@@ -87,6 +87,6 @@ You can add one or two icons inside the input.
 !> The icon tag should always be put right after the input tag.
 <hr>
 
-<a class="message is-block is-info" href="https://bulma.io/documentation/form/input/" target="blank">
-    More options on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Input</strong>
+<a class="message is-info is-block" href="https://bulma.io/documentation/form/input/" target="blank">
+    More options on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Input</strong>
 </a>

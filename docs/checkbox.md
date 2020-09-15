@@ -10,7 +10,7 @@
 
 The checkbox label should always toggle the checkbox when clicked! Make sure the label's text is a direct child of `.checkbox`
 
-<br><div class="box is-well is-radiusless-b is-marginless is-large">
+<br><div class="box is-raised is-radiusless-b is-marginless is-large">
     <label class="checkbox">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Check me!
@@ -73,7 +73,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
 
 For UI controls, a smaller checkbox (`.is-small`) is recommended.
 
-<br><div class="box is-well px-5">
+<br><div class="box is-raised px-6">
     <label class="checkbox is-small">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Small
@@ -94,7 +94,7 @@ For UI controls, a smaller checkbox (`.is-small`) is recommended.
 
 A checkbox can become a toggle button. Just add `is-toggle`. Toggle values should be saved immediately upon switching.<br><br>
 
-<div class="box is-well is-radiusless-b is-marginless is-large">
+<div class="box is-raised is-radiusless-b is-marginless is-large">
     <label class="checkbox is-toggle">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I'm a toggle (but I'm still a checkbox)
@@ -117,5 +117,5 @@ A checkbox can become a toggle button. Just add `is-toggle`. Toggle values shoul
 <hr>
 
 <a href="#/radio" class="message is-info is-block">
-    For mutually exclusive options use &nbsp;→&nbsp; <strong class="has-text-primary">Radio buttons</strong>
+    For mutually exclusive options use &nbsp;→&nbsp; <strong class="is-link is-underlined">Radio buttons</strong>
 </a>
