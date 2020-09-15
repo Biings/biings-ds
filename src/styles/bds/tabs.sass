@@ -86,7 +86,6 @@
 .tabs.is-toggle.has-hr > ul
     position: relative
     border-radius: 9px
-    background-color: rgba($dark, .075)
 .tabs.is-toggle.has-hr > ul > hr
     position: absolute
     top: 0
@@ -103,7 +102,7 @@
     z-index: 1
     border-color: transparent !important
     background-color: transparent !important
-.tabs.is-toggle.has-hr li
+.tabs.is-toggle.has-hr:not(.is-transparent) li
     background-color: $light
 
 .tabs.is-toggle.has-hr li.is-active:nth-child(1) ~ hr
