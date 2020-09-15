@@ -16,8 +16,7 @@
     right: 50%
     bottom: -($tabs-border-bottom-width)
     left: 50%
-    height: $tabs-border-bottom-width
-    border-radius: $tabs-border-bottom-width*2
+    height: $tabs-border-bottom-width*2
     background-color: $primary
     content: ''
     transition: left .15s ease, right .15s ease
@@ -47,22 +46,32 @@
     padding: .625em 1.125em .875em
     border-width: 2px
 
+.tabs.is-toggle li
+    background-color: $tabs-toggle-link-border-color
+
 .tabs.is-toggle a
     padding: .625em 1.125em .75em
-    background-color: $tabs-toggle-link-hover-background-color
-    color: $grey
+    border-radius: $tabs-toggle-link-radius
 
 .tabs.is-small.is-toggle a
     padding: .375em 1em .375em
 
-.tabs.is-toggle li:hover a
-    color: $tabs-toggle-link-active-color
+// .tabs.is-toggle:not(.is-inverted) a
+//     background-color: $tabs-toggle-link-hover-background-color
 
-.tabs.is-toggle:not(.has-hr) li
-    background-color: $tabs-toggle-link-hover-background-color
+// .tabs.is-toggle li:hover a
+//     color: $tabs-toggle-link-active-color
 
-.tabs.is-toggle li.is-active a
-    border-radius: $tabs-toggle-link-radius
+// .tabs.is-toggle:not(.has-hr):not(.is-inverted) li
+//     background-color: $tabs-toggle-link-hover-background-color
+
+.tabs.is-toggle.is-transparent li
+    background-color: transparent
+
+.tabs.is-toggle.is-transparent li a,
+.tabs.is-toggle.has-hr li a
+    margin: $tabs-toggle-link-border-width
+    border: none
 
 .tabs.is-toggle li:first-child
     border-radius: $tabs-toggle-link-radius 0 0 $tabs-toggle-link-radius
@@ -94,8 +103,8 @@
     z-index: 1
     border-color: transparent !important
     background-color: transparent !important
-.tabs.is-toggle.has-hr li.is-active
-    background-color: transparent
+.tabs.is-toggle.has-hr li
+    background-color: $light
 
 .tabs.is-toggle.has-hr li.is-active:nth-child(1) ~ hr
     left: 0
@@ -116,13 +125,12 @@
 // Rounded toggle
 .tabs.is-toggle.is-toggle-rounded  li:first-child
     border-radius: $radius-rounded 0 0 $radius-rounded
-.tabs.is-toggle.is-toggle-rounded  li:last-child
+.tabs.is-toggle.is-toggle-rounded  li:last-child,
+.tabs.is-toggle-rounded.has-hr li:nth-last-child(2)
     border-radius: 0 $radius-rounded $radius-rounded 0
 
-.tabs.is-toggle.is-toggle-rounded li:first-child > a
-    border-radius: 2em $tabs-toggle-link-radius $tabs-toggle-link-radius 2em
-.tabs.is-toggle.is-toggle-rounded li:last-child > a
-    border-radius: $tabs-toggle-link-radius 2em 2em $tabs-toggle-link-radius
+.tabs.is-toggle.is-toggle-rounded li > a
+    border-radius: 2em !important
 
 .tabs.is-toggle.is-toggle-rounded.has-hr > ul,
 .tabs.is-toggle.is-toggle-rounded.has-hr > ul > hr
