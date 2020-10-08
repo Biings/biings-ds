@@ -387,7 +387,7 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
-    <div class="select is-medium is-warning">
+    <div class="select is-medium is-info">
         <select>
             <option value="">Medium</option>
             <option value="">Warning</option>

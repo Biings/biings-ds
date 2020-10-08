@@ -112,8 +112,8 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown.is-active:not(.is-iconless):after
     transform: rotate(180deg)
 
-.select:not(.field,.is-danger,.is-warning,.is-info,.is-success) select:hover:not(:focus)
-    border-color: transparent
+.select:not(.field) > select
+    border-color: transparent !important
 
 .dropdown.has-arrow > .dropdown-menu > div
     position: relative

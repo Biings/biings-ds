@@ -5,11 +5,20 @@ select,
 .select > select,
 .field > .checkbox,
 .field > .radio
-    transition: border-color .1s ease-out, color .1s linear, background-color .25s linear
+    transition: border-color .1s ease-out, color .1s linear, background-color .01s linear
 
 .input:not(:focus),
 .textarea:not(:focus)
-    transition: border-color .1s ease-out, color .1s linear, background-color .01s linear
+    transition: border-color .1s ease-out, color .1s linear, background-color .1s linear
+.input.is-success:not(:focus),
+.textarea.is-success:not(:focus),
+.input.is-info:not(:focus),
+.textarea.is-info:not(:focus),
+.input.is-warning:not(:focus),
+.textarea.is-warning:not(:focus),
+.input.is-danger:not(:focus),
+.textarea.is-danger:not(:focus)
+    border-color: transparent
 .input:focus:not([readonly]),
 .textarea:focus:not([readonly])
     background-color: $white
@@ -25,18 +34,79 @@ select,
 .input,
 .textarea
     caret-color: $primary
-.is-success,
+.is-success.input,
+.is-success.textarea,
 .is-success > .input,
 .is-success > .textarea
     caret-color: $success
-.is-info,
+.is-info.input,
+.is-info.textarea,
 .is-info > .input,
 .is-info > .textarea
     caret-color: $info
-.is-danger,
+.is-warning.input,
+.is-warning.textarea,
+.is-warning > .input,
+.is-warning > .textarea
+    caret-color: $warning
+.is-danger.input,
+.is-danger.textarea,
 .is-danger > .input,
 .is-danger > .textarea
     caret-color: $danger
+
+.is-danger.input::selection
+    background-color: rgba($danger,.075)
+
+// Input background color
+.is-success.input,
+.is-success.textarea,
+.is-success.select:not(.field) > select
+    background-color: rgba($success,.1)
+.is-info.input,
+.is-info.textarea,
+.is-info.select:not(.field) > select
+    background-color: rgba($info,.0875)
+.is-warning.input,
+.is-warning.textarea,
+.is-warning.select:not(.field) > select
+    background-color: rgba($warning,.15)
+.is-danger.input,
+.is-danger.textarea,
+.is-danger.select:not(.field) > select
+    background-color: rgba($danger,.075)
+// on hover and selection
+.input:hover:not(:focus),
+.textarea:hover:not(:focus),
+.select:not(.field):hover > select
+    background-color: rgba($black,0.05)
+.is-success.input:hover:not(:focus),
+.is-success.input::selection,
+.is-success.textarea:hover:not(:focus),
+.is-success.textarea::selection,
+.is-success.select:not(.field):hover > select
+    background-color: rgba($success,.125)
+.is-info.input:hover:not(:focus),
+.is-info.input::selection,
+.is-info.textarea:hover:not(:focus),
+.is-info.textarea::selection,
+.is-info.select:not(.field):hover > select
+    background-color: rgba($info,.125)
+.is-warning.input:hover:not(:focus),
+.is-warning.input::selection,
+.is-warning.textarea:hover:not(:focus)
+.is-warning.textarea::selection,
+.is-warning.select:not(.field):hover > select
+    background-color: rgba($warning,.175)
+.is-danger.input:hover:not(:focus),
+.is-danger.input::selection,
+.is-danger.textarea:hover:not(:focus),
+.is-danger.textarea::selection,
+.is-danger.select:not(.field):hover > select
+    background-color: rgba($danger,.1)
+// selection
+
+
 
 .field
     position: relative

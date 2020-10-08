@@ -23,15 +23,21 @@
     <hr class="is-size-7">
     <input class="input is-medium" type="email" placeholder="Medium and readonly input" readonly>
     <hr class="is-size-7">
-    <input class="input is-danger" placeholder="With class is-danger">
+    <div class="control has-icons-right is-danger">
+        <input class="input is-danger" placeholder="With class is-danger" value="bad input">
+        <svg class="icon is-right has-fill-danger"><use xlink:href="media/bds-icons.min.svg#warning-bold-g"></use></svg>
+    </div>
     <p class="help">A clear error message</p>
     <hr class="is-size-7">
     <label for="defaultfield" class="label">With a label</label>
     <div class="control has-icons-right">
-        <input id="defaultfield" class="input" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
+        <input id="defaultfield" class="input is-success" type="email" value="A label helps when the input is filled" placeholder="Placeholder is used to give exemples.">
         <svg class="icon is-right has-fill-success-light"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>
     </div>
     <p class="help has-text-success-dark">Saved.</p>
+    <hr class="is-size-7">
+    <label for="tafield" class="label">Text area</label>
+    <textarea id="tafield" class="textarea is-info" rows="2" placeholder="With class is-info"></textarea>
 </form>
 <hr class="is-marginless is-visible">
 
