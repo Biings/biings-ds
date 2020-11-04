@@ -1,6 +1,6 @@
 {
     "name": "biings-ds",
-    "version": "1.45.3",
+    "version": "1.45.4",
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
@@ -13,7 +13,7 @@
         "build": "npm run styles && npm run icons && npm run copycomb",
         "dev": "docsify serve docs --port 3001",
         "cleanup": "rm -f src/styles/bds_temporary.css",
-        "hglogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
+        "ghlogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
     },
     "files": [
         "build/*"
