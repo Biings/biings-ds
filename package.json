@@ -12,17 +12,18 @@
         "styles": "npm run sass && npm run postcss && npm run copytodoc && npm run cleanup",
         "build": "npm run styles && npm run icons && npm run copycomb",
         "dev": "docsify serve docs --port 3001",
-        "cleanup": "rm -f src/styles/bds_temporary.css"
+        "cleanup": "rm -f src/styles/bds_temporary.css",
+        "hglogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
     },
     "files": [
         "build/*"
     ],
     "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
+        "registry": "https://npm.pkg.github.com"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Biings/biings-ds.git"
+        "url": "git://github.com/Biings/biings-ds.git"
     },
     "keywords": [
         "biings",
@@ -40,7 +41,7 @@
     "license": "CC-BY-SA-4.0",
     "bugs": {
         "url": "https://biings.com/contact",
-        "email": "info@biings.com"
+        "email": "email@biings.com"
     },
     "homepage": "https://biings.design",
     "browserslist": [
