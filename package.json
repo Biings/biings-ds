@@ -1,5 +1,5 @@
 {
-    "name": "@biings/biings-ds",
+    "name": "biings-ds",
     "version": "1.45.5",
     "description": "Biings Design System",
     "main": "build/bds.css",
@@ -18,12 +18,9 @@
     "files": [
         "build/*"
     ],
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Biings/biings-ds.git"
+        "url": "git+https://github.com/Biings/biings-ds.git"
     },
     "keywords": [
         "biings",
