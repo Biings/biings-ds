@@ -1,11 +1,11 @@
 /* Containers */
-.container.is-desktop
+.container.is-desktop:not(.is-max-desktop):not(.is-max-widescreen)
     max-width: $desktop - (2 * $gap)
 
-.container.is-tablet
+.container.is-tablet:not(.is-max-desktop):not(.is-max-widescreen)
     max-width: $tablet
 
-.container.is-modal
+.container.is-modal:not(.is-max-desktop):not(.is-max-widescreen)
     max-width: $modal-content-width
 
 /* Rules / Lines */
