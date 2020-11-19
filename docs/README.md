@@ -4,7 +4,7 @@
     BDS
 </span>
 <hr class="is-marginless">
-<h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-normal is-family-secondary is-size-1">Design System</span></h1>
+<h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-light is-family-secondary is-size-1">Design System</span></h1>
 <h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop">Biings<br><span class="has-text-weight-normal is-family-secondary is-size-2">Design System</span></h1>
 <hr class="is-size-2 is-visible has-background-info-gradient">
 <p class="subtitle is-4 is-family-secondary has-text-dark">

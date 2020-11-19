@@ -124,24 +124,22 @@
 
 /* ———————————————————————————————————————————————————————————————————————————————————— */
 
+/* Crimson-Pro Light */
+@font-face
+{
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Crimson Pro";
+    src: url('fonts/Crimson-Pro-300.ttf') format('truetype');
+}
+
 /* Crimson-Pro Regular */
 @font-face
 {
     font-weight: 400;
     font-style: normal;
     font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-400.woff') format('woff'),
-    url('fonts/Crimson-Pro-400.eot') format('eot');
-}
-
-/* Crimson-Pro Regular Italic */
-@font-face
-{
-    font-weight: 400;
-    font-style: italic;
-    font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-400i.woff') format('woff'),
-    url('fonts/Crimson-Pro-400i.eot') format('eot');
+    src: url('fonts/Crimson-Pro-400.ttf') format('truetype');
 }
 
 /* Crimson-Pro Medium */
@@ -150,56 +148,32 @@
     font-weight: 500;
     font-style: normal;
     font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-500.woff') format('woff'),
-    url('fonts/Crimson-Pro-500.eot') format('eot');
+    src: url('fonts/Crimson-Pro-500.ttf') format('truetype');
 }
 
-/* Crimson-Pro Medium Italic */
-@font-face
-{
-    font-weight: 500;
-    font-style: italic;
-    font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-500i.woff') format('woff'),
-    url('fonts/Crimson-Pro-500i.eot') format('eot');
-}
-
-/* Crimson-Pro Black */
+/* Crimson-Pro Semibold */
 @font-face
 {
     font-weight: 600;
     font-style: normal;
     font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-700.woff') format('woff'),
-    url('fonts/Crimson-Pro-700.eot') format('eot');
+    src: url('fonts/Crimson-Pro-600.ttf') format('truetype');
 }
 
-/* Crimson-Pro Black Italic */
+/* Crimson-Pro Bold */
 @font-face
 {
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 800;
+    font-style: normal;
     font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-700i.woff') format('woff'),
-    url('fonts/Crimson-Pro-700i.eot') format('eot');
+    src: url('fonts/Crimson-Pro-700.ttf') format('truetype');
 }
 
-/* Crimson-Pro UltraBold */
+/* Crimson-Pro Bolder */
 @font-face
 {
     font-weight: 900;
     font-style: normal;
     font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-900.woff') format('woff'),
-    url('fonts/Crimson-Pro-900.eot') format('eot');
-}
-
-/* Crimson-Pro UltraBold Italic */
-@font-face
-{
-    font-weight: 900;
-    font-style: italic;
-    font-family: "Crimson Pro";
-    src: url('fonts/Crimson-Pro-900i.woff') format('woff'),
-    url('fonts/Crimson-Pro-900i.eot') format('eot');
+    src: url('fonts/Crimson-Pro-900.ttf') format('truetype');
 }
