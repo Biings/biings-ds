@@ -79,7 +79,7 @@ select,
 .input:hover:not(:focus),
 .textarea:hover:not(:focus),
 .select:not(.field):hover > select
-    background-color: rgba($black,0.05)
+    background-color: rgba($black,.05)
 .is-success.input:hover:not(:focus),
 .is-success.input::selection,
 .is-success.textarea:hover:not(:focus),
@@ -122,23 +122,24 @@ form .field
 
 .label
     letter-spacing: $menu-label-letter-spacing
-    font-size: $menu-label-font-size
+    font-size: $size-6
 
 .field > .label
     position: absolute
     top: .375em
-    left: calc(.25em + 1px)
+    left: .25em
     z-index: 3
     padding-top: $control-padding-vertical
     padding-right: $control-padding-horizontal
     padding-bottom: $control-padding-vertical
     padding-left: $control-padding-horizontal
+    color: $grey-dark
     transition: color .1s linear
     pointer-events: none
 
 .field:hover > .label,
 .field.is-warning > .label
-    color: mix($black,$grey,5)
+    color: $label-color
 
 .field:not(.select) > .label
     cursor: text
@@ -202,7 +203,7 @@ form .field
     padding: 1.5em 1.125em
     width: 100%
     color: $label-color
-    @extend %input
+    @extend %input;
 
 .field > .checkbox > input:checked ~ span,
 .field > .radio > input:checked ~ span

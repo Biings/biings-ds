@@ -6,8 +6,8 @@
 <hr class="is-marginless">
 <h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-light is-family-secondary is-size-1">Design System</span></h1>
 <h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop">Biings<br><span class="has-text-weight-normal is-family-secondary is-size-2">Design System</span></h1>
-<hr class="is-size-2 is-visible has-background-info-gradient">
-<p class="subtitle is-4 is-family-secondary has-text-dark">
+<hr class="my-5 is-visible has-background-info-gradient">
+<p class="is-size-4">
     BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
 </p>
 <hr>
@@ -31,7 +31,7 @@
         <a href="#/content" class="box is-medium has-background-primary-dark is-raised hover-to-popping">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="is-size-7">
-            <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Foundation</h4>
+            <h4 class="title has-text-white is-family-primary has-text-weight-bold">Foundation</h4>
             <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">Content, Layout, Color, etc</p>
         </a>
     </div>
@@ -39,7 +39,7 @@
         <a href="#/avatar" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
             <img src="media/components.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
-            <h4 class="title has-text-white is-family-primary has-text-weight-semibold">Components</h4>
+            <h4 class="title has-text-white is-family-primary has-text-weight-bold">Components</h4>
             <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">All you need to build your UIs</p>
         </a>
     </div>
@@ -64,14 +64,14 @@
 
 <hr class="is-size-2">
 
-<div class="box has-background-info-gradient is-large is-floating">
+<div class="box is-bordered is-large">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
-            <h3 class="title is-family-secondary is-spaced">Want to <u>contribute?</u></h3>
-            <p class="subtitle is-5 has-text-dark">Onboarding for designers and developers wanting to contribute.</p>
+            <h3 class="title is-family-primary has-text-weight-bolder is-spaced">Want to <u>contribute?</u></h3>
+            <p class="subtitle">Onboarding for designers and developers wanting to contribute.</p>
         </div>
-        <div class="column is-5 is-offset-1 has-text-centered is-size-6 has-text-info-dark">
-            <a href="#/contribute" class="button is-rounded is-info is-glowing is-beefy">Start contributing</a>
+        <div class="column is-5 is-offset-1 has-text-centered is-size-5 has-text-primary-dark">
+            <a href="#/contribute" class="button is-rounded is-primary is-glowing is-beefy is-medium">Start contributing</a>
             <hr class="is-marginless is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>

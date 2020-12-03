@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Iconography</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Iconography</span> uses symbols to represent an object or an action. They should be used sparingly to provide clarity and reduce cognitive load.
 </p>
-<hr class="is-visible is-size-4"><br>
+<hr class="is-visible is-size-3"><br>
 
 <h4 class="title is-family-primary"><strong>How to use</strong></h4>
 

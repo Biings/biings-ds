@@ -1,7 +1,6 @@
 .tag:not(body)
     min-width: 1.875em
     height: 1.875em
-    font-weight: $weight-medium
     line-height: 1.25
 
 .tag:not(body)
@@ -13,13 +12,23 @@ span.tag + .tag
 
 .tag.is-small,
 .tag.is-tiny
-    font-size: $size-7
     border-radius: $radius-small
+    font-size: $size-7
 
 .tag.is-tiny
     padding-right: .5em
     padding-left: .5em
     height: 1.625em
+
+.tag.is-primary,
+.tag.is-success,
+.tag.is-info,
+.tag.is-danger,
+.tag.is-warning,
+.tag.is-dark,
+.tag.is-care,
+.tag.is-claim
+    font-weight: $weight-medium
 
 .tag.is-glowing.is-primary
     box-shadow: 0 .25em 1em -.25em rgba($primary,.75)
@@ -31,11 +40,38 @@ span.tag + .tag
     box-shadow: 0 .25em 1em -.25em rgba($danger,.75)
 .tag.is-glowing.is-warning
     box-shadow: 0 .25em 1em -.25em rgba($warning,.7)
-.tag.is-care
+.tag.is-glowing.is-care
     background-color: mix($care-dark,$care,5)
     box-shadow: 0 .25em 1em -.25em rgba($care,.8)
     color: white
-.tag.is-claim
+.tag.is-glowing.is-claim
     background-color: mix($orange,$claim,15)
     box-shadow: 0 .25em 1em -.25em rgba($claim,.8)
     color: white
+
+// Wired design
+.tag.is-wired
+    border: 1px solid $grey
+    background: none
+    background-color: transparent !important
+    font-weight: $weight-normal
+
+.tag.is-wired.is-dark
+    border-color: $grey-dark
+    color: $dark
+.tag.is-wired.is-primary
+    border-color: $primary-light
+    color: $primary
+.tag.is-wired.is-success
+    border-color: mix($white-bis,$success,25)
+    color: mix($success-dark,$success,50)
+.tag.is-wired.is-info
+    border-color: $blue-light
+    color: $info
+.tag.is-wired.is-danger
+    border-color: $red-light
+    color: $danger
+.tag.is-wired.is-warning
+    border-color: $yellow-light
+    color: $warning
+

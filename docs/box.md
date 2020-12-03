@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Box</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Box</span> is a visual motif used to create groupings of content related to a same entity or subject as well as focus through depth.
 </p>
-<hr class="is-visible is-size-4"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-radiusless-b is-marginless is-large">
     <div class="box is-floating is-large">Boxed content about an entity or subject.</div>

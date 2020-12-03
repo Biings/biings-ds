@@ -1,11 +1,11 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
-<h1 class="title is-family-secondary is-size-2-mobile">Form</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<h1 class="title"><span class="is-size-2-mobile">Form</span></h1>
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Forms</span> are used for submitting data. Forms tend to become hard to navigate, use visually consistant fields to help users understand where to input text or select options.
-</p>
-<p class="subtitle is-family-secondary has-text-dark">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
-<hr class="is-visible is-size-4"><br>
+</p><br>
+<p class="is-size-4 has-text-dark">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
+<hr class="is-visible is-size-3"><br>
 
 <h4 class="title is-family-primary"><strong>Input field</strong></h4>
 

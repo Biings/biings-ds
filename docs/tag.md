@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Tag</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Tags</span> are used for items that need to be labeled, categorized, or organized using keywords that describe them.
 </p>
-<hr class="is-visible is-size-4"><br>
+<hr class="is-visible is-size-3"><br>
 
 <div class="box is-well is-medium is-marginless is-radiusless-b">
     <span class="tag">Two</span>
@@ -26,16 +26,24 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <br>
 
-<div class="box is-raised is-large">
+<div class="box is-well is-large">
     <span class="tag is-tiny">Tiny</span>
     <span class="tag is-small">Small</span>
     <span class="tag">Normal</span>
     <span class="tag is-medium">Medium</span>
     <span class="tag is-large">Large</span>
-    <hr class="is-smaller">
+    <hr>
     <span class="tag is-rounded">&nbsp;Rounded&nbsp;</span>
     <span class="tag is-rounded is-danger has-text-weight-semibold">2</span>
-    <hr class="is-smaller">
+    <hr>
+    <span class="tag is-wired">wired</span>
+    <span class="tag is-wired is-dark">wired dark</span>
+    <span class="tag is-wired is-primary">wired primary</span>
+    <span class="tag is-wired is-success">wired success</span>
+    <span class="tag is-wired is-danger">wired danger</span>
+    <span class="tag is-wired is-info">wired info</span>
+    <span class="tag is-wired is-warning">wired warning</span>
+    <hr>
     <span class="tag is-primary">primary</span>
     <span class="tag is-success">success</span>
     <span class="tag is-dark">dark</span>

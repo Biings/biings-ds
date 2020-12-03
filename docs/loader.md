@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Loader</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Loaders</span> are used when performing slow computations, notifying users that loading is underway.
 </p>
-<hr class="is-visible is-size-4">
+<hr class="is-visible is-size-3">
 
 <div class="message is-info">
     <strong>Loading an entire page?</strong><br>A <a href="#/skeleton" class="is-underlined">Skeleton</a> screen might be a better option.

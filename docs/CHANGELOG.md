@@ -1,7 +1,7 @@
 <h6 class="has-text-grey-light has-text-weight-semibold is-size-5 is-size-6-mobile">Biings-DS</h6>
 <hr class="is-marginless">
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
-<hr class="is-visible is-size-4"><br>
+<hr class="is-visible is-size-3"><br>
 
 <span class="subtitle is-6 has-text-info">September 14, 2020</span>
 <hr class="is-marginless is-wavy">

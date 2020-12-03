@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
-<h1 class="title is-family-secondary is-size-2-mobile">Modifiers</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<h1 class="title"><span class="is-size-2-mobile">Modifiers</span></h1>
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     Use <strong>Modifier</strong> classes on almost any element in order to alter its style.
 </p>
-<hr class="is-visible is-size-4"><br>
+<hr class="is-visible is-size-3"><br>
 
 <table class="table is-bordered">
     <tbody>

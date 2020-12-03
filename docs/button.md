@@ -1,10 +1,10 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
 <h1 class="title is-family-secondary is-size-2-mobile">Button & Link</h1>
-<hr class="is-visible is-size-4">
-<p class="subtitle is-family-secondary has-text-dark">
+<hr class="is-visible is-size-3">
+<p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Buttons</span> and <span class="has-text-weight-semibold">Links</span> allow users to take actions, make choices or navigate within a product or website.
 </p>
-<hr class="is-visible is-size-4"><br>
+<hr class="is-visible is-size-3"><br>
 
 <h4 class="title is-family-primary"><strong>Button defaults</strong></h4>
 
@@ -120,10 +120,6 @@ Use a Link instead of a button when navigating or when the action is not primary
         <tr>
             <td class="has-text-centered"><br><div class="button is-light is-large">Lrg</div><br><br></td>
             <td><hr><code>is-large</code></td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-primary is-shadowed">Shadowed</div><br><br></td>
-            <td><hr><code>is-shadowed</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-glowing">Glowing</div><br><br></td>
