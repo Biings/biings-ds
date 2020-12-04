@@ -25,7 +25,7 @@ Container is used to center your content horizontally. Alter the max width with 
   </tr>
   <tr>
     <td class="is-narrow"><code>container</code> <code>is-modal</code></td>
-    <td>Max <strong>560px</strong> (the modal max width)</td>
+    <td>Max <strong>528px</strong> (the modal max width)</td>
   </tr>
 </table>
 
