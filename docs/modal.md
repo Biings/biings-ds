@@ -55,11 +55,11 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-background" onclick="closeModal(1)"></div>
     <div class="modal-card">
         <header class="modal-card-head has-border">
-            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
             <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             <div class="modal-card-title">
                 Modal Card Example
             </div>
+            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
         </header>
         <section class="modal-card-body has-background-white">
             <h4 class="title is-family-primary"><strong>Can handle of lot of content..</strong></h4>
@@ -141,11 +141,11 @@ Use modal cards when displaying a form or when lots of interaction is involved.
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
-                <button class="delete is-inverted is-large" aria-label="close"></button>
                 <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
                 <div class="modal-card-title">
                     Modal Card Example
                 </div>
+                <button class="delete is-inverted is-large" aria-label="close"/>
             </header>
             <section class="modal-card-body">
                 <hr>
@@ -164,7 +164,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
         <div class="modal-background"></div>
         <div class="modal-card">
             <section class="modal-card-body has-text-centered">
-                <button class="delete is-inverted is-large" aria-label="close"></button>
+                <button class="delete is-inverted is-large" aria-label="close"/>
                 <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
                 <h3 class="title">...</h3>
                 <p class="subtitle">...</p>

@@ -10,9 +10,6 @@ select,
 .input:not(:focus),
 .textarea:not(:focus)
     transition: border-color .1s ease-out, color .1s linear, background-color .1s linear
-.input:focus:not([readonly]),
-.textarea:focus:not([readonly])
-    background-color: $white
 
 .input[readonly],
 .textarea[readonly]
@@ -91,7 +88,6 @@ select,
 
 form .field
     border-radius: $control-radius
-    background-color: white
 
 .label
     letter-spacing: $menu-label-letter-spacing

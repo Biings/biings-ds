@@ -29,17 +29,23 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 <hr>
 
 <div class="box is-well is-larger">
-    <h1 class="title is-1 is-family-secondary">Header 1</h1><div class="subtitle has-text-grey">Hero title size</div>
+    <h1 class="title is-1 is-family-secondary">Header 1<br>header 1</h1>
+    <div class="subtitle">Hero title size</div>
     <hr>
-    <h2 class="title is-2 is-family-secondary">Header 2</h2><div class="subtitle is-5 has-text-grey">Larger title size</div>
+    <h2 class="title is-2 is-family-secondary">Header 2</h2>
+    <div class="subtitle is-5">Larger title size<br>lorem ipsum</div>
     <hr>
-    <h3 class="title is-3 is-family-secondary">Header 3</h3><div class="subtitle is-6 has-text-grey">Default title size</div>
+    <h3 class="title is-3 is-family-secondary">Header 3</h3>
+    <div class="subtitle is-6">Default title size</div>
     <hr>
-    <h4 class="title is-4 is-family-secondary">Header 4</h4><div class="subtitle is-6 has-text-grey">Default subtitle size</div>
+    <h4 class="title is-4 is-family-secondary">Header 4</h4>
+    <div class="subtitle is-6">Default subtitle size</div>
     <hr>
-    <h5 class="title is-5">Header 5</h5><div class="subtitle is-size-7 has-text-grey">Default body text size</div>
+    <h5 class="title is-5">Header 5</h5>
+    <div class="subtitle is-size-7">Default body text size</div>
     <hr>
-    <h6 class="title is-6">Header 6</h6><div class="subtitle is-size-7 has-text-grey">Smaller body text size</div>
+    <h6 class="title is-6">Header 6</h6>
+    <div class="subtitle is-size-7">Smaller body text size</div>
 </div>
 
 <hr class="is-size-1 is-visible">

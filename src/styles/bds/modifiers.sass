@@ -154,15 +154,15 @@
         background-color: $dark
 
 .modal-close
-    background-color: $scheme-main-ter
+    background-color: bulmaRgba($scheme-main-ter, .65)
     &::before,
     &::after
-        background-color: $dark
+        background-color: $primary
     &:hover,
     &:focus
-        background-color: bulmaRgba($scheme-main-ter, .65)
-    &:active
         background-color: $scheme-main-ter
+    &:active
+        background-color: bulmaRgba($scheme-main-ter, .65)
 
 .modal-close
     max-width: $modal-close-dimensions
