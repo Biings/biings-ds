@@ -180,7 +180,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
         </div>
         <div class="level-item">
             <div class="button is-borderless is-square">
-                <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-bold-g"></use></svg>
+                <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg>
             </div>
         </div>
         <div class="level-item">
@@ -191,7 +191,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
         </div>
         <div class="level-item">
             <div class="button is-success is-square is-shadowed is-rounded">
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#send-g"></use></svg>
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#lightning-g"></use></svg>
             </div>
         </div>
         <div class="level-item">

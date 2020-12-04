@@ -71,7 +71,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     <form class="columns">
         <div class="column is-4">
             <div class="field">
-                <label for="textfieldOp" class="label">Something <span>– optional</span></label>
+                <label for="textfieldOp" class="label">Something <span>· optional</span></label>
                 <input id="textfieldOp" class="input" placeholder="Nice to have stuff"></textarea>
             </div>
         </div>

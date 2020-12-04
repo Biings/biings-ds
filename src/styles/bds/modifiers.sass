@@ -140,27 +140,29 @@
 .is-info ~ .help
     color: $info
 
-.delete.is-inverted
-    background-color: bulmaRgba($scheme-invert, 0)
+.delete
+    background-color: transparent !important
     &::before,
-    &::after
-        background-color: $grey-dark
-    &:hover,
-    &:focus
-        background-color: bulmaRgba($scheme-invert, .075)
-    &:active
-        background-color: bulmaRgba($scheme-invert, .125)
+    &::after,
+    &:active::before,
+    &:active::after
+        background-color: bulmaRgba($dark, .75)
+    &:hover::before,
+    &:hover::after,
+    &:focus::before,
+    &:focus::after
+        background-color: $dark
 
 .modal-close
-    background-color: bulmaRgba($scheme-main, .5)
+    background-color: $scheme-main-ter
     &::before,
     &::after
-        background-color: $text
+        background-color: $dark
     &:hover,
     &:focus
-        background-color: bulmaRgba($grey-lighter, .75)
+        background-color: bulmaRgba($scheme-main-ter, .65)
     &:active
-        background-color: bulmaRgba($grey-lighter, 1)
+        background-color: $scheme-main-ter
 
 .modal-close
     max-width: $modal-close-dimensions
@@ -225,7 +227,13 @@ pre
     background: linear-gradient(-45deg, $claim -10%, $purple 100%)
 
 .has-background-info-gradient
-    background: linear-gradient(-45deg, $cyan-lighter -75%, mix($primary,$primary-lighter,10) 90%)
+    background: linear-gradient(-45deg, $cyan-lighter -120%, mix($primary,$primary-lighter,11) 85%)
+
+.has-background-warning-gradient
+    background: linear-gradient(-45deg, $warning-lighter -30%, mix($claim-lighter,$warning,70) 150%)
+
+.has-background-primary-warning-gradient
+    background: linear-gradient(-45deg, $warning-lighter -45%, mix($purple,$primary-lighter,13) 80%)
 
 
 // BLURED BACKGROUND

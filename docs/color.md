@@ -185,6 +185,18 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
         <code>has-background-primary-claim-gradient</code>
     </div>
     <div class="column is-12">
+        <br><div class="box is-large has-background-warning-gradient">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-warning-gradient</code>
+    </div>
+    <div class="column is-12">
+        <br><div class="box is-large has-background-primary-warning-gradient">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-primary-warning-gradient</code>
+    </div>
+    <div class="column is-12">
         <br><div class="box is-large has-background-info-gradient">&nbsp;</div>
     </div>
     <div class="column is-12">
