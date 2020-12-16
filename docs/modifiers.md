@@ -22,7 +22,7 @@
             <td>Changes the fill color of an <strong>SVG</strong></td>
         </tr>
         <tr>
-            <td><code>has-color-onhover</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
+            <td><code>has-color-onhover</code></td>
             <td>Applies text color modifiers <strong class="has-text-primary has-color-onhover">only on hover</strong></td>
         </tr>
         <tr>
@@ -96,7 +96,15 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="6">Radius</th>
+            <th rowspan="8">Radius</th>
+            <td><code>is-radius-bold</code></td>
+            <td>Applies a strong <strong>radius</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-radius-subtle</code></td>
+            <td>Applies a subtle <strong>radius</strong></td>
+        </tr>
+        <tr>
             <td><code>is-radiusless</code></td>
             <td>Removes any <strong>radius</strong></td>
         </tr>
@@ -171,7 +179,7 @@
             <td>Applies <code>position: relative</code> to the element</td>
         </tr>
         <tr>
-            <td><code>is-sticky</code> <span class="tag is-tiny is-danger is-glowing">New</span></td>
+            <td><code>is-sticky</code></td>
             <td>Applies a <strong>fixed position when scrolled</strong> outside of the viewport</td>
         </tr>
         <tr>
