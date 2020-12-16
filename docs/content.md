@@ -1,11 +1,11 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Foundation</h6>
-<h1 class="title"><span class="is-size-2-mobile">Content</span></h1>
+<h1 class="title is-size-2-mobile">Content</h1>
 <hr class="is-visible is-size-3">
-<p class="is-size-4 has-text-dark">
+<p class="is-size-4 has-text-dark is-size-5-mobile">
     <span class="has-text-weight-semibold">Content</span> design is the root of a good user experience. Take example from the Do's & Don'ts below when writing your content.
 </p>
 <br>
-<p class="is-size-4 has-text-dark is-italic">"Writing is easy. All you have to do is cross out the <strike>wrong</strike> words."</p>
+<p class="is-size-4 has-text-dark is-italic is-size-5-mobile">"Writing is easy. All you have to do is cross out the <strike>wrong</strike> words."</p>
 <hr class="is-visible is-size-3"><br>
 
 <h4 class="title is-family-primary"><strong>Be clear and concise</strong></h4>

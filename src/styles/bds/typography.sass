@@ -7,7 +7,6 @@ body
 
 /* Hand-drawn Font family */
 .is-family-hand
-    font-size: 1.25em
     font-family: 'Caveat', cursive
 
 .has-text-weight-bolder
@@ -27,52 +26,32 @@ h5.title
 h6.title
     font-size: $size-6
 
-// Force/Adjust Crimson Font size
-h1.title:not(.is-family-primary),
-.is-1.title:not(.is-family-primary),
-.is-1.subtitle.is-family-secondary,
-.is-size-1.is-family-secondary
-    font-size: calc(#{$size-1}+10px) !important
-h2.title:not(.is-family-primary),
-.is-2.title:not(.is-family-primary),
-.is-2.subtitle.is-family-secondary,
-.is-size-2.is-family-secondary
-    font-size: calc(#{$size-2}+8px) !important
-h3.title:not(.is-family-primary),
-.is-3.title:not(.is-family-primary),
-.is-3.subtitle.is-family-secondary,
-.is-size-3.is-family-secondary
-    font-size: calc(#{$size-3}+5px) !important
-h4.title:not(.is-family-primary),
-.is-4.title:not(.is-family-primary),
-.is-4.subtitle.is-family-secondary,
-.subtitle.is-family-secondary,
-.is-size-4.is-family-secondary
-    font-size: calc(#{$size-4}+3px) !important
-h5.title:not(.is-family-primary),
-.is-5.title:not(.is-family-primary),
-.is-5.subtitle.is-family-secondary,
-.is-size-5.is-family-secondary
-    font-size: calc(#{$size-5}+2px) !important
-h6.title:not(.is-family-primary),
-.is-6.title:not(.is-family-primary),
-.is-6.subtitle.is-family-secondary,
-.is-size-6.is-family-secondary
-    font-size: calc(#{$size-6}+2px) !important
-.is-size-7.is-family-secondary
-    font-size: calc(#{$size-7}+2px) !important
+// Adjust Crimson Font size
 
-.title,
-.subtitle
-    letter-spacing: -.0225em
+// .is-family-secondary,
+// .title:not(.is-family-primary)
+//     transform: scale(1.1)
+//     transform-origin: 0 85%
 
-.title.is-1.is-family-secondary,
-.is-size-1.is-family-secondary,
-.title.is-2.is-family-secondary,
-.is-size-2.is-family-secondary,
-.title.is-3.is-family-secondary,
-.is-size-3.is-family-secondary
-    letter-spacing: -.03125em
+// .is-family-hand,
+// .title.is-family-hand
+//     transform: scale(1.25)
+//     transform-origin: 0 85%
+
+// .is-family-secondary.has-text-centered,
+// .title.has-text-centered:not(.is-family-primary),
+// .is-family-hand
+//     transform-origin: 50% 85%
+
+.is-family-secondary
+    letter-spacing: -.025em
+    line-height: 1.25
+.title:not(.is-family-primary)
+    letter-spacing: -.05em
+
+// span.is-family-secondary
+//     display: inline-block
+
 
 u
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDMgNSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjYWE1MGI1IiBzdHJva2Utb3BhY2l0eT0iMzAlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTIsMy4xMDgwNTIzNiBDMTYuNzI3MDE0NCwyLjU1NDY4MzI4IDMxLjQ0NjY0NTUsMi43MTY5ODg5MSA0Ni4xOTA0ODg0LDIuNDg5MTUyOSBDNzcuODE4Mjc2OSwyLjAwMDQwOTk0IDEwMS4yNjczNCwyLjAwMDQwOTk0IDE0MC41NzkzNDUsMi40ODkxNTI5Ii8+PC9zdmc+)
@@ -91,3 +70,4 @@ em
 
 em.is-primary
     background-image: linear-gradient(90deg, rgba(140, 80, 185, .25), rgba(91, 37, 133, .7) 30%,rgba(140, 80, 185, .5) 95%, rgba(140, 80, 185, .2))
+

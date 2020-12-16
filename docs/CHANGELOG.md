@@ -3,10 +3,8 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-3"><br>
 
-<span class="subtitle is-6 has-text-info">September 14, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.44</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">September 14, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.44</h3>
 <ul class="list">
     <li><strong>30 new icons</strong> and refinements:<br><i>action-g, action-new-g, arrow-up-g, arrow-down-g, calendar-g, action-new-g, chair-new-g, business-hq-g, cloud-g, list-g, person-assign-g, exchange-g, money-reception, warning-bold-g, spark-g, spark-big-g, keyboard-g, adminland, adminland-g, columns-g, cross-bold-g, minus, sort-g, document-new-g, duplicate-g, plus-g, link-g, person-new-g, dots-vert-g, at-g</i></li>
     <li>New small-sized checkbox</li>
@@ -17,10 +15,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">July 15, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.43</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">July 15, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.43</h3>
 <ul class="list">
     <li><strong>New icons</strong>: <i>cloud-off-g, cloud-off-bold-g, filter-g</i> and other icon refinements</li>
     <li>Updated to <strong>Bulma 0.9.0</strong></li>
@@ -33,10 +29,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">July 6, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.42</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">July 6, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.42</h3>
 <ul class="list">
     <li><strong>New icons</strong>: <i>screen-bell, screen-g, person-g, phone-bell</i> + various icon refinements</li>
     <li><strong>New modifiers</strong>: <code>is-ephemeral</code>, <code>is-dimmed</code>, <code>is-mask</code>, <code>is-twisted</code></li>
@@ -54,10 +48,8 @@
 <hr class="is-size-2 is-visible">
 
 
-<span class="subtitle is-6 has-text-info">May 25, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.41</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">May 25, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.41</h3>
 <ul class="list">
     <li>New <strong>Crimson Pro</strong> serif font (replacing Merriweather) 🎊</li>
     <li><strong>Harmonized default text sizes</strong>, weight, line height and letter spacing</li>
@@ -75,10 +67,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">April 24, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.40</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">April 24, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.40</h3>
 <ul class="list">
     <li><strong>Updated colors</strong> for Care and Claim product!</li>
     <li><strong>New Icons</strong>: <i>send-g, salary-g, 3-dots, check-bold-g, business-big-g, policy-g, overload-g, language, language-g</i></li>
@@ -95,10 +85,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">March 31, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.39</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">March 31, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.39</h3>
 <ul class="list">
     <li><strong>New Icons/Glyphs</strong>: location, eye-hide-g, eye-g, bell-bold-g, reload-g, card-g, group-g, job_assignment-g, knowledge, manager-g, badge, shield-star-g, gift-g</li>
     <li>Added <code>is-glowing</code> tag style</li>
@@ -110,10 +98,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">March 31, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.38</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">March 31, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.38</h3>
 <ul class="list">
     <li>New <strong>Dropdow Field</strong> support</li>
     <li><strong>New Icons</strong>: <i>person-g, key, plus, accident-pro, accident-pro-g</i></li>
@@ -127,10 +113,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">February 19, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.37</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">February 19, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.37</h3>
 <ul class="list">
     <li><strong>New Icons</strong>: <i>workflow, percent, calendar-warn, timelines, timeline-actor, overload, lines, bars, 12-back</i></li>
     <li><strong>New Glyphs</strong>: <i>earth-g, help-bold-g</i></li>
@@ -144,10 +128,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">January 9, 2020</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.36</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">January 9, 2020</span>
+<h3 class="title has-text-weight-medium">Version 1.36</h3>
 <ul class="list">
     <li>New <strong>colorful Tooltips</strong> (primary, dark, info)</li>
     <li>Layout: New container naming</li>
@@ -161,10 +143,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">December 19, 2019</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.35</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">December 19, 2019</span>
+<h3 class="title has-text-weight-medium">Version 1.35</h3>
 <ul class="list">
     <li>New <strong>Dropdown Tooltips</strong> instructions</li>
     <li><strong>New icons</strong>: <i>chart, info-bold-g</i></li>
@@ -176,10 +156,8 @@
 
 <hr class="is-size-2 is-visible">
 
-<span class="subtitle is-6 has-text-info">July 24, 2018</span>
-<hr class="is-marginless is-wavy">
-<h4 class="title is-family-primary">Version 1.0</h4>
-
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">July 24, 2018</span>
+<h3 class="title has-text-weight-medium">Version 1.0</h3>
 Introducing <strong>Biings Design Sytem</strong> (aka BDS), an open-source design framework based on <u>Bulma CSS</u>.
 
 <hr class="is-size-4">

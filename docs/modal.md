@@ -1,5 +1,5 @@
 <h6 class="is-uppercase has-text-grey has-text-weight-medium is-size-6 is-size-7-mobile">Component</h6>
-<h1 class="title is-family-secondary is-size-2-mobile">Modal</h1>
+<h1 class="title is-size-2-mobile">Modal</h1>
 <hr class="is-visible is-size-3">
 <p class="is-size-4 has-text-dark">
     <span class="has-text-weight-semibold">Modals</span> communicate information via a overlayed window and allow the user to maintain the context of a particular task. Modals strongly interrupts user workflow and should be used sparingly.</span>
@@ -17,7 +17,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white has-background-blur" onclick="closeModal('')"></div>
     <div class="modal-content has-text-centered">
-        <div class="title is-spaced is-1 is-size-1-mobile is-family-secondary"><strong>Nice!</strong></div>
+        <div class="title is-spaced is-1 is-size-1-mobile has-text-centered">Nice!</div>
         <div class="subtitle is-5 is-size-6-mobile">This opens just by adding the <code>is-active</code> to the modal div.</div>
         <hr>
         <span class="tag has-text-grey">Use the button on the top right corner to close.</span>
@@ -59,7 +59,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title">
                 Modal Card Example
             </div>
-            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"></button>
+            <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"/>
         </header>
         <section class="modal-card-body has-background-white">
             <h4 class="title is-family-primary"><strong>Can handle of lot of content..</strong></h4>
@@ -113,7 +113,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title mb-4">
                 <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
                 <hr class="is-marginless is-wavy">
-                <h3 class="title is-family-secondary">Modal Card Example</h3>
+                <h3 class="title has-text-centered">Modal Card Example</h3>
             </div>
             <p class="subtitle is-5">You could also insert centered tabs to make<br>this modal even more versatile.</p>
             <div class="tabs is-centered is-small">

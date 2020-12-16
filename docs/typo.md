@@ -10,9 +10,9 @@
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its primary font family (with a purchased licence).</li>
-    <li>For important headings use <span class="is-family-secondary is-size-5">Crimson Pro</span> with modifier <code>is-family-secondary</code></li>
+    <li>For important headings use <span class="is-family-secondary is-inline-block pr-2">Crimson Pro</span> with modifier <code>is-family-secondary</code></li>
     <li>When a Monospace font is required use <span class="is-family-monospace">Roboto Mono</span> with modifier <code>is-family-monospace</code></li>
-    <li>For hand-drawn text use <span class="is-family-hand">Caveat</span> with modifier <code>is-family-hand</code></li>
+    <li>For hand-drawn text use <span class="is-family-hand is-inline-block pr-3">Caveat</span> with modifier <code>is-family-hand</code></li>
 </ul>
 
 ?> Use class `is-italic` for italic variations – only available for the Primary family.
@@ -29,23 +29,47 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 <hr>
 
 <div class="box is-well is-larger">
-    <h1 class="title is-1 is-family-secondary">Header 1<br>header 1</h1>
-    <div class="subtitle">Hero title size</div>
-    <hr>
-    <h2 class="title is-2 is-family-secondary">Header 2</h2>
-    <div class="subtitle is-5">Larger title size<br>lorem ipsum</div>
-    <hr>
-    <h3 class="title is-3 is-family-secondary">Header 3</h3>
-    <div class="subtitle is-6">Default title size</div>
-    <hr>
-    <h4 class="title is-4 is-family-secondary">Header 4</h4>
-    <div class="subtitle is-6">Default subtitle size</div>
-    <hr>
-    <h5 class="title is-5">Header 5</h5>
-    <div class="subtitle is-size-7">Default body text size</div>
-    <hr>
-    <h6 class="title is-6">Header 6</h6>
-    <div class="subtitle is-size-7">Smaller body text size</div>
+    <div class="columns">
+        <div class="column is-6">
+            <h1 class="title is-1">Header 1</h1>
+            <div class="subtitle">Hero title size</div>
+            <hr>
+            <h2 class="title is-2">Header 2</h2>
+            <div class="subtitle is-5">Larger title size<br>lorem ipsum</div>
+            <hr>
+            <h3 class="title is-3">Header 3</h3>
+            <div class="subtitle is-6">Default title size</div>
+            <hr>
+            <h4 class="title is-4">Header 4</h4>
+            <div class="subtitle is-6">Default subtitle size</div>
+            <hr>
+            <h5 class="title is-5">Header 5</h5>
+            <div class="subtitle is-size-7">Default body text size</div>
+            <hr>
+            <h6 class="title is-6">Header 6</h6>
+            <div class="subtitle is-size-7">Smaller body text size</div>
+        </div>
+        <div class="column is-6">
+            <h1 class="title is-1 is-family-primary">Header 1</h1>
+            <div class="subtitle">Hero title size</div>
+            <hr>
+            <h2 class="title is-2 is-family-primary">Header 2</h2>
+            <div class="subtitle is-5">Larger title size<br>lorem ipsum</div>
+            <hr>
+            <h3 class="title is-3 is-family-primary">Header 3</h3>
+            <div class="subtitle is-6">Default title size</div>
+            <hr>
+            <h4 class="title is-4 is-family-primary">Header 4</h4>
+            <div class="subtitle is-6">Default subtitle size</div>
+            <hr>
+            <h5 class="title is-5 is-family-primary">Header 5</h5>
+            <div class="subtitle is-size-7">Default body text size</div>
+            <hr>
+            <h6 class="title is-6 is-family-primary">Header 6</h6>
+            <div class="subtitle is-size-7">Smaller body text size</div>
+        </div>
+    </div>
+    
 </div>
 
 <hr class="is-size-1 is-visible">
@@ -71,22 +95,22 @@ Use one of the following tags to emphasize words or part of a text.
 
 <hr class="is-small">
 
-<div class="box is-raised is-medium is-marginless is-size-3 is-family-hand is-radiusless-b">
-    Let's <u>underline that!</u>
+<div class="box is-raised is-medium is-marginless is-size-4 is-radiusless-b">
+    <p class="is-family-hand">Let's <u>underline that!</u></p>
 </div>
 
     Let's <u>underline that!</u>
 <hr class="is-small">
 
-<div class="columns is-gapless is-marginless is-size-4 is-family-secondary">
+<div class="columns is-gapless is-marginless is-size-4">
     <div class="column is-6">
         <div class="box is-raised is-large is-radiusless-tr is-radiusless-b">
-            Let's<em> highlight this part </em>..
+            <p class="is-family-secondary">Let's<em> highlight this part </em>..</p>
         </div>
     </div>
     <div class="column is-6">
         <div class="box is-large is-raised has-background-black-ter has-text-white is-radiusless-tl is-radiusless-b">
-            Or <em class="is-primary">that on a dark background</em>.
+            <p class="is-family-secondary">Or <em class="is-primary">that on a dark background</em>.</p>
         </div>
     </div>
 </div>

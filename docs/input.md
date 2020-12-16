@@ -21,7 +21,7 @@
         <input class="input" type="tel" placeholder="Default and loading . .">
     </div>
     <hr class="is-size-7">
-    <input class="input is-medium" type="email" placeholder="Medium and readonly input" readonly>
+    <input class="input is-medium" type="email" placeholder="Readonly medium input" value="Readonly medium input" readonly>
     <hr class="is-size-7">
     <div class="control has-icons-right is-danger">
         <input class="input is-danger" placeholder="With class is-danger" value="bad input">
