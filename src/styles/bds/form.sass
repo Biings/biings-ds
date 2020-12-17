@@ -13,8 +13,11 @@ select,
 
 .input[readonly],
 .textarea[readonly]
-    border-color: transparent !important
+    border-color: transparent
     background-color: rgba($black,.04)
+
+.field > .input[readonly]
+    border-color: $input-border-color
 
 .textarea
     padding-left: calc(.875em - 1px)

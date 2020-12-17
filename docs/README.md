@@ -4,8 +4,8 @@
     BDS
 </span>
 <hr class="is-marginless">
-<h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-light is-family-secondary">Design System</span></h1>
-<h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop">Biings<br><span class="has-text-weight-light is-family-secondary">Design System</span></h1>
+<h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-light">Design System</span></h1>
+<h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop">Biings<br><span class="has-text-weight-light">Design System</span></h1>
 <hr class="my-5 is-visible has-background-info-gradient">
 <p class="is-size-4 is-size-5-mobile">
     BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.

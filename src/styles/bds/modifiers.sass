@@ -13,9 +13,6 @@
     background: none !important
     background-color: transparent !important
 
-.has-pointer
-    cursor: pointer !important
-
 @media print
     .is-hidden-print
         display: none !important
@@ -60,11 +57,19 @@
 .has-text-black-ter.is-dimmed
     color: rgba($black-ter,.5) !important
 
-.is-radius-bold
+.has-radius-bold
     border-radius: 1.75rem;
 
-.is-radius-subtle
+.has-radius-subtle
     border-radius: .25em;
+.has-radius-subtle-tl
+    border-top-left-radius: .25em;
+.has-radius-subtle-tr
+    border-top-right-radius: .25em;
+.has-radius-subtle-bl
+    border-bottom-left-radius: .25em;
+.has-radius-subtle-br
+    border-bottom-right-radius: .25em;
 
 // Radius removers
 .is-radiusless-tl,

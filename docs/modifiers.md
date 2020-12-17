@@ -97,12 +97,12 @@
         </tr>
         <tr>
             <th rowspan="8">Radius</th>
-            <td><code>is-radius-bold</code></td>
-            <td>Applies a strong <strong>radius</strong></td>
+            <td><code>has-radius-bold</code></td>
+            <td>Applies a strong <strong>radius</strong> on all corners</td>
         </tr>
         <tr>
-            <td><code>is-radius-subtle</code></td>
-            <td>Applies a subtle <strong>radius</strong></td>
+            <td><code>has-radius-subtle-[tl,tr,bl,br]</code></td>
+            <td>Applies a subtle <strong>radius</strong> on a specific corner</td>
         </tr>
         <tr>
             <td><code>is-radiusless</code></td>
@@ -170,7 +170,7 @@
             <td>Hide elements <strong>visually</strong> but keep the element available to be announced by a <strong>screen reader</strong></td>
         </tr>
         <tr>
-            <td><code>has-pointer</code></td>
+            <td><code>is-clickable</code></td>
             <td>Forces the cursor to be a Pointer</td>
         </tr>
         <tr>
