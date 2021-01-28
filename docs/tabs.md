@@ -81,15 +81,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
         </ul>
     </div>
     <hr>
-    <div class="tabs is-toggle is-fullwidth is-toggle-rounded">
-        <ul>
-            <li class="is-active"><a>Insured</a>
-            </li><li><a>Employer</a></li>
-            <li><a>Incapacity</a></li>
-        </ul>
-    </div>
-    <hr>
-    <div class="tabs is-toggle is-transparent">
+    <div class="tabs is-toggle is-small is-toggle-rounded">
         <ul>
             <li class="is-active"><a>Insured</a>
             </li><li><a>Employer</a></li>
@@ -98,7 +90,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
     </div>
 </div>
 
-    <div class="tabs is-toggle is-fullwidth is-toggle-rounded">
+    <div class="tabs is-toggle is-fullwidth is-small is-toggle-rounded">
         <ul>
             <li class="is-active"><a>Insured</a>
             </li><li><a>Employer</a></li>

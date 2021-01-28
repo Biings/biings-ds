@@ -1,14 +1,14 @@
 <hr class="is-hidden-tablet is-size-7">
 <span class="is-relative has-background-white-bis has-text-black is-size-4 is-size-5-mobile has-text-weight-semibold">
     <div class="has-background-primary-gradient is-mask is-overlay"></div>
-    BDS
+    biings-ds
 </span>
-<hr class="is-marginless">
-<h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-light">Design System</span></h1>
-<h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop">Biings<br><span class="has-text-weight-light">Design System</span></h1>
+<hr class="mt-1 mb-0">
+<h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch">Biings <span class="has-text-weight-light">Design system</span></h1>
+<h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop">Biings<br><span class="has-text-weight-light">Design system</span></h1>
 <hr class="my-5 is-visible has-background-info-gradient">
 <p class="is-size-4 is-size-5-mobile">
-    BDS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
+    Biings DS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
 </p>
 <hr>
 
