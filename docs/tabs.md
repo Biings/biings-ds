@@ -7,14 +7,15 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-raised is-marginless is-large is-radiusless-b">
-    <div class="tabs is-fullwidth">
-        <ul>
+    <div class="tabs is-fullwidth my-0">
+        <ul class="is-backgroundless">
             <li><a>Pilot</a></li>
             <li><a>Care</a></li>
             <li><a>Claim</a></li>
             <li class="is-active"><a>Full Package</a></li>
         </ul>
     </div>
+    <hr class="is-visible">
 </div>
 
     <div class="tabs is-fullwidth">

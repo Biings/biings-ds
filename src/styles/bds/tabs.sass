@@ -8,6 +8,13 @@
 .tabs > ul > li > a
     border-bottom: none
 
+.tabs:not(.is-boxed,.is-toggle) > ul > li.is-active > a,
+.tabs.has-hr > ul > li.is-active > a
+    color: var(--color-primary);
+
+.tabs:not(.is-boxed,.is-toggle) + hr
+    margin-top: -1px;
+
 .tabs:not(.is-boxed) > li:first-child > a
     padding-left: .75em
 
@@ -17,7 +24,7 @@
     bottom: -($tabs-border-bottom-width)
     left: 50%
     height: $tabs-border-bottom-width*2
-    background-color: $purple
+    background-color: $primary
     content: ''
     transition: left .15s ease, right .15s ease
 
@@ -43,8 +50,8 @@
 
 .tabs.is-boxed a
     margin-bottom: -1px
-    padding: .625em 1.125em .875em
-    border-width: 2px
+    padding: .625em 1.5em .875em
+    border-width: 1px
 
 .tabs.is-toggle a
     padding: .5em 1.125em .625em
