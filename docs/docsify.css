@@ -196,7 +196,7 @@ body.close .sidebar-toggle
     position: absolute;
     top: 0;
     left: 0;
-    width: 110px;
+    width: 65px;
     height: 30px;
 }
 .docsify-logo:not(:hover) > img:first-child,

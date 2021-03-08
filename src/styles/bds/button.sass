@@ -17,10 +17,14 @@
     border-radius: $radius
 
 .button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined)
-    background: $primary-gradient
+    background: linear-gradient(160deg,$primary 0%, $primary 40%, $purple 65%)
+    background-position-y: 0
+    background-size: 300%
+    transition: background-position-y .1s linear
 
 .button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined):hover
-    background: linear-gradient(45deg,$primary 75%, $purple 180%)
+    background-position-y: 100%
+    transition-duration: .25s
 
 .button.is-text
     text-decoration: none
