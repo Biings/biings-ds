@@ -3,6 +3,21 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-visible is-size-3"><br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">March 8, 2021</span>
+<h3 class="title has-text-weight-medium">Version 1.45</h3>
+<ul class="list">
+    <li>New Claim color</li>
+    <li><strong>9 new icons</strong> and refinements:<br><i>hand-g, gears-g, door-g, export-g, share-g, heart-check-g, line-compact-g, line-relaxed-g, lightning-g, business-new-g</i></li>
+    <li>New modifiers: <code>is-thight</code>, <code>is-radius-bold</code>, <code>is-radius-subtle</code></li>
+    <li>New tag style <code>is-wired</code></li>
+    <li>New warning color gradients</li>
+    <li>Improved font weight distribution for secondary serif font</li>
+    <li>Bulma updated to 0.9.1</li>
+    <li>Style adjustments and fixes to <i>Buttons, Inputs, Typography, Modals, Menu, Tabs</i></li>
+</ul>
+
+<hr class="is-size-2 is-visible">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-info is-uppercase">September 14, 2020</span>
 <h3 class="title has-text-weight-medium">Version 1.44</h3>
 <ul class="list">
