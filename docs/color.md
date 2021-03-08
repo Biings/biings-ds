@@ -26,10 +26,10 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#85CEAF</span></div>
     <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#E5F5EE</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#B16E34</span></div>
-    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#DD8941</span></div>
-    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#E7AC7A</span></div>
-    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#FAEDE3</span></div>
+    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#A27754</span></div>
+    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#CB9569</span></div>
+    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#DBB596</span></div>
+    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#F7EFE9</span></div>
 </div>
 
 <hr class="is-visible is-size-1">
@@ -40,8 +40,8 @@ Brand colors are used when refering to Biings or any of its products.
 
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="has-text-grey-dark is-family-monospace">#EFECF2</span></div>
-    <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#FAF8FC</span></div>
-    <div class="column is-3"><div class="has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white</strong><br><span class="has-text-grey-dark is-family-monospace">#FFFFFF</span></div>
+    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="has-text-grey-dark is-family-monospace">#FAF8FC</span></div>
+    <div class="column is-3"><div class="has-background-white"><br><br></div><strong>white</strong><br><span class="has-text-grey-dark is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#706777</span></div>
     <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="has-text-grey-dark is-family-monospace">#9C94A2</span></div>
@@ -105,6 +105,27 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-blue has-shadow"><br><br></div><strong>blue</strong><br><span class="has-text-grey-dark is-family-monospace">#087FD2</span></div>
     <div class="column is-3"><div class="has-background-blue-light"><br><br></div><strong>blue-light</strong><br><span class="has-text-grey-dark is-family-monospace">#52A5E0</span></div>
     <div class="column is-3"><div class="has-background-blue-lighter"><br><br></div><strong>blue-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#CEE5F6</span></div>
+</div>
+
+<hr class="is-size-1 is-visible">
+
+<h4 class="title is-family-primary"><strong>Status</strong></h4>
+
+<hr>
+
+<div class="columns is-multiline">
+    <div class="column is-3"><div class="has-background-success-dark"><br><br></div><strong>success-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#128C79</span></div>
+    <div class="column is-3"><div class="has-background-success has-shadow"><br><br></div><strong>success</strong><br><span class="has-text-grey-dark is-family-monospace">#149F89</span></div>
+    <div class="column is-3"><div class="has-background-success-light" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>success-light</strong><br><span class="has-text-grey-dark is-family-monospace">#EDFDFA</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-info-dark"><br><br></div><strong>info-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#2362AD</span></div>
+    <div class="column is-3"><div class="has-background-info has-shadow"><br><br></div><strong>info</strong><br><span class="has-text-grey-dark is-family-monospace">#2973CC</span></div>
+    <div class="column is-3"><div class="has-background-info-light" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>info-light</strong><br><span class="has-text-grey-dark is-family-monospace">#EEF4FC</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-warning-dark"><br><br></div><strong>warning-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#CE9F44</span></div>
+    <div class="column is-3"><div class="has-background-warning has-shadow"><br><br></div><strong>warning</strong><br><span class="has-text-grey-dark is-family-monospace">#F2BB50</span></div>
+    <div class="column is-3"><div class="has-background-warning-light" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>warning-light</strong><br><span class="has-text-grey-dark is-family-monospace">#FEF8EC</span></div>
+    <div class="column is-12"></div>
 </div>
 
 <hr class="is-size-1 is-visible">
