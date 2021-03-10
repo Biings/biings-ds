@@ -62,7 +62,8 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <button onclick="closeModal(1)" class="delete is-large is-inverted" aria-label="close"/>
         </header>
         <section class="modal-card-body has-background-white">
-            <h4 class="title is-family-primary"><strong>Can handle of lot of content..</strong></h4>
+            <p><strong>Can handle of lot of content..</strong></p>
+            <br>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si stante, hoc natura videlicet vult, salvam esse se, quod
                 concedimus; Laboro autem non sine causa; Beatus autem esse in maximarum rerum timore nemo potest. Progredientibus autem

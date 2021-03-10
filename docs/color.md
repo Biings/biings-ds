@@ -243,12 +243,12 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
 
 !> Blurred backgrounds are not visible IE and Firefox and fallback to the background-color.
 
-<hr class="is-size-2">
+<hr class="is-size-1 is-size-3-touch is-wavy is-visible">
 
-<div class="box is-large has-background-info-gradient is-bordered is-link">
-    <span class="tag is-primary is-glowing is-small">Bonus</span>
+<div class="box is-large is-popping">
+    <span class="tag is-primary">Bonus</span>
     <hr class="is-marginless is-wavy">
-    <h3 class="title has-text-weight-bolder is-family-primary is-spaced">Slack Theme ✨</h3>
+    <h3 class="title has-text-weight-bolder is-family-primary is-spaced is-tight">Slack Theme ✨</h3>
     <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
     #1A0E23,#2D2236,#5B3478,#FFFFFF,#241A2E,#DFDBE3,#50B98C,#8C50B9,#1A0E23,#D1B9E3

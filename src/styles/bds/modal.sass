@@ -49,12 +49,14 @@
 .modal > .modal-card
     transform: translateY(-6%)
 
-.modal > .modal-content > div:only-child
-    transform: translateY(20%)
+.modal > .modal-content
+    transform: scale(1.1)
 
-.modal.is-active > .modal-card,
-.modal.is-active > .modal-content > div:only-child
+.modal.is-active > .modal-card
     transform: translateY(0)
+
+.modal.is-active > .modal-content
+    transform: scale(1)
 
 .modal.is-pinned > .modal-content,
 .modal.is-pinned > .modal-card
@@ -69,7 +71,7 @@
     max-width: 100%
     text-align: center
     letter-spacing: -.05em
-    font-family: $family-secondary
+    font-weight: 800
 
 .icon + .modal-card-title
     margin-left: .625rem

@@ -10,6 +10,27 @@
 <p class="is-size-4 is-size-5-mobile">
     Biings DS is a series of assets and guidelines for building consistent user experiences at Biings. This design system is open-source under a CC BY 4.0 License.
 </p>
+
+<hr>
+<div class="columns">
+    <div class="column is-6">
+        <a href="#/content" class="box is-medium has-background-primary-dark is-raised hover-to-popping">
+            <img src="media/bds.png" width="50" class="no-zoom"/>
+            <hr class="is-size-7">
+            <h3 class="title has-text-white">Foundation</h3>
+            <p class="subtitle is-5 has-text-white is-dimmed">Content, Layout, Color, etc</p>
+        </a>
+    </div>
+    <div class="column is-6">
+        <a href="#/avatar" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
+            <img src="media/components.png" width="58" class="no-zoom"/>
+            <hr class="is-size-7">
+            <h3 class="title has-text-white">Components</h3>
+            <p class="subtitle is-5 has-text-white is-dimmed">All you need to build your UIs</p>
+        </a>
+    </div>
+</div>
+
 <hr>
 
 <div class="level is-mobile">
@@ -25,27 +46,7 @@
     </div>
 </div>
 
-<hr>
-<div class="columns">
-    <div class="column is-6">
-        <a href="#/content" class="box is-medium has-background-primary-dark is-raised hover-to-popping">
-            <img src="media/bds.png" width="50" class="no-zoom"/>
-            <hr class="is-size-7">
-            <h3 class="title has-text-white">Foundation</h3>
-            <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">Content, Layout, Color, etc</p>
-        </a>
-    </div>
-    <div class="column is-6">
-        <a href="#/avatar" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
-            <img src="media/components.png" width="58" class="no-zoom"/>
-            <hr class="is-size-7">
-            <h3 class="title has-text-white">Components</h3>
-            <p class="subtitle is-5 has-text-white is-dimmed has-text-weight-medium">All you need to build your UIs</p>
-        </a>
-    </div>
-</div>
-
-<hr class="is-size-1 is-visible">
+<hr class="is-size-2 is-size-3-touch is-visible is-wavy">
 
 <h4 class="title is-family-primary"><strong>Quick start</strong></h4><br>
 
@@ -64,11 +65,11 @@
 
 <hr class="is-size-2">
 
-<div class="box is-bordered is-large">
+<div class="box is-popping is-large">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <h2 class="title is-spaced">Want to <u>contribute?</u></h2>
-            <p class="subtitle">Onboarding for designers and developers wanting to contribute.</p>
+            <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-5 has-text-primary-dark">
             <a href="#/contribute" class="button is-rounded is-primary is-glowing is-beefy is-medium">Start contributing</a>
