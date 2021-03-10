@@ -161,16 +161,13 @@ Use a **Spacer** (or horizontal rule) as a visual help to seperate groups of ele
     <br>
     <hr class="is-visible is-soft">
     <br>
+    <hr class="is-visible has-background-primary-warning-gradient">
+    <br>
     <hr class="is-visible is-wavy">
-    <br>
-    <hr class="is-visible has-background-primary-care-gradient">
-    <br>
-    <hr class="is-visible has-background-primary-claim-gradient">
 </div>
   
       <hr class="is-visible">
       <hr class="is-visible is-soft">
+      <hr class="is-visible has-background-primary-warning-gradient">
       <hr class="is-visible is-wavy">
-      <hr class="is-visible has-background-primary-care-gradient">
-      <hr class="is-visible has-background-primary-claim-gradient">
   <br>
