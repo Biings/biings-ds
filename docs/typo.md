@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h4 class="title is-family-primary"><strong>Font family</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Font family</span></h2>
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its primary font family (with a purchased licence).</li>
@@ -18,7 +18,7 @@
 ?> Use class `is-italic` for italic variations – only available for the Primary family.
 
 <hr class="is-size-1 is-visible">
-<h4 class="title is-family-primary"><strong>Scales</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Scales</span></h2>
 
 All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should use sizes 1, 2 or 3 ; texts should use sizes 4, 5 or 6. An extra <u>7th size</u> can be used in special components.
 
@@ -73,7 +73,7 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 </div>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title is-family-primary"><strong>Font weights</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Font weights</span></h2>
 
 Use font weights to emphasize or differentiate content hierarchy.  
 <i>Example:</i> `has-text-weight-semibold`
@@ -88,14 +88,14 @@ Use font weights to emphasize or differentiate content hierarchy.
 </ul>
 
 <hr class="is-size-1 is-visible">
-<h4 class="title is-family-primary"><strong>Emphasizers</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Emphasizers</span></h2>
 
 Use one of the following tags to emphasize words or part of a text.
 
 
 <hr class="is-small">
 
-<div class="box is-raised is-medium is-marginless is-size-4 is-radiusless-b">
+<div class="box is-raised is-medium is-marginless is-size-3 is-radiusless-b">
     <p class="is-family-hand">Let's <u>underline that!</u></p>
 </div>
 
@@ -110,14 +110,13 @@ Use one of the following tags to emphasize words or part of a text.
     </div>
     <div class="column is-6">
         <div class="box is-large is-raised has-background-black-ter has-text-white is-radiusless-tl is-radiusless-b">
-            <p class="is-family-secondary">Or <em class="is-primary">that on a dark background</em>.</p>
+            <p class="is-family-secondary">Or <em>that on a dark background</em>.</p>
         </div>
     </div>
 </div>
 <hr class="is-marginless is-visible">
     
     Let's <em>highlight this in yellow</em>..
-    Or <em class="is-primary">some of that in purple</em>.
 <hr><br>
 
 <a href="http://bulma.io/documentation/modifiers/typography-helpers/" target="blank" class="message is-info is-block">

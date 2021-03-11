@@ -4,7 +4,7 @@
 <p class="is-size-4 has-text-dark"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
 <hr class="is-visible is-size-3">
 <br>
-<h4 class="title is-family-primary"><strong>Brand</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Brand</span></h2>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -34,7 +34,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title is-family-primary"><strong>Greyscale</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Greyscale</span></h2>
 
 <hr>
 
@@ -56,7 +56,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Palette</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Palette</span></h2>
 
 <hr>
 
@@ -109,7 +109,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Status</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Status</span></h2>
 
 <hr>
 
@@ -130,7 +130,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>CSS variables</strong></h4>
+<h2 class="title"><span class="is-size-smaller">CSS variables</span></h2>
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
@@ -148,7 +148,7 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Special Backgrounds</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Special Backgrounds</span></h2>
 
 Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown menu)
 
@@ -227,7 +227,7 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Blurred Background</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Blurred Background</span></h2>
 
 Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
 

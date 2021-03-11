@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h4 class="title is-family-primary"><strong>Button defaults</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Button defaults</span></h2>
 
 <br>
 
@@ -69,7 +69,7 @@
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Link</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Link</span></h2>
 
 Use a Link instead of a button when navigating or when the action is not primary.
 
@@ -103,7 +103,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Sizes, states and shapes</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Sizes, states and shapes</span></h2>
 
 <hr>
 
@@ -158,7 +158,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Icon Button</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Icon Button</span></h2>
 
 Buttons can be enhanced by adding an icon or be an icon button.  
 Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
@@ -221,7 +221,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Button Group</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Button Group</span></h2>
 
 Buttons can be grouped together.
 

@@ -12,7 +12,7 @@
 
 <hr class="is-size-4">
 
-<h4 class="title is-family-primary"><strong>Sizes</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Sizes</span></h2>
 
 Loaders automatically adapt to text size.<br>Use text size modifier classes `is-size-[1-7]` if you want to apply a particular size to the loader.
 
@@ -34,7 +34,7 @@ element you wish the loader to center itself to.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Inline</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Inline</span></h2>
 
 Add class `is-inline` to remove the auto-centering of the loader.
 
@@ -60,7 +60,7 @@ Add class `is-inline` to remove the auto-centering of the loader.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Colorful</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Colorful</span></h2>
 
 Add class `is-primary`, `is-care` or `is-claim` to give the loader a unique Biings look.
 
@@ -74,7 +74,7 @@ Add class `is-primary`, `is-care` or `is-claim` to give the loader a unique Biin
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Inverted</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Inverted</span></h2>
 
 Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
@@ -86,7 +86,7 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Indeterminate</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Indeterminate</span></h2>
 
 Add class `is-indeterminate` to express an long or an unknown loading duration.
 
@@ -98,7 +98,7 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Progress Bar</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Progress Bar</span></h2>
 
 A native progress bar can replace a loader.
 

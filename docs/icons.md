@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h4 class="title is-family-primary"><strong>How to use</strong></h4>
+<h2 class="title"><span class="is-size-smaller">How to use</span></h2>
 
 BDS iconography is available as an SVG sprite to include in your HTML page.<br>
 To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
@@ -16,7 +16,7 @@ To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
     <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Logos</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Logos</span></h2>
 
 Logo icons should **not be less than 16px** (width and height).
 
@@ -31,7 +31,7 @@ Logo icons should **not be less than 16px** (width and height).
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Glyphs</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Glyphs</span></h2>
 
 Glyphs are mostly used to be part of an actionable component, like a button or dropdown.
 <br>They should **not exceed 28 pixels** (width and height).
@@ -131,6 +131,8 @@ Glyphs are mostly used to be part of an actionable component, like a button or d
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#manager-g"></use></svg></div>manager-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#maternity-g"></use></svg></div>maternity-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#medical-g"></use></svg></div>medical-g</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#money-new-g"></use></svg></div>money-new-g</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#money-reception-g"></use></svg></div>money-reception-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#orgchart-g"></use></svg></div>orgchart-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#other-g"></use></svg></div>other-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-grey-darker"><use xlink:href="media/bds-icons.min.svg#overload-g"></use></svg></div>overload-g</div>
@@ -178,7 +180,7 @@ Glyphs are mostly used to be part of an actionable component, like a button or d
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Icons</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Icons</span></h2>
 
 Icons are mostly used to provide a visual accompaniment to other UI components.<br>
 They should **not be less than 32 pixels** (width and height).

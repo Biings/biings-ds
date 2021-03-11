@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h4 class="title is-family-primary"><strong>Basic usage</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Basic usage</span></h2>
 
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
@@ -39,7 +39,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 
 <hr class="is-size-1 is-visible">
 
-<h4 class="title is-family-primary"><strong>Modal Card</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Modal Card</span></h2>
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 

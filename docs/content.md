@@ -8,7 +8,7 @@
 <p class="is-size-4 has-text-dark is-italic is-size-5-mobile">"Writing is easy. All you have to do is cross out the <strike>wrong</strike> words."</p>
 <hr class="is-visible is-size-3"><br>
 
-<h4 class="title is-family-primary"><strong>Be clear and concise</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Be clear and concise</span></h2>
 Try to remove any unnecessary words or phrase.
 <hr class="is-size-7">
 <div class="box is-well">
@@ -34,7 +34,7 @@ Try to remove any unnecessary words or phrase.
 
 <hr class="is-size-2">
 
-<h4 class="title is-family-primary"><strong>Write "the way you speak"</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Write "the way you speak"</span></h2>
 Content should not feel complex or distant. Rather, it should be like a conversation with a smart friend.
 <hr class="is-size-7">
 <div class="box is-well">
@@ -64,7 +64,7 @@ Content should not feel complex or distant. Rather, it should be like a conversa
 
 <hr class="is-size-2">
 
-<h4 class="title is-family-primary"><strong>Use simple tense.</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Use simple tense.</span></h2>
 <hr class="is-size-7">
 <div class="box is-well">
     <table class="table is-fullwidth is-marginless">
@@ -89,7 +89,7 @@ Content should not feel complex or distant. Rather, it should be like a conversa
 
 <hr class="is-size-2">
 
-<h4 class="title is-family-primary"><strong>Active or Passive voice</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Active or Passive voice</span></h2>
 
 Use an active voice for most of your content, especially when it involves a human or when the subject needs to be emphasized.
 
@@ -133,7 +133,7 @@ Use an active voice for most of your content, especially when it involves a huma
 
 <hr class="is-size-2">
 
-<h4 class="title is-family-primary"><strong>Make long text easy to read</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Make long text easy to read</span></h2>
 
 A correct balance between typography, font size and line length contributes to make our writings easy to read. 
 Try to write a maximum of <u class="has-text-weight-semibold">100 characters</u> per line in order to maximise legibility.

@@ -63,7 +63,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h4 class="title is-family-primary"><strong>Sizes</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Sizes</span></h2>
     
 Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[1–7]` to adjust the size of the arrow.
 
@@ -100,7 +100,7 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <hr class="is-visible is-size-1">
 
-<h4 class="title is-family-primary"><strong>Tooltips</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Tooltips</span></h2>
 
 Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
 
@@ -186,7 +186,7 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     </div>
 <hr class="is-visible is-size-1">
 
-<h4 class="title is-family-primary"><strong>Searchable list</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Searchable list</span></h2>
 
 You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
 
@@ -236,7 +236,7 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
     </div>
 <hr class="is-visible is-size-1">
 
-<h4 class="title is-family-primary"><strong>Custom icon</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Custom icon</span></h2>
 
 Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
 
@@ -364,7 +364,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 <a id="selectlist"></a>
 <hr class="is-visible is-size-1">
 
-<h4 class="title is-family-primary"><strong>Select list</strong></h4>
+<h2 class="title"><span class="is-size-smaller">Select list</span></h2>
 
 Create a system default select list just by wrapping it with a `.select` div. Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 

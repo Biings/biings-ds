@@ -38,9 +38,17 @@
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
-            <th rowspan="11">Text</th>
+            <th rowspan="13">Text</th>
             <td><code>is-size-[1 to 7]</code></td>
             <td>Changes the <strong>text size</strong> – default is <code>5</code></td>
+        </tr>
+        <tr>
+            <td><code>is-size-bigger</code></td>
+            <td>Increases text size (relatively)</td>
+        </tr>
+        <tr>
+            <td><code>is-size-smaller</code></td>
+            <td>Reduces text size (relatively)</td>
         </tr>
         <tr>
             <td><code>has-text-left</code></td>
