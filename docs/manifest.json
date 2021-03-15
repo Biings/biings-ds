@@ -1,0 +1,11 @@
+{
+    "name": "Biings Design System",
+    "short_name": "BDS",
+    "icons": [{
+        "src": "media/touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#8C50B9",
+    "theme_color": "#8C50B9",
+    "display": "fullscreen"
+}
