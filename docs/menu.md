@@ -15,7 +15,7 @@
                         <li><a>Pilot</a></li>
                         <li><a>Timelines</a></li>
                         <li><a class="is-active">Active item</a></li>
-                        <li><a><svg class="icon has-fill-dark"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg> Claim Center</a></li>
+                        <li><a><svg class="icon has-fill-dark"><use xlink:href="media/bds-icons.min.svg#timelines-g"></use></svg> Timelines</a></li>
                     </ul>
                     <p class="menu-label">Coverages:</p>
                     <ul class="menu-list">
@@ -40,7 +40,7 @@
                         <li><a>Pilot</a></li>
                         <li><a>Timelines</a></li>
                         <li><a class="is-active">Active item</a></li>
-                        <li><a><svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg>Claim Center</a></li>
+                        <li><a><svg class="icon has-fill-white"><use xlink:href="media/bds-icons.min.svg#timelines-g"></use></svg>Timelines</a></li>
                     </ul>
                     <p class="menu-label">Coverages:</p>
                     <ul class="menu-list">

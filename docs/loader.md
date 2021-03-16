@@ -62,14 +62,14 @@ Add class `is-inline` to remove the auto-centering of the loader.
 
 <h2 class="title"><span class="is-size-smaller">Colorful</span></h2>
 
-Add class `is-primary`, `is-care` or `is-claim` to give the loader a unique Biings look.
+Add class `is-primary` or `is-secondary` to give the loader a unique Biings look.
 
 <br>
 
 <div class="box is-raised is-large is-relative has-text-centered">
     <div class="loader is-primary is-inline is-size-3"></div>
-    <div class="loader is-care is-inline is-size-3"></div>
-    <div class="loader is-claim is-inline is-size-3"></div>
+    <div class="loader is-success is-inline is-size-3"></div>
+    <div class="loader is-secondary is-inline is-size-3"></div>
 </div>
 
 <hr class="is-size-1 is-visible">

@@ -11,7 +11,7 @@
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
 <br><div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><div class="has-background-care-gradient-light">JD</div></div><span class="subtitle is-5">John Doe</span>
+    <div class="avatar"><div class="has-background-primary-lighter">JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
 </div>
 <hr class="is-marginless is-visible">
 
@@ -33,8 +33,8 @@ In addition to the default size, use classes `is-[tiny,mini,small,medium,large,h
         <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">MI</div></div><span class="is-size-7">Mini</span></div>
         <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise-lighter">SL</div></div><span class="is-size-7">Small</span></div>
         <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
-        <div class="level-item"><div class="avatar is-large"><div class="has-background-care-lighter">LA</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div class="has-background-claim-lighter">HU</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item"><div class="avatar is-large"><div class="has-background-turquoise-lighter">LA</div></div><span class="is-size-5">Large</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div class="has-background-secondary-lighter">HU</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
@@ -47,7 +47,7 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle">Padukone, Deepika</span>
+    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle has-text-dark">Padukone, Deepika</span>
 </div>
 
     <div class="avatar">

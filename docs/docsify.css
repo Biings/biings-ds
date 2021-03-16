@@ -363,11 +363,11 @@ img.no-zoom
 
 .has-background-gradient-2
 {
-    background: linear-gradient(25deg, var(--color-care-light) 30%, var(--color-turquoise-lighter) 100%);
+    background: linear-gradient(25deg, var(--color-turquoise-light) 30%, var(--color-turquoise-lighter) 100%);
 }
 .has-background-gradient-3
 {
-    background: linear-gradient(30deg, var(--color-claim) -10%, var(--color-yellow-light) 130%);
+    background: linear-gradient(30deg, var(--color-secondary) -10%, var(--color-yellow-light) 130%);
 }
 
 progress.progress

@@ -46,12 +46,11 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
     <label class="is-uppercase is-size-7 has-text-grey has-text-weight-medium pb-4">Glowing</label>
     <hr class="my-1">
     <span class="tag is-primary is-glowing">primary glowing</span>
+    <span class="tag is-secondary is-glowing my-1">secondary glowing</span>
     <span class="tag is-success is-glowing">success glowing</span>
     <span class="tag is-danger is-glowing my-1">danger glowing</span>
     <span class="tag is-info is-glowing my-1">info glowing</span>
     <span class="tag is-warning is-glowing my-1">warning glowing</span>
-    <span class="tag is-care is-glowing my-1">care glowing</span>
-    <span class="tag is-claim is-glowing my-1">claim glowing</span>
     <hr class="my-3">
     <label class="is-uppercase is-size-7 has-text-grey has-text-weight-medium pb-4">Wired</label>
     <hr class="my-1">

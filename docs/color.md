@@ -21,15 +21,10 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#AF85CE</span></div>
     <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#EEE5F5</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-care-dark"><br><br></div><strong>care-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#3C8B69</span></div>
-    <div class="column is-3"><div class="has-background-care has-shadow"><br><br></div><strong>care</strong><br><span class="has-text-grey-dark is-family-monospace">#50B98C</span></div>
-    <div class="column is-3"><div class="has-background-care-light"><br><br></div><strong>care-light</strong><br><span class="has-text-grey-dark is-family-monospace">#85CEAF</span></div>
-    <div class="column is-3"><div class="has-background-care-lighter"><br><br></div><strong>care-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#E5F5EE</span></div>
-    <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-claim-dark"><br><br></div><strong>claim-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#A27754</span></div>
-    <div class="column is-3"><div class="has-background-claim has-shadow"><br><br></div><strong>claim</strong><br><span class="has-text-grey-dark is-family-monospace">#CB9569</span></div>
-    <div class="column is-3"><div class="has-background-claim-light"><br><br></div><strong>claim-light</strong><br><span class="has-text-grey-dark is-family-monospace">#DBB596</span></div>
-    <div class="column is-3"><div class="has-background-claim-lighter"><br><br></div><strong>claim-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#F7EFE9</span></div>
+    <div class="column is-3"><div class="has-background-secondary-dark"><br><br></div><strong>secondary-dark</strong><br><span class="has-text-grey-dark is-family-monospace">#A27754</span></div>
+    <div class="column is-3"><div class="has-background-secondary has-shadow"><br><br></div><strong>secondary</strong><br><span class="has-text-grey-dark is-family-monospace">#CB9569</span></div>
+    <div class="column is-3"><div class="has-background-secondary-light"><br><br></div><strong>secondary-light</strong><br><span class="has-text-grey-dark is-family-monospace">#DBB596</span></div>
+    <div class="column is-3"><div class="has-background-secondary-lighter"><br><br></div><strong>secondary-lighter</strong><br><span class="has-text-grey-dark is-family-monospace">#F7EFE9</span></div>
 </div>
 
 <hr class="is-visible is-size-1">
@@ -168,42 +163,22 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
         <code>has-background-primary-gradient-light</code>
     </div>
     <div class="column is-6">
-        <br><div class="box is-large has-background-care-gradient">&nbsp;
-        </div>
+        <br><div class="box is-large has-background-secondary-gradient">&nbsp;</div>
     </div>
     <div class="column is-6">
-        <br><div class="box is-large has-background-care-gradient-light">&nbsp;
-        </div>
+        <br><div class="box is-large has-background-secondary-gradient-light">&nbsp;</div>
     </div>
     <div class="column is-6">
-        <code>has-background-care-gradient</code>
+        <code>has-background-secondary-gradient</code>
     </div>
     <div class="column is-6">
-        <code>has-background-care-gradient-light</code>
-    </div>
-    <div class="column is-6">
-        <br><div class="box is-large has-background-claim-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-6">
-        <br><div class="box is-large has-background-claim-gradient-light">&nbsp;</div>
-    </div>
-    <div class="column is-6">
-        <code>has-background-claim-gradient</code>
-    </div>
-    <div class="column is-6">
-        <code>has-background-claim-gradient-light</code>
+        <code>has-background-secondary-gradient-light</code>
     </div>
     <div class="column is-12">
-        <br><div class="box is-large has-background-primary-care-gradient">&nbsp;</div>
+        <br><div class="box is-large has-background-primary-secondary-gradient">&nbsp;</div>
     </div>
     <div class="column is-12">
-        <code>has-background-primary-care-gradient</code>
-    </div>
-    <div class="column is-12">
-        <br><div class="box is-large has-background-primary-claim-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
-        <code>has-background-primary-claim-gradient</code>
+        <code>has-background-primary-secondary-gradient</code>
     </div>
     <div class="column is-12">
         <br><div class="box is-large has-background-warning-gradient">&nbsp;</div>

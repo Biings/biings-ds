@@ -140,8 +140,8 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
                     <div class="button is-static is-paddingless is-fullwidth has-text-success">Colored</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-6 has-background-care-gradient has-text-white">
-                        This one contains a div with <strong>has-background-primary</strong>
+                    <div class="box is-white is-floating is-size-6 has-background-success has-text-white">
+                        This one contains a div with <strong>has-background-success</strong>
                     </div>
                 </div>
             </div>

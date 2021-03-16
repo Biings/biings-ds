@@ -38,22 +38,10 @@ $dark           : mix(black, $primary, 50) !default
 // Special colors (NOT BULMA) —————————————————————
 $primary-lighter: mix(white, $primary, 85) !default
 
-$primary-gradient: linear-gradient(45deg,$primary 50%, $purple 180%) !default
-
-$pilot          : $primary !default
-$pilot-dark     : mix(black, $pilot, 25) !default
-$pilot-light    : mix(white, $pilot, 25) !default
-$pilot-lighter  : mix(white, $pilot, 85) !default
-
-$care           : #50b98c !default
-$care-dark      : mix(black, $care, 25) !default
-$care-light     : mix(white, $care, 30) !default
-$care-lighter   : mix(white, $care, 85) !default
-
-$claim          : #cb9569 !default
-$claim-dark     : mix(black, $claim, 20) !default
-$claim-light    : mix(white, $claim, 30) !default
-$claim-lighter  : mix(white, $claim, 85) !default
+$secondary          : #cb9569 !default
+$secondary-dark     : mix(black, $secondary, 20) !default
+$secondary-light    : mix(white, $secondary, 30) !default
+$secondary-lighter  : mix(white, $secondary, 85) !default
 
 $cyan-dark      : mix(black, $cyan, 25) !default
 $cyan-light     : mix(white, $cyan, 30) !default
@@ -95,8 +83,8 @@ $pink-lighter   : mix(white, $pink, 80) !default
 // ———— (NOT BULMA END) ————————————————————————————
 
 $info           : mix($primary, $blue, 25) !default
-$success        : mix($care, $turquoise-dark, 25) !default
-$warning        : mix($claim, $yellow, 25) !default
+$success        : #149f89 !default
+$warning        : mix($secondary, $yellow, 25) !default
 $danger         : $red !default
 
 // Additional colors (NOT BULMA) ————————————————————
@@ -160,7 +148,7 @@ $border-light-hover: $grey-lightest !default
 
 // Text colors
 
-$text: $black-ter !default
+$text: $dark !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: inherit !default
@@ -247,11 +235,13 @@ $gap: 32px !default
 // 960, 1152, and 1248 have been chosen because they are divisible by both 12 and 16
 $tablet: 769px !default
 // 960px container + 4rem
-$desktop: 960px + (2 * $gap) !default
-// 1152px container + 4rem
-$widescreen: 1152px + (2 * $gap) !default
+$desktop: 960px + (0 * $gap) !default
+$widescreen-enabled: false !default
 // 1248px container + 4rem
-$fullhd: 1248px + (2 * $gap) !default
+$fullhd: 1248px + (0 * $gap) !default
+
+$container-offset: 0 !default
+$container-max-width: $fullhd !default
 
 // Miscellaneous
 
@@ -355,13 +345,14 @@ $button-hover-color: inherit !default
 $button-hover-border-color: $button-border-color !default
 $button-active-color: $text !default
 $button-active-border-color: mix(black,$button-border-color,6) !default
-$button-text-color: $link !default
-$button-text-hover-background-color: transparent !default
-$button-text-hover-color: $link-dark !default
 $button-padding-vertical: calc(0.25em - #{$button-border-width}) !default
 $button-static-color: inherit !default
 $button-static-background-color: transparent !default
 $button-static-border-color: transparent !default
+$button-text-color: $text !default
+$button-text-decoration: none !default
+$button-text-hover-background-color: $code-background !default
+$button-text-hover-color: $text-strong !default
 
 $input-shadow: none !default
 $input-background-color: $white !default
@@ -438,6 +429,7 @@ $progress-indeterminate-duration: 1.75s !default
 // @import "bulma/sass/utilities/animations.sass"
 @import "bulma/sass/utilities/mixins.sass"
 @import "bulma/sass/utilities/controls.sass"
+@import "bulma/sass/utilities/extends.sass"
 @import "bulma/sass/base/_all.sass"
 @import "bulma/sass/helpers/_all.sass"
 // @import "bulma/sass/components/card.sass"
