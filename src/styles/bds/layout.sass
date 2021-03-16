@@ -1,11 +1,7 @@
-/* Containers */
-.container.is-desktop:not(.is-max-desktop):not(.is-max-widescreen)
-    max-width: $desktop - (2 * $gap)
-
-.container.is-tablet:not(.is-max-desktop):not(.is-max-widescreen)
+/* Addition Containers max sizes */
+.container.is-max-tablet:not(.is-max-desktop):not(.is-max-widescreen)
     max-width: $tablet
-
-.container.is-modal:not(.is-max-desktop):not(.is-max-widescreen)
+.container.is-max-modal:not(.is-max-desktop):not(.is-max-widescreen)
     max-width: $modal-content-width
 
 /* Rules / Lines */
@@ -21,16 +17,3 @@ hr.is-wavy
 
 hr.is-soft
     background: linear-gradient(90deg,rgba($hr-background-color,0) 0%,$hr-background-color 12%,$hr-background-color 88%,rgba($hr-background-color,0) 100%)
-
-hr.is-wavy.is-marginless
-    margin: 0 .25em
-
-// Columns spacing
-.columns.is-tiny > .column
-    padding: .125rem
-.columns.is-smaller > .column
-    padding: .25rem
-.columns.is-small > .column
-    padding: .5rem
-.columns.is-large > .column
-    padding: 1rem

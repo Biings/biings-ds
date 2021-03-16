@@ -13,19 +13,19 @@ Container is used to center your content horizontally. Alter the max width with 
 <table class="table is-bordered is-hoverable">
   <tr>
       <td class="is-narrow"><code>container</code></td>
-      <td>Max <strong>1248px</strong>, with breakpoints</td>
+      <td>Max <strong>1248px</strong>, with 2 breakpoints</td>
   </tr>
   <tr>
-      <td class="is-narrow"><code>container</code> <code>is-desktop</code></td>
+      <td class="is-narrow"><code>container</code> <code>is-max-desktop</code></td>
       <td>Max <strong>960px</strong> (the desktop breakpoint)</td>
   </tr>
   <tr>
-      <td class="is-narrow"><code>container</code> <code>is-tablet</code></td>
+      <td class="is-narrow"><code>container</code> <code>is-max-tablet</code></td>
       <td>Max <strong>769px</strong> (the tablet breakpoint)</td>
   </tr>
   <tr>
-    <td class="is-narrow"><code>container</code> <code>is-modal</code></td>
-    <td>Max <strong>528px</strong> (the modal max width)</td>
+    <td class="is-narrow"><code>container</code> <code>is-max-modal</code></td>
+    <td>Max <strong>528px</strong> (the modal width)</td>
   </tr>
 </table>
 
@@ -81,7 +81,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
         <div class="message has-background-blue-light has-text-weight-semibold"><br>Fifth<br><br></div>
       </div>
       <div class="column is-3 is-twisted">
-        <div class="message has-background-care-light has-text-weight-semibold"><br>Sixth<br><br></div>
+        <div class="message has-background-turquoise-light has-text-weight-semibold"><br>Sixth<br><br></div>
       </div>
       <div class="column is-3 is-twisted-bis">
         <div class="message has-background-yellow-light has-text-weight-semibold"><br>Seventh<br><br></div>
@@ -100,7 +100,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
       </div>
 <br>
 
-?> Column gap can be adjusted with modifier `is-gapless`, `is-smaller`, `is-small`, `is-large`.
+?> Column gap can be removed with modifier `is-gapless`.
 
 <br>
 <a href="https://bulma.io/documentation/columns/" target="blank" class="box is-raised has-text-grey">
