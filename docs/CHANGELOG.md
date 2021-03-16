@@ -3,6 +3,26 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-size-3 is-size-4-mobile">
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 16, 2021</span>
+<h2 class="title is-size-3-touch">Version 1.49</h2>
+<ul class="list">
+    <li><strong>Breaking changes!</strong>
+        <ul>
+            <li>– removed Pilot, Care and Claim variables (along with related components)</li>
+            <li>– <code>is-desktop/tablet/modal</code> container modifiers have been replaced with <code>is-max-desktop/tablet/modal</code></li>
+        </ul>
+    </li>
+    <li>New <span class="is-italic">Secondary</span> variable (essentially replacing <span class="is-italic">Claim</span>, see <a href="#/color" class="is-underlined">Colors</a> for more details)</li>
+    <li>New icons and refinements: <i>money-new-g, money-reception-g</i></li>
+    <li>New <code>is-ghost</code> button style</li>
+    <li>New modifiers: <code>is-size-smaller</code> and <code>is-size-bigger</code></li>
+    <li>Bulma updated to <u>0.9.2</u></li>
+    <li>Style adjustments and fixes to <i>Buttons, Wavy HRs, Typography highlights</i></li>
+    <li>V.1.46, 47 and 48 are included for free ; )</li>
+</ul>
+
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 8, 2021</span>
 <h2 class="title is-size-3-touch">Version 1.45</h2>
 <ul class="list">
