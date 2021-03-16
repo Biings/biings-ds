@@ -4,10 +4,9 @@
     font-weight: 500
     transition: background-color .15s linear, box-shadow .2s linear
 
-.button:not(.is-text,.is-borderless,.is-static)
+.button:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined,.is-static)
     box-shadow: rgba($black, .05) 0 1px 0 0
-
-.button:hover
+.button:hover:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined, .is-info, .is-warning, .is-danger, .is-success, .is-dark)
     background-color: $code-background
 
 .button.is-small
@@ -26,11 +25,6 @@
     background-position-y: 100%
     transition-duration: .25s
 
-.button.is-text
-    text-decoration: none
-    transition: color .1s linear
-.button.is-text:hover:not(:active)
-    color: $link-hover
 .button.is-text.has-text-grey:hover:not(:active)
     color: $grey-dark !important
 

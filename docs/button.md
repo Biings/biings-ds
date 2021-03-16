@@ -29,6 +29,11 @@
                 <td><hr>For secondary actions, like "Cancel".</td>
             </tr>
             <tr>
+                <td class="has-text-centered"><br><div class="button is-ghost">Ghost</div><br><br></td>
+                <td class="has-text-centered"><hr><code>is-ghost</code></td>
+                <td><hr>For link buttons, like "Browse all features".</td>
+            </tr>
+            <tr>
                 <td class="has-text-centered"><br><div class="button is-dark">Dark</div><br><br></td>
                 <td class="has-text-centered"><hr><code>is-dark</code></td>
                 <td><hr>Dark looking button.</td>
@@ -54,7 +59,7 @@
                 <td><hr>For important actions or links, like "Send a claim".</td>
             </tr>
             <tr>
-                <td class="has-text-centered"><br><div class="button is-danger">Dangerous</div><br><br></td>
+                <td class="has-text-centered"><br><div class="button is-danger">Danger</div><br><br></td>
                 <td class="has-text-centered"><hr><code>is-danger</code></td>
                 <td><hr>For dangerous actions, like "Delete".</td>
             </tr>
