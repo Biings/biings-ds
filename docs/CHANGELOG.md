@@ -18,13 +18,12 @@
     <li>New modifiers: <code>is-size-smaller</code> and <code>is-size-bigger</code></li>
     <li>Bulma updated to <u>0.9.2</u></li>
     <li>Style adjustments and fixes to <i>Buttons, Wavy HRs, Typography highlights</i></li>
-    <li>V.1.46, 47 and 48 are included for free ; )</li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 8, 2021</span>
-<h2 class="title is-size-3-touch">Version 1.45</h2>
+<h2 class="title is-size-3-touch">Version 1.48</h2>
 <ul class="list">
     <li>New Claim color</li>
     <li><strong>9 new icons</strong> and refinements:<br><i>hand-g, gears-g, door-g, export-g, share-g, heart-check-g, line-compact-g, line-relaxed-g, lightning-g, business-new-g</i></li>
@@ -34,6 +33,7 @@
     <li>Improved font weight distribution for secondary serif font</li>
     <li>Bulma updated to <u>0.9.1</u></li>
     <li>Style adjustments and fixes to <i>Buttons, Inputs, Typography, Modals, Menu, Tabs</i></li>
+    <li>V.1.45, 46 and 47 are included for free ; )</li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
