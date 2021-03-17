@@ -3,8 +3,9 @@
 ![](media/biings-ds-logo-bw.svg ':no-zoom')
 </a>
 
-- <span class="subtitle is-size-7 has-text-grey has-text-weight-medium is-uppercase">Foundation</span>
+- 
 <div class="menu is-small"><ul class="menu-list">
+- <p class="menu-label is-size-7 has-text-weight-semibold mb-2 pl-2">Foundation</p>
 - [Content](content)
 - [Layout](layout)
 - [Typography](typo)
@@ -14,8 +15,9 @@
 - [Modifiers](modifiers)
 </ul></div>
   
-- <span class="subtitle is-size-7 has-text-grey has-text-weight-medium is-uppercase">Components</span>
-<div class="menu is-small"><ul class="menu-list">
+- 
+<div class="menu is-small mt-1"><ul class="menu-list">
+- <p class="menu-label is-size-7 has-text-weight-semibold mb-2 pl-2">Components</p>
 - [Avatar](avatar)
 - [Box](box)
 - [Button / Link](button)

@@ -3,7 +3,6 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
-    background-color: #FAF8FC;
 }
 
 .box + pre
@@ -12,6 +11,7 @@ html
 }
 pre
 {
+    background-color: var();
     border-radius: 0;
 }
 pre code
@@ -40,13 +40,8 @@ svg.image
 blockquote
 {
     padding-left: 1rem;
-    border-left: 2px solid #9389e1;
+    border-left: 2px solid #8C50B9;
     color: #84848f;
-}
-footer
-{
-    letter-spacing: .2px;
-    line-height: 1.5em;
 }
 footer > .level
 {
@@ -59,7 +54,7 @@ footer:hover > .level
 }
 section.cover
 {
-    background: #efecf4 !important;
+    background: #EFECF2 !important;
     
 }
 section.cover .cover-main
@@ -86,12 +81,12 @@ div.content
 .markdown-section p.tip
 {
     padding: .75rem 1.6rem;
-    border-color: #fbc254;
+    border-color: #F2BB50;
     background-color: rgba(251, 194, 84,.15);
 }
 .markdown-section p.tip::before
 {
-    background-color: #fbc254;
+    background-color: #F2BB50;
     font-weight: 700;
     font-family: Averta,Helvetica Neue,Arial,sans-serif;
 }

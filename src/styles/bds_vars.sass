@@ -15,19 +15,19 @@ $green          : #7db950 !default
 $yellow         : #ffc748 !default
 $turquoise      : #00c8b5 !default
 
-$black          : #1a0e23 !default
-$black-bis      : #241a2e !default
-$black-ter      : #2d2236 !default
+$black          : #130a1a !default
+$black-bis      : #241b27 !default
+$black-ter      : #2d232e !default
 
-$grey-darker    : #514759 !default
-$grey-dark      : #706777 !default
-$grey           : #9c94a2 !default
-$grey-light     : #c8c3cd !default
-$grey-lighter   : #dfdbe3 !default
-$grey-lightest  : #e7e3ea !default
+$grey-darker    : #51434b !default
+$grey-dark      : #706266 !default
+$grey           : #9c9090 !default
+$grey-light     : #c8c0bd !default
+$grey-lighter   : #dfdad7 !default
+$grey-lightest  : #e7e2e0 !default
 
-$white-ter      : #efecf2 !default
-$white-bis      : #FAF8FC !default
+$white-ter      : #efebe9 !default
+$white-bis      : #FAF7F5 !default
 $white          : #ffffff !default
 
 // Main colors
@@ -156,7 +156,7 @@ $text-strong: inherit !default
 // Code colors
 
 $code: $primary
-$code-background: rgba($primary-dark,0.05) !default
+$code-background: rgba($grey-darker,0.05) !default
 
 $pre: $dark
 $pre-background: $code-background
@@ -220,7 +220,7 @@ $title-sub-size: 0.75em !default
 $title-sup-size: 0.75em !default
 $title-line-height: 1 !default
 
-$subtitle-color: $grey !default
+$subtitle-color: $text !default
 $subtitle-size: $size-4 !default
 $subtitle-weight: $weight-normal !default
 $subtitle-strong-weight: $weight-semibold !default
@@ -302,7 +302,7 @@ $box-link-hover-shadow: !default
 $box-link-active-shadow: !default
 
 $modal-content-width: 33rem !default
-$modal-background-background-color: rgba(mix($black,$dark,50), .4) !default
+$modal-background-background-color: rgba($black-ter, .4) !default
 $modal-card-body-background-color: white !default
 $modal-card-head-background-color: white !default
 $modal-card-head-border-bottom: none !default
@@ -360,8 +360,8 @@ $input-color: $black !default
 $input-placeholder-color: rgba($input-color, 0.35) !default
 $input-arrow: $grey !default
 $input-hover-color: $input-color !default
-$input-border-color: rgba($black,.125) !default
-$input-hover-border-color: rgba($black,.2) !default
+$input-border-color: rgba($black,.15) !default
+$input-hover-border-color: mix($black-bis,$input-border-color,15) !default
 $input-focus-border-color: rgba($primary,0.8) !default
 $input-focus-box-shadow-size: 0 0 0 0 !default
 $input-focus-box-shadow-color: transparent !default
@@ -376,7 +376,7 @@ $menu-item-active-color: $white !default
 $menu-item-active-background-color: rgba($primary-dark, 0.95) !default
 $menu-list-border-left: 2px solid $menu-item-hover-background-color !default
 $menu-list-line-height: inherit !default
-$menu-label-color: $purple !default
+$menu-label-color: $primary !default
 $menu-label-font-size: .8125rem !default
 $menu-label-letter-spacing: 0.1px !default
 $menu-label-spacing: 1em !default
@@ -385,10 +385,10 @@ $table-color: $text !default
 $table-background-color: transparent !default
 $table-cell-border: 1px solid $code-background !default
 $table-cell-border-width: 0 0 1px !default
-$table-row-hover-background-color: rgba($primary,0.075) !default
-$table-striped-row-even-background-color: rgba($dark,0.03) !default
+$table-row-hover-background-color: $code-background !default
+$table-striped-row-even-background-color: $code-background !default
 $table-striped-row-even-hover-background-color: $table-row-hover-background-color !default
-$table-row-active-background-color: rgba($primary,0.1) !default
+$table-row-active-background-color: rgba($purple,0.1) !default
 $table-row-active-color: $code-background !default
 
 // Tabs
@@ -397,8 +397,8 @@ $tabs-link-padding: 0.75em 1.125em 1em !default
 $tabs-link-hover-border-bottom-color: transparent !default
 $tabs-link-active-border-bottom-color: transparent !default
 $tabs-border-bottom-width: 1px !default
-$tabs-link-color: mix($grey-light,$grey,50) !default
-$tabs-link-hover-color: $dark !default
+$tabs-link-color: $dark !default
+$tabs-link-hover-color: $tabs-link-color !default
 $tabs-link-active-color: $tabs-link-hover-color !default
 $tabs-boxed-link-radius: $radius-large !default
 $tabs-boxed-link-active-border-color: $tabs-border-bottom-color !default

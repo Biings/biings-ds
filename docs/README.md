@@ -17,7 +17,7 @@
         <a href="#/content" class="box is-medium has-background-primary-dark is-raised hover-to-popping">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="is-size-7">
-            <h3 class="title has-text-white">Foundation</h3>
+            <h3 class="title has-text-white is-family-primary has-text-weight-bold is-tight">Foundation</h3>
             <p class="subtitle is-5 has-text-white is-dimmed">Content, Layout, Color, etc</p>
         </a>
     </div>
@@ -25,7 +25,7 @@
         <a href="#/avatar" class="box is-medium has-background-primary-gradient is-floating hover-to-popping">
             <img src="media/components.png" width="58" class="no-zoom"/>
             <hr class="is-size-7">
-            <h3 class="title has-text-white">Components</h3>
+            <h3 class="title has-text-white is-family-primary has-text-weight-bold is-tight">Components</h3>
             <p class="subtitle is-5 has-text-white is-dimmed">All you need to build your UIs</p>
         </a>
     </div>
@@ -38,10 +38,10 @@
         <div class="level-item">
             <img src="https://img.shields.io/npm/v/biings-ds.svg?color=%23815BC3&label=npm&style=flat-square" alt="biings-ds">
         </div>
-        <div class="level-item has-text-grey-light">&nbsp;/</div>
+        <div class="level-item is-dimmed">&nbsp;/</div>
         <div class="level-item">
             <a href="#/CHANGELOG"
-               class="is-size-6 has-text-weight-medium">Release Notes</a>
+               class="is-size-6 has-text-weight-medium is-underlined">Release Notes</a>
         </div>
     </div>
 </div>
@@ -57,15 +57,15 @@
 
 <strong>2 )&nbsp;</strong> The two files below are enough to start using BDS (fonts must be added seperately).<br><br>
 
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box has-background-light" download>→ <strong class="is-monospace">bds.css</strong><br><i class="has-text-grey-dark">The only CSS file you'll need to use Biings DS.</i></a>
-<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box has-background-light" download>→ <strong class="is-monospace">bds-icons.svg</strong><br><i class="has-text-grey-dark">An SVG sprite that includes all Biings DS icons.</i></a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds.css" class="box is-well" download>→ <strong class="is-monospace">bds.css</strong><br><i class="is-dimmed">The only CSS file you'll need to use Biings DS.</i></a>
+<a href="https://raw.githubusercontent.com/biings/biings-ds/master/build/bds-icons.min.svg" class="box is-well" download>→ <strong class="is-monospace">bds-icons.svg</strong><br><i class="is-dimmed">An SVG sprite that includes all Biings DS icons.</i></a>
 
 <hr>
 <strong>3 )&nbsp;</strong> Read the doc, enjoy BDS. ✌️
 
 <hr class="is-size-2">
 
-<div class="box is-popping is-large">
+<div class="box is-large is-well">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <h2 class="title is-spaced">Want to <u>contribute?</u></h2>
