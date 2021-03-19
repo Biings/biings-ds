@@ -63,7 +63,7 @@
             <td>Makes the text <strong>centered</strong></td>
         </tr>
         <tr>
-            <td><code>has-text-weight-[w]</code></td>
+            <td><code>has-text-weight-[..]</code></td>
             <td>Changes text <strong>weight</strong> to:<br><code>light</code>, <code>normal</code>, <code>medium</code>, <code>semibold</code>, <code>bold</code>, <code>bolder</code></td>
         </tr>
         <tr>
@@ -108,13 +108,9 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="8">Radius</th>
+            <th rowspan="7">Radius</th>
             <td><code>has-radius-bold</code></td>
             <td>Applies a strong <strong>radius</strong> on all corners</td>
-        </tr>
-        <tr>
-            <td><code>has-radius-subtle-[tl,tr,bl,br]</code></td>
-            <td>Applies a subtle <strong>radius</strong> on a specific corner</td>
         </tr>
         <tr>
             <td><code>is-radiusless</code></td>

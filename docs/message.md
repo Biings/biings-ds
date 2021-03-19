@@ -17,6 +17,8 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
     <br>
     <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>
     <br>
+    <div class="message is-warning">A <strong>warning</strong> message!</div>
+    <br>
     <div class="message is-size-4 is-success">Big success message</div>
     <br>
     <div class="message is-dark is-size-6">A small <strong>dark</strong> message&nbsp; 👀</div>
@@ -24,7 +26,7 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 
     <div class="message">Default Message.</div>
     <div class="message is-info">An info message 💁‍♂️</div>
-    <div class="message is-warning is-size-4">Big warning message.</div>
+    <div class="message is-success is-size-4">Big success message.</div>
     etc...
 <hr class="is-visible is-size-1">
 
