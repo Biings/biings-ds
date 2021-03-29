@@ -195,7 +195,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-success is-square is-shadowed is-rounded">
+            <div class="button is-success is-square is-rounded">
                 <svg class="icon"><use xlink:href="media/bds-icons.min.svg#lightning-g"></use></svg>
             </div>
         </div>
