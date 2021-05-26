@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h2 class="title"><span class="is-size-smaller">Font family</span></h2>
+<h3 class="title is-family-primary">Font family</h3>
 
 <ul class="list">
     <li>For maximum legibility Biings DS uses <span class="is-family-primary has-text-weight-medium">Averta</span> as its primary font family (with a purchased licence).</li>
@@ -18,7 +18,7 @@
 ?> Use class `is-italic` for italic variations – only available for the Primary family.
 
 <hr class="is-size-1 is-visible">
-<h2 class="title"><span class="is-size-smaller">Scales</span></h2>
+<h3 class="title is-family-primary">Scales</h3>
 
 All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should use sizes 1, 2 or 3 ; texts should use sizes 4, 5 or 6. An extra <u>7th size</u> can be used in special components.
 
@@ -73,7 +73,7 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 </div>
 
 <hr class="is-size-1 is-visible">
-<h2 class="title"><span class="is-size-smaller">Font weights</span></h2>
+<h3 class="title is-family-primary">Font weights</h3>
 
 Use font weights to emphasize or differentiate content hierarchy.  
 <i>Example:</i> `has-text-weight-semibold`
@@ -88,7 +88,7 @@ Use font weights to emphasize or differentiate content hierarchy.
 </ul>
 
 <hr class="is-size-1 is-visible">
-<h2 class="title"><span class="is-size-smaller">Emphasizers</span></h2>
+<h3 class="title is-family-primary">Emphasizers</h3>
 
 Use one of the following tags to emphasize words or part of a text.
 

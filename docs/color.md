@@ -4,7 +4,7 @@
 <p class="is-size-4 has-text-dark"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
 <hr class="is-visible is-size-3">
 <br>
-<h2 class="title"><span class="is-size-smaller">Brand</span></h2>
+<h3 class="title is-family-primary">Brand</h3>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -12,12 +12,11 @@ Brand colors are used when refering to Biings or any of its products.
 
 <div class="columns is-multiline">
     
-    <div class="column is-5"><div class="has-background-primary has-shadow"><br><br></div><strong class="has-text-weight-bold">primary</strong> <br><span class="is-dimmed is-family-monospace">#8C50B9</span></div>
-    <div class="column is-4"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="is-dimmed"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
-    <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="is-dimmed is-family-monospace">#46285D</span></div>
+    <div class="column is-6"><div class="has-background-primary has-shadow"><br><br></div><strong class="has-text-weight-bold">primary</strong> <br><span class="is-dimmed is-family-monospace">#8C50B9</span></div>
+    <div class="column is-6"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="is-dimmed"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
     <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="is-dimmed is-family-monospace">#46285D</span></div>
     <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="is-dimmed is-family-monospace">#5B3478</span></div>
-    <div class="column is-3"><div class="has-background-primary"><br><br></div><strong>primary / pilot</strong><br><span class="is-dimmed is-family-monospace">#8C50B9</span></div>
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="is-dimmed is-family-monospace">#AF85CE</span></div>
     <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="is-dimmed is-family-monospace">#EEE5F5</span></div>
     <div class="column is-12"></div>
@@ -29,29 +28,29 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">(Grey)scale</span></h2>
+<h3 class="title is-family-primary">(Grey)scale</h3>
 
 <hr>
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="is-dimmed is-family-monospace">#EFECF2</span></div>
-    <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF8FC</span></div>
+    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="is-dimmed is-family-monospace">#EFEBE9</span></div>
+    <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF7F5</span></div>
     <div class="column is-3"><div class="has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white</strong><br><span class="is-dimmed is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="is-dimmed is-family-monospace">#706777</span></div>
-    <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="is-dimmed is-family-monospace">#9C94A2</span></div>
-    <div class="column is-3"><div class="has-background-grey-light"><br><br></div><strong>grey-light</strong><br><span class="is-dimmed is-family-monospace">#C8C3CD</span></div>
-    <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><strong>grey-lighter</strong><br><span class="is-dimmed is-family-monospace">#DFDBE3</span></div>
+    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="is-dimmed is-family-monospace">#706266</span></div>
+    <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="is-dimmed is-family-monospace">#9C9090</span></div>
+    <div class="column is-3"><div class="has-background-grey-light"><br><br></div><strong>grey-light</strong><br><span class="is-dimmed is-family-monospace">#C8C0BD</span></div>
+    <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><strong>grey-lighter</strong><br><span class="is-dimmed is-family-monospace">#DFDAD7</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-black"><br><br></div><strong>black</strong><br><span class="is-dimmed is-family-monospace">#1A0E23</span></div>
-    <div class="column is-3"><div class="has-background-black-bis"><br><br></div><strong>black-bis</strong><br><span class="is-dimmed is-family-monospace">#241A2E</span></div>
-    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><strong>black-ter</strong><br><span class="is-dimmed is-family-monospace">#2D2236</span></div>
-    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="is-dimmed is-family-monospace">#514759</span></div>
+    <div class="column is-3"><div class="has-background-black"><br><br></div><strong>black</strong><br><span class="is-dimmed is-family-monospace">#130A1A</span></div>
+    <div class="column is-3"><div class="has-background-black-bis"><br><br></div><strong>black-bis</strong><br><span class="is-dimmed is-family-monospace">#241B27</span></div>
+    <div class="column is-3"><div class="has-background-black-ter"><br><br></div><strong>black-ter</strong><br><span class="is-dimmed is-family-monospace">#2D232E</span></div>
+    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="is-dimmed is-family-monospace">#51434B</span></div>
 </div>
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Palette</span></h2>
+<h3 class="title is-family-primary">Palette</h3>
 
 <hr>
 
@@ -104,14 +103,14 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Status</span></h2>
+<h3 class="title is-family-primary">Status</h3>
 
 <hr>
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-success-dark"><br><br></div><strong>success-dark</strong><br><span class="is-dimmed is-family-monospace">#128C79</span></div>
-    <div class="column is-3"><div class="has-background-success has-shadow"><br><br></div><strong>success</strong><br><span class="is-dimmed is-family-monospace">#149F89</span></div>
-    <div class="column is-3"><div class="has-background-success-light" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>success-light</strong><br><span class="is-dimmed is-family-monospace">#EDFDFA</span></div>
+    <div class="column is-3"><div class="has-background-success-dark"><br><br></div><strong>success-dark</strong><br><span class="is-dimmed is-family-monospace">#46A34D</span></div>
+    <div class="column is-3"><div class="has-background-success has-shadow"><br><br></div><strong>success</strong><br><span class="is-dimmed is-family-monospace">#50B957</span></div>
+    <div class="column is-3"><div class="has-background-success-light" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>success-light</strong><br><span class="is-dimmed is-family-monospace">#F0F9F1</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-info-dark"><br><br></div><strong>info-dark</strong><br><span class="is-dimmed is-family-monospace">#2362AD</span></div>
     <div class="column is-3"><div class="has-background-info has-shadow"><br><br></div><strong>info</strong><br><span class="is-dimmed is-family-monospace">#2973CC</span></div>
@@ -125,7 +124,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">CSS variables</span></h2>
+<h3 class="title is-family-primary">CSS variables</h3>
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
@@ -143,7 +142,7 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Special Backgrounds</span></h2>
+<h3 class="title is-family-primary">Special Backgrounds</h3>
 
 Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown menu)
 
@@ -208,7 +207,7 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Blurred Background</span></h2>
+<h3 class="title is-family-primary">Blurred Background</h3>
 
 Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
 
@@ -229,8 +228,8 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
 <div class="box is-large is-popping has-background-info-gradient">
     <span class="tag is-info is-medium">Bonus</span>
     <hr class="is-marginless is-wavy">
-    <h2 class="title has-text-weight-bolder is-tight"><span class="is-size-smaller">Slack Theme ✨</span></h2>
+    <h3 class="title is-family-primary"><span class="is-size-smaller">Slack Theme ✨</h3>
     <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #2D232E,#2D2236,#8C50B9,#FFFFFF,#51434B,#FAF7F5,#A4CE85,#AA50B5,#241B27,#EFEAE8
+    #2D2236,#2D2236,#8C50B9,#FFFFFF,#46285D,#EFEBE9,#A4CE85,#AA50B5,#1A0E23,#EFEBE9
 </div>

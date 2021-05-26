@@ -48,7 +48,7 @@
 
 <hr class="is-size-2 is-size-3-touch is-visible is-wavy">
 
-<h2 class="title"><span class="is-size-smaller">Quick start</span></h2><br>
+<h3 class="title is-family-primary">Quick start</h3><br>
 
 <strong>1 )&nbsp;</strong> Install BDS in your project using the npm package <code>biings-ds</code>.<br><br>
 

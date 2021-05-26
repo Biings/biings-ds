@@ -119,6 +119,16 @@
     color: $danger
     transition: none
 
+.button.is-dark.is-outlined
+    box-shadow: inset 0 0 0 1px $dark
+.button.is-dark.is-outlined:focus,
+.button.is-dark.is-outlined:hover,
+.button.is-dark.is-outlined.is-focused,
+.button.is-dark.is-outlined.is-hovered
+    background-color: rgba($dark,.07)
+    color: $dark
+    transition: none
+
 .button.is-inverted.is-outlined
     box-shadow: inset 0 0 0 1px white
 .button.is-inverted.is-outlined:focus,
@@ -224,7 +234,7 @@
 a,
 .is-link
     vertical-align: baseline
-    transition: all .1s ease-out !important
+    transition: all .2s ease-out !important
 
 a.is-underlined:not(.is-regular),
 .is-link.is-underlined:not(.is-regular),

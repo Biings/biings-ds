@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h2 class="title"><span class="is-size-smaller">How to use</span></h2>
+<h3 class="title is-family-primary">How to use</h3>
 
 BDS iconography is available as an SVG sprite to include in your HTML page.<br>
 To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
@@ -16,7 +16,7 @@ To display an icon or glyph use an `<svg>` tag with an `xlink:href` attribute.
     <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Logos</span></h2>
+<h3 class="title is-family-primary">Logos</h3>
 
 Logo icons should **not be less than 16px** (width and height).
 
@@ -30,7 +30,7 @@ Logo icons should **not be less than 16px** (width and height).
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Glyphs</span></h2>
+<h3 class="title is-family-primary">Glyphs</h3>
 
 Glyphs are mostly used to be part of an actionable component, like a button or dropdown.
 <br>They should **not exceed 28 pixels** (width and height).
@@ -180,7 +180,7 @@ Glyphs are mostly used to be part of an actionable component, like a button or d
 
 <hr class="is-size-1 is-visible">
 
-<h2 class="title"><span class="is-size-smaller">Icons</span></h2>
+<h3 class="title is-family-primary">Icons</h3>
 
 Icons are mostly used to provide a visual accompaniment to other UI components.<br>
 They should **not be less than 32 pixels** (width and height).

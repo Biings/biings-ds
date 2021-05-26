@@ -12,7 +12,7 @@
 
 <hr class="is-size-4">
 
-<h2 class="title"><span class="is-size-smaller">Input field variations</span></h2>
+<h3 class="title is-family-primary">Input field variations</h3>
 
 <br><form class="box is-raised is-large is-marginless is-radiusless-b" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
@@ -56,7 +56,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">With Icons</span></h2>
+<h3 class="title is-family-primary">With Icons</h3>
 
 You can add one or two icons inside the input.
 

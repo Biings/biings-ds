@@ -28,7 +28,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Hanging Tabs</span></h2>
+<h3 class="title is-family-primary">Hanging Tabs</h3>
 
 Hanging Tabs have their active line placed above each item.
 
@@ -67,7 +67,7 @@ Hanging Tabs have their active line placed above each item.
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Toggle Tabs</span></h2>
+<h3 class="title is-family-primary">Toggle Tabs</h3>
 
 Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle`, `is-fullwidth`, `is-toggle-rounded` and `is-transparent` classes.
 
@@ -102,7 +102,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Animated toggle tabs</span></h2>
+<h3 class="title is-family-primary">Animated toggle tabs</h3>
 
 Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<li></li>`.
 
@@ -149,7 +149,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Boxed Tabs</span></h2>
+<h3 class="title is-family-primary">Boxed Tabs</h3>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
 

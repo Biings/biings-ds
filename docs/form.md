@@ -7,7 +7,7 @@
 <p class="is-size-4 has-text-dark">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
 <hr class="is-visible is-size-3"><br>
 
-<h2 class="title"><span class="is-size-smaller">Input field</span></h2>
+<h3 class="title is-family-primary">Input field</h3>
 
 Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to change the status.
 
@@ -59,7 +59,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
         </div>
     </form>
 <hr class="is-visible is-size-1">
-<h2 class="title"><span class="is-size-smaller">Required or Optional</span></h2>
+<h3 class="title is-family-primary">Required or Optional</h3>
 
 In most cases it is better to indicate the optional fields rather than the required ones. Add a `span` inside the label saying "Optional" is the way to go.
 
@@ -104,7 +104,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Select field</span></h2>
+<h3 class="title is-family-primary">Select field</h3>
 
 <br><form class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="field select is-warning">
@@ -129,7 +129,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Dropdown Field</span></h2>
+<h3 class="title is-family-primary">Dropdown Field</h3>
 
 <br><form class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="dropdown is-hoverable is-fullwidth is-iconless">
@@ -167,7 +167,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Checkbox / Radio field</span></h2>
+<h3 class="title is-family-primary">Checkbox / Radio field</h3>
 
 <br><form class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="columns is-multiline is-small">
@@ -237,7 +237,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h2 class="title"><span class="is-size-smaller">Compact Form</span></h2>
+<h3 class="title is-family-primary">Compact Form</h3>
 
 Group similar field together by adding `is-gapless` to the wrapping `columns` container.
 
