@@ -38,7 +38,7 @@
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
-            <th rowspan="13">Text</th>
+            <th rowspan="12">Text</th>
             <td><code>is-size-[1 to 7]</code></td>
             <td>Changes the <strong>text size</strong> – default is <code>5</code></td>
         </tr>
@@ -86,10 +86,10 @@
             <td><code>is-unselectable</code></td>
             <td>Prevents the text from being <strong>selectable</strong></td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td><code>is-tight</code></td>
             <td>Shrinks the text's <strong>letter spacing</strong></td>
-        </tr>
+        </tr> -->
         <tr>
             <th rowspan="4">Spacing</th>
             <td><code>m[t,b,l,r,x,y]-[0–6]</code></td>

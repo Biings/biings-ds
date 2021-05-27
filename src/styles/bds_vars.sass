@@ -88,17 +88,12 @@ $warning        : mix($secondary, $yellow, 25) !default
 $danger         : $red !default
 
 // Additional colors (NOT BULMA) ————————————————————
-$info-dark      : mix(black, $info, 15) !default
+
 $info-lighter   : mix(white, $info, 80) !default
+$success-lighter: mix(white, $success, 80) !default
+$warning-lighter: mix(white, $warning, 80) !default
+$danger-lighter : mix(white, $danger, 80) !default
 
-$success-dark      : mix(black, $success, 12) !default
-$success-lighter   : mix(white, $success, 80) !default
-
-$warning-dark      : mix(black, $warning, 15) !default
-$warning-lighter   : mix(white, $warning, 80) !default
-
-$danger-dark      : mix(black, $danger, 15) !default
-$danger-lighter   : mix(white, $danger, 80) !default
 // ———— (NOT BULMA END) ————————————————————————————
     
 // Invert colors
@@ -117,16 +112,16 @@ $primary-light: mix(white, $primary, 20) !default
 $primary-dark: mix(black, $primary, 35) !default
 $info-invert: findColorInvert($info) !default
 $info-light: findLightColor($info) !default
-$info-dark: findDarkColor($info) !default
+$info-dark: mix(black, $info, 15) !default
 $success-invert: findColorInvert($success) !default
 $success-light: findLightColor($success) !default
-$success-dark: findDarkColor($success) !default
+$success-dark: mix(black, $success, 12) !default
 $warning-invert: $black !default
 $warning-light: findLightColor($warning) !default
-$warning-dark: findDarkColor($warning) !default
+$warning-dark: mix(black, $warning, 15) !default
 $danger-invert: findColorInvert($danger) !default
 $danger-light: findLightColor($danger) !default
-$danger-dark: findDarkColor($danger) !default
+$danger-dark: mix(black, $danger, 15) !default
 $light-invert: $black-ter !default
 $dark-invert: $light !default
 

@@ -7,17 +7,11 @@
 .box.is-medium
     padding: 2rem 2.5rem
 
-.box.is-large
-    padding: 2.875em 3em
-
-.box.is-larger
-    padding: 3.5em 4em
-
-@media screen and (max-width: 768px)
-    .box.is-large,
+@media screen and (min-width: 769px)
+    .box.is-large
+        padding: 2.875em 3em
     .box.is-larger
-        padding-right: 1rem
-        padding-left: 1rem
+        padding: 3.5em 4em
 
 .box.is-bordered,
 .box.hover-to-bordered:hover
