@@ -23,9 +23,11 @@ Logo icons should **not be less than 16px** (width and height).
 <br><br>
 
 <div class="columns is-multiline is-mobile is-size-6 has-text-centered has-text-grey is-large">
-    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
-    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-purple"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
-    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-secondary"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#biings"></use></svg></div>biings</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#biings-pilot"></use></svg></div>biings-pilot</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#biings-claim"></use></svg></div>biings-claim</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#android-logo"></use></svg></div>android-logo</div>
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-32x32 has-fill-black-ter"><use xlink:href="media/bds-icons.min.svg#apple-logo"></use></svg></div>apple-logo</div>
 </div>
 
 <hr class="is-size-1 is-visible">
@@ -38,6 +40,7 @@ Glyphs are mostly used to be part of an actionable component, like a button or d
 <br><br>
 
 <div class="columns is-multiline is-mobile is-size-6 has-text-centered has-text-grey is-medium">
+    <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-dark"><use xlink:href="media/bds-icons.min.svg#accident-g"></use></svg></div>accident-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-dark"><use xlink:href="media/bds-icons.min.svg#accident-g"></use></svg></div>accident-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-dark"><use xlink:href="media/bds-icons.min.svg#accident-pro-g"></use></svg></div>accident-pro-g</div>
     <div class="column is-4-mobile is-3-tablet is-2-desktop hover-to-black"><div class="box is-small"><svg class="image is-24x24 has-fill-dark"><use xlink:href="media/bds-icons.min.svg#action-g"></use></svg></div>action-g</div>
