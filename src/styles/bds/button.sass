@@ -234,7 +234,7 @@
 a,
 .is-link
     vertical-align: baseline
-    transition: all .2s ease-out !important
+    transition: all .2s ease !important
 
 a.is-underlined:not(.is-regular),
 .is-link.is-underlined:not(.is-regular),
@@ -249,9 +249,8 @@ a:hover > .is-link.is-ghost:not(.is-underlined)
 a.is-underlined,
 .is-link.is-underlined
     text-decoration: underline
-    text-underline-offset: .125em
-    text-decoration-thickness: .0625em
-    text-decoration-width: .0625em
+    text-decoration-thickness: .1em
+    text-decoration-width: .1em
     transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
 
 a.is-underlined.is-ghost,
@@ -265,4 +264,4 @@ a:hover > .is-link.is-underlined.is-ghost
     text-decoration: underline
     text-decoration-thickness: .2em
     text-decoration-width: .2em
-    text-decoration-color: mix($purple-light, $link, 25)
+    text-decoration-color: $link
