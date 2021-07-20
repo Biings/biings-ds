@@ -137,11 +137,7 @@
             <td>Removes <strong>bottom right radius</strong></td>
         </tr>
         <tr>
-            <th rowspan="11">Visibility</th>
-            <td><code>is-mask</code></td>
-            <td>Makes the element act as a <strong>mask applied to its relative siblings</strong>.</td>
-        </tr>
-        <tr>
+            <th rowspan="10">Visibility</th>
             <td><code>is-shadowless</code></td>
             <td>Removes any <strong>shadow</strong></td>
         </tr>
