@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-well is-medium is-marginless is-radiusless-b">
+<div class="box is-raised is-medium is-marginless is-radiusless-b">
     <span class="tag">Two</span>
     <span class="tag">Tags</span>
     <span class="tag is-shaked">Shaking</span>
@@ -26,7 +26,7 @@ The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
 <br>
 
-<div class="box is-well is-large">
+<div class="box is-raised is-large">
     <span class="tag is-tiny">Tiny</span>
     <span class="tag is-small">Small</span>
     <span class="tag">Normal</span>

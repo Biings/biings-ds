@@ -19,8 +19,8 @@ $black          : #130a1a !default
 $black-bis      : #241b27 !default
 $black-ter      : #2d232e !default
 
-$grey-darker    : #51434b !default
-$grey-dark      : #706266 !default
+$grey-darker    : #6d5f64 !default
+$grey-dark      : #8a7d7f !default
 $grey           : #9c9090 !default
 $grey-light     : #c8c0bd !default
 $grey-lighter   : #dfdad7 !default
@@ -32,10 +32,11 @@ $white          : #ffffff !default
 
 // Main colors
 $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
-$light          : $white-ter !default
+$light          : #eae9eb !default
 $dark           : mix(black, $primary, 50) !default
 
 // Special colors (NOT BULMA) —————————————————————
+$primary-lightest: mix(white, $primary, 95) !default
 $primary-lighter: mix(white, $primary, 85) !default
 
 $secondary          : #cb9569 !default
@@ -151,7 +152,7 @@ $text-strong: inherit !default
 // Code colors
 
 $code: $primary
-$code-background: rgba($grey-darker,0.05) !default
+$code-background: rgba($black-ter,0.045) !default
 
 $pre: $dark
 $pre-background: $code-background
@@ -335,13 +336,13 @@ $control-border-width: 2px !default
 $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
 
-$button-background-color: transparent !default
-$button-border-color: $grey-lighter !default
+$button-background-color: white !default
+$button-border-color: $light !default
 $button-border-width: 1px !default
 $button-hover-color: inherit !default
-$button-hover-border-color: $button-border-color !default
+$button-hover-border-color: mix(black,$button-border-color,6) !default
 $button-active-color: $text !default
-$button-active-border-color: mix(black,$button-border-color,6) !default
+$button-active-border-color: $button-hover-border-color !default
 $button-padding-vertical: calc(0.25em - #{$button-border-width}) !default
 $button-static-color: inherit !default
 $button-static-background-color: transparent !default

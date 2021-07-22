@@ -1,9 +1,8 @@
 <hr class="is-hidden-tablet is-size-7">
-<span class="is-relative has-background-white-bis has-text-black is-size-4 is-size-5-mobile has-text-weight-semibold">
-    <div class="has-background-primary-gradient is-mask is-overlay"></div>
+<span class="is-size-4 is-size-5-mobile has-text-weight-semibold has-text-grey-darker">
     biings-ds
 </span>
-<hr class="mt-1 mb-0">
+<hr class="my-1">
 <h1 class="title has-text-weight-bolder is-family-primary is-hidden-touch is-tight">Biings<span class="has-text-weight-normal">&nbsp;Design system</span></h1>
 <h1 class="title is-2 has-text-weight-bolder is-family-primary is-hidden-desktop is-tight">Biings<br><span class="has-text-weight-normal">Design system</span></h1>
 <hr class="my-5 is-visible has-background-info-gradient">

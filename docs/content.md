@@ -15,17 +15,17 @@ Try to remove any unnecessary words or phrase.
     <table class="table is-fullwidth is-brdered is-marginless">
         <thead>
             <tr>
-                <th align width="40%"><svg class="icon is-size-4 has-fill-secondary-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th align width="40%"><svg class="icon is-size-4 has-fill-danger-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
                 <th align width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="has-text-grey"><strong>Alerte de Retour</strong><br>cette notification expire dans 5 jours</td>
+                <td class="is-dimmed"><strong>Alerte de Retour</strong><br>cette notification expire dans 5 jours</td>
                 <td><strong>Alerte de Retour</strong><br>expire dans 5 jours</td>
             </tr>
             <tr>
-                <td class="has-text-grey">Delete two absences?</td>
+                <td class="is-dimmed">Delete two absences?</td>
                 <td>Delete 2 absences?</td>
             </tr>
         </tbody>
@@ -41,21 +41,21 @@ Content should not feel complex or distant. Rather, it should be like a conversa
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th align width="40%"><svg class="icon is-size-4 has-fill-secondary-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th align width="40%"><svg class="icon is-size-4 has-fill-danger-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
                 <th align width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="has-text-grey">M. Ruiz sera de retour le 28/02/2020</td>
+                <td class="is-dimmed">M. Ruiz sera de retour le 28/02/2020</td>
                 <td>Juan revient demain.</td>
             </tr>
             <tr>
-                <td class="has-text-grey">Wrong URL! No page at this address.</td>
+                <td class="is-dimmed">Wrong URL! No page at this address.</td>
                 <td>You didn’t do anything wrong. We may have moved the page you’re looking for somewhere else.</td>
             </tr>
             <tr>
-                <td class="has-text-grey">L'adresse email est manquante.</td>
+                <td class="is-dimmed">L'adresse email est manquante.</td>
                 <td>Indiquez une adresse email pour que nous puissions vous répondre.</td>
             </tr>
         </tbody>
@@ -70,17 +70,17 @@ Content should not feel complex or distant. Rather, it should be like a conversa
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th align width="40%"><svg class="icon is-size-4 has-fill-secondary-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th align width="40%"><svg class="icon is-size-4 has-fill-danger-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
                 <th align width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="has-text-grey">This will send you a notification.</td>
+                <td class="is-dimmed">This will send you a notification.</td>
                 <td>This sends you a notification.</td>
             </tr>
             <tr>
-                <td class="has-text-grey">The absence has been deleted.</td>
+                <td class="is-dimmed">The absence has been deleted.</td>
                 <td>The absence was deleted.</td>
             </tr>
         </tbody>
@@ -98,13 +98,13 @@ Use an active voice for most of your content, especially when it involves a huma
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th align width="40%"><svg class="icon is-size-4 has-fill-secondary-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th align width="40%"><svg class="icon is-size-4 has-fill-danger-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
                 <th align width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <td class="has-text-grey">Next, a meeting is scheduled by the manager.</td>
+            <td class="is-dimmed">Next, a meeting is scheduled by the manager.</td>
             <td>Next, the manager schedules a meeting.</td>
             </tr>
         </tbody>
@@ -118,13 +118,13 @@ Use an active voice for most of your content, especially when it involves a huma
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
-                <th align width="40%"><svg class="icon is-size-4 has-fill-secondary-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
+                <th align width="40%"><svg class="icon is-size-4 has-fill-danger-dark" style="transform: rotate(45deg);"><use xlink:href="media/bds-icons.min.svg#plus-g"></use></svg></th>
                 <th align width="60%"><svg class="icon is-size-4 has-fill-success"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <td class="has-text-grey">Someone needs to synchronise the database.</td>
+            <td class="is-dimmed">Someone needs to synchronise the database.</td>
             <td>The database needs to be synchronised.</td>
             </tr>
         </tbody>

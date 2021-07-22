@@ -15,15 +15,18 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-6"><div class="has-background-primary has-shadow"><br><br></div><strong class="has-text-weight-bold">primary</strong> <br><span class="is-dimmed is-family-monospace">#8C50B9</span></div>
     <div class="column is-6"><div class="has-shadow" style="background-color: #8246AF;"><br><br></div><strong>PANTONE<sup>®</sup> 2587 C</strong><br><span class="is-dimmed"> (<span class="is-family-monospace">#8246AF</span>)</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="is-dimmed is-family-monospace">#46285D</span></div>
     <div class="column is-3"><div class="has-background-primary-dark"><br><br></div><strong>primary-dark</strong><br><span class="is-dimmed is-family-monospace">#5B3478</span></div>
     <div class="column is-3"><div class="has-background-primary-light"><br><br></div><strong>primary-light</strong><br><span class="is-dimmed is-family-monospace">#AF85CE</span></div>
     <div class="column is-3"><div class="has-background-primary-lighter"><br><br></div><strong>primary-lighter</strong><br><span class="is-dimmed is-family-monospace">#EEE5F5</span></div>
+    <div class="column is-3"><div class="has-background-primary-lightest"><br><br></div><strong>primary-lightest</strong><br><span class="is-dimmed is-family-monospace">#F9F6FC</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-secondary-dark"><br><br></div><strong>secondary-dark</strong><br><span class="is-dimmed is-family-monospace">#A27754</span></div>
     <div class="column is-3"><div class="has-background-secondary has-shadow"><br><br></div><strong>secondary</strong><br><span class="is-dimmed is-family-monospace">#CB9569</span></div>
     <div class="column is-3"><div class="has-background-secondary-light"><br><br></div><strong>secondary-light</strong><br><span class="is-dimmed is-family-monospace">#DBB596</span></div>
     <div class="column is-3"><div class="has-background-secondary-lighter"><br><br></div><strong>secondary-lighter</strong><br><span class="is-dimmed is-family-monospace">#F7EFE9</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-dark"><br><br></div><strong>dark</strong><br><span class="is-dimmed is-family-monospace">#46285D</span></div>
+    <div class="column is-3"><div class="has-background-light"><br><br></div><strong>light</strong><br><span class="is-dimmed is-family-monospace">#EAE9EB</span></div>
 </div>
 
 <hr class="is-visible is-size-1">
@@ -33,11 +36,11 @@ Brand colors are used when refering to Biings or any of its products.
 <hr>
 
 <div class="columns is-multiline">
-    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter / light</strong><br><span class="is-dimmed is-family-monospace">#EFEBE9</span></div>
+    <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter</strong><br><span class="is-dimmed is-family-monospace">#EFEBE9</span></div>
     <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF7F5</span></div>
     <div class="column is-3"><div class="has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white</strong><br><span class="is-dimmed is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="is-dimmed is-family-monospace">#706266</span></div>
+    <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="is-dimmed is-family-monospace">#8A7D7F</span></div>
     <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="is-dimmed is-family-monospace">#9C9090</span></div>
     <div class="column is-3"><div class="has-background-grey-light"><br><br></div><strong>grey-light</strong><br><span class="is-dimmed is-family-monospace">#C8C0BD</span></div>
     <div class="column is-3"><div class="has-background-grey-lighter"><br><br></div><strong>grey-lighter</strong><br><span class="is-dimmed is-family-monospace">#DFDAD7</span></div>
@@ -45,7 +48,7 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-black"><br><br></div><strong>black</strong><br><span class="is-dimmed is-family-monospace">#130A1A</span></div>
     <div class="column is-3"><div class="has-background-black-bis"><br><br></div><strong>black-bis</strong><br><span class="is-dimmed is-family-monospace">#241B27</span></div>
     <div class="column is-3"><div class="has-background-black-ter"><br><br></div><strong>black-ter</strong><br><span class="is-dimmed is-family-monospace">#2D232E</span></div>
-    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="is-dimmed is-family-monospace">#51434B</span></div>
+    <div class="column is-3"><div class="has-background-grey-darker"><br><br></div><strong>grey-darker</strong><br><span class="is-dimmed is-family-monospace">#6D5F64</span></div>
 </div>
 
 <hr class="is-size-1 is-visible">
