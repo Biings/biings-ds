@@ -30,9 +30,9 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
     etc...
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Notification message</h3>
+<h3 class="title is-family-primary">Toast notification</h3>
 
-A Message can act as a notification when combined with a Modal. Put the message in a <a href="#/modal">Modal</a> (with class `.has-noti`) to create an overlayed notification message.
+A Message can act as a toast notification when combined with a Modal. Put the message in a <a href="#/modal">Modal</a> (with class `.has-noti`) to create an overlayed notification message.
 
 <br><br>
 

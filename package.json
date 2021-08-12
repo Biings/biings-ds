@@ -63,6 +63,7 @@
         "postcss-preset-env": "^5.1.0"
     },
     "dependencies": {
+        "@creativebulma/bulma-tooltip": "^1.2.0",
         "browserslist": "^4.14.0",
         "caniuse-lite": "^1.0.30001115"
     }

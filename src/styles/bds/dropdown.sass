@@ -21,8 +21,7 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown-divider
     height: $hr-height
 
-.dropdown > .dropdown-menu.is-size-6,
-.dropdown > .dropdown-menu.is-size-7
+.dropdown > .dropdown-menu.is-size-6
     min-width: 8em
 
 .dropdown.is-fullwidth,
@@ -131,40 +130,9 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown.has-arrow:not(.is-right) > .dropdown-menu > div:before
     left: 1em
 
-.dropdown.has-arrow.is-centered > .dropdown-menu > div:before
-    left: 50%
-    margin-left: -.5em
-
 .dropdown.has-arrow.is-right > .dropdown-menu > div:before
     right: 1em
-
-.dropdown.has-arrow > .dropdown-menu > div.has-background-dark:before
-    border-color: $dark
-
-.dropdown.has-arrow > .dropdown-menu > div.has-background-primary:before
-    border-color: $primary
-
-.dropdown.has-arrow > .dropdown-menu > div.has-background-info:before
-    border-color: $info
-
-.dropdown.has-arrow > .dropdown-menu > div.has-background-black:before
-    border-color: rgba($black,.92)
-.dropdown.has-arrow > .dropdown-menu > div.has-background-black
-    background-color: rgba($black,.92) !important
-
-.dropdown.has-arrow > .dropdown-menu > div.has-background-primary-gradient:before
-    border-color: $primary
-
-.dropdown.has-arrow > .dropdown-menu > div.has-background-success:before
-    border-color: $success
 
 .dropdown.has-arrow.is-hoverable.is-right > .dropdown-menu > div,
 .dropdown.has-arrow.is-hoverable.is-left > .dropdown-menu > div
     max-width: 20rem
-
-.dropdown.has-arrow.is-hoverable.is-centered > .dropdown-menu
-    left: 50%
-    transform-origin: 0
-
-.dropdown.has-arrow.is-hoverable.is-centered > .dropdown-menu > div
-    transform: translate(-51%)

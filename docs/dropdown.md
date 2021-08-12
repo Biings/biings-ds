@@ -100,72 +100,32 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Tooltips</h3>
+<h3 class="title is-family-primary">With pointing arrow</h3>
 
-Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifiers `is-centered` and `is-right` to change the alignement of the dropdown (and its arrow).
-
-<br>
-
-<strong>Create tooltips</strong> looking dropdown by wrapping any element in a `.dropdown-trigger` combined with `has-arrow`.
+Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifier `is-right` to change the alignement of the dropdown (and its arrow).
 
 <hr>
 
-<div class="box is-raised is-large is-radiusless-b is-marginless">
+<div class="box is-raised is-large is-radiusless-b is-marginless has-background-white-bis">
     <div class="level">
         <div class="level-item">
             <div class="dropdown is-iconless is-hoverable has-arrow">
                 <div class="dropdown-trigger">
-                    <div class="button is-static is-dark is-paddingless">Tooltip-Style</div>
+                    <div class="button is-dark">Dropdown button</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-6">This is actually a <code class="is-size-7">box</code> put inside the <code class="is-size-7">dropdown-menu</code> :)</div>
+                    <div class="box is-floating is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
                 </div>
             </div>
         </div>
         <div class="level-item ">
-            <div class="dropdown is-iconless is-up is-centered is-hoverable has-arrow">
+            <div class="dropdown is-iconless is-up is-right is-hoverable has-arrow">
                 <div class="dropdown-trigger has-text-centered">
-                    <div class="button is-static is-paddingless is-fullwidth">Dropup!</div>
+                    <div class="button is-dark">Dropup button</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-white has-background-primary-gradient is-floating is-size-6 has-text-white">
-                        This one has both class <code class="is-size-7 has-text-white">is-up</code> and <code class="is-size-7 has-text-white">is-centered</code>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="dropdown is-hoverable is-iconless is-centered has-arrow">
-                <div class="dropdown-trigger">
-                    <div class="button is-static is-paddingless is-fullwidth has-text-success">Colored</div>
-                </div>
-                <div class="dropdown-menu">
-                    <div class="box is-white is-floating is-size-6 has-background-success has-text-white">
-                        This one contains a div with <strong>has-background-success</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="dropdown is-hoverable is-iconless has-arrow is-right is-up">
-                <div class="dropdown-trigger">
-                    <div class="button is-static is-paddingless is-fullwidth has-text-info">Right Info</div>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="box is-floating is-size-6 has-background-info has-text-white has-text-right">
-                        This <strong>is-right</strong>, <strong>is-up</strong> and contains a div with <strong>has-background-info</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="dropdown is-hoverable is-iconless has-arrow is-centered is-up">
-                <div class="dropdown-trigger">
-                    <svg class="icon has-fill-grey-light"><use xlink:href="media/bds-icons.min.svg#info-bold-g"></use></svg>
-                </div>
-                <div class="dropdown-menu is-size-6" id="dropdown-menu" role="menu">
-                    <div class="box is-small is-raised has-background-black has-text-white has-text-centered">
-                        Tooltip 😇
+                    <div class="box is-floating is-size-6">
+                        This one has both class <code>has-arrow</code> and <code>is-up</code>
                     </div>
                 </div>
             </div>
@@ -176,12 +136,10 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     <!-- Blue tootlip, Right aligned and Up  -->
     <div class="dropdown is-hoverable is-iconless has-arrow is-right is-up">
         <div class="dropdown-trigger">
-            <!-- Put anything you want here, it will trigger the dropdown/tooltip -->
+            <!-- Put anything you want here, it will trigger the dropdown -->
         </div>
         <div class="dropdown-menu">
-            <div class="box has-background-info has-text-white  has-text-right is-floating">
-                <!-- Your content -->
-            </div>
+            <!-- Your content -->
         </div>
     </div>
 <hr class="is-visible is-size-1">

@@ -34,4 +34,5 @@
 - [Table](table)
 - [Tabs](tabs)
 - [Tag](tag)
+- [Tooltip](tooltip)
 </ul></div>
