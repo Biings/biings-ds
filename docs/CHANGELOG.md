@@ -3,10 +3,28 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-size-3 is-size-4-mobile">
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 12, 2021</span>
+<h2 class="title is-size-3-touch">Version 1.50</h2>
+<ul class="list">
+    <li><strong>Breaking changes:</strong>
+        <ul>
+            <li>– Dropdown used as tooltip (use the new Tooltip component instead)</li>
+            <li>– Removed <code>is-mask</code> modifier</li>
+        </ul>
+    </li>
+    <li>New warmer Greyscale colors (potentially a breaking visual change)</li>
+    <li>New Primary-lightest color and an updated Light color</li>
+    <li>New <span class="tooltip has-tooltip-arrow has-tooltip-fade" data-tooltip="Yeah 🎉">Tooltip</span> component, replacing dropdown tooltip hack.</li>
+    <li>New icons <i>balance-gauge, document-warn-g, apple-logo, android-logo, smile-g, couch-g, bulb-g, search-list-g, card-g</i></li>
+    <li>Style adjustments and fixes to <i>Colors & Gradients, Breakpoints, Buttons, Typography, Avatar</i></li>
+</ul>
+
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 16, 2021</span>
 <h2 class="title is-size-3-touch">Version 1.49</h2>
 <ul class="list">
-    <li><strong>Breaking changes!</strong>
+    <li><strong>Breaking changes:</strong>
         <ul>
             <li>– removed Pilot, Care and Claim variables (along with related components)</li>
             <li>– <code>is-desktop/tablet/modal</code> container modifiers have been replaced with <code>is-max-desktop/tablet/modal</code></li>
