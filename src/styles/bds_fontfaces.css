@@ -177,3 +177,22 @@
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-900.ttf') format('truetype');
 }
+
+/* ———————————————————————————————————————————————————————————————————————————————————— */
+
+/* Caveat Regular */
+@font-face
+{
+    font-weight: 400;
+    font-style: normal;
+    font-family: Caveat;
+    src: url('fonts/Caveat-regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-weight: 600;
+    font-style: normal;
+    font-family: Caveat;
+    src: url('fonts/Caveat-SemiBold.ttf') format('truetype');
+}
