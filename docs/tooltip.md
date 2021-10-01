@@ -21,7 +21,7 @@ You can change the tooltip position, color and arrow.
 
 <br>
 
-<div class="box is-raised is-large">
+<div class="box is-raised is-large mb-0 is-radiusless-b">
     Right positioned <span class="tooltip has-tooltip-arrow has-tooltip-left" data-tooltip="This is on the left. The content can also be pretty long.&NewLine;However no formatting is allowed within the tooltip.">tooltip</span>.
     <hr class="my-2">
     Colored <span class="tooltip has-tooltip-arrow has-tooltip-danger has-tooltip-fade has-tooltip-text-centered" data-tooltip="This is red/danger &NewLine; and fades in as well">tooltip</span>.
@@ -39,6 +39,26 @@ You can change the tooltip position, color and arrow.
         data-tooltip="Tooltip content, use the &NewLine; html entity for multi-line content"
     >
         Tooltip target
+    </span>
+
+<hr class="is-visible is-size-1">
+
+<h3 class="title is-family-primary">Delay</h3>
+
+You can delay the display of the tooltip with the class `.is-delayed`. Useful to prevent accidental triggers.
+
+<br>
+
+<div class="box is-raised is-large mb-0 is-radiusless-b">
+    Wait to see the 
+    <span class="tooltip is-delayed has-tooltip-fade has-tooltip-arrow has-tooltip-text-centered" data-tooltip="Delayed tooltip&NewLine;..sorry.">tooltip</span> ..
+</div>
+
+    <span
+        class="tooltip is-delayed has-tooltip-text-centered has-tooltip-arrow"
+        data-tooltip="Delayed tooltip.&NewLine;Sorry."
+    >
+        Wait to see the tooltip..
     </span>
 
 <hr>

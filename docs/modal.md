@@ -114,10 +114,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <div class="modal-card-title mb-4">
                 <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
                 <hr class="is-marginless is-wavy">
-                <h3 class="title has-text-centered">Modal Card Example</h3>
+                <h3 class="title is-family-primary has-text-weight-bold has-text-centered">Modal Card Example</h3>
             </div>
             <p class="subtitle is-5">You could also insert centered tabs to make<br>this modal even more versatile.</p>
-            <div class="tabs is-centered is-small">
+            <div class="tabs is-centered">
                 <ul>
                     <li class="is-active"><a>One</a></li>
                     <li><a>Two</a></li>
@@ -129,11 +129,9 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                     Put your content here.
                 </div>
             </form>
+            <hr class="is-visible my-5">
+            <div class="button is-primary px-6 is-beefy">Save me</div>
         </section>
-        <footer class="modal-card-foot has-border">
-            <div class="button is-text">Save</div>
-            <div class="button is-text has-text-grey">Cancel</div>
-        </footer>
     </div>
 </div>
 
