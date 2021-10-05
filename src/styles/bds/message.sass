@@ -1,4 +1,4 @@
-$message-body-padding: 1em 1.5em !default
+$message-body-padding: .875em 1.375em !default
 $message-body-border-width: 0 !default
 
 .message
@@ -66,20 +66,19 @@ $message-body-border-width: 0 !default
     color: white
 
 .modal > .message.is-success
-    background-color: rgba(mix($turquoise-dark,$success,20),.9)
+    background-color: rgba($success,.9)
 
 .modal > .message.is-info
     background-color: rgba($info,.8)
 
 .modal > .message.is-warning
-    background-color: rgba(mix($secondary-dark,$warning,10),.9)
+    background-color: rgba($warning,.93)
 
 .modal > .message.is-danger
     background-color: rgba($danger,.85)
 
 .modal.is-active > .message
     bottom: 0
-    left: 1.5em
     opacity: 1
     animation: fadeIn .5s 1
     animation-timing-function: cubic-bezier(.215, .61, .355, 1)
@@ -90,10 +89,10 @@ $message-body-border-width: 0 !default
 
 @keyframes moveIn
     from
-        left: -2em
+        bottom: -2em
         opacity: 0
     to
-        left: 1.5em
+        bottom: 0em
         opacity: 1
 
 @keyframes fadeIn

@@ -9,11 +9,6 @@ html
 {
     margin-top: -1px;
 }
-pre
-{
-    background-color: var();
-    border-radius: 0;
-}
 pre code
 {
     font-size: .875rem !important;

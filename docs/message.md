@@ -55,7 +55,7 @@ A Message can act as a toast notification when combined with a Modal. Put the me
     </div>
 </div>
 <div id="js-modal4" class="modal has-noti" onclick="closeModal('4')">
-    <div class="message is-warning is-size-6">
+    <div class="message is-warning is-size-6 has-text-weight-semibold">
         Deleted..
     </div>
 </div>

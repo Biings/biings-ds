@@ -151,16 +151,15 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
-    <div class="dropdown is-hoverable is-inverted">
+    <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button is-light">Choose a value</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
-            <div class="dropdown-content has-background-primary-gradient">
+            <div class="dropdown-content">
                 <div class="dropdown-item is-paddingless">
-                    <input class="input is-small has-text-white-bis has-background-white is-dimmed" type="text" placeholder="Search the list">
+                    <input class="input is-small is-borderless" type="text" placeholder="Search the list">
                 </div>
-                <hr class="is-marginless is-wavy">
                 <a class="dropdown-item">Show</a>
                 <a class="dropdown-item">results</a>
                 <a class="dropdown-item">here.</a>
@@ -222,7 +221,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
     &nbsp;
     <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
-            <div class="button is-primary is-light">Inverted Dropdown</div>
+            <div class="button is-primary">Dropdow menu</div>
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content box is-small is-size-7 has-background-primary-gradient">

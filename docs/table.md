@@ -9,8 +9,8 @@
 <div class="box is-raised is-large is-marginless is-radiusless-b">
     <table class="table is-striped is-hoverable">
         <thead>
-            <tr>
-                <th align>First column</th>
+            <tr class="is-clickable">
+                <th align>First column &nbsp;▾</th>
                 <th align>Second column</th>
                 <th align>Third column</th>
                 <th align>Fourth column</th>
@@ -23,13 +23,13 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr>
+            <tr class="is-selected">
                 <td>Line 2</td>
                 <td>detailed</td>
                 <td>data</td>
                 <td>set</td>
             </tr>
-            <tr class="is-selected">
+            <tr>
                 <td>Line 3</td>
                 <td>this</td>
                 <td>is</td>
@@ -41,14 +41,26 @@
                 <td>data</td>
                 <td>set</td>
             </tr>
+            <tr>
+                <td>Line 5</td>
+                <td>and</td>
+                <td>another</td>
+                <td>line</td>
+            </tr>
+            <tr>
+                <td>Line 6</td>
+                <td>just</td>
+                <td>as an</td>
+                <td>example</td>
+            </tr>
         </tbody>
     </table>
 </div>
 
     <table class="table is-striped is-hoverable">
         <thead>
-            <tr>
-                <th>First column</th>
+            <tr class="is-clickable">
+                <th>First column &nbsp;▾</th>
                 <th>Second column</th>
                 <th>Third column</th>
                 <th>Fourth column</th>

@@ -21,6 +21,10 @@ You can change the tooltip position, color and arrow.
 
 <br>
 
+?> <strong>Tip for multiline tooltips:</strong><br>Either use the `has-tooltip-multiline` class or include a `&NewLine;` entity in the tooltip text.
+
+<br>
+
 <div class="box is-raised is-large mb-0 is-radiusless-b">
     Right positioned <span class="tooltip has-tooltip-arrow has-tooltip-left" data-tooltip="This is on the left. The content can also be pretty long.&NewLine;However no formatting is allowed within the tooltip.">tooltip</span>.
     <hr class="my-2">
@@ -40,7 +44,6 @@ You can change the tooltip position, color and arrow.
     >
         Tooltip target
     </span>
-
 <hr class="is-visible is-size-1">
 
 <h3 class="title is-family-primary">Delay</h3>
