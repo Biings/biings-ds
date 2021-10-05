@@ -102,7 +102,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
         <footer class="modal-card-foot has-border">
             <div class="button is-dark">Footer Action</div>
             <div class="button is-static">or</div>
-            <a class="button is-text" onclick="closeModal(1)"><span class="is-link is-underlined">Close</span></a>
+            <a class="button is-ghost" onclick="closeModal(1)"><span class="is-link is-underlined">Close</span></a>
         </footer>
     </div>
 </div>
@@ -154,7 +154,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <footer class="modal-card-foot has-border">
                 <div class="button is-dark">Footer Action</div>
                 <div class="button is-static">or</div>
-                <div class="button is-text">Close</div>
+                <div class="button is-ghost">Close</div>
             </footer>
         </div>
     </div>

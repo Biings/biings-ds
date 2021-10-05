@@ -106,7 +106,6 @@ form .field
     padding-right: $control-padding-horizontal
     padding-bottom: $control-padding-vertical
     padding-left: $control-padding-horizontal
-    color: $grey-dark
     transition: color .1s linear
     pointer-events: none
 
@@ -158,7 +157,6 @@ form .field
     height: auto
 
 .field.select:after
-    top: 39% !important
     right: 1.5rem !important
 
 .field > .checkbox,
@@ -167,10 +165,6 @@ form .field
     width: 100%
     color: $label-color
     @extend %input;
-
-.field > .checkbox > input:checked ~ span,
-.field > .radio > input:checked ~ span
-    color: $grey-darker
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
