@@ -3,6 +3,18 @@
 <h1 class="title is-family-secondary is-size-2-mobile">Release Notes</h1>
 <hr class="is-size-3 is-size-4-mobile">
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">October 8, 2021</span>
+<h2 class="title is-size-3-touch">Version 1.51</h2>
+<ul class="list">
+    <li>Added "Caveat" as a local font</li>
+    <li>New icons <i>`biings-notify`, `line-dense-g`, `card-g`, `star-g`, `star-bold-g`, `crown-g`, `crown-bold-g`, `notification`, `edit-bold-g`</i></li>
+    <li>New Tooltip `is-delayed` variation</li>
+    <li>New color classes for `--color-primary-lightest`</li>
+    <li>Style adjustments and fixes to: Dropdown arrows, Colors, Message, Form field, Modal header+footer, Chair icon</li>
+    <li>Iconography documentation: download link for each icon/svg (straight from our Github repo)</li>
+    <li>Deprecated icon: <code style="text-decoration: line-through;">biings-claim</code>, use `biings-notify` instead</li>
+</ul>
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 12, 2021</span>
 <h2 class="title is-size-3-touch">Version 1.50</h2>
 <ul class="list">
@@ -15,7 +27,7 @@
     <li>New warmer Greyscale colors (potentially a breaking visual change)</li>
     <li>New Primary-lightest color and an updated Light color</li>
     <li>New <span class="tooltip has-tooltip-arrow has-tooltip-fade" data-tooltip="Yeah 🎉">Tooltip</span> component, replacing dropdown tooltip hack.</li>
-    <li>New icons <i>balance-gauge, document-warn-g, apple-logo, android-logo, smile-g, couch-g, bulb-g, search-list-g, card-g</i></li>
+    <li>New icons <i>balance-gauge, document-warn-g, apple-logo, android-logo, smile-g, couch-g, bulb-g, search-list-g, cards-g</i></li>
     <li>Style adjustments and fixes to <i>Colors & Gradients, Breakpoints, Buttons, Typography, Avatar</i></li>
 </ul>
 
