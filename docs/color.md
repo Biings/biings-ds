@@ -235,5 +235,5 @@ Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white ba
     <h3 class="title is-family-primary"><span class="is-size-smaller">Slack Theme ✨</h3>
     <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
     
-    #2D2236,#2D2236,#8C50B9,#FFFFFF,#46285D,#EFEBE9,#A4CE85,#AA50B5,#1A0E23,#EFEBE9
+    #2D232E,#2D2236,#8C50B9,#FFFFFF,#130A1A,#FAF7F5,#7DB950,#AA50B5,#2D232E,#EFEBE9
 </div>

@@ -68,7 +68,8 @@
     color: rgba($black-ter,.5) !important
 
 .has-radius-bold
-    border-radius: 1.75rem;
+    border-radius: 1.75rem
+
 
 // Radius removers
 .is-radiusless-tl,
@@ -155,12 +156,33 @@
     &::after,
     &:active::before,
     &:active::after
-        background-color: bulmaRgba($dark, .75)
+        background-color: bulmaRgba($dark, .8)
     &:hover::before,
     &:hover::after,
     &:focus::before,
     &:focus::after
         background-color: $dark
+
+.delete.is-inverted
+    &::before,
+    &::after,
+    &:active::before,
+    &:active::after
+        background-color: bulmaRgba($purple-light, .8)
+    &:hover::before,
+    &:hover::after,
+    &:focus::before,
+    &:focus::after
+        background-color: $purple-light
+
+.delete.is-large
+    min-width: 2.125rem
+    min-height: 2.125rem
+    max-width: 2.125rem
+    max-height: 2.125rem
+    width: 2.125rem
+    height: 2.125rem
+
 
 .modal-close
     background-color: bulmaRgba($scheme-main-ter, .65)
@@ -189,8 +211,8 @@
     font-size: .75em
 
 .table tr.is-selected
-    color: currentColor
     background-color: $table-row-active-background-color !important
+    color: currentColor
 
 // Progress bar
 .progress.is-thin
@@ -652,3 +674,4 @@ pre
     fill: $white !important
 
 @import 'css4-vars.scss'
+

@@ -14,12 +14,12 @@
     <table class="table is-fullwidth is-bordered">
         <tbody>
             <tr>
-                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><div class="button">Button</div><br><br></td>
+                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button">Button</button><br><br></td>
                 <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
                 <td><hr>For standard controls, like Dropdowns.</td>
             </tr>
             <tr>
-                <td class="has-text-centered"><hr class="is-smaller"><div class="button is-primary">Primary</div><br><br></td>
+                <td class="has-text-centered"><hr class="is-smaller"><button class="button is-primary">Primary</button><br><br></td>
                 <td class="has-text-centered"><hr><code>is-primary</code></td>
                 <td><hr>For primary actions, like "Save".</td>
             </tr>

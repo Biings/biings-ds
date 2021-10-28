@@ -58,8 +58,7 @@ section.cover .cover-main
 }
 section.content
 {
-    left: 210px;
-    padding-top: 45px;
+    left: 180px;
 }
 div.content
 {
@@ -69,8 +68,16 @@ div.content
 }
 .markdown-section
 {
-    padding: 0 30px 40px;
-    max-width: 900px;
+    padding-top: 0;
+    max-width: 1000px;
+}
+
+@media screen and (min-width: 769px)
+{
+    .markdown-section
+    {
+        padding-right: 8%;
+    }
 }
 
 .markdown-section p.tip
@@ -132,7 +139,7 @@ div.content
 aside.sidebar
 {
     padding-top: 1.5rem;
-    width: 210px;
+    width: 180px;
     border-right: none;
     font-size: 10px;
 }
@@ -161,13 +168,6 @@ body.close .sidebar-toggle
 {
     background-color: transparent !important;
 }
-@media screen and (min-width: 1023px)
-{
-    .markdown-section
-    {
-        margin: 0 8% 0 4%;
-    }
-}
 @media screen and (min-width: 769px)
 {
     .sidebar-toggle
@@ -185,7 +185,7 @@ body.close .sidebar-toggle
 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: .25rem;
     width: 65px;
     height: 30px;
 }

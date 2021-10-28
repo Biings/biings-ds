@@ -1,4 +1,4 @@
-- <a href="/" class="docsify-logo">
+- <a href="/" class="docsify-logo my-2">
 ![](media/biings-ds-logo.svg ':no-zoom')
 ![](media/biings-ds-logo-bw.svg ':no-zoom')
 </a>

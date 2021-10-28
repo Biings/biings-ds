@@ -15,6 +15,8 @@
     <li>Deprecated icon: <code style="text-decoration: line-through;">biings-claim</code>, use `biings-notify` instead</li>
 </ul>
 
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 12, 2021</span>
 <h2 class="title is-size-3-touch">Version 1.50</h2>
 <ul class="list">
