@@ -34,18 +34,18 @@
 <br>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/content" class="box is-medium is-well hover-to-floating">
+        <a href="#/content" class="box is-medium is-raised hover-to-floating has-background-primary-lightest">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="is-size-7">
-            <h3 class="title is-family-primary has-text-weight-bold"><u>Foundation</u></h3>
+            <h2 class="title is-size-3-mobile has-text-weight-semibold"><u>Foundation</u></h2>
             <p class="subtitle is-5 is-dimed">Content, Layout, Color, etc</p>
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-well hover-to-floating">
+        <a href="#/avatar" class="box is-medium is-raised hover-to-floating has-background-white-bis">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="is-size-7">
-            <h3 class="title is-family-primary has-text-weight-bold"><u class="is-secondary">Components</u></h3>
+            <h2 class="title is-size-3-mobile has-text-weight-semibold"><u class="is-secondary">Components</u></h2>
             <p class="subtitle is-5 is-dimmd">All you need to build your UIs</p>
         </a>
     </div>
@@ -70,7 +70,7 @@
 
 <hr class="is-size-2">
 
-<div class="box is-large is-floating">
+<div class="box is-large is-bordered">
     <div class="columns is-marginless is-vcentered">
         <div class="column is-6">
             <h2 class="title has-text-weight-medium mb-2">Want to contribute?</h2>

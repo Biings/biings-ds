@@ -205,19 +205,19 @@
         <tr>
             <th rowspan="7" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
-            <td><strong>Fades out</strong> an element <u>after 3 seconds</u></td>
+            <td>Fades out an element after 3 seconds</td>
         </tr>
         <tr>
             <td><code>is-shaked</code></td>
-            <td><strong>Shakes</strong> an element for 1.5 seconds</td>
+            <td>Shakes an element for 1.5 seconds</td>
         </tr>
         <tr>
             <td><code>is-twisted[-bis,-ter,-quater]</code></td>
-            <td>Slightly <strong>twist/rotate</strong> an element<br>(like if it was thrown on the page)</td>
+            <td>Slightly twist/rotate an element<br>(like if it was thrown on the page)</td>
         </tr>
         <tr>
             <td><code>is-twisted-odd[-bis]</code></td>
-            <td><u>Boldly</u> <strong>twist/rotate</strong> an element</td>
+            <td>Boldly twist/rotate an element</td>
         </tr>
     </tbody>
 </table>

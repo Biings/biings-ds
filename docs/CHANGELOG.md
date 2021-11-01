@@ -4,7 +4,7 @@
 <hr class="is-size-3 is-size-4-mobile">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">October 8, 2021</span>
-<h2 class="title is-size-3-touch">Version 1.51</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.51</h3>
 <ul class="list">
     <li>Added "Caveat" as a local font</li>
     <li>New icons <i>`biings-notify`, `line-dense-g`, `card-g`, `star-g`, `star-bold-g`, `crown-g`, `crown-bold-g`, `notification`, `edit-bold-g`</i></li>
@@ -18,7 +18,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 12, 2021</span>
-<h2 class="title is-size-3-touch">Version 1.50</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.50</h3>
 <ul class="list">
     <li><strong>Breaking changes:</strong>
         <ul>
@@ -36,7 +36,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 16, 2021</span>
-<h2 class="title is-size-3-touch">Version 1.49</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.49</h3>
 <ul class="list">
     <li><strong>Breaking changes:</strong>
         <ul>
@@ -55,7 +55,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 8, 2021</span>
-<h2 class="title is-size-3-touch">Version 1.48</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.48</h3>
 <ul class="list">
     <li>New Claim color</li>
     <li><strong>9 new icons</strong> and refinements:<br><i>hand-g, gears-g, door-g, export-g, share-g, heart-check-g, line-compact-g, line-relaxed-g, lightning-g, business-new-g</i></li>
@@ -71,7 +71,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">September 14, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.44</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.44</h3>
 <ul class="list">
     <li><strong>30 new icons</strong> and refinements:<br><i>action-g, action-new-g, arrow-up-g, arrow-down-g, calendar-g, action-new-g, chair-new-g, business-hq-g, cloud-g, list-g, person-assign-g, exchange-g, money-reception, warning-bold-g, spark-g, spark-big-g, keyboard-g, adminland, adminland-g, columns-g, cross-bold-g, minus, sort-g, document-new-g, duplicate-g, plus-g, link-g, person-new-g, dots-vert-g, at-g</i></li>
     <li>New small-sized checkbox</li>
@@ -83,7 +83,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">July 15, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.43</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.43</h3>
 <ul class="list">
     <li><strong>New icons</strong>: <i>cloud-off-g, cloud-off-bold-g, filter-g</i> and other icon refinements</li>
     <li>Updated to <u>Bulma 0.9.0</u></li>
@@ -97,7 +97,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">July 6, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.42</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.42</h3>
 <ul class="list">
     <li><strong>New icons</strong>: <i>screen-bell, screen-g, person-g, phone-bell</i> + various icon refinements</li>
     <li><strong>New modifiers</strong>: <code>is-ephemeral</code>, <code>is-dimmed</code>, <code>is-mask</code>, <code>is-twisted</code></li>
@@ -116,7 +116,7 @@
 
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">May 25, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.41</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.41</h3>
 <ul class="list">
     <li>New <strong>Crimson Pro</strong> serif font (replacing Merriweather) 🎊</li>
     <li><strong>Harmonized default text sizes</strong>, weight, line height and letter spacing</li>
@@ -135,7 +135,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 24, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.40</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.40</h3>
 <ul class="list">
     <li><strong>Updated colors</strong> for Care and Claim product!</li>
     <li><strong>New Icons</strong>: <i>send-g, salary-g, 3-dots, check-bold-g, business-big-g, policy-g, overload-g, language, language-g</i></li>
@@ -153,7 +153,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 31, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.39</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.39</h3>
 <ul class="list">
     <li><strong>New Icons/Glyphs</strong>: location, eye-hide-g, eye-g, bell-bold-g, reload-g, card-g, group-g, job_assignment-g, knowledge, manager-g, badge, shield-star-g, gift-g</li>
     <li>Added <code>is-glowing</code> tag style</li>
@@ -166,7 +166,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 31, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.38</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.38</h3>
 <ul class="list">
     <li>New <strong>Dropdow Field</strong> support</li>
     <li><strong>New Icons</strong>: <i>person-g, key, plus, accident-pro, accident-pro-g</i></li>
@@ -181,7 +181,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">February 19, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.37</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.37</h3>
 <ul class="list">
     <li><strong>New Icons</strong>: <i>workflow, percent, calendar-warn, timelines, timeline-actor, overload, lines, bars, 12-back</i></li>
     <li><strong>New Glyphs</strong>: <i>earth-g, help-bold-g</i></li>
@@ -196,7 +196,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">January 9, 2020</span>
-<h2 class="title is-size-3-touch">Version 1.36</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.36</h3>
 <ul class="list">
     <li>New <strong>colorful Tooltips</strong> (primary, dark, info)</li>
     <li>Layout: New container naming</li>
@@ -211,7 +211,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">December 19, 2019</span>
-<h2 class="title is-size-3-touch">Version 1.35</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.35</h3>
 <ul class="list">
     <li>New <strong>Dropdown Tooltips</strong> instructions</li>
     <li><strong>New icons</strong>: <i>chart, info-bold-g</i></li>
@@ -224,7 +224,7 @@
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">July 24, 2018</span>
-<h2 class="title is-size-3-touch">Version 1.0</h2>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.0</h3>
 Introducing <strong>Biings Design Sytem</strong> (aka BDS), an open-source design framework based on <u>Bulma CSS</u>.
 
 <hr class="is-size-4">
