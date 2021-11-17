@@ -16,17 +16,17 @@ $message-body-border-width: 0 !default
 .message.is-info
     border-color: transparent
     background-color: rgba($info,.075)
-    color: $info
+    color: $info-dark
 
 .message.is-success
     border-color: transparent
     background-color: rgba($success,.075)
-    color: mix($turquoise-dark,$success,30)
+    color: $success-dark
 
 .message.is-danger
     border-color: transparent
     background-color: rgba($danger,.075)
-    color: $danger
+    color: $danger-dark
 
 .message.is-dark
     border-color: transparent
@@ -34,7 +34,8 @@ $message-body-border-width: 0 !default
 
 .message.is-primary
     border-color: transparent
-    background-color: rgba(mix($primary,$primary-dark,25),.95)
+    background-color: rgba(mix($primary,.75)
+    color: $primary-dark
 
 .message.is-primary,
 .message.is-primary > .title
