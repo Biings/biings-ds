@@ -77,78 +77,61 @@
     fill: $dark
 
 // Outlined
-.button.is-primary.is-outlined
-    box-shadow: inset 0 0 0 1px $primary
+.button.is-outlined,
+.button.is-outlined:active
+    background-color: transparent !important
+
+.button.is-outlined:hover
+    transition: none !important
+
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover,
 .button.is-primary.is-outlined.is-focused,
 .button.is-primary.is-outlined.is-hovered
-    background-color: rgba($primary,.07)
+    box-shadow: inset 0 0 0 1px $primary
     color: $primary
-    transition: none
 
-.button.is-success.is-outlined
-    box-shadow: inset 0 0 0 1px $success
 .button.is-success.is-outlined:focus,
 .button.is-success.is-outlined:hover,
 .button.is-success.is-outlined.is-focused,
 .button.is-success.is-outlined.is-hovered
-    background-color: rgba($success,.07)
+    box-shadow: inset 0 0 0 1px $success
     color: $success
-    transition: none
 
-.button.is-info.is-outlined
-    box-shadow: inset 0 0 0 1px $info
 .button.is-info.is-outlined:focus,
 .button.is-info.is-outlined:hover,
 .button.is-info.is-outlined.is-focused,
 .button.is-info.is-outlined.is-hovered
-    background-color: rgba($info,.07)
+    box-shadow: inset 0 0 0 1px $info
     color: $info
-    transition: none
 
-.button.is-warning.is-outlined
-    box-shadow: inset 0 0 0 1px $warning
 .button.is-warning.is-outlined:focus,
 .button.is-warning.is-outlined:hover,
 .button.is-warning.is-outlined.is-focused,
 .button.is-warning.is-outlined.is-hovered
-    background-color: rgba($warning,.07)
+    box-shadow: inset 0 0 0 1px $warning
     color: $warning
-    transition: none
 
-.button.is-danger.is-outlined
-    box-shadow: inset 0 0 0 1px $danger
 .button.is-danger.is-outlined:focus,
 .button.is-danger.is-outlined:hover,
 .button.is-danger.is-outlined.is-focused,
 .button.is-danger.is-outlined.is-hovered
-    background-color: rgba($danger,.07)
+    box-shadow: inset 0 0 0 1px $danger
     color: $danger
-    transition: none
 
-.button.is-dark.is-outlined
-    box-shadow: inset 0 0 0 1px $dark
 .button.is-dark.is-outlined:focus,
 .button.is-dark.is-outlined:hover,
 .button.is-dark.is-outlined.is-focused,
 .button.is-dark.is-outlined.is-hovered
-    background-color: rgba($dark,.07)
+    box-shadow: inset 0 0 0 1px $dark
     color: $dark
-    transition: none
 
-.button.is-inverted.is-outlined
-    box-shadow: inset 0 0 0 1px white
 .button.is-inverted.is-outlined:focus,
 .button.is-inverted.is-outlined:hover,
 .button.is-inverted.is-outlined.is-focused,
 .button.is-inverted.is-outlined.is-hovered
-    background-color: rgba(white,.07) !important
+    box-shadow: inset 0 0 0 1px $white
     color: white !important
-    transition: none
-
-.button.is-outlined:active
-    background-color: transparent !important
 
 
 // Rounded background transition effect

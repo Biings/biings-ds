@@ -34,12 +34,8 @@ $message-body-border-width: 0 !default
 
 .message.is-primary
     border-color: transparent
-    background-color: rgba(mix($primary,.75)
-    color: $primary-dark
-
-.message.is-primary,
-.message.is-primary > .title
-    color: white
+    background-color: rgba($primary,.075)
+    color: $primary
 
 
 // ——— Modal Noti Message —————————
@@ -60,11 +56,15 @@ $message-body-border-width: 0 !default
     opacity: 0
     user-select: none
 
+.modal > .message.is-primary,
 .modal > .message.is-success,
 .modal > .message.is-info,
 .modal > .message.is-danger,
 .modal > .message.is-warning
     color: white
+
+.modal > .message.is-primary
+    background-color: rgba($primary,.85)
 
 .modal > .message.is-success
     background-color: rgba($success,.9)

@@ -61,7 +61,7 @@ A Message can act as a toast notification when combined with a Modal. Put the me
 </div>
 <div id="js-modal5" class="modal has-noti" onclick="closeModal('5')">
     <div class="message is-primary is-medium">
-        <h1 class="title is-4 has-text-weight-bold">Hurray 🎉</h1>
+        <h1 class="title is-4 has-text-weight-bold has-text-white">Hurray 🎉</h1>
         You just triggered a noti.
     </div>
 </div>

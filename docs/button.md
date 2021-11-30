@@ -156,7 +156,7 @@ Use a Link instead of a button when navigating or when the action is not primary
         </tr>
         <tr>
             <td class="has-text-centered has-background-black-ter"><br><div class="button is-inverted is-outlined is-primary">Inverted</div><br><br></td>
-            <td><hr><code>is-inverted is-primary is-outlined</code> attribute</td>
+            <td><hr><code>is-inverted</code> <code>is-outlined</code></td>
         </tr>
     </tbody>
 </table>
