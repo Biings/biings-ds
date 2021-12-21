@@ -6,173 +6,7 @@
 // Initial variables
 
 // Colors
-$cyan           : #01bfea !default
-$blue           : #087fd2 !default
-$purple         : #aa50b5 !default
-$red            : #f45564 !default
-$orange         : #ff8f41 !default
-$green          : #7db950 !default
-$yellow         : #ffc748 !default
-$turquoise      : #00c8b5 !default
-
-$black          : #130a1a !default
-$black-bis      : #241b27 !default
-$black-ter      : #2d232e !default
-
-$grey-darker    : #6d5f64 !default
-$grey-dark      : #8a7d7f !default
-$grey           : #9c9090 !default
-$grey-light     : #c8c0bd !default
-$grey-lighter   : #dfdad7 !default
-$grey-lightest  : #e7e2e0 !default
-
-$white-ter      : #efebe9 !default
-$white-bis      : #FAF7F5 !default
-$white          : #ffffff !default
-
-// Main colors
-$primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
-$light          : #eae9eb !default
-$dark           : mix(black, $primary, 50) !default
-
-// Special colors (NOT BULMA) —————————————————————
-$primary-lightest: mix(white, $primary, 95) !default
-$primary-lighter: mix(white, $primary, 85) !default
-
-$secondary          : #cb9569 !default
-$secondary-dark     : mix(black, $secondary, 20) !default
-$secondary-light    : mix(white, $secondary, 30) !default
-$secondary-lighter  : mix(white, $secondary, 85) !default
-
-$cyan-dark      : mix(black, $cyan, 25) !default
-$cyan-light     : mix(white, $cyan, 30) !default
-$cyan-lighter   : mix(white, $cyan, 80) !default
-
-$blue-dark      : mix(black, $blue, 25) !default
-$blue-light     : mix(white, $blue, 30) !default
-$blue-lighter   : mix(white, $blue, 80) !default
-
-$purple-dark    : mix(black, $purple, 25) !default
-$purple-light   : mix(white, $purple, 30) !default
-$purple-lighter : mix(white, $purple, 80) !default
-
-$red-dark       : mix(black, $red, 20) !default
-$red-light      : mix(white, $red, 30) !default
-$red-lighter    : mix(white, $red, 80) !default
-
-$orange-dark    : mix(black, $orange, 15) !default
-$orange-light   : mix(white, $orange, 30) !default
-$orange-lighter : mix(white, $orange, 80) !default
-
-$yellow-dark    : mix(black, $yellow, 15) !default
-$yellow-light   : mix(white, $yellow, 30) !default
-$yellow-lighter : mix(white, $yellow, 70) !default
-
-$turquoise-dark : mix(black, $turquoise, 25) !default
-$turquoise-light: mix(white, $turquoise, 30) !default
-$turquoise-lighter: mix(white, $turquoise, 80) !default
-
-$green-dark     : mix(black, $green, 25) !default
-$green-light    : mix(white, $green, 30) !default
-$green-lighter  : mix(white, $green, 80) !default
-
-$pink           : #E26EA5 !default
-$pink-dark      : mix(black, $pink, 25) !default
-$pink-light     : mix(white, $pink, 30) !default
-$pink-lighter   : mix(white, $pink, 80) !default
-
-// ———— (NOT BULMA END) ————————————————————————————
-
-$info           : mix($primary, $blue, 25) !default
-$success        : #53ab73 !default
-$warning        : mix($secondary, $yellow, 25) !default
-$danger         : $red !default
-
-// Additional colors (NOT BULMA) ————————————————————
-
-$info-lighter   : mix(white, $info, 80) !default
-$success-lighter: mix(white, $success, 80) !default
-$warning-lighter: mix(white, $warning, 80) !default
-$danger-lighter : mix(white, $danger, 80) !default
-
-// ———— (NOT BULMA END) ————————————————————————————
-    
-// Invert colors
-
-$orange-invert: findColorInvert($orange) !default
-$yellow-invert: findColorInvert($yellow) !default
-$green-invert: findColorInvert($green) !default
-$turquoise-invert: findColorInvert($turquoise) !default
-$cyan-invert: findColorInvert($cyan) !default
-$blue-invert: findColorInvert($blue) !default
-$purple-invert: findColorInvert($purple) !default
-$red-invert: findColorInvert($red) !default
-
-$primary-invert: findColorInvert($primary) !default
-$primary-light: mix(white, $primary, 20) !default
-$primary-dark: mix(black, $primary, 35) !default
-$info-invert: findColorInvert($info) !default
-$info-light: findLightColor($info) !default
-$info-dark: mix(black, $info, 15) !default
-$success-invert: findColorInvert($success) !default
-$success-light: findLightColor($success) !default
-$success-dark: mix(black, $success, 12) !default
-$warning-invert: $black !default
-$warning-light: findLightColor($warning) !default
-$warning-dark: mix(black, $warning, 15) !default
-$danger-invert: findColorInvert($danger) !default
-$danger-light: findLightColor($danger) !default
-$danger-dark: mix(black, $danger, 15) !default
-$light-invert: $black-ter !default
-$dark-invert: $light !default
-
-// General colors
-
-$scheme-main: $white !default
-$scheme-main-bis: $white-bis !default
-$scheme-main-ter: $white-ter !default
-$scheme-invert: $dark !default
-$scheme-invert-bis: $black-bis !default
-$scheme-invert-ter: $black-ter !default
-
-$background: $white-bis !default
-
-$border: transparent !default
-$border-hover: rgba($primary-dark,.075) !default
-$border-light: $grey-lighter !default
-$border-light-hover: $grey-lightest !default
-
-// Text colors
-
-$text: $dark !default
-$text-invert: findColorInvert($text) !default
-$text-light: $grey !default
-$text-strong: inherit !default
-
-// Code colors
-
-$code: $primary
-$code-background: rgba($black-ter,0.05) !default
-
-$pre: $dark
-$pre-background: $code-background
-
-// Link colors
-
-$link: $primary !default
-$link-invert: findColorInvert($link) !default
-$link-light: findLightColor($link) !default
-$link-dark: findDarkColor($link) !default
-$link-visited: $primary !default
-
-$link-hover: $link !default
-$link-hover-border: $grey-light !default
-
-$link-focus: $dark !default
-$link-focus-border: $primary !default
-
-$link-active: $dark !default
-$link-active-border: $dark !default
+@import "bds_colors.sass"
 
 // Typography
 
@@ -445,10 +279,11 @@ $tooltip-z-index: 35 !default
 @import "bulma/sass/components/menu.sass"
 // @import "bulma/sass/components/message.sass"
 @import "bulma/sass/components/modal.sass"
+@import "bulma/sass/components/navbar.sass"
 // @import "bulma/sass/components/panel.sass"
 @import "bulma/sass/components/tabs.sass"
 @import "bulma/sass/elements/box.sass"
-@import "bulma/sass/elements/button.sass" // "bulma/sass/elements/button.sass"
+@import "bulma/sass/elements/button.sass"
 @import "bulma/sass/elements/container.sass"
 // @import "bulma/sass/elements/content.sass"
 @import "bulma/sass/form/_all.sass"

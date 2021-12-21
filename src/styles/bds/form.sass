@@ -11,12 +11,12 @@ select,
 .textarea:not(:focus)
     transition: border-color .1s ease-out, color .1s linear, background-color .1s linear
 
-.input[readonly],
-.textarea[readonly]
+.input.is-readonly,
+.textarea.is-readonly
     border-color: transparent
     background-color: rgba($black,.04)
 
-.field > .input[readonly]
+.field > .input.is-readonly
     border-color: $input-border-color
 
 .textarea
@@ -140,13 +140,13 @@ form .field
 
 .field > input,
 .field > input:focus,
-.field > input[readonly],
+.field > input.is-readonly,
 .field > textarea,
 .field > textarea:focus,
-.field > textarea[readonly],
+.field > textarea.is-readonly,
 .field > select,
 .field > select:focus,
-.field > select[readonly],
+.field > select.is-readonly,
 .field > label.checkbox,
 .field > label.radio
     box-shadow: 0 .1875em .125em rgba($dark,.03) !important
