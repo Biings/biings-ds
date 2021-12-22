@@ -1,6 +1,6 @@
 {
     "name": "biings-ds",
-    "version": "1.51.4",
+    "version": "1.51.5",
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
@@ -16,11 +16,12 @@
         "ghlogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
     },
     "files": [
-        "build/*"
+        "build/*",
+        "src/*"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Biings/biings-ds.git"
+        "url": "git+ssh://git@github.com/superlayerhq/biings-ds.git"
     },
     "keywords": [
         "biings",
