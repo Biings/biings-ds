@@ -1,6 +1,6 @@
 {
     "name": "@superlayerhq/biings-ds",
-    "version": "1.51.5",
+    "version": "2.0.0",
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
