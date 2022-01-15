@@ -99,9 +99,9 @@ Avatars can be tilted the same way the Biings logo is. Just add class `is-tilted
 
 <div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="level">
-        <div class="level-item"><div class="avatar is-tiny is-tilted"><div class="has-background-grey-lighter"><div>TT</div></div></div><span class="is-size-7">Tiny Twisted</span></div>
-        <div class="level-item"><div class="avatar is-tilted"><div class="has-background-primary-lighter"><div>DT</div></div></div><span>Default Twisted</span></div>
-        <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></picture></div><span class="is-size-4">Large Twisted Picture</span></div>
+        <div class="level-item"><div class="avatar is-tiny is-tilted"><div class="has-background-grey-lighter"><div>TT</div></div></div><span class="is-size-7">Tiny Tilted</span></div>
+        <div class="level-item"><div class="avatar is-tilted"><div class="has-background-primary-lighter"><div>DT</div></div></div><span>Default Tilted</span></div>
+        <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
     </div>
 </div>
 

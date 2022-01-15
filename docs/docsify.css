@@ -72,7 +72,7 @@ div.content
     max-width: 1000px;
 }
 
-@media screen and (min-width: 769px)
+@media screen and (min-width: 757px)
 {
     .markdown-section
     {
@@ -168,7 +168,7 @@ body.close .sidebar-toggle
 {
     background-color: transparent !important;
 }
-@media screen and (min-width: 769px)
+@media screen and (min-width: 757px)
 {
     .sidebar-toggle
     {
