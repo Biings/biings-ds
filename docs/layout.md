@@ -13,19 +13,19 @@ Container is used to center your content horizontally. Alter the max width with 
 <table class="table is-bordered is-hoverable">
   <tr>
       <td class="is-narrow"><code>container</code></td>
-      <td>Max <strong>1248px</strong>, with 2 breakpoints</td>
+      <td>Max <strong>1248px</strong>, with 2 breakpoints and a max width on mobile (can be disabled with `.is-fluid-mobile`).</td>
   </tr>
   <tr>
       <td class="is-narrow"><code>container</code> <code>is-max-desktop</code></td>
-      <td>Max <strong>960px</strong> (the desktop breakpoint)</td>
+      <td>Max <strong>960px</strong> – the desktop breakpoint</td>
   </tr>
   <tr>
       <td class="is-narrow"><code>container</code> <code>is-max-tablet</code></td>
-      <td>Max <strong>769px</strong> (the tablet breakpoint)</td>
+      <td>Max <strong>769px</strong> – the tablet breakpoint</td>
   </tr>
   <tr>
     <td class="is-narrow"><code>container</code> <code>is-max-modal</code></td>
-    <td>Max <strong>528px</strong> (the modal width)</td>
+    <td>Max <strong>528px</strong> – the modal width</td>
   </tr>
 </table>
 
