@@ -135,7 +135,7 @@ $scheme-invert: $dark !default
 $scheme-invert-bis: $black-bis !default
 $scheme-invert-ter: $black-ter !default
 
-$background: $white-bis !default
+$background: rgba($black,.04) !default
 
 $border: transparent !default
 $border-hover: rgba($primary-dark,.075) !default
@@ -146,7 +146,7 @@ $border-light-hover: $grey-lightest !default
 
 $text: $dark !default
 $text-invert: findColorInvert($text) !default
-$text-light: $grey !default
+$text-light: $dark !default
 $text-strong: inherit !default
 
 // Code colors
@@ -365,6 +365,10 @@ $input-focus-box-shadow-size: 0 0 0 0 !default
 $input-focus-box-shadow-color: transparent !default
 $label-color: $dark !default
 $label-weight: $weight-normal !default
+
+$input-disabled-color: $black-bis !default
+$input-disabled-border-color: transparent !default
+$input-disabled-placeholder-color: $input-placeholder-color !default
 
 $menu-item-color: $dark !default
 $menu-item-radius: $radius !default

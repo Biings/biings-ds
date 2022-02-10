@@ -12,9 +12,10 @@ select,
     transition: border-color .1s ease-out, color .1s linear, background-color .1s linear
 
 .input[readonly],
-.textarea[readonly]
+.textarea[readonly],
+select[disabled]
     border-color: transparent
-    background-color: rgba($black,.04)
+    background-color: $background
 
 .field > .input[readonly]
     border-color: $input-border-color
