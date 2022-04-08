@@ -1,4 +1,4 @@
-<h1 class="title is-size-2-mobile has-text-weight-semibold has-text-primary-dark has-text-centered"><span class="is-size-bigger">Biings Design System</span></h1>
+<h1 class="title is-size-2-mobile has-text-weight-semibold has-text-centered"><span class="is-size-bigger">Biings Design System</span></h1>
 <div class="container is-max-modal">
     <p class="subtitle is-size-5-mobile has-text-centered has-text-primary-dark">
         <span class="is-size-bigger">A series of assets and guidelines for building consistent user experiences across Biings products.</span>
@@ -22,7 +22,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/content" class="box is-medium is-bordered hover-to-raised has-background-primary-lightest">
+        <a href="#/content" class="box is-medium hover-to-bordered is-motionless has-background-primary-lightest">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile has-text-weight-semibold"><u>Foundation</u></h2>
@@ -30,7 +30,7 @@
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered hover-to-raised has-background-white-bis">
+        <a href="#/avatar" class="box is-medium hover-to-bordered is-motionless has-background-white-bis">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile has-text-weight-semibold"><u class="is-secondary">Components</u></h2>
