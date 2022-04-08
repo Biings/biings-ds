@@ -14,6 +14,8 @@
     <li>Font loading does not block the page from rendering anymore and tells the browser to display a fallback font instead</li>
 </ul>
 
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">October 8, 2021</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.51</h3>
 <ul class="list">
