@@ -4,6 +4,16 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 8, 2022</span>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.51</h3>
+<ul class="list">
+    <li>New icons: <i>`balance`, `balance-g`, `balance-even`, `balance-even-g`, `scissors-g`</i></li>
+    <li>New "tilted" Avatar variant</li>
+    <li>Harmonised styles for `readonly` and `disabled` form inputs</li>
+    <li>Layout containers now have a maximum width (equal to the default width of a modal) when displayed on mobile devices</li>
+    <li>Font loading does not block the page from rendering anymore and tells the browser to display a fallback font instead</li>
+</ul>
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">October 8, 2021</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.51</h3>
 <ul class="list">
