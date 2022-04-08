@@ -5,7 +5,7 @@
 <br>
 
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 8, 2022</span>
-<h3 class="title is-size-3-touch is-family-primary">Version 1.51</h3>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.52</h3>
 <ul class="list">
     <li>New icons: <i>`balance`, `balance-g`, `balance-even`, `balance-even-g`, `scissors-g`</i></li>
     <li>New "tilted" Avatar variant</li>
