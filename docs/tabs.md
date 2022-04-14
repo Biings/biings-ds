@@ -8,7 +8,7 @@
 
 <div class="box is-raised is-marginless is-large is-radiusless-b">
     <div class="tabs is-fullwidth my-0">
-        <ul class="is-backgroundless">
+        <ul class="is-borderless">
             <li><a>Pilot</a></li>
             <li><a>Care</a></li>
             <li><a>Claim</a></li>
@@ -26,6 +26,7 @@
             <li><a>Full Package</a></li>
         </ul>
     </div>
+    <hr class="is-visible">
 <hr class="is-visible is-size-1">
 
 <h3 class="title is-family-primary">Hanging Tabs</h3>
@@ -73,29 +74,29 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 
 <br><br>
 
-<div class="box is-raised is-large is-marginless is-radiusless-b">
+<div class="box is-raised is-large is-marginless is-radiusless-b has-background-white-bis">
     <div class="tabs is-toggle is-fullwidth">
         <ul>
-            </li><li><a>Employer</a></li>
-            <li class="is-active"><a>Insured</a>
-            <li><a>Incapacity</a></li>
+            <li class="mx-1"><a>Employer</a></li>
+            <li class="is-active mx-1"><a>Insured</a></li>
+            <li class="mx-1"><a>Incapacity</a></li>
         </ul>
     </div>
     <hr>
     <div class="tabs is-toggle is-small is-toggle-rounded">
         <ul>
-            <li class="is-active"><a>Insured</a>
-            </li><li><a>Employer</a></li>
-            <li><a>Incapacity</a></li>
+            <li class="is-active mx-1"><a>Insured</a></li>
+            <li class="mx-1"><a>Employer</a></li>
+            <li class="mx-1"><a>Incapacity</a></li>
         </ul>
     </div>
 </div>
 
     <div class="tabs is-toggle is-fullwidth is-small is-toggle-rounded">
         <ul>
-            <li class="is-active"><a>Insured</a>
-            </li><li><a>Employer</a></li>
-            <li><a>Incapacity</a></li>
+            <li class="is-active mx-1"><a>Insured</a></li>
+            <li class="mx-1"><a>Employer</a></li>
+            <li class="mx-1"><a>Incapacity</a></li>
         </ul>
     </div>
 <hr>
@@ -111,18 +112,18 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 <div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth has-hr">
         <ul>
-            <li id="js-tab-1" class="is-active"><a onclick="toggleTab(1)">Option A</a></li>
-            <li id="js-tab-2" class=""><a onclick="toggleTab(2)">Option B</a></li>
-            <li id="js-tab-3" class=""><a onclick="toggleTab(3)">Option C</a></li>
+            <li id="js-tab-1" class="mx-0 is-active"><a onclick="toggleTab(1)">Option A</a></li>
+            <li id="js-tab-2" class="mx-0"><a onclick="toggleTab(2)">Option B</a></li>
+            <li id="js-tab-3" class="mx-0"><a onclick="toggleTab(3)">Option C</a></li>
             <hr>
         </ul>
     </div>
     <hr>
     <div class="tabs is-toggle is-fullwidth has-hr is-small is-toggle-rounded">
         <ul>
-            <li id="js-tab-4" class="is-active"><a onclick="toggleTab(4)">Option A</a></li>
-            <li id="js-tab-5" class=""><a onclick="toggleTab(5)">Option B</a></li>
-            <li id="js-tab-6" class=""><a onclick="toggleTab(6)">Option C</a></li>
+            <li id="js-tab-4" class="mx-0 is-active"><a onclick="toggleTab(4)">Option A</a></li>
+            <li id="js-tab-5" class="mx-0"><a onclick="toggleTab(5)">Option B</a></li>
+            <li id="js-tab-6" class="mx-0"><a onclick="toggleTab(6)">Option C</a></li>
             <hr>
         </ul>
     </div>
@@ -130,9 +131,9 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
     <div class="tabs is-toggle is-fullwidth has-hr">
         <ul>
-            <li class="is-active"><a>Option A</a></li>
-            <li><a>Option B</a></li>
-            <li><a>Option C</a></li>
+            <li class="is-active mx-0"><a>Option A</a></li>
+            <li class="mx-0"><a>Option B</a></li>
+            <li class="mx-0"><a>Option C</a></li>
             
             <hr> <!-- Don't forget that <hr> -->
         </ul>

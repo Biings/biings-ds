@@ -4,11 +4,8 @@
 .tabs > ul > li
     position: relative
 
-.tabs > ul > li > a
-    border-bottom: none
-
 .tabs:not(.is-boxed,.is-toggle) + hr
-    margin-top: -1px;
+    margin-top: 1px;
 
 .tabs:not(.is-boxed) > li:first-child > a
     padding-left: .75em
@@ -18,7 +15,7 @@
     right: 50%
     bottom: -($tabs-border-bottom-width)
     left: 50%
-    height: $tabs-border-bottom-width*2
+    height: $tabs-border-bottom-width
     background-color: $primary
     content: ''
     transition: left .15s ease, right .15s ease
@@ -52,11 +49,15 @@
     padding: .5em 1.125em .625em
     border-radius: $tabs-toggle-link-radius
 
+.tabs.is-toggle:not(.has-hr) > ul > li:hover > a,
+.tabs.is-toggle:not(.has-hr) > ul > li.is-active > a
+    box-shadow: $card-shadow
+
 .tabs.is-small.is-toggle a
     padding: .375em 1em .25em
 
 .tabs.is-toggle.has-hr li
-    background-color: $light
+    background-color: $code-background
 
 .tabs.is-toggle.has-hr li a
     margin: $tabs-toggle-link-border-width
@@ -84,7 +85,7 @@
     height: calc(100% - .5em)
     border-radius: .5em
     background-color: white
-    box-shadow: 0 .125rem .25rem -.125rem $grey-light
+    box-shadow: $card-shadow
     transition: left .25s ease-in-out, background-color .2s ease-in-out
 
 .tabs.is-toggle.has-hr a
