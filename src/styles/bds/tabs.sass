@@ -41,22 +41,25 @@
     bottom: auto
 
 .tabs.is-boxed a
-    margin-bottom: -1px
+    margin-bottom: 0
     padding: .625em 1.5em .875em
-    border-width: 1px
+    border-width: 0
+
+.tabs.is-boxed > ul > li.is-active > a
+    box-shadow: 0 1px 0 white
 
 .tabs.is-toggle a
     padding: .5em 1.125em .625em
     border-radius: $tabs-toggle-link-radius
 
-.tabs.is-toggle:not(.has-hr) > ul > li:hover > a,
 .tabs.is-toggle:not(.has-hr) > ul > li.is-active > a
     box-shadow: $card-shadow
 
 .tabs.is-small.is-toggle a
     padding: .375em 1em .25em
 
-.tabs.is-toggle.has-hr li
+.tabs.is-toggle.has-hr li,
+.tabs.is-toggle.has-hr > ul > li:not(.is-active):hover > a
     background-color: $code-background
 
 .tabs.is-toggle.has-hr li a
@@ -91,7 +94,6 @@
 .tabs.is-toggle.has-hr a
     z-index: 1
     border-color: transparent !important
-    background-color: transparent !important
 
 .tabs.has-hr.is-toggle li:nth-last-child(2)
     border-radius: 0 $radius-large $radius-large 0
