@@ -55,8 +55,8 @@ A Message can act as a toast notification when combined with a Modal. Put the me
     </div>
 </div>
 <div id="js-modal4" class="modal has-noti" onclick="closeModal('4')">
-    <div class="message is-dark is-size-6 has-text-weight-semibold">
-        Deleted..
+    <div class="message is-dark is-size-6 has-text-weight-medium">
+        <svg class="icon has-fill-success-light mr-1"><use xlink:href="media/bds-icons.min.svg#check-bold-g"></use></svg>Great, we kept this change
     </div>
 </div>
 <div id="js-modal5" class="modal has-noti" onclick="closeModal('5')">

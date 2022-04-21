@@ -1,4 +1,4 @@
-$message-body-padding: .875em 1.375em !default
+$message-body-padding: .625em 1.125em !default
 $message-body-border-width: 0 !default
 
 .message
@@ -38,6 +38,12 @@ $message-body-border-width: 0 !default
     background-color: rgba($primary,.075)
     color: $primary
 
+.message > .icon
+    position: relative
+    top: -1px
+    width: 1.25em
+    height: 1.25em
+
 
 // ——— Modal Noti Message —————————
 
@@ -48,13 +54,14 @@ $message-body-border-width: 0 !default
     position: fixed
     top: 0
     display: block
-    margin: 2em 0
+    margin: 2.625em 0
     max-width: 30rem
     border-width: 1px
     border-style: solid
     border-radius: 1em
     box-shadow: 0 6px 25px -8px rgba($black, .3)
     opacity: 0
+
     user-select: none
 
 .modal > .message.is-primary,
@@ -65,7 +72,7 @@ $message-body-border-width: 0 !default
     color: white
 
 .modal > .message.is-primary
-    background-color: rgba($purple-dark,.95)
+    background-color: rgba($primary-dark,.9)
 
 .modal > .message.is-success
     background-color: rgba($success,.9)
@@ -87,12 +94,14 @@ $message-body-border-width: 0 !default
     opacity: 1
     transform: scale(1)
     animation: fadeIn .4s 1
-    animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation-timing-function: cubic-bezier(.34, 1.56, .64, 1)
+
 
 .modal.is-active > .message.is-medium,
 .modal.is-active > .message.is-large
     animation: moveIn .4s 1
-    animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation-timing-function: cubic-bezier(.34, 1.56, .64, 1)
+
 
 @keyframes moveIn
     from
@@ -109,3 +118,4 @@ $message-body-border-width: 0 !default
     to
         opacity: 1
         transform: scale(1)
+
