@@ -35,10 +35,14 @@
 
 .tabs.is-hanging a
     border: none
+    border-top: 1px solid transparent
 
 .tabs.is-hanging > ul > li a:after
     top: 0
     bottom: auto
+
+.tabs.is-hanging > ul > li:not(.is-active):hover > a
+    border-top-color: $tabs-link-hover-border-bottom-color
 
 .tabs.is-boxed a
     margin-bottom: 0
@@ -46,7 +50,7 @@
     border-width: 0
 
 .tabs.is-boxed > ul > li.is-active > a
-    box-shadow: 0 1px 0 white
+    box-shadow: 0 2px 0 white, 0 0 2px rgba($dark, .1)
 
 .tabs.is-toggle a
     padding: .5em 1.125em .625em
