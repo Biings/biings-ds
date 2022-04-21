@@ -30,7 +30,8 @@ $message-body-border-width: 0 !default
 
 .message.is-dark
     border-color: transparent
-    background-color: rgba($black,.075)
+    background-color: rgba($black-ter,.5)
+    color: white
 
 .message.is-primary
     border-color: transparent
@@ -45,9 +46,9 @@ $message-body-border-width: 0 !default
 
 .modal > .message
     position: fixed
-    bottom: 0
+    top: 0
     display: block
-    margin: 1.5em 0
+    margin: 2em 0
     max-width: 30rem
     border-width: 1px
     border-style: solid
@@ -64,7 +65,7 @@ $message-body-border-width: 0 !default
     color: white
 
 .modal > .message.is-primary
-    background-color: rgba($primary,.85)
+    background-color: rgba($purple-dark,.95)
 
 .modal > .message.is-success
     background-color: rgba($success,.9)
@@ -78,26 +79,33 @@ $message-body-border-width: 0 !default
 .modal > .message.is-danger
     background-color: rgba($danger,.85)
 
+.modal > .message.is-dark
+    background-color: rgba($black-ter,.85)
+
 .modal.is-active > .message
-    bottom: 0
+    top: 0
     opacity: 1
-    animation: fadeIn .5s 1
-    animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    transform: scale(1)
+    animation: fadeIn .4s 1
+    animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
 
 .modal.is-active > .message.is-medium,
 .modal.is-active > .message.is-large
-    animation: moveIn .5s 1
+    animation: moveIn .4s 1
+    animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
 
 @keyframes moveIn
     from
-        bottom: -2em
+        top: -2em
         opacity: 0
     to
-        bottom: 0
+        top: 0
         opacity: 1
 
 @keyframes fadeIn
     from
         opacity: 0
+        transform: scale(.5)
     to
         opacity: 1
+        transform: scale(1)

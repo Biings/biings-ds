@@ -39,8 +39,8 @@ A Message can act as a toast notification when combined with a Modal. Put the me
 <div class="box is-raised is-large is-marginless has-text-centered is-radiusless-b">
     <div class="button" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
     <div class="button is-success is-light" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
-    <div class="button is-warning is-light" onclick="openModal('4')">Small Noti</div>&nbsp; &nbsp;
-    <div class="button is-primary is-light" onclick="openModal('5')">Medium Noti</div>
+    <div class="button is-black is-light" onclick="openModal('4')">Dark Noti (small)</div>&nbsp; &nbsp;
+    <div class="button is-primary is-light" onclick="openModal('5')">Primary Noti (medium)</div>
 </div>
 <hr class="is-marginless is-visible">
 
@@ -55,7 +55,7 @@ A Message can act as a toast notification when combined with a Modal. Put the me
     </div>
 </div>
 <div id="js-modal4" class="modal has-noti" onclick="closeModal('4')">
-    <div class="message is-warning is-size-6 has-text-weight-semibold">
+    <div class="message is-dark is-size-6 has-text-weight-semibold">
         Deleted..
     </div>
 </div>
