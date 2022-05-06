@@ -1,11 +1,8 @@
-<h1 class="title is-size-2-mobile has-text-weight-semibold has-text-centered"><span class="is-size-bigger">Biings Design System</span></h1>
-<div class="container is-max-modal">
-    <p class="subtitle is-size-5-mobile has-text-centered has-text-primary-dark">
-        <span class="is-size-bigger">A series of assets and guidelines for building consistent user experiences across Biings products.</span>
-    </p>
-</div>
-<br>
-<div class="columns is-centered is-mobile">
+<h1 class="title is-size-2-mobile has-text-weight-semibold is-spaced"><span class="is-size-bigger">Biings Design System</span></h1>
+<p class="subtitle is-size-5-mobile has-text-primary-dark mb-5">
+    A series of assets and guidelines for building consistent user experiences across Biings products.
+</p>
+<div class="columns is-mobile is-variable is-2">
         <div class="column is-narrow">
             <img src="https://img.shields.io/npm/v/biings-ds.svg?labelColor=46285D&color=8C50B9&label=npm&style=flat" class="mt-1" alt="biings-ds">
         </div>
@@ -22,23 +19,23 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/content" class="box is-medium hover-to-bordered is-motionless has-background-primary-lightest">
+        <a href="#/content" class="box is-medium is-bordered hover-to-floating">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
-            <h2 class="title is-size-3-mobile has-text-weight-semibold"><u>Foundation</u></h2>
-            <p class="subtitle is-5 is-dimed">Recommanded UI practices.</p>
+            <h2 class="title is-size-3-mobile">Foundation</h2>
+            <p class="subtitle is-5">Recommanded UI practices.</p>
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium hover-to-bordered is-motionless has-background-white-bis">
+        <a href="#/avatar" class="box is-medium is-bordered hover-to-floating">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
-            <h2 class="title is-size-3-mobile has-text-weight-semibold"><u class="is-secondary">Components</u></h2>
-            <p class="subtitle is-5 is-dimmd">UI building blocks.</p>
+            <h2 class="title is-size-3-mobile">Components</h2>
+            <p class="subtitle is-5">UI building blocks.</p>
         </a>
     </div>
 </div>
-<hr>
+<hr class="my-2">
 <div class="box is-large is-bordered">
     <h4 class="title is-family-primary mb-5">Install via NPM</h4>
     <strong>1 )&nbsp;</strong> Install BDS in your project using the npm package <code>biings-ds</code>.<br><br>
@@ -56,11 +53,11 @@
 <div class="box is-large is-bordered">
     <div class="columns is-vcentered">
         <div class="column is-6">
-            <h2 class="title has-text-weight-medium mb-5">Want to contribute?</h2>
-            <p class="subtitle is-dimmed">Onboarding for designers and developers wanting to contribute.</p>
+            <h2 class="title has-text-primary mb-5">Want to contribute?</h2>
+            <p class="subtitle">Onboarding for designers and developers wanting to contribute.</p>
         </div>
-        <div class="column is-5 is-offset-1 has-text-centered is-size-5 has-text-primary-dark">
-            <a href="#/contribute" class="button is-rounded is-primary is-glowing is-beefy is-medium">Start contributing</a>
+        <div class="column is-5 is-offset-1 has-text-centered is-size-5 is-dimmed">
+            <a href="#/contribute" class="button is-rounded is-primary is-outlined is-beefy is-medium">Start contributing</a>
             <hr class="is-marginless is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>

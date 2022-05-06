@@ -74,7 +74,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 
 <br><br>
 
-<div class="box is-raised is-large is-marginless is-radiusless-b has-background-white-bis">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth">
         <ul>
             <li class="mx-1"><a>Employer</a></li>
