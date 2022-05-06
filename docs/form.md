@@ -109,11 +109,11 @@ In most cases it is better to indicate the optional fields rather than the requi
 <br><form class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="field select is-warning">
         <label for="selectId" class="label">Select list</label>
-        <select id="selectId">
-            <option value="1">Please choose!</option>
-            <option value="2">System</option>
-            <option value="3">Select</option>
-            <option value="4">List</option>
+        <select id="selectId" required>
+            <option value="" disabled selected hidden>Please choose..</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
         </select>
     </div>
 </form>
@@ -121,7 +121,8 @@ In most cases it is better to indicate the optional fields rather than the requi
 
     <div class="field select">
         <label for="selectId" class="label">Select list</label>
-        <select id="selectId">
+        <select id="selectId" required>
+            <option value="" disabled selected hidden>Please choose..</option>
             <option value="1">Option 1</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>

@@ -325,6 +325,10 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 Create a system default select list just by wrapping it with a `.select` div. Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 
+<br>
+
+?> A default value styling can be attaigned with the `required` attribute along with the first `<option>` having `disabled selected hidden` attributes (see example below).
+
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
@@ -337,15 +341,15 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
         </select>
     </div> &nbsp; &nbsp;
     <div class="select">
-        <select disabled>
-            <option value="">Default</option>
+        <select required>
+            <option value="" disabled selected hidden>Default</option>
             <option value="">System</option>
             <option value="">Select</option>
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
     <div class="select is-medium is-info">
-        <select>
+        <select disabled>
             <option value="">Medium</option>
             <option value="">Warning</option>
             <option value="">Select</option>
@@ -355,11 +359,11 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
 </div>
 
     <div class="select is-medium is-info">
-        <select>
-            <option value="1">Default</option>
-            <option value="2">System</option>
-            <option value="3">Select</option>
-            <option value="4">List</option>
+        <select required>
+            <option value="" disabled selected hidden>Default</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
         </select>
     </div>
 <br>

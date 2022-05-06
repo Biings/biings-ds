@@ -11,6 +11,9 @@ select,
 .textarea:not(:focus)
     transition: border-color .1s ease-out, color .1s linear, background-color .1s linear
 
+select:required:invalid
+    color: $input-placeholder-color
+
 .input[readonly],
 .textarea[readonly],
 select[disabled]
@@ -227,7 +230,7 @@ label.label > span
 .field.is-warning > textarea,
 .field.select.is-warning,
 .field.is-warning > select
-    background-color: mix($secondary-light,$warning-light,5) !important
+    background-color: mix($white,$warning,80) !important
 
 /* Icon */
 .control.has-icons-left .icon,
