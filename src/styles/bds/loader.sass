@@ -65,11 +65,15 @@
 
 .loader.is-success
     &:after
-        border-color: $success
+        border-color: mix($turquoise,$success,20)
 
 .loader.is-secondary
     &:after
         border-color: $secondary
+
+.loader.is-info
+    &:after
+        border-color: $info
 
 // Component Loading state
 .button.is-loading

@@ -67,9 +67,10 @@ Add class `is-primary` or `is-secondary` to give the loader a unique Biings look
 <br>
 
 <div class="box is-raised is-large is-relative has-text-centered">
-    <div class="loader is-primary is-inline is-size-3"></div>
-    <div class="loader is-success is-inline is-size-3"></div>
-    <div class="loader is-secondary is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-primary is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-success is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-secondary is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-info is-inline is-size-3"></div>
 </div>
 
 <hr class="is-size-1 is-visible">
