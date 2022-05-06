@@ -207,6 +207,12 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
     <div class="column is-12">
         <code>has-background-info-gradient</code>
     </div>
+    <div class="column is-12">
+        <br><div class="box is-large has-background-menu">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-menu</code>
+    </div>
 </div>
 
 <hr class="is-size-1 is-visible">
