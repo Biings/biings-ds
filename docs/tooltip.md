@@ -30,6 +30,8 @@ You can change the tooltip position, color and arrow.
     <hr class="my-2">
     Colored <span class="tooltip has-tooltip-arrow has-tooltip-danger has-tooltip-fade has-tooltip-text-centered" data-tooltip="This is red/danger &NewLine; and fades in as well">tooltip</span>.
     <hr class="my-2">
+    A tooltip can be aligned to the <span class="tooltip has-tooltip-arrow has-tooltip-warning has-tooltip-right-aligned" data-tooltip="With has-tooltip-right-aligned">left or right</span> of the target.
+    <hr class="my-2">
     A tooltip can be <span class="tooltip has-tooltip-arrow has-tooltip-info has-tooltip-active has-tooltip-bottom" data-tooltip="To show a quick, useful&NewLine;and contextual information">always active</span>.
 </div>
 
@@ -38,6 +40,7 @@ You can change the tooltip position, color and arrow.
         has-tooltip-arrow
         has-tooltip-info
         has-tooltip-left
+        has-tooltip-left-aligned
         has-tooltip-active
         has-tooltip-fade"
         data-tooltip="Tooltip content, use the &NewLine; html entity for multi-line content"
