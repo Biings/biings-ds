@@ -4,6 +4,28 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">May 25, 2022</span>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.54</h3>
+<ul class="list">
+    <li>New icons: <i>`medical-round-g`, `adaptation`, `adaption-g`, `money-g`, `briefcase-new-g`</i></li>
+    <li>New `is-info` loader style</li>
+    <li>New menu background color `has-background-menu`</li>
+    <li>Added left and right aligned tooltip positions</li>
+    <li>Style adjustments and fixes to: Form input/select, Menu, Underlined link</li>
+</ul>
+
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 28, 2022</span>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.53</h3>
+<ul class="list">
+    <li>New icons: <i>`overload-bold-g`, `timelines-bold-g`, `indicator-bold-g`, `notification-bold-g`, `bulb-bold-g`, `gear-bold-g`, `bell-off-g`, `bell-off-bold-g`</i></li>
+    <li>Typography: new default grey underline style (primary and secondary are still available)</li>
+    <li>Style adjustments and fixes to: Tabs, Messages (now defaults to top position), Avatar (thiner lettering)</li>
+</ul>
+
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 8, 2022</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.52</h3>
 <ul class="list">
