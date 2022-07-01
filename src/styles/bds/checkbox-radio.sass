@@ -39,8 +39,8 @@ label.radio
     box-shadow: inset 0 0 0 $control-border-width $input-hover-border-color
 
 .checkbox:not(.is-toggle) > input:checked ~ .checkbox-mark
-    background-color: $dark
-    box-shadow: inset 0 0 0 $control-border-width $dark !important
+    background-color: $primary
+    box-shadow: inset 0 0 0 $control-border-width $primary !important
 
 .checkbox[disabled] > .checkbox-mark,
 .radio[disabled] > .radio-mark
@@ -48,11 +48,11 @@ label.radio
     box-shadow: inset 0 0 0 $control-border-width $border-hover !important
 
 .checkbox[disabled] > input:checked ~ .checkbox-mark
-    background-color: $light
+    background-color: $border-hover
     box-shadow: inset 0 0 0 $control-border-width transparent !important
 
 .checkbox[disabled] > input:checked ~ .checkbox-mark:after
-    border: solid $primary-dark !important
+    border: solid rgba($primary,.75) !important
     border-width: 0 2px 2px 0 !important
 
 .radio[disabled] > input:checked ~ .radio-mark:after
@@ -72,7 +72,7 @@ label.radio
     transform: rotate(40deg) scale(.25)
 
 .checkbox > input:indeterminate + .checkbox-mark
-    background-color: $light
+    background-color: $primary-lighter
     box-shadow: inset 0 0 0 $control-border-width transparent !important
 
 .checkbox > input:indeterminate + .checkbox-mark:after
@@ -82,7 +82,7 @@ label.radio
     height: 2px
     border-width: 0
     border-radius: 4px
-    background-color: $primary-dark
+    background-color: $primary
     opacity: 1
     transform: none
 
