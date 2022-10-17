@@ -272,12 +272,12 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
         </div>
     </div>
     &nbsp;
-    <div class="dropdown is-hoverable is-inverted">
+    <div class="dropdown is-hoverable is-inverted has-arrow">
         <div class="dropdown-trigger">
-            <div class="button is-dark">Dropdown Menu</div>
+            <div class="button is-primary">Dropdown Menu</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content box is-small is-size-7 has-background-dark">
+            <div class="dropdown-content box is-small is-size-7 has-background-primary-dark">
                 <div class="menu is-small is-inverted">
                     <ul class="menu-list">
                         <li><a>Biodata</a></li>
@@ -301,7 +301,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 </div>
 
-    <div class="dropdown is-hoverable is-iconless has-arrow">
+    <div class="dropdown is-hoverable is-iconless has-arrow is-inverted">
         <div class="dropdown-trigger">
             <div class="button">
                 <span>With custom icon</span>
