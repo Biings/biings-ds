@@ -25,6 +25,14 @@ label.radio
     box-shadow: inset 0 0 0 $control-border-width $input-border-color
     transition: background-color .15s linear, box-shadow .15s linear
 
+.checkbox.is-inverted,
+.radio.is-inverted
+    color: white
+
+.checkbox.is-inverted > .checkbox-mark,
+.radio.is-inverted > .radio-mark
+    background-color: rgba($black,.25)
+
 // Right aligned
 .checkbox.is-right > .checkbox-mark,
 .radio.is-right > .radio-mark
@@ -142,7 +150,7 @@ label.checkbox.is-small
     width: 2rem
     height: 1.25rem
     border-radius: 2rem !important
-    background-color: rgba($grey-darker, .25)
+    background-color: rgba($black,.15)
     box-shadow: none !important
     transition: background-color .2s linear
     transform: none

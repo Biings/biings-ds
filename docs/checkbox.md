@@ -16,7 +16,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         Check me!
     </label>
     <hr>
-    <label class="checkbox" >
+    <label class="checkbox">
         <input type="checkbox" checked><span class="checkbox-mark"></span>
         I'm already checked.
     </label>
@@ -67,27 +67,34 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         I'm right aligned →
         <input type="checkbox"><span class="checkbox-mark"></span>
     </label>
+<br>
+
+?> Add class `is-inverted` when used on dark backgrounds.
 <hr class="is-size-1 is-visible">
 
 <h3 class="title is-family-primary">Small size</h3>
 
 For UI controls, a smaller checkbox (`.is-small`) is recommended.
 
-<br><div class="box is-raised px-6">
-    <label class="checkbox is-small">
+<br><div class="box is-raised is-medium has-background-primary-gradient mb-0 is-radiusless-b">
+    <label class="checkbox is-small is-inverted">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Small
     </label><br>
-    <label class="checkbox is-small">
+    <label class="checkbox is-small is-inverted">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Control
     </label><br>
-    <label class="checkbox is-small">
+    <label class="checkbox is-small is-inverted">
         <input type="checkbox"><span class="checkbox-mark"></span>
         Checkbox
     </label>
 </div>
 
+    <label class="checkbox is-small is-inverted">
+        <input type="checkbox"><span class="checkbox-mark"></span>
+        Small
+    </label>
 <hr class="is-size-1 is-visible">
 
 <h3 class="title is-family-primary">Toggle</h3>
