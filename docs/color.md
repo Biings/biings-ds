@@ -38,8 +38,8 @@ Brand colors are used when refering to Biings or any of its products.
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-grey-lightest"><br><br></div><strong>grey-lightest</strong><br><span class="is-dimmed is-family-monospace">#E7E2E0</span></div>
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter</strong><br><span class="is-dimmed is-family-monospace">#EFEBE9</span></div>
-    <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF7F5</span></div>
-    <div class="column is-3"><div class="has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white</strong><br><span class="is-dimmed is-family-monospace">#FFFFFF</span></div>
+    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF7F5</span></div>
+    <div class="column is-3"><div class="has-background-white"><br><br></div><strong>white</strong><br><span class="is-dimmed is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="is-dimmed is-family-monospace">#8A7D7F</span></div>
     <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="is-dimmed is-family-monospace">#9C9090</span></div>
@@ -219,7 +219,7 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
 
 <h3 class="title is-family-primary">Blurred Background</h3>
 
-Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
+Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, white-bis, black-bis or dark]`.
 
 <br><div class="box is-bordered is-paddingless is-small has-text-grey has-text-centered is-relative">
     <div class="box is-size-2 is-marginless">

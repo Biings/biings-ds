@@ -7,7 +7,7 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    Anything can have a <span class="tooltip" data-tooltip="Just like this one.">Tooltip</span>.<br>Simply put your tooltip text in the <code>data-tooltip</code> attribute and add the class <code>tooltip</code>.
+    Anything can have a <span class="tooltip has-tooltip-fade" data-tooltip="Just like this one.">Tooltip</span>.<br>Simply put your tooltip text in the <code>data-tooltip</code> attribute and add the class <code>tooltip</code>.
 </div>
 
     <span class="tooltip" data-tooltip="Just like this one.">Any element</span>

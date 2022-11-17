@@ -6,10 +6,10 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-raised is-radiusless-b is-large is-marginless">
+<div class="box is-raised is-backgroundless is-radiusless-b is-large is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button">Hover me</div>
+            <div class="button is-secondary">Hover me</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -25,7 +25,7 @@
     </div>
     <div class="dropdown is-active is-pulled-right is-right">
         <div class="dropdown-trigger">
-            <div class="button">Opened Dropdown</div>
+            <div class="button is-secondary">Opened Dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -42,7 +42,7 @@
 
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button">Default Dropdown</div>
+            <div class="button is-secondary">Default Dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -82,9 +82,9 @@ Dropdown can adapt to the size of their trigger component. Use the size modifier
             </div>
         </div>
     </div>
-    <div class="dropdown is-hoverable is-size-7 is-pulled-right is-right">
+    <div class="dropdown is-hoverable is-size-7 is-pulled-right is-right mt-2">
         <div class="dropdown-trigger">
-            <div class="button is-small is-inverted is-dark">Small text drp</div>
+            <div class="button is-small is-secondary">Small text drp</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">

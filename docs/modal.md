@@ -15,7 +15,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
     <div onclick="openModal('')" class="button is-beefy is-dark is-outlined">Open Modal</div>
 </div>
 <div id="js-modal" class="modal">
-    <div class="modal-background has-background-white has-background-blur" onclick="closeModal('')"></div>
+    <div class="modal-background has-background-white-bis has-background-blur" onclick="closeModal('')"></div>
     <div class="modal-content has-text-centered">
         <div class="title is-spaced is-1 is-size-1-mobile has-text-centered">Nice!</div>
         <div class="subtitle is-5 is-size-6-mobile">This opens just by adding the <code>is-active</code> to the modal div.</div>
@@ -27,7 +27,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 <hr class="is-marginless is-visible">
 
     <div class="modal">
-        <div class="modal-background has-background-white"></div>
+        <div class="modal-background has-background-white-bis has-background-blur"/>
         <div class="modal-content">
             <!-- Any other components. -->
         </div>
@@ -46,13 +46,20 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 <br>
 
 <div class="box is-raised is-large has-text-centered is-marginless is-radiusless-b">
-    <div onclick="openModal(1)" class="button is-dark is-beefy">Modal Card 1</div>
-    &nbsp; &nbsp; 
-    <div onclick="openModal(2)" class="button is-primary is-beefy">Modal Card 2</div>
+    <div class="columns is-centered">
+        <div class="column is-narrow">
+            <div onclick="openModal(1)" class="button is-dark is-beefy">Modal Card 1</div>
+            <p class="is-size-6 is-dimmed mt-2">Without backdrop (transparent)</p>
+        </div>
+        <div class="column is-narrow">
+            <div onclick="openModal(2)" class="button is-primary is-beefy">Modal Card 2</div>
+            <p class="is-size-6 is-dimmed mt-2">With backdrop</p>
+        </div>
+    </div>
 </div>
 <hr class="is-marginless is-visible">
 <div id="js-modal1" class="modal">
-    <div class="modal-background" onclick="closeModal(1)"></div>
+    <div class="modal-background is-backgroundless" onclick="closeModal(1)"></div>
     <div class="modal-card">
         <header class="modal-card-head has-border">
             <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
@@ -130,14 +137,14 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 </div>
             </form>
             <hr class="is-visible my-5">
-            <div class="button is-primary px-6 is-beefy">Save me</div>
+            <div class="button is-primary is-rounded px-6 is-beefy">Save me</div>
         </section>
     </div>
 </div>
 
     <!-- Example 1 -->
     <div class="modal">
-        <div class="modal-background"></div>
+        <div class="modal-background is-backgroundless"/>
         <div class="modal-card">
             <header class="modal-card-head">
                 <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>

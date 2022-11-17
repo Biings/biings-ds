@@ -283,6 +283,13 @@ pre
         background-color: rgba(white,.75) !important
 
 @supports(-webkit-backdrop-filter: blur())
+    .has-background-blur.has-background-white-bis
+        background-color: rgba($white-bis,.7) !important
+@supports(backdrop-filter: blur())
+    .has-background-blur.has-background-white
+        background-color: rgba($white-bis,.7) !important
+
+@supports(-webkit-backdrop-filter: blur())
     .has-background-blur.has-background-dark
         background-color: rgba($dark,.7) !important
 @supports(backdrop-filter: blur())

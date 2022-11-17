@@ -3,6 +3,10 @@
 
 .tooltip:before
     line-height: 1.25rem !important
+    box-shadow: inset 0 0 0 1px rgba($black,.1), 0 .125rem .25rem rgba($dark,.1)
+
+.tooltip:not(.has-tooltip-info,.has-tooltip-dark,.has-tooltip-danger,.has-tooltip-warning,.has-tooltip-success):before
+    color: $dark
     
 // Delay the appearance of the tooltip
 .tooltip:hover.is-delayed:before,
@@ -25,9 +29,5 @@
 .tooltip.has-tooltip-bottom.has-tooltip-right-aligned:before
     transform: translate(0%,100%) !important
 
-.tooltip.has-tooltip-dark
-    border-bottom-color: $primary !important
-
-.tooltip.has-tooltip-dark:before
-    background-color: $primary-dark !important
-    color: $white !important
+.has-tooltip-arrow.has-tooltip-arrow:not(.has-tooltip-bottom,.has-tooltip-left,.has-tooltip-right):after
+    top: -1px !important

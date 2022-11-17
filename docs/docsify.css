@@ -3,6 +3,7 @@ html
 {
     overflow-x: initial;
     overflow-y: initial;
+    background-color: var(--color-white-bis);
 }
 
 .box + pre

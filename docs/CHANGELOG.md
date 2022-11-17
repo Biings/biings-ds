@@ -4,14 +4,25 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">November 17, 2022</span>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.55</h3>
+<ul class="list">
+    <li>New icons: `rocket-g`, `screen-bulb`, `integrate`, `send-bold-g`, `box-g`</li>
+    <li>New `is-secondary` button style</li>
+    <li>New `is-inverted` checkbox style</li>
+    <li>Style adjustments to: <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal</i></li>
+</ul>
+
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">May 25, 2022</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.54</h3>
 <ul class="list">
-    <li>New icons: <i>`medical-round-g`, `adaptation`, `adaption-g`, `money-g`, `briefcase-new-g`</i></li>
+    <li>New icons: `medical-round-g`, `adaptation`, `adaption-g`, `money-g`, `briefcase-new-g`</li>
     <li>New `is-info` loader style</li>
     <li>New menu background color `has-background-menu`</li>
     <li>Added left and right aligned tooltip positions</li>
-    <li>Style adjustments and fixes to: Form input/select, Menu, Underlined link</li>
+    <li>Style adjustments and fixes to: <i>Form input/select, Menu, Underlined link</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
@@ -19,9 +30,9 @@
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 28, 2022</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.53</h3>
 <ul class="list">
-    <li>New icons: <i>`overload-bold-g`, `timelines-bold-g`, `indicator-bold-g`, `notification-bold-g`, `bulb-bold-g`, `gear-bold-g`, `bell-off-g`, `bell-off-bold-g`</i></li>
+    <li>New icons: `overload-bold-g`, `timelines-bold-g`, `indicator-bold-g`, `notification-bold-g`, `bulb-bold-g`, `gear-bold-g`, `bell-off-g`, `bell-off-bold-g`</li>
     <li>Typography: new default grey underline style (primary and secondary are still available)</li>
-    <li>Style adjustments and fixes to: Tabs, Messages (now defaults to top position), Avatar (thiner lettering)</li>
+    <li>Style adjustments and fixes to: <i>Tabs, Messages (now defaults to top position), Avatar (thiner lettering)</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
@@ -29,7 +40,7 @@
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 8, 2022</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.52</h3>
 <ul class="list">
-    <li>New icons: <i>`balance`, `balance-g`, `balance-even`, `balance-even-g`, `scissors-g`</i></li>
+    <li>New icons: `balance`, `balance-g`, `balance-even`, `balance-even-g`, `scissors-g`</li>
     <li>New "tilted" Avatar variant</li>
     <li>Harmonised styles for `readonly` and `disabled` form inputs</li>
     <li>Layout containers now have a maximum width (equal to the default width of a modal) when displayed on mobile devices</li>
@@ -42,10 +53,10 @@
 <h3 class="title is-size-3-touch is-family-primary">Version 1.51</h3>
 <ul class="list">
     <li>Added "Caveat" as a local font</li>
-    <li>New icons <i>`biings-notify`, `line-dense-g`, `card-g`, `star-g`, `star-bold-g`, `crown-g`, `crown-bold-g`, `notification`, `edit-bold-g`</i></li>
+    <li>New icons: `biings-notify`, `line-dense-g`, `card-g`, `star-g`, `star-bold-g`, `crown-g`, `crown-bold-g`, `notification`, `edit-bold-g`</li>
     <li>New Tooltip `is-delayed` variation</li>
     <li>New color classes for `--color-primary-lightest`</li>
-    <li>Style adjustments and fixes to: Dropdown arrows, Colors, Message, Form field, Modal header+footer, Chair icon</li>
+    <li>Style adjustments and fixes to: <i>Dropdown arrows, Colors, Message, Form field, Modal header+footer, Chair icon</i></li>
     <li>Iconography documentation: download link for each icon/svg (straight from our Github repo)</li>
     <li>Deprecated icon: <code style="text-decoration: line-through;">biings-claim</code>, use `biings-notify` instead</li>
 </ul>

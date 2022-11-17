@@ -19,7 +19,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/content" class="box is-medium is-bordered hover-to-floating">
+        <a href="#/content" class="box is-medium is-raised hover-to-floating">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Foundation</h2>
@@ -27,7 +27,7 @@
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered hover-to-floating">
+        <a href="#/avatar" class="box is-medium is-raised hover-to-floating">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Components</h2>
@@ -50,14 +50,14 @@
 
 <hr>
 
-<div class="box is-large is-bordered">
+<div class="box is-large is-bordered has-background-white-ter">
     <div class="columns is-vcentered">
         <div class="column is-6">
-            <h2 class="title has-text-primary mb-5">Want to contribute?</h2>
-            <p class="subtitle">Onboarding for designers and developers wanting to contribute.</p>
+            <h2 class="title mb-4"><span class="is-size-smaller">Want to contribute?</span></h2>
+            <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-5 is-dimmed">
-            <a href="#/contribute" class="button is-rounded is-primary is-outlined is-beefy is-medium">Start contributing</a>
+            <a href="#/contribute" class="button is-rounded is-primary is-outlined is-medium">Start contributing</a>
             <hr class="is-marginless is-wavy">
             Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
         </div>
