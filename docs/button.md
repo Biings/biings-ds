@@ -24,9 +24,14 @@
                 <td><hr>For primary actions, like "Save".</td>
             </tr>
             <tr>
+                <td class="has-text-centered"><hr class="is-smaller"><button class="button is-secondary">Secondary</button><br><br></td>
+                <td class="has-text-centered"><hr><code>is-secondary</code></td>
+                <td><hr>For secondary actions, like "Cancel".</td>
+            </tr>
+            <tr>
                 <td class="has-text-centered"><br><div class="button is-text">Text</div><br><br></td>
                 <td class="has-text-centered"><hr><code>is-text</code></td>
-                <td><hr>For secondary actions, like "Cancel".</td>
+                <td><hr>For tertiary actions, like "See more".</td>
             </tr>
             <tr>
                 <td class="has-text-centered"><br><div class="button is-ghost">Ghost</div><br><br></td>
@@ -179,8 +184,8 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-square">
-                <svg class="icon is-light"><use xlink:href="media/bds-icons.min.svg#edit-g"></use></svg>
+            <div class="button is-square is-secondary">
+                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#edit-bold-g"></use></svg>
             </div>
         </div>
         <div class="level-item">
