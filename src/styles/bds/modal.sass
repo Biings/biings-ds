@@ -16,7 +16,7 @@
 .modal-card-head.has-border + .modal-card-body,
 .modal-card-foot.has-border
     z-index: 0
-    box-shadow: 0 -41px 0 -40px $hr-background-color
+    box-shadow: 0 -31px 0 -30px $hr-background-color
 
 .modal-card-head:not(.has-border) + .modal-card-body,
 .modal-card-foot:not(.has-border)
@@ -63,15 +63,11 @@
     position: absolute
     top: 4%
 
-.modal-card-head > .icon
-    position: relative
-    left: -1px
-
 .modal-card-title
     max-width: 100%
     text-align: center
     letter-spacing: -.05em
-    font-weight: 800
+    font-weight: $weight-semibold
 
 .icon + .modal-card-title
     margin-left: .625rem
@@ -84,9 +80,8 @@
     right: 1rem
 
 .modal-card-title + .delete
-    top: 1.375rem
-    right: 1.75rem
-    margin-left: -2.125em
+    top: 1.25rem
+    right: 1.375rem
     font-size: inherit
 
 

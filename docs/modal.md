@@ -11,8 +11,8 @@
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
 <br><br>
-<div class="box is-raised is-large has-text-centered is-marginless is-radiusless-b">
-    <div onclick="openModal('')" class="button is-beefy is-dark is-outlined">Open Modal</div>
+<div class="box is-raised is-medium has-text-centered is-marginless is-radiusless-b">
+    <div onclick="openModal('')" class="button is-beefy">Open a nice modal</div>
 </div>
 <div id="js-modal" class="modal">
     <div class="modal-background has-background-white-bis has-background-blur" onclick="closeModal('')"></div>
@@ -62,13 +62,13 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-background is-backgroundless" onclick="closeModal(1)"></div>
     <div class="modal-card">
         <header class="modal-card-head has-border">
-            <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+            <svg class="icon has-fill-dark"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             <div class="modal-card-title">
                 Modal Card Example
             </div>
             <button onclick="closeModal(1)" class="delete is-large" aria-label="close"/>
         </header>
-        <section class="modal-card-body has-background-white">
+        <section class="modal-card-body">
             <p><strong>Can handle of lot of content..</strong></p>
             <br>
             <p>
@@ -107,9 +107,8 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <hr>
         </section>
         <footer class="modal-card-foot has-border">
-            <div class="button is-dark">Footer Action</div>
-            <div class="button is-static">or</div>
-            <a class="button is-ghost" onclick="closeModal(1)"><span class="is-link is-underlined">Close</span></a>
+            <div class="button is-dark mr-2">Footer Action</div>
+            <a class="button is-secondary" onclick="closeModal(1)">Close</a>
         </footer>
     </div>
 </div>
