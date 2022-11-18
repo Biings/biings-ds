@@ -46,16 +46,16 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown.has-arrow.is-up > .dropdown-menu
     transform: translateY(1em)
 
-.dropdown.is-active .dropdown-menu,
-.dropdown.is-hoverable:hover .dropdown-menu
+.dropdown.is-active > .dropdown-menu,
+.dropdown.is-hoverable:hover > .dropdown-menu
     z-index: 20
     opacity: 1
     transition: z-index 0s, opacity .25s cubic-bezier(.34, 1.56, .64, 1), transform .25s cubic-bezier(.34, 1.56, .64, 1)
     transform: translateY(0em) scale(1)
     pointer-events: auto
 
-.dropdown.has-arrow.is-active .dropdown-menu,
-.dropdown.has-arrow.is-hoverable:hover .dropdown-menu
+.dropdown.has-arrow.is-active > .dropdown-menu,
+.dropdown.has-arrow.is-hoverable:hover > .dropdown-menu
     transition: z-index 0s, opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1)
 
 .dropdown-trigger > .field > input
@@ -68,15 +68,15 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .select:not(.is-multiple):not(.is-loading):after
     position: absolute
     right: 1em
-    width: .875em
-    height: .875em
+    width: .875rem
+    height: .875rem
     border: none
     background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMCA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wLjI5Mjg5MzIxOSwwLjc5Mjg5MzIxOSBDMC42NTMzNzcxOCwwLjQzMjQwOTI1NyAxLjIyMDYwODI0LDAuNDA0Njc5NzIyIDEuNjEyODk5NDQsMC43MDk3MDQ2MTIgTDEuNzA3MTA2NzgsMC43OTI4OTMyMTkgTDUsNC4wODUgTDguMjkyODkzMjIsMC43OTI4OTMyMTkgQzguNjUzMzc3MTgsMC40MzI0MDkyNTcgOS4yMjA2MDgyNCwwLjQwNDY3OTcyMiA5LjYxMjg5OTQ0LDAuNzA5NzA0NjEyIEw5LjcwNzEwNjc4LDAuNzkyODkzMjE5IEMxMC4wNjc1OTA3LDEuMTUzMzc3MTggMTAuMDk1MzIwMywxLjcyMDYwODI0IDkuNzkwMjk1MzksMi4xMTI4OTk0NCBMOS43MDcxMDY3OCwyLjIwNzEwNjc4IEw1LjcwNzEwNjc4LDYuMjA3MTA2NzggQzUuMzQ2NjIyODIsNi41Njc1OTA3NCA0Ljc3OTM5MTc2LDYuNTk1MzIwMjggNC4zODcxMDA1Niw2LjI5MDI5NTM5IEw0LjI5Mjg5MzIyLDYuMjA3MTA2NzggTDAuMjkyODkzMjE5LDIuMjA3MTA2NzggQy0wLjA5NzYzMTA3MjksMS44MTY1ODI0OSAtMC4wOTc2MzEwNzI5LDEuMTgzNDE3NTEgMC4yOTI4OTMyMTksMC43OTI4OTMyMTkgWiIgZmlsbD0iIzJEMjMyRSIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+PC9nPjwvc3ZnPg==')
     background-position: 50% 50%
-    background-size: .625rem
+    background-size: .5rem
     background-repeat: no-repeat
     content: ''
-    opacity: .55
+    opacity: .6
     transition: opacity .1s linear, transform .1s ease-out
     transform: rotate(0)
     pointer-events: none
@@ -90,8 +90,6 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown:not(.is-iconless).is-size-6:after,
 .dropdown:not(.is-iconless).is-size-7:after
     top: .625rem
-    margin-top: 1px
-    margin-right: 1px
 
 
 // Inverted
@@ -144,3 +142,18 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown.has-arrow.is-hoverable.is-right > .dropdown-menu > div,
 .dropdown.has-arrow.is-hoverable.is-left > .dropdown-menu > div
     max-width: 20rem
+
+// Nested dropdowns
+.dropdown .dropdown.is-left > .dropdown-menu,
+.dropdown .dropdown.is-right > .dropdown-menu
+    top: -150%
+.dropdown .dropdown.is-right > .dropdown-menu
+    right: -100%
+.dropdown .dropdown.is-left > .dropdown-menu
+    left: -100%
+    right: auto
+
+.dropdown .dropdown:not(.is-iconless):after
+    transform: rotate(-90deg) !important
+    transition: none
+    right: .25em

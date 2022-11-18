@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3">
 
-<div class="box is-well is-medium is-marginless is-radiusless-b">
+<div class="box is-raised is-marginless is-radiusless-b">
     <div class="columns is-marginless">
         <div class="column is-6">
             <div class="box is-small is-size-7 is-marginless">

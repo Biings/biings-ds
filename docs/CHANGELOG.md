@@ -9,8 +9,9 @@
 <ul class="list">
     <li>New icons: `rocket-g`, `screen-bulb`, `integrate`, `send-bold-g`, `box-g`</li>
     <li>New `is-secondary` button style</li>
+    <li>Added support for nested dropdowns</li>
     <li>New `is-inverted` checkbox style</li>
-    <li>Style adjustments to: <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal</i></li>
+    <li>Style adjustments to <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal, Menu</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
@@ -22,7 +23,7 @@
     <li>New `is-info` loader style</li>
     <li>New menu background color `has-background-menu`</li>
     <li>Added left and right aligned tooltip positions</li>
-    <li>Style adjustments and fixes to: <i>Form input/select, Menu, Underlined link</i></li>
+    <li>Style adjustments and fixes to <i>Form input/select, Menu, Underlined link</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
@@ -32,7 +33,7 @@
 <ul class="list">
     <li>New icons: `overload-bold-g`, `timelines-bold-g`, `indicator-bold-g`, `notification-bold-g`, `bulb-bold-g`, `gear-bold-g`, `bell-off-g`, `bell-off-bold-g`</li>
     <li>Typography: new default grey underline style (primary and secondary are still available)</li>
-    <li>Style adjustments and fixes to: <i>Tabs, Messages (now defaults to top position), Avatar (thiner lettering)</i></li>
+    <li>Style adjustments and fixes to <i>Tabs, Messages (now defaults to top position), Avatar (thiner lettering)</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
@@ -56,7 +57,7 @@
     <li>New icons: `biings-notify`, `line-dense-g`, `card-g`, `star-g`, `star-bold-g`, `crown-g`, `crown-bold-g`, `notification`, `edit-bold-g`</li>
     <li>New Tooltip `is-delayed` variation</li>
     <li>New color classes for `--color-primary-lightest`</li>
-    <li>Style adjustments and fixes to: <i>Dropdown arrows, Colors, Message, Form field, Modal header+footer, Chair icon</i></li>
+    <li>Style adjustments and fixes to <i>Dropdown arrows, Colors, Message, Form field, Modal header+footer, Chair icon</i></li>
     <li>Iconography documentation: download link for each icon/svg (straight from our Github repo)</li>
     <li>Deprecated icon: <code style="text-decoration: line-through;">biings-claim</code>, use `biings-notify` instead</li>
 </ul>
@@ -206,7 +207,7 @@
     <li>Simplified Messages usage</li>
     <li>New Avatar status style</li>
     <li>Support for is-text dropdowns</li>
-    <li>Visual tweaks and fixes to: <i>Form fields, Boxed Tabs, buttons, Modals, Toggles, Typography spacing</i></li>
+    <li>Visual tweaks and fixes to <i>Form fields, Boxed Tabs, buttons, Modals, Toggles, Typography spacing</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">

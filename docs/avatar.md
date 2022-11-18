@@ -47,8 +47,8 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div>
-    <span class="subtitle has-text-dark">Padukone, D.</span>
+    <div class="avatar is-large"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
+    <span class="subtitle is-4"><strong>Khan</strong>, Aamir</span>
 </div>
 
     <div class="avatar">
@@ -63,7 +63,7 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
 <hr class="is-small">
 
 <div class="box is-raised is-large is-marginless is-radiusless-b">
-    <div class="avatar is-status-turquoise is-huge"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-turquoise is-medium"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
     <span class="subtitle is-4"><strong>Aamir</strong> is online.</span>
     <hr>
     <div class="avatar is-status-green"><div class="has-background-light">GR</div></div>
@@ -101,7 +101,7 @@ Avatars can be tilted the same way the Biings logo is. Just add class `is-tilted
     <div class="level">
         <div class="level-item"><div class="avatar is-tiny is-tilted"><div class="has-background-grey-lighter"><div>TT</div></div></div><span class="is-size-7">Tiny Tilted</span></div>
         <div class="level-item"><div class="avatar is-tilted"><div class="has-background-primary-lighter"><div>DT</div></div></div><span>Default Tilted</span></div>
-        <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
+        <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
     </div>
 </div>
 
