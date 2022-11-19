@@ -44,13 +44,14 @@
 .tabs.is-hanging > ul > li:not(.is-active):hover > a
     border-top-color: $tabs-link-hover-border-bottom-color
 
+.tabs.is-boxed > ul
+    box-shadow: 0 1px 0 $hr-background-color
+
 .tabs.is-boxed a
-    margin-bottom: 0
     padding: .625em 1.5em .875em
-    border-width: 0
 
 .tabs.is-boxed > ul > li.is-active > a
-    box-shadow: 0 2px 0 white, 0 0 2px rgba($dark, .1)
+    box-shadow: 0 1px 0 $white-bis
 
 .tabs.is-toggle a
     padding: .5em 1.125em .625em

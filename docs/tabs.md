@@ -74,7 +74,7 @@ Make your Tabs acts as Togglers between different states (or tabs) by combining 
 
 <br><br>
 
-<div class="box is-raised is-large is-marginless is-radiusless-b">
+<div class="box is-bordered is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth">
         <ul>
             <li class="mx-1"><a>Employer</a></li>
@@ -109,7 +109,7 @@ Animate the tab selector by adding `has-hr` and an `<hr>` tag after the last `<l
 
 <br>
 
-<div class="box is-raised is-large is-marginless is-radiusless-b">
+<div class="box is-bordered is-large is-marginless is-radiusless-b">
     <div class="tabs is-toggle is-fullwidth has-hr">
         <ul>
             <li id="js-tab-1" class="mx-0 is-active"><a onclick="toggleTab(1)">Option A</a></li>
@@ -156,28 +156,22 @@ Give your Tabs a bolder look by using `is-boxed` in combinaision with a box comp
 
 <br><br>
 
-<div class="box is-well is-large is-marginless is-radiusless-b">
-    <div class="tabs is-boxed is-marginless is-centered">
-        <ul class="is-borderless">
+<div class="box is-bordered is-large is-marginless is-radiusless-b">
+    <div class="tabs is-boxed is-centered">
+        <ul>
             <li class="is-active"><a>Insured</a>
             </li><li><a>Employer</a></li>
             <li><a>Incapacity</a></li>
             <li><a>Certificates</a></li>
         </ul>
     </div>
-    <div class="box is-raised is-large is-bordered has-text-grey-dark">
-        Boxed content<br><i>Use Javascript for the tab switching behaviour.</i>
-    </div>
 </div>
 
-    <div class="tabs is-boxed is-marginless">
-        <ul class="is-borderless">
+    <div class="tabs is-boxed">
+        <ul>
             <li><a>Employer</a></li>
             <li class="is-active"><a>Insured</a></li>
             <li><a>Incapacity</a></li>
             <li><a>Certificates</a></li>
         </ul>
-    </div>
-    <div class="box is-white is-floating">
-        ...
     </div>
