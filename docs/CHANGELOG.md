@@ -11,7 +11,7 @@
     <li>New `is-secondary` button style</li>
     <li>Added support for nested dropdowns</li>
     <li>New `is-inverted` checkbox style</li>
-    <li>Style adjustments to <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal, Menu</i></li>
+    <li>Style adjustments to <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal, Menu, Tab</i></li>
 </ul>
 
 <hr class="is-size-2 is-size-4-touch is-visible is-wavy">
