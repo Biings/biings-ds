@@ -67,88 +67,6 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Nested</h3>
-
-A dropdown can be nested inside another one in order to create sub menus. Use classes `is-left` and `is-right` to position the sub-menu and avoid overlap.
-
-<br>
-
-<div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="dropdown is-hoverable">
-        <div class="dropdown-trigger">
-            <div class="button is-secondary">Nested Dropdowns</div>
-        </div>
-        <div class="dropdown-menu">
-            <div class="dropdown-content">
-                <a class="dropdown-item">Option A</a>
-                <a class="dropdown-item">Option B</a>
-                <a class="dropdown-item">Option C</a>
-                <a class="dropdown-item">Option D</a>
-                <div class="dropdown is-hoverable is-fullwidth is-right is-size-7">
-                    <div class="dropdown-trigger">
-                        <a class="dropdown-item">Option E</a>
-                    </div>
-                    <div class="dropdown-menu">
-                        <div class="dropdown-content">
-                            <a class="dropdown-item">Sub-option A</a>
-                            <a class="dropdown-item">Sub-option B</a>
-                            <a class="dropdown-item">Sub-option C</a>
-                            <a class="dropdown-item">Sub-option D</a>
-                            <div class="dropdown is-hoverable is-fullwidth is-left is-size-7">
-                                <div class="dropdown-trigger">
-                                    <a class="dropdown-item">Sub-option E</a>
-                                </div>
-                                <div class="dropdown-menu">
-                                    <div class="dropdown-content">
-                                        <a class="dropdown-item">Final-option A</a>
-                                        <a class="dropdown-item">Final-option B</a>
-                                        <a class="dropdown-item">Final-option C</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="dropdown-item">Sub-option F</a>
-                            <a class="dropdown-item">Sub-option G</a>
-                        </div>
-                    </div>
-                </div>
-                <a class="dropdown-item">Option F</a>
-                <a class="dropdown-item">Option G</a>
-                <a class="dropdown-item">Option H</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <div class="dropdown is-hoverable">
-        <div class="dropdown-trigger">
-            <div class="button">Main menu</div>
-        </div>
-        <div class="dropdown-menu">
-            <div class="dropdown-content">
-                <a class="dropdown-item">Option A</a>
-                <a class="dropdown-item">Option B</a>
-                <a class="dropdown-item">Option C</a>
-                <div class="dropdown is-hoverable is-fullwidth is-right is-size-7">
-                    <div class="dropdown-trigger">
-                        <a class="dropdown-item">Option D</a>
-                    </div>
-                    <div class="dropdown-menu">
-                        <div class="dropdown-content">
-                            <a class="dropdown-item">Sub-option A</a>
-                            <a class="dropdown-item">Sub-option B</a>
-                            <a class="dropdown-item">Sub-option C</a>
-                            <a class="dropdown-item">Sub-option D</a>
-                        </div>
-                    </div>
-                </div>
-                <a class="dropdown-item">Option E</a>
-                <a class="dropdown-item">Option F</a>
-                <a class="dropdown-item">Option G</a>
-            </div>
-        </div>
-    </div>
-<hr class="is-visible is-size-1">
-
 <h3 class="title is-family-primary">With pointing arrow</h3>
 
 Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifier `is-right` to change the alignement of the dropdown (and its arrow).
@@ -193,19 +111,67 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Searchable list</h3>
+<h3 class="title is-family-primary">Shifted</h3>
 
-You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
+Sometimes it isn't necessary to keep the dropdown trigger visible, or screen real estate is simply to limited for it to stay visible. In those situations add class `is-shifted` in order to display the dropdown list right under the cursor once openened.
+<br><br>
+Use `is-shifted-left` or `is-shifted-right` to manage positions and shift dropdowns to either side.
 
 <hr>
 
 <div class="box is-raised is-radiusless-b is-medium is-marginless">
-    <div class="dropdown is-hoverable">
+    <div id="js-drpdwn1" class="dropdown is-shifted">
         <div class="dropdown-trigger">
-            <div class="button is-secondary">Choose a value</div>
+            <div class="button is-secondary" onclick="openDropdown('1')">Dropdwn Shifted</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
-            <div class="dropdown-content">
+            <div class="dropdown-content" onclick="closeDropdown('1')">
+                <div class="dropdown-item is-paddingless">
+                    <input class="input is-small is-backgroundless is-borderless" type="text" placeholder="Search the list">
+                </div>
+                <div class="dropdown-divider my0 mx-2 mt-1"></div>
+                <a class="dropdown-item">Show</a>
+                <a class="dropdown-item">results</a>
+                <a class="dropdown-item">here.</a>
+                <a class="dropdown-item">This list</a>
+                <a class="dropdown-item">can have</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">result</a>
+                <a class="dropdown-item">items.</a>
+            </div>
+        </div>
+    </div>
+    <div id="js-drpdwn3" class="dropdown is-shifted is-shifted-right">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary" onclick="openDropdown('3')">Dropdwn and right</div>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content" onclick="closeDropdown('3')">
+                <div class="dropdown-item is-paddingless">
+                    <input class="input is-small is-backgroundless is-borderless" type="text" placeholder="Search the list">
+                </div>
+                <div class="dropdown-divider my0 mx-2 mt-1"></div>
+                <a class="dropdown-item">Show</a>
+                <a class="dropdown-item">results</a>
+                <a class="dropdown-item">here.</a>
+                <a class="dropdown-item">This list</a>
+                <a class="dropdown-item">can have</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">result</a>
+                <a class="dropdown-item">items.</a>
+            </div>
+        </div>
+    </div>
+    <div id="js-drpdwn2" class="dropdown is-shifted is-up is-shifted-left is-pulled-right">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary" onclick="openDropdown('2')">Drop-up and left</div>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content" onclick="closeDropdown('2')">
                 <div class="dropdown-item is-paddingless">
                     <input class="input is-small is-backgroundless is-borderless" type="text" placeholder="Search the list">
                 </div>
@@ -225,9 +191,9 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
     </div>
 </div>
 
-    <div class="dropdown">
+    <div class="dropdown is-shifted is-up is-shifted-left">
         <div class="dropdown-trigger">
-            <div class="button is-light">Choose a value</div>
+            <div class="button is-light">Drop-up and left</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -238,6 +204,88 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
+            </div>
+        </div>
+    </div>
+<hr class="is-visible is-size-1">
+
+<h3 class="title is-family-primary">Nested</h3>
+
+A dropdown can be nested inside another one in order to create sub-menus. Combine it with shifted dropdowns to manage positioning and avoid overlaps.
+
+<br>
+
+<div class="box is-raised is-medium is-marginless is-radiusless-b">
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary">Nested Dropdowns</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Option A</a>
+                <a class="dropdown-item">Option B</a>
+                <a class="dropdown-item">Option C</a>
+                <a class="dropdown-item">Option D</a>
+                <div class="dropdown is-hoverable is-fullwidth is-shifted is-shifted-right is-size-7">
+                    <div class="dropdown-trigger">
+                        <a class="dropdown-item">Option E</a>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a class="dropdown-item">Sub-option A</a>
+                            <a class="dropdown-item">Sub-option B</a>
+                            <a class="dropdown-item">Sub-option C</a>
+                            <a class="dropdown-item">Sub-option D</a>
+                            <div class="dropdown is-hoverable is-fullwidth is-shifted is-shifted-left is-size-7">
+                                <div class="dropdown-trigger">
+                                    <a class="dropdown-item">Sub-option E</a>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-content">
+                                        <a class="dropdown-item">Final-option A</a>
+                                        <a class="dropdown-item">Final-option B</a>
+                                        <a class="dropdown-item">Final-option C</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="dropdown-item">Sub-option F</a>
+                            <a class="dropdown-item">Sub-option G</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="dropdown-item">Option F</a>
+                <a class="dropdown-item">Option G</a>
+                <a class="dropdown-item">Option H</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <div class="button">Main menu</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Option A</a>
+                <a class="dropdown-item">Option B</a>
+                <a class="dropdown-item">Option C</a>
+                <div class="dropdown is-hoverable is-fullwidth is-shifted is-shifted-left is-size-7">
+                    <div class="dropdown-trigger">
+                        <a class="dropdown-item">Option D</a>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a class="dropdown-item">Sub-option A</a>
+                            <a class="dropdown-item">Sub-option B</a>
+                            <a class="dropdown-item">Sub-option C</a>
+                            <a class="dropdown-item">Sub-option D</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="dropdown-item">Option E</a>
+                <a class="dropdown-item">Option F</a>
+                <a class="dropdown-item">Option G</a>
             </div>
         </div>
     </div>

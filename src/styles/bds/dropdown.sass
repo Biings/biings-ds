@@ -144,16 +144,19 @@ a.dropdown-item:not(.has-text-centered) > .icon
     max-width: 20rem
 
 // Nested dropdowns
-.dropdown .dropdown.is-left > .dropdown-menu,
-.dropdown .dropdown.is-right > .dropdown-menu
-    top: -150%
-.dropdown .dropdown.is-right > .dropdown-menu
-    right: -100%
-.dropdown .dropdown.is-left > .dropdown-menu
-    left: -100%
-    right: auto
-
 .dropdown .dropdown:not(.is-iconless):after
     transform: rotate(-90deg) !important
     transition: none
     right: .25em
+
+// Shifted
+.dropdown.is-shifted:not(.is-up) > .dropdown-menu
+    top: -100%
+.dropdown.is-up.is-shifted > .dropdown-menu
+    bottom: -100%
+.dropdown.is-shifted-left > .dropdown-menu
+    left: auto
+    right: 100%
+.dropdown.is-shifted-right > .dropdown-menu
+    left: 100%
+    right: auto

@@ -9,6 +9,7 @@
 <ul class="list">
     <li>New icons: `rocket-g`, `screen-bulb`, `integrate`, `send-bold-g`, `box-g`</li>
     <li>New `is-secondary` button style</li>
+    <li>New dropdowns shifting options to better manage dropdown positions</li>
     <li>Added support for nested dropdowns</li>
     <li>New `is-inverted` checkbox style</li>
     <li>Style adjustments to <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal, Menu, Tab</i></li>

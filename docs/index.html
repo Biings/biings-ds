@@ -59,6 +59,17 @@
       box.classList.toggle("is-popping");
     }
 
+    function openDropdown(num)
+    {
+      var drpdwn = document.getElementById("js-drpdwn"+num);
+      drpdwn.classList.add("is-active");
+    }
+    function closeDropdown(num)
+    {
+      var drpdwn = document.getElementById("js-drpdwn"+num);
+      drpdwn.classList.remove("is-active");
+    }
+
     function openModal(num)
     {
       var modal = document.getElementById("js-modal"+num);
