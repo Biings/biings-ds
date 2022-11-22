@@ -203,7 +203,7 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <th rowspan="7" style="width: 5rem;">FX</th>
+            <th rowspan="6" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
             <td>Fades out an element after 3 seconds</td>
         </tr>
@@ -219,11 +219,19 @@
             <td><code>is-twisted-odd[-bis]</code></td>
             <td>Boldly twist/rotate an element</td>
         </tr>
+        <tr>
+            <td><code>has-background-blur</code></td>
+            <td>Adds a blury transparent background. Works in pair with <code>has-background-[white,white-bis,dark,black]</code>.</td>
+        </tr>
+        <tr>
+            <td><code>has-background-grainy</code></td>
+            <td>Adds a grainy background effect.</td>
+        </tr>
     </tbody>
 </table>
 
 <hr class="is-size-3"><br>
 
-<a href="https://bulma.io/documentation/modifiers/" target="blank" class="box is-well has-text-grey-dark">
-    More classes and <u class="has-text-weight-medium">responsive helpers</u> on &nbsp;→&nbsp; <strong class="is-link has-text-primary">Bulma / Modifiers</strong>
+<a href="https://bulma.io/documentation/modifiers/" target="blank" class="box is-well">
+    More classes and <span class="has-text-weight-medium">responsive helpers</span> on &nbsp;→&nbsp; <strong class="is-link has-text-primary">Bulma / Modifiers</strong>
 </a>

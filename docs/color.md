@@ -217,29 +217,62 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Blurred Background</h3>
+<h3 class="title is-family-primary">Grainy texture</h3>
 
-Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, white-bis, black-bis or dark]`.
+Combine the modifier <code>has-background-grainy</code> with a background color to create a grainy texture effect.
 
-<br><div class="box is-bordered is-paddingless is-small has-text-grey has-text-centered is-relative">
-    <div class="box is-size-2 is-marginless">
-        🖱
-        <hr class="is-marginless is-wavy">
-        <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
-        <div class="has-text-grey is-size-7">This is made just to demo the effect.</div>
-        <div class="has-background-blur has-background-white" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;" onmouseout="this.className='has-background-blur has-background-white'" onMouseOver="this.className=''"></div>
-    </div>    
+<br>
+<div class="box p-0 has-background-primary-warning-gradient is-radiusless-b mb-0">
+    <div class="columns is-gapless has-text-centered is-size-6 has-text-weight-medium">
+        <div class="column">
+            <div class="box is-large is-marginless is-bordered is-radiusless-r is-radiusless-b is-dimmed">
+                Without any effect
+            </div>
+        </div>
+        <div class="column">
+            <div class="box is-large is-marginless has-background-grainy is-bordered is-radiusless-l is-radiusless-b is-dimmed">
+                With grainy effect
+            </div>
+        </div>
+    </div>
 </div>
 
+    <div class="has-background-primary-gradient">
+        <div class="has-background-grainy">
+            <!-- Some content with a grainy background -->
+        </div>
+    </div>
+<hr class="is-size-1 is-visible">
+
+<h3 class="title is-family-primary">Blured effect</h3>
+
+Ok it's not really a "color" but you can create a blurred effect using the modifier <code>has-background-blur</code> combined with `has-background-[white, white-bis, black-bis or dark]`.
+
+<br>
+<div class="box is-large is-raised has-text-centered is-radiusless-b mb-0 is-relative">
+    <strong class="button is-beefy is-primary is-medium is-rounded has-text-weight-bold mb-3">Some UI content</strong>
+    <div class="is-size-6">This is made just to demo the effect.</div>
+    <div class="is-overlay box has-background-blur has-background-white my-1 mr-1" style="left: 50%;">&nbsp;</div>
+</div>
+
+    <div>
+        <!-- Some UI content -->
+        <div class="has-background-white has-background-blur">
+            <!-- Some overlayed content with a blured background -->
+        </div>
+    </div>
 !> Blurred backgrounds are not visible IE and Firefox and fallback to the background-color.
 
-<hr class="is-size-1 is-size-3-touch is-wavy is-visible">
+<hr class="is-size-2 is-size-3-touch is-wavy is-visible mx-6">
 
-<div class="box is-large is-popping has-background-info-gradient">
-    <span class="tag is-info is-medium">Bonus</span>
-    <hr class="is-marginless is-wavy">
-    <h3 class="title is-family-primary"><span class="is-size-smaller">Slack Theme ✨</h3>
-    <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
+<div class="box is-medium is-floating is-bordered has-background-info-gradient">
+    <h3 class="title is-family-primary is-spaced"><span class="is-size-smaller">App Themes <span class="tag is-info is-large is-pulled-right is-twisted-odd-bis">Bonus</span></h3>
+    <p class="subtitle is-5 has-text-dark">Paint your apps to the colors of Biings by copy-pasting the below HEX codes into your respective app preferences.</p>
+    <strong>Linear</strong>
     
+    #FAF7F5,#2D232E,#46285D,#EEE5F5,#8246AF,#FFFFFF
+<br>
+    <strong>Slack</strong>
+
     #2D232E,#2D2236,#8C50B9,#FFFFFF,#130A1A,#FAF7F5,#7DB950,#AA50B5,#2D232E,#EFEBE9
 </div>

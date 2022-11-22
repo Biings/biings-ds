@@ -8,9 +8,10 @@
 <h3 class="title is-size-3-touch is-family-primary">Version 1.55</h3>
 <ul class="list">
     <li>New icons: `rocket-g`, `screen-bulb`, `integrate`, `send-bold-g`, `box-g`</li>
-    <li>New `is-secondary` button style</li>
+    <li>New secondary button style</li>
     <li>New dropdowns shifting options to better manage dropdown positions</li>
     <li>Added support for nested dropdowns</li>
+    <li>New blury background effect (modifier)</li>
     <li>New `is-inverted` checkbox style</li>
     <li>Style adjustments to <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal, Menu, Tab</i></li>
 </ul>
