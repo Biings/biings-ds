@@ -232,6 +232,6 @@
 
 <hr class="is-size-3"><br>
 
-<a href="https://bulma.io/documentation/modifiers/" target="blank" class="box is-well">
-    More classes and <span class="has-text-weight-medium">responsive helpers</span> on &nbsp;→&nbsp; <strong class="is-link has-text-primary">Bulma / Modifiers</strong>
+<a href="https://bulma.io/documentation/modifiers/" target="blank" class="message is-info is-block">
+    More classes and <span class="has-text-weight-medium">responsive helpers</span> on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Modifiers</strong>
 </a>

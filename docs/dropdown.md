@@ -67,21 +67,26 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">With pointing arrow</h3>
+<h3 class="title is-family-primary">Pointing arrows</h3>
 
-Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifier `is-right` to change the alignement of the dropdown (and its arrow).
+<ul class="list">
+    <li>Add class <code>has-arrow</code> to clearly indicate the element the dropdown is attached to.</li>
+    <li>Add class <code>is-right</code> and <code>is-up</code> to change the alignement of the dropdown (and its arrow).</li>
+    <li>Add class <code>is-iconless</code> to remove the dropdown chevron from the trigger zone.</li>
+    <li>Add class <code>is-inverted</code> when the trigger has a dark design.</li>
+</ul>
 
 <hr>
 
 <div class="box is-raised is-medium is-radiusless-b is-marginless">
     <div class="level">
         <div class="level-item">
-            <div class="dropdown is-iconless is-hoverable has-arrow">
+            <div class="dropdown is-inverted is-hoverable has-arrow">
                 <div class="dropdown-trigger">
                     <div class="button is-dark">Dropdown button</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-floating is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
+                    <div class="box has-background-primary-dark has-text-white is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> 😊</div>
                 </div>
             </div>
         </div>
@@ -291,56 +296,34 @@ A dropdown can be nested inside another one in order to create sub-menus. Combin
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Custom icon</h3>
+<h3 class="title is-family-primary">Dropdown menu</h3>
 
-Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
+Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when your dropdown needs to be more than just a list.
 
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
-
-    <div class="dropdown is-hoverable is-iconless has-arrow">
-        <div class="dropdown-trigger">
-            <div class="button is-light">
-                <span>With custom icon&nbsp;</span>
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-            </div>
-        </div>
-        <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content">
-                <div class="box has-text-grey has-text-centered">
-                    <div class="loader is-inline is-size-3"></div>
-                    <br>
-                    Loading state...
-                </div>
-            </div>
-        </div>
-    </div>
-    &nbsp;
     <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
-            <div class="button is-primary">Dropdow menu</div>
+            <div class="button is-primary">Action menu</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content box is-small is-size-7 has-background-primary-gradient">
+            <div class="dropdown-content has-background-primary-gradient">
                 <div class="menu is-small is-inverted">
-                    <ul class="menu-list">
-                        <li class="box is-small">
-                            <div class="columns is-smaller">
-                                <div class="column is-6">
-                                    <a class="is-active has-text-centered">
-                                        <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
-                                        <br>
-                                        ReStop
-                                    </a>
-                                </div>
-                                <div class="column is-6">
-                                    <a class="is-active has-text-centered">
-                                        <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
-                                        <br>
-                                        Reload
-                                    </a>
-                                </div>
+                    <ul class="menu-list pt-1">
+                        <li class="columns is-variable is-1 mx-0">
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <svg class="icon has-fill-white is-size-4 mx-0"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
+                                    <br>
+                                    Cancel
+                                </a>
+                            </div>
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
+                                    Reload
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -370,17 +353,17 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
         </div>
     </div>
     &nbsp;
-    <div class="dropdown is-hoverable is-inverted has-arrow">
+    <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
-            <div class="button is-primary">Dropdown Menu</div>
+            <div class="button is-dark">Menu dropdown</div>
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content box is-small is-size-7 has-background-primary-dark">
                 <div class="menu is-small is-inverted">
                     <ul class="menu-list">
-                        <li><a>Biodata</a></li>
+                        <li><a class="is-active">Biodata</a></li>
                         <li><a>Timelines</a></li>
-                        <li class="is-active"><a>Follow-ups</a></li>
+                        <li><a>Follow-ups</a></li>
                     </ul>
                     <p class="menu-label">Coverages</p>
                     <ul class="menu-list">
@@ -388,7 +371,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
                             <ul>
                                 <li><a>Illness</a></li>
                                 <li><a>Pro</a></li>
-                                <li><a>Other</a></li>
+                                <li><a class="is-passive">Other</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -399,19 +382,29 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 </div>
 
-    <div class="dropdown is-hoverable is-iconless has-arrow is-inverted">
+    <div class="dropdown is-inverted">
         <div class="dropdown-trigger">
-            <div class="button">
-                <span>With custom icon</span>
-                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-            </div>
+            <!-- Some trigger -->
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <div class="box has-text-grey has-text-centered">
-                    <div class="loader is-inline is-size-3"></div>
-                    <br>
-                    Loading state...
+                <div class="menu is-small is-inverted">
+                    <ul class="menu-list">
+                        <li class="columns is-variable is-1 mx-0">
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <!-- Icon -->
+                                    <!-- Text -->
+                                </a>
+                            </div>
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <!-- Icon -->
+                                    <!-- Text -->
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

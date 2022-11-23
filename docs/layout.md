@@ -30,8 +30,8 @@ Container is used to center your content horizontally. Alter the max width with 
 </table>
 
 <br>
-<a href="https://bulma.io/documentation/layout/container/" target="blank" class="box is-well has-text-grey">
-    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Container</strong>
+<a href="https://bulma.io/documentation/layout/container/" target="blank" class="message is-info is-small is-block">
+    More possibilities on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Container</strong>
 </a>
 
 <hr class="is-size-1 is-visible">
@@ -103,8 +103,8 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 ?> Column gap can be removed with modifier `is-gapless`.
 
 <br>
-<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-raised has-text-grey">
-    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
+<a href="https://bulma.io/documentation/columns/" target="blank" class="message is-info is-small is-block">
+    More possibilities on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Columns</strong>
 </a>
   
 <hr class="is-size-1 is-visible">
