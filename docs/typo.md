@@ -18,9 +18,9 @@ To achieve high legibility Biings DS uses <span class="is-family-primary has-tex
 
 ?> Download Biings font family <a class="has-text-weight-medium is-underlined" href="https://github.com/Biings/biings-ds/tree/master/build/fonts">from our Github repository</a>.
 
-<br>
+<hr>
 
-<i>Averta is a commercial font purchased by Biings Technologies SA. Crimson Pro and Caveat are open-source fonts (<a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">OFL</a>)</i>
+<p class="is-dimmed is-size-6">Averta is a commercial font purchased by Biings Technologies SA.<br>Crimson Pro and Caveat are open-source fonts (<a class="is-underlined" href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">OFL</a>).</p>
 
 <hr class="is-size-1 is-visible">
 <h3 class="title is-family-primary">Scales</h3>
