@@ -213,6 +213,25 @@ Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown 
     <div class="column is-12">
         <code>has-background-menu</code>
     </div>
+    <!-- RADIAL -->
+    <div class="column is-12">
+        <br><div class="box is-large has-background-light has-background-radial-t">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-radial-t</code>
+    </div>
+    <div class="column is-12">
+        <br><div class="box is-large has-background-light has-background-radial-tl">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-radial-tl</code>
+    </div>
+    <div class="column is-12">
+        <br><div class="box is-large has-background-light has-background-radial-tr">&nbsp;</div>
+    </div>
+    <div class="column is-12">
+        <code>has-background-radial-tr</code>
+    </div>
 </div>
 
 <hr class="is-size-1 is-visible">
@@ -265,7 +284,7 @@ Ok it's not really a "color" but you can create a blurred effect using the modif
 
 <hr class="is-size-2 is-size-3-touch is-wavy is-visible mx-6">
 
-<div class="box is-medium is-floating is-bordered has-background-info-gradient">
+<div class="box is-medium is-floating is-bordered has-background-radial-t has-background-radial-tl has-background-radial-tr">
     <h3 class="title is-family-primary is-spaced"><span class="is-size-smaller">App Themes <span class="tag is-info is-large is-pulled-right is-twisted-odd-bis">Bonus</span></h3>
     <p class="subtitle is-5 has-text-dark">Paint your apps to the colors of Biings by copy-pasting the below HEX codes into your respective app preferences.</p>
     <strong>Linear</strong>

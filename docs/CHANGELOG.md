@@ -11,6 +11,7 @@
     <li>New secondary button style</li>
     <li>New dropdowns shifting options to better manage dropdown positions</li>
     <li>Added support for nested dropdowns</li>
+    <li>New radial background colors</li>
     <li>New blury background effect (modifier)</li>
     <li>New `is-inverted` checkbox style</li>
     <li>Style adjustments to <i>Checkbox, Dropdowns, Input with icon, Tooltip, Modal, Menu, Tab</i></li>

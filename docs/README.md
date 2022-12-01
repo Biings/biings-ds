@@ -1,4 +1,4 @@
-<h1 class="title is-size-2-mobile has-text-weight-semibold is-spaced"><span class="is-size-bigger">Biings Design System</span></h1>
+<h1 class="title is-size-2-mobile has-text-weight-medium is-spaced"><span class="is-size-bigger">Biings Design System</span></h1>
 <p class="subtitle is-size-5-mobile has-text-primary-dark mb-5">
     A series of assets and guidelines for building consistent user experiences across Biings products.
 </p>
@@ -19,7 +19,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/brand" class="box is-medium is-raised hover-to-floating">
+        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter has-background-radial-tl">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Foundation</h2>
@@ -27,7 +27,7 @@
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-raised hover-to-floating">
+        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Components</h2>
@@ -50,16 +50,16 @@
 
 <hr>
 
-<div class="box is-large is-bordered has-background-white-ter">
+<div class="box is-large is-bordered has-background-grainy has-background-radial-tl has-background-radial-t">
     <div class="columns is-vcentered">
         <div class="column is-6">
             <h2 class="title mb-4"><span class="is-size-smaller">Want to contribute?</span></h2>
             <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-5 is-dimmed">
-            <a href="#/contribute" class="button is-rounded is-primary is-outlined is-medium">Start contributing</a>
-            <hr class="is-marginless is-wavy">
-            Or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.
+            <a href="#/contribute" class="button is-rounded is-primary is-outlined is-medium mt-2">Start contributing</a>
+            <hr class="my-1">
+            <span class="is-size-smaller">or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.</span>
         </div>
     </div>
 </div>

@@ -115,7 +115,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 <div id="js-modal2" class="modal">
     <div class="modal-background" onclick="closeModal(2)"></div>
     <div class="modal-card">
-        <section class="modal-card-body has-text-centered">
+        <section class="modal-card-body has-text-centered has-background-radial-tl  has-background-radial-tr">
             <button onclick="closeModal(2)" class="delete is-large" aria-label="close"></button>
             <div class="modal-card-title mb-4">
                 <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
@@ -168,7 +168,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal">
         <div class="modal-background"></div>
         <div class="modal-card">
-            <section class="modal-card-body has-text-centered">
+            <section class="modal-card-body has-text-centered has-background-radial-tl  has-background-radial-tr">
                 <button class="delete is-large" aria-label="close"/>
                 <svg><use xlink:href="path_to_bds-icons.min.svg#icon_name"></use></svg>
                 <h3 class="title">...</h3>

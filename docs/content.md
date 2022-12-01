@@ -11,7 +11,7 @@
 <h3 class="title is-family-primary">Be clear and concise</h3>
 Try to remove any unnecessary words or phrase.
 <hr class="is-size-7">
-<div class="box is-raised py-2">
+<div class="box is-raised py-2 has-background-radial-tr">
     <table class="table is-fullwidth is-brdered is-marginless">
         <thead>
             <tr>
@@ -37,7 +37,7 @@ Try to remove any unnecessary words or phrase.
 <h3 class="title is-family-primary">Write "the way you speak"</h3>
 Content should not feel complex or distant. Rather, it should be like a conversation with a smart friend.
 <hr class="is-size-7">
-<div class="box is-raised py-2">
+<div class="box is-raised py-2 has-background-radial-tr has-background-grainy">
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
@@ -66,7 +66,7 @@ Content should not feel complex or distant. Rather, it should be like a conversa
 
 <h3 class="title is-family-primary">Use simple tense.</h3>
 <hr class="is-size-7">
-<div class="box is-raised py-2">
+<div class="box is-raised py-2 has-background-radial-tr has-background-grainy">
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
@@ -94,7 +94,7 @@ Content should not feel complex or distant. Rather, it should be like a conversa
 Use an active voice for most of your content, especially when it involves a human or when the subject needs to be emphasized.
 
 <hr class="is-size-7">
-<div class="box is-raised py-2">
+<div class="box is-raised py-2 has-background-radial-tr has-background-grainy">
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>
@@ -114,7 +114,7 @@ Use an active voice for most of your content, especially when it involves a huma
 <br>The passive voice can be more natural in certain cases. Use passive voice if the true subject of the sentence is a system, and the human is secondary.
 
 <hr class="is-size-7">
-<div class="box is-raised py-2">
+<div class="box is-raised py-2 has-background-radial-tr has-background-grainy">
     <table class="table is-fullwidth is-marginless">
         <thead>
             <tr>

@@ -272,6 +272,33 @@ pre
     background-size: 10rem
     background-repeat: repeat
 
+// RADIAL BACKGROUNDS
+.has-background-radial-t,
+.has-background-radial-tl,
+.has-background-radial-tr
+    position: relative
+    overflow: hidden
+    z-index: 0
+.has-background-radial-t
+    background-size: 100% 100%
+    background-position: 0px 0px
+    background-image: radial-gradient(100% 100% at 45% -40%, $yellow-lighter 0%, rgba($yellow-lighter,0) 85%)
+.has-background-radial-tl:before,
+.has-background-radial-tr:after
+    position: absolute
+    z-index: -1
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    content: ''
+    background-size: 100% 100%
+    background-position: 0px 0px
+.has-background-radial-tl:before
+    background-image: radial-gradient(90% 100% at -10% -30%, $purple-lighter 0%, rgba($purple-lighter,0) 100%)
+.has-background-radial-tr:after
+    background-image: radial-gradient(80% 90% at 120% -40%, $turquoise-lighter 0%, rgba($turquoise-lighter,0) 100%)
+
 // BLURED BACKGROUND
 @supports(-webkit-backdrop-filter: blur())
     .has-background-blur
