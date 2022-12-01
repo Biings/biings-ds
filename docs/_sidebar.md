@@ -6,11 +6,12 @@
 - 
 <div class="menu is-small"><ul class="menu-list">
 - <p class="menu-label is-size-7 has-text-weight-semibold mb-2 pl-2">Foundation</p>
+- [Brand](brand)
+- [Colors](color)
+- [Typography](typo)
+- [Iconography](icons)
 - [Content](content)
 - [Layout](layout)
-- [Typography](typo)
-- [Colors](color)
-- [Iconography](icons)
 <!-- - [Rules](rules) -->
 - [Modifiers](modifiers)
 </ul></div>

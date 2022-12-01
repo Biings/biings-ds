@@ -19,7 +19,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/content" class="box is-medium is-raised hover-to-floating">
+        <a href="#/brand" class="box is-medium is-raised hover-to-floating">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Foundation</h2>
