@@ -139,98 +139,71 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
         color: var(--color-primary);
     }
 
-    .your-has-gradient-1
+    .your-gradient
     {
         background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
     }
-
 <hr class="is-size-1 is-visible">
 
 <h3 class="title is-family-primary">Special Backgrounds</h3>
 
-Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown menu)
+Use special backgrounds to make a component <u>stand out</u>! You can combine some background with each other (blury, grainy, radials). <strong class="has-text-weight-medium">Backgrounds containing transparency are marked with a <sup class="has-text-red-light has-text-weight-bold">T</sup>.</strong>
 
 <hr>
 
 <div class="columns is-small has-text-centered is-multiline is-vcentered">
     <div class="column is-6">
         <br><div class="box is-large has-background-primary-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-6">
-        <br><div class="box is-large has-background-primary-gradient-light">&nbsp;</div>
-    </div>
-    <div class="column is-6">
         <code>has-background-primary-gradient</code>
     </div>
     <div class="column is-6">
+        <br><div class="box is-large has-background-primary-gradient-light">&nbsp;</div>
         <code>has-background-primary-gradient-light</code>
     </div>
     <div class="column is-6">
         <br><div class="box is-large has-background-secondary-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-6">
-        <br><div class="box is-large has-background-secondary-gradient-light">&nbsp;</div>
-    </div>
-    <div class="column is-6">
         <code>has-background-secondary-gradient</code>
     </div>
     <div class="column is-6">
+        <br><div class="box is-large has-background-secondary-gradient-light">&nbsp;</div>
         <code>has-background-secondary-gradient-light</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-primary-secondary-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-primary-secondary-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-primary-warning-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-primary-warning-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-warning-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-warning-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-success-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-success-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-info-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-info-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-menu">&nbsp;</div>
-    </div>
-    <div class="column is-12">
-        <code>has-background-menu</code>
+        <code>has-background-menu</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <!-- RADIAL -->
-    <div class="column is-12">
+    <div class="column is-4">
         <br><div class="box is-large has-background-light has-background-radial-t">&nbsp;</div>
+        <code>has-background-radial-tl</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-12">
-        <code>has-background-radial-t</code>
-    </div>
-    <div class="column is-12">
+    <div class="column is-4">
         <br><div class="box is-large has-background-light has-background-radial-tl">&nbsp;</div>
+        <code>has-background-radial-t</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-12">
-        <code>has-background-radial-tl</code>
-    </div>
-    <div class="column is-12">
+    <div class="column is-4">
         <br><div class="box is-large has-background-light has-background-radial-tr">&nbsp;</div>
-    </div>
-    <div class="column is-12">
-        <code>has-background-radial-tr</code>
+        <code>has-background-radial-tr</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
 </div>
 
