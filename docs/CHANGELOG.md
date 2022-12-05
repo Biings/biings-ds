@@ -7,7 +7,7 @@
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">November 17, 2022</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.55</h3>
 <ul class="list">
-    <li>New icons: `rocket-g`, `screen-bulb`, `integrate`, `send-bold-g`, `box-g`</li>
+    <li>New icons: `rocket-g`, `screen-bulb`, `integrate`, `send-bold-g`, `box-g`, `plus-minus-g`</li>
     <li>New secondary button style</li>
     <li>New dropdowns shifting options to better manage dropdown positions</li>
     <li>Added support for nested dropdowns</li>
