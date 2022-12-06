@@ -14,7 +14,7 @@
     <table class="table is-fullwidth is-bordered">
         <tbody>
             <tr>
-                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button">Button</button><br><br></td>
+                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button is-responsive">Button</button><br><br></td>
                 <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
                 <td><hr>For standard controls, like Dropdowns.</td>
             </tr>
@@ -119,6 +119,10 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <table class="table is-bordered">
     <tbody>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-light is-responsive">Responsive</div><br><br></td>
+            <td><hr><code>is-responsive</code></td>
+        </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-light is-small">Sml</div><br><br></td>
             <td><hr><code>is-small</code></td>
