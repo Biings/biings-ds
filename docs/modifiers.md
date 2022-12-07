@@ -9,13 +9,17 @@
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <th rowspan="7">Color</th>
+            <th rowspan="8">Color</th>
             <td><code>has-text-[color]</code></td>
             <td>Changes the color of the <strong>text</strong>, <i>uses BDS color names</i></td>
         </tr>
         <tr>
             <td style="width: 230px;"><code>has-background-[color]</code></td>
-            <td>Changes the <strong>background</strong> color</td>
+            <td>Changes the<strong class="has-background-purple-radial has-text-white"> background </strong>color</td>
+        </tr>
+        <tr>
+            <td><code>has-text-background</code></td>
+            <td><span>Applies the <strong class="has-background-purple-radial has-text-background">background</strong> to the text.</span></td>
         </tr>
         <tr>
             <td><code>has-fill-[color]</code></td>

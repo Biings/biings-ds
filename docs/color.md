@@ -205,6 +205,10 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
         <br><div class="box is-large has-background-light has-background-radial-tr">&nbsp;</div>
         <code>has-background-radial-tr</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
+    <div class="column is-12">
+        <br><div class="box is-large has-background-purple-radial">&nbsp;</div>
+        <code>has-background-purple-radial</code><br>(ideal when combined with <code>has-text-background</code>)
+    </div>
 </div>
 
 <hr class="is-size-1 is-visible">

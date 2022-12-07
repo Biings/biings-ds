@@ -273,6 +273,11 @@ pre
     background-repeat: repeat
 
 // RADIAL BACKGROUNDS
+.has-background-purple-radial
+    background-size: 100% 100%
+    background-position: 0px 0px
+    background-image: radial-gradient(100% 200% at 50% 50%,$purple 0,$dark 60%)
+
 .has-background-radial-t,
 .has-background-radial-tl,
 .has-background-radial-tr
@@ -663,6 +668,11 @@ pre
 
 .has-text-grey-lightest
     color: $grey-lightest !important
+
+// Clipping the background to the text
+.has-text-background
+    -webkit-text-fill-color: transparent
+    -webkit-background-clip: text
 
 .has-fill-success
     fill: $success !important
