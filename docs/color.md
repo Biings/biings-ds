@@ -194,20 +194,35 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
     </div>
     <!-- RADIAL -->
     <div class="column is-4">
-        <br><div class="box is-large has-background-light has-background-radial-t">&nbsp;</div>
+        <br><div class="box is-large is-bordered has-background-radial-t">&nbsp;</div>
         <code>has-background-radial-tl</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <div class="column is-4">
-        <br><div class="box is-large has-background-light has-background-radial-tl">&nbsp;</div>
+        <br><div class="box is-large is-bordered has-background-radial-tl">&nbsp;</div>
         <code>has-background-radial-t</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <div class="column is-4">
-        <br><div class="box is-large has-background-light has-background-radial-tr">&nbsp;</div>
+        <br><div class="box is-large is-bordered has-background-radial-tr">&nbsp;</div>
         <code>has-background-radial-tr</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-12">
+    <div class="column is-3">
         <br><div class="box is-large has-background-purple-radial">&nbsp;</div>
-        <code>has-background-purple-radial</code><br>(ideal when combined with <code>has-text-background</code>)
+        <code>has-background-purple-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-secondary-radial">&nbsp;</div>
+        <code>has-background-secondary-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-success-radial">&nbsp;</div>
+        <code>has-background-success-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-grey-radial">&nbsp;</div>
+        <code>has-background-grey-radial</code>
+    </div>
+    <div class="column is-12">
+        (ideal when combined with <code>has-text-background</code>)
     </div>
 </div>
 

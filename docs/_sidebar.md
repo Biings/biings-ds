@@ -5,7 +5,7 @@
 
 - 
 <div class="menu is-small"><ul class="menu-list">
-- <p class="menu-label is-size-7 has-text-weight-semibold mb-2 pl-2">Foundation</p>
+- <p class="menu-label is-size-7 has-text-weight-bold mb-1 pl-2">Foundation</p>
 - [Brand](brand)
 - [Colors](color)
 - [Typography](typo)
@@ -18,7 +18,7 @@
   
 - 
 <div class="menu is-small mt-1"><ul class="menu-list">
-- <p class="menu-label is-size-7 has-text-weight-semibold mb-2 pl-2">Components</p>
+- <p class="menu-label is-size-7 has-text-weight-bold mb-1 pl-2">Components</p>
 - [Avatar](avatar)
 - [Box](box)
 - [Button / Link](button)

@@ -1,5 +1,5 @@
 <h1 class="title is-size-2-mobile has-text-weight-medium is-spaced"><span class="is-size-bigger">Biings Design System</span></h1>
-<p class="subtitle is-size-5-mobile has-text-primary-dark mb-5">
+<p class="subtitle is-size-5-mobile mb-5">
     A series of assets and guidelines for building consistent user experiences across Biings products.
 </p>
 <div class="columns is-mobile is-variable is-2">
@@ -19,7 +19,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter has-background-radial-tl">
+        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-grey-lightest has-background-grainy">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Foundation</h2>
@@ -27,7 +27,7 @@
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter">
+        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-grey-lightest has-background-grainy">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Components</h2>
