@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="dropdown is-active is-pulled-right is-right is-size-6 mt-1">
+    <div class="dropdown is-active is-pulled-right is-right is-size-7 mt-1">
         <div class="dropdown-trigger">
             <div class="button is-secondary is-small">Opened Dropdown</div>
         </div>

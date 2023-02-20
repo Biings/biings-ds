@@ -6,7 +6,7 @@
 
 .button:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined,.is-static,.is-primary, .is-info, .is-warning, .is-danger, .is-success, .is-dark)
     box-shadow: 0 1px 3px -2px rgba($black, .3)
-.button:active:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined, .is-info, .is-warning, .is-danger, .is-success, .is-dark)
+.button:active:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined, .is-info, .is-warning, .is-danger, .is-success, .is-dark, .is-primary, .is-glowing)
     background-color: $code-background
 
 .button.is-small
@@ -14,17 +14,6 @@
 
 .button:not(.is-rounded).is-small
     border-radius: $radius
-
-.button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined)
-    background: linear-gradient(160deg,$primary 0%, $primary 40%, $purple 65%)
-    background-position-y: 0
-    background-size: 300%
-    transition: background-position-y .1s linear
-
-.button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined):hover,
-.button.is-primary.is-hovered:not(.is-inverted):not(.is-light):not(.is-outlined)
-    background-position-y: 100%
-    transition-duration: .25s
 
 .button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined),
 .button.is-dark:not(.is-inverted):not(.is-light):not(.is-outlined),
@@ -231,7 +220,7 @@
 a,
 .is-link
     vertical-align: baseline
-    transition: all .2s ease !important
+    transition: all .125s ease-out !important
 
 a.is-underlined:not(.is-regular),
 .is-link.is-underlined:not(.is-regular),
@@ -246,8 +235,8 @@ a:hover > .is-link.is-ghost:not(.is-underlined)
 a.is-underlined,
 .is-link.is-underlined
     text-decoration: underline
-    text-decoration-thickness: .1em
-    text-decoration-width: .1em
+    text-decoration-thickness: .0625em
+    text-decoration-width: .0625em
     text-underline-offset: .125em
     transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
 
@@ -260,6 +249,6 @@ a.is-underlined.is-ghost:hover,
 a:hover > .is-link.is-underlined,
 a:hover > .is-link.is-underlined.is-ghost
     text-decoration: underline
-    text-decoration-thickness: .25em
-    text-decoration-width: .25em
+    text-decoration-thickness: .1875em
+    text-decoration-width: .1875em
     text-decoration-color: $link

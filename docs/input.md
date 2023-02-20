@@ -14,7 +14,7 @@
 
 <h3 class="title is-family-primary">Input field variations</h3>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b" spellcheck="false">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-7">
     <div class="control is-loading is-primary">

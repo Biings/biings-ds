@@ -11,7 +11,7 @@ $blue           : #087fd2 !default
 $purple         : #aa50b5 !default
 $red            : #f45564 !default
 $orange         : #ff8f41 !default
-$green          : #7db950 !default
+$green          : #7db058 !default
 $yellow         : #ffc748 !default
 $turquoise      : #00c8b5 !default
 
@@ -135,7 +135,7 @@ $scheme-invert: $dark !default
 $scheme-invert-bis: $black-bis !default
 $scheme-invert-ter: $black-ter !default
 
-$background: rgba($black,.04) !default
+$background: rgba($black,.05) !default
 
 $border: transparent !default
 $border-hover: rgba($primary-dark,.075) !default
@@ -152,7 +152,7 @@ $text-strong: inherit !default
 // Code colors
 
 $code: $primary
-$code-background: rgba($black-ter,0.06) !default
+$code-background: $background !default
 
 $pre: $dark
 $pre-background: $code-background
@@ -245,7 +245,7 @@ $container-max-width: $fullhd !default
 
 $easing: ease-out !default
 $radius-small: 5px !default
-$radius: 8px !default
+$radius: 7px !default
 $radius-large: 9px !default
 $radius-rounded: 290486px !default
 $speed: 86ms !default
@@ -332,8 +332,9 @@ $dropdown-divider-background-color: $hr-background-color !default
 $dropdown-menu-min-width: 12em !default
 
 // Form elements
-$control-height: 2.75em !default
-$control-border-width: 2px !default
+$control-height: 2.625em !default
+$control-line-height: 1.5 !default
+$control-border-width: 1px !default
 $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
 
@@ -355,14 +356,14 @@ $button-text-hover-color: $text-strong !default
 $button-responsive-sizes: ("mobile": ("small": ($size-small * 0.875), "normal": ($size-small * 0.9375), "medium": $size-small, "large": $size-normal), "tablet-only": ("small": ($size-small * 0.9375), "normal": ($size-small), "medium": $size-normal, "large": $size-medium)) !default
 
 $input-shadow: none !default
-$input-background-color: $white !default
+$input-background-color: transparent !default
 $input-color: $text !default
 $input-placeholder-color: rgba($input-color, 0.35) !default
 $input-arrow: $grey !default
 $input-hover-color: $input-color !default
 $input-border-color: rgba($black,.15) !default
-$input-hover-border-color: mix($black-bis,$input-border-color,15) !default
-$input-focus-border-color: rgba($primary,0.8) !default
+$input-hover-border-color: mix($dark,$input-border-color,19) !default
+$input-focus-border-color: $primary !default
 $input-focus-box-shadow-size: 0 0 0 0 !default
 $input-focus-box-shadow-color: transparent !default
 $label-color: $dark !default
@@ -387,12 +388,13 @@ $menu-label-spacing: 1em !default
 
 $table-color: $text !default
 $table-background-color: transparent !default
+$table-head-cell-border-width: 0 0 1px !default
 $table-cell-border: 1px solid $code-background !default
 $table-cell-border-width: 0 0 1px !default
 $table-row-hover-background-color: $code-background !default
 $table-striped-row-even-background-color: $code-background !default
 $table-striped-row-even-hover-background-color: $table-row-hover-background-color !default
-$table-row-active-background-color: rgba($purple-light,0.1) !default
+$table-row-active-background-color: rgba($primary,.075) !default
 $table-row-active-color: $code-background !default
 
 // Tabs

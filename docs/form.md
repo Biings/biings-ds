@@ -13,7 +13,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
 
 <br>
 
-<form class="box is-raised is-large is-marginless is-radiusless-b" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
+<form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
@@ -67,7 +67,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <hr>
 
-<div class="box is-raised is-medium is-marginless is-radiusless-b">
+<div class="box is-raised has-background-white-bis is-medium is-marginless is-radiusless-b">
     <form class="columns">
         <div class="column is-4">
             <div class="field">
@@ -170,7 +170,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title is-family-primary">Checkbox / Radio field</h3>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-multiline is-small">
         <div class="column is-6">
             <div class="field">
@@ -242,18 +242,18 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 Group similar field together by adding `is-gapless` to the wrapping `columns` container.
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-gapless is-multiline">
         <div class="column is-3">
             <div class="field">
                 <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input   "></input>
+                <input id="compact2" class="input"></input>
             </div>
         </div>
         <div class="column is-9">
-            <div class="field is-warning is-required">
+            <div class="field is-warning is-required has-radius-tr">
                 <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input"></input>
+                <input id="compact2" class="input has-radius-tr"></input>
             </div>
         </div>
         <div class="column is-12">
@@ -295,9 +295,9 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
             </div>
         </div>
         <div class="column is-6">
-            <div class="field select">
+            <div class="field select has-radius-bl">
                 <label for="compact1" class="label">Compact Field</label>
-                <select id="compact1">
+                <select id="compact1" class="has-radius-bl">
                     <option value="1">Choice 1</option>
                     <option value="2">Choice 2</option>
                     <option value="3">Choice 3</option>

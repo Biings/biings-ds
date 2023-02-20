@@ -194,11 +194,11 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
     </div>
     <!-- RADIAL -->
     <div class="column is-4">
-        <br><div class="box is-large is-bordered has-background-radial-t">&nbsp;</div>
+        <br><div class="box is-large is-bordered has-background-radial-tl">&nbsp;</div>
         <code>has-background-radial-tl</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <div class="column is-4">
-        <br><div class="box is-large is-bordered has-background-radial-tl">&nbsp;</div>
+        <br><div class="box is-large is-bordered has-background-radial-t">&nbsp;</div>
         <code>has-background-radial-t</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <div class="column is-4">
@@ -282,6 +282,9 @@ Ok it's not really a "color" but you can create a blurred effect using the modif
     <strong>Linear</strong>
     
     #FAF7F5,#2D232E,#46285D,#EEE5F5,#8246AF,#FFFFFF
+<br><strong>Linear (Dark)</strong>
+    
+    #1c1025,#FAF7F5,#5B3478,#EEE5F5,#8246AF,#FFFFFF
 <br>
     <strong>Slack</strong>
 

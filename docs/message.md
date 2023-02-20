@@ -12,7 +12,7 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 
 <br><br>
 
-<div class="box is-raised is-large is-marginless is-radiusless-b">
+<div class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="message">Default Message.</div>
     <br>
     <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>

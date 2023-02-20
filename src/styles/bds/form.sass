@@ -122,10 +122,6 @@ form .field
 .field.select > .label
     cursor: pointer
 
-.field:focus-within > .label,
-.field > .input:focus + .label
-    color: $primary
-
 .field > input,
 .field > textarea,
 .field.select > select,
@@ -172,7 +168,7 @@ form .field
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
-    top: calc( 1em + 1px )
+    top: calc( 1em + 3px )
     left: 1em
 
 .field > .checkbox.is-toggle > .checkbox-mark
@@ -271,7 +267,8 @@ label.label > span
 
 // Compact form field (in gapless columns)
 .is-gapless > .column .field
-    margin: 0 -2px -2px 0
+    margin: 0 -1px -1px 0
+    background-color: $white
 .is-gapless > .column .field,
 .is-gapless > .column .field > input,
 .is-gapless > .column .field > textarea,
@@ -283,11 +280,13 @@ label.label > span
 .is-gapless > .column .field > select:focus,
 .is-gapless > .column .field > label:active
     z-index: 2
+    background-color: $white
 .is-gapless > .column .field > input:hover,
 .is-gapless > .column .field > textarea:hover,
 .is-gapless > .column .field > select:hover,
 .is-gapless > .column .field > label:hover
     z-index: 1
+    background-color: $white
 
 .is-gapless > .column:first-child .field,
 .is-gapless > .column:first-child .field > .input,
@@ -296,38 +295,9 @@ label.label > span
 .is-gapless > .column:first-child .field > label
     border-top-left-radius: $control-radius
 
-.is-gapless > .is-12:first-child .field,
-.is-gapless > .is-12:first-child .field > .input,
-.is-gapless > .is-12:first-child .field > .textarea,
-.is-gapless > .is-12:first-child .field > select,
-.is-gapless > .is-12:first-child .field > label,
-.is-gapless > .column:not(.is-12):first-child + .column .field,
-.is-gapless > .column:not(.is-12):first-child + .column .field > .input,
-.is-gapless > .column:not(.is-12):first-child + .column .field > .textarea,
-.is-gapless > .column:not(.is-12):first-child + .column .field > select,
-.is-gapless > .column:not(.is-12):first-child + .column .field > label
-    border-top-right-radius: $control-radius
-
 .is-gapless > .column:last-child .field,
 .is-gapless > .column:last-child .field > .input,
 .is-gapless > .column:last-child .field > .textarea,
 .is-gapless > .column:last-child .field > select,
 .is-gapless > .column:last-child .field > label
     border-bottom-right-radius: $control-radius
-
-.is-gapless > .is-12:last-child .field,
-.is-gapless > .is-12:last-child .field > .input,
-.is-gapless > .is-12:last-child .field > .textarea,
-.is-gapless > .is-12:last-child .field > select,
-.is-gapless > .is-12:last-child .field > label,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > .input,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > .textarea,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > select,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > label,
-.is-gapless > .is-12 + .column:last-child .field,
-.is-gapless > .is-12 + .column:last-child .field > .input,
-.is-gapless > .is-12 + .column:last-child .field > .textarea,
-.is-gapless > .is-12 + .column:last-child .field > select,
-.is-gapless > .is-12 + .column:last-child .field > label
-    border-bottom-left-radius: $control-radius
