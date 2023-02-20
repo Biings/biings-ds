@@ -112,7 +112,11 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="7">Radius</th>
+            <th rowspan="8">Radius</th>
+            <td><code>has-radius-[tr,bl]</code></td>
+            <td>Applies a regular <strong>radius</strong> on top-right or bottom-left corner</td>
+        </tr>
+        <tr>
             <td><code>has-radius-bold</code></td>
             <td>Applies a strong <strong>radius</strong> on all corners</td>
         </tr>
