@@ -71,7 +71,7 @@
             <tr>
                 <td class="has-text-centered"><br><div class="button is-static">Static</div><br><br></td>
                 <td class="has-text-centered"><br><code>is-static</code></td>
-                <td><br>A non-interactive button. Typically used between buttons, like for the "or".</td>
+                <td><br>A non-interactive button.</td>
             </tr>
         </tbody>
     </table>
@@ -235,9 +235,9 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Button Group</h3>
+<h3 class="title is-family-primary">Button Group and Addons</h3>
 
-Buttons can be grouped together.
+Buttons can be grouped together or with a button.
 
 <hr>
 
@@ -253,6 +253,15 @@ Buttons can be grouped together.
             <a class="button">None</a>
         </p>
     </div>
+    <div class="field has-addons">
+        <p class="control">
+            <input class="input" type="text" placeholder="Attach controls to me, like a :">
+        </p>
+        <p class="control">
+            <input class="input" type="text" placeholder="Readonly input" readonly>
+        </p>
+        
+    </div>
 </div>
 
     <div class="field has-addons">
@@ -264,5 +273,12 @@ Buttons can be grouped together.
         </p>
         <p class="control">
             <a class="button">None</a>
+        </p>
+        // Inputs
+        <p class="control">
+            <input class="input" type="text" placeholder="Attach controls to me, like a :">
+        </p>
+        <p class="control">
+            <input class="input" type="text" placeholder="Readonly input" readonly>
         </p>
     </div>
