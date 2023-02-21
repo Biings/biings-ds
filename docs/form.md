@@ -132,7 +132,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title is-family-primary">Dropdown Field</h3>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="dropdown is-hoverable is-fullwidth is-iconless">
         <div class="dropdown-trigger">
             <div class="field select">

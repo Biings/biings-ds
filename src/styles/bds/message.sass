@@ -3,38 +3,32 @@ $message-body-border-width: 0 !default
 
 .message
     padding: $message-body-padding
-    border-color: rgba($black,.1)
+    box-shadow: inset 0 0 0 1px rgba($black,.05)
     border-radius: $radius-large
     background-color: $background
     font-size: $size-normal
 
 .message.is-warning
-    border-color: transparent
     background-color: rgba($warning,.075)
     color: mix($secondary-dark,$warning,60)
 
 .message.is-info
-    border-color: transparent
-    background-color: rgba($info,.075)
+    background-color: rgba($info,.0625)
     color: $info-dark
 
 .message.is-success
-    border-color: transparent
-    background-color: rgba($success,.075)
+    background-color: rgba($success,.0625)
     color: $success-dark
 
 .message.is-danger
-    border-color: transparent
     background-color: rgba($danger,.075)
     color: $danger-dark
 
 .message.is-dark
-    border-color: transparent
     background-color: rgba($black-ter,.5)
     color: white
 
 .message.is-primary
-    border-color: transparent
     background-color: rgba($primary,.075)
     color: $primary
 
@@ -56,8 +50,6 @@ $message-body-border-width: 0 !default
     display: block
     margin: 2.625em 0
     max-width: 30rem
-    border-width: 1px
-    border-style: solid
     border-radius: 1em
     box-shadow: 0 6px 25px -8px rgba($black, .3)
     opacity: 0
@@ -75,7 +67,7 @@ $message-body-border-width: 0 !default
     background-color: rgba($primary-dark,.9)
 
 .modal > .message.is-success
-    background-color: rgba($success,.9)
+    background-color: rgba($success-dark,.8)
 
 .modal > .message.is-info
     background-color: rgba($info,.8)
@@ -87,7 +79,7 @@ $message-body-border-width: 0 !default
     background-color: rgba($danger,.85)
 
 .modal > .message.is-dark
-    background-color: rgba($black-ter,.85)
+    background-color: rgba($black-bis,.8)
 
 .modal.is-active > .message
     top: 0

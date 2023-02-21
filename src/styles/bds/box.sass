@@ -75,17 +75,11 @@
 .box.is-expandable:not(.is-expanded) > .expanded-content
     display: none
 
-.box.is-expandable.is-expanded
-    margin-right: -.75em
-    margin-left: -.75em
-
 .box.is-expandable.is-expanded > .expanded-content
     animation: fadein .4s ease-in
 
 @keyframes fadein
     0%
-        opacity: 0
-    25%
         opacity: 0
     100%
         opacity: 1

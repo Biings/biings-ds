@@ -111,29 +111,30 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
 
 <h3 class="title is-family-primary">Expandable box</h3>
 
-Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immidiate child element with class `expanded-content` will be then shown.
+Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immediate child element with class `expanded-content` will be then shown.
 
 <br><br>
 
 <div class="box is-well is-radiusless-b is-marginless ">
     <div class="box">
-        <div id="ebox" class="box is-large has-background-black-ter is-floating is-expandable is-unselectable is-relative" onclick="toggleExpand('ebox')">
-            <span class="title is-3 has-text-white is-spaced has-text-weight-bold">I'm expandable <span class="has-text-grey has-text-weight-normal">(click me)</span></span>
-            <div class="expanded-content">
-                <hr class="is-visible is-size-3 is-size-4-mobile is-wavy">
-                <div class="subtitle has-text-white is-4 is-family-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.<br><br>Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?</div>
-                <hr class="is-size-5">
-                <hr class="is-visible is-marginless is-wavy">
-            </div>
+        <div id="ebox" class="message box px-4 py-3 is-expandable is-unselectable is-relative has-text-right" onclick="toggleExpand('ebox')">
+            <span class="has-text-weight-medium is-pulled-left">I'm an expandable message</span>
+            <svg class="icon is-size-bigger py-1 is-clickable"><use xlink:href="media/bds-icons.min.svg#expand-g"></use></svg>
+            <p class="has-text-left mt-2">Click to see the rest of the text.</p>
+            <p class="expanded-content has-text-left mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod.
+                <br>              
+                Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Quae contraria sunt his, malane? An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia?
+            </p>
         </div>
     </div>
 </div>
 
-    <div class="box is-expandable is-unselectable">
-        I'm expandable (click me)
-        <div class="expanded-content">
+    <div class="message box is-expandable">
+        I'm an expandable message
+        <p class="expanded-content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             An vero, inquit, quisquam potest probare, quod perceptfum, quod.
             Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.
-        </div>
+        </p>
     </div>
