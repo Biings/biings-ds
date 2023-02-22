@@ -1,14 +1,12 @@
 .tabs
     overflow: visible
-
 .tabs > ul > li
     position: relative
+.tabs:hover > ul > li:not(:hover,.is-active) > a
+    color: rgba($text,.75)
 
 .tabs:not(.is-boxed,.is-toggle) + hr
     margin-top: 1px;
-
-.tabs:not(.is-boxed) > li:first-child > a
-    padding-left: .75em
 
 .tabs:not(.is-boxed):not(.is-toggle) > ul > li > a:after
     position: absolute
@@ -27,112 +25,37 @@
     right: 0
     left: 0
 
-.tabs.is-hanging > ul
-    border-top-width: $tabs-border-bottom-width
-    border-top-style: $tabs-border-bottom-style
-    border-top-color: $tabs-border-bottom-color
-    border-bottom: none
-
-.tabs.is-hanging a
-    border: none
-    border-top: 1px solid transparent
-
-.tabs.is-hanging > ul > li a:after
-    top: 0
-    bottom: auto
-
-.tabs.is-hanging > ul > li:not(.is-active):hover > a
-    border-top-color: $tabs-link-hover-border-bottom-color
-
 .tabs.is-boxed > ul
     box-shadow: 0 1px 0 $hr-background-color
-
 .tabs.is-boxed a
     padding: .625em 1.5em .875em
-
 .tabs.is-boxed > ul > li.is-active > a
     font-weight: $weight-medium
     box-shadow: 0 1px 0 $white-bis
 
 .tabs.is-toggle a
-    padding: .5em 1.125em .625em
+    padding: .5em 1.25em
+    margin: 1px 0
     border-radius: $tabs-toggle-link-radius
-
-.tabs.is-toggle:not(.has-hr) > ul > li:not(.is-active) > a
-    color: rgba($text,.75)
-
-.tabs.is-toggle:not(.has-hr) > ul > li.is-active > a
-    box-shadow: $card-shadow
-
-.tabs.is-small.is-toggle a
-    padding: .375em 1em .25em
-
-.tabs.is-toggle.has-hr li,
-.tabs.is-toggle.has-hr > ul > li:not(.is-active):hover > a
-    background-color: $code-background
-
-.tabs.is-toggle.has-hr li a
-    margin: $tabs-toggle-link-border-width
-    border: none
-
 .tabs.is-toggle li:first-child
     border-radius: $tabs-toggle-link-radius 0 0 $tabs-toggle-link-radius
-
 .tabs.is-toggle li:last-child
     border-radius: 0 $tabs-toggle-link-radius $tabs-toggle-link-radius 0
 
 
-/* With movable white HR */
-// Support up to 3 tabs
-
-.tabs.is-toggle.has-hr > ul
-    position: relative
-    border-radius: 9px
-.tabs.is-toggle.has-hr > ul > hr
-    position: absolute
-    top: 0
-    z-index: 0
-    visibility: initial !important
-    margin: .25em .25em 0
-    height: calc(100% - .5em)
-    border-radius: .5em
-    background-color: white
+/* With HR background */
+.tabs.is-toggle.has-hr > ul > li
+    background-color: $code-background
+.tabs.is-toggle.has-hr > ul > li.is-active > a
+    background-color: $white
     box-shadow: $card-shadow
-    transition: left .25s ease-in-out, background-color .2s ease-in-out
-
-.tabs.is-toggle.has-hr a
-    z-index: 1
-    border-color: transparent !important
-
-.tabs.has-hr.is-toggle li:nth-last-child(2)
-    border-radius: 0 $radius-large $radius-large 0
-
-.tabs.is-toggle.has-hr li.is-active:nth-child(1) ~ hr
-    left: 0
-.tabs.is-toggle.has-hr li.is-active:nth-child(2) ~ hr
-    left: calc(50% -.5em)
-.tabs.is-toggle.has-hr li.is-active:nth-child(2) + li ~ hr
-    left: calc(33% -.125em)
-.tabs.is-toggle.has-hr li.is-active:nth-child(3) ~ hr
-    left: calc(66% -.125em)
-
-.tabs.is-toggle.has-hr li:nth-child(1) ~ hr
-    width: 100%
-.tabs.is-toggle.has-hr li:nth-child(2) ~ hr
-    width: 50%
-.tabs.is-toggle.has-hr li:nth-child(3) ~ hr
-    width: 33%
-
+    
+    
 // Rounded toggle
 .tabs.is-toggle.is-toggle-rounded  li:first-child
     border-radius: $radius-rounded 0 0 $radius-rounded
-.tabs.is-toggle.is-toggle-rounded  li:last-child,
-.tabs.is-toggle-rounded.has-hr li:nth-last-child(2)
+.tabs.is-toggle.is-toggle-rounded  li:last-child
     border-radius: 0 $radius-rounded $radius-rounded 0
 
 .tabs.is-toggle.is-toggle-rounded li > a
     border-radius: 2em !important
-
-.tabs.is-toggle.is-toggle-rounded.has-hr > ul,
-.tabs.is-toggle.is-toggle-rounded.has-hr > ul > hr
-    border-radius: $radius-rounded

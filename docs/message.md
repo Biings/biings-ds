@@ -15,6 +15,8 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 <div class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="message">Default Message.</div>
     <br>
+    <div class="message is-primary">A regular <strong>primary</strong> message</div>
+    <br>
     <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>
     <br>
     <div class="message is-warning">A <strong>warning</strong> message!</div>

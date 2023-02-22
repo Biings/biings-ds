@@ -84,10 +84,10 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-yellow-light"><br><br></div><strong>yellow-light</strong><br><span class="is-dimmed is-family-monospace">#FFD87F</span></div>
     <div class="column is-3"><div class="has-background-yellow-lighter"><br><br></div><strong>yellow-lighter</strong><br><span class="is-dimmed is-family-monospace">#FFEEC8</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-green-dark"><br><br></div><strong>green-dark</strong><br><span class="is-dimmed is-family-monospace">#5E8B3C</span></div>
-    <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><strong>green</strong><br><span class="is-dimmed is-family-monospace">#7DB950</span></div>
-    <div class="column is-3"><div class="has-background-green-light"><br><br></div><strong>green-light</strong><br><span class="is-dimmed is-family-monospace">#A4CE85</span></div>
-    <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><strong>green-lighter</strong><br><span class="is-dimmed is-family-monospace">#E5F1DC</span></div>
+    <div class="column is-3"><div class="has-background-green-dark"><br><br></div><strong>green-dark</strong><br><span class="is-dimmed is-family-monospace">#5E8442</span></div>
+    <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><strong>green</strong><br><span class="is-dimmed is-family-monospace">#7DB058</span></div>
+    <div class="column is-3"><div class="has-background-green-light"><br><br></div><strong>green-light</strong><br><span class="is-dimmed is-family-monospace">#A4C88A</span></div>
+    <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><strong>green-lighter</strong><br><span class="is-dimmed is-family-monospace">#E5EFDE</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-turquoise-dark"><br><br></div><strong>turquoise-dark</strong><br><span class="is-dimmed is-family-monospace">#009688</span></div>
     <div class="column is-3"><div class="has-background-turquoise has-shadow"><br><br></div><strong>turquoise</strong><br><span class="is-dimmed is-family-monospace">#00C8B5</span></div>
