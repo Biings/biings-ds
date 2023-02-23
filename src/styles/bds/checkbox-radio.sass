@@ -207,3 +207,19 @@ label.checkbox.is-small
 
 .checkbox.is-toggle.is-large > input:checked ~ .checkbox-mark:after
     left: 25px
+ 
+ .checkbox.is-toggle.is-disabled > input:checked ~ .checkbox-mark
+    background: $primary-lighter
+    border: 0px
+
+.checkbox.is-toggle.is-disabled > .checkbox-mark
+    background: $white-bis
+    border: 1px solid $grey-lighter
+
+.checkbox.is-toggle.is-disabled > .checkbox-mark:after
+    background-color: $grey-light
+    box-shadow: -0.25em 0 0.625em $primary-lighter
+
+.checkbox.is-toggle.is-disabled > input:checked ~ .checkbox-mark:after
+    background-color: $primary-light
+    box-shadow: -0.25em 0 0.625em $primary-lighter
