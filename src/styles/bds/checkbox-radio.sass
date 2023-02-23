@@ -194,6 +194,7 @@ label.checkbox.is-small
 .checkbox.is-toggle.is-large .checkbox-mark
     width: 3rem
     height: 1.75rem
+    margin-top: .365rem
 
 .checkbox.is-toggle.is-large > input
     margin-top: .9375em
@@ -207,3 +208,7 @@ label.checkbox.is-small
 
 .checkbox.is-toggle.is-large > input:checked ~ .checkbox-mark:after
     left: 25px
+
+.checkbox.is-toggle[disabled] > .checkbox-mark:after
+    opacity: .3 !important
+    background-color: $dark
