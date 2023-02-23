@@ -14,7 +14,7 @@
     <table class="table is-fullwidth is-bordered">
         <tbody>
             <tr>
-                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button is-responsive">Button</button><br><br></td>
+                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button">Button</button><br><br></td>
                 <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
                 <td><hr>For standard controls, like Dropdowns.</td>
             </tr>
@@ -44,8 +44,8 @@
                 <td><hr>Dark looking button.</td>
             </tr>
             <tr>
-                <td class="has-text-centered"><br><div class="button is-primary is-light">Light</div><br><br></td>
-                <td class="has-text-centered"><br><code>is-light<br>(is-[color]) </code></td>
+                <td class="has-text-centered"><br><div class="button is-light">Light</div><br><br></td>
+                <td class="has-text-centered"><br><code>is-light</code></td>
                 <td><br>Light looking button (applicable to any color button).</td>
             </tr>
             <tr>
@@ -120,20 +120,20 @@ Use a Link instead of a button when navigating or when the action is not primary
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-responsive">Responsive</div><br><br></td>
-            <td><hr><code>is-responsive</code></td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-small">Sml</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-small">Symall</div><br><br></td>
             <td><hr><code>is-small</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-medium">Med</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-medium">Medium</div><br><br></td>
             <td><hr><code>is-medium</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-large">Lrg</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-large">Large</div><br><br></td>
             <td><hr><code>is-large</code></td>
+        </tr>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-responsive">Responsive</div><br><br></td>
+            <td><hr><code>is-responsive</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-glowing">Glowing</div><br><br></td>
@@ -141,31 +141,31 @@ Use a Link instead of a button when navigating or when the action is not primary
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-outlined">Outlined</div><br><br></td>
-            <td><hr><code>is-outlined</code> + a color</td>
+            <td><hr><code>is-outlined</code> (+ a color)</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-beefy">Beefy</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-dashed is-outlined is-small">Dashed</div><br><br></td>
+            <td><hr><code>is-dashed</code> (+ <code>is-outlined</code> + <code>is-small</code>)</td>
+        </tr>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-beefy">Beefy</div><br><br></td>
             <td><hr><code>is-beefy</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-rounded">Rounded</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-rounded">Rounded</div><br><br></td>
             <td><hr><code>is-rounded</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-square">Sq</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-square">Sq</div><br><br></td>
             <td><hr><code>is-square</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-loading">Loading</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-loading">Loading</div><br><br></td>
             <td><hr><code>is-loading</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light" disabled>Disabled</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button" disabled>Disabled</div><br><br></td>
             <td><hr><code>disabled</code> attribute</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered has-background-black-ter"><br><div class="button is-inverted is-outlined is-primary">Inverted</div><br><br></td>
-            <td><hr><code>is-inverted</code> <code>is-outlined</code></td>
         </tr>
     </tbody>
 </table>
