@@ -21,12 +21,12 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         I'm already checked.
     </label>
     <hr>
-    <label class="checkbox" disabled>
+    <label class="checkbox">
         <input type="checkbox" disabled><span class="checkbox-mark"></span>
         I'm disabled
     </label>
     <hr>
-    <label class="checkbox" disabled>
+    <label class="checkbox">
         <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
         I'm checked but disabled
     </label>
@@ -53,12 +53,12 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
         I'm already checked
     </label>
 
-    <label class="checkbox" disabled>
+    <label class="checkbox">
         <input type="checkbox" disabled><span class="checkbox-mark"></span>
         I'm disabled.
     </label>
 
-    <label class="checkbox" disabled>
+    <label class="checkbox">
         <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
         I'm checked but disabled
     </label>
@@ -110,6 +110,16 @@ A checkbox can become a toggle button. Just add `is-toggle`. Toggle values shoul
     <label class="checkbox is-toggle is-large">
         <input type="checkbox"><span class="checkbox-mark"></span>
         I can be larger!
+    </label>
+    <hr class="is-visible">
+    <label class="checkbox is-toggle is-large">
+        <input type="checkbox" disabled><span class="checkbox-mark"></span>
+        I'm disabled
+    </label>
+    <hr class="is-visible">
+    <label class="checkbox is-toggle is-large">
+        <input type="checkbox" disabled checked><span class="checkbox-mark"></span>
+        I'm disabled but checked!
     </label>
 </div>
 

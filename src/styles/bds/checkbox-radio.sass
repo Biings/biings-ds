@@ -42,28 +42,28 @@ label.radio
 .radio-mark
     border-radius: 50%
 
-.checkbox:hover:not([disabled]):not(:active) > .checkbox-mark,
-.radio:hover:not([disabled]) > .radio-mark
+.checkbox:hover:not(:active) > input:not([disabled]):checked ~ .checkbox-mark,
+.radio:hover > input:not([disabled]):checked ~ .radio-mark
     box-shadow: inset 0 0 0 $control-border-width $input-hover-border-color
 
 .checkbox:not(.is-toggle) > input:checked ~ .checkbox-mark
     background-color: $primary
     box-shadow: inset 0 0 0 $control-border-width $primary !important
 
-.checkbox[disabled] > .checkbox-mark,
-.radio[disabled] > .radio-mark
+.checkbox > input[disabled] ~ .checkbox-mark,
+.radio > input[disabled] ~ .radio-mark
     background-color: transparent
     box-shadow: inset 0 0 0 $control-border-width $border-hover !important
 
-.checkbox[disabled] > input:checked ~ .checkbox-mark
+.checkbox > input[disabled]:checked ~ .checkbox-mark
     background-color: $border-hover
     box-shadow: inset 0 0 0 $control-border-width transparent !important
 
-.checkbox[disabled] > input:checked ~ .checkbox-mark:after
+.checkbox:not(.is-toggle) > input[disabled]:checked ~ .checkbox-mark:after
     border: solid rgba($primary,.75) !important
     border-width: 0 2px 2px 0 !important
 
-.radio[disabled] > input:checked ~ .radio-mark:after
+.radio > input[disabled]:checked ~ .radio-mark:after
     background-color: rgba($primary,.5)
 
 .checkbox-mark:after
@@ -208,7 +208,13 @@ label.checkbox.is-small
 
 .checkbox.is-toggle.is-large > input:checked ~ .checkbox-mark:after
     left: 25px
-
-.checkbox.is-toggle[disabled] > .checkbox-mark:after
-    opacity: .3 !important
-    background-color: $dark
+    
+.checkbox.is-toggle > input[disabled] ~ .checkbox-mark
+    background-color: rgba($black,.05)
+    box-shadow: none !important
+    
+.checkbox.is-toggle > input[disabled]:checked ~ .checkbox-mark:before
+    border-color: $primary
+.checkbox.is-toggle > input[disabled] ~ .checkbox-mark:after
+    background-color: rgba($black,.12)
+    box-shadow: none !important

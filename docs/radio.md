@@ -18,7 +18,7 @@
         No
     </label>
     &nbsp;
-    <label class="radio" disabled>
+    <label class="radio">
         <input type="radio" name="answer" disabled checked><span class="radio-mark"></span>
         Maybe
     </label>

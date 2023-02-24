@@ -120,7 +120,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-small">Symall</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-small">Small</div><br><br></td>
             <td><hr><code>is-small</code></td>
         </tr>
         <tr>
