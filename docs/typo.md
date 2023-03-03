@@ -101,10 +101,10 @@ Use one of the following tags to emphasize words or part of a text.
 <hr class="is-small">
 
 <div class="box is-raised is-medium is-marginless is-size-3 is-radiusless-b">
-    <p class="is-family-hand">Let's <u>underline this</u>, <u class="is-primary">that</u> or <u class="is-secondary">this again</u>.</p>
+    <p class="is-family-hand">Let's <u>underline this</u>, <u class="is-primary">that</u>, <u class="is-success">this one</u> or <u class="is-warning">this again</u>.</p>
 </div>
 
-    Let's <u>underline this</u>, <u class="is-primary">that</u> or <u class="is-secondary">this again</u>
+    Let's <u>underline this</u>, <u class="is-primary">that</u>, <u class="is-success">this one</u> or <u class="is-warning">this again</u>
 <hr class="is-small">
 
 <div class="columns is-gapless is-marginless is-size-4">
