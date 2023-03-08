@@ -11,7 +11,7 @@
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
 <br><div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><div class="has-background-primary-lighter">JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
+    <div class="avatar"><div class="has-background-white-ter">JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
 </div>
 <hr class="is-marginless is-visible">
 
@@ -29,9 +29,9 @@ In addition to the default size, use classes `is-[tiny,mini,small,medium,large,h
 <hr class="is-small">
 <div class="box is-raised py-6">
     <div class="level">
-        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-lighter">TY</div></div><span class="is-size-7">Tiny</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-lighter">T</div></div><span class="is-size-7">Tiny</span></div>
         <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">MI</div></div><span class="is-size-7">Mini</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-cyan-lighter">SL</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-cyan-lighter">SM</div></div><span class="is-size-7">Small</span></div>
         <div class="level-item"><div class="avatar is-medium"><div class="has-background-secondary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
         <div class="level-item"><div class="avatar is-large"><div class="has-background-primary-lighter">LA</div></div><span class="is-size-5">Large</span></div>
         <div class="level-item"><div class="avatar is-huge"><div class="has-background-blue-lighter">HU</div></div><span class="is-size-3">Huge</span></div>
@@ -99,7 +99,7 @@ Avatars can be tilted the same way the Biings logo is. Just add class `is-tilted
 
 <div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="level">
-        <div class="level-item"><div class="avatar is-tiny is-tilted"><div class="has-background-grey-lighter"><div>TT</div></div></div><span class="is-size-7">Tiny Tilted</span></div>
+        <div class="level-item"><div class="avatar is-tiny is-tilted"><div class="has-background-grey-lighter"><div>T</div></div></div><span class="is-size-7">Tiny Tilted</span></div>
         <div class="level-item"><div class="avatar is-tilted"><div class="has-background-primary-lighter"><div>DT</div></div></div><span>Default Tilted</span></div>
         <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
     </div>

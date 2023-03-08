@@ -7,6 +7,9 @@
 
 .tabs:not(.is-boxed,.is-toggle) + hr
     margin-top: 1px;
+    
+.tabs:not(.is-boxed,.is-toggle) > ul
+    border: none
 
 .tabs:not(.is-boxed):not(.is-toggle) > ul > li > a:after
     position: absolute
@@ -35,7 +38,7 @@
 
 .tabs.is-toggle a
     padding: .3125em 1em
-    margin: 1px 0
+    margin: 2px
     border-radius: $tabs-toggle-link-radius
 .tabs.is-toggle li:first-child
     border-radius: $tabs-toggle-link-radius 0 0 $tabs-toggle-link-radius

@@ -9,7 +9,7 @@
 <div class="box is-raised is-radiusless-b is-medium is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-secondary">Hover me</div>
+            <div class="button">Hover me</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -25,7 +25,7 @@
     </div>
     <div class="dropdown is-active is-pulled-right is-right is-size-7 mt-1">
         <div class="dropdown-trigger">
-            <div class="button is-secondary is-small">Opened Dropdown</div>
+            <div class="button is-small">Opened Dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
