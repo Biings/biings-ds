@@ -187,24 +187,31 @@ label.label > span
     text-transform: none
     font-weight: $weight-normal
 
-.field.is-primary > .input,
-.field.is-primary > .textarea
-    border-color: $primary !important
-
-.field.is-danger > .input,
-.field.is-danger > .textarea
-    border-color: $danger !important
-
-.field.is-info > .input,
-.field.is-info > .textarea
-    border-color: $info !important
-
-.field.is-success > .input,
-.field.is-success > .textarea
-    border-color: $success !important
-
-.field.select.is-warning > select
+.field.select.is-warning > select,
+.field.select.is-danger > select,
+.field.select.is-success > select
     border-color: $input-border-color !important
+    
+// Field with warning
+.field.is-warning > input,
+.field.is-warning > textarea,
+.field.select.is-warning,
+.field.is-warning > select
+    background-color: mix($white,$warning,80) !important
+    
+// Field with danger
+.field.is-danger > input,
+.field.is-danger > textarea,
+.field.select.is-danger,
+.field.is-danger > select
+    background-color: mix($white,$danger,85) !important
+    
+// Field with success
+.field.is-success > input,
+.field.is-success > textarea,
+.field.select.is-success,
+.field.is-success > select
+    background-color: mix($white,$success,88) !important
 
 // Required field
 .field.is-required:before
@@ -220,13 +227,6 @@ label.label > span
     content: ''
     animation: blinking 2s linear infinite
     pointer-events: none
-
-// Field with warning
-.field.is-warning > input,
-.field.is-warning > textarea,
-.field.select.is-warning,
-.field.is-warning > select
-    background-color: mix($white,$warning,80) !important
 
 /* Icon */
 .control.has-icons-left .icon,

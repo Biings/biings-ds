@@ -338,6 +338,7 @@ $control-border-width: 1px !default
 $control-padding-vertical: calc(0.5em - 1px) !default
 $control-padding-horizontal: calc(.875em - 1px) !default
 
+$button-color: $text-strong !default
 $button-background-color: white !default
 $button-border-color: mix($black,$light,6) !default
 $button-border-width: 1px !default
@@ -355,6 +356,11 @@ $button-text-color: $text !default
 $button-text-decoration: none !default
 $button-text-hover-background-color: $code-background !default
 $button-text-hover-color: $text-strong !default
+$button-disabled-background-color: $scheme-main !default
+$button-disabled-border-color: $button-border-color !default
+// disabled shadow also used as regular button shadow
+$button-disabled-shadow: 0 1px 4px -2px rgba($black, .35) !default
+$button-disabled-opacity: 1 !default
 $button-responsive-sizes: ("mobile": ("small": ($size-small * 0.875), "normal": ($size-small * 0.9375), "medium": $size-small, "large": $size-normal), "tablet-only": ("small": ($size-small * 0.9375), "normal": ($size-small), "medium": $size-normal, "large": $size-medium)) !default
 
 $input-shadow: none !default

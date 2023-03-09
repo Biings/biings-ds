@@ -240,20 +240,22 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title is-family-primary">Compact Form</h3>
 
-Group similar field together by adding `is-gapless` to the wrapping `columns` container.
+Group similar field together by adding `is-gapless` to the wrapping `columns` container.<br><br>
+
+?> Combine `is-required`, `is-warning`, `is-danger` with tooltips to guide users into solving form validation.
 
 <br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-gapless is-multiline">
-        <div class="column is-3">
+        <div class="column is-9">
             <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
+                <label for="compact1" class="label">Long Field</label>
                 <input id="compact2" class="input"></input>
             </div>
         </div>
-        <div class="column is-9">
-            <div class="field is-warning is-required has-radius-tr">
+        <div class="column is-3">
+            <div class="field has-radius-tr tooltip has-tooltip-active has-tooltip-danger is-danger has-tooltip-arrow has-tooltip-bottom" data-tooltip="Maximum 3 characters please">
                 <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input has-radius-tr"></input>
+                <input id="compact2" class="input has-radius-tr" value="ACDC"></input>
             </div>
         </div>
         <div class="column is-12">
@@ -289,7 +291,7 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
             </div>
         </div>
         <div class="column is-12">
-            <div class="field">
+            <div class="field is-warning is-required">
                 <label for="compact1" class="label">Twelve Textarea</label>
                 <textarea id="compact2" class="textarea" rows="2"></textarea>
             </div>
@@ -319,13 +321,16 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
 <hr class="is-marginless is-visible">
 
     <form class="columns is-gapless is-multiline">
-        <div class="column is-6">
-            <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input"></textarea>
-            </div>
+    <div class="column is-6">
+        <div
+            class="field is-danger tooltip has-tooltip-active has-tooltip-danger has-tooltip-bottom"
+            data-tooltip="Error message"
+        >
+            <label for="compact1" class="label">Compact Field</label>
+            <input id="compact2" class="input">
         </div>
-        <!-- ETC -->
+    </div>
+    <!-- ETC -->
     </form>
 <hr>
 <br>

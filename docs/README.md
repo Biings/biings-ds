@@ -50,7 +50,7 @@
 
 <hr class="is-size-3-tablet">
 
-<div class="box is-large is-bordered is-popping has-background-grainy has-background-radial-tl has-background-radial-t has-background-white-bis has-radius-bold">
+<div class="box is-large is-bordered is-popping has-background-primary-lightest has-background-grainy has-background-radial-tl has-background-radial-t has-background-white-bis has-radius-bold">
     <div class="columns is-vcentered">
         <div class="column is-6">
             <h2 class="title mb-4"><span class="is-size-smaller">Want to contribute?</span></h2>
