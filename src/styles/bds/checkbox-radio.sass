@@ -113,6 +113,11 @@ label.radio
 
 .radio > input:checked ~ .radio-mark:after
     transform: scale(1)
+    
+// For form fields label consistancy
+.checkbox > input:checked ~ span,
+.radio > input:checked ~ span
+    opacity: 1 !important
 
 // —— SMALL CHECKBOX —————————————————————————————————————————————————————————————————————
 label.checkbox.is-small

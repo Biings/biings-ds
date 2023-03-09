@@ -111,10 +111,19 @@ form .field
     padding-left: $control-padding-horizontal
     transition: color .1s linear
     pointer-events: none
+    
+.field > .label,
+.field > label > span:not(.checkbox-mark,.radio-mark)
+    opacity: .65
 
 .field:hover > .label,
 .field.is-warning > .label
     color: $label-color
+
+.field.is-warning > .label,
+.field:focus-within > .label,
+.field > .input:focus + .label
+    opacity: 1
 
 .field:not(.select) > .label
     cursor: text
@@ -183,8 +192,9 @@ form .field
 
 .field > .label > span,
 label.label > span
-    color: $grey
+    opacity: 1 !important
     text-transform: none
+    font-style: italic
     font-weight: $weight-normal
 
 .field.select.is-warning > select,
