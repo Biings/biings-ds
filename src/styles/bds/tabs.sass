@@ -2,8 +2,9 @@
     overflow: visible
 .tabs > ul > li
     position: relative
-.tabs:hover > ul > li:not(:hover,.is-active) > a
-    color: rgba($text,.75)
+.tabs.has-hr:hover > ul > li:not(:hover,.is-active) > a,
+.tabs.is-boxed:hover > ul > li:not(:hover,.is-active) > a
+    color: rgba($text,.7)
 
 .tabs:not(.is-boxed,.is-toggle) + hr
     margin-top: 1px;
@@ -35,6 +36,8 @@
 .tabs.is-boxed > ul > li.is-active > a
     font-weight: $weight-medium
     box-shadow: 0 1px 0 $white-bis
+.tabs.is-boxed > ul > li > a
+    transition: none !important
 
 .tabs.is-toggle a
     padding: .3125em 1em
@@ -51,6 +54,8 @@
 .tabs.is-toggle.has-hr > ul > li.is-active > a
     background-color: $white
     box-shadow: $card-shadow
+.tabs.is-toggle.has-hr > ul > li:not(.is-active) > a:hover
+    background-color: transparent
 
 // Rounded toggle
 .tabs.is-toggle.is-toggle-rounded  li:first-child
