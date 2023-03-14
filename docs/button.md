@@ -165,7 +165,7 @@ Use a Link instead of a button when navigating or when the action is not primary
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button" disabled>Disabled</div><br><br></td>
-            <td><hr><code>disabled</code> attribute</td>
+            <td><br><code>disabled</code> attribute<br>Should be used only on <code>&lt;button&gt;</code>, add <code>is-static</code> when used on a div.</td>
         </tr>
     </tbody>
 </table>

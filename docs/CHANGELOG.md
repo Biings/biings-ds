@@ -4,6 +4,20 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">March 14, 2023</span>
+<h3 class="title is-size-3-touch is-family-primary">Version 1.56</h3>
+<ul class="list">
+    <li>New icons: `expand-g`, `agreement`, `crown`, `cards-bold-g`</li>
+    <li>New radius modifiers: `has-radius-[tr,bl]`</li>
+    <li>New `is-dashed` button style</li>
+    <li>New `is-success` typography modifier</li>
+    <li>Support for disabled checkbox style</li>
+    <li>Removed hanging Tabs and animated toggle Tabs (support for `has-hr` is maintained)</li>
+    <li>Style adjustments to <i>Link, Button states, Box, Message, Tabs, Avatar, Form field</i></li>
+</ul>
+
+<hr class="is-size-2 is-size-4-touch is-visible is-wavy">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">November 17, 2022</span>
 <h3 class="title is-size-3-touch is-family-primary">Version 1.55</h3>
 <ul class="list">
