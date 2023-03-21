@@ -1,4 +1,4 @@
-$message-body-padding: .625em 1.125em !default
+$message-body-padding: 1em 1.25em !default
 $message-body-border-width: 0 !default
 
 .message
@@ -7,6 +7,10 @@ $message-body-border-width: 0 !default
     border-radius: $radius-large
     background-color: $background
     font-size: $size-normal
+
+.message:not(.is-warning,.is-info,.is-success,.is-danger,.is-dark,.is-primary),
+.message:not(.is-warning,.is-info,.is-success,.is-danger,.is-dark,.is-primary) > .title
+    color: $primary-dark
 
 .message.is-warning
     background-color: rgba($warning,.075)
@@ -48,6 +52,7 @@ $message-body-border-width: 0 !default
     position: fixed
     top: 0
     display: block
+    padding: .75em 1.125em
     margin: 2.625em 0
     max-width: 30rem
     border-radius: 1em

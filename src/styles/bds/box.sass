@@ -69,12 +69,8 @@
     box-shadow: inset 0 0 0 1px mix($dark,$code-background,4), 0 .125rem .1875rem -1.125rem rgba($grey-darker, .9), 0 .25rem .625rem -1.25rem rgba($grey-darker, .12), 0 1.25rem 2.5rem -1.25rem rgba($grey-darker, .25), rgba($grey-darker, .025) 0px 0px 0px 1px
 
 // Expandable Box
-.box.is-expandable
-    transition: box-shadow .25s ease-out, margin-right .3s cubic-bezier(.25, 1, .5, 1), margin-left .3s cubic-bezier(.25, 1, .5, 1)
-
 .box.is-expandable:not(.is-expanded) > .expanded-content
     display: none
-
 .box.is-expandable.is-expanded > .expanded-content
     animation: fadein .4s ease-in
 
@@ -83,4 +79,3 @@
         opacity: 0
     100%
         opacity: 1
-

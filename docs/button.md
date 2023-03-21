@@ -188,29 +188,18 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-square is-secondary">
+            <div class="button is-square is-light">
                 <svg class="icon"><use xlink:href="media/bds-icons.min.svg#edit-bold-g"></use></svg>
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-borderless is-square">
+            <div class="button is-outlined is-square">
                 <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg>
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-info">
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
-                <span>Download</span>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="button is-success is-square is-rounded">
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#lightning-g"></use></svg>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="button is-borderless is-square is-rounded">
-                <svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
+            <div class="button is-text is-square is-rounded">
+                <svg class="icon is-size-bigger"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
             </div>
         </div>
     </div>

@@ -11,6 +11,10 @@
     padding-left: .65rem
     padding-right: .625rem
     line-height: 1
+    font-weight: $weight-normal
+    
+.button.is-large
+    font-weight: $weight-semibold
 
 .button:not(.is-rounded).is-small
     border-radius: $radius
@@ -142,33 +146,6 @@
 .button.is-danger[disabled],
 .button.is-dark[disabled]
     color: rgba($white,.75)
-
-// Rounded background transition effect
-.button.is-borderless.is-rounded.is-square
-    position: relative
-    background-color: transparent
-.button.is-borderless.is-rounded.is-square:before
-    position: absolute
-    top: 50%
-    left: 50%
-    margin-top: -1.125em
-    margin-left: -1.125em
-    width: 2.25em
-    height: 2.25em
-    border-radius: $radius-rounded
-    background-color: transparent
-    content: ''
-    transition: transform .2s ease-in, background-color .2s ease-in
-    transform: scale(0)
-.button.is-borderless.is-rounded.is-square:hover:before,
-.button.is-borderless.is-rounded.is-square.is-hovered:before
-    background-color: $menu-item-hover-background-color
-    transition: transform .2s ease-out, background-color .2s ease-out
-    transform: scale(1)
-.button.is-borderless.is-rounded.is-square:active:before,
-.button.is-borderless.is-rounded.is-square.is-active:before
-    background-color: rgba($black,.125)
-    transform: scale(1)
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
