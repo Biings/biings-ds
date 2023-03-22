@@ -80,13 +80,13 @@ a.dropdown-item:not(.has-text-centered) > .icon
     transform: rotate(0)
     pointer-events: none
     
-.select:not(.is-loading):after
+.select:not(.field,.is-loading):after
     top: 1.25rem !important
-.select.is-small:not(.is-loading):after
+.select.is-small:not(.field,.is-loading):after
     top: .875rem !important
-.select.is-medium:not(.is-loading):after
+.select.is-medium:not(.field,.is-loading):after
     top: 1.5rem !important
-.select.is-large:not(.is-loading):after
+.select.is-large:not(.field,.is-loading):after
     top: 1.75rem !important
 
 // Select buttons
@@ -103,11 +103,10 @@ a.dropdown-item:not(.has-text-centered) > .icon
     top: 1rem
     background-size: .75rem
 .dropdown:not(.is-iconless).is-size-6:after,
-.dropdown:not(.is-iconless).is-size-7:after
-    top: .5625rem
+.dropdown:not(.is-iconless).is-size-7:after,
+.dropdown:not(.is-iconless).is-small:after
+    top: .5rem
     
-
-
 // Inverted
 .dropdown.is-inverted .dropdown-content
     box-shadow: 0 0 5px 0 rgba($black,.2),0 4px 6px -8px rgba($black,.5),0 6px 30px -8px rgba($black,.6)
