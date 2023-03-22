@@ -155,7 +155,7 @@ label.checkbox.is-small
     width: 2rem
     height: 1.25rem
     border-radius: 2rem !important
-    background-color: rgba($black,.15)
+    background-color: $grey-lighter
     box-shadow: none !important
     transition: background-color .2s linear
     transform: none
@@ -182,7 +182,7 @@ label.checkbox.is-small
     height: .75rem
     border: none
     border-radius: 100%
-    background-color: $white-bis
+    background-color: $white
     box-shadow: 0 0 3px rgba($dark, .15)
     opacity: 1
     transition: left .2s cubic-bezier(.215, .61, .355, 1), box-shadow .2s linear
@@ -215,11 +215,11 @@ label.checkbox.is-small
     left: 25px
     
 .checkbox.is-toggle > input[disabled] ~ .checkbox-mark
-    background-color: rgba($black,.05)
+    background-color: $light
     box-shadow: none !important
     
 .checkbox.is-toggle > input[disabled]:checked ~ .checkbox-mark:before
     border-color: $primary
 .checkbox.is-toggle > input[disabled] ~ .checkbox-mark:after
-    background-color: rgba($black,.12)
+    background-color: $grey-lighter
     box-shadow: none !important

@@ -423,11 +423,10 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
-    <div class="select is-small is-danger">
-        <select>
+    <div class="select is-small">
+        <select class="button is-light">
             <option value="">Small</option>
-            <option value="">Danger</option>
-            <option value="">Select</option>
+            <option value="">Select Button</option>
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
@@ -439,7 +438,7 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
-    <div class="select is-medium is-info">
+    <div class="select is-medium is-warning">
         <select disabled>
             <option value="">Medium</option>
             <option value="">Warning</option>
@@ -447,8 +446,27 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
             <option value="">List</option>
         </select>
     </div>
+    &nbsp; &nbsp;
+    <div class="select is-large is-info">
+        <select>
+            <option value="">Large</option>
+            <option value="">Info</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
+    </div>
 </div>
 
+    // Select on a button
+    <div class="select is-small">
+        <select class="button is-light" required>
+            <option value="" disabled selected hidden>Default</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
+        </select>
+    </div>
+    // Medium select
     <div class="select is-medium is-info">
         <select required>
             <option value="" disabled selected hidden>Default</option>

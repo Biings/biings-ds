@@ -1,3 +1,5 @@
+$control-height-small: 1.875rem !default
+
 .button
     letter-spacing: 0
     font-weight: 500
@@ -7,7 +9,7 @@
     box-shadow: $button-disabled-shadow
 
 .button.is-small
-    height: 1.875rem
+    height: $control-height-small
     padding-left: .65rem
     padding-right: .625rem
     line-height: 1
@@ -153,7 +155,7 @@
 .button.is-square
     width: 2.625em
 .button.is-small.is-square
-    width: 1.875rem
+    width: $control-height-small
 
 // Button loading state
 // See loader.saas

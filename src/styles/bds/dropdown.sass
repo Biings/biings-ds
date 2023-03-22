@@ -35,16 +35,16 @@ a.dropdown-item:not(.has-text-centered) > .icon
     z-index: -5
     display: block
     opacity: 0
-    transition: z-index .3s linear, opacity .25s cubic-bezier(.34, 1.56, .64, 1), transform .25s cubic-bezier(.34, 1.56, .64, 1)
-    transform: scale(.9)
+    transition: z-index .2s linear, opacity .2s cubic-bezier(.34, 1.56, .64, 1), transform .2s cubic-bezier(.34, 1.56, .64, 1)
+    transform: scale(.91)
     pointer-events: none
 
 .dropdown.has-arrow > .dropdown-menu
-    transition: z-index .8s linear, opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1)
-    transform: translateY(-1em)
+    transition: z-index .75s linear, opacity .625s cubic-bezier(.19, 1, .22, 1), transform .625s cubic-bezier(.19, 1, .22, 1)
+    transform: translateY(-.75em)
 
 .dropdown.has-arrow.is-up > .dropdown-menu
-    transform: translateY(1em)
+    transform: translateY(.75em)
 
 .dropdown.is-active > .dropdown-menu,
 .dropdown.is-hoverable:hover > .dropdown-menu
@@ -62,7 +62,7 @@ a.dropdown-item:not(.has-text-centered) > .icon
     cursor: pointer
 
 .dropdown:not(.is-iconless) > .dropdown-trigger > .button
-    padding-right: 2.625em
+    padding-right: 2.5em
 
 .dropdown:not(.is-iconless):after,
 .select:not(.is-multiple):not(.is-loading):after
@@ -71,15 +71,30 @@ a.dropdown-item:not(.has-text-centered) > .icon
     width: .875rem
     height: .875rem
     border: none
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMCA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wLjI5Mjg5MzIxOSwwLjc5Mjg5MzIxOSBDMC42NTMzNzcxOCwwLjQzMjQwOTI1NyAxLjIyMDYwODI0LDAuNDA0Njc5NzIyIDEuNjEyODk5NDQsMC43MDk3MDQ2MTIgTDEuNzA3MTA2NzgsMC43OTI4OTMyMTkgTDUsNC4wODUgTDguMjkyODkzMjIsMC43OTI4OTMyMTkgQzguNjUzMzc3MTgsMC40MzI0MDkyNTcgOS4yMjA2MDgyNCwwLjQwNDY3OTcyMiA5LjYxMjg5OTQ0LDAuNzA5NzA0NjEyIEw5LjcwNzEwNjc4LDAuNzkyODkzMjE5IEMxMC4wNjc1OTA3LDEuMTUzMzc3MTggMTAuMDk1MzIwMywxLjcyMDYwODI0IDkuNzkwMjk1MzksMi4xMTI4OTk0NCBMOS43MDcxMDY3OCwyLjIwNzEwNjc4IEw1LjcwNzEwNjc4LDYuMjA3MTA2NzggQzUuMzQ2NjIyODIsNi41Njc1OTA3NCA0Ljc3OTM5MTc2LDYuNTk1MzIwMjggNC4zODcxMDA1Niw2LjI5MDI5NTM5IEw0LjI5Mjg5MzIyLDYuMjA3MTA2NzggTDAuMjkyODkzMjE5LDIuMjA3MTA2NzggQy0wLjA5NzYzMTA3MjksMS44MTY1ODI0OSAtMC4wOTc2MzEwNzI5LDEuMTgzNDE3NTEgMC4yOTI4OTMyMTksMC43OTI4OTMyMTkgWiIgZmlsbD0iIzJEMjMyRSIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+PC9nPjwvc3ZnPg==')
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMiA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8ZyBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMC4yOTI4OTMyMTksMC4yOTI4OTMyMTkgQzAuNjUzMzc3MTgsLTAuMDY3NTkwNzQzIDEuMjIwNjA4MjQsLTAuMDk1MzIwMjc4IDEuNjEyODk5NDQsMC4yMDk3MDQ2MTIgTDEuNzA3MTA2NzgsMC4yOTI4OTMyMTkgTDYsNC4wODUgTDEwLjI5Mjg5MzIsMC4yOTI4OTMyMTkgQzEwLjY1MzM3NzIsLTAuMDY3NTkwNzQzIDExLjIyMDYwODIsLTAuMDk1MzIwMjc4IDExLjYxMjg5OTQsMC4yMDk3MDQ2MTIgTDExLjcwNzEwNjgsMC4yOTI4OTMyMTkgQzEyLjA2NzU5MDcsMC42NTMzNzcxOCAxMi4wOTUzMjAzLDEuMjIwNjA4MjQgMTEuNzkwMjk1NCwxLjYxMjg5OTQ0IEwxMS43MDcxMDY4LDEuNzA3MTA2NzggTDYuNzA3MTA2NzgsNi4yMDcxMDY3OCBDNi4zNDY2MjI4Miw2LjU2NzU5MDc0IDUuNzc5MzkxNzYsNi41OTUzMjAyOCA1LjM4NzEwMDU2LDYuMjkwMjk1MzkgTDAuMjkyODkzMjE5LDEuNzA3MTA2NzggQy0wLjA5NzYzMTA3MywxLjMxNjU4MjQ5IC0wLjA5NzYzMTA3MywwLjY4MzQxNzUxIDAuMjkyODkzMjE5LDAuMjkyODkzMjE5IFoiIGlkPSJQYXRoIiBmaWxsPSIjNDYyODVEIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD48L2c+PC9zdmc+')
     background-position: 50% 50%
     background-size: .5rem
     background-repeat: no-repeat
     content: ''
-    opacity: .6
-    transition: opacity .1s linear, transform .1s ease-out
+    transition: transform .1s ease-out
     transform: rotate(0)
     pointer-events: none
+    
+.select:not(.is-loading):after
+    top: 1.25rem !important
+.select.is-small:not(.is-loading):after
+    top: .875rem !important
+.select.is-medium:not(.is-loading):after
+    top: 1.5rem !important
+.select.is-large:not(.is-loading):after
+    top: 1.75rem !important
+
+// Select buttons
+.select > select.button
+    font-weight: $weight-normal
+    text-align: left
+.select.is-small > select
+    height: $control-height-small
 
 .dropdown:not(.is-iconless):after
     top: .875rem
@@ -90,6 +105,7 @@ a.dropdown-item:not(.has-text-centered) > .icon
 .dropdown:not(.is-iconless).is-size-6:after,
 .dropdown:not(.is-iconless).is-size-7:after
     top: .5625rem
+    
 
 
 // Inverted
@@ -98,12 +114,7 @@ a.dropdown-item:not(.has-text-centered) > .icon
 
 .dropdown:not(.is-iconless).is-inverted:after,
 .select:not(.is-loading).is-inverted
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMCA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wLjI5Mjg5MzIxOSwwLjc5Mjg5MzIxOSBDMC42NTMzNzcxOCwwLjQzMjQwOTI1NyAxLjIyMDYwODI0LDAuNDA0Njc5NzIyIDEuNjEyODk5NDQsMC43MDk3MDQ2MTIgTDEuNzA3MTA2NzgsMC43OTI4OTMyMTkgTDUsNC4wODUgTDguMjkyODkzMjIsMC43OTI4OTMyMTkgQzguNjUzMzc3MTgsMC40MzI0MDkyNTcgOS4yMjA2MDgyNCwwLjQwNDY3OTcyMiA5LjYxMjg5OTQ0LDAuNzA5NzA0NjEyIEw5LjcwNzEwNjc4LDAuNzkyODkzMjE5IEMxMC4wNjc1OTA3LDEuMTUzMzc3MTggMTAuMDk1MzIwMywxLjcyMDYwODI0IDkuNzkwMjk1MzksMi4xMTI4OTk0NCBMOS43MDcxMDY3OCwyLjIwNzEwNjc4IEw1LjcwNzEwNjc4LDYuMjA3MTA2NzggQzUuMzQ2NjIyODIsNi41Njc1OTA3NCA0Ljc3OTM5MTc2LDYuNTk1MzIwMjggNC4zODcxMDA1Niw2LjI5MDI5NTM5IEw0LjI5Mjg5MzIyLDYuMjA3MTA2NzggTDAuMjkyODkzMjE5LDIuMjA3MTA2NzggQy0wLjA5NzYzMTA3MjksMS44MTY1ODI0OSAtMC4wOTc2MzEwNzI5LDEuMTgzNDE3NTEgMC4yOTI4OTMyMTksMC43OTI4OTMyMTkgWiIgZmlsbD0iI0VBRTlFQiIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+PC9nPjwvc3ZnPg==')
-
-
-.dropdown:hover:after,
-.select:hover:after
-    opacity: .8
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSI3cHgiIHZpZXdCb3g9IjAgMCAxMiA3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8ZyBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMC4yOTI4OTMyMTksMC4yOTI4OTMyMTkgQzAuNjUzMzc3MTgsLTAuMDY3NTkwNzQzIDEuMjIwNjA4MjQsLTAuMDk1MzIwMjc4IDEuNjEyODk5NDQsMC4yMDk3MDQ2MTIgTDEuNzA3MTA2NzgsMC4yOTI4OTMyMTkgTDYsNC4wODUgTDEwLjI5Mjg5MzIsMC4yOTI4OTMyMTkgQzEwLjY1MzM3NzIsLTAuMDY3NTkwNzQzIDExLjIyMDYwODIsLTAuMDk1MzIwMjc4IDExLjYxMjg5OTQsMC4yMDk3MDQ2MTIgTDExLjcwNzEwNjgsMC4yOTI4OTMyMTkgQzEyLjA2NzU5MDcsMC42NTMzNzcxOCAxMi4wOTUzMjAzLDEuMjIwNjA4MjQgMTEuNzkwMjk1NCwxLjYxMjg5OTQ0IEwxMS43MDcxMDY4LDEuNzA3MTA2NzggTDYuNzA3MTA2NzgsNi4yMDcxMDY3OCBDNi4zNDY2MjI4Miw2LjU2NzU5MDc0IDUuNzc5MzkxNzYsNi41OTUzMjAyOCA1LjM4NzEwMDU2LDYuMjkwMjk1MzkgTDAuMjkyODkzMjE5LDEuNzA3MTA2NzggQy0wLjA5NzYzMTA3MywxLjMxNjU4MjQ5IC0wLjA5NzYzMTA3MywwLjY4MzQxNzUxIDAuMjkyODkzMjE5LDAuMjkyODkzMjE5IFoiIGlkPSJQYXRoIiBmaWxsPSIjZmZmZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD48L2c+PC9zdmc+')
 
 .dropdown.is-active:not(.is-iconless):after
     transform: rotate(180deg)

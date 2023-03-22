@@ -32,7 +32,7 @@ $white          : #ffffff !default
 
 // Main colors
 $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
-$light          : #efebe9 !default // Previously #EAE9EB
+$light          : $white-ter !default // Previously #EAE9EB
 $dark           : mix(black, $primary, 50) !default
 
 // Special colors (NOT BULMA) —————————————————————
@@ -123,8 +123,8 @@ $warning-dark: mix(black, $warning, 15) !default
 $danger-invert: findColorInvert($danger) !default
 $danger-light: findLightColor($danger) !default
 $danger-dark: mix(black, $danger, 15) !default
-$light-invert: $black-ter !default
-$dark-invert: $light !default
+$light-invert: $dark !default
+$dark-invert: $white !default
 
 // General colors
 
@@ -135,7 +135,7 @@ $scheme-invert: $dark !default
 $scheme-invert-bis: $black-bis !default
 $scheme-invert-ter: $black-ter !default
 
-$background: rgba($black,.04) !default
+$background: rgba($grey-darker,.075) !default
 
 $border: transparent !default
 $border-hover: rgba($primary-dark,.075) !default
@@ -335,10 +335,10 @@ $dropdown-menu-min-width: 12em !default
 $control-height: 2.5em !default
 $control-line-height: 1.5 !default
 $control-border-width: 1px !default
-$control-padding-vertical: calc(0.5em - 1px) !default
-$control-padding-horizontal: calc(.875em - 1px) !default
+$control-padding-vertical: .25em !default
+$control-padding-horizontal: .875em !default
 
-$button-color: $text-strong !default
+$button-color: $text !default
 $button-background-color: white !default
 $button-border-color: mix($black,$light,6) !default
 $button-border-width: 1px !default
@@ -347,8 +347,8 @@ $button-hover-border-color: mix($black,$light,12) !default
 $button-active-color: $text !default
 $button-active-border-color: $button-border-color !default
 $button-focus-border-color: $button-hover-border-color !default
-$button-padding-vertical: calc(0.25em - #{$button-border-width}) !default
-$button-padding-horizontal: 1em !default
+$button-padding-vertical: $control-padding-vertical !default
+$button-padding-horizontal: $control-padding-horizontal !default
 $button-static-color: current !default
 $button-static-background-color: current !default
 $button-static-border-color: current !default
@@ -384,7 +384,7 @@ $input-disabled-placeholder-color: $input-placeholder-color !default
 $menu-item-color: $dark !default
 $menu-item-radius: $radius !default
 $menu-item-hover-color: $menu-item-color !default
-$menu-item-hover-background-color: rgba($dark,.075) !default
+$menu-item-hover-background-color: $code-background !default
 $menu-item-active-color: $menu-item-color !default
 $menu-item-active-background-color: $menu-item-hover-background-color !default
 $menu-list-border-left: 2px solid $border-hover !default
