@@ -353,9 +353,9 @@ Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when you
         </div>
     </div>
     &nbsp;
-    <div class="dropdown is-hoverable is-inverted">
+    <div class="dropdown is-hoverable is-inverted is-up has-arrow">
         <div class="dropdown-trigger">
-            <div class="button is-dark">Menu dropdown</div>
+            <div class="button is-primary">Menu dropup</div>
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content box is-small is-size-7 has-background-primary-dark">
