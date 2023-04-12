@@ -211,13 +211,17 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <th rowspan="6" style="width: 5rem;">FX</th>
+            <th rowspan="7" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
             <td>Fades out an element after 3 seconds</td>
         </tr>
         <tr>
             <td><code>is-shaked</code></td>
             <td>Shakes an element for 1.5 seconds</td>
+        </tr>
+        <tr>
+            <td><code>bounce-in</code></td>
+            <td>Bounce in an element (a fun way to make something appear on screen)</td>
         </tr>
         <tr>
             <td><code>is-twisted[-bis,-ter,-quater]</code></td>
