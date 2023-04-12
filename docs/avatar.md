@@ -11,12 +11,12 @@
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
 <br><div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><div class="has-background-white-ter">JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
+    <div class="avatar"><div>JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
 </div>
 <hr class="is-marginless is-visible">
 
     <div class="avatar">
-        <div class="has-background-grey-light">JD</div>
+        <div>JD</div>
     </div>
     <span>John Doe</span>
 <br>
@@ -31,10 +31,10 @@ In addition to the default size, use classes `is-[tiny,mini,small,medium,large,h
     <div class="level">
         <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-lighter">T</div></div><span class="is-size-7">Tiny</span></div>
         <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">MI</div></div><span class="is-size-7">Mini</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-cyan-lighter">SM</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-blue-lighter">SM</div></div><span class="is-size-7">Small</span></div>
         <div class="level-item"><div class="avatar is-medium"><div class="has-background-secondary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
         <div class="level-item"><div class="avatar is-large"><div class="has-background-primary-lighter">LA</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div class="has-background-blue-lighter">HU</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div>HU</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
@@ -66,27 +66,27 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
     <div class="avatar is-status-turquoise is-medium"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
     <span class="subtitle is-4"><strong>Aamir</strong> is online.</span>
     <hr>
-    <div class="avatar is-status-green"><div class="has-background-light">GR</div></div>
+    <div class="avatar is-status-green"><div>GR</div></div>
     &nbsp;
-    <div class="avatar is-status-yellow"><div class="has-background-light">YE</div></div>
+    <div class="avatar is-status-yellow"><div>YE</div></div>
     &nbsp;
-    <div class="avatar is-status-orange"><div class="has-background-light">OR</div></div>
+    <div class="avatar is-status-orange"><div>OR</div></div>
     &nbsp;
-    <div class="avatar is-status-red"><div class="has-background-light">RE</div></div>
+    <div class="avatar is-status-red"><div>RE</div></div>
     &nbsp;
-    <div class="avatar is-status-pink"><div class="has-background-light">PI</div></div>
+    <div class="avatar is-status-pink"><div>PI</div></div>
     &nbsp;
-    <div class="avatar is-status-purple"><div class="has-background-light">PU</div></div>
+    <div class="avatar is-status-purple"><div>PU</div></div>
     &nbsp;
-    <div class="avatar is-status-primary"><div class="has-background-light">PR</div></div>
+    <div class="avatar is-status-primary"><div>PR</div></div>
     &nbsp;
-    <div class="avatar is-status-blue"><div class="has-background-light">BL</div></div>
+    <div class="avatar is-status-blue"><div>BL</div></div>
     &nbsp;
-    <div class="avatar is-status-cyan"><div class="has-background-light">CY</div></div>
+    <div class="avatar is-status-cyan"><div>CY</div></div>
     &nbsp;
-    <div class="avatar is-status-dark"><div class="has-background-light">DA</div></div>
+    <div class="avatar is-status-dark"><div>DA</div></div>
     &nbsp;
-    <div class="avatar is-status-grey"><div class="has-background-light">GR</div></div>
+    <div class="avatar is-status-grey"><div>GR</div></div>
 </div>
 
 <hr class="is-size-1 is-visible">
@@ -99,8 +99,8 @@ Avatars can be tilted the same way the Biings logo is. Just add class `is-tilted
 
 <div class="box is-raised is-large is-marginless is-radiusless-b">
     <div class="level">
-        <div class="level-item"><div class="avatar is-tiny is-tilted"><div class="has-background-grey-lighter"><div>T</div></div></div><span class="is-size-7">Tiny Tilted</span></div>
-        <div class="level-item"><div class="avatar is-tilted"><div class="has-background-primary-lighter"><div>DT</div></div></div><span>Default Tilted</span></div>
+        <div class="level-item"><div class="avatar is-mini is-tilted"><div><div>T</div></div></div><span class="is-size-6">Small Tilted</span></div>
+        <div class="level-item"><div class="avatar is-tilted"><div><div>DT</div></div></div><span>Default Tilted</span></div>
         <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
     </div>
 </div>
