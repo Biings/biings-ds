@@ -9,13 +9,17 @@
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <th rowspan="7">Color</th>
+            <th rowspan="8">Color</th>
             <td><code>has-text-[color]</code></td>
             <td>Changes the color of the <strong>text</strong>, <i>uses BDS color names</i></td>
         </tr>
         <tr>
             <td style="width: 230px;"><code>has-background-[color]</code></td>
-            <td>Changes the <strong>background</strong> color</td>
+            <td>Changes the<strong class="has-background-purple-radial has-text-white"> background </strong>color</td>
+        </tr>
+        <tr>
+            <td><code>has-text-background</code></td>
+            <td><span>Applies the <strong class="has-background-purple-radial has-text-background">background</strong> to the text.</span></td>
         </tr>
         <tr>
             <td><code>has-fill-[color]</code></td>
@@ -108,7 +112,11 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="7">Radius</th>
+            <th rowspan="8">Radius</th>
+            <td><code>has-radius-[tr,bl]</code></td>
+            <td>Applies a regular <strong>radius</strong> on top-right or bottom-left corner</td>
+        </tr>
+        <tr>
             <td><code>has-radius-bold</code></td>
             <td>Applies a strong <strong>radius</strong> on all corners</td>
         </tr>
@@ -212,6 +220,10 @@
             <td>Shakes an element for 1.5 seconds</td>
         </tr>
         <tr>
+            <td><code>bounce-in</code></td>
+            <td>Bounce in an element (a fun way to make something appear on screen)</td>
+        </tr>
+        <tr>
             <td><code>is-twisted[-bis,-ter,-quater]</code></td>
             <td>Slightly twist/rotate an element<br>(like if it was thrown on the page)</td>
         </tr>
@@ -219,11 +231,19 @@
             <td><code>is-twisted-odd[-bis]</code></td>
             <td>Boldly twist/rotate an element</td>
         </tr>
+        <tr>
+            <td><code>has-background-blur</code></td>
+            <td>Adds a blury transparent background. Works in pair with <code>has-background-[white,white-bis,dark,black]</code>.</td>
+        </tr>
+        <tr>
+            <td><code>has-background-grainy</code></td>
+            <td>Adds a grainy background effect.</td>
+        </tr>
     </tbody>
 </table>
 
 <hr class="is-size-3"><br>
 
-<a href="https://bulma.io/documentation/modifiers/" target="blank" class="box is-well has-text-grey-dark">
-    More classes and <u class="has-text-weight-medium">responsive helpers</u> on &nbsp;→&nbsp; <strong class="is-link has-text-primary">Bulma / Modifiers</strong>
+<a href="https://bulma.io/documentation/modifiers/" target="blank" class="message is-info is-block">
+    More classes and <span class="has-text-weight-medium">responsive helpers</span> on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Modifiers</strong>
 </a>

@@ -18,10 +18,11 @@ Loaders automatically adapt to text size.<br>Use text size modifier classes `is-
 
 <br>
 
-<div class="box is-raised is-larger is-marginless is-radiusless-b">
-    <div class="level mt-5 mb-6">
+<div class="box is-raised is-large is-marginless is-radiusless-b">
+    <div class="level my-5">
+        <div class="level-item is-relative"><div class="loader is-size-7"></div></div>
         <div class="level-item is-relative"><div class="loader"></div></div>
-        <div class="level-item is-relative"><div class="loader is-size-3"></div></div>
+        <div class="level-item is-relative"><div class="loader is-size-2"></div></div>
         <div class="level-item is-relative"><div class="loader is-size-1"></div></div>
     </div>
 </div>
@@ -62,14 +63,16 @@ Add class `is-inline` to remove the auto-centering of the loader.
 
 <h3 class="title is-family-primary">Colorful</h3>
 
-Add class `is-primary` or `is-secondary` to give the loader a unique Biings look.
+Add class `is-[primary,secondary,success,info,pink]` to give the loader a unique Biings look.
 
 <br>
 
 <div class="box is-raised is-large is-relative has-text-centered">
-    <div class="loader is-primary is-inline is-size-3"></div>
-    <div class="loader is-success is-inline is-size-3"></div>
-    <div class="loader is-secondary is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-primary is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-secondary is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-success is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-info is-inline is-size-3"></div>
+    <div class="loader is-indeterminate is-pink is-inline is-size-3"></div>
 </div>
 
 <hr class="is-size-1 is-visible">

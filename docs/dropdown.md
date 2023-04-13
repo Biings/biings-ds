@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<div class="box is-raised is-radiusless-b is-large is-marginless">
+<div class="box is-raised is-radiusless-b is-medium is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
             <div class="button">Hover me</div>
@@ -23,9 +23,9 @@
             </div>
         </div>
     </div>
-    <div class="dropdown is-active is-pulled-right is-right">
+    <div class="dropdown is-active is-pulled-right is-right is-size-7 mt-1">
         <div class="dropdown-trigger">
-            <div class="button">Opened Dropdown</div>
+            <div class="button is-small">Opened Dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -42,7 +42,7 @@
 
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button">Default Dropdown</div>
+            <div class="button is-secondary">Default Dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -61,60 +61,32 @@
             </div>
         </div>
     </div>
-<hr class="is-visible is-size-1">
-
-<h3 class="title is-family-primary">Sizes</h3>
-    
-Dropdown can adapt to the size of their trigger component. Use the size modifier `is-size-[1–7]` to adjust the size of the arrow.
-
 <br>
 
-<div class="box is-raised is-large is-marginless">
-    <div class="dropdown is-hoverable is-size-5">
-        <div class="dropdown-trigger">
-            <div class="button is-medium">Medium button dropdown</div>
-        </div>
-        <div class="dropdown-menu">
-            <div class="dropdown-content">
-                <a class="dropdown-item">Just add class</a>
-                <a class="dropdown-item">class <code class="is-size-7">is-size-5</code></a>
-                <a class="dropdown-item">to the dropdown.</a>
-            </div>
-        </div>
-    </div>
-    <div class="dropdown is-hoverable is-size-7 is-pulled-right is-right">
-        <div class="dropdown-trigger">
-            <div class="button is-small is-inverted is-dark">Small text drp</div>
-        </div>
-        <div class="dropdown-menu">
-            <div class="dropdown-content">
-                <a class="dropdown-item">Just add class</a>
-                <a class="dropdown-item">class <code class="is-size-7">is-size-7</code></a>
-                <a class="dropdown-item">to the dropdown</a>
-                <a class="dropdown-item">and class <code class="is-size-7">is-small</code></a>
-                <a class="dropdown-item">to the button.</a>
-            </div>
-        </div>
-    </div>
-</div>
+?> Use the size modifiers `is-size-[1–7]` to adapt the size of the arrow in relation with the size of the trigger element.
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">With pointing arrow</h3>
+<h3 class="title is-family-primary">Pointing arrows</h3>
 
-Add class `has-arrow` to clearly indicate the element the dropdown is attached to. Use modifier `is-right` to change the alignement of the dropdown (and its arrow).
+<ul class="list">
+    <li>Add class <code>has-arrow</code> to clearly indicate the element the dropdown is attached to.</li>
+    <li>Add class <code>is-right</code> and <code>is-up</code> to change the alignement of the dropdown (and its arrow).</li>
+    <li>Add class <code>is-iconless</code> to remove the dropdown chevron from the trigger zone.</li>
+    <li>Add class <code>is-inverted</code> when the trigger has a dark design.</li>
+</ul>
 
 <hr>
 
-<div class="box is-raised is-large is-radiusless-b is-marginless has-background-white-bis">
+<div class="box is-raised is-medium is-radiusless-b is-marginless">
     <div class="level">
         <div class="level-item">
-            <div class="dropdown is-iconless is-hoverable has-arrow">
+            <div class="dropdown is-inverted is-hoverable has-arrow">
                 <div class="dropdown-trigger">
                     <div class="button is-dark">Dropdown button</div>
                 </div>
                 <div class="dropdown-menu">
-                    <div class="box is-floating is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> :)</div>
+                    <div class="box has-background-primary-dark has-text-white is-size-6">This is actually a <code>box</code> put inside the <code>dropdown-menu</code> 😊</div>
                 </div>
             </div>
         </div>
@@ -144,22 +116,25 @@ Add class `has-arrow` to clearly indicate the element the dropdown is attached t
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Searchable list</h3>
+<h3 class="title is-family-primary">Shifted</h3>
 
-You can add a search field to a dropdown. Use javascript to trigger the search and populate the dropdown list.
+Sometimes it isn't necessary to keep the dropdown trigger visible, or screen real estate is simply to limited for it to stay visible. In those situations add class `is-shifted` in order to display the dropdown list right under the cursor once openened.
+<br><br>
+Use `is-shifted-left` or `is-shifted-right` to manage positions and shift dropdowns to either side.
 
 <hr>
 
-<div class="box is-raised is-radiusless-b is-large is-marginless">
-    <div class="dropdown is-hoverable">
+<div class="box is-raised is-radiusless-b is-medium is-marginless">
+    <div id="js-drpdwn1" class="dropdown is-shifted">
         <div class="dropdown-trigger">
-            <div class="button is-light">Choose a value</div>
+            <div class="button is-secondary" onclick="openDropdown('1')">Dropdwn Shifted</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
-            <div class="dropdown-content">
+            <div class="dropdown-content" onclick="closeDropdown('1')">
                 <div class="dropdown-item is-paddingless">
-                    <input class="input is-small is-borderless" type="text" placeholder="Search the list">
+                    <input class="input is-small is-backgroundless is-borderless" type="text" placeholder="Search the list">
                 </div>
+                <div class="dropdown-divider my0 mx-2 mt-1"></div>
                 <a class="dropdown-item">Show</a>
                 <a class="dropdown-item">results</a>
                 <a class="dropdown-item">here.</a>
@@ -169,22 +144,68 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
                 <a class="dropdown-item">many</a>
                 <a class="dropdown-item">many</a>
                 <a class="dropdown-item">result</a>
-                <a class="dropdown-item">items</a>
+                <a class="dropdown-item">items.</a>
+            </div>
+        </div>
+    </div>
+    <div id="js-drpdwn3" class="dropdown is-shifted is-shifted-right">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary" onclick="openDropdown('3')">Dropdwn and right</div>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content" onclick="closeDropdown('3')">
+                <div class="dropdown-item is-paddingless">
+                    <input class="input is-small is-backgroundless is-borderless" type="text" placeholder="Search the list">
+                </div>
+                <div class="dropdown-divider my0 mx-2 mt-1"></div>
+                <a class="dropdown-item">Show</a>
+                <a class="dropdown-item">results</a>
+                <a class="dropdown-item">here.</a>
+                <a class="dropdown-item">This list</a>
+                <a class="dropdown-item">can have</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">result</a>
+                <a class="dropdown-item">items.</a>
+            </div>
+        </div>
+    </div>
+    <div id="js-drpdwn2" class="dropdown is-shifted is-up is-shifted-left is-pulled-right">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary" onclick="openDropdown('2')">Drop-up and left</div>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content" onclick="closeDropdown('2')">
+                <div class="dropdown-item is-paddingless">
+                    <input class="input is-small is-backgroundless is-borderless" type="text" placeholder="Search the list">
+                </div>
+                <div class="dropdown-divider my0 mx-2 mt-1"></div>
+                <a class="dropdown-item">Show</a>
+                <a class="dropdown-item">results</a>
+                <a class="dropdown-item">here.</a>
+                <a class="dropdown-item">This list</a>
+                <a class="dropdown-item">can have</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">many</a>
+                <a class="dropdown-item">result</a>
+                <a class="dropdown-item">items.</a>
             </div>
         </div>
     </div>
 </div>
 
-    <div class="dropdown">
+    <div class="dropdown is-shifted is-up is-shifted-left">
         <div class="dropdown-trigger">
-            <div class="button is-light">Choose a value</div>
+            <div class="button is-light">Drop-up and left</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
                 <div class="dropdown-item is-paddingless">
-                    <input class="input is-small" type="text">
+                    <input class="input is-small is-backgroundless is-borderless" type="text">
                 </div>
-                <hr class="is-marginless is-wavy">
+                <div class="dropdown-divider my0 mx-2 mt-1"/>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
                 <a class="dropdown-item">..</a>
@@ -193,56 +214,116 @@ You can add a search field to a dropdown. Use javascript to trigger the search a
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Custom icon</h3>
+<h3 class="title is-family-primary">Nested</h3>
 
-Use `is-iconless` if you want to remove the default arrow icon and replace it with your own (or not). Or `is-inverted` to make the arrow white.
+A dropdown can be nested inside another one in order to create sub-menus. Combine it with shifted dropdowns to manage positioning and avoid overlaps.
+
+<br>
+
+<div class="box is-raised is-medium is-marginless is-radiusless-b">
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <div class="button is-secondary">Nested Dropdowns</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Option A</a>
+                <a class="dropdown-item">Option B</a>
+                <a class="dropdown-item">Option C</a>
+                <a class="dropdown-item">Option D</a>
+                <div class="dropdown is-hoverable is-fullwidth is-shifted is-shifted-right is-size-7">
+                    <div class="dropdown-trigger">
+                        <a class="dropdown-item">Option E</a>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a class="dropdown-item">Sub-option A</a>
+                            <a class="dropdown-item">Sub-option B</a>
+                            <a class="dropdown-item">Sub-option C</a>
+                            <a class="dropdown-item">Sub-option D</a>
+                            <div class="dropdown is-hoverable is-fullwidth is-shifted is-shifted-left is-size-7">
+                                <div class="dropdown-trigger">
+                                    <a class="dropdown-item">Sub-option E</a>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-content">
+                                        <a class="dropdown-item">Final-option A</a>
+                                        <a class="dropdown-item">Final-option B</a>
+                                        <a class="dropdown-item">Final-option C</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="dropdown-item">Sub-option F</a>
+                            <a class="dropdown-item">Sub-option G</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="dropdown-item">Option F</a>
+                <a class="dropdown-item">Option G</a>
+                <a class="dropdown-item">Option H</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <div class="button">Main menu</div>
+        </div>
+        <div class="dropdown-menu">
+            <div class="dropdown-content">
+                <a class="dropdown-item">Option A</a>
+                <a class="dropdown-item">Option B</a>
+                <a class="dropdown-item">Option C</a>
+                <div class="dropdown is-hoverable is-fullwidth is-shifted is-shifted-left is-size-7">
+                    <div class="dropdown-trigger">
+                        <a class="dropdown-item">Option D</a>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <a class="dropdown-item">Sub-option A</a>
+                            <a class="dropdown-item">Sub-option B</a>
+                            <a class="dropdown-item">Sub-option C</a>
+                            <a class="dropdown-item">Sub-option D</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="dropdown-item">Option E</a>
+                <a class="dropdown-item">Option F</a>
+                <a class="dropdown-item">Option G</a>
+            </div>
+        </div>
+    </div>
+<hr class="is-visible is-size-1">
+
+<h3 class="title is-family-primary">Dropdown menu</h3>
+
+Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when your dropdown needs to be more than just a list.
 
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
-
-    <div class="dropdown is-hoverable is-iconless has-arrow">
-        <div class="dropdown-trigger">
-            <div class="button is-light">
-                <span>With custom icon&nbsp;</span>
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-            </div>
-        </div>
-        <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content">
-                <div class="box has-text-grey has-text-centered">
-                    <div class="loader is-inline is-size-3"></div>
-                    <br>
-                    Loading state...
-                </div>
-            </div>
-        </div>
-    </div>
-    &nbsp;
     <div class="dropdown is-hoverable is-inverted">
         <div class="dropdown-trigger">
-            <div class="button is-primary">Dropdow menu</div>
+            <div class="button is-primary">Action menu</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content box is-small is-size-7 has-background-primary-gradient">
+            <div class="dropdown-content has-background-primary-gradient">
                 <div class="menu is-small is-inverted">
-                    <ul class="menu-list">
-                        <li class="box is-small">
-                            <div class="columns is-smaller">
-                                <div class="column is-6">
-                                    <a class="is-active has-text-centered">
-                                        <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
-                                        <br>
-                                        ReStop
-                                    </a>
-                                </div>
-                                <div class="column is-6">
-                                    <a class="is-active has-text-centered">
-                                        <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
-                                        <br>
-                                        Reload
-                                    </a>
-                                </div>
+                    <ul class="menu-list pt-1">
+                        <li class="columns is-variable is-1 mx-0">
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <svg class="icon has-fill-white is-size-4 mx-0"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>
+                                    <br>
+                                    Cancel
+                                </a>
+                            </div>
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <svg class="icon has-fill-white is-size-4"><use xlink:href="media/bds-icons.min.svg#reload-g"></use></svg>
+                                    Reload
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -272,17 +353,17 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
         </div>
     </div>
     &nbsp;
-    <div class="dropdown is-hoverable is-inverted">
+    <div class="dropdown is-hoverable is-inverted is-up has-arrow">
         <div class="dropdown-trigger">
-            <div class="button is-dark">Dropdown Menu</div>
+            <div class="button is-primary">Menu dropup</div>
         </div>
         <div class="dropdown-menu" role="menu">
-            <div class="dropdown-content box is-small is-size-7 has-background-dark">
+            <div class="dropdown-content box is-small is-size-7 has-background-primary-dark">
                 <div class="menu is-small is-inverted">
                     <ul class="menu-list">
-                        <li><a>Biodata</a></li>
+                        <li><a class="is-active">Biodata</a></li>
                         <li><a>Timelines</a></li>
-                        <li class="is-active"><a>Follow-ups</a></li>
+                        <li><a>Follow-ups</a></li>
                     </ul>
                     <p class="menu-label">Coverages</p>
                     <ul class="menu-list">
@@ -290,7 +371,7 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
                             <ul>
                                 <li><a>Illness</a></li>
                                 <li><a>Pro</a></li>
-                                <li><a>Other</a></li>
+                                <li><a class="is-passive">Other</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -301,19 +382,29 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 </div>
 
-    <div class="dropdown is-hoverable is-iconless has-arrow">
+    <div class="dropdown is-inverted">
         <div class="dropdown-trigger">
-            <div class="button">
-                <span>With custom icon</span>
-                <svg class="icon has-fill-primary"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
-            </div>
+            <!-- Some trigger -->
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content">
-                <div class="box has-text-grey has-text-centered">
-                    <div class="loader is-inline is-size-3"></div>
-                    <br>
-                    Loading state...
+                <div class="menu is-small is-inverted">
+                    <ul class="menu-list">
+                        <li class="columns is-variable is-1 mx-0">
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <!-- Icon -->
+                                    <!-- Text -->
+                                </a>
+                            </div>
+                            <div class="column is-6">
+                                <a class="is-passive has-text-centered">
+                                    <!-- Icon -->
+                                    <!-- Text -->
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -325,41 +416,63 @@ Use `is-iconless` if you want to remove the default arrow icon and replace it wi
 
 Create a system default select list just by wrapping it with a `.select` div. Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 
+<br>
+
+?> A default value styling can be attaigned with the `required` attribute along with the first `<option>` having `disabled selected hidden` attributes (see example below).
+
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
-    <div class="select is-small is-danger">
-        <select>
+    <div class="select is-small">
+        <select class="button is-light">
             <option value="">Small</option>
-            <option value="">Danger</option>
-            <option value="">Select</option>
+            <option value="">Select Button</option>
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
     <div class="select">
-        <select>
-            <option value="">Default</option>
+        <select required>
+            <option value="" disabled selected hidden>Default</option>
             <option value="">System</option>
             <option value="">Select</option>
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
-    <div class="select is-medium is-info">
-        <select>
+    <div class="select is-medium is-warning">
+        <select disabled>
             <option value="">Medium</option>
             <option value="">Warning</option>
             <option value="">Select</option>
             <option value="">List</option>
         </select>
     </div>
+    &nbsp; &nbsp;
+    <div class="select is-large is-info">
+        <select>
+            <option value="">Large</option>
+            <option value="">Info</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
+    </div>
 </div>
 
+    // Select on a button
+    <div class="select is-small">
+        <select class="button is-light" required>
+            <option value="" disabled selected hidden>Default</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
+        </select>
+    </div>
+    // Medium select
     <div class="select is-medium is-info">
-        <select>
-            <option value="1">Default</option>
-            <option value="2">System</option>
-            <option value="3">Select</option>
-            <option value="4">List</option>
+        <select required>
+            <option value="" disabled selected hidden>Default</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
         </select>
     </div>
 <br>

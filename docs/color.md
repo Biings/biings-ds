@@ -38,8 +38,8 @@ Brand colors are used when refering to Biings or any of its products.
 <div class="columns is-multiline">
     <div class="column is-3"><div class="has-background-grey-lightest"><br><br></div><strong>grey-lightest</strong><br><span class="is-dimmed is-family-monospace">#E7E2E0</span></div>
     <div class="column is-3"><div class="has-background-white-ter"><br><br></div><strong>white-ter</strong><br><span class="is-dimmed is-family-monospace">#EFEBE9</span></div>
-    <div class="column is-3"><div class="has-background-white-bis"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF7F5</span></div>
-    <div class="column is-3"><div class="has-background-white" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white</strong><br><span class="is-dimmed is-family-monospace">#FFFFFF</span></div>
+    <div class="column is-3"><div class="has-background-white-bis" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);"><br><br></div><strong>white-bis</strong><br><span class="is-dimmed is-family-monospace">#FAF7F5</span></div>
+    <div class="column is-3"><div class="has-background-white"><br><br></div><strong>white</strong><br><span class="is-dimmed is-family-monospace">#FFFFFF</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-grey-dark"><br><br></div><strong>grey-dark</strong><br><span class="is-dimmed is-family-monospace">#8A7D7F</span></div>
     <div class="column is-3"><div class="has-background-grey"><br><br></div><strong>grey</strong><br><span class="is-dimmed is-family-monospace">#9C9090</span></div>
@@ -84,10 +84,10 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-yellow-light"><br><br></div><strong>yellow-light</strong><br><span class="is-dimmed is-family-monospace">#FFD87F</span></div>
     <div class="column is-3"><div class="has-background-yellow-lighter"><br><br></div><strong>yellow-lighter</strong><br><span class="is-dimmed is-family-monospace">#FFEEC8</span></div>
     <div class="column is-12"></div>
-    <div class="column is-3"><div class="has-background-green-dark"><br><br></div><strong>green-dark</strong><br><span class="is-dimmed is-family-monospace">#5E8B3C</span></div>
-    <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><strong>green</strong><br><span class="is-dimmed is-family-monospace">#7DB950</span></div>
-    <div class="column is-3"><div class="has-background-green-light"><br><br></div><strong>green-light</strong><br><span class="is-dimmed is-family-monospace">#A4CE85</span></div>
-    <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><strong>green-lighter</strong><br><span class="is-dimmed is-family-monospace">#E5F1DC</span></div>
+    <div class="column is-3"><div class="has-background-green-dark"><br><br></div><strong>green-dark</strong><br><span class="is-dimmed is-family-monospace">#5E8442</span></div>
+    <div class="column is-3"><div class="has-background-green has-shadow"><br><br></div><strong>green</strong><br><span class="is-dimmed is-family-monospace">#7DB058</span></div>
+    <div class="column is-3"><div class="has-background-green-light"><br><br></div><strong>green-light</strong><br><span class="is-dimmed is-family-monospace">#A4C88A</span></div>
+    <div class="column is-3"><div class="has-background-green-lighter"><br><br></div><strong>green-lighter</strong><br><span class="is-dimmed is-family-monospace">#E5EFDE</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-turquoise-dark"><br><br></div><strong>turquoise-dark</strong><br><span class="is-dimmed is-family-monospace">#009688</span></div>
     <div class="column is-3"><div class="has-background-turquoise has-shadow"><br><br></div><strong>turquoise</strong><br><span class="is-dimmed is-family-monospace">#00C8B5</span></div>
@@ -139,101 +139,154 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
         color: var(--color-primary);
     }
 
-    .your-has-gradient-1
+    .your-gradient
     {
         background: linear-gradient(25deg, var(--color-primary) -30%, var(--color-pink) 130%);
     }
-
 <hr class="is-size-1 is-visible">
 
 <h3 class="title is-family-primary">Special Backgrounds</h3>
 
-Use gradient backgrounds to make a component <u>stand out</u>! (like a dropdown menu)
+Use special backgrounds to make a component <u>stand out</u>! You can combine some background with each other (blury, grainy, radials). <strong class="has-text-weight-medium">Backgrounds containing transparency are marked with a <sup class="has-text-red-light has-text-weight-bold">T</sup>.</strong>
 
 <hr>
 
 <div class="columns is-small has-text-centered is-multiline is-vcentered">
     <div class="column is-6">
         <br><div class="box is-large has-background-primary-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-6">
-        <br><div class="box is-large has-background-primary-gradient-light">&nbsp;</div>
-    </div>
-    <div class="column is-6">
         <code>has-background-primary-gradient</code>
     </div>
     <div class="column is-6">
+        <br><div class="box is-large has-background-primary-gradient-light">&nbsp;</div>
         <code>has-background-primary-gradient-light</code>
     </div>
     <div class="column is-6">
         <br><div class="box is-large has-background-secondary-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-6">
-        <br><div class="box is-large has-background-secondary-gradient-light">&nbsp;</div>
-    </div>
-    <div class="column is-6">
         <code>has-background-secondary-gradient</code>
     </div>
     <div class="column is-6">
+        <br><div class="box is-large has-background-secondary-gradient-light">&nbsp;</div>
         <code>has-background-secondary-gradient-light</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-primary-secondary-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-primary-secondary-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-primary-warning-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-primary-warning-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-warning-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-warning-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-success-gradient">&nbsp;</div>
-    </div>
-    <div class="column is-12">
         <code>has-background-success-gradient</code>
     </div>
-    <div class="column is-12">
+    <div class="column is-6">
         <br><div class="box is-large has-background-info-gradient">&nbsp;</div>
+        <code>has-background-info-gradient</code>
+    </div>
+    <div class="column is-6">
+        <br><div class="box is-large has-background-menu">&nbsp;</div>
+        <code>has-background-menu</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
+    </div>
+    <!-- RADIAL -->
+    <div class="column is-4">
+        <br><div class="box is-large is-bordered has-background-radial-tl">&nbsp;</div>
+        <code>has-background-radial-tl</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
+    </div>
+    <div class="column is-4">
+        <br><div class="box is-large is-bordered has-background-radial-t">&nbsp;</div>
+        <code>has-background-radial-t</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
+    </div>
+    <div class="column is-4">
+        <br><div class="box is-large is-bordered has-background-radial-tr">&nbsp;</div>
+        <code>has-background-radial-tr</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-purple-radial">&nbsp;</div>
+        <code>has-background-purple-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-secondary-radial">&nbsp;</div>
+        <code>has-background-secondary-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-success-radial">&nbsp;</div>
+        <code>has-background-success-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-grey-radial">&nbsp;</div>
+        <code>has-background-grey-radial</code>
     </div>
     <div class="column is-12">
-        <code>has-background-info-gradient</code>
+        (ideal when combined with <code>has-text-background</code>)
     </div>
 </div>
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Blurred Background</h3>
+<h3 class="title is-family-primary">Grainy texture</h3>
 
-Ok it's not really a "color" 🤦‍♂️ but you can create a blurred white background using modifier class <code>has-background-blur</code> combined with `has-background-[white, black-bis or dark]`.
+Combine the modifier <code>has-background-grainy</code> with a background color to create a grainy texture effect.
 
-<br><div class="box is-bordered is-paddingless is-small has-text-grey has-text-centered is-relative">
-    <div class="box is-size-2 is-marginless">
-        🖱
-        <hr class="is-marginless is-wavy">
-        <strong class="button is-beefy is-info is-rounded has-text-weight-bold">Hover away to blur me!</strong>
-        <div class="has-text-grey is-size-7">This is made just to demo the effect.</div>
-        <div class="has-background-blur has-background-white" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;" onmouseout="this.className='has-background-blur has-background-white'" onMouseOver="this.className=''"></div>
-    </div>    
+<br>
+<div class="box p-0 has-background-primary-warning-gradient is-radiusless-b mb-0">
+    <div class="columns is-gapless has-text-centered is-size-6 has-text-weight-medium">
+        <div class="column">
+            <div class="box is-large is-marginless is-bordered is-radiusless-r is-radiusless-b is-dimmed">
+                Without any effect
+            </div>
+        </div>
+        <div class="column">
+            <div class="box is-large is-marginless has-background-grainy is-bordered is-radiusless-l is-radiusless-b is-dimmed">
+                With grainy effect
+            </div>
+        </div>
+    </div>
 </div>
 
+    <div class="has-background-primary-gradient">
+        <div class="has-background-grainy">
+            <!-- Some content with a grainy background -->
+        </div>
+    </div>
+<hr class="is-size-1 is-visible">
+
+<h3 class="title is-family-primary">Blured effect</h3>
+
+Ok it's not really a "color" but you can create a blurred effect using the modifier <code>has-background-blur</code> combined with `has-background-[white, white-bis, black-bis or dark]`.
+
+<br>
+<div class="box is-large is-raised has-text-centered is-radiusless-b mb-0 is-relative">
+    <strong class="button is-beefy is-primary is-medium is-rounded has-text-weight-bold mb-3">Some UI content</strong>
+    <div class="is-size-6">This is made just to demo the effect.</div>
+    <div class="is-overlay box has-background-blur has-background-white my-1 mr-1" style="left: 50%;">&nbsp;</div>
+</div>
+
+    <div>
+        <!-- Some UI content -->
+        <div class="has-background-white has-background-blur">
+            <!-- Some overlayed content with a blured background -->
+        </div>
+    </div>
 !> Blurred backgrounds are not visible IE and Firefox and fallback to the background-color.
 
-<hr class="is-size-1 is-size-3-touch is-wavy is-visible">
+<hr class="is-size-2 is-size-3-touch is-wavy is-visible mx-6">
 
-<div class="box is-large is-popping has-background-info-gradient">
-    <span class="tag is-info is-medium">Bonus</span>
-    <hr class="is-marginless is-wavy">
-    <h3 class="title is-family-primary"><span class="is-size-smaller">Slack Theme ✨</h3>
-    <p class="subtitle is-5 has-text-dark">Paint your Slack to the colors of Biings by copy-pasting the below HEX codes into your Slack preferences.</p>
+<div class="box is-medium is-floating is-bordered has-background-radial-t has-background-radial-tl has-background-radial-tr">
+    <h3 class="title is-family-primary is-spaced"><span class="is-size-smaller">App Themes <span class="tag is-info is-large is-pulled-right is-twisted-odd-bis">Bonus</span></h3>
+    <p class="subtitle is-5 has-text-dark">Paint your apps to the colors of Biings by copy-pasting the below HEX codes into your respective app preferences.</p>
+    <strong>Linear</strong>
     
+    #FAF7F5,#2D232E,#46285D,#EEE5F5,#8246AF,#FFFFFF
+<br><strong>Linear (Dark)</strong>
+    
+    #1c1025,#FAF7F5,#5B3478,#EEE5F5,#8246AF,#FFFFFF
+<br>
+    <strong>Slack</strong>
+
     #2D232E,#2D2236,#8C50B9,#FFFFFF,#130A1A,#FAF7F5,#7DB950,#AA50B5,#2D232E,#EFEBE9
 </div>

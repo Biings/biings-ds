@@ -7,7 +7,7 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    Anything can have a <span class="tooltip" data-tooltip="Just like this one.">Tooltip</span>.<br>Simply put your tooltip text in the <code>data-tooltip</code> attribute and add the class <code>tooltip</code>.
+    Anything can have a <span class="tooltip has-tooltip-fade" data-tooltip="Just like this one.">Tooltip</span>.<br>Simply put your tooltip text in the <code>data-tooltip</code> attribute and add the class <code>tooltip</code>.
 </div>
 
     <span class="tooltip" data-tooltip="Just like this one.">Any element</span>
@@ -26,9 +26,11 @@ You can change the tooltip position, color and arrow.
 <br>
 
 <div class="box is-raised is-large mb-0 is-radiusless-b">
-    Right positioned <span class="tooltip has-tooltip-arrow has-tooltip-left" data-tooltip="This is on the left. The content can also be pretty long.&NewLine;However no formatting is allowed within the tooltip.">tooltip</span>.
+    Right positioned <span class="tooltip has-tooltip-arrow has-tooltip-right has-tooltip-dark" data-tooltip="This is on the left. The content can also be pretty long.&NewLine;However no formatting is allowed within the tooltip.">tooltip</span>.
     <hr class="my-2">
     Colored <span class="tooltip has-tooltip-arrow has-tooltip-danger has-tooltip-fade has-tooltip-text-centered" data-tooltip="This is red/danger &NewLine; and fades in as well">tooltip</span>.
+    <hr class="my-2">
+    A tooltip can be aligned to the <span class="tooltip has-tooltip-arrow has-tooltip-warning has-tooltip-right-aligned" data-tooltip="With has-tooltip-right-aligned">left or right</span> of the target.
     <hr class="my-2">
     A tooltip can be <span class="tooltip has-tooltip-arrow has-tooltip-info has-tooltip-active has-tooltip-bottom" data-tooltip="To show a quick, useful&NewLine;and contextual information">always active</span>.
 </div>
@@ -38,6 +40,7 @@ You can change the tooltip position, color and arrow.
         has-tooltip-arrow
         has-tooltip-info
         has-tooltip-left
+        has-tooltip-left-aligned
         has-tooltip-active
         has-tooltip-fade"
         data-tooltip="Tooltip content, use the &NewLine; html entity for multi-line content"

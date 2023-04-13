@@ -11,11 +11,11 @@
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
 <br><br>
-<div class="box is-raised is-large has-text-centered is-marginless is-radiusless-b">
-    <div onclick="openModal('')" class="button is-beefy is-dark is-outlined">Open Modal</div>
+<div class="box is-raised is-medium has-text-centered is-marginless is-radiusless-b">
+    <div onclick="openModal('')" class="button is-beefy">Open a nice modal</div>
 </div>
 <div id="js-modal" class="modal">
-    <div class="modal-background has-background-white has-background-blur" onclick="closeModal('')"></div>
+    <div class="modal-background has-background-white-bis has-background-blur" onclick="closeModal('')"></div>
     <div class="modal-content has-text-centered">
         <div class="title is-spaced is-1 is-size-1-mobile has-text-centered">Nice!</div>
         <div class="subtitle is-5 is-size-6-mobile">This opens just by adding the <code>is-active</code> to the modal div.</div>
@@ -27,7 +27,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 <hr class="is-marginless is-visible">
 
     <div class="modal">
-        <div class="modal-background has-background-white"></div>
+        <div class="modal-background has-background-white-bis has-background-blur"/>
         <div class="modal-content">
             <!-- Any other components. -->
         </div>
@@ -46,22 +46,29 @@ Use modal cards when displaying a form or when lots of interaction is involved.
 <br>
 
 <div class="box is-raised is-large has-text-centered is-marginless is-radiusless-b">
-    <div onclick="openModal(1)" class="button is-dark is-beefy">Modal Card 1</div>
-    &nbsp; &nbsp; 
-    <div onclick="openModal(2)" class="button is-primary is-beefy">Modal Card 2</div>
+    <div class="columns is-centered">
+        <div class="column is-narrow">
+            <div onclick="openModal(1)" class="button is-dark is-beefy">Modal Card 1</div>
+            <p class="is-size-6 is-dimmed mt-2">Without backdrop (transparent)</p>
+        </div>
+        <div class="column is-narrow">
+            <div onclick="openModal(2)" class="button is-primary is-beefy">Modal Card 2</div>
+            <p class="is-size-6 is-dimmed mt-2">With backdrop</p>
+        </div>
+    </div>
 </div>
 <hr class="is-marginless is-visible">
 <div id="js-modal1" class="modal">
-    <div class="modal-background" onclick="closeModal(1)"></div>
+    <div class="modal-background is-backgroundless" onclick="closeModal(1)"></div>
     <div class="modal-card">
         <header class="modal-card-head has-border">
-            <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
+            <svg class="icon has-fill-dark"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>
             <div class="modal-card-title">
                 Modal Card Example
             </div>
             <button onclick="closeModal(1)" class="delete is-large" aria-label="close"/>
         </header>
-        <section class="modal-card-body has-background-white">
+        <section class="modal-card-body">
             <p><strong>Can handle of lot of content..</strong></p>
             <br>
             <p>
@@ -100,9 +107,8 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <hr>
         </section>
         <footer class="modal-card-foot has-border">
-            <div class="button is-dark">Footer Action</div>
-            <div class="button is-static">or</div>
-            <a class="button is-ghost" onclick="closeModal(1)"><span class="is-link is-underlined">Close</span></a>
+            <div class="button is-dark mr-2">Footer Action</div>
+            <a class="button is-secondary" onclick="closeModal(1)">Close</a>
         </footer>
     </div>
 </div>
@@ -117,27 +123,28 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 <h3 class="title is-family-primary has-text-weight-bold has-text-centered">Modal Card Example</h3>
             </div>
             <p class="subtitle is-5">You could also insert centered tabs to make<br>this modal even more versatile.</p>
-            <div class="tabs is-centered">
-                <ul>
+            <div class="tabs is-centered my-0">
+                <ul class="is-borderless">
                     <li class="is-active"><a>One</a></li>
                     <li><a>Two</a></li>
                     <li><a>Forty Six</a></li>
                 </ul>
             </div>
+            <hr class="is-visible">
             <form class="mt-5">
                 <div class="py-6 is-size-4 has-text-grey-light has-text-weight-medium">
                     Put your content here.
                 </div>
             </form>
             <hr class="is-visible my-5">
-            <div class="button is-primary px-6 is-beefy">Save me</div>
+            <div class="button is-primary is-rounded">Save me</div>
         </section>
     </div>
 </div>
 
     <!-- Example 1 -->
     <div class="modal">
-        <div class="modal-background"></div>
+        <div class="modal-background is-backgroundless"/>
         <div class="modal-card">
             <header class="modal-card-head">
                 <svg class="icon has-fill-primary is-size-4"><use xlink:href="media/bds-icons.min.svg#today-g"></use></svg>

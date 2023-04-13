@@ -5,63 +5,74 @@
     height: 3rem
     vertical-align: middle
 
-.avatar > div
+.avatar > div,
+.avatar > picture,
     display: table-cell
     overflow: hidden
     width: 3rem
     height: 3rem
     border-radius: 40%
-    color: $dark
+    color: rgba($dark,.5)
     vertical-align: middle
     text-align: center
-    font-weight: $weight-medium
-    font-size: 1.25rem
+    font-weight: $weight-normal
+    font-size: 1.375rem
+    box-shadow: inset 0 0 0 1px rgba($dark,.15)
 
-.avatar > img
+.avatar > img,
+.avatar > picture > img
     overflow: hidden
     width: 100%
     height: 100%
     border-radius: 40%
 
 .avatar.is-tiny,
-.avatar.is-tiny > div
+.avatar.is-tiny > div,
+.avatar.is-tiny > picture
     width: 1.5rem
     height: 1.5rem
-    font-weight: $weight-semibold
-    font-size: .625rem
+    font-weight: $weight-medium
+    font-size: .75rem
+    text-indent: -1px
 
 .avatar.is-mini,
-.avatar.is-mini > div
+.avatar.is-mini > div,
+.avatar.is-mini > picture
     width: 1.75rem
     height: 1.75rem
-    font-weight: $weight-semibold
-    font-size: .75rem
-
-.avatar.is-small,
-.avatar.is-small > div
-    width: 2.25rem
-    height: 2.25rem
+    font-weight: $weight-medium
     font-size: .875rem
 
+.avatar.is-small,
+.avatar.is-small > div,
+.avatar.is-small > picture
+    width: 2.25rem
+    height: 2.25rem
+    font-weight: $weight-medium
+    font-size: 1rem
+
 .avatar.is-medium,
-.avatar.is-medium > div
+.avatar.is-medium > div,
+.avatar.is-medium > picture
     width: 4rem
     height: 4rem
-    font-size: 1.375rem
+    font-size: 1.625rem
 
 .avatar.is-large,
-.avatar.is-large > div
+.avatar.is-large > div,
+.avatar.is-large > picture
     width: 5rem
     height: 5rem
-    font-weight: $weight-normal
-    font-size: 1.9rem
+    font-size: 2.125rem
+    font-weight: $weight-light
 
 .avatar.is-huge,
-.avatar.is-huge > div
+.avatar.is-huge > div,
+.avatar.is-huge > picture
     width: 7rem
     height: 7rem
-    font-weight: $weight-normal
-    font-size: 2.25rem
+    font-size: 2.75rem
+    font-weight: $weight-light
 
 .avatar + span
     margin-left: .75rem
@@ -145,3 +156,15 @@
 .avatar.is-status-white:before
     border-color: $white
 
+// Tilted
+.avatar.is-tilted
+    transform: rotate(-13deg) !important
+.avatar.is-tilted > div > div
+    transform: rotate(13deg)
+
+.avatar > picture
+    display: block !important
+    font-size: 0 !important
+
+.avatar.is-tilted > picture > img
+    transform: rotate(13deg) scale(1.05)

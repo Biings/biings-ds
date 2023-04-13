@@ -8,6 +8,8 @@
 
 <div class="box is-raised is-large is-medium is-marginless is-radiusless-b">
     <div class="has-skeleton"></div>
+    <hr>
+    <div class="avatar"><div class="has-skeleton"></div></div>
 </div>
 
     <div class="has-skeleton"></div>
@@ -25,7 +27,10 @@ Add class `has-skeleton` to any empty component to show its skeleton.
     <div class="box has-skeleton"></div>
     <div class="box has-skeleton"></div>
     <div class="box has-skeleton"></div>
-    <div class="avatar"><div class="has-skeleton"></div></div><br><br>
+    <div class="box has-skeleton"></div>
+    <div class="box has-skeleton"></div>
+    <div class="box has-skeleton"></div>
+    <div class="box has-skeleton"></div>
     <div class="box message has-skeleton is-danger is-size-6">
         The skeleton is visible <strong>only if the content is empty</strong>.
     </div>

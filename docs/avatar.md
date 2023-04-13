@@ -11,12 +11,12 @@
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
 <br><div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><div class="has-background-primary-lighter">JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
+    <div class="avatar"><div>JD</div></div><span class="subtitle has-text-dark is-5">John Doe</span>
 </div>
 <hr class="is-marginless is-visible">
 
     <div class="avatar">
-        <div class="has-background-grey-light">JD</div>
+        <div>JD</div>
     </div>
     <span>John Doe</span>
 <br>
@@ -29,12 +29,12 @@ In addition to the default size, use classes `is-[tiny,mini,small,medium,large,h
 <hr class="is-small">
 <div class="box is-raised py-6">
     <div class="level">
-        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-light">TY</div></div><span class="is-size-7">Tiny</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-lighter">T</div></div><span class="is-size-7">Tiny</span></div>
         <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">MI</div></div><span class="is-size-7">Mini</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-turquoise-lighter">SL</div></div><span class="is-size-7">Small</span></div>
-        <div class="level-item"><div class="avatar is-medium"><div class="has-background-primary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
-        <div class="level-item"><div class="avatar is-large"><div class="has-background-turquoise-lighter">LA</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div class="has-background-secondary-lighter">HU</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-blue-lighter">SM</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item"><div class="avatar is-medium"><div class="has-background-secondary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
+        <div class="level-item"><div class="avatar is-large"><div class="has-background-primary-lighter">LA</div></div><span class="is-size-5">Large</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div>HU</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
@@ -47,13 +47,13 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar"><img src="https://www.gravatar.com/avatar/68a50e21ee0b66aafee1831d3c6f130c?size=200&d=blank"></div><span class="subtitle has-text-dark">Padukone, Deepika</span>
+    <div class="avatar is-large"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
+    <span class="subtitle is-4"><strong>Khan</strong>, Aamir</span>
 </div>
 
     <div class="avatar">
-        <img src="https://www.gravatar.com/avatar/padukone.png">
+        <img src="https://www.gravatar.com/avatar.png">
     </div>
-    <span class="subtitle is-5">Padukone, Deepika</span>
 <hr class="is-size-1 is-visible">
 
 <h3 class="title is-family-primary">Status</h3>
@@ -63,33 +63,56 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
 <hr class="is-small">
 
 <div class="box is-raised is-large is-marginless is-radiusless-b">
-    <div class="avatar is-status-turquoise is-huge"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
-    <span class="subtitle is-4 has-text-turquoise-dark"><strong>Aamir</strong> is online, or..</span>
+    <div class="avatar is-status-turquoise is-medium"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
+    <span class="subtitle is-4"><strong>Aamir</strong> is online.</span>
     <hr>
-    <div class="avatar is-medium is-status-green"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-green"><div>GR</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-yellow"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-yellow"><div>YE</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-orange"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-orange"><div>OR</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-red"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-red"><div>RE</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-pink"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-pink"><div>PI</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-purple"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-purple"><div>PU</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-primary"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-primary"><div>PR</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-blue"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-blue"><div>BL</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-cyan"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-cyan"><div>CY</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-dark"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-dark"><div>DA</div></div>
     &nbsp;
-    <div class="avatar is-medium is-status-grey"><img src="https://www.gravatar.com/avatar/7c8b112654185af6614a3df144135b0d?s=200&d=blank&r=g"></div>
+    <div class="avatar is-status-grey"><div>GR</div></div>
 </div>
 
-    <div class="avatar is-status-turquoise">
-        <!-- <div> or <image> -->
-    <div>
-    // etc..
+<hr class="is-size-1 is-visible">
+
+<h3 class="title is-family-primary">Tilted</h3>
+
+Avatars can be tilted the same way the Biings logo is. Just add class `is-tilted` and make sure to wrap initials in an extra `<div>` or images in a `<picture>` tag.
+
+<hr class="is-small">
+
+<div class="box is-raised is-large is-marginless is-radiusless-b">
+    <div class="level">
+        <div class="level-item"><div class="avatar is-mini is-tilted"><div><div>T</div></div></div><span class="is-size-6">Small Tilted</span></div>
+        <div class="level-item"><div class="avatar is-tilted"><div><div>DT</div></div></div><span>Default Tilted</span></div>
+        <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
+    </div>
+</div>
+
+    <div class="avatar is-tilted">
+        <div class="has-background-primary">
+            <div>DT</div>
+        </div>
+    </div>
+
+    <div class="avatar is-tilted">
+        <picture>
+            <img src="...">
+        </picture>
+    </div>

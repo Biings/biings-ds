@@ -1,6 +1,6 @@
 {
     "name": "@superlayerhq/biings-ds",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
@@ -47,7 +47,7 @@
         "not ie <= 8"
     ],
     "devDependencies": {
-        "bulma": "^0.9.2",
+        "bulma": "^0.9.4",
         "cssnano": "^5.0.12",
         "grunt": "^1.4.1",
         "grunt-cli": "^1.4.3",

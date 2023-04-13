@@ -10,6 +10,7 @@
     font-family: Averta;
     src: url('fonts/Averta-Light.woff') format('woff'),
     url('fonts/Averta-Light.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Light Italic */
@@ -20,6 +21,7 @@
     font-family: Averta;
     src: url('fonts/Averta-LightItalic.woff') format('woff'),
     url('fonts/Averta-LightItalic.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Regular */
@@ -30,6 +32,7 @@
     font-family: Averta;
     src: url('fonts/Averta-Regular.woff') format('woff'),
     url('fonts/Averta-Regular.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Regular Italic */
@@ -40,6 +43,7 @@
     font-family: Averta;
     src: url('fonts/Averta-RegularItalic.woff') format('woff'),
     url('fonts/Averta-RegularItalic.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Semibold  */
@@ -50,6 +54,7 @@
     font-family: Averta;
     src: url('fonts/Averta-Semibold.woff') format('woff'),
     url('fonts/Averta-Semibold.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Semibold Italic */
@@ -60,6 +65,7 @@
     font-family: Averta;
     src: url('fonts/Averta-SemiboldItalic.woff') format('woff'),
     url('fonts/Averta-Semibold.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Bold */
@@ -70,6 +76,7 @@
     font-family: Averta;
     src: url('fonts/Averta-Bold.woff') format('woff'),
     url('fonts/Averta-Bold.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Bold Italic */
@@ -80,6 +87,7 @@
     font-family: Averta;
     src: url('fonts/Averta-BoldItalic.woff') format('woff'),
     url('fonts/Averta-BoldItalic.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Extra Bold  */
@@ -90,6 +98,7 @@
     font-family: Averta;
     src: url('fonts/Averta-Extrabold.woff') format('woff'),
     url('fonts/Averta-Extrabold.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Extra Bold Italic */
@@ -100,6 +109,7 @@
     font-family: Averta;
     src: url('fonts/Averta-ExtraboldItalic.woff') format('woff'),
     url('fonts/Averta-ExtraboldItalic.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Black */
@@ -110,6 +120,7 @@
     font-family: Averta;
     src: url('fonts/Averta-Black.woff') format('woff'),
     url('fonts/Averta-Black.eot') format('eot');
+    font-display: swap;
 }
 
 /* Averta Standard Black Italic */
@@ -120,6 +131,7 @@
     font-family: Averta;
     src: url('fonts/Averta-BlackItalic.woff') format('woff'),
     url('fonts/Averta-BlackItalic.eot') format('eot');
+    font-display: swap;
 }
 
 /* ———————————————————————————————————————————————————————————————————————————————————— */
@@ -131,6 +143,7 @@
     font-style: normal;
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-300.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* Crimson-Pro Regular */
@@ -140,6 +153,7 @@
     font-style: normal;
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-400.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* Crimson-Pro Medium */
@@ -149,6 +163,7 @@
     font-style: normal;
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-500.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* Crimson-Pro Semibold */
@@ -158,6 +173,7 @@
     font-style: normal;
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-600.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* Crimson-Pro Bold */
@@ -167,6 +183,7 @@
     font-style: normal;
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-700.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* Crimson-Pro Bolder */
@@ -176,6 +193,7 @@
     font-style: normal;
     font-family: CrimsonPro;
     src: url('fonts/Crimson-Pro-900.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* ———————————————————————————————————————————————————————————————————————————————————— */
@@ -187,6 +205,7 @@
     font-style: normal;
     font-family: Caveat;
     src: url('fonts/Caveat-Regular.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face
@@ -195,4 +214,5 @@
     font-style: normal;
     font-family: Caveat;
     src: url('fonts/Caveat-SemiBold.ttf') format('truetype');
+    font-display: swap;
 }

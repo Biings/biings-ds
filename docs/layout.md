@@ -13,25 +13,25 @@ Container is used to center your content horizontally. Alter the max width with 
 <table class="table is-bordered is-hoverable">
   <tr>
       <td class="is-narrow"><code>container</code></td>
-      <td>Max <strong>1248px</strong>, with 2 breakpoints</td>
+      <td>Max <strong>1248px</strong>, with 2 breakpoints and a max width on mobile (can be disabled with `.is-fluid-mobile`).</td>
   </tr>
   <tr>
       <td class="is-narrow"><code>container</code> <code>is-max-desktop</code></td>
-      <td>Max <strong>960px</strong> (the desktop breakpoint)</td>
+      <td>Max <strong>960px</strong> – the desktop breakpoint</td>
   </tr>
   <tr>
       <td class="is-narrow"><code>container</code> <code>is-max-tablet</code></td>
-      <td>Max <strong>769px</strong> (the tablet breakpoint)</td>
+      <td>Max <strong>769px</strong> – the tablet breakpoint</td>
   </tr>
   <tr>
     <td class="is-narrow"><code>container</code> <code>is-max-modal</code></td>
-    <td>Max <strong>528px</strong> (the modal width)</td>
+    <td>Max <strong>528px</strong> – the modal width</td>
   </tr>
 </table>
 
 <br>
-<a href="https://bulma.io/documentation/layout/container/" target="blank" class="box is-well has-text-grey">
-    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Container</strong>
+<a href="https://bulma.io/documentation/layout/container/" target="blank" class="message is-info is-small is-block">
+    More possibilities on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Container</strong>
 </a>
 
 <hr class="is-size-1 is-visible">
@@ -103,8 +103,8 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
 ?> Column gap can be removed with modifier `is-gapless`.
 
 <br>
-<a href="https://bulma.io/documentation/columns/" target="blank" class="box is-raised has-text-grey">
-    More possibilities on &nbsp;→&nbsp; <strong class="has-text-primary">Bulma / Columns</strong>
+<a href="https://bulma.io/documentation/columns/" target="blank" class="message is-info is-small is-block">
+    More possibilities on &nbsp;→&nbsp; <strong class="is-link is-underlined">Bulma / Columns</strong>
 </a>
   
 <hr class="is-size-1 is-visible">

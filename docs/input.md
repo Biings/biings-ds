@@ -14,7 +14,7 @@
 
 <h3 class="title is-family-primary">Input field variations</h3>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b" spellcheck="false">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b" spellcheck="false">
     <input class="input is-small" type="tel" placeholder="Small input">
     <hr class="is-size-7">
     <div class="control is-loading is-primary">
@@ -80,12 +80,12 @@ You can add one or two icons inside the input.
     </div>
 </div>
 
-    <p class="control has-icons-left has-icons-right">
+    <p class="control has-icons-left">
         <input class="input">
         <svg class="icon is-left"><use xlink:href="media/bds-icons.min.svg#mail-g"></use></svg>
     </p>
 
-    <p class="control has-icons-left">
+    <p class="control has-icons-left has-icons-right">
         <input class="input is-rounded">
         <svg class="icon is-left"><use xlink:href="media/bds-icons.min.svg#search-g"></use></svg>
         <svg class="icon is-right"><use xlink:href="media/bds-icons.min.svg#cross-g"></use></svg>

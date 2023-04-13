@@ -45,7 +45,7 @@ $title-color: $dark !default
 $title-family: $family-secondary !default
 $title-size: $size-3 !default
 $title-weight: $weight-normal !default
-$title-strong-weight: 900 !default
+$title-strong-weight: $weight-bold !default
 $title-sub-size: 0.75em !default
 $title-sup-size: 0.75em !default
 $title-line-height: 1 !default
@@ -80,7 +80,7 @@ $container-max-width: $fullhd !default
 
 $easing: ease-out !default
 $radius-small: 5px !default
-$radius: 8px !default
+$radius: 7px !default
 $radius-large: 9px !default
 $radius-rounded: 290486px !default
 $speed: 86ms !default
@@ -124,7 +124,7 @@ $hr-height: 1px
 $hr-margin: 1em 0
 
 $strong-color: $text-strong !default
-$strong-weight: $weight-semibold !default
+$strong-weight: $weight-bold !default
 
 $box-color: $text
 $box-background-color: transparent
@@ -135,29 +135,30 @@ $box-link-hover-shadow: !default
 $box-link-active-shadow: !default
 
 $modal-content-width: 33rem !default
-$modal-background-background-color: rgba($black-ter, .4) !default
-$modal-card-body-background-color: white !default
-$modal-card-head-background-color: white !default
+$modal-background-background-color: rgba($black, .35) !default
+$modal-card-body-background-color: $white-bis !default
+$modal-card-head-background-color: $white-bis !default
 $modal-card-head-border-bottom: none !default
 $modal-card-foot-border-top: none !default
 $modal-card-head-radius: 1em !default
 $modal-card-foot-radius: 1em !default
-$modal-card-head-padding: 1.75rem 2.5rem 1.875rem !default
-$modal-card-body-padding: 1.75rem 2.5rem !default
+$modal-card-head-padding: 1.65rem 1.75rem !default
+$modal-card-body-padding: 1.625rem 1.75rem !default
 $modal-card-title-color: $dark !default
 $modal-card-title-line-height: 1 !default
 $modal-card-title-size: $size-4 !default
 $modal-close-dimensions: $size-2 !default
-$modal-close-right: $size-4 !default
-$modal-close-top: $size-4 !default
+$modal-close-right: $size-5 !default
+$modal-close-top: $size-5 !default
 $modal-card-spacing: 6% !default
 $modal-content-spacing-mobile: 1% !default
 $modal-content-spacing-tablet: 3% !default
 
 $dropdown-item-color: $text !default
+$dropdown-content-background-color: $white-bis !default
 $dropdown-content-padding-top: 0.5rem !default
 $dropdown-content-padding-bottom: $dropdown-content-padding-top !default
-$dropdown-content-shadow: 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
+$dropdown-content-shadow: inset 0 0 0 1px rgba($black,0.09), 0 0 5px 0 rgba($black,.04),0 4px 6px -8px rgba($black,.12),0 6px 30px -8px rgba($black,.2) !default
 $dropdown-item-hover-background-color: rgba($grey-lighter,.25) !default
 $dropdown-content-radius: $radius !default
 $dropdown-item-active-color: $primary !default
@@ -166,48 +167,62 @@ $dropdown-divider-background-color: $hr-background-color !default
 $dropdown-menu-min-width: 12em !default
 
 // Form elements
-$control-height: 2.75em !default
-$control-border-width: 2px !default
-$control-padding-vertical: calc(0.5em - 1px) !default
-$control-padding-horizontal: calc(.875em - 1px) !default
+$control-height: 2.5em !default
+$control-line-height: 1.5 !default
+$control-border-width: 1px !default
+$control-padding-vertical: .25em !default
+$control-padding-horizontal: .875em !default
 
+$button-color: $text !default
 $button-background-color: white !default
-$button-border-color: mix(black,$light,3) !default
+$button-border-color: mix($black,$light,6) !default
 $button-border-width: 1px !default
 $button-hover-color: inherit !default
-$button-hover-border-color: mix(black,$light,9) !default
+$button-hover-border-color: mix($black,$light,12) !default
 $button-active-color: $text !default
-$button-active-border-color: $button-hover-border-color !default
-$button-padding-vertical: calc(0.25em - #{$button-border-width}) !default
-$button-static-color: inherit !default
-$button-static-background-color: transparent !default
-$button-static-border-color: transparent !default
+$button-active-border-color: $button-border-color !default
+$button-focus-border-color: $button-hover-border-color !default
+$button-padding-vertical: $control-padding-vertical !default
+$button-padding-horizontal: $control-padding-horizontal !default
+$button-static-color: current !default
+$button-static-background-color: current !default
+$button-static-border-color: current !default
 $button-text-color: $text !default
 $button-text-decoration: none !default
 $button-text-hover-background-color: $code-background !default
 $button-text-hover-color: $text-strong !default
+$button-disabled-background-color: $scheme-main !default
+$button-disabled-border-color: $button-border-color !default
+// disabled shadow also used as regular button shadow
+$button-disabled-shadow: 0 1px 3px -2px rgba($black, .3) !default
+$button-disabled-opacity: 1 !default
+$button-responsive-sizes: ("mobile": ("small": ($size-small * 0.875), "normal": ($size-small * 0.9375), "medium": $size-small, "large": $size-normal), "tablet-only": ("small": ($size-small * 0.9375), "normal": ($size-small), "medium": $size-normal, "large": $size-medium)) !default
 
 $input-shadow: none !default
-$input-background-color: $white !default
-$input-color: $black !default
+$input-background-color: transparent !default
+$input-color: $text !default
 $input-placeholder-color: rgba($input-color, 0.35) !default
 $input-arrow: $grey !default
 $input-hover-color: $input-color !default
 $input-border-color: rgba($black,.15) !default
-$input-hover-border-color: mix($black-bis,$input-border-color,15) !default
-$input-focus-border-color: rgba($primary,0.8) !default
+$input-hover-border-color: mix($dark,$input-border-color,19) !default
+$input-focus-border-color: $primary !default
 $input-focus-box-shadow-size: 0 0 0 0 !default
 $input-focus-box-shadow-color: transparent !default
 $label-color: $dark !default
 $label-weight: $weight-normal !default
 
+$input-disabled-color: $black-bis !default
+$input-disabled-border-color: transparent !default
+$input-disabled-placeholder-color: $input-placeholder-color !default
+
 $menu-item-color: $dark !default
 $menu-item-radius: $radius !default
 $menu-item-hover-color: $menu-item-color !default
-$menu-item-hover-background-color: $border-hover !default
+$menu-item-hover-background-color: $code-background !default
 $menu-item-active-color: $menu-item-color !default
-$menu-item-active-background-color: rgba($primary-dark,.1) !default
-$menu-list-border-left: 2px solid $menu-item-hover-background-color !default
+$menu-item-active-background-color: $menu-item-hover-background-color !default
+$menu-list-border-left: 2px solid $border-hover !default
 $menu-list-line-height: inherit !default
 $menu-label-color: $purple !default
 $menu-label-font-size: .8125rem !default
@@ -216,36 +231,40 @@ $menu-label-spacing: 1em !default
 
 $table-color: $text !default
 $table-background-color: transparent !default
+$table-head-cell-border-width: 0 0 1px !default
 $table-cell-border: 1px solid $code-background !default
 $table-cell-border-width: 0 0 1px !default
 $table-row-hover-background-color: $code-background !default
 $table-striped-row-even-background-color: $code-background !default
 $table-striped-row-even-hover-background-color: $table-row-hover-background-color !default
-$table-row-active-background-color: rgba($purple-light,0.1) !default
+$table-row-active-background-color: rgba($primary,.075) !default
 $table-row-active-color: $code-background !default
 
 // Tabs
-$tabs-border-bottom-color: rgba($dark, .08) !default
-$tabs-link-padding: 0.75em 1.125em 1em !default
-$tabs-link-hover-border-bottom-color: transparent !default
+$tabs-border-bottom-color: transparent !default
+$tabs-link-padding: 0.75em 1.125em !default
+$tabs-link-hover-border-bottom-color: $code-background !default
 $tabs-link-active-border-bottom-color: transparent !default
 $tabs-border-bottom-width: 1px !default
-$tabs-link-color: $dark !default
-$tabs-link-hover-color: $tabs-link-color !default
-$tabs-link-active-color: $tabs-link-hover-color !default
-$tabs-boxed-link-radius: $radius-large !default
-$tabs-boxed-link-active-border-color: $tabs-border-bottom-color !default
-$tabs-boxed-link-hover-border-bottom-color: transparent !default
-$tabs-boxed-link-hover-background-color: transparent !default
+$tabs-link-color: rgba($text,.9) !default
+$tabs-link-hover-color: $text !default
+$tabs-link-active-color: $text !default
+
 $tabs-toggle-link-border-color: transparent !default
 $tabs-toggle-link-border-style: solid !default
-$tabs-toggle-link-border-width: .25rem !default
-$tabs-toggle-link-hover-background-color: transparent !default
-$tabs-toggle-link-hover-border-color: $tabs-toggle-link-border-color !default
+$tabs-toggle-link-border-width: 0 !default
+$tabs-toggle-link-hover-background-color: $code-background !default
+$tabs-toggle-link-hover-border-color: transparent !default
 $tabs-toggle-link-radius: $radius-large !default
-$tabs-toggle-link-active-background-color: $light !default
-$tabs-toggle-link-active-border-color: $tabs-toggle-link-hover-border-color !default
+$tabs-toggle-link-active-background-color: $code-background !default
+$tabs-toggle-link-active-border-color: transparent !default
 $tabs-toggle-link-active-color: $text !default
+
+$tabs-boxed-link-radius: $radius-large !default
+$tabs-boxed-link-active-border-color: $hr-background-color !default
+$tabs-boxed-link-active-background-color: transparent !default
+$tabs-boxed-link-hover-border-bottom-color: transparent !default
+$tabs-boxed-link-hover-background-color: transparent !default
 
 // Cards
 $card-content-padding: 1.5em 2.25em 1.625em !default
@@ -259,11 +278,13 @@ $progress-indeterminate-duration: 1.75s !default
 
 // Tooltip
 $tooltip-animation-duration: .15s !default
-$tooltip-background-color: $black-ter !default
+$tooltip-background-color: $white-bis !default
+$tooltip-background-opacity: 1 !default
 $tooltip-radius: $radius !default
-$tooltip-font-size: $size-6 !default
+$tooltip-font-size: 13px !default
 $tooltip-max-width: 16rem !default
 $tooltip-z-index: 35 !default
+$tooltip-padding: .25rem .625rem !default
 
 // IMPORT BULMA MODULES
 
