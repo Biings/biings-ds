@@ -4,7 +4,7 @@ $blue           : #087fd2 !default
 $purple         : #aa50b5 !default
 $red            : #f45564 !default
 $orange         : #ff8f41 !default
-$green          : #7db950 !default
+$green          : #7db058 !default
 $yellow         : #ffc748 !default
 $turquoise      : #00c8b5 !default
 
@@ -20,12 +20,12 @@ $grey-lighter   : #dfdad7 !default
 $grey-lightest  : #e7e2e0 !default
 
 $white-ter      : #efebe9 !default
-$white-bis      : #FAF7F5 !default
+$white-bis      : #faf7f5 !default
 $white          : #ffffff !default
 
 // Main colors
 $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
-$light          : #eae9eb !default
+$light          : $white-ter !default // Previously #EAE9EB
 $dark           : mix(black, $primary, 50) !default
 
 // Special colors (NOT BULMA) —————————————————————
@@ -116,8 +116,8 @@ $warning-dark: mix(black, $warning, 15) !default
 $danger-invert: findColorInvert($danger) !default
 $danger-light: findLightColor($danger) !default
 $danger-dark: mix(black, $danger, 15) !default
-$light-invert: $black-ter !default
-$dark-invert: $light !default
+$light-invert: $dark !default
+$dark-invert: $white !default
 
 // General colors
 
@@ -128,7 +128,7 @@ $scheme-invert: $dark !default
 $scheme-invert-bis: $black-bis !default
 $scheme-invert-ter: $black-ter !default
 
-$background: $white-bis !default
+$background: rgba($grey-darker,.075) !default
 
 $border: transparent !default
 $border-hover: rgba($primary-dark,.075) !default
@@ -139,13 +139,13 @@ $border-light-hover: $grey-lightest !default
 
 $text: $dark !default
 $text-invert: findColorInvert($text) !default
-$text-light: $grey !default
+$text-light: $dark !default
 $text-strong: inherit !default
 
 // Code colors
 
 $code: $primary
-$code-background: rgba($black-ter,0.05) !default
+$code-background: $background !default
 
 $pre: $dark
 $pre-background: $code-background

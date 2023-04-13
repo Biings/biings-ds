@@ -13,7 +13,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
 
 <br>
 
-<form class="box is-raised is-large is-marginless is-radiusless-b" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
+<form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b" spellcheck="false" autocomplete="on" action="/action_page.php" method="get">
     <div class="field">
         <label for="email" class="label">Input field</label>
         <input id="email" name="email" class="input" type="text" placeholder="Some input">
@@ -67,7 +67,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <hr>
 
-<div class="box is-raised is-medium is-marginless is-radiusless-b">
+<div class="box is-raised has-background-white-bis is-medium is-marginless is-radiusless-b">
     <form class="columns">
         <div class="column is-4">
             <div class="field">
@@ -109,11 +109,11 @@ In most cases it is better to indicate the optional fields rather than the requi
 <br><form class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="field select is-warning">
         <label for="selectId" class="label">Select list</label>
-        <select id="selectId">
-            <option value="1">Please choose!</option>
-            <option value="2">System</option>
-            <option value="3">Select</option>
-            <option value="4">List</option>
+        <select id="selectId" required>
+            <option value="" disabled selected hidden>Please choose..</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
         </select>
     </div>
 </form>
@@ -121,7 +121,8 @@ In most cases it is better to indicate the optional fields rather than the requi
 
     <div class="field select">
         <label for="selectId" class="label">Select list</label>
-        <select id="selectId">
+        <select id="selectId" required>
+            <option value="" disabled selected hidden>Please choose..</option>
             <option value="1">Option 1</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>
@@ -131,7 +132,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title is-family-primary">Dropdown Field</h3>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="dropdown is-hoverable is-fullwidth is-iconless">
         <div class="dropdown-trigger">
             <div class="field select">
@@ -169,7 +170,7 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title is-family-primary">Checkbox / Radio field</h3>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b">
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-multiline is-small">
         <div class="column is-6">
             <div class="field">
@@ -239,20 +240,22 @@ In most cases it is better to indicate the optional fields rather than the requi
 
 <h3 class="title is-family-primary">Compact Form</h3>
 
-Group similar field together by adding `is-gapless` to the wrapping `columns` container.
+Group similar field together by adding `is-gapless` to the wrapping `columns` container.<br><br>
 
-<br><form class="box is-raised is-large is-marginless is-radiusless-b">
+?> Combine `is-required`, `is-warning`, `is-danger` with tooltips to guide users into solving form validation.
+
+<br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-gapless is-multiline">
-        <div class="column is-3">
+        <div class="column is-9">
             <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input   "></input>
+                <label for="compact1" class="label">Long Field</label>
+                <input id="compact2" class="input"></input>
             </div>
         </div>
-        <div class="column is-9">
-            <div class="field is-warning is-required">
+        <div class="column is-3">
+            <div class="field has-radius-tr tooltip has-tooltip-active has-tooltip-danger is-danger has-tooltip-arrow has-tooltip-bottom" data-tooltip="Maximum 3 characters please">
                 <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input"></input>
+                <input id="compact2" class="input has-radius-tr" value="ACDC"></input>
             </div>
         </div>
         <div class="column is-12">
@@ -288,15 +291,15 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
             </div>
         </div>
         <div class="column is-12">
-            <div class="field">
+            <div class="field is-warning is-required">
                 <label for="compact1" class="label">Twelve Textarea</label>
                 <textarea id="compact2" class="textarea" rows="2"></textarea>
             </div>
         </div>
         <div class="column is-6">
-            <div class="field select">
+            <div class="field select has-radius-bl">
                 <label for="compact1" class="label">Compact Field</label>
-                <select id="compact1">
+                <select id="compact1" class="has-radius-bl">
                     <option value="1">Choice 1</option>
                     <option value="2">Choice 2</option>
                     <option value="3">Choice 3</option>
@@ -318,13 +321,16 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
 <hr class="is-marginless is-visible">
 
     <form class="columns is-gapless is-multiline">
-        <div class="column is-6">
-            <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input"></textarea>
-            </div>
+    <div class="column is-6">
+        <div
+            class="field is-danger tooltip has-tooltip-active has-tooltip-danger has-tooltip-bottom"
+            data-tooltip="Error message"
+        >
+            <label for="compact1" class="label">Compact Field</label>
+            <input id="compact2" class="input">
         </div>
-        <!-- ETC -->
+    </div>
+    <!-- ETC -->
     </form>
 <hr>
 <br>

@@ -4,6 +4,11 @@
 .container.is-max-modal:not(.is-max-desktop):not(.is-max-widescreen)
     max-width: $modal-content-width
 
+@media screen and (max-width: $tablet)
+    .container:not(.is-fluid-mobile)
+        max-width: $modal-content-width !important
+
+
 /* Rules / Lines */
 hr:not(.is-visible):not(.dropdown-divider)
     visibility: hidden !important

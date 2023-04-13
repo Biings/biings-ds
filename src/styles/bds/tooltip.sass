@@ -3,8 +3,31 @@
 
 .tooltip:before
     line-height: 1.25rem !important
+    box-shadow: inset 0 0 0 1px rgba($black,.1), 0 .125rem .25rem rgba($dark,.1)
+
+.tooltip:not(.has-tooltip-info,.has-tooltip-dark,.has-tooltip-danger,.has-tooltip-warning,.has-tooltip-success):before
+    color: $dark
     
 // Delay the appearance of the tooltip
 .tooltip:hover.is-delayed:before,
 .tooltip:hover.is-delayed:after
-    transition-delay: .6s !important
+    transition-delay: .5s !important
+
+.tooltip.has-tooltip-left-aligned:before
+    left: 0% !important
+    right: auto !important
+
+.tooltip.has-tooltip-right-aligned:before
+    left: auto !important
+    right: 0% !important
+
+.tooltip.has-tooltip-left-aligned:before,
+.tooltip.has-tooltip-right-aligned:before
+    transform: translate(0%,-100%) !important
+
+.tooltip.has-tooltip-bottom.has-tooltip-left-aligned:before,
+.tooltip.has-tooltip-bottom.has-tooltip-right-aligned:before
+    transform: translate(0%,100%) !important
+
+.has-tooltip-arrow:not(.has-tooltip-bottom,.has-tooltip-left,.has-tooltip-right):after
+    top: -1px !important

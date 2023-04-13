@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3">
 
-<div class="box is-well is-medium is-marginless is-radiusless-b">
+<div class="box is-raised is-marginless is-radiusless-b mt-6">
     <div class="columns is-marginless">
         <div class="column is-6">
             <div class="box is-small is-size-7 is-marginless">
@@ -34,7 +34,7 @@
             </p>
         </div>
         <div class="column is-6 ">
-            <div class="box has-background-dark is-size-7">
+            <div class="box has-background-primary-gradient is-size-7">
                 <div class="menu is-small is-inverted">
                     <ul class="menu-list">
                         <li><a>Pilot</a></li>
@@ -48,7 +48,7 @@
                             <ul>
                                 <li><a>Holidays</a></li>
                                 <li><a>Professional Illness</a></li>
-                                <li><a>Special</a></li>
+                                <li><a class="is-passive">Special (is passive)</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -84,6 +84,7 @@
     </div>
 <br>
 
+?> Highlight menu items using either `is-active` or `is-passive` classes.
 
 <hr>
 

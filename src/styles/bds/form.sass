@@ -11,10 +11,14 @@ select,
 .textarea:not(:focus)
     transition: border-color .1s ease-out, color .1s linear, background-color .1s linear
 
+select:required:invalid
+    color: $input-placeholder-color
+
 .input.is-readonly,
-.textarea.is-readonly
-    border-color: transparent
-    background-color: rgba($black,.04)
+.textarea.is-readonly,
+select[disabled]
+    border-color: $input-border-color
+    background-color: $background
 
 .field > .input.is-readonly
     border-color: $input-border-color
@@ -84,7 +88,6 @@ select,
 
 .field
     position: relative
-
 .field:not(:last-child)
     margin-bottom: 1rem
 .label:not(:last-child)
@@ -108,19 +111,24 @@ form .field
     padding-left: $control-padding-horizontal
     transition: color .1s linear
     pointer-events: none
+    
+.field > .label,
+.field > label > span:not(.checkbox-mark,.radio-mark)
+    opacity: .65
 
 .field:hover > .label,
 .field.is-warning > .label
     color: $label-color
 
+.field.is-warning > .label,
+.field:focus-within > .label,
+.field > .input:focus + .label
+    opacity: 1
+
 .field:not(.select) > .label
     cursor: text
 .field.select > .label
     cursor: pointer
-
-.field:focus-within > .label,
-.field > .input:focus + .label
-    color: $primary
 
 .field > input,
 .field > textarea,
@@ -129,6 +137,7 @@ form .field
 .field > label.checkbox,
 .field > label.radio
     min-height: 4em
+    background-color: $white
 
 .field > input,
 .field > textarea,
@@ -168,7 +177,7 @@ form .field
 
 .field > .checkbox > .checkbox-mark,
 .field > .radio > .radio-mark
-    top: calc( 1em + 1px )
+    top: calc( 1em + 3px )
     left: 1em
 
 .field > .checkbox.is-toggle > .checkbox-mark
@@ -183,29 +192,36 @@ form .field
 
 .field > .label > span,
 label.label > span
-    color: $grey
+    opacity: 1 !important
     text-transform: none
+    font-style: italic
     font-weight: $weight-normal
 
-.field.is-primary > .input,
-.field.is-primary > .textarea,
-.field.is-primary > select
-    border-color: $primary !important
-
-.field.is-danger > .input,
-.field.is-danger > .textarea,
+.field.select.is-warning > select,
+.field.select.is-danger > select,
+.field.select.is-success > select
+    border-color: $input-border-color !important
+    
+// Field with warning
+.field.is-warning > input,
+.field.is-warning > textarea,
+.field.select.is-warning,
+.field.is-warning > select
+    background-color: mix($white,$warning,80) !important
+    
+// Field with danger
+.field.is-danger > input,
+.field.is-danger > textarea,
+.field.select.is-danger,
 .field.is-danger > select
-    border-color: $danger !important
-
-.field.is-info > .input,
-.field.is-info > .textarea,
-.field.is-info > select
-    border-color: $info !important
-
-.field.is-success > .input,
-.field.is-success > .textarea,
+    background-color: mix($white,$danger,85) !important
+    
+// Field with success
+.field.is-success > input,
+.field.is-success > textarea,
+.field.select.is-success,
 .field.is-success > select
-    border-color: $success !important
+    background-color: mix($white,$success,88) !important
 
 // Required field
 .field.is-required:before
@@ -222,13 +238,6 @@ label.label > span
     animation: blinking 2s linear infinite
     pointer-events: none
 
-// Field with warning
-.field.is-warning > input,
-.field.is-warning > textarea,
-.field.select.is-warning,
-.field.is-warning > select
-    background-color: mix($secondary-light,$warning-light,5) !important
-
 /* Icon */
 .control.has-icons-left .icon,
 .control.has-icons-right .icon
@@ -241,6 +250,23 @@ label.label > span
 .control.has-icons-right .icon
     margin-right: .25em
 
+// Icon animation when focused
+.control.has-icons-left > .icon.is-left
+    left: 0
+    opacity: 1
+    transition: left .25s ease-out, opacity .25s linear
+
+.control.has-icons-left > .input
+    transition: padding-left .25s ease-out
+
+.control.has-icons-left .input:focus + .icon.is-left
+    opacity: 0
+    left: -1.25rem
+
+.control.has-icons-left > .input:focus
+    padding-left: calc(.75em)
+
+
 @keyframes blinking
     0%
         box-shadow: 0 0 0 0 rgba($warning,0)
@@ -251,7 +277,7 @@ label.label > span
 
 // Compact form field (in gapless columns)
 .is-gapless > .column .field
-    margin: 0 -2px -2px 0
+    margin: 0 -1px -1px 0
 .is-gapless > .column .field,
 .is-gapless > .column .field > input,
 .is-gapless > .column .field > textarea,
@@ -263,11 +289,13 @@ label.label > span
 .is-gapless > .column .field > select:focus,
 .is-gapless > .column .field > label:active
     z-index: 2
+    background-color: $white
 .is-gapless > .column .field > input:hover,
 .is-gapless > .column .field > textarea:hover,
 .is-gapless > .column .field > select:hover,
 .is-gapless > .column .field > label:hover
     z-index: 1
+    background-color: $white
 
 .is-gapless > .column:first-child .field,
 .is-gapless > .column:first-child .field > .input,
@@ -276,38 +304,9 @@ label.label > span
 .is-gapless > .column:first-child .field > label
     border-top-left-radius: $control-radius
 
-.is-gapless > .is-12:first-child .field,
-.is-gapless > .is-12:first-child .field > .input,
-.is-gapless > .is-12:first-child .field > .textarea,
-.is-gapless > .is-12:first-child .field > select,
-.is-gapless > .is-12:first-child .field > label,
-.is-gapless > .column:not(.is-12):first-child + .column .field,
-.is-gapless > .column:not(.is-12):first-child + .column .field > .input,
-.is-gapless > .column:not(.is-12):first-child + .column .field > .textarea,
-.is-gapless > .column:not(.is-12):first-child + .column .field > select,
-.is-gapless > .column:not(.is-12):first-child + .column .field > label
-    border-top-right-radius: $control-radius
-
 .is-gapless > .column:last-child .field,
 .is-gapless > .column:last-child .field > .input,
 .is-gapless > .column:last-child .field > .textarea,
 .is-gapless > .column:last-child .field > select,
 .is-gapless > .column:last-child .field > label
     border-bottom-right-radius: $control-radius
-
-.is-gapless > .is-12:last-child .field,
-.is-gapless > .is-12:last-child .field > .input,
-.is-gapless > .is-12:last-child .field > .textarea,
-.is-gapless > .is-12:last-child .field > select,
-.is-gapless > .is-12:last-child .field > label,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > .input,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > .textarea,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > select,
-.is-gapless > .column:not(.is-12):nth-last-child(2) .field > label,
-.is-gapless > .is-12 + .column:last-child .field,
-.is-gapless > .is-12 + .column:last-child .field > .input,
-.is-gapless > .is-12 + .column:last-child .field > .textarea,
-.is-gapless > .is-12 + .column:last-child .field > select,
-.is-gapless > .is-12 + .column:last-child .field > label
-    border-bottom-left-radius: $control-radius

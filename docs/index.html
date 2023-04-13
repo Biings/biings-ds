@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <title>Biings Design System</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="The single source of truth for building Biings products. BDS is a series of guidelines used for creating unified experience and UI.">
+  <meta name="description" content="A series of assets and guidelines for building consistent user experiences across Biings products.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="media/favicon.svg" sizes="any">
   <link rel="mask-icon" href="media/mask-icon.svg" color="#1A0E23">
   <link rel="apple-touch-icon" href="media/apple-touch-icon.png">
-  <meta name="theme-color" content="#8C50B9">
+  <meta name="theme-color" content="#5B3478">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css">
   <link rel="stylesheet" href="bds.css">
   <link rel="stylesheet" href="docsify.css">
@@ -56,7 +56,17 @@
     {
       var box = document.getElementById(boxId);
       box.classList.toggle("is-expanded");
-      box.classList.toggle("is-popping");
+    }
+
+    function openDropdown(num)
+    {
+      var drpdwn = document.getElementById("js-drpdwn"+num);
+      drpdwn.classList.add("is-active");
+    }
+    function closeDropdown(num)
+    {
+      var drpdwn = document.getElementById("js-drpdwn"+num);
+      drpdwn.classList.remove("is-active");
     }
 
     function openModal(num)
@@ -78,7 +88,10 @@
       document.getElementById("js-tab-3").classList.remove("is-active");
       document.getElementById("js-tab-4").classList.remove("is-active");
       document.getElementById("js-tab-5").classList.remove("is-active");
-      document.getElementById("js-tab-6").classList.remove("is-active");
+      document.getElementById("js-tab-11").classList.remove("is-active");
+      document.getElementById("js-tab-12").classList.remove("is-active");
+      document.getElementById("js-tab-13").classList.remove("is-active");
+      document.getElementById("js-tab-14").classList.remove("is-active");
       var tab = document.getElementById("js-tab-"+num);
       tab.classList.add("is-active");
     }
