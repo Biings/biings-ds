@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bookmark-bold-g</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#000000" fill-rule="nonzero" id="Shape">
+            <path d="M 3 3.499 C 3 2.119 4.119 1 5.499 1 L 18.501 1 C 19.881 1 21 2.119 21 3.499 L 21 20.45 C 21 22.861 17.925 23.875 16.49 21.937 L 12.401 17.762 C 12.202 17.491 11.798 17.491 11.599 17.762 L 7.51 21.937 C 6.075 23.875 3 22.861 3 20.45 L 3 3.499 Z" />
+        </g>
+    </g>
+</svg>
