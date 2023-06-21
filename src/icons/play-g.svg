@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play-g</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g fill="#000000" fill-rule="nonzero" id="Shape">
+        <path d="M16.9011 10.2568C18.2604 11.0215 18.2604 12.9785 16.9011 13.7432L6.98052 19.3235C5.64732 20.0734 4 19.11 4 17.5803L4 6.41969C4 4.89004 5.64731 3.92661 6.98052 4.67654L16.9011 10.2568Z" />
+      </g>
+    </g>
+</svg>

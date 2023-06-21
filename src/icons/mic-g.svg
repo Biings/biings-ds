@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mic-g</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g fill="#000000" fill-rule="nonzero" id="Shape">
+        <rect x="8.18164" y="4" width="7.63636" height="13" rx="3.81818" />
+        <rect x="7.09082" y="21" width="9.81818" height="1" rx="0.5" />
+        <rect x="11.4541" y="22" width="4" height="1.09091" rx="0.545455" transform="rotate(-90 11.4541 22)" />
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.51302 13C6.23579 13 6.00067 13.2105 6.00001 13.4878C6 13.4918 6 13.4959 6 13.5C6 16.5376 8.68629 19 12 19C15.3137 19 18 16.5376 18 13.5C18 13.4959 18 13.4918 18 13.4878C17.9993 13.2105 17.7642 13 17.487 13L17.3803 13C17.1138 13 16.9091 13.2335 16.9091 13.5C16.9091 15.9853 14.7112 18 12 18C9.28879 18 7.09091 15.9853 7.09091 13.5C7.09091 13.2335 6.8862 13 6.61967 13L6.51302 13Z"/>
+      </g>
+    </g>
+</svg>
