@@ -7,8 +7,8 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-raised is-marginless is-large is-radiusless-b">
-    <div class="tabs is-fullwidth my-0">
-        <ul class="is-borderless">
+    <div class="tabs is-fullwidh my-0 is-small">
+        <ul>
             <li><a>Pilot</a></li>
             <li><a>Care</a></li>
             <li><a>Claim</a></li>
