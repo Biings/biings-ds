@@ -19,7 +19,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter has-background-grainy">
+        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-bis has-background-grainy">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Foundation</h2>
@@ -27,7 +27,7 @@
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter has-background-grainy">
+        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-bis has-background-grainy">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Components</h2>
