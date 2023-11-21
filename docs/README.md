@@ -19,7 +19,7 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-bis has-background-grainy">
+        <a href="#/brand" class="box is-medium is-bordered is-floating has-background-white-bis hover-to-popping has-background-radial-tl">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Foundation</h2>
@@ -27,7 +27,7 @@
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-bis has-background-grainy">
+        <a href="#/avatar" class="box is-medium is-bordered is-floating has-background-white-bis hover-to-popping has-background-radial-tl has-background-radial-t">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
             <h2 class="title is-size-3-mobile">Components</h2>
@@ -50,7 +50,7 @@
 
 <hr class="is-size-3-tablet">
 
-<div class="box is-large is-bordered is-popping has-background-primary-lightest has-background-grainy has-background-radial-tl has-background-radial-t has-background-white-bis has-radius-bold">
+<div class="box is-large is-bordered is-floating hover-to-popping has-background-radial-t has-background-radial-tl has-background-radial-tr has-background-white-bis has-radius-bold">
     <div class="columns is-vcentered">
         <div class="column is-6">
             <h2 class="title mb-4"><span class="is-size-smaller">Want to contribute?</span></h2>
