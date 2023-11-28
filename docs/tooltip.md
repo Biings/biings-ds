@@ -57,7 +57,7 @@ You can delay the display of the tooltip with the class `.is-delayed`. Useful to
 
 <div class="box is-raised is-large mb-0 is-radiusless-b">
     Wait to see the 
-    <span class="tooltip is-delayed has-tooltip-fade has-tooltip-arrow has-tooltip-text-centered" data-tooltip="Delayed tooltip&NewLine;..sorry.">tooltip</span> ..
+    <span class="tooltip is-delayed has-tooltip-fade has-tooltip-arrow has-tooltip-text-centered has-tooltip-primary" data-tooltip="Delayed tooltip... Sorry.">tooltip</span>.
 </div>
 
     <span
