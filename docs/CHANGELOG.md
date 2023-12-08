@@ -4,6 +4,17 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">December 8, 2023</span>
+<h3 class="title is-size-3-touch mt-1 is-family-primary">Version 1.58</h3>
+<ul class="list">
+    <li>New <strong class="is-family-secondary">Plush</strong> serif font (replacing Crimson Pro) 🖋️</li>
+    <li>New icons: `save-g`, `save-bold-g`, `sort-asc-g`, `sort-desc-g`, `person-return-g`, `chair-return-g`, `arrow-asc-g`, `arrow-desc-g`, `profile-bold-g`, `business-bold`</li>
+    <li>Columns now support variable vertical gaps (multiline columns only)</li>
+    <li>Style adjustments to <i>Input, Box, Tab, Menu</i></li>
+</ul>
+
+<hr class="is-size-3 is-size-4-touch is-visible">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">October 19, 2023</span>
 <h3 class="title is-size-3-touch mt-1 is-family-primary">Version 1.57</h3>
 <ul class="list">
