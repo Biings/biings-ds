@@ -8,8 +8,7 @@
     font-weight: 300;
     font-style: normal;
     font-family: Averta;
-    src: url('fonts/Averta-Light.woff') format('woff'),
-    url('fonts/Averta-Light.eot') format('eot');
+    src: url('fonts/Averta-Light.woff') format('woff');
     font-display: swap;
 }
 
@@ -19,8 +18,7 @@
     font-weight: 300;
     font-style: italic;
     font-family: Averta;
-    src: url('fonts/Averta-LightItalic.woff') format('woff'),
-    url('fonts/Averta-LightItalic.eot') format('eot');
+    src: url('fonts/Averta-LightItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -30,8 +28,7 @@
     font-weight: 400;
     font-style: normal;
     font-family: Averta;
-    src: url('fonts/Averta-Regular.woff') format('woff'),
-    url('fonts/Averta-Regular.eot') format('eot');
+    src: url('fonts/Averta-Regular.woff') format('woff');
     font-display: swap;
 }
 
@@ -41,8 +38,7 @@
     font-weight: 400;
     font-style: italic;
     font-family: Averta;
-    src: url('fonts/Averta-RegularItalic.woff') format('woff'),
-    url('fonts/Averta-RegularItalic.eot') format('eot');
+    src: url('fonts/Averta-RegularItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -52,8 +48,7 @@
     font-weight: 500;
     font-style: normal;
     font-family: Averta;
-    src: url('fonts/Averta-Semibold.woff') format('woff'),
-    url('fonts/Averta-Semibold.eot') format('eot');
+    src: url('fonts/Averta-Semibold.woff') format('woff');
     font-display: swap;
 }
 
@@ -63,8 +58,7 @@
     font-weight: 500;
     font-style: italic;
     font-family: Averta;
-    src: url('fonts/Averta-SemiboldItalic.woff') format('woff'),
-    url('fonts/Averta-Semibold.eot') format('eot');
+    src: url('fonts/Averta-SemiboldItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -74,8 +68,7 @@
     font-weight: 700;
     font-style: normal;
     font-family: Averta;
-    src: url('fonts/Averta-Bold.woff') format('woff'),
-    url('fonts/Averta-Bold.eot') format('eot');
+    src: url('fonts/Averta-Bold.woff') format('woff');
     font-display: swap;
 }
 
@@ -85,8 +78,7 @@
     font-weight: 700;
     font-style: italic;
     font-family: Averta;
-    src: url('fonts/Averta-BoldItalic.woff') format('woff'),
-    url('fonts/Averta-BoldItalic.eot') format('eot');
+    src: url('fonts/Averta-BoldItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -96,8 +88,7 @@
     font-weight: 800;
     font-style: normal;
     font-family: Averta;
-    src: url('fonts/Averta-Extrabold.woff') format('woff'),
-    url('fonts/Averta-Extrabold.eot') format('eot');
+    src: url('fonts/Averta-Extrabold.woff') format('woff');
     font-display: swap;
 }
 
@@ -107,8 +98,7 @@
     font-weight: 800;
     font-style: italic;
     font-family: Averta;
-    src: url('fonts/Averta-ExtraboldItalic.woff') format('woff'),
-    url('fonts/Averta-ExtraboldItalic.eot') format('eot');
+    src: url('fonts/Averta-ExtraboldItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -118,8 +108,7 @@
     font-weight: 900;
     font-style: normal;
     font-family: Averta;
-    src: url('fonts/Averta-Black.woff') format('woff'),
-    url('fonts/Averta-Black.eot') format('eot');
+    src: url('fonts/Averta-Black.woff') format('woff');
     font-display: swap;
 }
 
@@ -129,70 +118,123 @@
     font-weight: 900;
     font-style: italic;
     font-family: Averta;
-    src: url('fonts/Averta-BlackItalic.woff') format('woff'),
-    url('fonts/Averta-BlackItalic.eot') format('eot');
+    src: url('fonts/Averta-BlackItalic.woff') format('woff');
     font-display: swap;
 }
 
 /* ———————————————————————————————————————————————————————————————————————————————————— */
 
-/* Crimson-Pro Light */
+/* Plush Light */
 @font-face
 {
     font-weight: 300;
     font-style: normal;
-    font-family: CrimsonPro;
-    src: url('fonts/Crimson-Pro-300.ttf') format('truetype');
+    font-family: Plush;
+    src: url('fonts/Plush-ExtraLight.woff2') format('woff2'), url('fonts/Plush-ExtraLight.woff') format('woff');
+    font-display: swap;
+}
+/* Plush Light Italic */
+@font-face
+{
+    font-weight: 300;
+    font-style: italic;
+    font-family: Plush;
+    src: url('fonts/Plush-ExtraLightItalic.woff2') format('woff2'), url('fonts/Plush-ExtraLightItalic.woff') format('woff');
     font-display: swap;
 }
 
-/* Crimson-Pro Regular */
+/* Plush Regular */
 @font-face
 {
     font-weight: 400;
     font-style: normal;
-    font-family: CrimsonPro;
-    src: url('fonts/Crimson-Pro-400.ttf') format('truetype');
+    font-family: Plush;
+    src: url('fonts/Plush-Regular.woff2') format('woff2'), url('fonts/Plush-Regular.woff') format('woff');
+    font-display: swap;
+}
+/* Plush Regular Italic */
+@font-face
+{
+    font-weight: 400;
+    font-style: italic;
+    font-family: Plush;
+    src: url('fonts/Plush-Italic.woff2') format('woff2'), url('fonts/Plush-Italic.woff') format('woff');
     font-display: swap;
 }
 
-/* Crimson-Pro Medium */
+/* Plush Medium */
 @font-face
 {
     font-weight: 500;
     font-style: normal;
-    font-family: CrimsonPro;
-    src: url('fonts/Crimson-Pro-500.ttf') format('truetype');
+    font-family: Plush;
+    src: url('fonts/Plush-Medium.woff2') format('woff2'), url('fonts/Plush-Medium.woff') format('woff');
+    font-display: swap;
+}
+/* Plush Medium Italic */
+@font-face
+{
+    font-weight: 500;
+    font-style: italic;
+    font-family: Plush;
+    src: url('fonts/Plush-MediumItalic.woff2') format('woff2'), url('fonts/Plush-MediumItalic.woff') format('woff');
     font-display: swap;
 }
 
-/* Crimson-Pro Semibold */
+/* Plush Semibold */
 @font-face
 {
     font-weight: 600;
     font-style: normal;
-    font-family: CrimsonPro;
-    src: url('fonts/Crimson-Pro-600.ttf') format('truetype');
+    font-family: Plush;
+    src: url('fonts/Plush-Bold.woff2') format('woff2'), url('fonts/Plush-Bold.woff') format('woff');
+    font-display: swap;
+}
+/* Plush Semibold Italic */
+@font-face
+{
+    font-weight: 600;
+    font-style: italic;
+    font-family: Plush;
+    src: url('fonts/Plush-BoldItalic.woff2') format('woff2'), url('fonts/Plush-BoldItalic.woff') format('woff');
     font-display: swap;
 }
 
-/* Crimson-Pro Bold */
+/* Plush Bold */
 @font-face
 {
     font-weight: 800;
     font-style: normal;
-    font-family: CrimsonPro;
-    src: url('fonts/Crimson-Pro-700.ttf') format('truetype');
+    font-family: Plush;
+    src: url('fonts/Plush-ExtraBold.woff2') format('woff2'), url('fonts/Plush-ExtraBold.woff') format('woff');
+    font-display: swap;
+}
+/* Plush Bold Italic */
+@font-face
+{
+    font-weight: 800;
+    font-style: italic;
+    font-family: Plush;
+    src: url('fonts/Plush-ExtraBoldItalic.woff2') format('woff2'), url('fonts/Plush-ExtraBoldItalic.woff') format('woff');
     font-display: swap;
 }
 
-/* Crimson-Pro Bolder */
+/* Plush Bolder */
 @font-face
 {
     font-weight: 900;
     font-style: normal;
-    font-family: CrimsonPro;
-    src: url('fonts/Crimson-Pro-900.ttf') format('truetype');
+    font-family: Plush;
+    src: url('fonts/Plush-Black.woff2') format('woff2'), url('fonts/Plush-Black.woff') format('woff');
+    font-display: swap;
+}
+/* Plush Bolder Italic */
+@font-face
+{
+    font-weight: 900;
+    font-style: italic;
+    font-family: Plush;
+    src: url('fonts/Plush-BlackItalic.woff2') format('woff2'), url('fonts/Plush-BlackItalic.woff') format('woff');
     font-display: swap;
 }
 
