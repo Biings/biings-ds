@@ -246,15 +246,15 @@
     font-weight: 400;
     font-style: normal;
     font-family: Caveat;
-    src: url('fonts/Caveat-Regular.ttf') format('truetype');
+    src: url('fonts/Caveat-Regular.woff2') format('woff2'), url('fonts/Caveat-Regular.woff') format('woff');
     font-display: swap;
 }
-
+/* Caveat Bold */
 @font-face
 {
     font-weight: 600;
     font-style: normal;
     font-family: Caveat;
-    src: url('fonts/Caveat-SemiBold.ttf') format('truetype');
+    src: url('fonts/Caveat-Bold.woff2') format('woff2'), url('fonts/Caveat-Bold.woff') format('woff');
     font-display: swap;
 }
