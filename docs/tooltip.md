@@ -15,7 +15,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Variations</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Variations</h3>
 
 You can change the tooltip position, color and arrow.
 
@@ -49,7 +49,7 @@ You can change the tooltip position, color and arrow.
     </span>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Delay</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Delay</h3>
 
 You can delay the display of the tooltip with the class `.is-delayed`. Useful to prevent accidental triggers.
 

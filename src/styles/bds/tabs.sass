@@ -2,9 +2,9 @@
     overflow: visible
 .tabs > ul > li
     position: relative
-.tabs.has-hr:hover > ul > li:not(:hover,.is-active) > a,
+.tabs.has-hr > ul > li:not(:hover,.is-active) > a,
 .tabs.is-boxed:hover > ul > li:not(:hover,.is-active) > a
-    color: rgba($text,.7)
+    color: rgba($text,.65)
 
 .tabs:not(.is-boxed,.is-toggle) + hr
     margin-top: 0;
@@ -42,7 +42,7 @@
 
 .tabs.is-toggle a
     padding: .3125em 1em
-    margin: 2px
+    margin: .25em
     border-radius: $tabs-toggle-link-radius
 .tabs.is-toggle li:first-child
     border-radius: $tabs-toggle-link-radius 0 0 $tabs-toggle-link-radius
@@ -50,8 +50,12 @@
     border-radius: 0 $tabs-toggle-link-radius $tabs-toggle-link-radius 0
 
 /* With HR background */
-.tabs.is-toggle.has-hr > ul > li
+.tabs.is-toggle.has-hr > ul
     background-color: $tabs-toggle-link-active-background-color
+    box-shadow: inset 0 0 0 1px rgba($black,.04), inset 0 0.25em 0.5em -0.25em rgba($black,.08)
+    border-radius: $radius-large
+.tabs.is-toggle.has-hr:not(.is-fullwidth) > ul
+    flex-grow: unset
 .tabs.is-toggle.has-hr > ul > li.is-active > a
     background-color: $white
     box-shadow: $card-shadow

@@ -4,6 +4,7 @@
     width: 3rem
     height: 3rem
     vertical-align: middle
+    font-family: $family-secondary
 
 .avatar > div,
 .avatar > picture,
@@ -12,10 +13,9 @@
     width: 3rem
     height: 3rem
     border-radius: 50%
-    color: rgba($dark,.85)
+    color: rgba($dark,.9)
     vertical-align: middle
     text-align: center
-    font-weight: $weight-light
     font-size: 1.375rem
     box-shadow: inset 0 0 0 1px rgba($dark,.15)
 
@@ -33,7 +33,7 @@
     height: 1.5rem
     font-size: .75rem
     text-indent: -1px
-    font-weight: $weight-normal
+    font-weight: $weight-semibold
 
 .avatar.is-mini,
 .avatar.is-mini > div,
@@ -41,7 +41,7 @@
     width: 1.75rem
     height: 1.75rem
     font-size: .875rem
-    font-weight: $weight-normal
+    font-weight: $weight-medium
 
 .avatar.is-small,
 .avatar.is-small > div,
@@ -49,7 +49,7 @@
     width: 2.25rem
     height: 2.25rem
     font-size: 1rem
-    font-weight: $weight-normal
+    font-weight: $weight-medium
 
 .avatar.is-medium,
 .avatar.is-medium > div,
@@ -116,65 +116,71 @@
     border-radius: 50%
     content: ''
     transition: border-color .1s linear
+.avatar.is-tiny:before,
+.avatar.is-mini:before
+    top: -.125rem
+    right: -.125rem
+    bottom: -.125rem
+    left: -.125rem
 
 .avatar.is-status-primary:before
     border-color: rgba($primary-light,.5)
-    box-shadow: 0 -1px .625em rgba($primary-light,.4)
+    box-shadow: inset 0 0 .375em rgba($primary-light,.4)
 
 .avatar.is-status-purple:before
     border-color: rgba($purple,.5)
-    box-shadow: 0 -1px .625em rgba($purple,.4)
+    box-shadow: inset 0 0 .375em rgba($purple,.4)
 
 .avatar.is-status-cyan:before
     border-color: rgba($cyan,.5)
-    box-shadow: 0 -1px .625em rgba($cyan,.4)
+    box-shadow: inset 0 0 .375em rgba($cyan,.4)
 
 .avatar.is-status-blue:before
     border-color: rgba($blue,.5)
-    box-shadow: 0 -1px .625em rgba($blue,.4)
+    box-shadow: inset 0 0 .375em rgba($blue,.4)
 
 .avatar.is-status-pink:before
     border-color: rgba($pink,.5)
-    box-shadow: 0 -1px .625em rgba($pink,.4)
+    box-shadow: inset 0 0 .375em rgba($pink,.4)
 
 .avatar.is-status-red:before
     border-color: rgba($red,.5)
-    box-shadow: 0 -1px .625em rgba($red,.4)
+    box-shadow: inset 0 0 .375em rgba($red,.4)
 
 .avatar.is-status-orange:before
     border-color: rgba($orange,.5)
-    box-shadow: 0 -1px .625em rgba($orange,.4)
+    box-shadow: inset 0 0 .375em rgba($orange,.4)
 
 .avatar.is-status-yellow:before
     border-color: rgba($yellow,.5)
-    box-shadow: 0 -1px .625em rgba($yellow,.4)
+    box-shadow: inset 0 0 .375em rgba($yellow,.4)
 
 .avatar.is-status-turquoise:before
     border-color: rgba($turquoise,.5)
-    box-shadow: 0 -1px .625em rgba($turquoise,.4)
+    box-shadow: inset 0 0 .375em rgba($turquoise,.4)
 
 .avatar.is-status-green:before
     border-color: rgba($green,.5)
-    box-shadow: 0 -1px .625em rgba($green,.4)
+    box-shadow: inset 0 0 .375em rgba($green,.4)
 
 .avatar.is-status-grey:before
     border-color: rgba($grey-light,.5)
 
 .avatar.is-status-dark:before
     border-color: rgba($dark,.5)
-    box-shadow: 0 -1px .625em rgba($dark,.4)
+    box-shadow: inset 0 0 .375em rgba($dark,.4)
 
 .avatar.is-status-white:before
     border-color: rgba($white,.5)
-    box-shadow: 0 -1px .625em rgba($white,.4)
+    box-shadow: inset 0 0 .375em rgba($white,.4)
     
 .avatar.is-status-success:before
     border-color: rgba($success,.5)
-    box-shadow: 0 -1px .625em rgba($success,.4)
+    box-shadow: inset 0 0 .375em rgba($success,.4)
     
 .avatar.is-status-warning:before
     border-color: rgba($warning,.5)
-    box-shadow: 0 -1px .625em rgba($warning,.4)
+    box-shadow: inset 0 0 .375em rgba($warning,.4)
 
 // Tilted
 // .avatar.is-tilted

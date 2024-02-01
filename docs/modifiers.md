@@ -211,7 +211,7 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <th rowspan="7" style="width: 5rem;">FX</th>
+            <th rowspan="8" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
             <td>Fades out an element after 3 seconds</td>
         </tr>
@@ -238,6 +238,10 @@
         <tr>
             <td><code>has-background-grainy</code></td>
             <td>Adds a grainy background effect.</td>
+        </tr>
+        <tr>
+            <td><code>is-blinking[-success,-danger]</code></td>
+            <td>Adds a flashing halo around almost any element.</td>
         </tr>
     </tbody>
 </table>

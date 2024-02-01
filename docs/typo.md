@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Font family</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Font family</h3>
 
 To achieve high legibility Biings DS uses <span class="has-text-weight-medium">Averta</span> as its primary font family and <span class="has-text-weight-medium">Plush</span> as a secondary font (with purchased licences). Download Biings font family <a class="has-text-weight-medium is-underlined" href="https://github.com/Biings/biings-ds/tree/master/build/fonts">from our Github repository</a>.
 
@@ -23,7 +23,7 @@ To achieve high legibility Biings DS uses <span class="has-text-weight-medium">A
 <p class="is-dimmed is-size-6">* Plush and Averta are commercial fonts purchased by Biings Technologies SA. Caveat and Roboto are open-source fonts (<a class="is-underlined" href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">OFL</a>).</p>
 
 <hr class="is-size-1 is-visible">
-<h3 class="title is-family-primary">Scales</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Scales</h3>
 
 All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should use sizes 1, 2 or 3 ; texts should use sizes 4, 5 or 6. An extra <u>7th size</u> can be used in special components.
 
@@ -78,7 +78,7 @@ All texts can be sized ranging from 1 (largest) to 6 (smallest). Headers should 
 </div>
 
 <hr class="is-size-1 is-visible">
-<h3 class="title is-family-primary">Font weights</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Font weights</h3>
 
 Use font weights to emphasize or differentiate content hierarchy.  
 <i>Example:</i> `has-text-weight-semibold`
@@ -93,7 +93,7 @@ Use font weights to emphasize or differentiate content hierarchy.
 </ul>
 
 <hr class="is-size-1 is-visible">
-<h3 class="title is-family-primary">Emphasizers</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Emphasizers</h3>
 
 Use one of the following tags to emphasize words or part of a text.
 

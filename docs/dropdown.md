@@ -67,7 +67,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Pointing arrows</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Pointing arrows</h3>
 
 <ul class="list">
     <li>Add class <code>has-arrow</code> to clearly indicate the element the dropdown is attached to.</li>
@@ -116,7 +116,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Shifted</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Shifted</h3>
 
 Sometimes it isn't necessary to keep the dropdown trigger visible, or screen real estate is simply to limited for it to stay visible. In those situations add class `is-shifted` in order to display the dropdown list right under the cursor once openened.
 <br><br>
@@ -214,7 +214,7 @@ Use `is-shifted-left` or `is-shifted-right` to manage positions and shift dropdo
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Nested</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Nested</h3>
 
 A dropdown can be nested inside another one in order to create sub-menus. Combine it with shifted dropdowns to manage positioning and avoid overlaps.
 
@@ -296,7 +296,7 @@ A dropdown can be nested inside another one in order to create sub-menus. Combin
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Dropdown menu</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Dropdown menu</h3>
 
 Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when your dropdown needs to be more than just a list.
 
@@ -412,7 +412,7 @@ Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when you
 <a id="selectlist"></a>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Select list</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Select list</h3>
 
 Create a system default select list just by wrapping it with a `.select` div. Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 

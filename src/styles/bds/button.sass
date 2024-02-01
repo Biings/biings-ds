@@ -79,10 +79,15 @@ $control-height-small: 1.875rem !default
 .button.is-outlined,
 .button.is-outlined:active
     background-color: transparent !important
-    box-shadow: 0 1px 2px rgba($dark,.1)
 
 .button.is-outlined:hover
     transition: none !important
+    
+.button.is-outlined:focus,
+.button.is-outlined:hover,
+.button.is-outlined.is-focused,
+.button.is-outlined.is-hovered
+    box-shadow: inset 0 0 0 1px $button-border-color
 
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover,
