@@ -150,6 +150,42 @@
     100%
         transform: rotate(0deg)
 
+.is-blinking
+    animation: blinking 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinking 
+    0%
+        box-shadow: 0 0 .3em .3em rgba($purple,.4)
+    50%
+        box-shadow: 0 0 0 0 rgba($purple,0)
+    100%
+        box-shadow: 0 0 .3em .3em rgba($purple,.4)
+        
+.is-blinking-success
+    animation: blinkingSuccess 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinkingSuccess 
+    0%
+        box-shadow: 0 0 .375em .375em rgba($success,.4)
+    50%
+        box-shadow: 0 0 0 0 rgba($success,0)
+    100%
+        box-shadow: 0 0 .375em .375em rgba($success,.4)
+        
+.is-blinking-danger
+    animation: blinkingDanger 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinkingDanger
+    0%
+        box-shadow: 0 0 .375em .375em rgba($danger,.4)
+    50%
+        box-shadow: 0 0 0 0 rgba($danger,0)
+    100%
+        box-shadow: 0 0 .375em .375em rgba($danger,.4)
+
 
 // ADJUSTMENTS TO BULMA :
 
