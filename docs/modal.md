@@ -137,7 +137,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 </div>
             </form>
             <hr class="is-visible my-5">
-            <div class="button is-primary is-rounded">Save me</div>
+            <div class="button is-success is-rounded is-medium is-blinking-success">Save me</div>
         </section>
     </div>
 </div>

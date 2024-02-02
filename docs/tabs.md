@@ -38,14 +38,6 @@ Toggle tabs can also appear on a horizontal line, just add class `has-hr`.
 <br><br>
 
 <div class="box is-bordered is-large is-marginless is-radiusless-b">
-    <div class="tabs is-toggle is-fullwidth toggle-rounded">
-        <ul>
-            <li><a>Employer</a></li>
-            <li class="is-active"><a>Incapacity</a></li>
-            <li><a>Absence</a></li>
-        </ul>
-    </div>
-    <hr class="my-4">
     <div class="tabs is-toggle">
         <ul>
             <li><a>Let</a></li>
