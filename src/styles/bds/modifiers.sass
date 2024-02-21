@@ -156,12 +156,24 @@
 
 @keyframes blinking 
     0%
+        box-shadow: 0 0 .3em .3em rgba($warning,.5)
+    50%
+        box-shadow: 0 0 0 0 rgba($warning,0)
+    100%
+        box-shadow: 0 0 .3em .3em rgba($warning,.5)
+        
+.is-blinking-primary
+    animation: blinkingPrimary 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinkingPrimary 
+    0%
         box-shadow: 0 0 .3em .3em rgba($purple,.4)
     50%
         box-shadow: 0 0 0 0 rgba($purple,0)
     100%
         box-shadow: 0 0 .3em .3em rgba($purple,.4)
-        
+
 .is-blinking-success
     animation: blinkingSuccess 1.4s infinite
     animation-timing-function: ease-out
