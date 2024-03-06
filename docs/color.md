@@ -198,17 +198,25 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
         <code>has-background-menu</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <!-- RADIAL -->
-    <div class="column is-4">
+    <div class="column is-3">
         <br><div class="box is-large is-bordered has-background-radial-tl">&nbsp;</div>
         <code>has-background-radial-tl</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-4">
+    <div class="column is-3">
         <br><div class="box is-large is-bordered has-background-radial-t">&nbsp;</div>
         <code>has-background-radial-t</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-4">
+    <div class="column is-3">
         <br><div class="box is-large is-bordered has-background-radial-tr">&nbsp;</div>
         <code>has-background-radial-tr</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-grey-radial">&nbsp;</div>
+        <code>has-background-grey-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-primary-radial">&nbsp;</div>
+        <code>has-background-primary-radial</code>
     </div>
     <div class="column is-3">
         <br><div class="box is-large has-background-purple-radial">&nbsp;</div>
@@ -221,10 +229,6 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
     <div class="column is-3">
         <br><div class="box is-large has-background-success-radial">&nbsp;</div>
         <code>has-background-success-radial</code>
-    </div>
-    <div class="column is-3">
-        <br><div class="box is-large has-background-grey-radial">&nbsp;</div>
-        <code>has-background-grey-radial</code>
     </div>
     <div class="column is-12">
         (ideal when combined with <code>has-text-background</code>)

@@ -19,7 +19,7 @@
         </tr>
         <tr>
             <td><code>has-text-background</code></td>
-            <td><span>Applies the <strong class="has-background-purple-radial has-text-background">background</strong> to the text.</span></td>
+            <td><span>Applies the <strong class="has-background-primary-radial has-text-background has-moving-background">background</strong> to the text.</span></td>
         </tr>
         <tr>
             <td><code>has-fill-[color]</code></td>
@@ -211,7 +211,7 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <th rowspan="8" style="width: 5rem;">FX</th>
+            <th rowspan="9" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
             <td>Fades out an element after 3 seconds</td>
         </tr>
@@ -242,6 +242,10 @@
         <tr>
             <td><code>is-blinking[-success,-danger]</code></td>
             <td>Adds a flashing halo around almost any element.</td>
+        </tr>
+        <tr>
+            <td><code>has-moving-background</code></td>
+            <td>Adds a moving animation to the background.</td>
         </tr>
     </tbody>
 </table>

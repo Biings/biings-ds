@@ -198,6 +198,19 @@
     100%
         box-shadow: 0 0 .375em .375em rgba($danger,.4)
 
+.has-moving-background
+    animation: movingBackground 3.5s infinite
+    animation-timing-function: linear
+
+@keyframes movingBackground
+    0%
+        background-position: 0% 0
+    20%
+        background-position: 30% 0
+    40%
+        background-position: 50% 0
+    100%
+        background-position: 200% 0
 
 // ADJUSTMENTS TO BULMA :
 
@@ -334,22 +347,26 @@ pre
     background-repeat: repeat
 
 // RADIAL BACKGROUNDS
+.has-background-primary-radial
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(circle at 50% 90%, $pink 0%, $primary 60%)
 .has-background-purple-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 200% at 50% 95%,$purple 0,$dark 65%)
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(circle at 50% 90%, $pink 0%, $purple 20%, $dark 60%)
 .has-background-secondary-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 175% at 50% 50%,$secondary 0,$dark 80%)
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(circle at 50% 70%,$secondary-light 0, $secondary 15%,$dark 80%)
 .has-background-success-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 200% at 100% 50%,$success 0,$turquoise-dark 100%)
+    background-size: 200%
+    background-position: 50% 0%
+    background-image: radial-gradient(circle at 50% 85%,$success 0,$turquoise-dark 50%)
 .has-background-grey-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 125% at 50% 95%,mix($dark,$light,40) 0, $white 55%)
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(50% 125% at 50% 90%,mix($dark,$light,40) 0, $white 55%)
 
 .has-background-radial-t,
 .has-background-radial-tl,
