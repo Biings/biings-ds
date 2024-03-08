@@ -42,7 +42,7 @@
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
-            <th rowspan="12">Text</th>
+            <th rowspan="13">Text</th>
             <td><code>is-size-[1 to 7]</code></td>
             <td>Changes the <strong>text size</strong> – default is <code>5</code></td>
         </tr>
@@ -89,6 +89,10 @@
         <tr>
             <td><code>is-unselectable</code></td>
             <td>Prevents the text from being <strong>selectable</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-ellipsis</code></td>
+            <td>Stops text overflow by displaying "..." instead.</td>
         </tr>
         <!-- <tr>
             <td><code>is-tight</code></td>
