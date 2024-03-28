@@ -218,7 +218,7 @@ $control-height-small: 1.875rem !default
 a,
 .is-link
     vertical-align: baseline
-    transition: all .125s ease-out !important
+    transition: color .125s ease-out !important
 
 a.is-underlined:not(.is-regular),
 .is-link.is-underlined:not(.is-regular),
@@ -233,10 +233,9 @@ a:hover > .is-link.is-ghost:not(.is-underlined)
 a.is-underlined,
 .is-link.is-underlined
     text-decoration: underline
-    text-decoration-thickness: .0625em !important
-    text-decoration-width: .0625em !important
+    text-decoration-thickness: .09375em !important
+    text-decoration-width: .09375em !important
     text-underline-offset: .125em !important
-    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
 
 a.is-underlined.is-ghost,
 .is-link.is-underlined.is-ghost
@@ -247,6 +246,4 @@ a.is-underlined.is-ghost:hover,
 a:hover > .is-link.is-underlined,
 a:hover > .is-link.is-underlined.is-ghost
     text-decoration: underline
-    text-decoration-thickness: .1875em !important
-    text-decoration-width: .1875em !important
     text-decoration-color: $link !important
