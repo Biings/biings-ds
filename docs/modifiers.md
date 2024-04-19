@@ -42,7 +42,7 @@
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
-            <th rowspan="13">Text</th>
+            <th rowspan="14">Text</th>
             <td><code>is-size-[1 to 7]</code></td>
             <td>Changes the <strong>text size</strong> – default is <code>5</code></td>
         </tr>
@@ -84,7 +84,11 @@
         </tr>
         <tr>
             <td><code>is-italic</code></td>
-            <td>Transforms all characters to <strong>italic</strong></td>
+            <td>Transforms all characters to <strong>italic</strong> (text decoration)</td>
+        </tr>
+        <tr>
+            <td><code>is-underlined</code></td>
+            <td><strong>Underlines</strong> all words (text decoration)</td>
         </tr>
         <tr>
             <td><code>is-unselectable</code></td>

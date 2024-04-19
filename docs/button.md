@@ -110,7 +110,24 @@ Use a Link instead of a button when navigating or when the action is not primary
     </tbody>
 </table>
 
+<hr class="is-size-1 is-visible">
 
+<h3 class="title is-family-primary has-text-weight-bold">Block Link</h3>
+
+Use `has-blocklink` to expand the clicking area of a link to its relative parent. The parent needs to be a block element with a relative positioning (`is-relative`).
+
+<br>
+
+<div class="box is-well is-large is-radiusless-b is-marginless">
+    <div class="box is-raised is-relative">
+        This entire box is clickable and will link to the url of <a class="has-blocklink is-underlined is-ghost has-text-primary">this link.</a>
+    </div>
+</div>
+    
+    <div class="box is-relative">
+        This box is clickable because of <a class="has-blocklink">this link.</a>
+    </div>
+    
 <hr class="is-size-1 is-visible">
 
 <h3 class="title is-family-primary has-text-weight-bold">Sizes, states and shapes</h3>

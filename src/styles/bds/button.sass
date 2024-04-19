@@ -247,3 +247,14 @@ a:hover > .is-link.is-underlined,
 a:hover > .is-link.is-underlined.is-ghost
     text-decoration: underline
     text-decoration-color: $link !important
+
+/* Block link */
+a.has-blocklink:before
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    content: '';
