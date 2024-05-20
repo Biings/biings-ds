@@ -258,3 +258,12 @@
     src: url('fonts/Caveat-Bold.woff2') format('woff2'), url('fonts/Caveat-Bold.woff') format('woff');
     font-display: swap;
 }
+
+/* ———————————————————————————————————————————————————————————————————————————————————— */
+/* add lato */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Lato-Regular.woff2') format('woff2');
+}
