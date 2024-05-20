@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Default</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Default</h3>
 
 Avatar's default background is transparent. Set it manually to achieve the below look.
 
@@ -23,31 +23,31 @@ Avatar's default background is transparent. Set it manually to achieve the below
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Sizes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Sizes</h3>
 
 In addition to the default size, use classes `is-[tiny,mini,small,medium,large,huge]` to adjust the size of an avatar.
 <hr class="is-small">
 <div class="box is-raised py-6">
     <div class="level">
-        <div class="level-item has-text-left"><div class="avatar is-tiny"><div class="has-background-green-lighter">T</div></div><span class="is-size-7">Tiny</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-mini"><div class="has-background-red-lighter">MI</div></div><span class="is-size-7">Mini</span></div>
-        <div class="level-item has-text-left"><div class="avatar is-small"><div class="has-background-blue-lighter">SM</div></div><span class="is-size-7">Small</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-tiny is-status-grey"><div class="has-background-success-light">T</div></div><span class="is-size-7">Tiny</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-mini is-status-grey"><div class="has-background-danger-light">MI</div></div><span class="is-size-7">Mini</span></div>
+        <div class="level-item has-text-left"><div class="avatar is-small is-status-grey"><div class="has-background-warning-light">SM</div></div><span class="is-size-7">Small</span></div>
         <div class="level-item"><div class="avatar is-medium"><div class="has-background-secondary-lighter">ME</div></div><span class="is-size-6">Medium</span></div>
-        <div class="level-item"><div class="avatar is-large"><div class="has-background-primary-lighter">LA</div></div><span class="is-size-5">Large</span></div>
-        <div class="level-item"><div class="avatar is-huge"><div>HU</div></div><span class="is-size-3">Huge</span></div>
+        <div class="level-item"><div class="avatar is-large"><div class="has-background-info-light">LA</div></div><span class="is-size-5">Large</span></div>
+        <div class="level-item"><div class="avatar is-huge"><div class="has-background-primary-lightest">HU</div></div><span class="is-size-3">Huge</span></div>
     </div>
 </div>
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Photo Avatar</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Photo Avatar</h3>
 
 Avatars can nest an image to act as a person's photo.
 
 <hr class="is-small">
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar is-large"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
+    <div class="avatar is-large"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.J7BXJeJ_RtMmmzzvrTORbgAAAA%26pid%3DApi&f=1&ipt=853e813463189d4e60950d989521a699e78c2c6cbabe7f97d410320d69d63522&ipo=images"></div>
     <span class="subtitle is-4"><strong>Khan</strong>, Aamir</span>
 </div>
 
@@ -56,63 +56,37 @@ Avatars can nest an image to act as a person's photo.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Status</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Status</h3>
 
-Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-dark">dark</span> and white.
+Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. Available colors are: <span class="has-text-purple">purple</span>, <span class="has-text-cyan">cyan</span>, <span class="has-text-blue">blue</span>, <span class="has-text-pink">pink</span>, <span class="has-text-red">red</span>, <span class="has-text-orange">orange</span>, <span class="has-text-yellow">yellow</span>, <span class="has-text-turquoise">turquoise</span>, <span class="has-text-green">green</span>, <span class="has-text-grey">grey</span>, <span class="has-text-dark">dark</span>, white, success and warning.
 
 <hr class="is-small">
 
-<div class="box is-raised is-large is-marginless is-radiusless-b">
-    <div class="avatar is-status-turquoise is-medium"><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></div>
-    <span class="subtitle is-4"><strong>Aamir</strong> is online.</span>
+<div class="box is-raised is-large is-marginless is-backgroundless has-text-centered">
+    <div class="avatar is-status-success is-large"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.J7BXJeJ_RtMmmzzvrTORbgAAAA%26pid%3DApi&f=1&ipt=853e813463189d4e60950d989521a699e78c2c6cbabe7f97d410320d69d63522&ipo=images"></div>
+    <span class="subtitle is-4"><strong>Aamir</strong> is online, using `is-status-success`</span>
+    <hr class="is-visible is-soft is-size-2">
+    <div class="avatar is-status-green is-large mr-5"><div>GR</div></div>
+    &nbsp;
+    <div class="avatar is-status-yellow is-large mr-5"><div>YE</div></div>
+    &nbsp;
+    <div class="avatar is-status-orange is-large"><div>OR</div></div>
     <hr>
-    <div class="avatar is-status-green"><div>GR</div></div>
+    <div class="avatar is-status-red is-medium mr-5"><div>RE</div></div>
     &nbsp;
-    <div class="avatar is-status-yellow"><div>YE</div></div>
+    <div class="avatar is-status-pink is-medium mr-5"><div>PI</div></div>
     &nbsp;
-    <div class="avatar is-status-orange"><div>OR</div></div>
+    <div class="avatar is-status-purple is-medium"><div>PU</div></div>
+    <hr>
+    <div class="avatar is-status-primary mr-5"><div>PR</div></div>
     &nbsp;
-    <div class="avatar is-status-red"><div>RE</div></div>
-    &nbsp;
-    <div class="avatar is-status-pink"><div>PI</div></div>
-    &nbsp;
-    <div class="avatar is-status-purple"><div>PU</div></div>
-    &nbsp;
-    <div class="avatar is-status-primary"><div>PR</div></div>
-    &nbsp;
-    <div class="avatar is-status-blue"><div>BL</div></div>
+    <div class="avatar is-status-blue mr-5"><div>BL</div></div>
     &nbsp;
     <div class="avatar is-status-cyan"><div>CY</div></div>
+    <hr>
+    <div class="avatar is-status-warning is-small mr-4"><div>WA</div></div>
     &nbsp;
-    <div class="avatar is-status-dark"><div>DA</div></div>
+    <div class="avatar is-status-dark is-small mr-4"><div>DA</div></div>
     &nbsp;
-    <div class="avatar is-status-grey"><div>GR</div></div>
+    <div class="avatar is-status-grey is-small"><div>GR</div></div>
 </div>
-
-<hr class="is-size-1 is-visible">
-
-<h3 class="title is-family-primary">Tilted</h3>
-
-Avatars can be tilted the same way the Biings logo is. Just add class `is-tilted` and make sure to wrap initials in an extra `<div>` or images in a `<picture>` tag.
-
-<hr class="is-small">
-
-<div class="box is-raised is-large is-marginless is-radiusless-b">
-    <div class="level">
-        <div class="level-item"><div class="avatar is-mini is-tilted"><div><div>T</div></div></div><span class="is-size-6">Small Tilted</span></div>
-        <div class="level-item"><div class="avatar is-tilted"><div><div>DT</div></div></div><span>Default Tilted</span></div>
-        <div class="level-item"><div class="avatar is-status-grey is-large is-tilted"><picture><img src="https://cdn.bollywoodmdb.com/resource/image1/5a83e7a99221e_aamir-khan-celebrates-valentine-s-day-by-listening-to-pehla-nasha.jpg"></picture></div><span class="is-size-4">Large Tilted Picture</span></div>
-    </div>
-</div>
-
-    <div class="avatar is-tilted">
-        <div class="has-background-primary">
-            <div>DT</div>
-        </div>
-    </div>
-
-    <div class="avatar is-tilted">
-        <picture>
-            <img src="...">
-        </picture>
-    </div>

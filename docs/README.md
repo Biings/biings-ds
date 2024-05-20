@@ -1,4 +1,6 @@
-<h1 class="title is-size-2-mobile has-text-weight-medium is-spaced"><span class="is-size-bigger">Biings Design System</span></h1>
+<h1 class="title is-size-2-mobile has-text-weight-medium is-spaced">
+    <span class="is-size-bigger">Biings Design System</span>
+</h1>
 <p class="subtitle is-size-5-mobile mb-5">
     A series of assets and guidelines for building consistent user experiences across Biings products.
 </p>
@@ -19,18 +21,18 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/brand" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter has-background-grainy">
+        <a href="#/brand" class="box is-medium is-bordered is-popping hover-to-floating has-background-info-gradient has-background-radial-tl">
             <img src="media/bds.png" width="50" class="no-zoom"/>
             <hr class="my-2">
-            <h2 class="title is-size-3-mobile">Foundation</h2>
+            <h2 class="title is-size-3-mobile has-text-background has-background-purple-radial has-moving-background pb-1">Foundation</h2>
             <p class="subtitle is-5">Recommanded UI practices.</p>
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered is-raised hover-to-floating has-background-white-ter has-background-grainy">
+        <a href="#/avatar" class="box is-medium is-bordered is-popping hover-to-floating has-background-secondary-gradient-light">
             <img src="media/components.png" width="53" class="no-zoom"/>
             <hr class="my-2">
-            <h2 class="title is-size-3-mobile">Components</h2>
+            <h2 class="title is-size-3-mobile has-text-background has-background-secondary-radial has-moving-background pb-1">Components</h2>
             <p class="subtitle is-5">UI building blocks.</p>
         </a>
     </div>
@@ -50,18 +52,26 @@
 
 <hr class="is-size-3-tablet">
 
-<div class="box is-large is-bordered is-popping has-background-primary-lightest has-background-grainy has-background-radial-tl has-background-radial-t has-background-white-bis has-radius-bold">
+<div class="box is-large is-bordered is-popping has-background-white-bis has-background-radial-tl has-background-radial-tr has-radius-bold has-background-grainy">
     <div class="columns is-vcentered">
         <div class="column is-6">
-            <h2 class="title mb-4"><span class="is-size-smaller">Want to contribute?</span></h2>
-            <p class="subtitle is-5">Onboarding for designers and developers wanting to contribute.</p>
+            <h2 class="title mb-4 has-text-dark has-text-weight-semibold"><span class="is-size-smaller">Want to contribute?</span></h2>
+            <p class="subtitle is-5 has-text-dark">Onboarding for designers and developers wanting to contribute.</p>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered is-size-5 is-dimmed">
             <a href="#/contribute" class="button is-rounded is-dark is-outlined is-medium mt-2">Start contributing</a>
             <hr class="my-1">
-            <span class="is-size-smaller">or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.</span>
+            <span class="is-size-smaller is-dimmed">or go straight to our <a href="https://github.com/biings/biings-ds" class="is-underlined">GitHub</a> repo.</span>
         </div>
     </div>
 </div>
 
 <br>
+<hr class="is-size-3-tablet">
+<div class="box is-large is-bordered is-popping has-background-white-bis has-background-radial-tl has-background-radial-tr has-radius-bold has-background-grainy">
+<h2 class="title mb-4 has-text-dark has-text-weight-semibold"><span class="is-size-smaller">How to build for Superlayer?</span></h2>
+1. npm update
+2. npm install --save-dev
+3. npm run build
+</div>
+

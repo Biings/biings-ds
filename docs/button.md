@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Button defaults</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Button defaults</h3>
 
 <br>
 
@@ -79,7 +79,7 @@
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Link</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Link</h3>
 
 Use a Link instead of a button when navigating or when the action is not primary.
 
@@ -110,10 +110,27 @@ Use a Link instead of a button when navigating or when the action is not primary
     </tbody>
 </table>
 
-
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Sizes, states and shapes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Block Link</h3>
+
+Use `has-blocklink` to expand the clicking area of a link to its relative parent. The parent needs to be a block element with a relative positioning (`is-relative`).
+
+<br>
+
+<div class="box is-well is-large is-radiusless-b is-marginless">
+    <div class="box is-raised is-relative">
+        This entire box is clickable and will link to the url of <a class="has-blocklink is-underlined is-ghost has-text-primary">this link.</a>
+    </div>
+</div>
+    
+    <div class="box is-relative">
+        This box is clickable because of <a class="has-blocklink">this link.</a>
+    </div>
+    
+<hr class="is-size-1 is-visible">
+
+<h3 class="title is-family-primary has-text-weight-bold">Sizes, states and shapes</h3>
 
 <hr>
 
@@ -172,7 +189,7 @@ Use a Link instead of a button when navigating or when the action is not primary
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Icon Button</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Icon Button</h3>
 
 Buttons can be enhanced by adding an icon or be an icon button.  
 Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
@@ -224,7 +241,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Button Group and Addons</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Button Group and Addons</h3>
 
 Buttons can be grouped together or with a button.
 

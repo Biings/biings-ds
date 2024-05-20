@@ -23,9 +23,11 @@
 .menu.is-inverted .menu-list a
     color: $white
 
-.menu.is-inverted .menu-list a:hover,
 .menu.is-inverted .menu-list a.is-active
-    background-color: rgba($white,.1)
+    background-color: rgba($black,.15)
+    
+.menu.is-inverted .menu-list a:hover
+    background-color: rgba($black,.075)
 
 .menu.is-small .menu-label
     font-size: $size-7
@@ -38,4 +40,4 @@
 
 // Passive inverted highlight
 .menu.is-inverted > .menu-list a.is-passive:not(:hover)
-    background-color: rgba($black,.15)
+    background-color: rgba($white,.1)

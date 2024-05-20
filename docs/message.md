@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Default colors and sizes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Default colors and sizes</h3>
 
 Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, `is-danger`, `is-dark` as well as size modifiers `is-size-[1-7]`.
 
@@ -34,7 +34,7 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
     etc...
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Toast notification</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Toast notification</h3>
 
 A Message can act as a toast notification when combined with a Modal. Put the message in a <a href="#/modal">Modal</a> (with class `.has-noti`) to create an overlayed notification message.
 

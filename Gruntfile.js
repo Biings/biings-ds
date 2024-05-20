@@ -20,7 +20,8 @@ module.exports = function(grunt) {
                 svg: { // will be added as attributes to the resulting SVG
                     'version' : "1.1",
                     'xmlns' : "http://www.w3.org/2000/svg",
-                    'xmlns:xlink' : "http://www.w3.org/1999/xlink"
+                    'xmlns:xlink' : "http://www.w3.org/1999/xlink",
+                    'viewBox': '0 0 24 24'
                 },
                 cleanup: ['fill','stroke'],
                 cleanupdefs: true,

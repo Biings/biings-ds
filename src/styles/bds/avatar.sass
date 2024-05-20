@@ -4,6 +4,7 @@
     width: 3rem
     height: 3rem
     vertical-align: middle
+    font-family: $family-secondary
 
 .avatar > div,
 .avatar > picture,
@@ -11,11 +12,10 @@
     overflow: hidden
     width: 3rem
     height: 3rem
-    border-radius: 40%
-    color: rgba($dark,.5)
+    border-radius: 50%
+    color: rgba($dark,.9)
     vertical-align: middle
     text-align: center
-    font-weight: $weight-normal
     font-size: 1.375rem
     box-shadow: inset 0 0 0 1px rgba($dark,.15)
 
@@ -24,32 +24,32 @@
     overflow: hidden
     width: 100%
     height: 100%
-    border-radius: 40%
+    border-radius: 50%
 
 .avatar.is-tiny,
 .avatar.is-tiny > div,
 .avatar.is-tiny > picture
     width: 1.5rem
     height: 1.5rem
-    font-weight: $weight-medium
     font-size: .75rem
     text-indent: -1px
+    font-weight: $weight-semibold
 
 .avatar.is-mini,
 .avatar.is-mini > div,
 .avatar.is-mini > picture
     width: 1.75rem
     height: 1.75rem
-    font-weight: $weight-medium
     font-size: .875rem
+    font-weight: $weight-medium
 
 .avatar.is-small,
 .avatar.is-small > div,
 .avatar.is-small > picture
     width: 2.25rem
     height: 2.25rem
-    font-weight: $weight-medium
     font-size: 1rem
+    font-weight: $weight-medium
 
 .avatar.is-medium,
 .avatar.is-medium > div,
@@ -64,7 +64,6 @@
     width: 5rem
     height: 5rem
     font-size: 2.125rem
-    font-weight: $weight-light
 
 .avatar.is-huge,
 .avatar.is-huge > div,
@@ -72,7 +71,6 @@
     width: 7rem
     height: 7rem
     font-size: 2.75rem
-    font-weight: $weight-light
 
 .avatar + span
     margin-left: .75rem
@@ -106,61 +104,89 @@
 .avatar.is-status-green:before,
 .avatar.is-status-grey:before,
 .avatar.is-status-dark:before,
-.avatar.is-status-white:before
+.avatar.is-status-white:before,
+.avatar.is-status-success:before,
+.avatar.is-status-warning:before
     position: absolute
-    top: -3px
-    right: -3px
-    bottom: -3px
-    left: -3px
-    border: 1px solid transparent
-    border-radius: 40%
+    top: -.125em
+    right: -.125em
+    bottom: -.125em
+    left: -.125em
+    border: .0625em solid transparent
+    border-radius: 50%
     content: ''
     transition: border-color .1s linear
+.avatar.is-tiny:before,
+.avatar.is-mini:before
+    top: -.125rem
+    right: -.125rem
+    bottom: -.125rem
+    left: -.125rem
 
 .avatar.is-status-primary:before
-    border-color: $primary
+    border-color: rgba($primary-light,.5)
+    box-shadow: inset 0 0 .375em rgba($primary-light,.4)
 
 .avatar.is-status-purple:before
-    border-color: $purple
+    border-color: rgba($purple,.5)
+    box-shadow: inset 0 0 .375em rgba($purple,.4)
 
 .avatar.is-status-cyan:before
-    border-color: $cyan
+    border-color: rgba($cyan,.5)
+    box-shadow: inset 0 0 .375em rgba($cyan,.4)
 
 .avatar.is-status-blue:before
-    border-color: $blue
+    border-color: rgba($blue,.5)
+    box-shadow: inset 0 0 .375em rgba($blue,.4)
 
 .avatar.is-status-pink:before
-    border-color: $pink
+    border-color: rgba($pink,.5)
+    box-shadow: inset 0 0 .375em rgba($pink,.4)
 
 .avatar.is-status-red:before
-    border-color: $red
+    border-color: rgba($red,.5)
+    box-shadow: inset 0 0 .375em rgba($red,.4)
 
 .avatar.is-status-orange:before
-    border-color: $orange
+    border-color: rgba($orange,.5)
+    box-shadow: inset 0 0 .375em rgba($orange,.4)
 
 .avatar.is-status-yellow:before
-    border-color: $yellow
+    border-color: rgba($yellow,.5)
+    box-shadow: inset 0 0 .375em rgba($yellow,.4)
 
 .avatar.is-status-turquoise:before
-    border-color: $turquoise
+    border-color: rgba($turquoise,.5)
+    box-shadow: inset 0 0 .375em rgba($turquoise,.4)
 
 .avatar.is-status-green:before
-    border-color: $green
+    border-color: rgba($green,.5)
+    box-shadow: inset 0 0 .375em rgba($green,.4)
 
 .avatar.is-status-grey:before
-    border-color: rgba($grey,.5)
+    border-color: rgba($grey-light,.5)
 
 .avatar.is-status-dark:before
-    border-color: $dark
+    border-color: rgba($dark,.5)
+    box-shadow: inset 0 0 .375em rgba($dark,.4)
 
 .avatar.is-status-white:before
-    border-color: $white
+    border-color: rgba($white,.5)
+    box-shadow: inset 0 0 .375em rgba($white,.4)
+    
+.avatar.is-status-success:before
+    border-color: rgba($success,.5)
+    box-shadow: inset 0 0 .375em rgba($success,.4)
+    
+.avatar.is-status-warning:before
+    border-color: rgba($warning,.5)
+    box-shadow: inset 0 0 .375em rgba($warning,.4)
 
 // Tilted
-.avatar.is-tilted
-    transform: rotate(-13deg) !important
-.avatar.is-tilted > div > div
-    transform: rotate(13deg)
+// .avatar.is-tilted
+//     transform: rotate(-13deg) !important
+// .avatar.is-tilted > div > div
+//     transform: rotate(13deg)
 
 .avatar > picture
     display: block !important

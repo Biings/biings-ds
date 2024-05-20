@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Basic usage</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Basic usage</h3>
 
 Add class `is-active` to the main modal along with `is-clipped` to the root `<html>` tag to prevent background scrolling.
 
@@ -39,7 +39,7 @@ Add class `is-active` to the main modal along with `is-clipped` to the root `<ht
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Modal Card</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Modal Card</h3>
 
 Use modal cards when displaying a form or when lots of interaction is involved.
 
@@ -117,10 +117,10 @@ Use modal cards when displaying a form or when lots of interaction is involved.
     <div class="modal-card">
         <section class="modal-card-body has-text-centered">
             <button onclick="closeModal(2)" class="delete is-large" aria-label="close"></button>
-            <div class="modal-card-title mb-4">
+            <div class="modal-card-title mb-2">
                 <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
                 <hr class="is-marginless is-wavy">
-                <h3 class="title is-family-primary has-text-weight-bold has-text-centered">Modal Card Example</h3>
+                <h3 class="title has-text-weight-bold has-text-centered">Modal Card Example</h3>
             </div>
             <p class="subtitle is-5">You could also insert centered tabs to make<br>this modal even more versatile.</p>
             <div class="tabs is-centered my-0">
@@ -137,7 +137,7 @@ Use modal cards when displaying a form or when lots of interaction is involved.
                 </div>
             </form>
             <hr class="is-visible my-5">
-            <div class="button is-primary is-rounded">Save me</div>
+            <div class="button is-success is-rounded is-medium is-blinking-success">Save me</div>
         </section>
     </div>
 </div>

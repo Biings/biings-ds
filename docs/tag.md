@@ -20,7 +20,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Size, Shape and Colors</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Size, Shape and Colors</h3>
 
 The tag comes in many different sizes, shape and colors using `is-[modifier]`.
 
