@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Container</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Container</h3>
 
 Container is used to center your content horizontally. Alter the max width with the following modifiers:
 <br><br>
@@ -36,7 +36,7 @@ Container is used to center your content horizontally. Alter the max width with 
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Section</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Section</h3>
 
 Sections are used to handle **vertical spacing** as well as ensuring a minimum horizontal padding from the window. 
 Add class `is-medium` or `is-large` to further increase the vertical space.
@@ -57,7 +57,7 @@ Add class `is-medium` or `is-large` to further increase the vertical space.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Columns</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Columns</h3>
 
 Columns are used to structure content horizontally. Biings DS uses a responsive fluid system that automatically scales up to 12 columns.
 
@@ -109,7 +109,7 @@ Columns are used to structure content horizontally. Biings DS uses a responsive 
   
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Level</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Level</h3>
 
 Use **Level items** when you need to vertically center elements on one line.
 
@@ -144,7 +144,7 @@ Use **Level items** when you need to vertically center elements on one line.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">HR / Spacer</h3>
+<h3 class="title is-family-primary has-text-weight-bold">HR / Spacer</h3>
 
 Use a **Spacer** (or horizontal rule) as a visual help to seperate groups of elements from each other. Use it to define thematic changes in a layout.
 

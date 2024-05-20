@@ -82,6 +82,12 @@ $control-height-small: 1.875rem !default
 
 .button.is-outlined:hover
     transition: none !important
+    
+.button.is-outlined:focus,
+.button.is-outlined:hover,
+.button.is-outlined.is-focused,
+.button.is-outlined.is-hovered
+    box-shadow: inset 0 0 0 1px $button-border-color
 
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover,
@@ -132,6 +138,7 @@ $control-height-small: 1.875rem !default
     box-shadow: inset 0 0 0 1px $white
     color: white !important
     
+.button.is-dashed.is-outlined,
 .button.is-dashed.is-outlined:focus,
 .button.is-dashed.is-outlined:hover,
 .button.is-dashed.is-outlined.is-focused,
@@ -211,7 +218,7 @@ $control-height-small: 1.875rem !default
 a,
 .is-link
     vertical-align: baseline
-    transition: all .125s ease-out !important
+    transition: color .125s ease-out !important
 
 a.is-underlined:not(.is-regular),
 .is-link.is-underlined:not(.is-regular),
@@ -226,10 +233,9 @@ a:hover > .is-link.is-ghost:not(.is-underlined)
 a.is-underlined,
 .is-link.is-underlined
     text-decoration: underline
-    text-decoration-thickness: .0625em !important
-    text-decoration-width: .0625em !important
+    text-decoration-thickness: .09375em !important
+    text-decoration-width: .09375em !important
     text-underline-offset: .125em !important
-    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
 
 a.is-underlined.is-ghost,
 .is-link.is-underlined.is-ghost
@@ -240,6 +246,15 @@ a.is-underlined.is-ghost:hover,
 a:hover > .is-link.is-underlined,
 a:hover > .is-link.is-underlined.is-ghost
     text-decoration: underline
-    text-decoration-thickness: .1875em !important
-    text-decoration-width: .1875em !important
     text-decoration-color: $link !important
+
+/* Block link */
+a.has-blocklink:before
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    content: '';

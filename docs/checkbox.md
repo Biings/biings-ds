@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Standard states</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Standard states</h3>
 
 The checkbox label should always toggle the checkbox when clicked! Make sure the label's text is a direct child of `.checkbox`
 
@@ -72,7 +72,7 @@ The checkbox label should always toggle the checkbox when clicked! Make sure the
 ?> Add class `is-inverted` when used on dark backgrounds.
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Small size</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Small size</h3>
 
 For UI controls, a smaller checkbox (`.is-small`) is recommended.
 
@@ -97,7 +97,7 @@ For UI controls, a smaller checkbox (`.is-small`) is recommended.
     </label>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Toggle</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Toggle</h3>
 
 A checkbox can become a toggle button. Just add `is-toggle`. Toggle values should be saved immediately upon switching.<br><br>
 

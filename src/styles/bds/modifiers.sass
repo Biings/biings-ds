@@ -150,6 +150,67 @@
     100%
         transform: rotate(0deg)
 
+.is-blinking
+    animation: blinking 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinking 
+    0%
+        box-shadow: 0 0 .3em .3em rgba($warning,.5)
+    50%
+        box-shadow: 0 0 0 0 rgba($warning,0)
+    100%
+        box-shadow: 0 0 .3em .3em rgba($warning,.5)
+        
+.is-blinking-primary
+    animation: blinkingPrimary 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinkingPrimary 
+    0%
+        box-shadow: 0 0 .3em .3em rgba($purple,.4)
+    50%
+        box-shadow: 0 0 0 0 rgba($purple,0)
+    100%
+        box-shadow: 0 0 .3em .3em rgba($purple,.4)
+
+.is-blinking-success
+    animation: blinkingSuccess 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinkingSuccess 
+    0%
+        box-shadow: 0 0 .375em .375em rgba($success,.4)
+    50%
+        box-shadow: 0 0 0 0 rgba($success,0)
+    100%
+        box-shadow: 0 0 .375em .375em rgba($success,.4)
+        
+.is-blinking-danger
+    animation: blinkingDanger 1.4s infinite
+    animation-timing-function: ease-out
+
+@keyframes blinkingDanger
+    0%
+        box-shadow: 0 0 .375em .375em rgba($danger,.4)
+    50%
+        box-shadow: 0 0 0 0 rgba($danger,0)
+    100%
+        box-shadow: 0 0 .375em .375em rgba($danger,.4)
+
+.has-moving-background
+    animation: movingBackground 3.5s infinite
+    animation-timing-function: linear
+
+@keyframes movingBackground
+    0%
+        background-position: 0% 0
+    20%
+        background-position: 30% 0
+    40%
+        background-position: 50% 0
+    100%
+        background-position: 200% 0
 
 // ADJUSTMENTS TO BULMA :
 
@@ -165,29 +226,32 @@
     color: $info
 
 .delete
-    background-color: transparent !important
+    background-color: transparent
+    border-radius: $radius-small
     &::before,
     &::after,
     &:active::before,
-    &:active::after
-        background-color: bulmaRgba($dark, .8)
+    &:active::after,
     &:hover::before,
     &:hover::after,
     &:focus::before,
     &:focus::after
         background-color: $dark
+        
+.delete:hover
+    background: $code-background !important
 
 .delete.is-inverted
     &::before,
     &::after,
     &:active::before,
     &:active::after
-        background-color: bulmaRgba($purple-light, .8)
+        background-color: rgba($white,.8)
     &:hover::before,
     &:hover::after,
     &:focus::before,
     &:focus::after
-        background-color: $purple-light
+        background-color: rgba($white,1)
 
 .delete.is-large
     min-width: 2.125rem
@@ -277,7 +341,7 @@ pre
 
 .has-background-menu
     background-color: transparent !important
-    background: linear-gradient(150deg, rgba($pink-lighter,.9) -20%, rgba($primary-light,.9) 400%)
+    background: linear-gradient(170deg, rgba($pink-lighter,.93) -10%, rgba($primary-light,.93) 275%)
 
 // GRAINY BACKGROUND
 .has-background-grainy
@@ -286,22 +350,26 @@ pre
     background-repeat: repeat
 
 // RADIAL BACKGROUNDS
+.has-background-primary-radial
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(circle at 50% 90%, $pink 0%, $primary 60%)
 .has-background-purple-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 200% at 50% 95%,$purple 0,$dark 65%)
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(circle at 50% 90%, $pink 0%, $purple 20%, $dark 60%)
 .has-background-secondary-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 175% at 50% 50%,$secondary 0,$dark 80%)
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(circle at 50% 70%,$secondary-light 0, $secondary 15%,$dark 80%)
 .has-background-success-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 200% at 100% 50%,$success 0,$turquoise-dark 100%)
+    background-size: 200%
+    background-position: 50% 0%
+    background-image: radial-gradient(circle at 50% 85%,$success 0,$turquoise-dark 50%)
 .has-background-grey-radial
-    background-size: 100% 100%
-    background-position: 0px 0px
-    background-image: radial-gradient(100% 125% at 50% 95%,mix($dark,$light,40) 0, $white 55%)
+    background-size: 200%
+    background-position: 50% 0px
+    background-image: radial-gradient(50% 125% at 50% 90%,mix($dark,$light,40) 0, $white 55%)
 
 .has-background-radial-t,
 .has-background-radial-tl,
@@ -504,6 +572,15 @@ pre
     background-color: $pink-light !important
 .has-background-pink-lighter
     background-color: $pink-lighter !important
+    
+.has-background-coral
+    background-color: $coral !important
+.has-background-coral-dark
+    background-color: $coral-dark !important
+.has-background-coral-light
+    background-color: $coral-light !important
+.has-background-coral-lighter
+    background-color: $coral-lighter !important
 
 .has-background-grey-lightest
     background-color: $grey-lightest !important
@@ -597,6 +674,16 @@ pre
     color: $pink-light !important
 .has-text-pink-lighter
     color: $pink-lighter !important
+    
+    
+.has-text-coral
+    color: $coral !important
+.has-text-coral-dark
+    color: $coral-dark !important
+.has-text-coral-light
+    color: $coral-light !important
+.has-text-coral-lighter
+    color: $coral-lighter !important
 
 .has-text-blue-slate
     color: $blue-slate !important
@@ -687,6 +774,15 @@ pre
     fill: $pink-light !important
 .has-fill-pink-lighter
     fill: $pink-lighter !important
+    
+.has-fill-coral
+    fill: $coral !important
+.has-fill-coral-dark
+    fill: $coral-dark !important
+.has-fill-coral-light
+    fill: $coral-light !important
+.has-fill-coral-lighter
+    fill: $coral-lighter !important
 
 .has-fill-blue-slate
     fill: $blue-slate !important

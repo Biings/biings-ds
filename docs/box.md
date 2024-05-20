@@ -15,7 +15,7 @@
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Box depths</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Box depths</h3>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.
 
@@ -54,7 +54,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Depth transition</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Depth transition</h3>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -86,7 +86,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Sizes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Sizes</h3>
 
 You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` or `is-larger` to the box.
 
@@ -109,7 +109,7 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
     <div class="box is-larger">Larger!</div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Expandable box</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Expandable box</h3>
 
 Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immediate child element with class `expanded-content` will be then shown.
 
