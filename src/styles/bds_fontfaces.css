@@ -264,7 +264,7 @@
     font-weight: 100;
     font-style: italic;
     font-family: Lato;
-    src: url('fonts/Lato-ThinItalic.woff') format('woff');
+    src: url('fonts/Lato-ThinItalic.woff2') format('woff2'), url('fonts/Lato-ThinItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -273,7 +273,7 @@
     font-weight: 100;
     font-style: normal;
     font-family: Lato;
-    src: url('fonts/Lato-Thin.woff') format('woff');
+    src: url('fonts/Lato-Thin.woff2') format('woff2'), url('fonts/Lato-Thin.woff') format('woff');
     font-display: swap;
 }
 
@@ -282,7 +282,7 @@
     font-weight: 300;
     font-style: italic;
     font-family: Lato;
-    src: url('fonts/Lato-LightItalic.woff') format('woff');
+    src: url('fonts/Lato-LightItalic.woff2') format('woff2'), url('fonts/Lato-LightItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -291,7 +291,7 @@
     font-weight: 300;
     font-style: normal;
     font-family: Lato;
-    src: url('fonts/Lato-Light.woff') format('woff');
+    src: url('fonts/Lato-Light.woff2') format('woff2'), url('fonts/Lato-Light.woff') format('woff');
     font-display: swap;
 }
 
@@ -300,7 +300,7 @@
     font-weight: 400;
     font-style: italic;
     font-family: Lato;
-    src: url('fonts/Lato-RegularItalic.woff') format('woff');
+    src: url('fonts/Lato-RegularItalic.woff2') format('woff2'), url('fonts/Lato-RegularItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -309,7 +309,7 @@
     font-weight: 400;
     font-style: normal;
     font-family: Lato;
-    src: url('fonts/Lato-Regular.woff') format('woff');
+    src: url('fonts/Lato-Regular.woff2') format('woff2'), url('fonts/Lato-Regular.woff') format('woff');
     font-display: swap;
 }
 
@@ -318,7 +318,7 @@
     font-weight: 700;
     font-style: italic;
     font-family: Lato;
-    src: url('fonts/Lato-BoldItalic.woff') format('woff');
+    src: url('fonts/Lato-BoldItalic.woff2') format('woff2'), url('fonts/Lato-BoldItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -327,7 +327,7 @@
     font-weight: 700;
     font-style: normal;
     font-family: Lato;
-    src: url('fonts/Lato-Bold.woff') format('woff');
+    src: url('fonts/Lato-Bold.woff2') format('woff2'), url('fonts/Lato-Bold.woff') format('woff');
     font-display: swap;
 }
 
@@ -336,7 +336,7 @@
     font-weight: 900;
     font-style: italic;
     font-family: Lato;
-    src: url('fonts/Lato-BlackItalic.woff') format('woff');
+    src: url('fonts/Lato-BlackItalic.woff2') format('woff2'), url('fonts/Lato-BlackItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -345,7 +345,7 @@
     font-weight: 900;
     font-style: normal;
     font-family: Lato;
-    src: url('fonts/Lato-Black.woff') format('woff');
+    src: url('fonts/Lato-Black.woff2') format('woff2'), url('fonts/Lato-Black.woff') format('woff');
     font-display: swap;
 }
 
@@ -355,7 +355,7 @@
     font-weight: 200;
     font-style: italic;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-ExtraLightItalic.woff') format('woff');
+    src: url('fonts/SourceSansPro-ExtraLightItalic.woff2') format('woff2'), url('fonts/SourceSansPro-ExtraLightItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -364,7 +364,7 @@
     font-weight: 200;
     font-style: normal;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-ExtraLight.woff') format('woff');
+    src: url('fonts/SourceSansPro-ExtraLight.woff2') format('woff2'), url('fonts/SourceSansPro-ExtraLight.woff') format('woff');
     font-display: swap;
 }
 
@@ -373,7 +373,7 @@
     font-weight: 300;
     font-style: italic;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-LightItalic.woff') format('woff');
+    src: url('fonts/SourceSansPro-LightItalic.woff2') format('woff2'), url('fonts/SourceSansPro-LightItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -382,7 +382,7 @@
     font-weight: 300;
     font-style: normal;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-Light.woff') format('woff');
+    src: url('fonts/SourceSansPro-Light.woff2') format('woff2'), url('fonts/SourceSansPro-Light.woff') format('woff');
     font-display: swap;
 }
 
@@ -391,7 +391,7 @@
     font-weight: 400;
     font-style: italic;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-RegularItalic.woff') format('woff');
+    src: url('fonts/SourceSansPro-RegularItalic.woff2') format('woff2'), url('fonts/SourceSansPro-RegularItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -400,7 +400,7 @@
     font-weight: 400;
     font-style: normal;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-Regular.woff') format('woff');
+    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2'), url('fonts/SourceSansPro-Regular.woff') format('woff');
     font-display: swap;
 }
 
@@ -409,7 +409,7 @@
     font-weight: 600;
     font-style: italic;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-SemiBoldItalic.woff') format('woff');
+    src: url('fonts/SourceSansPro-SemiBoldItalic.woff2') format('woff2'), url('fonts/SourceSansPro-SemiBoldItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -418,7 +418,7 @@
     font-weight: 600;
     font-style: normal;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-SemiBold.woff') format('woff');
+    src: url('fonts/SourceSansPro-SemiBold.woff2') format('woff2'), url('fonts/SourceSansPro-SemiBold.woff') format('woff');
     font-display: swap;
 }
 
@@ -427,7 +427,7 @@
     font-weight: 700;
     font-style: italic;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-BoldItalic.woff') format('woff');
+    src: url('fonts/SourceSansPro-BoldItalic.woff2') format('woff2'), url('fonts/SourceSansPro-BoldItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -436,7 +436,7 @@
     font-weight: 700;
     font-style: normal;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-Bold.woff') format('woff');
+    src: url('fonts/SourceSansPro-Bold.woff2') format('woff2'), url('fonts/SourceSansPro-Bold.woff') format('woff');
     font-display: swap;
 }
 
@@ -445,7 +445,7 @@
     font-weight: 900;
     font-style: italic;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-BlackItalic.woff') format('woff');
+    src: url('fonts/SourceSansPro-BlackItalic.woff2') format('woff2'), url('fonts/SourceSansPro-BlackItalic.woff') format('woff');
     font-display: swap;
 }
 
@@ -454,6 +454,6 @@
     font-weight: 900;
     font-style: normal;
     font-family: SourceSansPro;
-    src: url('fonts/SourceSansPro-Black.woff') format('woff');
+    src: url('fonts/SourceSansPro-Black.woff2') format('woff2'), url('fonts/SourceSansPro-Black.woff') format('woff');
     font-display: swap;
 }
