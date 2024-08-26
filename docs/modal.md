@@ -119,8 +119,8 @@ Use modal cards when displaying a form or when lots of interaction is involved.
             <button onclick="closeModal(2)" class="delete is-large" aria-label="close"></button>
             <div class="modal-card-title mb-2">
                 <svg class="icon is-size-3 has-fill-primary"><use xlink:href="media/bds-icons.min.svg#chart"></use></svg>
-                <hr class="is-marginless is-wavy">
-                <h3 class="title has-text-weight-bold has-text-centered">Modal Card Example</h3>
+                <hr class="my-2">
+                <span class="is-size-3 has-text-centered">Modal Card Example</span>
             </div>
             <p class="subtitle is-5">You could also insert centered tabs to make<br>this modal even more versatile.</p>
             <div class="tabs is-centered my-0">
