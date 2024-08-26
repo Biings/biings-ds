@@ -4,6 +4,28 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 26, 2024</span>
+<h3 class="title is-size-3-touch mt-1 is-family-primary">Version 1.60</h3>
+<ul class="list">
+    <li>New icons: `dna`, `dna-g`, `excel`, `excel-g`, `document-csv/pdf/xls-g`</li>
+    <li>New <a href="#/button" class="is-underlined">Block link</a> feature</li>
+    <li>New <a href="#/modifiers" class="is-underlined">moving background modifier</a></li>
+    <li>New <a href="#/modifiers" class="is-underlined">`is-ellipsis`</a> modifier</li>
+    <li>Style adjustments to <i>Button, Modal, Message, Tabs, Link</i></li>
+</ul>
+
+<hr class="is-size-3 is-size-4-touch is-visible">
+
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">February 2, 2024</span>
+<h3 class="title is-size-3-touch mt-1 is-family-primary">Version 1.59</h3>
+<ul class="list">
+    <li>New icons: `mails`, `mails-g`</li>
+    <li>New blinking FX modifier <a href="#/modifiers" class="is-underlined">`is-blinking`</a></li>
+    <li>Style adjustments to <i>Avatar, Tabs, Button</i></li>
+</ul>
+
+<hr class="is-size-3 is-size-4-touch is-visible">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">December 8, 2023</span>
 <h3 class="title is-size-3-touch mt-1 is-family-primary">Version 1.58</h3>
 <ul class="list">
