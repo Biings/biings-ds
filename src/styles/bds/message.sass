@@ -3,43 +3,33 @@ $message-body-border-width: 0 !default
 
 .message
     padding: $message-body-padding
-    border: .125em dashed $grey-lighter
     border-radius: $radius-large
     font-size: $size-normal
-
-.message:not(.is-warning,.is-info,.is-success,.is-danger,.is-dark,.is-primary),
-.message:not(.is-warning,.is-info,.is-success,.is-danger,.is-dark,.is-primary) > .title
-    color: $primary-dark
+    background-color: $code-background
 
 .message.is-warning
     background-color: rgba($warning,.075)
-    color: mix($secondary-dark,$warning,50)
-    border: .125em dashed mix($secondary-dark,$warning,50)
+    color: mix($yellow-dark,$dark,60)
 
 .message.is-info
     background-color: rgba($info,.0625)
-    color: $info-dark
-    border: .125em dashed $info-dark
+    color:  mix($info-dark,$dark,65)
 
 .message.is-success
     background-color: rgba($success,.0625)
-    color: $success-dark
-    border: .125em dashed $success-dark
+    color: mix($success-dark,$dark,70)
 
 .message.is-danger
     background-color: rgba($danger,.075)
-    color: $danger-dark
-    border: .125em dashed $danger-dark
+    color: mix($danger-dark,$dark,75)
 
 .message.is-dark
     background-color: rgba($black-ter,.5)
     color: white
-    border: .125em dashed $grey-darker
 
 .message.is-primary
     background-color: rgba($primary,.075)
-    color: $primary
-    border: .125em dashed $primary
+    color: mix($primary,$dark,65)
 
 .message > .icon
     position: relative
