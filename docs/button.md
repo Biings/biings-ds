@@ -44,7 +44,7 @@
                 <td><hr>Dark looking button.</td>
             </tr>
             <tr>
-                <td class="has-text-centered"><br><div class="button is-light">Light</div><br><br></td>
+                <td class="has-text-centered"><br><div class="button is-light">Light</div><br><div class="button is-light is-primary is-small m-1">Pri Light</div><div class="button is-light is-warning is-small m-1">War Light</div><div class="button is-light is-info is-small m-1">Inf Light</div><br><br></td>
                 <td class="has-text-centered"><br><code>is-light</code></td>
                 <td><br>Light looking button (applicable to any color button).</td>
             </tr>
