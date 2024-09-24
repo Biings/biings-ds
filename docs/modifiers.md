@@ -153,7 +153,7 @@
             <td>Removes <strong>bottom right radius</strong></td>
         </tr>
         <tr>
-            <th rowspan="10">Visibility</th>
+            <th rowspan="13">Visibility</th>
             <td><code>is-shadowless</code></td>
             <td>Removes any <strong>shadow</strong></td>
         </tr>
@@ -190,8 +190,20 @@
             <td>Hide elements <strong>visually</strong> but keep the element available to be announced by a <strong>screen reader</strong></td>
         </tr>
         <tr>
-            <td><code>is-clickable</code></td>
-            <td>Forces the cursor to be a Pointer</td>
+            <td class="is-clickable"><code>is-clickable</code></td>
+            <td>Forces cursor to be a <strong>Pointer</strong></td>
+        </tr>
+        <tr>
+            <td class="is-progress"><code>is-progress</code></td>
+            <td>Forces cursor to show <strong>progress</strong></td>
+        </tr>
+        <tr>
+            <td class="is-not-allowed"><code>is-not-allowed</code></td>
+            <td>Forces cursor to indicate <strong>none-allowance</strong></td>
+        </tr>
+        <tr>
+            <td class="is-default"><code>is-default</code></td>
+            <td>Forces cursor to <strong>default arrow</strong></td>
         </tr>
         <tr>
             <th rowspan="6" style="width: 5rem;">Position</th>
