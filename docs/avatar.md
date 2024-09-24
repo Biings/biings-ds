@@ -47,7 +47,7 @@ Avatars can nest an image to act as a person's photo.
 <hr class="is-small">
 
 <div class="box is-raised is-medium is-marginless is-radiusless-b">
-    <div class="avatar is-large"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.J7BXJeJ_RtMmmzzvrTORbgAAAA%26pid%3DApi&f=1&ipt=853e813463189d4e60950d989521a699e78c2c6cbabe7f97d410320d69d63522&ipo=images"></div>
+    <div class="avatar is-large"><img src="https://www.gravatar.com/avatar/91c55047f7f392fe9b036d6c4dec4d61?s=400&d=robohash"></div>
     <span class="subtitle is-4"><strong>Khan</strong>, Aamir</span>
 </div>
 
@@ -63,7 +63,7 @@ Use the modifier syntax `.is-status-[color]` to add a color badge to an Avatar. 
 <hr class="is-small">
 
 <div class="box is-raised is-large is-marginless is-backgroundless has-text-centered">
-    <div class="avatar is-status-success is-large"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.J7BXJeJ_RtMmmzzvrTORbgAAAA%26pid%3DApi&f=1&ipt=853e813463189d4e60950d989521a699e78c2c6cbabe7f97d410320d69d63522&ipo=images"></div>
+    <div class="avatar is-status-success is-large"><img src="https://www.gravatar.com/avatar/91c55047f7f392fe9b036d6c4dec4d61?s=400&d=robohash"></div>
     <span class="subtitle is-4"><strong>Aamir</strong> is online, using `is-status-success`</span>
     <hr class="is-visible is-soft is-size-2">
     <div class="avatar is-status-green is-large mr-5"><div>GR</div></div>

@@ -130,18 +130,17 @@
 .progress[value]::-webkit-progress-bar
     border-radius: $progress-border-radius
 .progress[value]::-webkit-progress-value
-    border-top-left-radius: 2rem
-    border-bottom-left-radius: 2rem
+    border-radius: 2rem
 
 @each $name, $pair in $progress-colors
     $color: nth($pair, 1)
     &.is-#{$name}
       &::-webkit-progress-value
-        box-shadow: 0 .125em .75rem rgba($color,.7)
+        box-shadow: 0 .125rem .75rem rgba($color,.5)
       &::-moz-progress-bar
-        box-shadow: 0 .125em .75rem rgba($color,.7)
+        box-shadow: 0 .125rem .75rem rgba($color,.5)
       &::-ms-fill
-        box-shadow: 0 .125em .75rem rgba($color,.7)
+        box-shadow: 0 .125rem .75rem rgba($color,.5)
     
 .progress:indeterminate
     background-image: repeating-linear-gradient(45deg, $grey, $grey 10px, mix($grey-dark,$grey,70) 10px, mix($grey-dark,$grey,70) 20px)
