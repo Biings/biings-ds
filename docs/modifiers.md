@@ -120,21 +120,25 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="8">Radius</th>
+            <th rowspan="9">Radius</th>
             <td><code>has-radius-[tr,bl]</code></td>
-            <td>Applies a regular <strong>radius</strong> on top-right or bottom-left corner</td>
+            <td>Applies a <strong>regular radius</strong> on top-right or bottom-left corner</td>
+        </tr>
+        <tr>
+            <td><code>has-radius-soft</code></td>
+            <td>Applies a <strong>soft radius</strong> on all corners</td>
         </tr>
         <tr>
             <td><code>has-radius-bold</code></td>
-            <td>Applies a strong <strong>radius</strong> on all corners</td>
+            <td>Applies a <strong>strong radius</strong> on all corners</td>
         </tr>
         <tr>
             <td><code>is-radiusless</code></td>
-            <td>Removes any <strong>radius</strong></td>
+            <td>Removes all corner radius</td>
         </tr>
         <tr>
             <td><code>is-radiusless-[l,r,t,b]</code></td>
-            <td>Removes <strong>both radius</strong> on the left, right, top or bottom side</td>
+            <td>Removes both radius on the left, right, top or bottom side</td>
         </tr>
         <tr>
             <td><code>is-radiusless-tl</code></td>

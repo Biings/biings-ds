@@ -87,6 +87,8 @@
 
 .has-radius-bold
     border-radius: 1.75rem
+.has-radius-soft
+    border-radius: .25em
     
 .has-radius-tr
     border-top-right-radius: $radius !important
@@ -160,7 +162,7 @@
         transform: rotate(0deg)
 
 .is-blinking
-    animation: blinking 1.4s infinite
+    animation: blinking 1.25s infinite
     animation-timing-function: ease-out
 
 @keyframes blinking 
@@ -177,11 +179,11 @@
 
 @keyframes blinkingPrimary 
     0%
-        box-shadow: 0 0 .3em .3em rgba($purple,.4)
+        box-shadow: 0 0 .25em .375em rgba($purple,.25)
     50%
         box-shadow: 0 0 0 0 rgba($purple,0)
     100%
-        box-shadow: 0 0 .3em .3em rgba($purple,.4)
+        box-shadow: 0 0 .25em .375em rgba($purple,.25)
 
 .is-blinking-success
     animation: blinkingSuccess 1.4s infinite
@@ -189,11 +191,11 @@
 
 @keyframes blinkingSuccess 
     0%
-        box-shadow: 0 0 .375em .375em rgba($success,.4)
+        box-shadow: 0 0 .25em .375em rgba($success,.4)
     50%
         box-shadow: 0 0 0 0 rgba($success,0)
     100%
-        box-shadow: 0 0 .375em .375em rgba($success,.4)
+        box-shadow: 0 0 .25em .375em rgba($success,.4)
         
 .is-blinking-danger
     animation: blinkingDanger 1.4s infinite

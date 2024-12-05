@@ -125,12 +125,23 @@
 // Progress bar
 .progress
     overflow: visible
+    background-color: inherit !important
 .progress.is-thin
     height: .375rem
+.progress.is-fat
+    height: 1.375rem
 .progress[value]::-webkit-progress-bar
     border-radius: $progress-border-radius
 .progress[value]::-webkit-progress-value
     border-radius: 2rem
+.progress.has-radius-soft[value]::-webkit-progress-bar
+    border-radius: .3125em
+.progress.has-radius-soft[value]::-webkit-progress-value
+    border-radius: .3125em
+    
+.progress.has-radius-soft
+      &::-webkit-progress-bar
+        background-color: rgba($black,.15)
 
 @each $name, $pair in $progress-colors
     $color: nth($pair, 1)
