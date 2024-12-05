@@ -13,6 +13,10 @@
 .tabs:not(.is-boxed,.is-toggle) > ul
     border: none
 
+.tabs:not(.is-toggle) > ul > li.is-active > a,
+.tabs.is-boxed > ul > li.is-active > a
+    font-weight: $weight-medium
+
 .tabs:not(.is-boxed):not(.is-toggle) > ul > li > a:after
     position: absolute
     right: 50%
@@ -35,7 +39,6 @@
 .tabs.is-boxed a
     padding: .625em 1.5em .875em
 .tabs.is-boxed > ul > li.is-active > a
-    font-weight: $weight-medium
     box-shadow: 0 1px 0 $white-bis
 .tabs.is-boxed > ul > li > a
     transition: none !important

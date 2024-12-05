@@ -7,8 +7,11 @@
     letter-spacing: -.01875em
     box-shadow: inset 0 0 0 1px rgba($black,.1), 0 .125rem .25rem rgba($dark,.1)
 
-.tooltip:not(.has-tooltip-info,.has-tooltip-dark,.has-tooltip-danger,.has-tooltip-warning,.has-tooltip-success,.has-tooltip-primary):before
+.tooltip:not(.has-tooltip-info,.has-tooltip-dark,.has-tooltip-danger,.has-tooltip-warning,.has-tooltip-success):before
     color: $dark
+    
+.tooltip.has-tooltip-primary:before
+    background-color: $primary-lightest !important
     
 // Delay the appearance of the tooltip
 .tooltip:hover.is-delayed:before,

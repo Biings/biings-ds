@@ -264,23 +264,6 @@ label.label > span
 .control.has-icons-right .icon
     margin-right: .25em
 
-// Icon animation when focused
-.control.has-icons-left > .icon.is-left
-    left: 0
-    opacity: 1
-    transition: left .25s ease-out, opacity .25s linear
-
-.control.has-icons-left > .input
-    transition: padding-left .25s ease-out
-
-.control.has-icons-left .input:focus + .icon.is-left
-    opacity: 0
-    left: -1.25rem
-
-.control.has-icons-left > .input:focus
-    padding-left: calc(.75em)
-
-
 @keyframes blinking
     0%
         box-shadow: 0 0 0 0 rgba($warning,0)

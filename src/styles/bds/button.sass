@@ -3,9 +3,9 @@ $control-height-small: 1.875rem !default
 .button
     letter-spacing: 0
     font-weight: 500
-    transition: background-color .15s linear, box-shadow .2s linear
+    transition: background-color .15s linear, box-shadow .175s linear
 
-.button:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined,.is-primary,.is-info,.is-warning,.is-danger,.is-success,.is-dark)
+.button:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined,.is-primary,.is-info,.is-danger,.is-success,.is-dark)
     box-shadow: $button-disabled-shadow
 
 .button.is-small
@@ -25,9 +25,20 @@ $control-height-small: 1.875rem !default
 .button.is-dark:not(.is-inverted,.is-light,.is-outlined),
 .button.is-success:not(.is-inverted,.is-light,.is-outlined),
 .button.is-danger:not(.is-inverted,.is-light,.is-outlined),
-.button.is-warning:not(.is-inverted,.is-light,.is-outlined),
 .button.is-info:not(.is-inverted,.is-light,.is-outlined)
     box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2)
+
+.button.is-primary:hover:not(.is-inverted,.is-light),
+.button.is-dark:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($purple,.2) !important
+.button.is-success:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($success,.2) !important
+.button.is-info:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($info,.2) !important
+.button.is-warning:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 0 0 .25em rgba($warning,.2) !important
+.button.is-danger:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($danger,.2) !important
     
 .button.is-primary.is-light
     background-color: findLightColor($primary)
@@ -88,15 +99,6 @@ $control-height-small: 1.875rem !default
 .button.is-outlined,
 .button.is-outlined:active
     background-color: transparent !important
-
-.button.is-outlined:hover
-    transition: none !important
-    
-.button.is-outlined:focus,
-.button.is-outlined:hover,
-.button.is-outlined.is-focused,
-.button.is-outlined.is-hovered
-    box-shadow: inset 0 0 0 1px $button-border-color
 
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover,
