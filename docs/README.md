@@ -21,19 +21,23 @@
 <hr>
 <div class="columns">
     <div class="column is-6">
-        <a href="#/brand" class="box is-medium is-bordered is-popping hover-to-floating has-background-info-gradient has-background-radial-tl">
-            <img src="media/bds.png" width="50" class="no-zoom"/>
-            <hr class="my-2">
-            <h2 class="title is-size-3-mobile has-text-background has-background-purple-radial has-moving-background pb-1">Foundation</h2>
-            <p class="subtitle is-5">Recommanded UI practices.</p>
+        <a href="#/brand">
+            <div class="box is-medium is-bordered is-popping has-lift has-background-info-gradient has-background-radial-tl">
+                <img src="media/bds.png" width="50" class="no-zoom"/>
+                <hr class="my-2">
+                <h2 class="title is-size-3-mobile has-text-background has-background-purple-radial has-moving-background pb-1">Foundation</h2>
+                <p class="subtitle is-5">Recommanded UI practices.</p>
+            </div>
         </a>
     </div>
     <div class="column is-6">
-        <a href="#/avatar" class="box is-medium is-bordered is-popping hover-to-floating has-background-secondary-gradient-light">
-            <img src="media/components.png" width="53" class="no-zoom"/>
-            <hr class="my-2">
-            <h2 class="title is-size-3-mobile has-text-background has-background-secondary-radial has-moving-background pb-1">Components</h2>
-            <p class="subtitle is-5">UI building blocks.</p>
+        <a href="#/avatar">
+            <div class="box is-medium is-bordered is-popping has-lift has-background-secondary-gradient-light">
+                <img src="media/components.png" width="53" class="no-zoom"/>
+                <hr class="my-2">
+                <h2 class="title is-size-3-mobile has-text-background has-background-secondary-radial has-moving-background pb-1">Components</h2>
+                <p class="subtitle is-5">UI building blocks.</p>
+            </div>
         </a>
     </div>
 </div>

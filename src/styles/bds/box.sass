@@ -1,5 +1,5 @@
 .box
-    transition: box-shadow .15s ease-out
+    transition: box-shadow .15s ease-out, transform .2s ease
 
 .box.is-small
     padding: .6rem .8rem
@@ -16,7 +16,10 @@
 /* $input-border-color*/
 .box.is-bordered,
 .box.hover-to-bordered:hover
-    box-shadow: inset 0 0 0 1px mix($dark,$code-background,4)
+    box-shadow: inset 0 0 0 1px rgba($black,.08)
+    
+.box.is-bordered.hover-to-bordered:hover
+    box-shadow: inset 0 0 0 1px rgba($black,.12)
 
 .box.is-bordered.is-link,
 .box.hover-to-bordered.is-link:hover
@@ -46,27 +49,36 @@
 
 .box.is-bordered.is-raised,
 .box.is-bordered.hover-to-raised:hover
-    box-shadow: inset 0 0 0 1px mix($dark,$code-background,4), 0 .2px 4px -2px rgba($dark, .1),0 .5px 5.1px -2px rgba($dark, .065),0 1.4px 5.9px -2px rgba($dark, .05),0 4px 8px -2px rgba($dark, .035), rgba($dark, .025) 0px 0px 0px 1px
+    box-shadow: inset 0 0 0 1px rgba($black,.1), 0 .2px 4px -2px rgba($dark, .1),0 .5px 5.1px -2px rgba($dark, .065),0 1.4px 5.9px -2px rgba($dark, .05),0 4px 8px -2px rgba($dark, .035), rgba($dark, .025) 0px 0px 0px 1px
 
 .box.is-floating,
 .box.hover-to-floating:hover
     background-color: white
     box-shadow: 0 .0625rem .125rem -1rem rgba($grey-darker, .04), 0 1.5rem 3.75rem rgba($grey-darker, .05), 0 .25rem .5rem rgba($grey-darker, .075), 0px 0px 0px 1px rgba($grey-darker, .025)
-    transition-duration: .3s
+    transition-duration: .2s
 
 .box.is-bordered.is-floating,
 .box.is-bordered.hover-to-floating:hover
-    box-shadow: inset 0 0 0 1px mix($dark,$code-background,4), 0 .0625rem .125rem -1rem rgba($grey-darker, .04), 0 1.5rem 3.75rem rgba($grey-darker, .05), 0 .25rem .5rem rgba($grey-darker, .075), 0px 0px 0px 1px rgba($grey-darker, .025)
+    box-shadow: inset 0 0 0 1px rgba($black,.1), 0 .0625rem .125rem -1rem rgba($grey-darker, .04), 0 1.5rem 3.75rem rgba($grey-darker, .05), 0 .25rem .5rem rgba($grey-darker, .075), 0px 0px 0px 1px rgba($grey-darker, .025)
 
 .box.is-popping,
 .box.hover-to-popping:hover
     background-color: white
     box-shadow: 0 .125rem .1875rem -1.125rem rgba($grey-darker, .9), 0 .25rem .625rem -1.25rem rgba($grey-darker, .12), 0 1.25rem 2.5rem -1.25rem rgba($grey-darker, .25), rgba($grey-darker, .025) 0px 0px 0px 1px
-    transition-duration: .4s
+    transition-duration: .3s
 
 .box.is-bordered.is-popping,
 .box.is-bordered.hover-to-popping:hover
-    box-shadow: inset 0 0 0 1px mix($dark,$code-background,4), 0 .125rem .1875rem -1.125rem rgba($grey-darker, .9), 0 .25rem .625rem -1.25rem rgba($grey-darker, .12), 0 1.25rem 2.5rem -1.25rem rgba($grey-darker, .25), rgba($grey-darker, .025) 0px 0px 0px 1px
+    box-shadow: inset 0 0 0 1px rgba($black,.1), 0 .125rem .1875rem -1.125rem rgba($grey-darker, .9), 0 .25rem .625rem -1.25rem rgba($grey-darker, .12), 0 1.25rem 2.5rem -1.25rem rgba($grey-darker, .25), rgba($grey-darker, .025) 0px 0px 0px 1px
+    
+.box.has-lift
+    transform: translateY(0)
+.box.has-lift:hover,
+.box.is-lifted
+    transform: translateY(-0.25em)
+.box.is-bordered.has-lift:hover,
+.box.is-bordered.is-lifted
+    
 
 // Expandable Box
 .box.is-expandable:not(.is-expanded) > .expanded-content
