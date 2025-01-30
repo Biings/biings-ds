@@ -210,9 +210,13 @@
             <td>Forces cursor to <strong>default arrow</strong></td>
         </tr>
         <tr>
-            <th rowspan="6" style="width: 5rem;">Position</th>
+            <th rowspan="7" style="width: 5rem;">Position</th>
             <td style="width: 14rem;"><code>is-relative</code></td>
             <td>Applies <code>position: relative</code> to the element</td>
+        </tr>
+        <tr>
+            <td style="width: 14rem;"><code>is-absolute</code></td>
+            <td>Applies <code>position: absolute</code> to the element</td>
         </tr>
         <tr>
             <td><code>is-sticky</code></td>
