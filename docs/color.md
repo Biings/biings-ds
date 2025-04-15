@@ -4,7 +4,7 @@
 <p class="is-size-4 has-text-dark"><strong>Color</strong> brings a design to life. It is used to express emotion and tone, as well as place emphasis and create associations. <em>Color should only be used to attract attention.</em></p>
 <hr class="is-visible is-size-3">
 <br>
-<h3 class="title is-family-primary">Brand</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Brand</h3>
 
 Brand colors are used when refering to Biings or any of its products.
 
@@ -31,7 +31,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">(Grey)scale</h3>
+<h3 class="title is-family-primary has-text-weight-bold">(Grey)scale</h3>
 
 <hr>
 
@@ -54,7 +54,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Palette</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Palette</h3>
 
 <hr>
 
@@ -73,6 +73,11 @@ Brand colors are used when refering to Biings or any of its products.
     <div class="column is-3"><div class="has-background-red has-shadow"><br><br></div><strong>red</strong><br><span class="is-dimmed is-family-monospace">#F45564</span></div>
     <div class="column is-3"><div class="has-background-red-light"><br><br></div><strong>red-light</strong><br><span class="is-dimmed is-family-monospace">#F78893</span></div>
     <div class="column is-3"><div class="has-background-red-lighter"><br><br></div><strong>red-lighter</strong><br><span class="is-dimmed is-family-monospace">#FDDDE0</span></div>
+    <div class="column is-12"></div>
+    <div class="column is-3"><div class="has-background-coral-dark"><br><br></div><strong>coral-dark</strong><br><span class="is-dimmed is-family-monospace">#D97A37</span></div>
+    <div class="column is-3"><div class="has-background-coral has-shadow"><br><br></div><strong>coral</strong><br><span class="is-dimmed is-family-monospace">#FF8F41</span></div>
+    <div class="column is-3"><div class="has-background-coral-light"><br><br></div><strong>coral-light</strong><br><span class="is-dimmed is-family-monospace">#FFB17A</span></div>
+    <div class="column is-3"><div class="has-background-coral-lighter"><br><br></div><strong>coral-lighter</strong><br><span class="is-dimmed is-family-monospace">#FFE9D9</span></div>
     <div class="column is-12"></div>
     <div class="column is-3"><div class="has-background-orange-dark"><br><br></div><strong>orange-dark</strong><br><span class="is-dimmed is-family-monospace">#D97A37</span></div>
     <div class="column is-3"><div class="has-background-orange has-shadow"><br><br></div><strong>orange</strong><br><span class="is-dimmed is-family-monospace">#FF8F41</span></div>
@@ -107,7 +112,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Status</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Status</h3>
 
 <hr>
 
@@ -128,7 +133,7 @@ Brand colors are used when refering to Biings or any of its products.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">CSS variables</h3>
+<h3 class="title is-family-primary has-text-weight-bold">CSS variables</h3>
 
 All colors are available as CSS variables through the prefix <code>--color-</code>.
 
@@ -145,7 +150,7 @@ All colors are available as CSS variables through the prefix <code>--color-</cod
     }
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Special Backgrounds</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Special Backgrounds</h3>
 
 Use special backgrounds to make a component <u>stand out</u>! You can combine some background with each other (blury, grainy, radials). <strong class="has-text-weight-medium">Backgrounds containing transparency are marked with a <sup class="has-text-red-light has-text-weight-bold">T</sup>.</strong>
 
@@ -193,17 +198,25 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
         <code>has-background-menu</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
     <!-- RADIAL -->
-    <div class="column is-4">
+    <div class="column is-3">
         <br><div class="box is-large is-bordered has-background-radial-tl">&nbsp;</div>
         <code>has-background-radial-tl</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-4">
+    <div class="column is-3">
         <br><div class="box is-large is-bordered has-background-radial-t">&nbsp;</div>
         <code>has-background-radial-t</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
     </div>
-    <div class="column is-4">
+    <div class="column is-3">
         <br><div class="box is-large is-bordered has-background-radial-tr">&nbsp;</div>
         <code>has-background-radial-tr</code> <sup class="has-text-red-light has-text-weight-bold">T</sup>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-grey-radial">&nbsp;</div>
+        <code>has-background-grey-radial</code>
+    </div>
+    <div class="column is-3">
+        <br><div class="box is-large has-background-primary-radial">&nbsp;</div>
+        <code>has-background-primary-radial</code>
     </div>
     <div class="column is-3">
         <br><div class="box is-large has-background-purple-radial">&nbsp;</div>
@@ -217,10 +230,6 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
         <br><div class="box is-large has-background-success-radial">&nbsp;</div>
         <code>has-background-success-radial</code>
     </div>
-    <div class="column is-3">
-        <br><div class="box is-large has-background-grey-radial">&nbsp;</div>
-        <code>has-background-grey-radial</code>
-    </div>
     <div class="column is-12">
         (ideal when combined with <code>has-text-background</code>)
     </div>
@@ -228,7 +237,7 @@ Use special backgrounds to make a component <u>stand out</u>! You can combine so
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Grainy texture</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Grainy texture</h3>
 
 Combine the modifier <code>has-background-grainy</code> with a background color to create a grainy texture effect.
 
@@ -255,7 +264,7 @@ Combine the modifier <code>has-background-grainy</code> with a background color 
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Blured effect</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Blured effect</h3>
 
 Ok it's not really a "color" but you can create a blurred effect using the modifier <code>has-background-blur</code> combined with `has-background-[white, white-bis, black-bis or dark]`.
 

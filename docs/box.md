@@ -15,7 +15,7 @@
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Box depths</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Box depths</h3>
 
 You can alter or bring focus to a box by adding a `is-[type]` class.
 
@@ -27,7 +27,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.
     <div class="subtitle has-text-grey-dark is-6"><strong>Box</strong> &nbsp; ( default )</div>
 </div>
 <br>
-<div class="box is-bordered has-text-grey is-medium">
+<div class="box is-bordered hover-to-bordered has-text-grey is-medium">
     <div class="subtitle has-text-grey-dark is-6"><strong>Bordered</strong></div>
 </div>
 <br>
@@ -54,7 +54,7 @@ You can alter or bring focus to a box by adding a `is-[type]` class.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Depth transition</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Depth transition</h3>
 
 You can add an effect to <strong>change the depth on hover</strong> by using one of the following classes :
 
@@ -86,7 +86,7 @@ You can add an effect to <strong>change the depth on hover</strong> by using one
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Sizes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Sizes</h3>
 
 You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` or `is-larger` to the box.
 
@@ -109,7 +109,7 @@ You can adjust the padding by adding class `is-small`, `is-medium`, `is-large` o
     <div class="box is-larger">Larger!</div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Expandable box</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Expandable box</h3>
 
 Use class `is-expandable` for boxes that can expand inline. Add the class `is-expanded` to expand it, the immediate child element with class `expanded-content` will be then shown.
 
@@ -137,4 +137,29 @@ Use class `is-expandable` for boxes that can expand inline. Add the class `is-ex
             An vero, inquit, quisquam potest probare, quod perceptfum, quod.
             Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri.
         </p>
+    </div>
+
+<hr class="is-size-1 is-visible">
+    
+<h3 class="title is-family-primary has-text-weight-bold">Lift-able box</h3>
+
+Use class `has-lift` for boxes that should lift up when hovered. Alternatively use `is-lifted` to make the box appear as if it was already lifted.
+
+<br><br>
+
+<div class="box is-well is-radiusless-b is-marginless is-larger">
+    <div class="columns is-variable is-2 is-italic">
+        <div class="column"><div class="box has-lift is-raised pt-6">Lift me up!</div></div>
+        <div class="column"><div class="box has-lift is-raised pt-6 has-background-primary-lightest">Lift me up!</div></div>
+        <div class="column"><div class="box has-lift is-raised pt-6 has-background-warning-light hover-to-floating">Lift me up!</div></div>
+        <div class="column"><div class="box is-lifted is-raised is-bordered pt-6 has-background-success-light is-floating">I'm already up.</div></div>
+    </div>
+</div>
+
+    <div class="box is-raised has-lift">
+       Lift me up!
+    </div>
+    
+    <div class="box is-raised is-lifted">
+       Already lifted
     </div>

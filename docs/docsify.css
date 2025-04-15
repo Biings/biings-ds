@@ -221,7 +221,7 @@ img.no-zoom
 .sidebar ul p.active a,
 .sidebar ul li.active a
 {
-    background-color: rgba(91,52,120,.1);
+    background-color: rgba(109,95,100,.075);
 }
 
 /* Code Highlighting */

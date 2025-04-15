@@ -19,7 +19,7 @@
         </tr>
         <tr>
             <td><code>has-text-background</code></td>
-            <td><span>Applies the <strong class="has-background-purple-radial has-text-background">background</strong> to the text.</span></td>
+            <td><span>Applies the <strong class="has-background-primary-radial has-text-background has-moving-background">background</strong> to the text.</span></td>
         </tr>
         <tr>
             <td><code>has-fill-[color]</code></td>
@@ -42,7 +42,7 @@
             <td>Makes a background or text color <strong>semi-transparent</strong></td>
         </tr>
         <tr>
-            <th rowspan="12">Text</th>
+            <th rowspan="14">Text</th>
             <td><code>is-size-[1 to 7]</code></td>
             <td>Changes the <strong>text size</strong> – default is <code>5</code></td>
         </tr>
@@ -84,11 +84,19 @@
         </tr>
         <tr>
             <td><code>is-italic</code></td>
-            <td>Transforms all characters to <strong>italic</strong></td>
+            <td>Transforms all characters to <strong>italic</strong> (text decoration)</td>
+        </tr>
+        <tr>
+            <td><code>is-underlined</code></td>
+            <td><strong>Underlines</strong> all words (text decoration)</td>
         </tr>
         <tr>
             <td><code>is-unselectable</code></td>
             <td>Prevents the text from being <strong>selectable</strong></td>
+        </tr>
+        <tr>
+            <td><code>is-ellipsis</code></td>
+            <td>Stops text overflow by displaying "..." instead.</td>
         </tr>
         <!-- <tr>
             <td><code>is-tight</code></td>
@@ -112,21 +120,25 @@
             <td>Removes any <strong>padding</strong></td>
         </tr>
         <tr>
-            <th rowspan="8">Radius</th>
+            <th rowspan="9">Radius</th>
             <td><code>has-radius-[tr,bl]</code></td>
-            <td>Applies a regular <strong>radius</strong> on top-right or bottom-left corner</td>
+            <td>Applies a <strong>regular radius</strong> on top-right or bottom-left corner</td>
+        </tr>
+        <tr>
+            <td><code>has-radius-soft</code></td>
+            <td>Applies a <strong>soft radius</strong> on all corners</td>
         </tr>
         <tr>
             <td><code>has-radius-bold</code></td>
-            <td>Applies a strong <strong>radius</strong> on all corners</td>
+            <td>Applies a <strong>strong radius</strong> on all corners</td>
         </tr>
         <tr>
             <td><code>is-radiusless</code></td>
-            <td>Removes any <strong>radius</strong></td>
+            <td>Removes all corner radius</td>
         </tr>
         <tr>
             <td><code>is-radiusless-[l,r,t,b]</code></td>
-            <td>Removes <strong>both radius</strong> on the left, right, top or bottom side</td>
+            <td>Removes both radius on the left, right, top or bottom side</td>
         </tr>
         <tr>
             <td><code>is-radiusless-tl</code></td>
@@ -145,7 +157,7 @@
             <td>Removes <strong>bottom right radius</strong></td>
         </tr>
         <tr>
-            <th rowspan="10">Visibility</th>
+            <th rowspan="13">Visibility</th>
             <td><code>is-shadowless</code></td>
             <td>Removes any <strong>shadow</strong></td>
         </tr>
@@ -182,13 +194,29 @@
             <td>Hide elements <strong>visually</strong> but keep the element available to be announced by a <strong>screen reader</strong></td>
         </tr>
         <tr>
-            <td><code>is-clickable</code></td>
-            <td>Forces the cursor to be a Pointer</td>
+            <td class="is-clickable"><code>is-clickable</code></td>
+            <td>Forces cursor to be a <strong>Pointer</strong></td>
         </tr>
         <tr>
-            <th rowspan="6" style="width: 5rem;">Position</th>
+            <td class="is-progress"><code>is-progress</code></td>
+            <td>Forces cursor to show <strong>progress</strong></td>
+        </tr>
+        <tr>
+            <td class="is-not-allowed"><code>is-not-allowed</code></td>
+            <td>Forces cursor to indicate <strong>none-allowance</strong></td>
+        </tr>
+        <tr>
+            <td class="is-default"><code>is-default</code></td>
+            <td>Forces cursor to <strong>default arrow</strong></td>
+        </tr>
+        <tr>
+            <th rowspan="7" style="width: 5rem;">Position</th>
             <td style="width: 14rem;"><code>is-relative</code></td>
             <td>Applies <code>position: relative</code> to the element</td>
+        </tr>
+        <tr>
+            <td style="width: 14rem;"><code>is-absolute</code></td>
+            <td>Applies <code>position: absolute</code> to the element</td>
         </tr>
         <tr>
             <td><code>is-sticky</code></td>
@@ -211,13 +239,17 @@
             <td>Moves an element to the right</td>
         </tr>
         <tr>
-            <th rowspan="6" style="width: 5rem;">FX</th>
+            <th rowspan="9" style="width: 5rem;">FX</th>
             <td><code>is-ephemeral</code> </td>
             <td>Fades out an element after 3 seconds</td>
         </tr>
         <tr>
             <td><code>is-shaked</code></td>
             <td>Shakes an element for 1.5 seconds</td>
+        </tr>
+        <tr>
+            <td><code>bounce-in</code></td>
+            <td>Bounce in an element (a fun way to make something appear on screen)</td>
         </tr>
         <tr>
             <td><code>is-twisted[-bis,-ter,-quater]</code></td>
@@ -234,6 +266,14 @@
         <tr>
             <td><code>has-background-grainy</code></td>
             <td>Adds a grainy background effect.</td>
+        </tr>
+        <tr>
+            <td><code>is-blinking[-success,-danger]</code></td>
+            <td>Adds a flashing halo around almost any element.</td>
+        </tr>
+        <tr>
+            <td><code>has-moving-background</code></td>
+            <td>Adds a moving animation to the background.</td>
         </tr>
     </tbody>
 </table>

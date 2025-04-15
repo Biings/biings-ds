@@ -123,7 +123,36 @@
 
 
 // Progress bar
+.progress
+    overflow: visible
+    background-color: inherit !important
+.progress.is-thin
+    height: .375rem
+.progress.is-fat
+    height: 1.375rem
+.progress[value]::-webkit-progress-bar
+    border-radius: $progress-border-radius
+.progress[value]::-webkit-progress-value
+    border-radius: 2rem
+.progress.has-radius-soft[value]::-webkit-progress-bar
+    border-radius: .3125em
+.progress.has-radius-soft[value]::-webkit-progress-value
+    border-radius: .3125em
+    
+.progress.has-radius-soft
+      &::-webkit-progress-bar
+        background-color: rgba($black,.15)
 
+@each $name, $pair in $progress-colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      &::-webkit-progress-value
+        box-shadow: 0 .125rem .75rem rgba($color,.5)
+      &::-moz-progress-bar
+        box-shadow: 0 .125rem .75rem rgba($color,.5)
+      &::-ms-fill
+        box-shadow: 0 .125rem .75rem rgba($color,.5)
+    
 .progress:indeterminate
     background-image: repeating-linear-gradient(45deg, $grey, $grey 10px, mix($grey-dark,$grey,70) 10px, mix($grey-dark,$grey,70) 20px)
     animation: progressing .35s linear infinite

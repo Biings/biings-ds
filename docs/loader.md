@@ -12,7 +12,7 @@
 
 <hr class="is-size-4">
 
-<h3 class="title is-family-primary">Sizes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Sizes</h3>
 
 Loaders automatically adapt to text size.<br>Use text size modifier classes `is-size-[1-7]` if you want to apply a particular size to the loader.
 
@@ -35,7 +35,7 @@ element you wish the loader to center itself to.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Inline</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Inline</h3>
 
 Add class `is-inline` to remove the auto-centering of the loader.
 
@@ -61,7 +61,7 @@ Add class `is-inline` to remove the auto-centering of the loader.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Colorful</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Colorful</h3>
 
 Add class `is-[primary,secondary,success,info,pink]` to give the loader a unique Biings look.
 
@@ -77,7 +77,7 @@ Add class `is-[primary,secondary,success,info,pink]` to give the loader a unique
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Inverted</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Inverted</h3>
 
 Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
@@ -89,7 +89,7 @@ Add class `is-inverted` when displayed <strong>on a dark background</strong>.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Indeterminate</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Indeterminate</h3>
 
 Add class `is-indeterminate` to express an long or an unknown loading duration.
 
@@ -101,7 +101,7 @@ Add class `is-indeterminate` to express an long or an unknown loading duration.
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Progress Bar</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Progress Bar</h3>
 
 A native progress bar can replace a loader.
 

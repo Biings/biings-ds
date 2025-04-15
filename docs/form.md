@@ -7,7 +7,7 @@
 <p class="is-size-4 has-text-dark">Wrap any [Input](input), [Select list](dropdown#selectlist), [Checkbox](checkbox) or [Radio button](radio) in a Form field to present it in a <strong>consistent manner</strong> throughout a form.</p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Input field</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Input field</h3>
 
 Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to change the status.
 
@@ -59,7 +59,7 @@ Use modifiers `is-warning`, `is-info`, `is-danger` etc. to the `.field` div to c
         </div>
     </form>
 <hr class="is-visible is-size-1">
-<h3 class="title is-family-primary">Required or Optional</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Required or Optional</h3>
 
 In most cases it is better to indicate the optional fields rather than the required ones. Add a `span` inside the label saying "Optional" is the way to go.
 
@@ -104,7 +104,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Select field</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Select field</h3>
 
 <br><form class="box is-raised is-radiusless-b is-large is-marginless">
     <div class="field select is-warning">
@@ -130,7 +130,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Dropdown Field</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Dropdown Field</h3>
 
 <br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="dropdown is-hoverable is-fullwidth is-iconless">
@@ -168,7 +168,7 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Checkbox / Radio field</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Checkbox / Radio field</h3>
 
 <br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-multiline is-small">
@@ -238,22 +238,24 @@ In most cases it is better to indicate the optional fields rather than the requi
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Compact Form</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Compact Form</h3>
 
-Group similar field together by adding `is-gapless` to the wrapping `columns` container.
+Group similar field together by adding `is-gapless` to the wrapping `columns` container.<br><br>
+
+?> Combine `is-required`, `is-warning`, `is-danger` with tooltips to guide users into solving form validation.
 
 <br><form class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="columns is-gapless is-multiline">
-        <div class="column is-3">
+        <div class="column is-9">
             <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
+                <label for="compact1" class="label">Long Field</label>
                 <input id="compact2" class="input"></input>
             </div>
         </div>
-        <div class="column is-9">
-            <div class="field is-warning is-required has-radius-tr">
+        <div class="column is-3">
+            <div class="field has-radius-tr tooltip has-tooltip-active has-tooltip-danger is-danger has-tooltip-arrow has-tooltip-bottom" data-tooltip="Maximum 3 characters please">
                 <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input has-radius-tr"></input>
+                <input id="compact2" class="input has-radius-tr" value="ACDC"></input>
             </div>
         </div>
         <div class="column is-12">
@@ -289,7 +291,7 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
             </div>
         </div>
         <div class="column is-12">
-            <div class="field">
+            <div class="field is-warning is-required">
                 <label for="compact1" class="label">Twelve Textarea</label>
                 <textarea id="compact2" class="textarea" rows="2"></textarea>
             </div>
@@ -319,13 +321,16 @@ Group similar field together by adding `is-gapless` to the wrapping `columns` co
 <hr class="is-marginless is-visible">
 
     <form class="columns is-gapless is-multiline">
-        <div class="column is-6">
-            <div class="field">
-                <label for="compact1" class="label">Compact Field</label>
-                <input id="compact2" class="input"></textarea>
-            </div>
+    <div class="column is-6">
+        <div
+            class="field is-danger tooltip has-tooltip-active has-tooltip-danger has-tooltip-bottom"
+            data-tooltip="Error message"
+        >
+            <label for="compact1" class="label">Compact Field</label>
+            <input id="compact2" class="input">
         </div>
-        <!-- ETC -->
+    </div>
+    <!-- ETC -->
     </form>
 <hr>
 <br>

@@ -2,11 +2,20 @@
     overflow: visible
 .tabs > ul > li
     position: relative
-.tabs:hover > ul > li:not(:hover,.is-active) > a
+.tabs.has-hr > ul > li:not(:hover,.is-active) > a,
+.tabs.is-boxed:hover > ul > li:not(:hover,.is-active) > a
     color: rgba($text,.75)
 
 .tabs:not(.is-boxed,.is-toggle) + hr
-    margin-top: 1px;
+    margin-top: 0;
+    height: 2px;
+    
+.tabs:not(.is-boxed,.is-toggle) > ul
+    border: none
+
+.tabs:not(.is-toggle) > ul > li.is-active > a,
+.tabs.is-boxed > ul > li.is-active > a
+    font-weight: $weight-medium
 
 .tabs:not(.is-boxed):not(.is-toggle) > ul > li > a:after
     position: absolute
@@ -30,32 +39,45 @@
 .tabs.is-boxed a
     padding: .625em 1.5em .875em
 .tabs.is-boxed > ul > li.is-active > a
-    font-weight: $weight-medium
     box-shadow: 0 1px 0 $white-bis
+.tabs.is-boxed > ul > li > a
+    transition: none !important
 
 .tabs.is-toggle a
-    padding: .5em 1.25em
-    margin: 1px 0
+    padding: .3125em 1em
+    margin: .125em
     border-radius: $tabs-toggle-link-radius
+.tabs.is-toggle > ul > li.is-active > a
+    box-shadow: $card-shadow
 .tabs.is-toggle li:first-child
     border-radius: $tabs-toggle-link-radius 0 0 $tabs-toggle-link-radius
 .tabs.is-toggle li:last-child
     border-radius: 0 $tabs-toggle-link-radius $tabs-toggle-link-radius 0
 
-
 /* With HR background */
-.tabs.is-toggle.has-hr > ul > li
-    background-color: $code-background
+.tabs.is-toggle.has-hr a
+    margin: .25em
+.tabs.is-toggle.has-hr > ul
+    background-color: $white-ter
+    border-radius: $radius-large+1
+.tabs.is-toggle.has-hr:not(.is-small) > ul
+    box-shadow: inset 0 0 0 1px rgba($black,.04), inset 0 0.25em 0.5em -0.25em rgba($black,.08)
+.tabs.is-toggle.has-hr:not(.is-fullwidth) > ul
+    flex-grow: unset
 .tabs.is-toggle.has-hr > ul > li.is-active > a
     background-color: $white
     box-shadow: $card-shadow
-    
-    
+.tabs.is-toggle.has-hr > ul > li:not(.is-active) > a:hover
+    background-color: rgba($white,.4)
+
 // Rounded toggle
 .tabs.is-toggle.is-toggle-rounded  li:first-child
     border-radius: $radius-rounded 0 0 $radius-rounded
 .tabs.is-toggle.is-toggle-rounded  li:last-child
     border-radius: 0 $radius-rounded $radius-rounded 0
+.tabs.is-toggle.has-hr.is-toggle-rounded > ul
+    border-radius: $radius-rounded
 
 .tabs.is-toggle.is-toggle-rounded li > a
     border-radius: 2em !important
+

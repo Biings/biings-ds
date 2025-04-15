@@ -1,5 +1,10 @@
 .modal
     display: flex !important
+    // for Vue Transition compatibility
+    top: -15%
+    left: -15%
+    right: -15%
+    bottom: -15%
 
 .modal:not(.is-active)
     z-index: -100
@@ -67,7 +72,8 @@
     max-width: 100%
     text-align: center
     letter-spacing: -.05em
-    font-weight: $weight-semibold
+    font-weight: $weight-medium
+    font-family: $family-secondary
 
 .icon + .modal-card-title
     margin-left: .625rem

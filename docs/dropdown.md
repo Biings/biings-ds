@@ -9,7 +9,7 @@
 <div class="box is-raised is-radiusless-b is-medium is-marginless">
     <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
-            <div class="button is-secondary">Hover me</div>
+            <div class="button">Hover me</div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
@@ -25,7 +25,7 @@
     </div>
     <div class="dropdown is-active is-pulled-right is-right is-size-7 mt-1">
         <div class="dropdown-trigger">
-            <div class="button is-secondary is-small">Opened Dropdown</div>
+            <div class="button is-small">Opened Dropdown</div>
         </div>
         <div class="dropdown-menu">
             <div class="dropdown-content">
@@ -67,7 +67,7 @@
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Pointing arrows</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Pointing arrows</h3>
 
 <ul class="list">
     <li>Add class <code>has-arrow</code> to clearly indicate the element the dropdown is attached to.</li>
@@ -116,7 +116,7 @@
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Shifted</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Shifted</h3>
 
 Sometimes it isn't necessary to keep the dropdown trigger visible, or screen real estate is simply to limited for it to stay visible. In those situations add class `is-shifted` in order to display the dropdown list right under the cursor once openened.
 <br><br>
@@ -214,7 +214,7 @@ Use `is-shifted-left` or `is-shifted-right` to manage positions and shift dropdo
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Nested</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Nested</h3>
 
 A dropdown can be nested inside another one in order to create sub-menus. Combine it with shifted dropdowns to manage positioning and avoid overlaps.
 
@@ -296,7 +296,7 @@ A dropdown can be nested inside another one in order to create sub-menus. Combin
     </div>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Dropdown menu</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Dropdown menu</h3>
 
 Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when your dropdown needs to be more than just a list.
 
@@ -353,9 +353,9 @@ Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when you
         </div>
     </div>
     &nbsp;
-    <div class="dropdown is-hoverable is-inverted">
+    <div class="dropdown is-hoverable is-inverted is-up has-arrow">
         <div class="dropdown-trigger">
-            <div class="button is-dark">Menu dropdown</div>
+            <div class="button is-primary">Menu dropup</div>
         </div>
         <div class="dropdown-menu" role="menu">
             <div class="dropdown-content box is-small is-size-7 has-background-primary-dark">
@@ -412,7 +412,7 @@ Combine dropdowns with <a href="#/menu" class="is-underlined">menus</a> when you
 <a id="selectlist"></a>
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Select list</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Select list</h3>
 
 Create a system default select list just by wrapping it with a `.select` div. Modifiers like `is-small`, `is-medium`, `is-info`, etc are also supported.
 
@@ -423,11 +423,10 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
 <hr>
 
 <div class="box is-raised is-radiusless-b is-large is-marginless">
-    <div class="select is-small is-danger">
-        <select>
+    <div class="select is-small">
+        <select class="button is-light">
             <option value="">Small</option>
-            <option value="">Danger</option>
-            <option value="">Select</option>
+            <option value="">Select Button</option>
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
@@ -439,7 +438,7 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
             <option value="">List</option>
         </select>
     </div> &nbsp; &nbsp;
-    <div class="select is-medium is-info">
+    <div class="select is-medium is-warning">
         <select disabled>
             <option value="">Medium</option>
             <option value="">Warning</option>
@@ -447,8 +446,27 @@ Create a system default select list just by wrapping it with a `.select` div. Mo
             <option value="">List</option>
         </select>
     </div>
+    &nbsp; &nbsp;
+    <div class="select is-large is-info">
+        <select>
+            <option value="">Large</option>
+            <option value="">Info</option>
+            <option value="">Select</option>
+            <option value="">List</option>
+        </select>
+    </div>
 </div>
 
+    // Select on a button
+    <div class="select is-small">
+        <select class="button is-light" required>
+            <option value="" disabled selected hidden>Default</option>
+            <option value="1">System</option>
+            <option value="2">Select</option>
+            <option value="3">List</option>
+        </select>
+    </div>
+    // Medium select
     <div class="select is-medium is-info">
         <select required>
             <option value="" disabled selected hidden>Default</option>

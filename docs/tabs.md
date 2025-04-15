@@ -7,8 +7,8 @@
 <hr class="is-visible is-size-3"><br>
 
 <div class="box is-raised is-marginless is-large is-radiusless-b">
-    <div class="tabs is-fullwidth my-0">
-        <ul class="is-borderless">
+    <div class="tabs is-fullwidh my-0 is-small">
+        <ul>
             <li><a>Pilot</a></li>
             <li><a>Care</a></li>
             <li><a>Claim</a></li>
@@ -29,7 +29,7 @@
     <hr class="is-visible">
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Toggle Tabs</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Toggle Tabs</h3>
 
 Make your Tabs acts as Togglers between different states (or tabs) by combining `is-toggle`, `is-small`, `is-fullwidth` and `is-toggle-rounded` and `is-transparent`.
 <br><br>
@@ -38,14 +38,6 @@ Toggle tabs can also appear on a horizontal line, just add class `has-hr`.
 <br><br>
 
 <div class="box is-bordered is-large is-marginless is-radiusless-b">
-    <div class="tabs is-toggle is-fullwidth toggle-rounded">
-        <ul>
-            <li><a>Employer</a></li>
-            <li class="is-active"><a>Incapacity</a></li>
-            <li><a>Absence</a></li>
-        </ul>
-    </div>
-    <hr class="is-visible my-5">
     <div class="tabs is-toggle">
         <ul>
             <li><a>Let</a></li>
@@ -55,8 +47,8 @@ Toggle tabs can also appear on a horizontal line, just add class `has-hr`.
             <li><a>You</a></li>
         </ul>
     </div>
-    <hr class="is-visible my-5">
-    <div class="tabs is-toggle is-small has-hr">
+    <hr class="my-4">
+    <div class="tabs is-toggle has-hr">
         <ul>
             <li id="js-tab-1"><a onclick="toggleTab(1)">All</a></li>
             <li id="js-tab-2"><a onclick="toggleTab(2)">Toggle Tabs</a></li>
@@ -78,7 +70,7 @@ Toggle tabs can also appear on a horizontal line, just add class `has-hr`.
 
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Boxed Tabs</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Boxed Tabs</h3>
 
 Give your Tabs a bolder look by using `is-boxed` in combinaision with a box component immediately after.
 

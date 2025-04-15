@@ -8,7 +8,7 @@
 <p class="is-size-4 has-text-dark is-italic is-size-5-mobile">"Writing is easy. All you have to do is cross out the <strike>wrong</strike> words."</p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Be clear and concise</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Be clear and concise</h3>
 Try to remove any unnecessary words or phrase.
 <hr class="is-size-7">
 <div class="box is-raised py-2 has-background-radial-tr">
@@ -34,7 +34,7 @@ Try to remove any unnecessary words or phrase.
 
 <hr class="is-size-2">
 
-<h3 class="title is-family-primary">Write "the way you speak"</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Write "the way you speak"</h3>
 Content should not feel complex or distant. Rather, it should be like a conversation with a smart friend.
 <hr class="is-size-7">
 <div class="box is-raised py-2 has-background-radial-tr has-background-grainy">
@@ -64,7 +64,7 @@ Content should not feel complex or distant. Rather, it should be like a conversa
 
 <hr class="is-size-2">
 
-<h3 class="title is-family-primary">Use simple tense.</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Use simple tense.</h3>
 <hr class="is-size-7">
 <div class="box is-raised py-2 has-background-radial-tr has-background-grainy">
     <table class="table is-fullwidth is-marginless">
@@ -89,7 +89,7 @@ Content should not feel complex or distant. Rather, it should be like a conversa
 
 <hr class="is-size-2">
 
-<h3 class="title is-family-primary">Active or Passive voice</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Active or Passive voice</h3>
 
 Use an active voice for most of your content, especially when it involves a human or when the subject needs to be emphasized.
 
@@ -133,7 +133,7 @@ Use an active voice for most of your content, especially when it involves a huma
 
 <hr class="is-size-2">
 
-<h3 class="title is-family-primary">Make long text easy to read</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Make long text easy to read</h3>
 
 A correct balance between typography, font size and line length contributes to make our writings easy to read. 
 Try to write a maximum of <em class="has-text-weight-semibold px-1">100 characters</em> per line in order to maximise legibility.

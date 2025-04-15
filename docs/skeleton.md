@@ -17,7 +17,7 @@
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Anything can be a Skeleton</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Anything can be a Skeleton</h3>
 
 Add class `has-skeleton` to any empty component to show its skeleton.
 

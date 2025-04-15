@@ -22,3 +22,9 @@ hr.is-wavy
 
 hr.is-soft
     background: linear-gradient(90deg,rgba($hr-background-color,0) 0%,$hr-background-color 12%,$hr-background-color 88%,rgba($hr-background-color,0) 100%)
+
+/* Columns */
+/* Variable gap also applied on vertical padding */
+.columns.is-multiline.is-variable > .column
+    padding-top: var(--columnGap);
+    padding-bottom: var(--columnGap);

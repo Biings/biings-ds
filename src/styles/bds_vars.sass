@@ -10,7 +10,7 @@ $cyan           : #01bfea !default
 $blue           : #087fd2 !default
 $purple         : #aa50b5 !default
 $red            : #f45564 !default
-$orange         : #ff8f41 !default
+$orange         : #F77D2C !default
 $green          : #7db058 !default
 $yellow         : #ffc748 !default
 $turquoise      : #00c8b5 !default
@@ -27,15 +27,16 @@ $grey-lighter   : #dfdad7 !default
 $grey-lightest  : #e7e2e0 !default
 
 $white-ter      : #efebe9 !default
-$white-bis      : #FAF7F5 !default
+$white-bis      : #faf7f5 !default
 $white          : #ffffff !default
 
 // Main colors
 $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
-$light          : #eae9eb !default
+$light          : $white-ter !default // Previously #EAE9EB
 $dark           : mix(black, $primary, 50) !default
 
 // Special colors (NOT BULMA) —————————————————————
+
 $primary-lightest: mix(white, $primary, 95) !default
 $primary-lighter: mix(white, $primary, 85) !default
 
@@ -60,9 +61,9 @@ $red-dark       : mix(black, $red, 20) !default
 $red-light      : mix(white, $red, 30) !default
 $red-lighter    : mix(white, $red, 80) !default
 
-$orange-dark    : mix(black, $orange, 15) !default
-$orange-light   : mix(white, $orange, 30) !default
-$orange-lighter : mix(white, $orange, 80) !default
+$orange-dark    : #D55D0C !default
+$orange-light   : #FBAE7C !default
+$orange-lighter : #FEE9DB !default
 
 $yellow-dark    : mix(black, $yellow, 15) !default
 $yellow-light   : mix(white, $yellow, 30) !default
@@ -80,6 +81,11 @@ $pink           : #E26EA5 !default
 $pink-dark      : mix(black, $pink, 25) !default
 $pink-light     : mix(white, $pink, 30) !default
 $pink-lighter   : mix(white, $pink, 80) !default
+
+$coral          : #FF8B72 !default
+$coral-dark      : mix(black, $coral, 25) !default
+$coral-light     : mix(white, $coral, 30) !default
+$coral-lighter   : mix(white, $coral, 80) !default
 
 // ———— (NOT BULMA END) ————————————————————————————
 
@@ -123,8 +129,8 @@ $warning-dark: mix(black, $warning, 15) !default
 $danger-invert: findColorInvert($danger) !default
 $danger-light: findLightColor($danger) !default
 $danger-dark: mix(black, $danger, 15) !default
-$light-invert: $black-ter !default
-$dark-invert: $light !default
+$light-invert: $dark !default
+$dark-invert: $white !default
 
 // General colors
 
@@ -135,7 +141,7 @@ $scheme-invert: $dark !default
 $scheme-invert-bis: $black-bis !default
 $scheme-invert-ter: $black-ter !default
 
-$background: rgba($black,.04) !default
+$background: rgba($black,.05) !default
 
 $border: transparent !default
 $border-hover: rgba($primary-dark,.075) !default
@@ -181,7 +187,7 @@ $family-monospace: 'Roboto Mono', monospace !default
 $render-mode: optimizeLegibility !default
 
 $family-primary: $family-sans-serif !default
-$family-secondary: 'CrimsonPro', serif !default
+$family-secondary: 'Plush', serif !default
 $family-code: $family-monospace !default
 
 $size-1: 3.875rem !default
@@ -311,7 +317,7 @@ $modal-card-head-padding: 1.65rem 1.75rem !default
 $modal-card-body-padding: 1.625rem 1.75rem !default
 $modal-card-title-color: $dark !default
 $modal-card-title-line-height: 1 !default
-$modal-card-title-size: $size-4 !default
+$modal-card-title-size: 1.5rem !default
 $modal-close-dimensions: $size-2 !default
 $modal-close-right: $size-5 !default
 $modal-close-top: $size-5 !default
@@ -332,32 +338,41 @@ $dropdown-divider-background-color: $hr-background-color !default
 $dropdown-menu-min-width: 12em !default
 
 // Form elements
-$control-height: 2.625em !default
+$control-height: 2.5em !default
 $control-line-height: 1.5 !default
 $control-border-width: 1px !default
-$control-padding-vertical: calc(0.5em - 1px) !default
-$control-padding-horizontal: calc(.875em - 1px) !default
+$control-padding-vertical: .25em !default
+$control-padding-horizontal: .875em !default
+$control-radius-small: $radius !default
 
+$button-color: $text !default
 $button-background-color: white !default
-$button-border-color: mix($black,$light,6) !default
+$button-border-color: $grey-lighter !default
 $button-border-width: 1px !default
 $button-hover-color: inherit !default
 $button-hover-border-color: mix($black,$light,12) !default
 $button-active-color: $text !default
 $button-active-border-color: $button-border-color !default
 $button-focus-border-color: $button-hover-border-color !default
-$button-padding-vertical: calc(0.25em - #{$button-border-width}) !default
+$button-padding-vertical: $control-padding-vertical !default
+$button-padding-horizontal: $control-padding-horizontal !default
 $button-static-color: current !default
 $button-static-background-color: current !default
 $button-static-border-color: current !default
-$button-text-color: $text !default
+$button-text-color: $primary !default
 $button-text-decoration: none !default
-$button-text-hover-background-color: $code-background !default
-$button-text-hover-color: $text-strong !default
+$button-text-hover-background-color: rgba($primary,.075) !default
+$button-text-hover-color: $button-text-color !default
+$button-disabled-background-color: $scheme-main !default
+$button-disabled-border-color: $button-border-color !default
+// disabled shadow also used as regular button shadow
+$button-disabled-shadow: 0 1px 3px -2px rgba($black, .3) !default
+$button-disabled-opacity: 1 !default
 $button-responsive-sizes: ("mobile": ("small": ($size-small * 0.875), "normal": ($size-small * 0.9375), "medium": $size-small, "large": $size-normal), "tablet-only": ("small": ($size-small * 0.9375), "normal": ($size-small), "medium": $size-normal, "large": $size-medium)) !default
 
-$input-shadow: none !default
-$input-background-color: transparent !default
+$input-radius: $radius-large !default
+$input-shadow: inset 0 1px 2px rgba($black,.06) !default
+$input-background-color: rgba($white,.5) !default
 $input-color: $text !default
 $input-placeholder-color: rgba($input-color, 0.35) !default
 $input-arrow: $grey !default
@@ -370,16 +385,16 @@ $input-focus-box-shadow-color: transparent !default
 $label-color: $dark !default
 $label-weight: $weight-normal !default
 
-$input-disabled-color: $black-bis !default
-$input-disabled-border-color: transparent !default
+$input-disabled-color: $input-color !default
+$input-disabled-border-color: $input-border-color !default
 $input-disabled-placeholder-color: $input-placeholder-color !default
 
 $menu-item-color: $dark !default
 $menu-item-radius: $radius !default
 $menu-item-hover-color: $menu-item-color !default
-$menu-item-hover-background-color: rgba($dark,.075) !default
+$menu-item-hover-background-color: rgba($dark,.03) !default
 $menu-item-active-color: $menu-item-color !default
-$menu-item-active-background-color: $menu-item-hover-background-color !default
+$menu-item-active-background-color: $background !default
 $menu-list-border-left: 2px solid $border-hover !default
 $menu-list-line-height: inherit !default
 $menu-label-color: $purple !default
@@ -390,20 +405,20 @@ $menu-label-spacing: 1em !default
 $table-color: $text !default
 $table-background-color: transparent !default
 $table-head-cell-border-width: 0 0 1px !default
-$table-cell-border: 1px solid $code-background !default
+$table-cell-border: 1px solid $background !default
 $table-cell-border-width: 0 0 1px !default
-$table-row-hover-background-color: $code-background !default
-$table-striped-row-even-background-color: $code-background !default
+$table-row-hover-background-color: $background !default
+$table-striped-row-even-background-color: $background !default
 $table-striped-row-even-hover-background-color: $table-row-hover-background-color !default
-$table-row-active-background-color: rgba($primary,.075) !default
-$table-row-active-color: $code-background !default
+$table-row-active-background-color: $button-text-hover-background-color !default
+$table-row-active-color: $background !default
 
 // Tabs
 $tabs-border-bottom-color: transparent !default
 $tabs-link-padding: 0.75em 1.125em !default
 $tabs-link-hover-border-bottom-color: $code-background !default
 $tabs-link-active-border-bottom-color: transparent !default
-$tabs-border-bottom-width: 1px !default
+$tabs-border-bottom-width: 2px !default
 $tabs-link-color: rgba($text,.9) !default
 $tabs-link-hover-color: $text !default
 $tabs-link-active-color: $text !default
@@ -411,10 +426,10 @@ $tabs-link-active-color: $text !default
 $tabs-toggle-link-border-color: transparent !default
 $tabs-toggle-link-border-style: solid !default
 $tabs-toggle-link-border-width: 0 !default
-$tabs-toggle-link-hover-background-color: transparent !default
+$tabs-toggle-link-hover-background-color: $white-ter !default
 $tabs-toggle-link-hover-border-color: transparent !default
 $tabs-toggle-link-radius: $radius-large !default
-$tabs-toggle-link-active-background-color: $code-background !default
+$tabs-toggle-link-active-background-color: $white !default
 $tabs-toggle-link-active-border-color: transparent !default
 $tabs-toggle-link-active-color: $text !default
 
@@ -428,11 +443,14 @@ $tabs-boxed-link-hover-background-color: transparent !default
 $card-content-padding: 1.5em 2.25em 1.625em !default
 $card-footer-border-top: none !default
 $card-footer-padding: 0.5em 2.25em 1.375em !default
-$card-shadow: 0 0.25em .5em -0.125em rgba($scheme-invert, 0.075), 0 0px 0 2px rgba($scheme-invert, 0.02) !default
+// $card-shadow: 0 0.25em .5em -0.125em rgba($scheme-invert, 0.075), 0 0px 0 2px rgba($scheme-invert, 0.02) !default
+$card-shadow: 0 0 0 .0625em rgba($scheme-invert, 0.05), 0 0.1em 0.6em -0.5em rgba($scheme-invert, 0.05), 0 0.2em 1em -0.8em rgba($scheme-invert, 0.1), 0 0.4em 0.8em -0.7em rgba($scheme-invert, 0.2)
 
 // Progress bar
 $progress-bar-background-color: $light !default
+$progress-value-background-color: $light !default
 $progress-indeterminate-duration: 1.75s !default
+$progress-colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($primary-dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "link": ($link, $link-invert, $link-light, $link-dark), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors) !default
 
 // Tooltip
 $tooltip-animation-duration: .15s !default

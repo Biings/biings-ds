@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Button defaults</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Button defaults</h3>
 
 <br>
 
@@ -14,7 +14,7 @@
     <table class="table is-fullwidth is-bordered">
         <tbody>
             <tr>
-                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button is-responsive">Button</button><br><br></td>
+                <td class="has-text-centered" style="width: 20%; min-width: 12rem;"><br><button class="button">Button</button><br><br></td>
                 <td class="has-text-centered" style="width: 15%; min-width: 10rem;"><hr><code>button</code></td>
                 <td><hr>For standard controls, like Dropdowns.</td>
             </tr>
@@ -44,8 +44,8 @@
                 <td><hr>Dark looking button.</td>
             </tr>
             <tr>
-                <td class="has-text-centered"><br><div class="button is-primary is-light">Light</div><br><br></td>
-                <td class="has-text-centered"><br><code>is-light<br>(is-[color]) </code></td>
+                <td class="has-text-centered"><br><div class="button is-light">Light</div><br><div class="button is-light is-primary is-small m-1">Pri Light</div><div class="button is-light is-warning is-small m-1">War Light</div><div class="button is-light is-info is-small m-1">Inf Light</div><br><br></td>
+                <td class="has-text-centered"><br><code>is-light</code></td>
                 <td><br>Light looking button (applicable to any color button).</td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Link</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Link</h3>
 
 Use a Link instead of a button when navigating or when the action is not primary.
 
@@ -110,30 +110,47 @@ Use a Link instead of a button when navigating or when the action is not primary
     </tbody>
 </table>
 
-
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Sizes, states and shapes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Block Link</h3>
+
+Use `has-blocklink` to expand the clicking area of a link to its relative parent. The parent needs to be a block element with a relative positioning (`is-relative`).
+
+<br>
+
+<div class="box is-well is-large is-radiusless-b is-marginless">
+    <div class="box is-raised is-relative">
+        This entire box is clickable and will link to the url of <a class="has-blocklink is-underlined is-ghost has-text-primary">this link.</a>
+    </div>
+</div>
+    
+    <div class="box is-relative">
+        This box is clickable because of <a class="has-blocklink">this link.</a>
+    </div>
+    
+<hr class="is-size-1 is-visible">
+
+<h3 class="title is-family-primary has-text-weight-bold">Sizes, states and shapes</h3>
 
 <hr>
 
 <table class="table is-bordered">
     <tbody>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-responsive">Responsive</div><br><br></td>
-            <td><hr><code>is-responsive</code></td>
-        </tr>
-        <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-small">Sml</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-small">Small</div><br><br></td>
             <td><hr><code>is-small</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-medium">Med</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-medium">Medium</div><br><br></td>
             <td><hr><code>is-medium</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-large">Lrg</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-large">Large</div><br><br></td>
             <td><hr><code>is-large</code></td>
+        </tr>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-responsive">Responsive</div><br><br></td>
+            <td><hr><code>is-responsive</code></td>
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-glowing">Glowing</div><br><br></td>
@@ -141,38 +158,38 @@ Use a Link instead of a button when navigating or when the action is not primary
         </tr>
         <tr>
             <td class="has-text-centered"><br><div class="button is-primary is-outlined">Outlined</div><br><br></td>
-            <td><hr><code>is-outlined</code> + a color</td>
+            <td><hr><code>is-outlined</code> (+ a color)</td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-beefy">Beefy</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-dashed is-outlined is-small">Dashed</div><br><br></td>
+            <td><hr><code>is-dashed</code> (+ <code>is-outlined</code> + <code>is-small</code>)</td>
+        </tr>
+        <tr>
+            <td class="has-text-centered"><br><div class="button is-beefy">Beefy</div><br><br></td>
             <td><hr><code>is-beefy</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-rounded">Rounded</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-rounded">Rounded</div><br><br></td>
             <td><hr><code>is-rounded</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-square">Sq</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-square">Sq</div><br><br></td>
             <td><hr><code>is-square</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light is-loading">Loading</div><br><br></td>
+            <td class="has-text-centered"><br><div class="button is-loading">Loading</div><br><br></td>
             <td><hr><code>is-loading</code></td>
         </tr>
         <tr>
-            <td class="has-text-centered"><br><div class="button is-light" disabled>Disabled</div><br><br></td>
-            <td><hr><code>disabled</code> attribute</td>
-        </tr>
-        <tr>
-            <td class="has-text-centered has-background-black-ter"><br><div class="button is-inverted is-outlined is-primary">Inverted</div><br><br></td>
-            <td><hr><code>is-inverted</code> <code>is-outlined</code></td>
+            <td class="has-text-centered"><br><div class="button" disabled>Disabled</div><br><br></td>
+            <td><br><code>disabled</code> attribute<br>Should be used only on <code>&lt;button&gt;</code>, add <code>is-static</code> when used on a div.</td>
         </tr>
     </tbody>
 </table>
 
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Icon Button</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Icon Button</h3>
 
 Buttons can be enhanced by adding an icon or be an icon button.  
 Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
@@ -188,29 +205,18 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-square is-secondary">
+            <div class="button is-square is-light">
                 <svg class="icon"><use xlink:href="media/bds-icons.min.svg#edit-bold-g"></use></svg>
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-borderless is-square">
+            <div class="button is-outlined is-square">
                 <svg class="icon is-danger"><use xlink:href="media/bds-icons.min.svg#trash-g"></use></svg>
             </div>
         </div>
         <div class="level-item">
-            <div class="button is-info">
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#download-g"></use></svg>
-                <span>Download</span>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="button is-success is-square is-rounded">
-                <svg class="icon"><use xlink:href="media/bds-icons.min.svg#lightning-g"></use></svg>
-            </div>
-        </div>
-        <div class="level-item">
-            <div class="button is-borderless is-square is-rounded">
-                <svg class="icon is-medium"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
+            <div class="button is-text is-square is-rounded">
+                <svg class="icon is-size-bigger"><use xlink:href="media/bds-icons.min.svg#dots-g"></use></svg>
             </div>
         </div>
     </div>
@@ -235,7 +241,7 @@ Simply insert an svg with class `.icon` and wrap the optional text in a `span`.
     </div>
 <hr class="is-size-1 is-visible">
 
-<h3 class="title is-family-primary">Button Group and Addons</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Button Group and Addons</h3>
 
 Buttons can be grouped together or with a button.
 

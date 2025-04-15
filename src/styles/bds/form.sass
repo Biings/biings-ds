@@ -16,15 +16,25 @@ select:required:invalid
 
 .input[readonly],
 .textarea[readonly],
-select[disabled]
-    border-color: $input-border-color
-    background-color: $background
+select[readonly],
+label[readonly]
+    border-color: transparent
+    background-color: $code-background
+.input[disabled],
+.textarea[disabled],
+select[disabled],
+label[disabled]
+    border-color: $input-border-color !important
+    background-color: transparent !important
 
 .field > .input[readonly]
     border-color: $input-border-color
 
 .textarea
     padding-left: calc(.875em - 1px)
+    
+.select > select
+    box-shadow: $button-disabled-shadow
 
 // Caret color
 .input,
@@ -111,10 +121,23 @@ form .field
     padding-left: $control-padding-horizontal
     transition: color .1s linear
     pointer-events: none
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    width: 100%
+    
+.field > .label,
+.field > label > span:not(.checkbox-mark,.radio-mark)
+    opacity: .65
 
 .field:hover > .label,
 .field.is-warning > .label
     color: $label-color
+
+.field.is-warning > .label,
+.field:focus-within > .label,
+.field > .input:focus + .label
+    opacity: 1
 
 .field:not(.select) > .label
     cursor: text
@@ -183,28 +206,35 @@ form .field
 
 .field > .label > span,
 label.label > span
-    color: $grey
+    opacity: 1 !important
     text-transform: none
+    font-style: italic
     font-weight: $weight-normal
 
-.field.is-primary > .input,
-.field.is-primary > .textarea
-    border-color: $primary !important
-
-.field.is-danger > .input,
-.field.is-danger > .textarea
-    border-color: $danger !important
-
-.field.is-info > .input,
-.field.is-info > .textarea
-    border-color: $info !important
-
-.field.is-success > .input,
-.field.is-success > .textarea
-    border-color: $success !important
-
-.field.select.is-warning > select
-    border-color: $input-border-color !important
+.field.select.is-warning > select,
+.field.select.is-success > select
+    border-color: $input-border-color
+    
+// Field with warning
+.field.is-warning > input,
+.field.is-warning > textarea,
+.field.select.is-warning,
+.field.is-warning > select
+    background-color: mix($white,$warning,80)
+    
+// Field with danger
+.field.is-danger > input,
+.field.is-danger > textarea,
+.field.select.is-danger,
+.field.is-danger > select
+    background-color: mix($white,$danger,85)
+    
+// Field with success
+.field.is-success > input,
+.field.is-success > textarea,
+.field.select.is-success,
+.field.is-success > select
+    background-color: mix($white,$success,88)
 
 // Required field
 .field.is-required:before
@@ -221,13 +251,6 @@ label.label > span
     animation: blinking 2s linear infinite
     pointer-events: none
 
-// Field with warning
-.field.is-warning > input,
-.field.is-warning > textarea,
-.field.select.is-warning,
-.field.is-warning > select
-    background-color: mix($white,$warning,80) !important
-
 /* Icon */
 .control.has-icons-left .icon,
 .control.has-icons-right .icon
@@ -239,23 +262,6 @@ label.label > span
 
 .control.has-icons-right .icon
     margin-right: .25em
-
-// Icon animation when focused
-.control.has-icons-left > .icon.is-left
-    left: 0
-    opacity: 1
-    transition: left .25s ease-out, opacity .25s linear
-
-.control.has-icons-left > .input
-    transition: padding-left .25s ease-out
-
-.control.has-icons-left .input:focus + .icon.is-left
-    opacity: 0
-    left: -1.25rem
-
-.control.has-icons-left > .input:focus
-    padding-left: calc(.75em)
-
 
 @keyframes blinking
     0%
@@ -274,18 +280,17 @@ label.label > span
 .is-gapless > .column .field > select,
 .is-gapless > .column .field > label
     border-radius: 0
-.is-gapless > .column .field > input:focus,
-.is-gapless > .column .field > textarea:focus,
-.is-gapless > .column .field > select:focus,
-.is-gapless > .column .field > label:active
+.is-gapless > .column .field > input:not([disabled],[readonly]):focus,
+.is-gapless > .column .field > textarea:not([disabled],[readonly]):focus,
+.is-gapless > .column .field > select:not([disabled],[readonly]):focus,
+.is-gapless > .column .field > label:not([disabled],[readonly]):active
     z-index: 2
     background-color: $white
-.is-gapless > .column .field > input:hover,
-.is-gapless > .column .field > textarea:hover,
-.is-gapless > .column .field > select:hover,
-.is-gapless > .column .field > label:hover
+.is-gapless > .column .field > input:not([disabled],[readonly]):hover,
+.is-gapless > .column .field > textarea:not([disabled],[readonly]):hover,
+.is-gapless > .column .field > select:not([disabled],[readonly]):hover,
+.is-gapless > .column .field > label:not([disabled],[readonly]):hover
     z-index: 1
-    background-color: $white
 
 .is-gapless > .column:first-child .field,
 .is-gapless > .column:first-child .field > .input,

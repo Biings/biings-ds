@@ -15,7 +15,6 @@ body
 .is-size-bigger
     font-size: 1.1em !important
 
-
 .is-size-smaller
     font-size: .875em !important
 
@@ -35,25 +34,20 @@ h5.title
 h6.title
     font-size: $size-6
 
-// Adjust Crimson Font size
+// Adjust Plush letter spacing
 
 .is-family-secondary,
 .is-family-hand
     letter-spacing: -.03em
 .title
-    letter-spacing: -.055em
+    letter-spacing: -.05em
 .title.is-family-primary
-    letter-spacing: -.04em
     font-weight: $weight-semibold
-
-// span.is-family-secondary
-//     display: inline-block
-
 
 u
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDMgNSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjQzhDMEJEIiBzdHJva2Utb3BhY2l0eT0iNDAlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTIsMy4xMDgwNTIzNiBDMTYuNzI3MDE0NCwyLjU1NDY4MzI4IDMxLjQ0NjY0NTUsMi43MTY5ODg5MSA0Ni4xOTA0ODg0LDIuNDg5MTUyOSBDNzcuODE4Mjc2OSwyLjAwMDQwOTk0IDEwMS4yNjczNCwyLjAwMDQwOTk0IDE0MC41NzkzNDUsMi40ODkxNTI5Ii8+PC9zdmc+)
-    background-position: center .75em
-    background-size: 100% .5em
+    background-position: center 1.0625em
+    background-size: 100% .125em
     background-repeat: no-repeat
     text-decoration: none
     text-transform: none
@@ -62,17 +56,27 @@ u
 
 u.is-primary
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDMgNSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjYWE1MGI1IiBzdHJva2Utb3BhY2l0eT0iMzAlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTIsMy4xMDgwNTIzNiBDMTYuNzI3MDE0NCwyLjU1NDY4MzI4IDMxLjQ0NjY0NTUsMi43MTY5ODg5MSA0Ni4xOTA0ODg0LDIuNDg5MTUyOSBDNzcuODE4Mjc2OSwyLjAwMDQwOTk0IDEwMS4yNjczNCwyLjAwMDQwOTk0IDE0MC41NzkzNDUsMi40ODkxNTI5Ii8+PC9zdmc+)
-    background-position: center .75em
-    background-size: 100% .5em
+    background-position: center 1.0625em
+    background-size: 100% .125em
     background-repeat: no-repeat
-
+u.is-warning,
 u.is-secondary
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDMgNSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjZmY4ZjQxIiBzdHJva2Utb3BhY2l0eT0iMzAlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTIsMy4xMDgwNTIzNiBDMTYuNzI3MDE0NCwyLjU1NDY4MzI4IDMxLjQ0NjY0NTUsMi43MTY5ODg5MSA0Ni4xOTA0ODg0LDIuNDg5MTUyOSBDNzcuODE4Mjc2OSwyLjAwMDQwOTk0IDEwMS4yNjczNCwyLjAwMDQwOTk0IDE0MC41NzkzNDUsMi40ODkxNTI5Ii8+PC9zdmc+)
-    background-position: center .75em
-    background-size: 100% .5em
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDMgNSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjRjJCQjUwIiBzdHJva2Utb3BhY2l0eT0iMjUlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTIsMy4xMDgwNTIzNiBDMTYuNzI3MDE0NCwyLjU1NDY4MzI4IDMxLjQ0NjY0NTUsMi43MTY5ODg5MSA0Ni4xOTA0ODg0LDIuNDg5MTUyOSBDNzcuODE4Mjc2OSwyLjAwMDQwOTk0IDEwMS4yNjczNCwyLjAwMDQwOTk0IDE0MC41NzkzNDUsMi40ODkxNTI5Ii8+PC9zdmc+)
+    background-position: center 1.0625em
+    background-size: 100% .125em
+    background-repeat: no-repeat
+u.is-success
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDMgNSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjNDZBMzREIiBzdHJva2Utb3BhY2l0eT0iMTklIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMyIgZD0iTTIsMy4xMDgwNTIzNiBDMTYuNzI3MDE0NCwyLjU1NDY4MzI4IDMxLjQ0NjY0NTUsMi43MTY5ODg5MSA0Ni4xOTA0ODg0LDIuNDg5MTUyOSBDNzcuODE4Mjc2OSwyLjAwMDQwOTk0IDEwMS4yNjczNCwyLjAwMDQwOTk0IDE0MC41NzkzNDUsMi40ODkxNTI5Ii8+PC9zdmc+)
+    background-position: center 1.0625em
+    background-size: 100% .125em
     background-repeat: no-repeat
 
 em
     border-radius: .5em .125em .625em .125em
     background-image: linear-gradient(90deg, rgba($orange, .225) 10%, rgba($yellow, .225) 90%)
     font-style: normal
+
+.is-ellipsis
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis

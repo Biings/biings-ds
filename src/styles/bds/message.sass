@@ -1,28 +1,27 @@
-$message-body-padding: .625em 1.125em !default
+$message-body-padding: 1em 1.25em !default
 $message-body-border-width: 0 !default
 
 .message
     padding: $message-body-padding
-    box-shadow: inset 0 0 0 1px rgba($black,.05)
     border-radius: $radius-large
-    background-color: $background
     font-size: $size-normal
+    background-color: $code-background
 
 .message.is-warning
     background-color: rgba($warning,.075)
-    color: mix($secondary-dark,$warning,60)
+    color: mix($yellow-dark,$dark,60)
 
 .message.is-info
     background-color: rgba($info,.0625)
-    color: $info-dark
+    color:  mix($info-dark,$dark,65)
 
 .message.is-success
     background-color: rgba($success,.0625)
-    color: $success-dark
+    color: mix($success-dark,$dark,70)
 
 .message.is-danger
     background-color: rgba($danger,.075)
-    color: $danger-dark
+    color: mix($danger-dark,$dark,75)
 
 .message.is-dark
     background-color: rgba($black-ter,.5)
@@ -30,7 +29,7 @@ $message-body-border-width: 0 !default
 
 .message.is-primary
     background-color: rgba($primary,.075)
-    color: $primary
+    color: mix($primary,$dark,65)
 
 .message > .icon
     position: relative
@@ -48,10 +47,12 @@ $message-body-border-width: 0 !default
     position: fixed
     top: 0
     display: block
+    padding: .75em 1.125em
     margin: 2.625em 0
     max-width: 30rem
     border-radius: 1em
     box-shadow: 0 6px 25px -8px rgba($black, .3)
+    border: none
     opacity: 0
     background-color: rgba($white,.92)
     user-select: none

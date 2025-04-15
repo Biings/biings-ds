@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Default colors and sizes</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Default colors and sizes</h3>
 
 Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, `is-danger`, `is-dark` as well as size modifiers `is-size-[1-7]`.
 
@@ -15,13 +15,15 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
 <div class="box is-raised has-background-white-bis is-large is-marginless is-radiusless-b">
     <div class="message">Default Message.</div>
     <br>
-    <div class="message is-primary">A regular <strong>primary</strong> message</div>
+    <div class="message is-primary"><strong>Primary</strong> message</div>
     <br>
-    <div class="message is-info">A regular <strong>info</strong> message&nbsp; 💁‍♂️</div>
+    <div class="message is-info"><strong>Info</strong> message&nbsp; 💁‍♂️</div>
     <br>
-    <div class="message is-warning">A <strong>warning</strong> message!</div>
+    <div class="message is-warning"><strong>Warning</strong> message</div>
     <br>
-    <div class="message is-size-4 is-success">Big success message</div>
+    <div class="message is-danger"><strong>Dangerous</strong> message!</div>
+    <br>
+    <div class="message is-size-4 is-success">Big <strong>success</strong> message</div>
     <br>
     <div class="message is-dark is-size-6">A small <strong>dark</strong> message&nbsp; 👀</div>
 </div>
@@ -32,17 +34,17 @@ Messages support modifiers `is-primary`, `is-info`, `is-success`, `is-warning`, 
     etc...
 <hr class="is-visible is-size-1">
 
-<h3 class="title is-family-primary">Toast notification</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Toast notification</h3>
 
 A Message can act as a toast notification when combined with a Modal. Put the message in a <a href="#/modal">Modal</a> (with class `.has-noti`) to create an overlayed notification message.
 
 <br><br>
 
 <div class="box is-raised is-large is-marginless has-text-centered is-radiusless-b">
-    <div class="button" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
-    <div class="button is-success is-light" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
-    <div class="button is-black is-light" onclick="openModal('4')">Dark Noti (small)</div>&nbsp; &nbsp;
-    <div class="button is-primary is-light" onclick="openModal('5')">Primary Noti (medium)</div>
+    <div class="button is-light" onclick="openModal('3')">Default Noti</div>&nbsp; &nbsp;
+    <div class="button is-success" onclick="openModal('9')">Success Noti</div>&nbsp; &nbsp;
+    <div class="button is-dark" onclick="openModal('4')">Dark small Noti</div>&nbsp; &nbsp;
+    <div class="button is-primary" onclick="openModal('5')">Primary medium Noti</div>
 </div>
 <hr class="is-marginless is-visible">
 

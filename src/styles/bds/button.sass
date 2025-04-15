@@ -1,25 +1,53 @@
+$control-height-small: 1.875rem !default
+
 .button
-    height: 2.5em
     letter-spacing: 0
     font-weight: 500
-    transition: background-color .15s linear, box-shadow .2s linear
+    transition: background-color .15s linear, box-shadow .175s linear
 
-.button:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined,.is-static,.is-primary, .is-info, .is-warning, .is-danger, .is-success, .is-dark)
-    box-shadow: 0 1px 3px -2px rgba($black, .3)
+.button:not(.is-text,.is-borderless,.is-ghost,.is-light,.is-outlined,.is-primary,.is-info,.is-danger,.is-success,.is-dark)
+    box-shadow: $button-disabled-shadow
 
 .button.is-small
-    height: 2.1875em
+    height: $control-height-small
+    padding-left: .65rem
+    padding-right: .625rem
+    line-height: 1
+    font-weight: $weight-normal
+    
+.button.is-large
+    font-weight: $weight-semibold
 
 .button:not(.is-rounded).is-small
     border-radius: $radius
 
-.button.is-primary:not(.is-inverted):not(.is-light):not(.is-outlined),
-.button.is-dark:not(.is-inverted):not(.is-light):not(.is-outlined),
-.button.is-success:not(.is-inverted):not(.is-light):not(.is-outlined),
-.button.is-danger:not(.is-inverted):not(.is-light):not(.is-outlined),
-.button.is-warning:not(.is-inverted):not(.is-light):not(.is-outlined),
-.button.is-info:not(.is-inverted):not(.is-light):not(.is-outlined)
-    box-shadow: 0 3px 3px -2px rgba($black, .3)
+.button.is-primary:not(.is-inverted,.is-light,.is-outlined),
+.button.is-dark:not(.is-inverted,.is-light,.is-outlined),
+.button.is-success:not(.is-inverted,.is-light,.is-outlined),
+.button.is-danger:not(.is-inverted,.is-light,.is-outlined),
+.button.is-info:not(.is-inverted,.is-light,.is-outlined)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2)
+
+.button.is-primary:hover:not(.is-inverted,.is-light),
+.button.is-dark:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($purple,.2) !important
+.button.is-success:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($success,.2) !important
+.button.is-info:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($info,.2) !important
+.button.is-warning:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 0 0 .25em rgba($warning,.2) !important
+.button.is-danger:hover:not(.is-inverted,.is-light)
+    box-shadow: $button-disabled-shadow, 0 5px 4px -4px rgba($black,.2), 0 0 0 .25em rgba($danger,.2) !important
+    
+.button.is-primary.is-light
+    background-color: findLightColor($primary)
+    &:hover,
+    &.is-hovered
+        background-color: bulmaDarken(findLightColor($primary), 2.5%)
+    &:active,
+    &.is-active
+        background-color: bulmaDarken(findLightColor($primary), 5%)
 
 .button.is-secondary
     background-color: $white-ter
@@ -72,9 +100,6 @@
 .button.is-outlined:active
     background-color: transparent !important
 
-.button.is-outlined:hover
-    transition: none !important
-
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover,
 .button.is-primary.is-outlined.is-focused,
@@ -117,49 +142,38 @@
     box-shadow: inset 0 0 0 1px $dark
     color: $dark
 
-.button.is-inverted.is-outlined:focus,
-.button.is-inverted.is-outlined:hover,
-.button.is-inverted.is-outlined.is-focused,
-.button.is-inverted.is-outlined.is-hovered
+.button.is-white.is-outlined:focus,
+.button.is-white.is-outlined:hover,
+.button.is-white.is-outlined.is-focused,
+.button.is-white.is-outlined.is-hovered
     box-shadow: inset 0 0 0 1px $white
     color: white !important
+    
+.button.is-dashed.is-outlined,
+.button.is-dashed.is-outlined:focus,
+.button.is-dashed.is-outlined:hover,
+.button.is-dashed.is-outlined.is-focused,
+.button.is-dashed.is-outlined.is-hovered
+    box-shadow: none !important
 
-
-// Rounded background transition effect
-.button.is-borderless.is-rounded.is-square
-    position: relative
-    background-color: transparent
-.button.is-borderless.is-rounded.is-square:before
-    position: absolute
-    top: 50%
-    left: 50%
-    margin-top: -1.125em
-    margin-left: -1.125em
-    width: 2.25em
-    height: 2.25em
-    border-radius: $radius-rounded
-    background-color: transparent
-    content: ''
-    transition: transform .2s ease-in, background-color .2s ease-in
-    transform: scale(0)
-.button.is-borderless.is-rounded.is-square:hover:before,
-.button.is-borderless.is-rounded.is-square.is-hovered:before
-    background-color: $menu-item-hover-background-color
-    transition: transform .2s ease-out, background-color .2s ease-out
-    transform: scale(1)
-.button.is-borderless.is-rounded.is-square:active:before,
-.button.is-borderless.is-rounded.is-square.is-active:before
-    background-color: rgba($black,.125)
-    transform: scale(1)
+// Disabled states
+.button[disabled]
+    color: rgba($text,.5)
+    
+.button.is-primary[disabled],
+.button.is-warning[disabled],
+.button.is-info[disabled],
+.button.is-danger[disabled],
+.button.is-dark[disabled]
+    color: rgba($white,.75)
 
 .button.is-beefy
     padding: calc(1.375em - #{$button-border-width}) 1.75em
 
 .button.is-square
-    padding: 0
-    width: 2.5em
+    width: 2.625em
 .button.is-small.is-square
-    width: 2.1875em
+    width: $control-height-small
 
 // Button loading state
 // See loader.saas
@@ -177,13 +191,6 @@
 
 .button.is-text + .button.is-text
     margin-left: -.5em
-
-.button.is-primary.is-light
-    background-color: $primary-lighter
-    color: $primary !important
-
-.button.is-primary.is-light:hover
-    background-color: mix($purple-light,$primary-lighter,6)
 
 
 // New Type
@@ -213,12 +220,16 @@
 .button.is-glowing.is-dark:before
     box-shadow: 0 .1875em 1.125em rgba($dark,.6)
 
+// Dashed style
+.button.is-dashed
+    border-style: dashed
+
 
 /* Links */
 a,
 .is-link
     vertical-align: baseline
-    transition: all .125s ease-out !important
+    transition: color .125s ease-out !important
 
 a.is-underlined:not(.is-regular),
 .is-link.is-underlined:not(.is-regular),
@@ -233,10 +244,9 @@ a:hover > .is-link.is-ghost:not(.is-underlined)
 a.is-underlined,
 .is-link.is-underlined
     text-decoration: underline
-    text-decoration-thickness: .0625em !important
-    text-decoration-width: .0625em !important
+    text-decoration-thickness: .09375em !important
+    text-decoration-width: .09375em !important
     text-underline-offset: .125em !important
-    transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width
 
 a.is-underlined.is-ghost,
 .is-link.is-underlined.is-ghost
@@ -247,6 +257,15 @@ a.is-underlined.is-ghost:hover,
 a:hover > .is-link.is-underlined,
 a:hover > .is-link.is-underlined.is-ghost
     text-decoration: underline
-    text-decoration-thickness: .1875em !important
-    text-decoration-width: .1875em !important
     text-decoration-color: $link !important
+
+/* Block link */
+a.has-blocklink:before
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    content: '';

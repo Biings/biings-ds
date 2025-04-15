@@ -7,16 +7,16 @@
 
 <hr class="is-visible is-size-3"><br>
 
-<p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/biings/biings-ds" class="is-underlined">https://github.com/biings/biings-ds</a></p>
+<p class="has-text-weight-semibold">1 )&nbsp; Checkout the repository &nbsp;→&nbsp; <a href="https://github.com/biings/biings-ds" class="is-underlined">https://github.com/biings/biings-ds</a></p>
 <br>
-<p class="has-text-weight-semibold">2 )&nbsp; Make your changes</p>
+<p class="has-text-weight-semibold">2 )&nbsp; Make your changes</p>
 <ul class="list">
-    <li>Styles – all BDS components in <code>src/styles/bds/..</code></li>
-    <li>Bulma base variables <code>src/styles/bulma.sass</code></li>
-    <li>Icon set – SVG icon files in <code>src/icons/..</code></li>
+<li>Styles – all BDS components in <code>src/styles/bds/..</code></li>
+<li>Bulma base variables <code>src/styles/bulma.sass</code></li>
+<li>Icon set – SVG icon files in <code>src/icons/..</code></li>
 </ul>
 <br>
-<div class="has-text-weight-semibold">3 )&nbsp; Build it!</div>
+<div class="has-text-weight-semibold">3 )&nbsp; Build it!</div>
 <br>
 <pre data-lang="bash"><code>npm run build</code></pre>
 <br>
@@ -26,15 +26,18 @@
 <pre data-lang="bash"><code>npm run icons</code></pre>
 
 <br>
-<p class="has-text-weight-semibold">4 )&nbsp; Commit your code – Push! – and tag a new version</p>
-<br>
-<pre data-lang="bash"><code>npm version x.x.x</code></pre>
-
-<br>
-<p class="has-text-weight-semibold">5 )&nbsp; Make it available</p>
+<p class="has-text-weight-semibold">4 )&nbsp; Commit your code – Tag a new version - and Push!</p>
 <br>
 <pre data-lang="bash"><code>npm login // you need an NPM account first</code></pre>
 <br>
+<pre data-lang="bash"><code>Commit your code</code></pre>
+<br>
+<pre data-lang="bash"><code>npm version x.x.x // check current version by running npm version</code></pre>
+<br>
+<pre data-lang="bash"><code>Push to master</code></pre>
+<br>
+<p class="has-text-weight-semibold">5 )&nbsp; Make it available</p>
+<br>
 <pre data-lang="bash"><code>npm publish</code></pre>
 <br>
-<p class="has-text-weight-semibold">5 )&nbsp; Done. You can now tell everyone to "`npm update biings-ds`" 😇</p>
+<p class="has-text-weight-semibold">5 )&nbsp; Done. You can now tell everyone to "`npm update biings-ds`" 😇</p>

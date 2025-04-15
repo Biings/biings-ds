@@ -6,7 +6,7 @@
 </p>
 <hr class="is-visible is-size-3"><br>
 
-<h3 class="title is-family-primary">Logo and mark</h3>
+<h3 class="title is-family-primary has-text-weight-bold">Logo and mark</h3>
 
 <p class="mb-3">The Biings logo includes the mark and the logotype.</p>
 <p>The mark can be used alone when the context is clear (eg. on a diagram or as an icon). The logotype should never appear without the mark. The mark should always be on the left.</p>
