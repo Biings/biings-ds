@@ -4,6 +4,17 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 15, 2025</span>
+<h3 class="title is-size-3-touch mt-1 is-family-primary">Version 6.14.17</h3>
+<ul class="list">
+    <li>New icons: `bookmark-g`, `date-range-g`, `smile`, `1-back-`, `12-back-g`, `document-csv/pdf/xls-g`</li>
+    <li>New <a href="#/button" class="is-underlined">Block link</a> feature</li>
+    <li>New <a href="#/modifiers" class="is-underlined">`.is-absolute` modifier</a></li>
+    <li>Style adjustments to <i>Forms</i></li>
+</ul>
+
+<hr class="is-size-3 is-size-4-touch is-visible">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 26, 2024</span>
 <h3 class="title is-size-3-touch mt-1 is-family-primary">Version 1.60</h3>
 <ul class="list">
