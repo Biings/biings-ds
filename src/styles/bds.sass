@@ -1,7 +1,16 @@
-// Import customized Bulma
+
+@use "sass:color"
+
+// vars first (overrides)
 @import "bds_vars.sass"
 
-// Import BDS modules
+// Bulma core (v1.0.4)
+@import "bulma/bulma.scss"
+
+// Bulma extension(s)
+@import "@creativebulma/bulma-tooltip/dist/bulma-tooltip.min.css"
+
+// BDS modules
 @import "bds/typography.sass"
 @import "bds/layout.sass"
 @import "bds/button.sass"
@@ -21,6 +30,3 @@
 @import "bds/skeleton.sass"
 @import "bds/tooltip.sass"
 @import "bds/modifiers.sass"
-
-// Import Bulma extension
-@import "@creativebulma/bulma-tooltip/src/sass/index.sass"

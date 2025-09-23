@@ -40,28 +40,39 @@ module.exports = function(grunt) {
 
         svgmin: {
             options: {
+                // Some versions of grunt-svgmin expect the 'plugins' at the top-level,
+                // others under 'svgoOptions'. If the first form errors, try moving this
+                // object under `svgoOptions: { plugins: [ ... ] }`.
                 plugins: [
-                    { cleanupIDs: false },
-                    { removeDesc: true },
-                    { removeTitle: true },
-                    { removeViewBox: false },
-                    { removeUselessStrokeAndFill: false },
-                    { removeEmptyAttrs: true },
-                    { removeComments: true },
-                    { removeMetadata: true },
-                    { removeEditorsNSData: true },
-                    { removeEmptyAttrs: true },
-                    { removeUnusedNS: true },
-                    { removeEmptyText: true }
+                // Start from the default set, then override specific rules
+                {
+                    name: 'preset-default',
+                    params: {
+                    overrides: {
+                        removeViewBox: false,            // keep viewBox
+                        cleanupIDs: false,               // don't munge IDs
+                        removeUselessStrokeAndFill: false
+                    }
+                    }
+                },
+                // Extra passes equivalent to your previous config
+                'removeDesc',
+                'removeTitle',
+                'removeComments',
+                'removeMetadata',
+                'removeEditorsNSData',
+                'removeEmptyAttrs',
+                'removeUnusedNS',
+                'removeEmptyText'
                 ]
             },
             dist: {
                 files: {
-                    'build/bds-icons.min.svg': 'build/bds-icons.svg',
-                    'docs/media/bds-icons.min.svg': 'build/bds-icons.svg',
+                'build/bds-icons.min.svg': 'build/bds-icons.svg',
+                'docs/media/bds-icons.min.svg': 'build/bds-icons.svg'
                 }
             }
-        }
+            }
 
     });
 

@@ -1,7 +1,9 @@
+@use "sass:color"
 // BULMA VARS
     
 // Import Bulma modules
-@import "bulma/sass/utilities/functions.sass"
+@import "bulma/sass/utilities/functions.scss"
+
 
 // Initial variables
 
@@ -33,73 +35,73 @@ $white          : #ffffff !default
 // Main colors
 $primary        : #8c50b9 !default // PANTONE 2587 C => HEX actually is #8246AF
 $light          : $white-ter !default // Previously #EAE9EB
-$dark           : mix(black, $primary, 50) !default
+$dark           : color.mix(black, $primary, 50%) !default
 
 // Special colors (NOT BULMA) —————————————————————
 
-$primary-lightest: mix(white, $primary, 95) !default
-$primary-lighter: mix(white, $primary, 85) !default
+$primary-lightest: color.mix(white, $primary, 95%) !default
+$primary-lighter: color.mix(white, $primary, 85%) !default
 
 $secondary          : #cb9569 !default
-$secondary-dark     : mix(black, $secondary, 20) !default
-$secondary-light    : mix(white, $secondary, 30) !default
-$secondary-lighter  : mix(white, $secondary, 85) !default
+$secondary-dark     : color.mix(black, $secondary, 20%) !default
+$secondary-light    : color.mix(white, $secondary, 30%) !default
+$secondary-lighter  : color.mix(white, $secondary, 85%) !default
 
-$cyan-dark      : mix(black, $cyan, 25) !default
-$cyan-light     : mix(white, $cyan, 30) !default
-$cyan-lighter   : mix(white, $cyan, 80) !default
+$cyan-dark      : color.mix(black, $cyan, 25%) !default
+$cyan-light     : color.mix(white, $cyan, 30%) !default
+$cyan-lighter   : color.mix(white, $cyan, 80%) !default
 
-$blue-dark      : mix(black, $blue, 25) !default
-$blue-light     : mix(white, $blue, 30) !default
-$blue-lighter   : mix(white, $blue, 80) !default
+$blue-dark      : color.mix(black, $blue, 25%) !default
+$blue-light     : color.mix(white, $blue, 30%) !default
+$blue-lighter   : color.mix(white, $blue, 80%) !default
 
-$purple-dark    : mix(black, $purple, 25) !default
-$purple-light   : mix(white, $purple, 30) !default
-$purple-lighter : mix(white, $purple, 80) !default
+$purple-dark    : color.mix(black, $purple, 25%) !default
+$purple-light   : color.mix(white, $purple, 30%) !default
+$purple-lighter : color.mix(white, $purple, 80%) !default
 
-$red-dark       : mix(black, $red, 20) !default
-$red-light      : mix(white, $red, 30) !default
-$red-lighter    : mix(white, $red, 80) !default
+$red-dark       : color.mix(black, $red, 20%) !default
+$red-light      : color.mix(white, $red, 30%) !default
+$red-lighter    : color.mix(white, $red, 80%) !default
 
 $orange-dark    : #D55D0C !default
 $orange-light   : #FBAE7C !default
 $orange-lighter : #FEE9DB !default
 
-$yellow-dark    : mix(black, $yellow, 15) !default
-$yellow-light   : mix(white, $yellow, 30) !default
-$yellow-lighter : mix(white, $yellow, 70) !default
+$yellow-dark    : color.mix(black, $yellow, 15%) !default
+$yellow-light   : color.mix(white, $yellow, 30%) !default
+$yellow-lighter : color.mix(white, $yellow, 70%) !default
 
-$turquoise-dark : mix(black, $turquoise, 25) !default
-$turquoise-light: mix(white, $turquoise, 30) !default
-$turquoise-lighter: mix(white, $turquoise, 80) !default
+$turquoise-dark : color.mix(black, $turquoise, 25%) !default
+$turquoise-light: color.mix(white, $turquoise, 30%) !default
+$turquoise-lighter: color.mix(white, $turquoise, 80%) !default
 
-$green-dark     : mix(black, $green, 25) !default
-$green-light    : mix(white, $green, 30) !default
-$green-lighter  : mix(white, $green, 80) !default
+$green-dark     : color.mix(black, $green, 25%) !default
+$green-light    : color.mix(white, $green, 30%) !default
+$green-lighter  : color.mix(white, $green, 80%) !default
 
 $pink           : #E26EA5 !default
-$pink-dark      : mix(black, $pink, 25) !default
-$pink-light     : mix(white, $pink, 30) !default
-$pink-lighter   : mix(white, $pink, 80) !default
+$pink-dark      : color.mix(black, $pink, 25%) !default
+$pink-light     : color.mix(white, $pink, 30%) !default
+$pink-lighter   : color.mix(white, $pink, 80%) !default
 
 $coral          : #FF8B72 !default
-$coral-dark      : mix(black, $coral, 25) !default
-$coral-light     : mix(white, $coral, 30) !default
-$coral-lighter   : mix(white, $coral, 80) !default
+$coral-dark      : color.mix(black, $coral, 25%) !default
+$coral-light     : color.mix(white, $coral, 30%) !default
+$coral-lighter   : color.mix(white, $coral, 80%) !default
 
 // ———— (NOT BULMA END) ————————————————————————————
 
-$info           : mix($primary, $blue, 25) !default
+$info           : color.mix($primary, $blue, 25%) !default
 $success        : #53ab73 !default
-$warning        : mix($secondary, $yellow, 25) !default
+$warning        : color.mix($secondary, $yellow, 25%) !default
 $danger         : $red !default
 
 // Additional colors (NOT BULMA) ————————————————————
 
-$info-lighter   : mix(white, $info, 80) !default
-$success-lighter: mix(white, $success, 80) !default
-$warning-lighter: mix(white, $warning, 80) !default
-$danger-lighter : mix(white, $danger, 80) !default
+$info-lighter   : color.mix(white, $info, 80%) !default
+$success-lighter: color.mix(white, $success, 80%) !default
+$warning-lighter: color.mix(white, $warning, 80%) !default
+$danger-lighter : color.mix(white, $danger, 80%) !default
 
 // ———— (NOT BULMA END) ————————————————————————————
     
@@ -115,20 +117,20 @@ $purple-invert: findColorInvert($purple) !default
 $red-invert: findColorInvert($red) !default
 
 $primary-invert: findColorInvert($primary) !default
-$primary-light: mix(white, $primary, 20) !default
-$primary-dark: mix(black, $primary, 35) !default
+$primary-light: color.mix(white, $primary, 20%) !default
+$primary-dark: color.mix(black, $primary, 35%) !default
 $info-invert: findColorInvert($info) !default
 $info-light: findLightColor($info) !default
-$info-dark: mix(black, $info, 15) !default
+$info-dark: color.mix(black, $info, 15%) !default
 $success-invert: findColorInvert($success) !default
 $success-light: findLightColor($success) !default
-$success-dark: mix(black, $success, 12) !default
+$success-dark: color.mix(black, $success, 12%) !default
 $warning-invert: $black !default
 $warning-light: findLightColor($warning) !default
-$warning-dark: mix(black, $warning, 15) !default
+$warning-dark: color.mix(black, $warning, 15%) !default
 $danger-invert: findColorInvert($danger) !default
 $danger-light: findLightColor($danger) !default
-$danger-dark: mix(black, $danger, 15) !default
+$danger-dark: color.mix(black, $danger, 15%) !default
 $light-invert: $dark !default
 $dark-invert: $white !default
 
@@ -302,8 +304,8 @@ $box-background-color: transparent
 $box-radius: .75em
 $box-shadow: none
 $box-padding: 1.25rem 1.375rem
-$box-link-hover-shadow: !default
-$box-link-active-shadow: !default
+$box-link-hover-shadow: null !default
+$box-link-active-shadow: null !default
 
 $modal-content-width: 33rem !default
 $modal-background-background-color: rgba($black, .35) !default
@@ -343,6 +345,7 @@ $control-line-height: 1.5 !default
 $control-border-width: 1px !default
 $control-padding-vertical: .25em !default
 $control-padding-horizontal: .875em !default
+$control-radius: $radius !default
 $control-radius-small: $radius !default
 
 $button-color: $text !default
@@ -350,7 +353,7 @@ $button-background-color: white !default
 $button-border-color: $grey-lighter !default
 $button-border-width: 1px !default
 $button-hover-color: inherit !default
-$button-hover-border-color: mix($black,$light,12) !default
+$button-hover-border-color: color.mix($black,$light,12%) !default
 $button-active-color: $text !default
 $button-active-border-color: $button-border-color !default
 $button-focus-border-color: $button-hover-border-color !default
@@ -378,7 +381,7 @@ $input-placeholder-color: rgba($input-color, 0.35) !default
 $input-arrow: $grey !default
 $input-hover-color: $input-color !default
 $input-border-color: rgba($black,.15) !default
-$input-hover-border-color: mix($dark,$input-border-color,19) !default
+$input-hover-border-color: color.mix($dark,$input-border-color,19%) !default
 $input-focus-border-color: $primary !default
 $input-focus-box-shadow-size: 0 0 0 0 !default
 $input-focus-box-shadow-color: transparent !default
@@ -451,6 +454,7 @@ $progress-bar-background-color: $light !default
 $progress-value-background-color: $light !default
 $progress-indeterminate-duration: 1.75s !default
 $progress-colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($primary-dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "link": ($link, $link-invert, $link-light, $link-dark), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors) !default
+$progress-border-radius: $radius !default
 
 // Tooltip
 $tooltip-animation-duration: .15s !default
@@ -461,38 +465,3 @@ $tooltip-font-size: 13px !default
 $tooltip-max-width: 16rem !default
 $tooltip-z-index: 35 !default
 $tooltip-padding: .25rem .625rem !default
-
-// IMPORT BULMA MODULES
-
-// @import "bulma/sass/utilities/animations.sass"
-@import "bulma/sass/utilities/mixins.sass"
-@import "bulma/sass/utilities/controls.sass"
-@import "bulma/sass/utilities/extends.sass"
-@import "bulma/sass/base/_all.sass"
-@import "bulma/sass/helpers/_all.sass"
-// @import "bulma/sass/components/card.sass"
-@import "bulma/sass/components/dropdown.sass"
-@import "bulma/sass/components/level.sass"
-// @import "bulma/sass/components/media.sass"
-@import "bulma/sass/components/menu.sass"
-// @import "bulma/sass/components/message.sass"
-@import "bulma/sass/components/modal.sass"
-// @import "bulma/sass/components/panel.sass"
-@import "bulma/sass/components/tabs.sass"
-@import "bulma/sass/elements/box.sass"
-@import "bulma/sass/elements/button.sass" // "bulma/sass/elements/button.sass"
-@import "bulma/sass/elements/container.sass"
-// @import "bulma/sass/elements/content.sass"
-@import "bulma/sass/form/_all.sass"
-// @import "bulma/sass/elements/icon.sass"
-@import "bulma/sass/elements/image.sass"
-//@import "bulma/sass/elements/notification.sass"
-@import "bulma/sass/elements/progress.sass"
-@import "bulma/sass/elements/other.sass"
-@import "bulma/sass/elements/table.sass"
-@import "bulma/sass/elements/tag.sass"
-@import "bulma/sass/elements/title.sass"
-@import "bulma/sass/grid/columns.sass"
-// @import "bulma/sass/grid/tiles.sass"
-// @import "bulma/sass/layout/hero.sass"
-@import "bulma/sass/layout/section.sass"

@@ -4,13 +4,13 @@
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
-        "sass": "sass --load-path=node_modules src/styles/bds.sass:src/styles/bds_temporary.css",
-        "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css",
+        "sass": "sass --load-path=node_modules --load-path=src/styles src/styles/bds.sass:src/styles/bds_temporary.css",
+        "postcss": "postcss src/styles/bds_temporary.css --config src/styles/postcss.config.js -o build/bds.css",
         "copytodoc": "cp build/bds.css docs/bds.css",
         "copycomb": "cp src/styles/.csscomb.json build/",
         "icons": "grunt",
-        "styles": "npm run sass && npm run postcss && npm run copytodoc && npm run cleanup",
-        "build": "npm run styles && npm run icons && npm run copycomb",
+        "styles": "yarn sass && yarn postcss && yarn copytodoc && yarn cleanup",
+        "build": "yarn styles && yarn icons && yarn copycomb",
         "dev": "docsify serve docs --port 3001",
         "cleanup": "rm -f src/styles/bds_temporary.css",
         "ghlogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
