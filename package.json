@@ -46,25 +46,27 @@
         "not ie <= 8"
     ],
     "devDependencies": {
-        "bulma": "^0.9.4",
-        "cssnano": "^4.1.10",
-        "grunt": "^1.0.4",
-        "grunt-cli": "^1.2.0",
-        "grunt-contrib-clean": "~0.5.0",
-        "grunt-contrib-copy": "~0.5.0",
-        "grunt-contrib-less": "^2.0.0",
-        "grunt-contrib-requirejs": "~0.4.4",
-        "grunt-svgmin": "^6.0.0",
+        "bulma": "^1.0.4",
+        "cssnano": "^7.1.1",
+        "grunt": "^1.6.1",
+        "grunt-cli": "^1.5.0",
+        "grunt-contrib-clean": "~2.0.1",
+        "grunt-contrib-copy": "~1.0.0",
+        "grunt-contrib-less": "^3.0.0",
+        "grunt-contrib-requirejs": "~1.0.0",
+        "grunt-svgmin": "^7.0.0",
         "grunt-svgstore": "^2.0.0",
-        "postcss": "^6.0.22",
-        "postcss-cli": "^7.1.1",
-        "postcss-import": "^11.1.0",
-        "postcss-preset-env": "^5.1.0",
-        "sass": "^1.93.1"
+        "npm-check-updates": "^18.3.0",
+        "postcss": "^8.5.6",
+        "postcss-cli": "^11.0.1",
+        "postcss-import": "^16.1.1",
+        "postcss-preset-env": "^10.4.0",
+        "sass": "^1.93.1",
+        "yarn-deduplicate": "^6.0.2"
     },
     "dependencies": {
         "@creativebulma/bulma-tooltip": "^1.2.0",
-        "browserslist": "^4.14.0",
-        "caniuse-lite": "^1.0.30001115"
+        "browserslist": "^4.26.2",
+        "caniuse-lite": "^1.0.30001743"
     }
 }
