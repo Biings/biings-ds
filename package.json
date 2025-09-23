@@ -4,7 +4,7 @@
     "description": "Biings Design System",
     "main": "build/bds.css",
     "scripts": {
-        "sass": "\"node-sass\" --include-path node_modules src/styles/bds.sass src/styles/bds_temporary.css",
+        "sass": "sass --load-path=node_modules src/styles/bds.sass:src/styles/bds_temporary.css",
         "postcss": "postcss src/styles/bds.css --config src/styles/postcss.config.js -o build/bds.css",
         "copytodoc": "cp build/bds.css docs/bds.css",
         "copycomb": "cp src/styles/.csscomb.json build/",
@@ -56,11 +56,11 @@
         "grunt-contrib-requirejs": "~0.4.4",
         "grunt-svgmin": "^6.0.0",
         "grunt-svgstore": "^2.0.0",
-        "node-sass": "^4.14.1",
         "postcss": "^6.0.22",
         "postcss-cli": "^7.1.1",
         "postcss-import": "^11.1.0",
-        "postcss-preset-env": "^5.1.0"
+        "postcss-preset-env": "^5.1.0",
+        "sass": "^1.93.1"
     },
     "dependencies": {
         "@creativebulma/bulma-tooltip": "^1.2.0",
