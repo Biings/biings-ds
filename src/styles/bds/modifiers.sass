@@ -329,7 +329,7 @@ pre
     background: linear-gradient(150deg, $pink-lighter -40%, $primary-light 500%)
 
 .has-background-secondary-gradient
-    background: linear-gradient(-45deg, $secondary 0%, mix($warning,$secondary-light,25) 100%)
+    background: linear-gradient(-45deg, $secondary 0%, color.mix($warning,$secondary-light,25%) 100%)
 
 .has-background-secondary-gradient-light
     background: linear-gradient(150deg, $warning-lighter -10%, $orange-light 300%)
@@ -347,7 +347,7 @@ pre
     background: linear-gradient(-45deg, $orange-lighter 0%, $warning-lighter 100%)
 
 .has-background-primary-warning-gradient
-    background: linear-gradient(-45deg, $warning-lighter -30%, mix($purple,$primary-lighter,13) 140%)
+    background: linear-gradient(-45deg, $warning-lighter -30%, color.mix($purple,$primary-lighter,13%) 140%)
 
 .has-background-menu
     background-color: transparent !important
@@ -379,7 +379,7 @@ pre
 .has-background-grey-radial
     background-size: 200%
     background-position: 50% 0px
-    background-image: radial-gradient(50% 125% at 50% 90%,mix($dark,$light,40) 0, $white 55%)
+    background-image: radial-gradient(50% 125% at 50% 90%,color.mix($dark,$light,40%) 0, $white 55%)
 
 .has-background-radial-t,
 .has-background-radial-tl,
@@ -808,25 +808,25 @@ pre
 .has-fill-success
     fill: $success !important
 .has-fill-success-light
-    fill: mix(white, $success, 30) !important
+    fill: color.mix(white, $success, 30) !important
 .has-fill-success-dark
     fill: $success-dark !important
 .has-fill-info
     fill: $info !important
 .has-fill-info-light
-    fill: mix(white, $info, 30) !important
+    fill: color.mix(white, $info, 30) !important
 .has-fill-info-dark
     fill: $info-dark !important
 .has-fill-warning
     fill: $warning !important
 .has-fill-warning-light
-    fill: mix(white, $warning, 30) !important
+    fill: color.mix(white, $warning, 30) !important
 .has-fill-warning-dark
     fill: $warning-dark !important
 .has-fill-danger
     fill: $danger !important
 .has-fill-danger-light
-    fill: mix(white, $danger, 30) !important
+    fill: color.mix(white, $danger, 30) !important
 .has-fill-danger-dark
     fill: $danger-dark !important
 

@@ -40,7 +40,7 @@ span.tag + .tag
 .tag.is-glowing.is-warning
     box-shadow: 0 .25em 1em -.25em rgba($warning,.7)
 .tag.is-glowing.is-secondary
-    background-color: mix($orange,$secondary,15%)
+    background-color: color.mix($orange,$secondary,15%)
     box-shadow: 0 .25em 1em -.25em rgba($secondary,.8)
     color: white
 
@@ -59,8 +59,8 @@ span.tag + .tag
     border-color: $primary-light
     color: $primary
 .tag.is-wired.is-success
-    border-color: mix($white-bis,$success,25%)
-    color: mix($success-dark,$success,50%)
+    border-color: color.mix($white-bis,$success,25%)
+    color: color.mix($success-dark,$success,50%)
 .tag.is-wired.is-info
     border-color: $blue-light
     color: $info

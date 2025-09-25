@@ -65,7 +65,7 @@
 
 .loader.is-success
     &:after
-        border-color: mix($turquoise,$success,25%)
+        border-color: color.mix($turquoise,$success,25%)
 
 .loader.is-secondary
     &:after
@@ -156,19 +156,19 @@
         box-shadow: 0 .125rem .75rem rgba($color, .5)
     
 .progress:indeterminate
-    background-image: repeating-linear-gradient(45deg, $grey, $grey 10px, mix($grey-dark,$grey,70%) 10px, mix($grey-dark,$grey,70%) 20px)
+    background-image: repeating-linear-gradient(45deg, $grey, $grey 10px,  color.mix($grey-dark,$grey,70%) 10px,  color.mix($grey-dark,$grey,70%) 20px)
     animation: progressing .35s linear infinite
     animation-direction: reverse
 .progress.is-dark:indeterminate
-    background-image: repeating-linear-gradient(45deg, $primary-dark, $primary-dark 10px, mix($black,$dark,10%) 10px, mix($black,$dark,10%) 20px)
+    background-image: repeating-linear-gradient(45deg, $primary-dark, $primary-dark 10px,  color.mix($black,$dark,10%) 10px,  color.mix($black,$dark,10%) 20px)
 .progress.is-primary:indeterminate
-    background-image: repeating-linear-gradient(45deg, $primary, $primary 10px, mix($primary-dark,$primary,65%) 10px, mix($primary-dark,$primary,65%) 20px)
+    background-image: repeating-linear-gradient(45deg, $primary, $primary 10px,  color.mix($primary-dark,$primary,65%) 10px,  color.mix($primary-dark,$primary,65%) 20px)
 .progress.is-success:indeterminate
     background-image: repeating-linear-gradient(45deg, $success, $success 10px, $success-dark 10px, $success-dark 20px)
 .progress.is-info:indeterminate
-    background-image: repeating-linear-gradient(45deg, $info, $info 10px, mix($info,$blue-light,10%) 10px, mix($info,$blue-light,10%) 20px)
+    background-image: repeating-linear-gradient(45deg, $info, $info 10px,  color.mix($info,$blue-light,10%) 10px,  color.mix($info,$blue-light,10%) 20px)
 .progress.is-warning:indeterminate
-    background-image: repeating-linear-gradient(45deg, $warning, $warning 10px, mix($warning,$yellow-light,30%) 10px, mix($warning,$yellow-light,30%) 20px)
+    background-image: repeating-linear-gradient(45deg, $warning, $warning 10px,  color.mix($warning,$yellow-light,30%) 10px,  color.mix($warning,$yellow-light,30%) 20px)
 
 @keyframes progressing
     0%
