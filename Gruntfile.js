@@ -49,15 +49,15 @@ module.exports = function(grunt) {
                     name: 'preset-default',
                     params: {
                     overrides: {
-                        removeViewBox: false,            // keep viewBox
-                        cleanupIDs: false,               // don't munge IDs
-                        removeUselessStrokeAndFill: false
-                    }
+                        removeViewBox: false,
+                        cleanupIds: false,
+                        removeHiddenElems: false,
+                        removeEmptyContainers: false,
+                        removeUselessDefs: false
+                        }
                     }
                 },
                 // Extra passes equivalent to your previous config
-                'removeDesc',
-                'removeTitle',
                 'removeComments',
                 'removeMetadata',
                 'removeEditorsNSData',
@@ -68,8 +68,8 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                'build/bds-icons.min.svg': 'build/bds-icons.svg',
-                'docs/media/bds-icons.min.svg': 'build/bds-icons.svg'
+                    'build/bds-icons.min.svg': 'build/bds-icons.svg',
+                    'docs/media/bds-icons.min.svg': 'build/bds-icons.svg'
                 }
             }
             }
