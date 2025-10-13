@@ -12,6 +12,9 @@ A comprehensive design system for building consistent user experiences across Bi
 ```bash
 npm install biings-ds
 ```
+```bash
+yarn add biings-ds
+```
 
 ### Usage
 
@@ -149,17 +152,6 @@ This project is licensed under the [CC BY-SA 4.0 License](https://creativecommon
 ## 🏢 About Biings
 
 Biings Design System is developed by [Biings Technologies SA](https://www.biings.com), a company focused on creating innovative digital solutions.
-
-### Contributors
-- Frédéric Andreae
-- Juan Carlos Ruiz
-- Mariangel Pereira
-
-## 📞 Support
-
-- **Documentation**: [biings.design](https://biings.design)
-- **Issues**: [GitHub Issues](https://github.com/Biings/biings-ds/issues)
-- **Contact**: [email@biings.com](mailto:email@biings.com)
 
 ---
 
