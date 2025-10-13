@@ -13,7 +13,8 @@
         "build": "yarn styles && yarn icons && yarn copycomb",
         "dev": "docsify serve docs --port 3001",
         "cleanup": "rm -f src/styles/bds_temporary.css",
-        "ghlogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
+        "npm-login": "npm login --registry=https://npm.pkg.github.com/",
+        "npm-publish": "npm publish --access public"
     },
     "files": [
         "build/*"
@@ -33,7 +34,9 @@
         "url": "https://www.biings.com"
     },
     "contributors": [
-        "Frédéric Andreae"
+        "Frédéric Andreae",
+        "Juan Ruiz",
+        "Mariangel Pereira"
     ],
     "license": "CC-BY-SA-4.0",
     "bugs": {
@@ -50,10 +53,6 @@
         "cssnano": "^4.1.10",
         "grunt": "^1.6.1",
         "grunt-cli": "^1.5.0",
-        "grunt-contrib-clean": "~0.5.0",
-        "grunt-contrib-copy": "~0.5.0",
-        "grunt-contrib-less": "^2.0.0",
-        "grunt-contrib-requirejs": "~0.4.4",
         "grunt-svgmin": "^7.0.0",
         "grunt-svgstore": "^2.0.0",
         "node-sass": "^9.0.0",
