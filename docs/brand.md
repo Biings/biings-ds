@@ -13,7 +13,8 @@
 
 <hr>
 
-<div class="container is-max-modal mx-0"><img src="https://biings.com/_nuxt/img/logos.d2ed369.png"></div>
+<div class="container is-max-modal mx-0"><img src="media/logos.png"></div>
+
 
 <hr>
 
