@@ -4,6 +4,15 @@
 <hr class="is-visible is-size-3">
 <br>
 
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">October 13, 2025</span>
+<h3 class="title is-size-3-touch mt-1 is-family-primary">Version 6.15.00</h3>
+<ul class="list">
+    <li>New icons: `box-relapse-g`, `notification-relapse-g`, `unlink-g`</li>
+    <li>Updating to Node.js 20. Breaking changes</li>
+</ul>
+
+<hr class="is-size-3 is-size-4-touch is-visible">
+
 <span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">April 15, 2025</span>
 <h3 class="title is-size-3-touch mt-1 is-family-primary">Version 6.14.17</h3>
 <ul class="list">

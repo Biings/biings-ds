@@ -40,25 +40,34 @@ module.exports = function(grunt) {
 
         svgmin: {
             options: {
+                // Some versions of grunt-svgmin expect the 'plugins' at the top-level
                 plugins: [
-                    { cleanupIDs: false },
-                    { removeDesc: true },
-                    { removeTitle: true },
-                    { removeViewBox: false },
-                    { removeUselessStrokeAndFill: false },
-                    { removeEmptyAttrs: true },
-                    { removeComments: true },
-                    { removeMetadata: true },
-                    { removeEditorsNSData: true },
-                    { removeEmptyAttrs: true },
-                    { removeUnusedNS: true },
-                    { removeEmptyText: true }
+                    // Start from the default set, then override specific rules
+                    {
+                        name: 'preset-default',
+                        params: {
+                        overrides: {
+                            removeViewBox: false,
+                            cleanupIds: false,
+                            removeHiddenElems: false,
+                            removeEmptyContainers: false,
+                            removeUselessDefs: false
+                            }
+                        }
+                    },
+                    // Extra passes equivalent to previous config
+                    'removeComments',
+                    'removeMetadata',
+                    'removeEditorsNSData',
+                    'removeEmptyAttrs',
+                    'removeUnusedNS',
+                    'removeEmptyText'
                 ]
             },
             dist: {
                 files: {
                     'build/bds-icons.min.svg': 'build/bds-icons.svg',
-                    'docs/media/bds-icons.min.svg': 'build/bds-icons.svg',
+                    'docs/media/bds-icons.min.svg': 'build/bds-icons.svg'
                 }
             }
         }

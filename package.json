@@ -9,11 +9,12 @@
         "copytodoc": "cp build/bds.css docs/bds.css",
         "copycomb": "cp src/styles/.csscomb.json build/",
         "icons": "grunt",
-        "styles": "npm run sass && npm run postcss && npm run copytodoc && npm run cleanup",
-        "build": "npm run styles && npm run icons && npm run copycomb",
+        "styles": "yarn sass && yarn postcss && yarn copytodoc && yarn cleanup",
+        "build": "yarn styles && yarn icons && yarn copycomb",
         "dev": "docsify serve docs --port 3001",
         "cleanup": "rm -f src/styles/bds_temporary.css",
-        "ghlogin": "npm login --registry=https://npm.pkg.github.com/ && npm publish"
+        "npm-login": "npm login --registry=https://npm.pkg.github.com/",
+        "npm-publish": "npm publish --access public"
     },
     "files": [
         "build/*"
@@ -33,7 +34,9 @@
         "url": "https://www.biings.com"
     },
     "contributors": [
-        "Frédéric Andreae"
+        "Frédéric Andreae",
+        "Juan Ruiz",
+        "Mariangel Pereira"
     ],
     "license": "CC-BY-SA-4.0",
     "bugs": {
@@ -47,24 +50,20 @@
     ],
     "devDependencies": {
         "bulma": "^0.9.4",
-        "cssnano": "^4.1.10",
-        "grunt": "^1.0.4",
-        "grunt-cli": "^1.2.0",
-        "grunt-contrib-clean": "~0.5.0",
-        "grunt-contrib-copy": "~0.5.0",
-        "grunt-contrib-less": "^2.0.0",
-        "grunt-contrib-requirejs": "~0.4.4",
-        "grunt-svgmin": "^6.0.0",
+        "cssnano": "^7.1.1",
+        "grunt": "^1.6.1",
+        "grunt-cli": "^1.5.0",
+        "grunt-svgmin": "^7.0.0",
         "grunt-svgstore": "^2.0.0",
-        "node-sass": "^4.14.1",
-        "postcss": "^6.0.22",
-        "postcss-cli": "^7.1.1",
-        "postcss-import": "^11.1.0",
-        "postcss-preset-env": "^5.1.0"
+        "node-sass": "^9.0.0",
+        "postcss": "^8.5.6",
+        "postcss-cli": "^11.0.1",
+        "postcss-import": "^16.1.1",
+        "postcss-preset-env": "^10.4.0"
     },
     "dependencies": {
         "@creativebulma/bulma-tooltip": "^1.2.0",
         "browserslist": "^4.14.0",
-        "caniuse-lite": "^1.0.30001115"
+        "caniuse-lite": "^1.0.30001751"
     }
 }
