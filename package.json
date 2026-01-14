@@ -37,7 +37,7 @@
         "Frédéric Andreae",
         "Juan Ruiz",
         "Mariangel Pereira",
-	"Antoni Blanché"
+        "Antoni Blanché"
     ],
     "license": "CC-BY-SA-4.0",
     "bugs": {
@@ -49,6 +49,9 @@
         "defaults",
         "not ie <= 8"
     ],
+    "resolutions": {
+        "cheerio": "1.0.0-rc.12"
+    },
     "devDependencies": {
         "bulma": "^0.9.4",
         "cssnano": "^7.1.1",
