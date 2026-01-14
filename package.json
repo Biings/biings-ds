@@ -37,7 +37,7 @@
         "Frédéric Andreae",
         "Juan Ruiz",
         "Mariangel Pereira",
-	"Antoni Blanché"
+        "Antoni Blanché"
     ],
     "license": "CC-BY-SA-4.0",
     "bugs": {
@@ -50,8 +50,9 @@
         "not ie <= 8"
     ],
     "devDependencies": {
+        "baseline-browser-mapping": "^2.9.14",
         "bulma": "^0.9.4",
-        "cssnano": "^7.1.1",
+        "cssnano": "^7.1.2",
         "grunt": "^1.6.1",
         "grunt-cli": "^1.5.0",
         "grunt-svgmin": "^7.0.0",
@@ -60,11 +61,11 @@
         "postcss": "^8.5.6",
         "postcss-cli": "^11.0.1",
         "postcss-import": "^16.1.1",
-        "postcss-preset-env": "^10.4.0"
+        "postcss-preset-env": "^11.0.1"
     },
     "dependencies": {
         "@creativebulma/bulma-tooltip": "^1.2.0",
-        "browserslist": "^4.14.0",
-        "caniuse-lite": "^1.0.30001751"
+        "browserslist": "^4.28.1",
+        "caniuse-lite": "^1.0.30001764"
     }
 }
