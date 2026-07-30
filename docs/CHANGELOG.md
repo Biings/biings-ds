@@ -8,7 +8,6 @@
 <h3 class="title is-size-3-touch mt-1 is-family-primary">Version 6.15.02</h3>
 <ul class="list">
     <li>New icons: `compact-g`</li>
-    <li>Compact elements (cards)</li>
 </ul>
  
 <hr class="is-size-3 is-size-4-touch is-visible">
