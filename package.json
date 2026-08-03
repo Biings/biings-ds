@@ -50,7 +50,6 @@
         "not ie <= 8"
     ],
     "devDependencies": {
-        "baseline-browser-mapping": "^2.9.14",
         "bulma": "^0.9.4",
         "cssnano": "^7.1.2",
         "grunt": "^1.6.1",
@@ -65,7 +64,6 @@
     },
     "dependencies": {
         "@creativebulma/bulma-tooltip": "^1.2.0",
-        "browserslist": "^4.28.1",
-        "caniuse-lite": "^1.0.30001764"
+        "browserslist": "^4.28.1"
     }
 }
