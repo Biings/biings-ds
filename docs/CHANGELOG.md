@@ -4,10 +4,10 @@
 <hr class="is-visible is-size-3">
 <br>
 
-<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">July 29, 2026</span>
+<span class="subtitle is-6 has-text-weight-medium has-text-purple is-uppercase">August 4, 2026</span>
 <h3 class="title is-size-3-touch mt-1 is-family-primary">Version 6.15.02</h3>
 <ul class="list">
-    <li>New icons: `pilot-cards-compact-bold-g`</li>
+    <li>New icons: `pilot-cards-compact-bold-g`, `cards-compact-bold-g`</li>
     <li>Updating dependencies</li>
 </ul>
  
